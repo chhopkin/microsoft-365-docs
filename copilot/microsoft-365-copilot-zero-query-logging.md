@@ -26,9 +26,9 @@ appliesto:
 
 # Zero Query Logging Overview 
 
-Zero Query Logging (ZQL) is a new feature that we're pleased to provide as part of our ongoing commitment to enhance privacy and compliance with web grounding in Microsoft 365 Copilot and Copilot Chat.
+Zero Query Logging (ZQL) provides enhanced privacy and compliance when web grounding is enabled in Microsoft 365 Copilot and Copilot Chat.
 
-## What Zero Query Logging offers
+## Zero Query Logging offers:
 
 - **Privacy assurance:** Eliminates query retention in Bing and reduces compliance risks.
 - **Control & transparency:** Admins can explicitly choose ZQL via a simple enable/disable toggle in the [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
@@ -55,3 +55,11 @@ Customers who currently have web search turned off should turn on the **Allow we
 Once enabled, the **Enable Zero Query Logging for Copilot web searches** may take up to 24 hours to fully propagate. Once in effect, ZQL prevents the storage of any data related to web grounding queries in Copilot in Bing. End users see no indication that ZQL is enabled in the Copilot Chat user experience.
 
 We recommend that you first **Enable Zero Query Logging for Copilot web searches** policy, wait 24 hours, and then enable the **Allow web search in Copilot policy** in [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
+
+## Additional resources
+
+- [Privacy and security of generated search queries](/copilot/privacy-and-protections#privacy-and-security-of-generated-search-queries)
+- [Manage web search queries](/copilot/manage#manage-web-search-queries-in--chat)
+- [Data, privacy, and security for web search in Microsoft 365 Copilot and Copilot Chat](/copilot/microsoft-365/manage-public-web-access)
+
+
