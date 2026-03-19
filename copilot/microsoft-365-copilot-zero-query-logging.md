@@ -36,11 +36,11 @@ Zero Query Logging (ZQL) provides enhanced privacy and compliance when web groun
 
 ## What is Zero Query Logging?
 
-Once ZQL is enabled, no Query Data is logged in Bing during web grounding processes through Copilot. In other words, Query Data and identifiers are not logged by Bing when using web search through Copilot.
+Once ZQL is enabled, no Query Data is logged in Bing during web grounding processes through Copilot. In other words, Query Data and identifiers aren't logged by Bing when using web search through Copilot.
 
 To make ZQL possible, Microsoft created a separate search index for web queries through Copilot. This index curates a subset of the full index used for Bing with the most popular answer types. Once ZQL is turned on, web grounding for Copilot only occurs from this curated web index.
 
-ZQL doesn't impact what's logged in the Purview Audit Log. The prompts, responses, and web search keywords continue to be logged in Purview Audit log. They can be accessed through Purview eDiscovery, Purview DSPM, and they remain protected by [enterprise data protection](/copilot/microsoft-365/enterprise-data-protection).
+ZQL doesn't impact the information logged in the Purview Audit Log. The prompts, responses, and web search keywords continue to be logged in Purview Audit log. They can be accessed through Purview eDiscovery, Purview DSPM, and they remain protected by [enterprise data protection](/copilot/microsoft-365/enterprise-data-protection).
 
 ## How to enable ZQL
 
@@ -56,7 +56,7 @@ Once enabled, the **Enable Zero Query Logging for Copilot web searches** may tak
 
 We recommend that you first **Enable Zero Query Logging for Copilot web searches** policy, wait 24 hours, and then enable the **Allow web search in Copilot policy** in [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
 
-## Additional resources
+## More resources
 
 - [Privacy and security of generated search queries](/copilot/privacy-and-protections#privacy-and-security-of-generated-search-queries)
 - [Manage web search queries](/copilot/manage#manage-web-search-queries-in--chat)
