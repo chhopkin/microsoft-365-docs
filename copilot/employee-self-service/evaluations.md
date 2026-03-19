@@ -23,18 +23,18 @@ Microsoft Copilot Studio has an evaluation tool that enables automated testing f
 
 How to get started:
 
-- Start by learning about evaluations as a process and a skillset
+- Start by learning about evaluations as a process and a skill set
 - Next, learn more about how to create a custom evaluations strategy for your Employee Self-Service agent
 - Then, get started using evaluation tooling, test sets, and learn how to think about measuring different pieces of the Employee Self-Service experience
 
 > [!NOTE]
 > - The evaluation tool can't review content inside of adaptive cards yet.
 > - The evaluation tool doesn't measure latency, or how quickly the agent responds.
-> - You will need edit access to Copilot Studio to run tests. Test results can be shared with people who don't have access to Copilot Studio by exporting test results.
+> - You'll need edit access to Copilot Studio to run tests. Test results can be shared with people who don't have access to Copilot Studio by exporting test results.
 
 ## Why invest in evaluations for your agent?
 
-Agent evaluations, also called evals, are a new way to measure how a generative agent behaves and responds as it uses your organization's knowledge and data to answer employee questions. Stop guessing and start evaluating the quality of agent responses using the MCS evaluator tool to ensure they align with HR policies, respect user context like role and region, and keep the employee and the organization safe form misinformation. Build a clear evaluation strategy that includes golden queries, structured test sets, and a process to review results. Use what you learn from test results to improve response quality by refining agent instructions, adjusting topic triggers, and updating knowledge sources.
+Agent evaluations, also called evals, are a new way to measure how a generative agent behaves and responds as it uses your organization's knowledge and data to answer employee questions. Stop guessing and start evaluating the quality of agent responses using the Copilot Studio evaluator tool to ensure they align with HR policies, respect user context like role and region, and keep the employee and the organization safe form misinformation. Build a clear evaluation strategy that includes golden queries, structured test sets, and a process to review results. Use what you learn from test results to improve response quality by refining agent instructions, adjusting topic triggers, and updating knowledge sources.
 
 - Get a clearer picture on how your Employee Self-Service agent responds and handles certain scenarios.
 - Deploy faster with less risk by validating changes before production.
@@ -58,7 +58,7 @@ Traditional QA asks: *Did the system work?* It checks whether software behaves e
 Evals ask: *Was the response good enough, safe enough, and useful enough?* Evals check whether an AI system behaves acceptably across many possible outcomes, test real user scenarios, and use automated reusable test sets.
 
 - **QA** checks whether the agent responded
-- **Evals** check whether the response was *actually* helpful
+- **Evals** check whether the response was *helpful
 
 #### Examples
 
@@ -112,7 +112,7 @@ As you start evaluating agent responses, treat testing as a program, not a one-t
 ### Roles and responsibilities
 
 #### Organizing principles
-In enterprise deployments not everyone can edit the agent, many teams own policies and risk, sensitive employee data is involved, and decisions must be auditable and defensible. Organize people in a way that: respects Copilot Studio access limits, enables many reviewers without many editors, creates clear accountability, supports audits and compliance reviews, and prevents unapproved changes to sensitive content.
+In enterprise deployments not everyone can edit the agent, many teams own policies, and risk, sensitive employee data is involved, and decisions must be auditable and defensible. Organize people in a way that: respects Copilot Studio access limits, enables many reviewers without many editors, creates clear accountability, supports audits and compliance reviews, and prevents unapproved changes to sensitive content.
 
 **TLDR:** People closest to the policy review the results. People closest to the platform apply the changes.
 
@@ -120,11 +120,11 @@ In enterprise deployments not everyone can edit the agent, many teams own polici
 
 | Team | Responsibilities | Role in evals |
 |---|---|---|
-| **Agent owner** (Central IT, Digital Workplace, Copilot Studio makers) | Owns the ESS agent configuration. Runs evaluations and manages test execution. Applies approved changes. Maintains the evaluation cadence. | The only role with hands on the controls — acts as the execution arm. |
+| **Agent owner** (Central IT, Digital Workplace, Copilot Studio makers) | Owns the ESS agent configuration. Runs evaluations and manages test execution. Applies approved changes. Maintains the evaluation cadence. | The only role with hands on the controls—acts as the execution arm. |
 | **Evaluation program owner** (Product manager, platform lead) | Defines what good quality means. Sets evaluation goals. Decides scenario classifications. Owns the evaluation strategy over time. | Without this role, evaluations become tactical and inconsistent. |
-| **Domain owners** (HR, payroll, IT service owners) | Review evaluation results for their domain. Validate correctness against real policies. Approve or reject changes. Flag gaps or unsafe responses. | Most ESS failures are domain-specific — central teams cannot validate alone. |
+| **Domain owners** (HR, payroll, IT service owners) | Review evaluation results for their domain. Validate correctness against real policies. Approve or reject changes. Flag gaps or unsafe responses. | Most ESS failures are domain-specific—central teams can't validate alone. |
 | **Legal, privacy, and compliance reviewers** | Review Responsible AI and sensitive scenarios. Validate refusal patterns. Approve coverage for high-risk topics. Define escalation requirements. | Evaluations often surface policy risk around compensation and personal data. |
-| **Security and data protection stakeholders** | Validate evaluations do not expose restricted data. Ensure environments follow data-handling rules. | ESS evaluations touch real enterprise data — safeguards must be explicit. |
+| **Security and data protection stakeholders** | Validate evaluations don't expose restricted data. Ensure environments follow data-handling rules. | ESS evaluations touch real enterprise data—safeguards must be explicit. |
 
 ### How roles work together
 
@@ -138,27 +138,27 @@ In enterprise deployments not everyone can edit the agent, many teams own polici
 
 ## The evaluations lifecycle - when to evaluate?
 
-**Before deploying** — Goal: Launch with confidence
+**Before deploying—Goal: Launch with confidence
 - Validate that core scenarios work
 - Catch missing knowledge, broken connectors, or unsafe responses early
 - Establish a baseline quality bar
 - Focus on: Core must-be-right scenarios, Must-not-answer and Responsible AI scenarios, role and region differences
 
-**During customization and iteration** — Goal: Improve quality as the agent evolves
+**During customization and iteration—Goal: Improve quality as the agent evolves
 - Measure the impact of changes to knowledge, topics, or workflows
 - Validate that fixes actually improve responses
 - Prevent regressions when new content is added
 - Focus on: Variations and edge cases, new scenarios from customization, previously failing prompts
 
-**After deployment** — Goal: Maintain quality over time
+**After deployment—Goal: Maintain quality over time
 - Evaluations become an early warning system instead of relying on user complaints
 - Detect regressions after updates or policy changes
 - Focus on: Known high-risk or high-volume scenarios, sensitive and Responsible AI prompts, KPI-tied scenarios
 
-**Scaling and optimization** — Goal: Prove value and guide investment
+**Scaling and optimization—Goal: Prove value and guide investment
 - Show where the agent performs well or needs investment
 - Tie quality improvements to business outcomes
-- Focus on: Coverage across scenarios and personas, quality gaps aligned to KPIs, long-tail and emerging user needs
+- Focus on: Coverage across scenarios and personas, quality gaps aligned to KPIs, long-tail, and emerging user needs
 
 ### The basic phases of the testing cycle
 
@@ -166,22 +166,22 @@ In enterprise deployments not everyone can edit the agent, many teams own polici
 Begin with a small, intentional test set instead of trying to cover everything at once. Choose scenarios based on critical employee tasks, known problem areas, high-risk topics (such as pay, leave policies, and scenarios that require employee data), and areas tied to business outcomes.
 
 **2. Run the test to establish a baseline.**
-Assume the first run will reveal gaps. You should get clear signals about where responses are weak, where safety boundaries are unclear, and where expectations do not match actual behavior. This baseline gives everyone a shared reference point instead of relying on opinions.
+Assume the first run reveals gaps. You should get clear signals about where responses are weak, where safety boundaries are unclear, and where expectations don't match actual behavior. This baseline gives everyone a shared reference point instead of relying on opinions.
 
 **3. Synthesize results, because not all failures are equal.**
 This is the most important step. Ask what the failures are telling you. Look for patterns: Is the agent consistently too vague? Is it over-answering sensitive questions? Are failures concentrated in one domain? Without synthesis, evaluations quickly lose credibility.
 
 **4. Decide what actually needs to change.**
 Most changes fall into three categories:
-- **A. The agent needs to change** — Results might show knowledge gaps, topics that don't trigger (or over-trigger), or missing user-context details like role and region. These issues usually require updates to knowledge sources, agent instructions, or topic design.
-- **B. The expected response needs to change** — The expected response might be too strict, might not reinforce the right behavior, or might create false failures from minor wording differences.
-- **C. The test criteria needs to change** — The issue might be the test type, pass thresholds that don't reflect acceptable quality, or criteria that measure the wrong thing.
+- **A. The agent needs to change—Results might show knowledge gaps, topics that don't trigger (or over-trigger), or missing user-context details like role and region. These issues usually require updates to knowledge sources, agent instructions, or topic design.
+- **B. The expected response needs to change—The expected response might be too strict, might not reinforce the right behavior, or might create false failures from minor wording differences.
+- **C. The test criteria needs to change—The issue might be the test type, pass thresholds that don't reflect acceptable quality, or criteria that measure the wrong thing.
 
 **5. Iterate through a few improvement cycles.**
-Loop: Run -> Review -> Adjust -> Re-run. The agent improves, tests get more precise, and the team builds shared understanding of what good looks like.
+Loop: Run -> Review -> Adjust -> Rerun. The agent improves, tests get more precise, and the team builds shared understanding of what good looks like.
 
 **6. The test stabilizes.**
-Expected responses stop shifting. Criteria feel fair. Failures become meaningful instead of noisy. The test has become a benchmark — passing it means the experience meets agreed-upon expectations and stakeholders trust the result.
+Expected responses stop shifting. Criteria feel fair. Failures become meaningful instead of noisy. The test has become a benchmark—passing it means the experience meets agreed-upon expectations and stakeholders trust the result.
 
 **7. Use the stabilized test for regressions.**
 Reuse the same test to: validate changes before rollout, catch regressions early, monitor quality over time, and check how quality varies between LLM models. The evaluation now acts as a safety rail.
