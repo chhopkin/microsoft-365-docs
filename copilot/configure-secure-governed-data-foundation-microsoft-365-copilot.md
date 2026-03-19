@@ -89,9 +89,9 @@ For sites you identify as high risk, use Microsoft Purview and SAM recommendatio
    
    - **Remove excessive or anonymous access**, and rescope sharing links to approved users or groups. (See [Manage sharing settings for SharewPoint and OneDrive](/sharepoint/turn-external-sharing-on-or-off).)
    
-2. Initiate [SAM site access reviews](/sharepoint/site-access-review) for high-risk sites so site owners can manage access (down to the file level) and:
+2. **[Initiate SAM site access reviews](/sharepoint/site-access-review)** for high-risk sites so site owners can manage access (down to the file level) and:
 
-   - **Remove excess users, groups, and company-wide sharing links** (including EEEU), and rescope sharing links to approved users or groups.
+   - **Remove excess users, groups, and company-wide sharing links** (including EEEU), and rescope sharing links to approved users or groups. (See [Monitor sharing activities in SharePoint](/sharepoint/data-access-governance-sharing-links-report).)
 
    - Correct **broken permission inheritance** on libraries and folders.
 
