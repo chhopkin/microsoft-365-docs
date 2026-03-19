@@ -111,10 +111,11 @@ Follow these steps to restore data backed up for OneDrive.
 
     ![Screenshot showing the Review and finish page for OneDrive.](../media/m365-backup/backup-onedrive-review-finish.png)
 
-### Option 2: Selected content only (preview)
+### Option 2: Selected content only
 
 
 Use this option to perform a restore of only selected files and folders from a protected OneDrive account's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **OneDrive** section, select **Restore**.  In this flow, the **Restore specific files or folders** option gives Microsoft 365 Backup admins the capability to restore a subset of the account's files and folders from a specific restore point. 
+To use this feature, users must be assigned the **SharePoint Backup Admin or Exchange Backup Admin role**.
 
 ![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
@@ -196,7 +197,8 @@ Follow these steps to restore data backed up for SharePoint.
 ### Option 2: Selected content only 
 
 Use this option to perform a restore of only selected files and folders from a protected SharePoint site's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **SharePoint** section, select **Restore**. In this flow, the **Restore specific files or folders** option gives Microsoft 365 Backup admins the capability to restore a subset of the site's files and folders from a specific restore point.
-To use this feature, users must be assigned the **SharePoint Backup Admin or Exchange Backup Admin role**.
+> [!IMPORTANT]
+> To use this feature, users must be assigned the **SharePoint Backup Admin or Exchange Backup Admin role**.
 
 ![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
