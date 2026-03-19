@@ -227,35 +227,22 @@ If the removal is unsuccessful, here are the possible responses:
 
 1. The User ID provided in the request doesn't exist within the batch provided. This message likely means the admin provided an incorrect User ID and should check it again.
 
-    >Cancellation not possible as no task found for given ID `<User ID>` TraceId: `<Trace ID>`
+   > Cancellation not possible as no task found for given ID `<User ID>` TraceId: `<Trace ID>`
+   
+1. The batch ID or batch name can't be found in the tenant. This likely means the admin provided an incorrect batch ID or batch name in the cancellation request and should check it again.
 
-2. The batch ID or batch name can't be found in the tenant. This likely means the admin provided an incorrect batch ID or batch name in the cancellation request and should check it again.
+   > UserRequest not found with `<target tenant ID>`, `<batch ID or batch name>` TraceId: `<Trace ID>`
+   
+1. If the cancellation request comes in after the specified completeAfterDate passed, the user's migration can't be canceled and they can't be removed from the batch.
 
-    >UserRequest not found with `<target tenant ID>`, `<batch ID or batch name>` TraceId: `<Trace ID>`
+   > Cancellation is not possible as migration passed completeAfter date TraceId: `<Trace ID>`
+   
+1. The User Task is invalid, so the user's migration can't be canceled. This means there's a fundamental issue with the user's setup to the point that it wouldn't run within the batch anyway. An issue like this potentially comes from the user not being Identity Mapped. The impact is that the user can't be migrated, even though they technically belong to the batch.
 
-3. If the cancellation request comes in after the specified completeAfterDate passed, the user's migration can't be canceled and they can't be removed from the batch.
-
-    >Cancellation is not possible as migration passed completeAfter date TraceId: `<Trace ID>`
-
-4. The User Task is invalid, so the user's migration can't be canceled. This means there's a fundamental issue with the user's setup to the point that it wouldn't run within the batch anyway. An issue like this potentially comes from the user not being Identity Mapped. The impact is that the user can't be migrated, even though they technically belong to the batch.
-
-    >Cancellation is not possible as task is invalid TraceId: `<Trace ID>`
-
+   > Cancellation is not possible as task is invalid TraceId: `<Trace ID>`
+   
     If a removal is unsuccessful (other than in an invalid user state), the user continues belonging to the batch and is migrated.
-
-### Delete batch data
-
-This feature allows you to delete the data associated with a batch from the migration system. It deletes the data within 30 days of the request.
-
-```powershell
-Remove-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
-```
-
-Only batches in a terminal state can be canceled. Either cancel the batch, or wait for all users to reach a terminal state of Canceled, Failed, or Completed.
-
-> [!NOTE]
-> Deleting batch data affects future migrations the batch would inform. We don't recommend deleting batch data until the entire migration completes.
-
+   
 ## Common parameters
 
 There are many parameters that must be provided in a specific format for the migration input:
