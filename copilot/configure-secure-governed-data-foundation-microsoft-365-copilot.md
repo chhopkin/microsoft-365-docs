@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 03/18/2026
+ms.date: 03/19/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -105,7 +105,7 @@ While sites are in remediation, apply temporary controls to reduce exposure and 
 
 2. Configure [Microsoft Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) to exclude sensitive content from Copilot grounding.
 
-3. Validate through audit logs and reports that **Copilot no longer surfaces restricted content**.
+3. Validate through Microsoft Purview audit logs and reports that **Copilot no longer surfaces restricted content**.
 
 4. Remove these restrictions once site access and permissions are fully remediated.
 
