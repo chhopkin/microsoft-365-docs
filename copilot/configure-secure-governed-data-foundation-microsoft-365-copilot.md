@@ -155,9 +155,9 @@ In this step, you assess and close AI compliance gaps, define audit and retentio
 
 2. **Review [Microsoft Purview Compliance Manager improvement actions](/purview/compliance-manager-improvement-actions)** related to data protection, auditability, and AI usage controls.
 
-3. Assign and track remediation work to close **identified compliance gaps**.
+3. **Assign and track remediation work to close identified compliance gaps**. (See [Update improvement actions and bring compliance data into Compliance Manager](/purview/compliance-manager-update-actions).)
 
-4. Validate improvements using **Microsoft Purview DSPM** reports.
+4. **Validate improvements using Microsoft Purview DSPM** reports. (See [How to use DSPM](/purview/data-security-posture-management-learn-about#how-to-use-data-security-posture-management).)
 
 ### Define regulatory requirements
 
