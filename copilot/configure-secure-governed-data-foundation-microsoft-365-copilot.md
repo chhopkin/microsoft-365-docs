@@ -117,7 +117,7 @@ In this step, you establish secure defaults and durable guardrails with Microsof
 
 Use tenant and provisioning defaults to prevent oversharing from being introduced in new sites and sharing links.
 
-1. **[Enforce Restricted Access Control (RAC) by default](/sharepoint/restricted-access-control)** for business-critical sites at provisioning time.
+1. **Enforce [Restricted Access Control (RAC)](/sharepoint/restricted-access-control) by default** for business-critical sites at provisioning time.
 
 2. **Disable or restrict use of company-wide sharing groups and Anyone links** at the tenant level. (See [How shareable links work in SharePoint and OneDrive](/sharepoint/shareable-links-anyone-specific-people-organization).)
 
