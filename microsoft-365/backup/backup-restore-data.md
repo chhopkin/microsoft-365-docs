@@ -115,7 +115,8 @@ Follow these steps to restore data backed up for OneDrive.
 
 
 Use this option to perform a restore of only selected files and folders from a protected OneDrive account's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **OneDrive** section, select **Restore**.  In this flow, the **Restore specific files or folders** option gives Microsoft 365 Backup admins the capability to restore a subset of the account's files and folders from a specific restore point. 
-To use this feature, users must be assigned the **SharePoint Backup Admin role**.
+> [!IMPORTANT]
+> To use this feature, users must be assigned the **SharePoint Backup Admin role**.
 
 ![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
