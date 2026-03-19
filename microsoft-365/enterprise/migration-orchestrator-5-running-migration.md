@@ -303,7 +303,7 @@ When the migration is completed, you can monitor the results of the batch and us
 
 #### Make any required changes
 
-Changes may need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration), or [canceling a migration](#cancel-a-batch). These changes can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
+You may need to make changes to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration), or [canceling a migration](#cancel-a-batch). These changes can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
 
 ## Batch migration description values
 
@@ -318,9 +318,9 @@ Use the following table to understand the validation and migration flows and sta
 | --- | --- | --- |
 | Submitted/Approved/Processing  | The batch is submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
 | InProgress | The batch is in progress, which includes checking for prerequisites for all workloads and processing the sync for the mailboxes. Batches and user migrations can be canceled throughout this phase. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/> [Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress <BR/> |
-| CuttingOver | The batch is cutting over, which means that the mailbox is cutting over or has cut over, and the chats, meetings, and OneDrive are migrating.  <BR/> No cancellations can happen at this point. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/>[Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress<BR/>|
-| Completed |  The batch completed without any errors. | [Exchange] Completed <BR/> [Teams Chats] Completed <BR/> [Teams Meetings] Completed <BR/> [OneDrive] Completed <BR/> |
-| CompletedWithErrors  | The batch completed, but with errors. | [Exchange] Completed/Failed <BR/> [Teams Chats] Completed/Failed <BR/> [Teams Meetings] Completed/Failed <BR/> [OneDrive] Completed/Failed <BR/> |
+| CuttingOver | The batch is cutting over, which means that the mailbox is cutting over or finished cutting over, and the chats, meetings, and OneDrive are migrating. <BR/>No cancellations can happen at this point. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/>[Teams Meetings] Synced/InProgress <BR/>[OneDrive] Synced/InProgress<BR/>|
+| Completed |  The batch completed without any errors. | [Exchange] Completed <BR/>[Teams Chats] Completed <BR/>[Teams Meetings] Completed <BR/>[OneDrive] Completed |
+| CompletedWithErrors  | The batch completed, but with errors. |[Exchange] Completed/Failed <BR/> Teams Chats] Completed/Failed <BR/>[Teams Meetings] Completed/Failed <BR/>[OneDrive] Completed/Failed |
 | Canceled | The batch is canceled. |  |
 | Failed | The batch failed.  |  |
 | PendingCancel | The batch is pending cancellation. |  |
@@ -331,9 +331,9 @@ Use the following table to understand the validation and migration flows and sta
 
 | Status | Description | Workloads |
 | --- | --- | --- |
-|ValidationSubmitted/ValidationProcessing | The validation batch is submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings]NotStarted <BR/> [OneDrive] NotStarted <BR/> |
-| ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Completed <BR/> [Teams Meetings] InProgress/Completed <BR/> [OneDrive] InProgress/Completed <BR/> |
-|ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Completed/Failed<BR/> [Teams Chats] Completed/Failed<BR/> [Teams Meetings] Completed/Failed<BR/> [OneDrive] Completed/Failed<BR/> |
+|ValidationSubmitted/ValidationProcessing | The validation batch is submitted. |[Exchange] NotStarted <BR/>[Teams Chats] NotStarted <BR/>[Teams Meetings]NotStarted <BR/>[OneDrive] NotStarted |
+| ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. |[Exchange] InProgress <BR/>[Teams Chats] InProgress/Completed <BR/>[Teams Meetings] InProgress/Completed <BR/>[OneDrive] InProgress/Completed |
+|ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Completed/Failed <BR/>[Teams Chats] Completed/Failed <BR/>[Teams Meetings] Completed/Failed <BR/>[OneDrive] Completed/Failed |
 
 ## Next steps
 
