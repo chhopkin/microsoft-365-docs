@@ -89,7 +89,7 @@ For sites you identify as high risk, use Microsoft Purview and SAM recommendatio
    
    - **Remove excessive or anonymous access**, and rescope sharing links to approved users or groups. (See [Manage sharing settings for SharewPoint and OneDrive](/sharepoint/turn-external-sharing-on-or-off).)
    
-2. **[Initiate SAM site access reviews](/sharepoint/site-access-review)** for high-risk sites so site owners can manage access (down to the file level) and:
+2. **Initiate [SAM site access reviews](/sharepoint/site-access-review)** for high-risk sites so site owners can manage access (down to the file level) and:
 
    - **Remove excess users, groups, and company-wide sharing links** (including EEEU), and rescope sharing links to approved users or groups. (See [Monitor sharing activities in SharePoint](/sharepoint/data-access-governance-sharing-links-report).)
 
@@ -101,9 +101,9 @@ For sites you identify as high risk, use Microsoft Purview and SAM recommendatio
 
 While sites are in remediation, apply temporary controls to reduce exposure and validate that Copilot is no longer surfacing restricted content.
 
-1. **[Enable SAM Restricted Content Discovery (RCD)](/sharepoint/restricted-content-discovery)** to exclude sensitive sites from Copilot discovery.
+1. **Enable [SAM Restricted Content Discovery (RCD)](/sharepoint/restricted-content-discovery)** to exclude sensitive sites from Copilot discovery.
 
-2. **[Configure Microsoft Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about)** to exclude sensitive content from Copilot grounding.
+2. **Configure [Microsoft Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about)** to exclude sensitive content from Copilot grounding.
 
 3. **Validate through Microsoft Purview Auditing and reports that Copilot no longer surfaces restricted content**. (See [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).)
 
