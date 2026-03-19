@@ -75,23 +75,23 @@ In this step, you identify and prioritize high-risk sites and sensitive content,
 
 Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) (SAM) to find sites and files that are overshared, ownerless, inactive, or contain sensitive data that could be surfaced by Copilot.
 
-1. Review [Microsoft Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) Data risk assessments to identify sites with sensitive data, risky sharing links, and content that is frequently accessed.
+1. **Review [Microsoft Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) data risk assessments** to identify sites with sensitive data, risky sharing links, and content that is frequently accessed.
 
-1. Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment) to identify sites with oversized audiences, EEEU usage, broken inheritance, inappropriate sharing, and those that are inactive or ownerless.
+1. **Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment)** to identify sites with oversized audiences, EEEU usage, broken inheritance, inappropriate sharing, and those that are inactive or ownerless.
 
 ### Fix access and permissions
 
-For sites you identify as high-risk, use Microsoft Purview and SAM recommendations to remove excessive access, correct broken inheritance, and ensure accountable ownership.
+For sites you identify as high risk, use Microsoft Purview and SAM recommendations to remove excessive access, correct broken inheritance, and ensure accountable ownership.
 
-1. Review [Microsoft Purview DSPM Data Risk Assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations for sites flagged as high‑risk and take the following actions:
+1. **Review [Microsoft Purview DSPM Data Risk Assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations** for sites flagged as high‑risk and take the following actions:
 
-   - Apply site sensitivity label to reflect data sensitivity and restrict oversharing
+   - **Apply [site sensitivity labels](/purview/sensitivity-labels-teams-groups-sites)** to reflect data sensitivity and restrict oversharing
    
-   - Remove excessive or anonymous access, and rescope sharing links to approved users or groups
+   - **Remove excessive or anonymous access**, and rescope sharing links to approved users or groups. (See [Manage sharing settings for SharewPoint and OneDrive](/sharepoint/turn-external-sharing-on-or-off).)
    
 2. Initiate [SAM site access reviews](/sharepoint/site-access-review) for high-risk sites so site owners can manage access (down to the file level) and:
 
-   - Remove **excess users, groups, and company-wide sharing links** (including EEEU), and rescope sharing links to approved users or groups.
+   - **Remove excess users, groups, and company-wide sharing links** (including EEEU), and rescope sharing links to approved users or groups.
 
    - Correct **broken permission inheritance** on libraries and folders.
 
