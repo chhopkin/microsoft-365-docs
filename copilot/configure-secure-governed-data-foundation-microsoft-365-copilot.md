@@ -101,9 +101,9 @@ For sites you identify as high risk, use Microsoft Purview and SAM recommendatio
 
 While sites are in remediation, apply temporary controls to reduce exposure and validate that Copilot is no longer surfacing restricted content.
 
-1. Enable [SAM Restricted Content Discovery (RCD)](/sharepoint/restricted-content-discovery) to exclude sensitive sites from Copilot discovery.
+1. **[Enable SAM Restricted Content Discovery (RCD)](/sharepoint/restricted-content-discovery)** to exclude sensitive sites from Copilot discovery.
 
-2. Configure [Microsoft Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) to exclude sensitive content from Copilot grounding.
+2. **[Configure Microsoft Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about)** to exclude sensitive content from Copilot grounding.
 
 3. Validate through Microsoft Purview audit logs and reports that **Copilot no longer surfaces restricted content**.
 
