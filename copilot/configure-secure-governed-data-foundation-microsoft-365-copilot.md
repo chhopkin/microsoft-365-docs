@@ -129,19 +129,19 @@ Configure classification and enforcement controls with Microsoft Purview so Copi
 
 1. **Configure Microsoft Purview Information Protection default sensitivity labels** to ensure new content is protected. (See [Default sensitivity labels and policies to protect your data](/purview/default-sensitivity-labels-policies).)
 
-2. **[Set up a Microsoft Purview DLP for Copilot policy](/purview/dlp-microsoft365-copilot-location-learn-about)** to restrict Copilot processing of labeled sensitive content. 
+2. **Set up a [Microsoft Purview DLP for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) policy** to restrict Copilot processing of labeled sensitive content. 
 
-3. **[Enable a Microsoft Purview DLP for Copilot prompt policy](/purview/dlp-microsoft365-copilot-location-learn-about)** to restrict Copilot from responding to prompts that contain sensitive information.
+3. **Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy** to restrict Copilot from responding to prompts that contain sensitive information.
 
-4. **[Enable Microsoft Purview Insider Risk Management](/purview/insider-risk-management-solution-overview) policies** to detect potentially inappropriate or noncompliant AI usage.
+4. **Enable [Microsoft Purview Insider Risk Management](/purview/insider-risk-management-solution-overview) policies** to detect potentially inappropriate or noncompliant AI usage.
 
 ### Continuously enforce and optimize guardrails
 
 Use Microsoft Purview reporting, risk assessments, and alerts to continuously validate protection and investigate risky AI usage.
 
-1. **[Use Microsoft Purview DSPM Activity Explorer](/purview/data-security-posture-management-considerations#activity-explorer-events-in-data-security-posture-management)** to review Copilot interactions (prompts and responses), web search keywords, and sensitive data activity.
+1. **Use [Microsoft Purview DSPM Activity Explorer](/purview/data-security-posture-management-considerations#activity-explorer-events-in-data-security-posture-management)** to review Copilot interactions (prompts and responses), web search keywords, and sensitive data activity.
 
-2. **[Use Microsoft Purview DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365)** to continuously validate that sensitive data remains protected from Copilot access.
+2. **Use [Microsoft Purview DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365)** to continuously validate that sensitive data remains protected from Copilot access.
 
 3. **Review Microsoft Purview Insider Risk Management and DLP alerts** to detect and investigate risky AI usage or potential data loss. (See [Data risk graph in Insider Risk Management](/purview/insider-risk-management-data-risk-graph) and [Learn about investigating DLP alerts](/purview/dlp-alert-investigation-learn).)
 
