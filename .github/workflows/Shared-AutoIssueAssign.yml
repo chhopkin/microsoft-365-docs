@@ -1,0 +1,639 @@
+name: (Scheduled) Auto issue assign
+
+permissions:
+    issues: write
+      
+on: 
+    workflow_call:
+        inputs:
+            PayloadJson:
+                required: true
+                type: string
+            ExcludedUserList:
+                required: false
+                type: string
+        secrets:
+            AccessToken:
+                required: true
+            PrivateKey:
+                required: true
+            ClientId:
+                required: true
+
+jobs:
+    build:
+      name: Run Script
+      runs-on: ubuntu-latest
+      steps:
+
+        - name: Create App Token
+          id: app-token
+          uses: actions/create-github-app-token@v1
+          with:
+              app-id:      ${{ secrets.ClientId }}
+              private-key: ${{ secrets.PrivateKey }}
+              owner: ${{ github.repository_owner }}
+
+        - name: Script
+          shell: pwsh
+          env:
+            PayloadJson: ${{ inputs.PayloadJson }}
+            ExcludedUserList: ${{ inputs.ExcludedUserList }}
+            AccessToken: ${{ secrets.AccessToken }}
+            AppGitHubAccessToken: ${{ steps.app-token.outputs.token }}
+
+          run: |
+
+            $GitHubData = $env:PayloadJson | ConvertFrom-Json -Depth 50
+            $AccessToken = $env:AccessToken
+            $AppGitHubAccessToken = $env:AppGitHubAccessToken
+
+            # Set GitHub REST API headers
+            $GitHubHeaders = @{}
+            $GitHubHeaders.Add("Authorization","token $AccessToken")
+            $GitHubHeaders.Add("User-Agent", "OfficeDocs")
+
+            # Create github HTTP authentication header using GitHub app installation token
+            $AppGitHubAccessHeaders = @{}
+            $AppGitHubAccessHeaders.Add("Authorization","token $($AppGitHubAccessToken)")
+            $AppGitHubAccessHeaders.Add("User-Agent", "OfficeDocs")
+
+            $IssuesUrl = $GitHubData.event.repository.issues_url.Replace("{/number}", "")
+            $GitHubApiUrl = "https://api.github.com/repos/MicrosoftDocs/"
+
+            # Global list of GitHub users to always exclude from assignment
+            $GlobalExcludedReviewerList = @(
+                    "dstrome",
+                    "sc-dstrome",
+                    "garycentric",
+                    "garymoore-sc",
+                    "serdarsoysal",
+                    "cx-ktsuji",
+                    "dawntanner",
+                    "pamgreen-msft",
+                    "pebaum",
+                    "SerdarSoysal",
+                    "vinaypamnani-msft"
+            )
+
+            # Per-repo excluded user list passed in from calling workflow (comma-separated)
+            $ExcludedUserList = @()
+            If (-not [String]::IsNullOrWhiteSpace($env:ExcludedUserList)) {
+                $ExcludedUserList = $env:ExcludedUserList -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' }
+            }
+
+            # Path to GE Taxonomy service/subservice to Content Lead GitHub team mapping file.
+            $ServiceToGitHubTeamMapRepo = "officedocs-pr"
+            $ServiceToGitHubTeamMapFilePath = "/contents/.github/workflows/resources/service-subservice-to-github-team-map.csv"
+            $ServiceToGitHubTeamMapRef = "main"
+            $ServiceToGitHubTeamMapUrl = $GitHubApiUrl + $ServiceToGitHubTeamMapRepo + $ServiceToGitHubTeamMapFilePath + "?ref=$ServiceToGitHubTeamMapRef"
+
+
+
+            #####################
+            #####################
+            # Get-IssueServiceSubServices
+
+            Function Get-IssueServiceSubServices {
+
+                [CmdletBinding()]
+                param(
+
+                    $IssueUrl      
+                )
+
+                $IssueLabelUrl = "$IssueUrl/labels"
+
+                $ReturnObject = [PSCustomObject]@{
+                    Services = @()
+                    SubServices = @()
+                }
+
+                $LabelResults = $Null
+
+                # Get list of labels on issue
+                Try {
+
+                    Write-Host "Getting labels on issue $IssueLabelUrl."
+
+                    $LabelResults = Invoke-RestMethod -Uri $IssueLabelUrl -Headers $GitHubHeaders  -ErrorAction Stop
+
+                    ForEach ($Label in $LabelResults) {
+
+                        If ($Label.name.Contains("/svc")) {
+                        
+                            $Service = $Label.name.Split("/")[0]
+
+                            $ReturnObject.Services += $Service
+                        
+                        } ElseIf ($Label.name.Contains("/subsvc")) {
+                            
+                            $SubService = $Label.name.Split("/")[0]
+
+                            $ReturnObject.SubServices += $SubService
+                        
+                        }
+
+                    }
+
+                } Catch {
+
+                    Write-Host "ERROR: Failed to get list of labels on $IssueLabelUrl. Error: $($Error[0].Exception.Message)."
+
+                }
+
+                # Return array of labels on Issue
+                Return $ReturnObject
+
+            }
+
+            #####################
+            #####################
+            # Combine-IssueServiceSubServices
+
+            Function Combine-IssueServiceSubServices {
+
+                param(
+
+                    $ServiceSubServices
+
+                )
+
+                $foo = $ServiceSubServices | Convertto-json
+                $ServiceSubServiceArray = @()
+
+                write-host $foo
+
+                $Services = If ($ServiceSubServices.Services.Count -gt 0) { $ServiceSubServices.Services } Else { @('') }
+                $SubServices = If ($ServiceSubServices.SubServices.Count -gt 0) { $ServiceSubServices.SubServices } Else { @('') }
+
+                ForEach ($Service in $Services) {
+
+                    write-host "Service $Service"
+
+                    Foreach ($SubService in $SubServices) {
+
+                        write-host "SubService  $SubService"
+
+                        $ServiceSubService = [PSCustomObject]@{
+                            Service = $Service
+                            SubService = $SubService
+                        }
+
+                        $ServiceSubServiceArray += $ServiceSubService
+
+                    }
+
+                }
+
+                Return $ServiceSubServiceArray
+
+            }
+
+            #####################
+            #####################
+            # Set-IssueReviewer
+
+            Function Set-IssueReviewer {
+
+              param(
+
+                  $IssueUrl,
+                  $GitHubReviewers
+
+              )
+
+              $UsersToReview = @()
+
+              ForEach ($User in $GitHubReviewers) {
+
+                  If ($ExcludedUserList -and ($ExcludedUserList -contains $User)) {
+                      Write-Host "Excluding $User - in exclusion list."
+                      Continue
+                  }
+
+                  If (-not ($UsersToReview -contains $User)) {
+                      Write-Host "Adding $User to reviewer list."
+                      $UsersToReview += $User
+                  }
+              }
+
+              # Construct JSON statement that will be sent to GitHub as the body of the web request. GitHub expects an array regardless of whether it's a single value or multiple.
+              # Convert array to JSON
+              $Body = @{}
+              $Body.Add("assignees", @($UsersToReview))
+              $Body = $Body | ConvertTo-Json 
+
+              $AssigneesUrl = "$IssueUrl/assignees"
+
+              # Try to submit the request to GitHub API to assign users to the issue
+              Try {
+
+                  Write-Host "Setting accounts $UsersToReview on URL $AssigneesUrl."
+
+                  $Result = Invoke-RestMethod -Uri $AssigneesUrl -Body $Body -Headers $GitHubHeaders  -Method POST
+
+              } Catch {
+
+                  Write-Host "ERROR: Failed to assign GitHub accounts on URL $AssigneesUrl. Error: $_."
+                  
+
+              }
+
+            }
+
+            #####################
+            #####################
+            # Get-ServiceGitHubTeamMappingTable
+
+            Function Get-ServiceGitHubTeamMappingTable {
+            
+                Try {
+
+                    Write-Host "Getting service/subservice to GitHub team mapping from $ServiceToGitHubTeamMapUrl"
+
+                    $GitHubMappingTableData = Invoke-RestMethod -Uri $ServiceToGitHubTeamMapUrl -Headers $AppGitHubAccessHeaders
+                    $GitHubMappingTable = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($GitHubMappingTableData.content));
+
+                } Catch {
+
+                    Write-Host "Failed to get service/subservice to GitHub user mapping from $ServiceToGitHubTeamMapUrl. Error: $_"
+
+                    $GitHubMappingTable = $Null
+
+                }
+
+                Return $GitHubMappingTable
+
+            
+            }
+
+            #####################
+            #####################
+            # Expand-ServiceSubServiceRows
+
+            Function Expand-ServiceSubServiceRows {
+                [CmdletBinding()]
+                Param(
+                    [Parameter(Mandatory = $true)]
+                    [String]$CsvContent
+                )
+                
+                # Parse the CSV content
+                $CsvData = $CsvContent | ConvertFrom-Csv
+                
+                # Initialize array to hold expanded rows
+                $ExpandedRows = @()
+                
+                ForEach ($Row in $CsvData) {
+                    # Get the services and subservices, handling null/empty values
+                    $Services = If ([String]::IsNullOrWhiteSpace($Row.Service)) { @('') } 
+                            Else { $Row.Service -split ';' | ForEach-Object { $_.Trim() } }
+                    
+                    $SubServices = If ([String]::IsNullOrWhiteSpace($Row.SubService)) { @('') } 
+                                Else { $Row.SubService -split ';' | ForEach-Object { $_.Trim() } }
+                    
+                    # Create a new row for each combination of service and subservice
+                    ForEach ($Service in $Services) {
+                        ForEach ($SubService in $SubServices) {
+                            $NewRow = [PSCustomObject]@{
+                                Product = $Row.Product
+                                Service = $Service
+                                SubService = $SubService
+                                GitHubTeam = $Row.GitHubTeam
+                            }
+                            $ExpandedRows += $NewRow
+                        }
+                    }
+                }
+                
+                Return $ExpandedRows
+            }
+
+            #####################
+            #####################
+            # Get-GitHubReviewerTeams
+
+            Function Get-GitHubReviewerTeams {
+                [CmdletBinding()]
+                Param(
+                    [Parameter(Mandatory = $true)]
+                    [string]$Service,
+                    
+                    [Parameter(Mandatory = $false)]
+                    [string]$SubService,
+                    
+                    [Parameter(Mandatory = $true)]
+                    [array]$DataArray
+                )
+                
+                    
+                $GitHubTeam = @()
+
+                Write-Host "Article service: $Service"
+                Write-Host "Article subservice: $SubService"
+                
+                # Filter data based on Service match
+                $ServiceMatches = $DataArray | Where-Object { $_.service -eq $Service }
+
+                Write-Host "Service matches:"
+                $ServiceMatches | ForEach-Object { Write-Host $_ }
+                
+                If ($ServiceMatches) {
+
+                    Write-Host "Service found"
+
+                    # Check for exact match scenarios
+                    If ($SubService) {
+
+                        Write-Host "Subservice provided"
+
+                        # SubService provided - look for exact match
+                        $ExactMatch = $ServiceMatches | Where-Object { $_.subservice -eq $SubService }
+                        
+                        If ($ExactMatch) {
+
+                            Write-Host "SubService found"
+
+                            # Found exact match with SubService
+                            $GitHubTeam += $ExactMatch.GitHubTeam
+                        }
+                        Else {
+
+                            Write-Host "Subservice not found"
+
+                            # No exact SubService match found
+                            # Check if there are any subservices defined for this service
+                            $HasSubServices = $ServiceMatches | Where-Object { 
+                                ![string]::IsNullOrWhiteSpace($_.subservice) 
+                            }
+                            
+                            If ($HasSubServices) {
+
+                                Write-Host "Service has subservices. Returning all teams for all subservices."
+
+                                # Multiple subservices exist, return all teams for this service's subservices
+                                $GitHubTeam += $HasSubServices.GitHubTeam
+                            }
+                        }
+                    }
+                    Else {
+                        # No SubService provided - look for exact match with empty/null SubService
+                        $ExactMatch = $ServiceMatches | Where-Object { 
+                            [string]::IsNullOrWhiteSpace($_.subservice) 
+                        }
+                        
+                        If ($ExactMatch) {
+
+                            Write-Host "Service with no subservice row found"
+
+                            # Found exact match without SubService
+                            $GitHubTeam += $ExactMatch.GitHubTeam
+                        }
+                        Else {
+
+                            Write-Host "Service with no subservice row not found"
+
+                            # No exact match without SubService
+                            # Check if there are multiple subservices for this service
+                            $HasSubServices = $ServiceMatches | Where-Object { 
+                                ![string]::IsNullOrWhiteSpace($_.subservice) 
+                            }
+                            
+                            If ($HasSubServices.Count -gt 1) {
+
+                                Write-Host "Service has subservices. Returning all teams for all subservices."
+
+                                # Multiple subservices exist, return all teams
+                                $GitHubTeam += $HasSubServices.GitHubTeam
+                            }
+                        }
+                    }
+                }
+
+                Write-Host "Found teams"
+                $GitHubTeam | ForEach-Object { Write-Host $_ }
+    
+                # Process the teams list
+                $AllTeams = @()
+                
+                ForEach ($TeamString In $GitHubTeam) {
+                    If (![string]::IsNullOrWhiteSpace($TeamString)) {
+                        # Remove leading semicolon if present
+                        $CleanedString = $TeamString.TrimStart(';')
+                        
+                        # Split by semicolon and add to array
+                        $Teams = $CleanedString -split ';' | Where-Object { 
+                            ![string]::IsNullOrWhiteSpace($_) 
+                        }
+                        
+                        $AllTeams += $Teams
+                    }
+                }
+                
+                # Return deduplicated array
+                Return $AllTeams | Select-Object -Unique
+                
+            }
+
+            #####################
+            #####################
+            # Get-TeamMembership
+
+            Function Get-TeamMembership {
+            
+                [CmdletBinding()]
+                Param(
+                    [Parameter(Mandatory = $true)]
+                    [string[]]$ReviewerTeams
+                )
+
+                $ReviewerList = @()
+
+                ForEach ($Team in $ReviewerTeams) {
+                
+                    $ReviewerTeamUrl = "https://api.github.com/orgs/MicrosoftDocs/teams/$Team/members?per_page=100"
+
+                    Try {
+
+                        Write-Host "Getting membership information for $Team."
+
+                        $TeamResult = Invoke-RestMethod -Uri $ReviewerTeamUrl -Headers $AppGitHubAccessHeaders -FollowRelLink -ErrorAction Stop
+
+                        ForEach ($Page in $TeamResult) {
+                        
+                            ForEach ($Member in $Page) {
+                            
+                                If ($GlobalExcludedReviewerList -notcontains $Member.login) {
+                                
+                                    $ReviewerList += $Member.login
+                                
+                                }
+                            
+                            }
+                        
+                        }
+                    
+                    } Catch {
+                     
+                        Write-Host "ERROR: Failed to look up membership info for $Team. Error: $_"
+                    
+                    }
+                
+                }
+                
+                Write-Host "Reviewers found in teams: $($ReviewerList | Sort-Object -Unique)"
+
+                Return $ReviewerList | Sort-Object -Unique
+            
+            }
+
+            #####################
+            #####################
+            # Compare-IssueIndividualReviewers
+
+            Function Compare-IssueIndividualReviewers {
+
+                [CmdletBinding()]
+                [OutputType([bool])]
+                Param(
+                    [Parameter(Mandatory = $true)]
+                    [string]$IssueUrl,
+
+                    [Parameter(Mandatory = $true)]
+                    [string[]]$GitHubReviewers
+
+                )
+
+                Try {
+
+                    # Get issue details from GitHub API
+                    $IssueData = Invoke-RestMethod -Uri $IssueUrl -Headers $GitHubHeaders -Method Get
+
+                    # Extract current assignee usernames
+                    $CurrentAssignees = @()
+
+                    If ($IssueData.assignees) {
+
+                        $CurrentAssignees = $IssueData.assignees | ForEach-Object { $_.login }
+
+                    }
+
+                    # Compare arrays - check if any expected accounts are missing from current assignees
+                    $MissingAccounts = $GitHubReviewers | Where-Object { $_ -notin $CurrentAssignees }
+
+                    Return ($MissingAccounts.Count -gt 0)
+
+                } Catch {
+
+                    Write-Error "Failed to retrieve or compare issue assignees. Error: $_"
+                    Return $false
+
+                }
+
+            }
+
+            #####################
+            #####################
+            # Get-Issues
+
+            Function Get-Issues {
+
+                $IssuesList = @()
+
+                Try {
+
+                    $Issues = Invoke-RestMethod -Uri $IssuesUrl -Headers $GitHubHeaders -Method Get -FollowRelLink -ErrorAction Stop
+
+                    ForEach ($Page in $Issues) {
+                    
+                        ForEach ($Issue in $Page) {
+                        
+                            $IssuesList += $Issue
+                        
+                        }
+                    
+                    }
+
+                    Return $IssuesList
+
+                } Catch {
+                 
+                    Write-Host "Failed to retrieve issues from $IssuesUrl. Error: $_"
+                    Return $Null
+                
+                }
+
+            }
+
+            #####################
+            #####################
+            # Main
+
+            $IssuesList = Get-Issues
+
+            # Get the service/subservice to GitHub account map
+            $ServiceToTeamMap = Get-ServiceGitHubTeamMappingTable
+            $ExpandedServiceSubServiceRows = Expand-ServiceSubServiceRows -CsvContent $ServiceToTeamMap
+
+            ForEach ($Issue in $IssuesList) {
+
+                $ServiceSubServicesResults = Get-IssueServiceSubServices -IssueUrl $Issue.url
+
+                If ($ServiceSubServicesResults.Services.Count -eq 0) {
+                    Continue
+                }
+
+                $CombinedServiceSubServices = Combine-IssueServiceSubServices -ServiceSubServices $ServiceSubServicesResults
+
+                $ReviewerTeamArray = @()
+
+                ForEach ($Pair in $CombinedServiceSubServices) {
+
+                    Write-Host $Pair.Service
+                    Write-Host $Pair.SubService
+
+                    $ReviewerTeams = Get-GitHubReviewerTeams -DataArray $ExpandedServiceSubServiceRows -Service $Pair.Service -SubService $Pair.SubService
+
+                    If ($ReviewerTeams -ne $Null) {
+
+                        $ReviewerTeamArray += $ReviewerTeams
+
+                    }
+
+                }
+
+                $ReviewerTeamArray = $ReviewerTeamArray | Select-Object -Unique
+
+                If ($ReviewerTeamArray.Count -gt 0) {
+
+                    $ReviewerAccounts = Get-TeamMembership -ReviewerTeams $ReviewerTeamArray
+
+                    If ($ReviewerAccounts.Length -gt 0) {
+
+                        $MissingReviewers = Compare-IssueIndividualReviewers -IssueUrl $Issue.url -GitHubReviewers $ReviewerAccounts
+
+                        If ($MissingReviewers) {
+
+                            Write-Host "Additional reviewers found. Setting reviewers."
+
+                            Try {
+
+                                Set-IssueReviewer -IssueUrl $Issue.url -GitHubReviewers $ReviewerAccounts
+
+                            } Catch {
+
+
+                            }
+
+                        } Else {
+
+                            Write-Host "No additional reviewers to add. Not setting reviewers."
+
+                        }
+
+                    }
+
+                }
+
+            }
