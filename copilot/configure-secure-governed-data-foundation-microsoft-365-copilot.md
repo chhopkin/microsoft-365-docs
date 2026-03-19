@@ -129,9 +129,9 @@ Protect sensitive data by default and decide how it should be used with Copilot 
 
 1. Configure [auto-label](/purview/apply-sensitivity-label-automatically?tabs=apply-label) and [default Microsoft Purview Information Protection sensitivity labels](/purview/default-sensitivity-labels-policies) to ensure sensitive files and emails are protected.
 
-1. Are there files or emails that shouldn’t be used by Copilot for grounding? If yes, setup [Microsoft Purview DLP for Copilot policies](/purview/dlp-microsoft365-copilot-location-learn-about) to restrict Copilot processing of files and emails with specific sensitivity label
+1. Are there files or emails that shouldn't be used by Copilot for grounding? If yes, setup [Microsoft Purview DLP for Copilot policies](/purview/dlp-microsoft365-copilot-location-learn-about) to restrict Copilot processing of files and emails with specific sensitivity label
 
-1. Are there keywords or types of sensitive data that shouldn’t be processed by Copilot? If yes, enable a [Purview DLP for Copilot prompts](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts containing specified sensitive information
+1. Are there keywords or types of sensitive data that shouldn't be processed by Copilot? If yes, enable a [Purview DLP for Copilot prompts](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts containing specified sensitive information
 
 1. Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts that contain sensitive information.
 
@@ -185,7 +185,7 @@ Reduce ongoing risk and improve Copilot answer quality by continuously cleaning 
 
 - Apply [Microsoft Purview retention and deletion policies](/purview/create-retention-policies?tabs=teams-retention) to remove inactive or obsolete files to improve the quality of Copilot responses.
 
-- Use [Microsoft Purview retention labels](/purview/create-retention-labels-data-lifecycle-management) + [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide) to exclude files from Copilot use while preserving them for recordkeeping obligations or discovery
+- Use [Microsoft Purview retention labels](/purview/create-retention-labels-data-lifecycle-management) + [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide&preserve-view=true) to exclude files from Copilot use while preserving them for recordkeeping obligations or discovery
 
 ## Next steps
 
