@@ -87,7 +87,7 @@ For sites you identify as high risk, use Microsoft Purview and SAM recommendatio
 
    - **Apply [site sensitivity labels](/purview/sensitivity-labels-teams-groups-sites)** to reflect data sensitivity and restrict oversharing
    
-   - **Remove excessive or anonymous access**, and rescope sharing links to approved users or groups. (See [Manage sharing settings for SharewPoint and OneDrive](/sharepoint/turn-external-sharing-on-or-off).)
+   - **Remove excessive or anonymous access**, and rescope sharing links to approved users or groups. (See [Manage sharing settings for SharePoint and OneDrive](/sharepoint/turn-external-sharing-on-or-off).)
    
 2. **Initiate [SAM site access reviews](/sharepoint/site-access-review)** for high-risk sites so site owners can manage access (down to the file level) and:
 
