@@ -153,7 +153,7 @@ In this step, you assess and close AI compliance gaps, define audit and retentio
 
 1. **Use [Microsoft Purview Compliance Manager](/purview/compliance-manager)** to assess your tenant against AI-related regulatory requirements and Microsoft recommended actions.
 
-2. Review **Microsoft Purview Compliance Manager improvement actions** related to data protection, auditability, and AI usage controls.
+2. **Review [Microsoft Purview Compliance Manager improvement actions](/purview/compliance-manager-improvement-actions)** related to data protection, auditability, and AI usage controls.
 
 3. Assign and track remediation work to close **identified compliance gaps**.
 
