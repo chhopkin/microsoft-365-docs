@@ -203,7 +203,7 @@ Acceptable date and time formats are available on [Standard date and time format
 
 ### Cancel a batch
 
-This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover. A batch can only be canceled before the Complete After Date has passed. After this point, the migration  continues without cancellation.
+This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover. A batch can only be canceled before the Complete After Date is reached. After this point, the migration continues without cancellation.
 
 ```powershell
 Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
@@ -211,7 +211,7 @@ Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display nam
 
 ### Remove a user from a batch and cancel that user's migration
 
-This feature allows you to cancel a single user's migration by removing them from that batch. It needs to be run multiple times if multiple users need to be removed. The remaining users in the batch are unaffected. This state is only possible before the user's mailbox has cutover, at which point the user can't be removed.
+This feature allows you to cancel a single user's migration by removing them from that batch. It needs to be run multiple times if multiple users need to be removed. The remaining users in the batch are unaffected. This state is only possible before the cutover of the user's mailbox, at which point the user can't be removed.
 
 ```powershell
 Stop-MgBetaCrossTenantMigrationJobUser -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target user> 
@@ -229,7 +229,7 @@ If the removal is unsuccessful, here are the possible responses:
 
    > Cancellation not possible as no task found for given ID `<User ID>` TraceId: `<Trace ID>`
    
-1. The batch ID or batch name can't be found in the tenant. This likely means the admin provided an incorrect batch ID or batch name in the cancellation request and should check it again.
+1. The batch ID or batch name can't be found in the tenant. This message likely means the admin provided an incorrect batch ID or batch name in the cancellation request and should check it again.
 
    > UserRequest not found with `<target tenant ID>`, `<batch ID or batch name>` TraceId: `<Trace ID>`
    
@@ -283,7 +283,7 @@ See the full list of prerequisites that are checked during validation: [Prevalid
 
 See [Validate the batch](#submit-a-batch-for-validation) for an available list of validation commands to run.
 
-Get the detailed report of failures and mitigate those failures before retrying at the batch level (see [Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level (see [Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
+Get the detailed report of failures and fix any issues before retrying at the batch level ([Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level ([Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
 
 Review the batch status. If it's ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it's ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
 
@@ -303,7 +303,7 @@ When the migration is completed, you can monitor the results of the batch and us
 
 #### Make any required changes
 
-If changes need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration), or [canceling a migration](#cancel-a-batch), this can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
+Changes may need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration), or [canceling a migration](#cancel-a-batch). These changes can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
 
 ## Batch migration description values
 
@@ -331,7 +331,7 @@ Use the following table to understand the validation and migration flows and sta
 
 | Status | Description | Workloads |
 | --- | --- | --- |
-|ValidationSubmitted/ValidationProcessing | The validation batch has been submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
+|ValidationSubmitted/ValidationProcessing | The validation batch is submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings]NotStarted <BR/> [OneDrive] NotStarted <BR/> |
 | ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Completed <BR/> [Teams Meetings] InProgress/Completed <BR/> [OneDrive] InProgress/Completed <BR/> |
 |ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Completed/Failed<BR/> [Teams Chats] Completed/Failed<BR/> [Teams Meetings] Completed/Failed<BR/> [OneDrive] Completed/Failed<BR/> |
 
