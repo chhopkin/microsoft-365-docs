@@ -34,7 +34,7 @@ items:
     - name: Agent evaluations
       items:
         - name: Introduction to agent evaluations
-          href: evaluations-introduction.md
+          href: evaluations.md
         - name: Create a custom evaluation strategy
           href: evaluations-custom-strategy.md
         - name: Setup and run tests using the evaluation tool
