@@ -119,7 +119,7 @@ Use tenant and provisioning defaults to prevent oversharing from being introduce
 
 1. Enforce [Restricted Access Control (RAC)](/sharepoint/restricted-access-control) by default for business-critical sites at provisioning time.
 
-2. **Disable or restrict use of company-wide sharing groups and Anyone links** at the tenant level. (See [How shareable links work in SharePoint and OneDrive](/sharepoint/shareable-links-anyone-specific-people-organization).)
+2. Disable or restrict use of company-wide sharing groups and Anyone links at the tenant level. (See [How shareable links work in SharePoint and OneDrive](/sharepoint/shareable-links-anyone-specific-people-organization).)
 
 1. Use Microsoft Purview Information Protection to require site sensitivity labels at provisioning to enforce correct site privacy and sharing controls by default. (See [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).)
 
@@ -143,11 +143,11 @@ Protect sensitive data by default and decide how it should be used with Copilot 
 
 Use Microsoft Purview reporting, risk assessments, and alerts to continuously validate protection and investigate risky AI usage.
 
-1. **Use [Microsoft Purview DSPM Activity Explorer](/purview/data-security-posture-management-considerations#activity-explorer-events-in-data-security-posture-management)** to review Copilot interactions (prompts and responses), web search keywords, and sensitive data activity.
+1. Use [Microsoft Purview DSPM Activity Explorer](/purview/data-security-posture-management-considerations#activity-explorer-events-in-data-security-posture-management) to review Copilot interactions (prompts and responses), web search keywords, and sensitive data activity.
 
-2. **Use [Microsoft Purview DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365)** to continuously validate that sensitive data remains protected from Copilot access.
+2. Use [Microsoft Purview DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365) to continuously validate that sensitive data remains protected from Copilot access.
 
-3. **Review Microsoft Purview Insider Risk Management and DLP alerts** to detect and investigate risky AI usage or potential data loss. (See [Data risk graph in Insider Risk Management](/purview/insider-risk-management-data-risk-graph) and [Learn about investigating DLP alerts](/purview/dlp-alert-investigation-learn).)
+3. Review Microsoft Purview Insider Risk Management and DLP alerts to detect and investigate risky AI usage or potential data loss. (See [Data risk graph in Insider Risk Management](/purview/insider-risk-management-data-risk-graph) and [Learn about investigating DLP alerts](/purview/dlp-alert-investigation-learn).)
 
 ## Step 3: Meet regulations
 
@@ -155,13 +155,13 @@ In this step, you assess and close AI compliance gaps, define audit and retentio
 
 ### Identify and address gaps against AI regulations
 
-1. **Use [Microsoft Purview Compliance Manager](/purview/compliance-manager)** to assess your tenant against AI-related regulatory requirements and Microsoft recommended actions.
+1. Use [Microsoft Purview Compliance Manager](/purview/compliance-manager) to assess your tenant against AI-related regulatory requirements and Microsoft recommended actions.
 
-2. **Review [Microsoft Purview Compliance Manager improvement actions](/purview/compliance-manager-improvement-actions)** related to data protection, auditability, and AI usage controls.
+2. Review [Microsoft Purview Compliance Manager improvement actions](/purview/compliance-manager-improvement-actions) related to data protection, auditability, and AI usage controls.
 
-3. **Assign and track remediation work to close identified compliance gaps**. (See [Update improvement actions and bring compliance data into Compliance Manager](/purview/compliance-manager-update-actions).)
+3. Assign and track remediation work to close identified compliance gaps. (See [Update improvement actions and bring compliance data into Compliance Manager](/purview/compliance-manager-update-actions).)
 
-4. **Validate improvements using Microsoft Purview DSPM** reports. (See [How to use DSPM](/purview/data-security-posture-management-learn-about#how-to-use-data-security-posture-management).)
+4. Validate improvements using Microsoft Purview DSPM reports. (See [How to use DSPM](/purview/data-security-posture-management-learn-about#how-to-use-data-security-posture-management).)
 
 ### Define regulatory requirements
 
