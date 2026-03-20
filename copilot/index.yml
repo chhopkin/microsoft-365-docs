@@ -10,7 +10,7 @@ metadata:
   manager: debrajoh
   ms.audience: ITPro
   author: dansimp
-  ms.date: 05/20/2025
+  ms.date: 03/18/2026
   brand: m365
 
 sections:
@@ -48,12 +48,12 @@ sections:
             url: microsoft-365-copilot-overview.md
             text: Learn more
       - componentType: card
-        title: Agents
-        summary: Customize Microsoft 365 Copilot with agents that can perform tasks, use tools, and connect to other systems.
+        title: Agents and connectors
+        summary: Customize Microsoft 365 Copilot with agents that can perform tasks, use tools, and connect to other systems. Add knowledge to Copilot and agents with Microsoft 365 Copilot connectors.
         imageUrl: media/microsoft-365-copilot-hub/copilot-hub-work-3.jpg
         links:
           - componentType: link
-            url: /microsoft-365-copilot/extensibility/agents-overview
+            url: /microsoft-365-copilot/extensibility/overview
             text: Learn more
 
   # Video - Compare Microsoft 365 Copilot Chat and Microsoft 365 Copilot
