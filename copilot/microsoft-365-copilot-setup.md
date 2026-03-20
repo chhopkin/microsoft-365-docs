@@ -64,7 +64,7 @@ To ensure a smooth transition to Microsoft 365 Copilot, use the following readin
 
 - **Review SharePoint Search and Advanced Management Policies**: Use SharePoint Advanced Management to control access to content, prevent oversharing, and manage content lifecycle. For more information, see [Get ready for Microsoft 365 Copilot with SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management).
 
-  Additionally, consider implementing restricted SharePoint search to limit the discoverability of sensitive content. For more information, see [Address oversharing concerns in Microsoft 365 Copilot deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md).
+  Additionally, consider implementing restricted SharePoint search to limit the discoverability of sensitive content. For more information, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](secure-govern-copilot-foundational-deployment-guidance.md).
 
 - **Ensure network compliance**: Make sure that your network meets the requirements for Microsoft 365 Copilot services. For more information, see [Microsoft 365 Copilot network requirements](microsoft-365-copilot-requirements.md#network-requirements).
 
@@ -108,7 +108,7 @@ To protect sensitive information during the deployment and use of Microsoft 365 
 
 - **Implement access controls and labeling**: Start a SharePoint Advanced Management Access Review for all sites that are overshared. Then apply restricted access control on business-critical sites. For more information, see [Get ready for Microsoft 365 Copilot with SharePoint Advanced Management)](/sharepoint/get-ready-copilot-sharepoint-advanced-management).
 
-For detailed steps, see [Address internal oversharing concerns in Microsoft 365 Copilot deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md).
+For detailed steps, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](secure-govern-copilot-foundational-deployment-guidance.md).
 
 ## Get started and deploy
 
