@@ -45,7 +45,7 @@ The restore point frequency, also known as the [recovery point objective](backup
 
 > [!NOTE]
 > You can also use PowerShell cmdlets to perform these operations by following these steps:
-> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-forbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for OneDrive.
+> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-onedriveforbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for OneDrive.
 > 2. Scroll to the **Example request** section and select the **PowerShell** tab.
 > 3. Install the Microsoft.Graph.BackupRestore module as shown in the example.
 > 4. Run the provided PowerShell command in an Admin PowerShell session to execute the desired action.
@@ -111,10 +111,12 @@ Follow these steps to restore data backed up for OneDrive.
 
     ![Screenshot showing the Review and finish page for OneDrive.](../media/m365-backup/backup-onedrive-review-finish.png)
 
-### Option 2: Selected content only (preview)
+### Option 2: Selected content only
 
 
 Use this option to perform a restore of only selected files and folders from a protected OneDrive account's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **OneDrive** section, select **Restore**.  In this flow, the **Restore specific files or folders** option gives Microsoft 365 Backup admins the capability to restore a subset of the account's files and folders from a specific restore point. 
+> [!IMPORTANT]
+> To use this feature, users must be assigned the **SharePoint Backup Admin role**.
 
 ![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
@@ -196,7 +198,8 @@ Follow these steps to restore data backed up for SharePoint.
 ### Option 2: Selected content only 
 
 Use this option to perform a restore of only selected files and folders from a protected SharePoint site's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **SharePoint** section, select **Restore**. In this flow, the **Restore specific files or folders** option gives Microsoft 365 Backup admins the capability to restore a subset of the site's files and folders from a specific restore point.
-To use this feature, users must be assigned the **SharePoint Backup Admin or Exchange Backup Admin role**.
+> [!IMPORTANT]
+> To use this feature, users must be assigned the **SharePoint Backup Admin role**.
 
 ![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
@@ -212,8 +215,6 @@ To use this feature, users must be assigned the **SharePoint Backup Admin or Exc
    
    The search bar, which is visible only when you are at the root of the document library, can be used to find any matching files or folders within that document library.
    ![Screenshot that shows the GR search step.](media/backup-restore-data/gr-search.png)
-
-
 
 5. Once you have selected your desired files and folders, click **Next** to move to the review step before restoring.
 6. On the **Review and Finish** page, review and finish all your choices. If everything looks as you want it, select **Start restoration**.
