@@ -9,6 +9,7 @@ ms.date: 11/17/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
+ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
@@ -33,7 +34,7 @@ You can create your own handoff topics for specialized scenarios by using the sa
 
 ### Locate the GPT ID of an agent
 
-You need the GPT ID for Step 3 of [How to use the Sample Template:](#how-to-use-the-sample-template). To identify the GPT ID of your Copilot Agent in Microsoft 365 Chat, follow these steps:
+You need the GPT ID for Step 3 of [How to use the Sample Template](#how-to-use-the-sample-template). To identify the GPT ID of your Copilot Agent in Microsoft 365 Chat, follow these steps:
 
 1. **Open Developer Tools**
     1. In your browser, open the Microsoft 365 Chat experience.
