@@ -56,7 +56,7 @@ Solution accelerator packages come with a few components, like connectors, topic
 
 ### Instructions
 
-LLM (Large Language Model) experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses.[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
+LLM (Large Language Model) experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses. [Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
 ## Response quality
 
