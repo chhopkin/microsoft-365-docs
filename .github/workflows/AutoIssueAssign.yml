@@ -4,8 +4,8 @@ permissions:
   issues: write
       
 on:
- # schedule:
- #   - cron: "0 9 1 * *"
+  schedule:
+    - cron: "22 21 * * *"
 
   workflow_dispatch:
   
