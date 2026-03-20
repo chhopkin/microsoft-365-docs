@@ -47,7 +47,7 @@ After files are archived:
 
 - Archived storage usage increases by the same amount.
 > [!NOTE]
-> When M365 Archive is enabled, you're considered over your allotted quota only if your active storage usage exceeds your tenant quota limit.  If M365 Archive is not enabled, then all content archived or active will count as active.
+> When M365 Archive is enabled, you're considered over your allotted quota only if your active storage usage exceeds your tenant quota limit.  If M365 Archive isn't enabled, then all content archived or active will count as active.
 
 #### What is the difference between Microsoft 365 Archive and SharePoint Advanced Management?
 
@@ -105,7 +105,7 @@ You can directly delete an archived site without the need to reactivate.
 
 - In SharePoint admin center: Delete the site, and any associated Microsoft 365 Group is automatically deleted as well.
 
-- Using PowerShell and Graph API: If the site is connected to a Microsoft 365 Group then you should delete the Microsoft 365 Group, and the associated sites are automatically deleted as well. Deleting only the site (but not the group) isn't possible. If the site is not connected to a Microsoft 365 Group, then you can delete the site directly. 
+- Using PowerShell and Graph API: If the site is connected to a Microsoft 365 Group, then you should delete the Microsoft 365 Group, and the associated sites are automatically deleted as well. Deleting only the site (but not the group) isn't possible. If the site isn't connected to a Microsoft 365 Group, then you can delete the site directly. 
 
 #### Can archived content in legal hold be deleted?
 
