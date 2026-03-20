@@ -125,6 +125,11 @@ Use the Exchange admin center (EAC) to assign permissions to users. The followin
 
 For more information, see [Manage role groups in Exchange Online](/exchange/permissions-exo/role-groups). For a detailed description of the different roles, see [Role assignment policies in Exchange Online](/exchange/permissions-exo/role-assignment-policies).
 
+### Check the AppsForOfficeEnabled parameter
+If you're deploying Office add-ins and none are showing up, then as a first troubleshooting step, use the `Get-OrganizationConfig | fl AppsForOfficeEnabled` PowerShell command. If the query returns a value of **False**, set this parameter to **True** using the `Set-OrganizationConfig -AppsForOfficeEnabled:$True` command. The add-ins should then appear as expected.
+
+We don't recommend that the **AppsForOfficeEnabled** parameter be set to **False**. A value of **False** overrides all the Administrative and User role settings and prevent any new apps from being activated by any user in the organization.
+
 ### Admin requirements
 
 To deploy an add-in through centralized deployment, you need to be an Exchange admin in the organization.
