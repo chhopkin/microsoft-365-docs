@@ -37,6 +37,18 @@ File-level archive is currently available only on SharePoint sites. Other limita
 
 File-level archive doesn’t change site storage usage or quota behavior. Archived files are accounted for in site storage the same way as active files. Archiving a file doesn’t reduce reported storage usage, change storage calculations, or affect quota enforcement. Because archived files continue to consume site storage, file-level archive can’t be used to reduce storage usage or store data beyond a site’s allocated quota.
 
+#### How does file-level archive (preview) impact my tenant-level storage?
+
+File‑level archive and site‑level archive affect tenant‑level storage in the same way. Archived files and sites still count toward your total tenant storage. However, the archived data is counted as **archived storage** instead of active SharePoint storage. Archiving data doesn’t remove it from your tenant’s total storage usage. Instead, the data is reclassified from active storage to archived storage.
+
+After files are archived:
+
+- Active storage usage decreases.
+
+- Archived storage usage increases by the same amount.
+> [!NOTE]
+> When M365 Archive is enabled, you are considered over your allotted quota only if your active storage usage exceeds your tenant quota limit.  If M365 Archive is not enabled, then all content archived or active will count as active.
+
 #### What is the difference between Microsoft 365 Archive and SharePoint Advanced Management?
 
 - Microsoft 365 Archive gives the ability to archive a site in SharePoint.
