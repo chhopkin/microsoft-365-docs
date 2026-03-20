@@ -3,7 +3,6 @@ title: "Microsoft 365 Copilot Agent usage report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 10/02/2024
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -23,7 +22,10 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
+ROBOTS: NOINDEX, NOFOLLOW
+ai-usage: ai-assisted
 description: "Learn about agent usage in Microsoft 365 Copilot and gain insights into the Microsoft 365 Copilot activity in your organization."
+ms.date: 03/20/2026
 ---
 
 # Microsoft 365 Copilot Agent usage report - Microsoft 365 admin center

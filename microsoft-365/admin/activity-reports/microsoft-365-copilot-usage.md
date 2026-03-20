@@ -24,8 +24,9 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
+ai-usage: ai-assisted
 description: "Learn how to get the Microsoft 365 Copilot usage report and gain insights into the Microsoft 365 Copilot activity in your organization."
-ms.date: 10/08/2025
+ms.date: 03/20/2026
 ---
 
 # Microsoft 365 Copilot usage report - Microsoft 365 admin center

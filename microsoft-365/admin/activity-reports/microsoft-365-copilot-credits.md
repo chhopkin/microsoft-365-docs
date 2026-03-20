@@ -9,19 +9,20 @@ ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection:
-  - Tier1
-  - scotvorg
-  - M365-subscription-management
-  - Adm_O365
-  - Adm_TOC
-  - m365copilot
-  - magic-ai-copilot
-  - operations-pod
+- Tier1
+- scotvorg
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+- m365copilot
+- magic-ai-copilot
+- operations-pod
 ms.custom:
 - GAUpdates
 ROBOTS: NOINDEX, NOFOLLOW
+ai-usage: ai-assisted
 description: Discover how to use the Copilot credits report in the Microsoft 365 admin center to analyze credit usage, set alerts, and control pay-as-you-go costs.
-ms.date: 02/13/2026
+ms.date: 03/20/2026
 ---
 
 # Microsoft 365 Copilot credits report - Microsoft 365 admin center

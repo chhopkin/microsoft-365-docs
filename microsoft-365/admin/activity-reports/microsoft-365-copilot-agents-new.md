@@ -21,9 +21,9 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
+ai-usage: ai-assisted
 description: "Learn to interpret Microsoft 365 Copilot Agent usage reports in the admin center. Monitor agent activity, track user engagement, and analyze performance metrics across your organization."
-ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 02/13/2026
+ms.date: 03/20/2026
 ---
 
 # Microsoft 365 Copilot Agent usage report - Microsoft 365 admin center
@@ -48,7 +48,7 @@ For information about the roles needed to view usage reports, see [Microsoft 365
 
 ## Interpret the Agent usage report
 
-Use the Microsoft 365 Copiot Agent usage report to see the usage of agents in your organization that your organization, Microsoft, or Microsoft Partners built. These agents include agents that an admin approves and agents that users create through agent builder and share with users in your org. Admins can manage agents in the same way as they manage any other app in the Copilot Control system section of the Microsoft 365 admin center. For more information, see [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).  
+Use the Agent usage report to see the usage of agents in your organization that your organization, Microsoft, or Microsoft Partners built. These agents include agents that an admin approves and agents that users create through agent builder and share with users in your org. Admins can manage agents in the same way as they manage any other app in the Copilot Control system section of the Microsoft 365 admin center. For more information, see [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).  
 
 At the top of the report, you can filter by different periods. You can view the agent report over the last 7 days or 30 days.
 

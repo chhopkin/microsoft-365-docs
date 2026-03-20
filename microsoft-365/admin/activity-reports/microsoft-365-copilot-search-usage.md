@@ -19,8 +19,9 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
+ai-usage: ai-assisted
 description: "Learn about search usage in Microsoft 365 Copilot and gain insights into the Microsoft 365 Copilot activity in your organization."
-ms.date: 08/21/2025
+ms.date: 03/20/2026
 ---
 
 # Microsoft 365 Copilot Search usage report - Microsoft 365 admin center

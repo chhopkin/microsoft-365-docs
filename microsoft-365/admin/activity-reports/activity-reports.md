@@ -23,9 +23,10 @@ search.appverid:
 - MET150
 - MOE150
 - GEA150
+ai-usage: ai-assisted
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: "Learn how to use Microsoft 365 admin center usage reports to analyze user activity, manage licenses, and enhance your organization's efficiency. Get insights into service usage patterns and optimize your Microsoft 365 deployment."
-ms.date: 02/13/2026
+ms.date: 03/20/2026
 ---
 
 # Microsoft 365 admin center usage reports overview
@@ -56,8 +57,7 @@ To view the reports, you must have one of the following permissions:
 - Teams Administrator
 - Teams Communications Administrator
 - User Experience Success Manager (with no user details)
-
-- AI Administrators
+- AI Administrator
 
 For more information, see [About admin roles](../add-users/about-admin-roles.md) and [Assign admin roles](../add-users/assign-admin-roles.md).
 
