@@ -447,15 +447,15 @@ items:
           href: app-builder-privacy-data-subject-request-faq.md
         - name: App Builder privacy and data subject request (DSR) FAQ
           href: responsible-ai/faq-app-builder.md
-      - name: Cowork agent (Frontier)
+      - name: Copilot Cowork agent (Frontier)
         items:
-        - name: Overview of Cowork agent
+        - name: Overview of Copilot Cowork agent
           href: cowork/index.md
         - name: Get started
           href: cowork/get-started.md
-        - name: Use Cowork agent
+        - name: Use Copilot Cowork agent
           href: cowork/use-cowork-agent.md
-        - name: Cowork agent common questions
+        - name: Copilot Cowork agent common questions
           href: cowork/cowork-agent-faq.md
         - name: Responsible AI overview
           href: responsible-ai/cowork-agent-responsible-ai-overview.md
