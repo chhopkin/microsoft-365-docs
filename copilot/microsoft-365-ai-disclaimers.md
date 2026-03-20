@@ -25,7 +25,7 @@ The AI disclaimer appears in the following apps: Word, Excel, PowerPoint, Outloo
 To turn on the Copilot AI disclaimer, you need to be assigned the AI Administrator role. For more information about the types of administrator roles, see [Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference).
 
 > [!NOTE]
-> Turning on this setting will create a tenant policy in Apps admin center. The policy name in the Apps admin center is **Copilot AI Disclaimer**.
+> Turning on this setting in the Microsoft 365 admin center automatically creates a tenant-level policy named **Copilot AI Disclaimer** in the **Microsoft 365 Apps admin center**. If an existing tenant-level policy group is present, the policy is added to that group; otherwise, a new tenant-level policy group is created.
 
 ## Turn on Microsoft 365 Copilot AI disclaimers
 
