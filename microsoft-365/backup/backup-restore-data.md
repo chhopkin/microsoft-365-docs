@@ -45,7 +45,7 @@ The restore point frequency, also known as the [recovery point objective](backup
 
 > [!NOTE]
 > You can also use PowerShell cmdlets to perform these operations by following these steps:
-> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-forbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for OneDrive.
+> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-onedriveforbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for OneDrive.
 > 2. Scroll to the **Example request** section and select the **PowerShell** tab.
 > 3. Install the Microsoft.Graph.BackupRestore module as shown in the example.
 > 4. Run the provided PowerShell command in an Admin PowerShell session to execute the desired action.
