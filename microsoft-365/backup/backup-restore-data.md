@@ -22,10 +22,10 @@ Once you back up your data, you might need to restore the data if there was an a
 
 As part of restoring data from backup, admin needs to choose a *restore point* manually or from a tool-recommended OneDrive or SharePoint *express restore point*. A restore point is a prior point in time from which you can restore a healthy version of your content or metadata. For Exchange Online, if the data from a prior point in time is identical to the present state of your data, then there will be no items restored, including Restore to a new folder.
 
-Currently, you can restore OneDrive accounts, SharePoint sites, and Exchange mailbox content from specific prior points in time from the backups.
+Currently, you can restore  accounts, SharePoint sites, and Exchange mailbox content from specific prior points in time from the backups.
 
 > [!IMPORTANT]
-> Granular restore is available in preview for SharePoint sites and OneDrive accounts. In addition to being able to restore the entire site or account, Microsoft 365 Backup admins can now restore files and folders by browsing and searching a restore point within protected sites and accounts. 
+> Granular restore is now generally available for SharePoint sites and  accounts. Beyond full site/account restores, M365 Backup admins can browse and search restore points to recover specific files and folders.
 
 </br>
 
@@ -39,12 +39,13 @@ The restore point frequency, also known as the [recovery point objective](backup
 
 |Type  |RPO for 0-14 days in the past  |RPO for 15-365 days in the past  |
 |---------|---------|---------|
-|Full OneDrive account and full SharePoint site restore    |10 minutes     |One week     |
+|Full  account and full SharePoint site restore    |10 minutes     |One week     |
 |Exchange Online   |10 minutes         |10 minutes         |
+|File and folder restore in SharePoint and    | Daily   |One week        |
 
 > [!NOTE]
 > You can also use PowerShell cmdlets to perform these operations by following these steps:
-> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-onedriveforbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for Onedrive.
+> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-onedriveforbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for OneDrive.
 > 2. Scroll to the **Example request** section and select the **PowerShell** tab.
 > 3. Install the Microsoft.Graph.BackupRestore module as shown in the example.
 > 4. Run the provided PowerShell command in an Admin PowerShell session to execute the desired action.
@@ -110,10 +111,12 @@ Follow these steps to restore data backed up for OneDrive.
 
     ![Screenshot showing the Review and finish page for OneDrive.](../media/m365-backup/backup-onedrive-review-finish.png)
 
-### Option 2: Selected content only (preview)
+### Option 2: Selected content only
 
 
 Use this option to perform a restore of only selected files and folders from a protected OneDrive account's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **OneDrive** section, select **Restore**.  In this flow, the **Restore specific files or folders** option gives Microsoft 365 Backup admins the capability to restore a subset of the account's files and folders from a specific restore point. 
+> [!IMPORTANT]
+> To use this feature, users must be assigned the **SharePoint Backup Admin role**.
 
 ![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
@@ -192,9 +195,11 @@ Follow these steps to restore data backed up for SharePoint.
 
     ![Screenshot showing the Review and finish page for SharePoint.](../media/m365-backup/backup-sharepoint-review-finish.png)
    
-### Option 2: Selected content only (preview)
+### Option 2: Selected content only 
 
 Use this option to perform a restore of only selected files and folders from a protected SharePoint site's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **SharePoint** section, select **Restore**. In this flow, the **Restore specific files or folders** option gives Microsoft 365 Backup admins the capability to restore a subset of the site's files and folders from a specific restore point.
+> [!IMPORTANT]
+> To use this feature, users must be assigned the **SharePoint Backup Admin role**.
 
 ![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
@@ -210,8 +215,6 @@ Use this option to perform a restore of only selected files and folders from a p
    
    The search bar, which is visible only when you are at the root of the document library, can be used to find any matching files or folders within that document library.
    ![Screenshot that shows the GR search step.](media/backup-restore-data/gr-search.png)
-
-
 
 5. Once you have selected your desired files and folders, click **Next** to move to the review step before restoring.
 6. On the **Review and Finish** page, review and finish all your choices. If everything looks as you want it, select **Start restoration**.
@@ -260,7 +263,7 @@ Follow these steps to restore data backed up for Exchange.
 
 ### Option 2: Selected content only
 
-1. Use this option to perform a partial mailbox restore based on specific search criteria. On the **Content scope** page, the **Selected content only** option gives the admin the ability to do a granular restore (not full mailbox restore).
+1. Use this option to perform a partial mailbox restore based on specific search criteria. On the **Content scope** page, the **Selected content only** option gives the admin the ability to do a granular restore (not full mailbox restore). 
 
     ![Screenshot showing the Content scope page with the Selected content only option selected.](../media/m365-backup/backup-exchange-content-scope-selected.png)
 
@@ -339,7 +342,7 @@ Microsoft 365 Backup supports the backup and restoration of any site and user ac
     - OneDrive accounts and SharePoint sites being restored to a new URL have a read-only lock on that new URL. The [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can download documents or remove the read-only lock manually.
 
         [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
-
+      
 - Exchange
 
     - Mailbox draft items aren't backed up or restorable.

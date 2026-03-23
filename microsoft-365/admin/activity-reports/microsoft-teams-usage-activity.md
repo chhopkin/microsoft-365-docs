@@ -3,7 +3,7 @@ title: "Microsoft 365 admin center Teams usage activity reports"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 12/14/2023
+ms.date: 03/19/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -63,6 +63,9 @@ You can also export the report data into an Excel .csv file by selecting the **E
 
 The **Microsoft Teams usage activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you select a particular day in the report, the table will show data for up to 28 days from the current date (not the date the report was generated).
 
+> [!NOTE]
+> Activity dates in this report are based on Coordinated Universal Time (UTC). Post counts attributed to a given day reflect messages sent between 12:00 AM and 11:59 PM UTC, which may differ from your organization's local time zone.
+
 To ensure data quality, we perform daily data validation checks for the past three days and will be filling any gaps detected. You may notice differences in historical data during the process.
 
 > [!Important]
@@ -105,7 +108,7 @@ Data for following metrics are available for individual teams.
 |Active channels|Valid channels in active teams that have at least one active user in the specified time period. This includes public, private, or shared channels.|
 |Active shared channels|Valid shared channels in active teams that have at least one active user in the specified time. <br/><br/>A shared channel is defined as a Teams channel that can be shared with people outside the team. These people can be inside your organization or from other Microsoft Entra organizations.<br/><br/>**NOTE:** For shared channels that include external users, the report might undercount the number of active shared channels due to current telemetry limitations. |
 |Total organized meetings |The sum of one-time scheduled, recurring, ad hoc and unclassified meetings a user organized during the specified time period.|
-|Posts|Count of all the post messages in channels in the specified time period.|
+|Posts|Count of all the post messages originally created in a channel during the specified time period. Cross-posted messages are counted only in the channel where they were originally created and are not included in the post count of channels that received the cross-post.|
 |Replies|Count of all the reply messages in channels in the specified time period.|
 |Mentions|Count of all mentions made in the specified time period.|
 |Reactions|Number of reactions an active user made in the specified time period.|
