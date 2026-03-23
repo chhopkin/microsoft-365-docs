@@ -1,5 +1,5 @@
 ---
-title: "Plan for change management in Microsoft 365"
+title: "Manage continuous change in Microsoft 365"
 f1.keywords:
 - CSH
 ms.author: mabond
