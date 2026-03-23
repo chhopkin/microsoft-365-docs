@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 03/10/2026
+ms.date: 03/24/2026
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -31,6 +31,425 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 
 <!--- All features regardless of platform go here  -->
 <!-- 101270,100818,110355,80610,109718,101645,100669,100610,100361,100356,100354,98694 -->
+
+
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+### Microsoft 365 Copilot app
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+
+
+
+### Microsoft 365 Copilot Chat
+- **Summarize and Explain actions in PDF reader** [Web]
+
+  Two new Copilot actions—Summarize and Explain—are now available in the Microsoft Edge PDF reader to help users understand content faster.
+
+  **Roadmap ID:** [498641](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=498641)
+
+
+  **Details:**
+
+  **What changed:** The built in PDF reader now includes Summarize and Explain options alongside the existing Ask Copilot integration. Users can generate overviews or simplify complex text directly within the PDF experience.
+
+  **Why:** These additions help users quickly interpret long or complex documents without leaving the PDF reader.
+
+
+  **Try this:**
+
+  - Open a PDF in Microsoft Edge and select Summarize to get a concise overview.
+  - Highlight a section of text and choose Explain to simplify technical or dense content.
+  - Use these actions to prepare for meetings or review documents more efficiently.
+
+  **Why this matters:**
+
+  **Business impact:** Improves document review workflows and reduces time spent interpreting complex PDFs.
+
+  **Personal impact:** Helps users understand information more quickly and with less effort.
+
+
+
+
+
+
+
+
+
+
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
+
+
+### Microsoft 365 Copilot extensibility
+- **Query Coda docs and wikis with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Coda with Copilot connectors so you can query collaborative documents and wikis from Copilot. 
+
+  **Roadmap ID:** [515165](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515165)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports a Coda Enterprise Copilot connector that can index Coda documents and pages for use in Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps people find knowledge stored in Coda without leaving Microsoft 365. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Coda with a Copilot connector.
+  - Ask Copilot to summarize content in a Coda workspace.
+  - Ask Copilot to retrieve the URL for a specific Coda document.
+
+  **Why this matters:**
+
+  **Business impact:** Improves knowledge discovery by making Coda content available in Microsoft 365 Copilot and Microsoft Search. 
+
+
+  **Personal impact:** Makes it easier to get answers from Coda docs and wikis using natural language.
+
+- **Query Bitbucket pull requests with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Bitbucket with Copilot connectors so you can query pull requests and related engineering context.
+
+  **Roadmap ID:** [515163](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515163)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports a Bitbucket Pull Request Copilot connector that brings pull request information into Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps teams find pull request details through Microsoft 365 tools they already use.
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Bitbucket with a Copilot connector. 
+  - Ask Copilot to find pull requests related to a repository or feature. 
+  - Ask Copilot to summarize the discussion and status of a pull request.
+
+  **Why this matters:**
+
+  **Business impact:** Surfaces pull request context in Microsoft 365 Copilot to speed up collaboration and reviews. 
+
+  **Personal impact:** Makes it easier to understand a pull request without switching apps.
+
+
+
+- **Copilot Chat recommends installed agents** [Windows, Web]
+
+  Copilot Chat now recommends relevant installed agents when it detects a match with the user’s intent.
+
+  **Details:**
+
+  **What changed:** When a user’s prompt aligns with the capabilities of an installed agent, Copilot Chat will suggest that agent directly in the conversation. Previously, users had to know which agent to invoke.
+
+  **Why:** This helps users discover and use the right agent at the right time, improving task completion and reducing friction.
+
+  **Try this:**
+
+  - Ask Copilot Chat to perform a task that aligns with one of your installed agents.
+  - Select the recommended agent when it appears in the chat.
+  - Continue the conversation using the agent’s specialized capabilities.
+
+  **Why this matters:**
+
+  **Business impact:** Increases utilization of installed agents and improves workflow efficiency.
+
+  **Personal impact:** Makes it easier to find the right tool without remembering agent names.
+
+
+
+
+
+
+
+
+
+- **Connect Copilot with Zendesk Help Center to retrieve support articles** [Web] 
+
+  Users can connect Microsoft 365 Copilot with Zendesk Help Center to retrieve support articles and FAQs using the Copilot Connector.
+
+  **Roadmap ID:** [513279]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513279)
+
+  **Details:**
+
+  **What changed:** Copilot can now search and summarize content from Zendesk Help Center, including help articles, troubleshooting steps, and FAQs.
+
+  **Why:** This integration helps support teams get faster access to the information they need to resolve issues.
+
+  **Try this:**
+
+  -	Ask Copilot to summarize a Zendesk article related to an open issue.
+  -	Retrieve common FAQs from Zendesk.
+  -	Request recommended troubleshooting steps from Zendesk content.
+
+  **Why this matters:**
+
+  **Business impact:** Speeds up support workflows and improves response quality.
+
+  **Personal impact:** Helps support agents resolve customer issues faster.
+
+  ****Additional resources:****
+
+  **Learn:**
+
+  [Zendesk Help Center Microsoft 365 Copilot connector overview](/microsoftsearch/zendesk-help-center-overview)
+
+
+
+- **Query GitLab merge requests and content with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to GitLab with Copilot connectors so you can query merge requests and related repository activity. 
+
+  Roadmap ID: [515162](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515162)
+
+  **Details:**
+
+  **What changed:**
+  Microsoft 365 Copilot now supports GitLab merge request connectors, making merge request information discoverable and retrievable in Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:**
+  This change reduces context switching by bringing merge request information into Microsoft 365 workflows.
+
+  **Try this:**
+
+  -	Connect Microsoft 365 Copilot to GitLab with a Copilot connector. 
+  -	Ask Copilot to list open merge requests waiting for review. 
+  -	Ask Copilot to summarize merge requests targeting a release branch. 
+
+  **Why this matters:**
+
+  **Business impact:** Improves visibility into engineering work by bringing merge request context into Microsoft 365 experiences. 
+
+  **Personal impact:** Helps you find and summarize merge requests faster using natural language.
+
+
+
+
+
+- **Track GitLab issues in Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to GitLab Issues with Copilot connectors so you can query engineering tasks and bugs from Copilot. 
+
+  **Roadmap ID:** [515158](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515158)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports GitLab Issues connectors that can index issue data and make it available in Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps teams retrieve issue details, assignments, and context without leaving Microsoft 365 workflows. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to GitLab Issues with a Copilot connector.
+  - Ask Copilot to summarize high-priority issues for a release milestone.
+  - Ask Copilot to list blocked issues and their owners.
+
+  **Why this matters:**
+
+  **Business impact:** Improves visibility into work tracking by surfacing GitLab issues in Microsoft 365 Copilot.  
+
+  **Personal impact:** Makes it easier to find issue context and stay on top of tasks using natural language.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [GitLab Issues Server Microsoft 365 Copilot connector overview](/microsoftsearch/gitlab-issues-server-overview)
+
+
+
+- **Bring Asana tasks into Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to Asana with a Copilot connector so you can query projects and tasks from within Microsoft 365.
+
+  **Roadmap ID:** [515175](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515175)
+
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports an Asana Copilot connector that can index Asana tasks for use in Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:** This change helps people access project and task information in the flow of work. 
+
+  **Try this:**
+
+  -	Connect Microsoft 365 Copilot to Asana with a Copilot connector. 
+  -	Ask Copilot to summarize tasks and deadlines across projects. 
+  -	Ask Copilot to list overdue tasks in a project.
+
+  **Why this matters:**
+
+  **Business impact:** Improves project tracking by bringing Asana task data into Microsoft 365 Copilot and search experiences. 
+
+  **Personal impact:** Helps you stay on top of tasks without switching tools.
+
+  ****Additional resources:****
+
+  **Learn:**
+
+
+  [Asana Microsoft 365 Copilot connector overview](/microsoftsearch/asana-overview)
+
+
+
+- **Connect Copilot with Egnyte for secure file collaboration** [Web]
+
+  Users can connect Microsoft 365 Copilot with Egnyte to collaborate on secure file storage using the Copilot Connector.
+
+  **Roadmap ID:** [513283]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513283)
+
+  **Details:**
+
+  **What changed:** Copilot can now access files stored in Egnyte, allowing users to retrieve, summarize, and interact with content without manually opening those files.
+
+  **Why:** This integration supports organizations that rely on Egnyte for secure file storage and governance.
+
+  **Try this:**
+
+  -	Ask Copilot to summarize a document stored in Egnyte.
+  -	Retrieve key insights from Egnyte folders.
+  -	Request a list of recent Egnyte updates relevant to your team.
+
+  **Why this matters:**
+
+  **Business impact:** Supports secure and compliant integration with existing file storage systems.
+
+  **Personal impact:** Helps users quickly access and understand stored content.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Egnyte Microsoft 365 Copilot connector overview](/microsoftsearch/egnyte-overview)
+
+- **Search Aha! features and ideas in Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to Aha! with Copilot connectors so you can query product features and customer ideas in Copilot.
+
+  **Roadmap ID:** [515159](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515159)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports an Aha! Copilot connector that can index Aha! features and ideas and make them discoverable through Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:** This change helps product and engineering teams find roadmap and feedback context in Microsoft 365 workflows. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Aha! with a Copilot connector.
+  - Ask Copilot to list features assigned to you in Aha!. 
+  - Ask Copilot to show ideas with the highest number of votes. 
+
+  **Why this matters:**
+
+  **Business impact:** Improves cross-team alignment by making Aha! roadmap and feedback content easier to find in Microsoft 365. 
+
+  **Personal impact:** Helps you answer product questions faster without leaving Microsoft 365.
+
+
+
+
+- **Connect Copilot to Smartsheet for project and task management** [Web]
+
+  Microsoft Copilot (Microsoft 365) can now connect to Smartsheet so users can work with collaborative projects and tasks through a Copilot connector.
+
+  **Details:** 
+
+  **What changed:** A new Copilot connector allows Microsoft 365 Copilot to access project and task information stored in Smartsheet.
+
+  **Why:** Many teams manage collaborative projects in Smartsheet and want Copilot to reference that information without switching tools.
+
+  **Try this:**
+
+  - Configure the Smartsheet Copilot connector for your organization.
+  - Ask Copilot to find, summarize, or reference projects and tasks stored in Smartsheet.
+
+  **Why this matters:**
+
+  **Business impact:** Enables teams to work with Smartsheet project data directly in Copilot workflows, improving visibility and coordination.
+
+  **Personal impact:** Helps individuals understand project status and tasks more quickly using Copilot.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Smartsheet Sheet Microsoft 365 Copilot connector overview](/microsoftsearch/smartsheet-sheet-overview)
+
+
+- **Faster connector authentication setup for Gong, GitHub, and Monday** [Web]
+
+  Admins can now set up authentication for Gong, GitHub, and Monday connectors using a simplified, faster OAuth experience.
+
+  **Details:**
+
+  **What changed:**
+  The connector setup flow now uses a streamlined OAuth process that replaces lengthy manual steps. Admins can complete authentication in minutes instead of hours.
+
+  **Why:**
+  This update reduces friction for IT teams and aligns connector setup with modern authentication standards.
+
+  **Try this:**
+  - Open the Microsoft 365 admin center and start configuring one of the supported connectors.
+  - Follow the guided OAuth prompts to complete authentication.
+  - Review your connector list to confirm the setup is complete.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces setup time and administrative overhead for connector deployment.
+
+  **Personal impact:** Makes it easier for admins to configure connectors confidently and quickly.
+
+
+
 
 ## March 10, 2026
 Updates released between February 24, 2026, March 10, 2026
@@ -5911,6 +6330,66 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Windows](#tab/win)
 
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+
+### Microsoft 365 Copilot app
+
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
+
 ## March 10, 2026
 Updates released between February 24, 2026, and March 10, 2026.
 
@@ -8491,6 +8970,410 @@ Updates released between December 18, 2024, and January 7, 2025.
 <!-- 100671,100312,96561,96560,96300,104967,104073,102626,101108,97855 -->
 
 ## [Web](#tab/Web)
+
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+
+### Microsoft 365 Copilot app
+
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Summarize and Explain actions in PDF reader** [Web]
+
+  Two new Copilot actions—Summarize and Explain—are now available in the Microsoft Edge PDF reader to help users understand content faster.
+
+  **Roadmap ID:** [498641](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=498641)
+
+
+  **Details:**
+
+  **What changed:** The built in PDF reader now includes Summarize and Explain options alongside the existing Ask Copilot integration. Users can generate overviews or simplify complex text directly within the PDF experience.
+
+  **Why:** These additions help users quickly interpret long or complex documents without leaving the PDF reader.
+
+
+  **Try this:**
+
+  - Open a PDF in Microsoft Edge and select Summarize to get a concise overview.
+  - Highlight a section of text and choose Explain to simplify technical or dense content.
+  - Use these actions to prepare for meetings or review documents more efficiently.
+
+  **Why this matters:**
+
+  **Business impact:** Improves document review workflows and reduces time spent interpreting complex PDFs.
+
+  **Personal impact:** Helps users understand information more quickly and with less effort.
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
+
+### Microsoft 365 Copilot extensibility
+- **Query Coda docs and wikis with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Coda with Copilot connectors so you can query collaborative documents and wikis from Copilot. 
+
+  **Roadmap ID:** [515165](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515165)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports a Coda Enterprise Copilot connector that can index Coda documents and pages for use in Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps people find knowledge stored in Coda without leaving Microsoft 365. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Coda with a Copilot connector.
+  - Ask Copilot to summarize content in a Coda workspace.
+  - Ask Copilot to retrieve the URL for a specific Coda document.
+
+  **Why this matters:**
+
+  **Business impact:** Improves knowledge discovery by making Coda content available in Microsoft 365 Copilot and Microsoft Search. 
+
+
+  **Personal impact:** Makes it easier to get answers from Coda docs and wikis using natural language.
+
+- **Query Bitbucket pull requests with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Bitbucket with Copilot connectors so you can query pull requests and related engineering context.
+
+  **Roadmap ID:** [515163](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515163)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports a Bitbucket Pull Request Copilot connector that brings pull request information into Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps teams find pull request details through Microsoft 365 tools they already use.
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Bitbucket with a Copilot connector. 
+  - Ask Copilot to find pull requests related to a repository or feature. 
+  - Ask Copilot to summarize the discussion and status of a pull request.
+
+  **Why this matters:**
+
+  **Business impact:** Surfaces pull request context in Microsoft 365 Copilot to speed up collaboration and reviews. 
+
+  **Personal impact:** Makes it easier to understand a pull request without switching apps.
+
+
+
+- **Copilot Chat recommends installed agents** [Windows, Web]
+
+  Copilot Chat now recommends relevant installed agents when it detects a match with the user’s intent.
+
+  **Details:**
+
+  **What changed:** When a user’s prompt aligns with the capabilities of an installed agent, Copilot Chat will suggest that agent directly in the conversation. Previously, users had to know which agent to invoke.
+
+  **Why:** This helps users discover and use the right agent at the right time, improving task completion and reducing friction.
+
+  **Try this:**
+
+  - Ask Copilot Chat to perform a task that aligns with one of your installed agents.
+  - Select the recommended agent when it appears in the chat.
+  - Continue the conversation using the agent’s specialized capabilities.
+
+  **Why this matters:**
+
+  **Business impact:** Increases utilization of installed agents and improves workflow efficiency.
+
+  **Personal impact:** Makes it easier to find the right tool without remembering agent names.
+
+
+
+
+
+
+
+
+
+- **Connect Copilot with Zendesk Help Center to retrieve support articles** [Web] 
+
+  Users can connect Microsoft 365 Copilot with Zendesk Help Center to retrieve support articles and FAQs using the Copilot Connector.
+
+  **Roadmap ID:** [513279]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513279)
+
+  **Details:**
+
+  **What changed:** Copilot can now search and summarize content from Zendesk Help Center, including help articles, troubleshooting steps, and FAQs.
+
+  **Why:** This integration helps support teams get faster access to the information they need to resolve issues.
+
+  **Try this:**
+
+  -	Ask Copilot to summarize a Zendesk article related to an open issue.
+  -	Retrieve common FAQs from Zendesk.
+  -	Request recommended troubleshooting steps from Zendesk content.
+
+  **Why this matters:**
+
+  **Business impact:** Speeds up support workflows and improves response quality.
+
+  **Personal impact:** Helps support agents resolve customer issues faster.
+
+  ****Additional resources:****
+
+  **Learn:**
+
+  [Zendesk Help Center Microsoft 365 Copilot connector overview](/microsoftsearch/zendesk-help-center-overview)
+
+
+
+- **Query GitLab merge requests and content with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to GitLab with Copilot connectors so you can query merge requests and related repository activity. 
+
+  Roadmap ID: [515162](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515162)
+
+  **Details:**
+
+  **What changed:**
+  Microsoft 365 Copilot now supports GitLab merge request connectors, making merge request information discoverable and retrievable in Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:**
+  This change reduces context switching by bringing merge request information into Microsoft 365 workflows.
+
+  **Try this:**
+
+  -	Connect Microsoft 365 Copilot to GitLab with a Copilot connector. 
+  -	Ask Copilot to list open merge requests waiting for review. 
+  -	Ask Copilot to summarize merge requests targeting a release branch. 
+
+  **Why this matters:**
+
+  **Business impact:** Improves visibility into engineering work by bringing merge request context into Microsoft 365 experiences. 
+
+  **Personal impact:** Helps you find and summarize merge requests faster using natural language.
+
+
+
+
+
+- **Track GitLab issues in Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to GitLab Issues with Copilot connectors so you can query engineering tasks and bugs from Copilot. 
+
+  **Roadmap ID:** [515158](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515158)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports GitLab Issues connectors that can index issue data and make it available in Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps teams retrieve issue details, assignments, and context without leaving Microsoft 365 workflows. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to GitLab Issues with a Copilot connector.
+  - Ask Copilot to summarize high-priority issues for a release milestone.
+  - Ask Copilot to list blocked issues and their owners.
+
+  **Why this matters:**
+
+  **Business impact:** Improves visibility into work tracking by surfacing GitLab issues in Microsoft 365 Copilot.  
+
+  **Personal impact:** Makes it easier to find issue context and stay on top of tasks using natural language.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [GitLab Issues Server Microsoft 365 Copilot connector overview](/microsoftsearch/gitlab-issues-server-overview)
+
+
+
+- **Bring Asana tasks into Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to Asana with a Copilot connector so you can query projects and tasks from within Microsoft 365.
+
+  **Roadmap ID:** [515175](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515175)
+
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports an Asana Copilot connector that can index Asana tasks for use in Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:** This change helps people access project and task information in the flow of work. 
+
+  **Try this:**
+
+  -	Connect Microsoft 365 Copilot to Asana with a Copilot connector. 
+  -	Ask Copilot to summarize tasks and deadlines across projects. 
+  -	Ask Copilot to list overdue tasks in a project.
+
+  **Why this matters:**
+
+  **Business impact:** Improves project tracking by bringing Asana task data into Microsoft 365 Copilot and search experiences. 
+
+  **Personal impact:** Helps you stay on top of tasks without switching tools.
+
+  ****Additional resources:****
+
+  **Learn:**
+
+
+  [Asana Microsoft 365 Copilot connector overview](/microsoftsearch/asana-overview)
+
+
+
+- **Connect Copilot with Egnyte for secure file collaboration** [Web]
+
+  Users can connect Microsoft 365 Copilot with Egnyte to collaborate on secure file storage using the Copilot Connector.
+
+  **Roadmap ID:** [513283]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513283)
+
+  **Details:**
+
+  **What changed:** Copilot can now access files stored in Egnyte, allowing users to retrieve, summarize, and interact with content without manually opening those files.
+
+  **Why:** This integration supports organizations that rely on Egnyte for secure file storage and governance.
+
+  **Try this:**
+
+  -	Ask Copilot to summarize a document stored in Egnyte.
+  -	Retrieve key insights from Egnyte folders.
+  -	Request a list of recent Egnyte updates relevant to your team.
+
+  **Why this matters:**
+
+  **Business impact:** Supports secure and compliant integration with existing file storage systems.
+
+  **Personal impact:** Helps users quickly access and understand stored content.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Egnyte Microsoft 365 Copilot connector overview](/microsoftsearch/egnyte-overview)
+
+- **Search Aha! features and ideas in Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to Aha! with Copilot connectors so you can query product features and customer ideas in Copilot.
+
+  **Roadmap ID:** [515159](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515159)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports an Aha! Copilot connector that can index Aha! features and ideas and make them discoverable through Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:** This change helps product and engineering teams find roadmap and feedback context in Microsoft 365 workflows. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Aha! with a Copilot connector.
+  - Ask Copilot to list features assigned to you in Aha!. 
+  - Ask Copilot to show ideas with the highest number of votes. 
+
+  **Why this matters:**
+
+  **Business impact:** Improves cross-team alignment by making Aha! roadmap and feedback content easier to find in Microsoft 365. 
+
+  **Personal impact:** Helps you answer product questions faster without leaving Microsoft 365.
+
+
+
+
+- **Connect Copilot to Smartsheet for project and task management** [Web]
+
+  Microsoft Copilot (Microsoft 365) can now connect to Smartsheet so users can work with collaborative projects and tasks through a Copilot connector.
+
+  **Details:** 
+
+  **What changed:** A new Copilot connector allows Microsoft 365 Copilot to access project and task information stored in Smartsheet.
+
+  **Why:** Many teams manage collaborative projects in Smartsheet and want Copilot to reference that information without switching tools.
+
+  **Try this:**
+
+  - Configure the Smartsheet Copilot connector for your organization.
+  - Ask Copilot to find, summarize, or reference projects and tasks stored in Smartsheet.
+
+  **Why this matters:**
+
+  **Business impact:** Enables teams to work with Smartsheet project data directly in Copilot workflows, improving visibility and coordination.
+
+  **Personal impact:** Helps individuals understand project status and tasks more quickly using Copilot.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Smartsheet Sheet Microsoft 365 Copilot connector overview](/microsoftsearch/smartsheet-sheet-overview)
+
+
+- **Faster connector authentication setup for Gong, GitHub, and Monday** [Web]
+
+  Admins can now set up authentication for Gong, GitHub, and Monday connectors using a simplified, faster OAuth experience.
+
+  **Details:**
+
+  **What changed:**
+  The connector setup flow now uses a streamlined OAuth process that replaces lengthy manual steps. Admins can complete authentication in minutes instead of hours.
+
+  **Why:**
+  This update reduces friction for IT teams and aligns connector setup with modern authentication standards.
+
+  **Try this:**
+  - Open the Microsoft 365 admin center and start configuring one of the supported connectors.
+  - Follow the guided OAuth prompts to complete authentication.
+  - Review your connector list to confirm the setup is complete.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces setup time and administrative overhead for connector deployment.
+
+  **Personal impact:** Makes it easier for admins to configure connectors confidently and quickly.
 
 ## March 10, 2026
 Updates released between February 24, 2026, March 10, 2026
@@ -13040,7 +13923,63 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Android](#tab/androidos)
 
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+### Microsoft 365 Copilot app
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
 
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
 
 ## January 27, 2026
 Updates released between January 13, 2025, and January 27, 2026.
@@ -13796,6 +14735,65 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [iOS](#tab/appleios)
 
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+
+### Microsoft 365 Copilot app
+
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
 
 ## January 27, 2026
 Updates released between January 13, 2025, and January 27, 2026.
@@ -14808,6 +15806,64 @@ Updates released between December 18, 2024, and January 7, 2025.
   Get suggestions for how to rewrite any text in your document, enhancing clarity and effectiveness. [Learn more](https://support.microsoft.com/topic/923d9763-f896-4da7-8a3f-5b12c3bfc475).
 
 ## [Mac](#tab/mac)
+
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+### Microsoft 365 Copilot app
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
 
 ## March 10, 2026
 Updates released between February 24, 2026, March 10, 2026
