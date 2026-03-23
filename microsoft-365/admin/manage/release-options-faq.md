@@ -26,7 +26,7 @@ appliesto:
 
 # Frequently asked questions about release options for Microsoft 365
 
-This article provides answers to frequently asked questions that IT admins might have about release options in Microsoft 365. For more information about release options in Microsoft 365, see [Plan for change management](plan-for-change-management.md) and [Configure release options](configure-release-options.md).
+This article provides answers to frequently asked questions that IT admins might have about release options in Microsoft 365. For more information about release options in Microsoft 365, see [Manage continuous change in Microsoft 365](plan-for-change-management.md) and [Configure release options](configure-release-options.md).
 
 ## What is the change management/audience model and how does it affect my organization?
 
@@ -68,6 +68,6 @@ No. For information about release options for Microsoft 365 Apps, see [Overview 
 
 [Configure release options for Microsoft 365](configure-release-options.md)
 
-[Plan for change management in Microsoft 365](plan-for-change-management.md)
+[Manage continuous change in Microsoft 365](plan-for-change-management.md)
 
 [Message center in the Microsoft 365 admin center](message-center.md)

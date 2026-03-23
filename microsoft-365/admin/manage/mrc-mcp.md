@@ -86,21 +86,21 @@ The high-level process is the following:
 ### Configure your Editor
 
 | Client | Installation / Configuration | MCP Guide |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| **VS Code** |  1. Open `~/.vscode/mcp.json`(User level: applies to every VS code session) or `.vscode/mcp.json`(Workspace level: applies only to a specific project)<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client| [VS Code MCP configuration guide](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)|
-| **Visual Studio**      | 1. Create `.mcp.json` at solution or user level<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client                 | [Visual Studio MCP configuration guide](/visualstudio/ide/mcp-servers) |
-| **GitHub Copilot CLI** | 1. Run `/mcp add` in interactive mode, opens a configuration form. <br/> 2. Enter a server name and select **HTTP** as the server type, no authentication required <br/> 3. Press **Ctrl+S** to save (server is available immediately) <br/> **or** <br/> edit `~/.copilot/mcp-config.json`<br/>               | [Copilot CLI MCP guide](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers)                 |
-| **Claude Desktop**        |  Follow "Add custom connector" instructions in official guide.                     | [Claude Desktop MCP guide](https://modelcontextprotocol.io/docs/develop/connect-remote-servers#connecting-to-a-remote-mcp-server)                 |
-| **Claude Code**         |Run `claude mcp add --transport http <name> <endpoint>` <br /> **or** <br/> edit `~/.claude/mcp.json`<br />                                    | [Claude Code MCP guide ](https://code.claude.com/docs/en/mcp)                 |
-| **Cursor** | 1. Open Cursor MCP settings<br/>2. Edit the MCP server configuration to `mcp.json`   | [Cursor MCP guide](https://cursor.com/docs/mcp)                      |
-| **Codex**  | Run `codex mcp add "<name>" --url "<endpoint>"`                               | [Codex MCP documentation](https://github.com/openai/codex/blob/main/codex-rs/config.md#mcp_servers)               |
+| ------- | --------- | -------- |
+| **VS Code** | 1. Open `~/.vscode/mcp.json`(User level: applies to every VS code session) or `.vscode/mcp.json`(Workspace level: applies only to a specific project)<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client | [VS Code MCP configuration guide](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) |
+| **Visual Studio** | 1. Create `.mcp.json` at solution or user level<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client                 | [Visual Studio MCP configuration guide](/visualstudio/ide/mcp-servers) |
+| **GitHub Copilot CLI** | 1. Run `/mcp add` in interactive mode, opens a configuration form. <br/> 2. Enter a server name and select **HTTP** as the server type, no authentication required <br/> 3. Press **Ctrl+S** to save (server is available immediately) <br/> **or** <br/> edit `~/.copilot/mcp-config.json`<br/> | [Copilot CLI MCP guide](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers) |
+| **Claude Desktop** | Follow "Add custom connector" instructions in official guide. | [Claude Desktop MCP guide](https://modelcontextprotocol.io/docs/develop/connect-remote-servers#connecting-to-a-remote-mcp-server)
+| **Claude Code** | Run `claude mcp add --transport http <name> <endpoint>` <br /> **or** <br/> edit `~/.claude/mcp.json`<br /> | [Claude Code MCP guide ](https://code.claude.com/docs/en/mcp) |
+| **Cursor** | 1. Open Cursor MCP settings<br/>2. Edit the MCP server configuration to `mcp.json` | [Cursor MCP guide](https://cursor.com/docs/mcp) |
+| **Codex** | Run `codex mcp add "<name>" --url "<endpoint>"` | [Codex MCP documentation](https://github.com/openai/codex/blob/main/codex-rs/config.md#mcp_servers) |
 
 ## Available Tools
 
 The MCP server exposes four tools:
 
 | Tool | Description |
-|---|---|
+| --- | --- |
 | **`get_recent_azure_updates`** | Retrieves Azure update posts from Microsoft Release Communications with optional filtering and search capabilities. Returns up to 50 updates per request with truncated descriptions. Supports OData filtering by products, product categories, tags (Features, Retirements, Security, etc.), status, availability dates, and publication dates. Includes text search on titles and pagination |
 | **`get_azure_update_by_id`** | Retrieves a specific Azure update post by its unique identifier. Returns full details of products, tags, and availability dates. Use this after listing to get full information about a specific post.|
 | **`get_recent_roadmaps`** | Retrieves M365 roadmap posts from Microsoft Release Communications with optional filtering and search capabilities. Returns up to 50 roadmap items per request with truncated descriptions. Supports OData filtering by products, platforms, release rings, cloud instances, status, availability dates, and publication dates. Includes text search on titles and pagination. |
@@ -199,3 +199,7 @@ These clients don't expose explicit tool selection UI. Instead, do the following
 
 - [Connect to remote MCP servers](https://modelcontextprotocol.io/docs/develop/connect-remote-servers#connecting-to-a-remote-mcp-server)
 - [MCP tools specification](https://modelcontextprotocol.io/specification/2025-06-18/server/tools)
+
+## Related articles
+
+[Manage continuous change in Microsoft 365](plan-for-change-management.md)

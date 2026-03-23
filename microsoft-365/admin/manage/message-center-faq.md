@@ -25,7 +25,7 @@ description: "Get answers to frequently asked questions about Microsoft 365 Mess
 
 # Frequently asked questions about Message center
 
-This article provides answers to frequently asked questions that IT admins might have about Message center in Microsoft 365. For more information about Message center, see [Plan for change management](plan-for-change-management.md) and [Track new and changed features in the Microsoft 365 Message center](message-center.md).
+This article provides answers to frequently asked questions that IT admins might have about Message center in Microsoft 365. For more information about Message center, see [Manage continuous change in Microsoft 365](plan-for-change-management.md) and [Track new and changed features in the Microsoft 365 Message center](message-center.md).
 
 ## Who can view posts in Message center?
 
@@ -72,4 +72,4 @@ To manage the number of messages within Message center, each message expires and
 
 [Track new and changed features in the Microsoft 365 Message center](message-center.md)
 
-[Plan for change management in Microsoft 365](plan-for-change-management.md)
+[Manage continuous change in Microsoft 365](plan-for-change-management.md)

@@ -446,7 +446,7 @@ items:
            href: manage/manage-feedback-ms-org.md
          - name: Change management
            items: 
-           - name: Plan for change management
+           - name: Manage continuous change in Microsoft 365
              href: manage/plan-for-change-management.md
            - name: Configure release options
              href: manage/configure-release-options.md

@@ -139,7 +139,7 @@ We recommend that you use the release options in the following ways to balance e
 
 ## Related articles
 
-[Plan for change management in Microsoft 365](plan-for-change-management.md)
+[Manage continuous change in Microsoft 365](plan-for-change-management.md)
 
 [Set up the Standard or Targeted release options for Microsoft 365](release-options-in-office-365.md)
 

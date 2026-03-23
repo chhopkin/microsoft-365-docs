@@ -353,7 +353,7 @@ If you'd like to program an alternative way to get real-time service health info
 
 [Frequently asked questions about Message center](message-center-faq.md)
 
-[Plan for change management in Microsoft 365](plan-for-change-management.md)
+[Manage continuous change in Microsoft 365](plan-for-change-management.md)
 
 [Set up the Standard or Targeted release options](../manage/release-options-in-office-365.md)
 
