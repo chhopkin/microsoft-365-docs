@@ -9,7 +9,7 @@ ms.date: 10/23/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
-ms.service: microsoft-365-security
+ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot
@@ -93,5 +93,5 @@ When the policy takes effect, users have the **Harmful content protection** togg
 ## Related articles
 
 - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
-- [Security for Microsoft 365 Copilot](microsoft-365-copilot-ai-security.md)
+- [Security for Microsoft 365 Copilot](security-microsoft-365-copilot.md)
 - [Application card: Microsoft 365 Copilot](microsoft-365-copilot-application-card.md)

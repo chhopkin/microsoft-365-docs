@@ -134,8 +134,8 @@ To confirm that the group has been successfully purged, run the  *Get-MgDirector
 
 [Manage guest access to Microsoft 365 Groups](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
-[Choose the domain to use when creating Microsoft 365 Groups](../../solutions/choose-domain-to-create-groups.md)
+[Choose the domain to use when creating Microsoft 365 Groups](/previous-versions/microsoft-365/solutions/choose-domain-to-create-groups)
 
-[Allow members to send as or send on behalf of a Microsoft 365 group](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md)
+[Allow members to send as or send on behalf of a Microsoft 365 group](/previous-versions/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group)
 
 [Manage Microsoft 365 Groups with PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md)

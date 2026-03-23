@@ -24,7 +24,7 @@ ms.collection:
 This article is designed to help customers and Tenant Global Admins understand how they can determine where their in-scope customer data for Microsoft 365 services is currently stored at rest, and if their Tenant has a [_Durable Commitment on Data Location_](m365-dr-overview.md#table-1-definitions-and-terms).
 
 > [!NOTE]
-> A new _Data Location Card (DLC)_ experience is rolling out now to Microsoft 365 customer _Tenants_. During the phased rollout, _Tenants_ might see a different _Data Location Card_ view within the Microsoft 365 admin center than the latest enhancements shown in this article. Global Tenant Admins can refer to the following data location details in anticipation of the rollout.
+> [Microsoft Defender for Office P1](m365-dr-service-mdo-p1.md), [Microsoft Purview (select services)](m365-dr-service-purview.md), and [Microsoft 365 Copilot Chat](m365-dr-service-copilot.md) are covered by [Durable Commitments on Data Location](m365-dr-overview.md#durable-commitments-on-data-location) but not currently displayed in the _Data Location Card_. Refer to [Where your Microsoft 365 customer data is stored](o365-data-locations.md) for more information.
 
 ## Locating Where your _Tenant’s_ Data is Stored at Rest
 

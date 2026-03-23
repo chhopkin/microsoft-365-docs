@@ -10,6 +10,7 @@ ms.date: 11/05/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
+ms.subservice: ess-agent
 ms.localizationpriority: medium
 ms.custom: ess-agent
 description: "Learn about the user context prompts support configuration for your Workday integration with the Employee Self-Service agent."

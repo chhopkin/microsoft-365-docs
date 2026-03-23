@@ -235,4 +235,4 @@ To learn more, see:
 - [Microsoft 365 Copilot overview](microsoft-365-copilot-overview.md)
 - [Microsoft 365 Copilot adoption](https://adoption.microsoft.com/copilot/)
 - [Unified cloud.microsoft domain for Microsoft 365 apps](/microsoft-365/enterprise/cloud-microsoft-domain)
-- [Get your data ready for Microsoft 365 Copilot - Admin guide for E3 + SAM licenses](microsoft-365-copilot-e3-guide.md)
+- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)

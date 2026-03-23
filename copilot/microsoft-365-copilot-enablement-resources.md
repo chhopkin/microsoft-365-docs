@@ -47,8 +47,7 @@ Microsoft recommends you complete the assessment before deploying Microsoft 365 
 
 Use the features in your Microsoft 365 subscription and SharePoint Advanced Management (SAM) licenses to help get your data ready for Copilot.
 
-- [Microsoft 365 Copilot admin guide for E3 + SAM licenses](microsoft-365-copilot-e3-guide.md)
-- [Microsoft 365 Copilot admin guide for E5 + SAM licenses](microsoft-365-copilot-e5-guide.md)
+See [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md).
 
 ✅ **Use the Microsoft Adoption site**
 
@@ -65,17 +64,13 @@ To get started, go to [Microsoft 365 Copilot adoption](https://adoption.microsof
 
 There are different license options for Microsoft 365 Copilot. The license you choose depends on your organization's needs and any existing Microsoft 365 subscriptions you have.
 
-To learn more, see:
-
-- [Microsoft 365 Copilot license plans](microsoft-365-copilot-licensing.md)
+To learn more, see [Microsoft 365 Copilot license plans](microsoft-365-copilot-licensing.md).
 
 ## Step 3 - Get your Microsoft 365 apps and network ready
 
 Microsoft 365 Copilot integrates with your Microsoft 365 apps, including Microsoft Teams. To use Microsoft 365 Copilot with your apps, make sure that your Microsoft 365 apps and network meet the requirements, and that your app privacy settings allow Copilot.
 
-To learn more, see:
-
-- [Microsoft 365 app and network requirements for Microsoft 365 Copilot](microsoft-365-copilot-requirements.md)
+To learn more, see [Microsoft 365 app and network requirements for Microsoft 365 Copilot](microsoft-365-copilot-requirements.md).
 
 ## Step 4 - Set up Copilot and assign licenses
 
@@ -95,5 +90,5 @@ You can also enable feedback for Microsoft 365 Copilot users. To learn more, see
 ## Related articles
 
 - [Copilot Prompt Gallery](copilot-prompt-gallery.md)
-- Microsoft 365 Copilot [E3](microsoft-365-copilot-e3-guide.md) and [E5](microsoft-365-copilot-e5-guide.md) implementation guides
+- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
 - [Microsoft 365 Copilot reports](microsoft-365-copilot-reports-for-admins.md)
