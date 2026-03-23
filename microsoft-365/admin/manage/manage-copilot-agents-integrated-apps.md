@@ -1,6 +1,6 @@
 ---
-title: Manage Microsoft 365 Copilot Agents
-description: Manage agents for Microsoft 365 Copilot in the admin center. Learn how to enable, assign, block, or remove agents to optimize your organization's Copilot experience.
+title: Manage agents in the Microsoft 365 admin center
+description: Manage agents in the Microsoft 365 admin center. Learn how to enable, assign, block, or remove agents to optimize your organization's agentic experience.
 #customer intent: As an IT admin, I want to manage agents for Microsoft 365 Copilot so that I can control their availability and functionality within my organization.
 f1.keywords:
 - NOCSH
@@ -31,7 +31,7 @@ search.appverid:
 - MOE150
 ---
 
-# Manage Copilot agents in the Microsoft 365 admin center
+# Manage agents in the Microsoft 365 admin center
 
 > [!IMPORTANT]
 >
