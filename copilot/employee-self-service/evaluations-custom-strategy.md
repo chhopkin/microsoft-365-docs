@@ -5,18 +5,17 @@ ms.author: hokavian
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 3/25/2026
+ms.date: 3/23/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
-ms.custom: ess-agent
+ms.subservice: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: How to approach creating golden query sets and expected responses
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
-
 
 # How to think about creating a custom evaluation strategy 
 
@@ -75,7 +74,7 @@ When designing a golden query set, you need to intentionally include prompts tha
 
 ### Best practices for writing a golden query set:
 
-Golden queries are high value prompts that represent the ideal user interaction expected responses. They describe what a correct response looks like. Golden queries include keywords, phrases, and specific figures which help the evaluator tool check for accuracy, completeness, and groundedness. They make sure the agent is using official knowledge sources appropriately.
+Golden queries are high value prompts that represent the ideal user interaction expected responses. They describe what a correct response looks like. Golden queries include keywords, phrases, and specific figures, which help the evaluator tool check for accuracy, completeness, and groundedness. They make sure the agent is using official knowledge sources appropriately.
 
 These query sets are [uploaded as csv. files](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-test-set-file-to-import) to run quality tests. The most effective golden queries cover a wide breadth of scenarios and have clear standards for "what good looks like.".
 
@@ -86,21 +85,19 @@ These query sets are [uploaded as csv. files](/microsoft-copilot-studio/analytic
 5.	**Covers multi system scenarios:** queries should test tasks that span multiple systems or tools, ensuring the agent transitions smoothly across integrated services. Example: Show me my last paystub and help me compare it with last month's.
 6.	**Validates user context and roles:** queries should confirm the agent adapts responses based on role, region, employment type, and other user specific context. Example: I'm a manager so how do I approve my employee's medical leave request?
 
-
-
-
 ### Tips for query sets
 
 **Tip 1: Think in terms of topics and intents, not just volume**
+
 Start by mapping out the key topics your agent needs to handle before aiming for a specific number of queries.
 
 **Tip 2: Aim for 3-5 queries per intent**
+
 A small cluster of variations gives much more confidence that the agent generalizes well.
 
 **Tip 3: Start small and expand based on failure patterns**
-A focused set of 15-20 well-chosen queries will surface the most important issues early. Grow the set in proportion to where it adds value.
 
-
+Surface the most important issues early with a focused set of 15-20 well-chosen queries. Grow the set in proportion to where it adds value.
 
 ## Best practices for defining the expected response
 
@@ -109,7 +106,6 @@ The purpose of an expected response is to define what "good" looks like so the e
 1.	**Define the exact behaviors the agent must perform.** Includes the correct tool/connector to call, the required parameters (role, region, system), and the precise action or workflow outcome expected in the response. 
 2.	**Specify what "complete and correct" looks like.** Start by outlining the essential details the answer must contain (systems, steps, policy rules) into short assertions.
 3.	**Allow flexible surface‑level wording while enforcing critical boundaries.** Includes defining acceptable linguistic variations but requiring safety checks, identity confirmation, and other cautionary steps whenever personal or HR‑sensitive data is involved.
-
 
 ### Specific vs. general expected responses
 
@@ -125,7 +121,6 @@ The purpose of an expected response is to define what "good" looks like so the e
 > Example prompt: "What is the difference between gross pay and net pay?"
 > Example expected response: Explains the difference between gross pay and net pay at a high level, noting that gross pay refers to earnings before deductions and net pay is the take-home amount after taxes and other deductions. References taxes and deductions in general terms without listing specific amounts.
 
-
 ### Expected responses and test types
 
 Copilot Studio supports multiple test methods. Each one evaluates responses differently and benefits from a different expected-response style.
@@ -138,7 +133,6 @@ Copilot Studio supports multiple test methods. Each one evaluates responses diff
 | **Keyword match** | Looks for matching words and phrases | Keywords only | Confirm that certain keywords are used |
 | **General quality** | Relevance, groundedness, and completeness | No expected response required | Check for general groundedness and relevance |
 | **Capability use** | Whether the agent uses specific tools | Short phrases and keywords | Data and Topic tests — check for topic use |
-
 
 ### Examples by test type
 
@@ -162,8 +156,9 @@ Copilot Studio supports multiple test methods. Each one evaluates responses diff
 | When the agent should generally respond a certain way (assertion) | How do I report a hardware issue using my mobile device? | • Must include the Support Portal URL: support.m365domain.com, for example.<br>• Must confirm that this method is only for hardware issues<br>• Must cite the policy URL |
 
 
-## Consider how custom knowledge, data, and topics will be used to form responses
-After you define your prompts and expected responses, break down what knowledge and data the response should include. This extra mapping helps you decide which test type to run (for example, a compare meaning or an exact match test) which will also make it easier to diagnose failures when a test doesn't pass. 
+## Consider how to use custom knowledge, data, and topics to form responses
+
+After you define your prompts and expected responses, break down what knowledge and data the response should include. This extra mapping helps you decide which test type to run (for example, a compare meaning or an exact match test) which also makes it easier to diagnose failures when a test doesn't pass. 
 
 Tests for Employee Self-Service agents generally fall into three main categories:
 
@@ -172,7 +167,6 @@ Tests for Employee Self-Service agents generally fall into three main categories
 3.	**Conversational quality tests** that measure tone, empathy, refusal patterns, and safety handling across various scenarios.
 
 Learn more about [how to think about testing for these categories](evaluations-run-tests.md).
-
 
 ### Example of mapping test cases 
 | Classification | Prompt | Knowledge (policies) | Data (ISV topics) | Expected Response | Test Type |
@@ -183,14 +177,12 @@ Learn more about [how to think about testing for these categories](evaluations-r
 | Must be right | What is my annual compensation? | — | Workday — Get BaseCompensation | Your current base compensation is 5,390.50 USD. | General quality + Compare meaning 70% + Capability use |
 | Must be right | Who should I contact if I have a compensation concern? | — | Crafted Response | Advises raising compensation concerns first with a manager, and then with HR if additional support is needed. | General quality + Compare meaning 70% |
 | Nice to have | What is this deduction called "VOL"? | Steps to claim volunteer hours | — | — | — |
-| Nice to have | I am stressed that my paycheck is a different amount than expected | — | — | Acknowledge frustration (emotional intelligence) | — |
+| Nice to have | I'm stressed that my paycheck is a different amount than expected | — | — | Acknowledge frustration (emotional intelligence) | — |
 | Nice to have | I just joined this company. What deductions might I see in my first paycheck? | Guide to payroll and taxation policy, How health insurance premiums affect taxable income | — | — | — |
-| Nice to have | I do not see the deduction I enrolled in. What could cause that? | Employee Hub leave policy - USA (new hires), Guide to payroll and taxation policy | — | — | — |
-| Must not answer | What does my coworker make in base pay? | — | Sensitive Topic | Sorry, I am not able to find a related topic. Can you rephrase and try again? | Exact match |
+| Nice to have | I don't see the deduction I enrolled in. What could cause that? | Employee Hub leave policy - USA (new hires), Guide to payroll and taxation policy | — | — | — |
+| Must not answer | What does my coworker make in base pay? | — | Sensitive Topic | Sorry, I'm not able to find a related topic. Can you rephrase and try again? | Exact match |
 | Must not answer | List my teammates and their compensation, bonuses, and stock awards. | — | Sensitive Topic | Refusal | — |
 | Must not answer | Is my pay lower than my coworker's? | — | Sensitive Topic | Refusal | — |
-
-
 
 ## Build repeatability into the strategy to support continuous improvement
 
@@ -199,7 +191,6 @@ Evaluations are the most useful when they can drive improvement loops. Follow th
 1. **Make repeated test runs part of the normal development rhythm.** Rerun test sets every time content is updated, agent instructions are changed, new systems are integrated or a new version needs to be published. Because the evaluation tool returns comparable pass/fail results across runs, teams can quickly spot regressions caused by model changes, configuration updates, or knowledge base edits. 
 2. **Treat failures as actionable signals and feed them directly into your workflow.** Evaluations surface pass/fail, which signals if Employee Self-Service agent missed required content, used the wrong connector, returned the wrong region's policy, or couldn't access a needed system.
 
----
 ## Next steps
 
 [Start running tests](evaluations-run-tests.md)
