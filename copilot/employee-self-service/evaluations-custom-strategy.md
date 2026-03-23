@@ -43,7 +43,7 @@ Think about custom [evaluations as a strategy](/microsoft-copilot-studio/guidanc
 
 3. **Finally, capture scenarios that act as guardrails for risky questions**
   
-    Add test cases designed to ensure the agent refuses or redirects correctly. These test scenarios protect your organization from misinformation, policy violations, or inappropriate content. These are prompts that shouldn't be answered, or should be answered a very specific way. Examples include:
+    Add test cases designed to ensure the agent refuses or redirects correctly. These test scenarios protect your organization from misinformation, policy violations, or inappropriate content. These prompts shouldn't be answered, or should be answered a specific way. Examples include:
     - Sensitive HR topics (pay equity opinions, complaints about individuals)
     - Attempts to access confidential or privileged information
     - Requests that violate policy or must be escalated to humans
@@ -58,7 +58,7 @@ The evaluator tool in Copilot Studio can [automatically help create basic query 
 
 ### Queries should reflect user context variables like role and region
 
-When designing a golden query set, you need to intentionally include prompts that force the agent to adapt the expected response based on who the user is and where they're located which are determined by the user context variables set up in Employee Self-Service. The evaluation strategy should reflect the same personalization rules the Employee Self-Service agent must respect in production.
+When designing a golden query set, you need to intentionally include prompts that force the agent to adapt the expected response based on who the user is and where they're located. These prompts are determined by the user context variables set up in Employee Self-Service. The evaluation strategy should reflect the same personalization rules the Employee Self-Service agent must respect in production.
 
 **Examples of variation in roles:**
 
@@ -93,7 +93,7 @@ Start by mapping out the key topics your agent needs to handle before aiming for
 
 **Tip 2: Aim for 3-5 queries per intent**
 
-A small cluster of variations gives much more confidence that the agent generalizes well.
+A small cluster of variations gives more confidence that the agent generalizes well.
 
 **Tip 3: Start small and expand based on failure patterns**
 
@@ -110,13 +110,13 @@ The purpose of an expected response is to define what "good" looks like so the e
 ### Specific vs. general expected responses
 
 **Very specific expected responses** — when accuracy and precision are critical.
-- Use when: the scenario is must-be-right, incorrect information would cause tickets or loss of trust, the agent must reference specific systems or steps, you want tight control over what the agent says.
+- Use when: the scenario is must-be-right, incorrect information would cause tickets or loss of trust, the agent must reference specific systems or steps, or you want tight control over what the agent says.
 
 > Example prompt: "Show me my workplace anniversary"
 > Example expected response: Your 1-year service anniversary is on July 1, 2026.
 
 **More general expected responses** — when factual precision is less specific
-- Use when: the scenario is more generalized, there are many acceptable phrasings, you care about intent and safety rather than exact facts, the agent may personalize wording by role or region.
+- Use when: the scenario is more generalized, there are many acceptable phrasings, you care about intent and safety rather than exact facts, or the agent may personalize wording by role or region.
 
 > Example prompt: "What is the difference between gross pay and net pay?"
 > Example expected response: Explains the difference between gross pay and net pay at a high level, noting that gross pay refers to earnings before deductions and net pay is the take-home amount after taxes and other deductions. References taxes and deductions in general terms without listing specific amounts.
