@@ -22,7 +22,7 @@ appliesto:
 As you consider using the Employee Self-Service Agent, we want to provide a clear view of release notes, known issus and limitations—along with workarounds and roadmap visibility—to help you plan effectively and set the right expectations with your stakeholders.
 
 
-# Full list of Release Notes
+# Full list of release notes
 
 | Feature | Update | Customer Action | Documentation | Status | Date |
 |--------|--------|-----------------|---------------|--------|------|
