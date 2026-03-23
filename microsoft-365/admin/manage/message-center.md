@@ -45,6 +45,8 @@ You can also use the [Microsoft 365 Admin app](https://go.microsoft.com/fwlink/p
 
 The Microsoft 365 Message center is now more timely, relevant, and concise to support actionable communications. To help IT admins quickly understand changes, posts now include bullet-point summaries, direct links to documentation, and launch-day announcements instead of early notifications.
 
+Message Center posts now include a dedicated section that describes known security and compliance considerations for each feature release. This inclusion helps admins, especially those in highly regulated industries, with security and compliance-specific information necessary to understand potential compliance and regulatory impact for each feature.
+
 Message center includes an improved post structure with the following new sections:
 
 ### What and Why
@@ -115,7 +117,7 @@ These three release statuses are updated on each applicable message over the lif
 
 - **Launched**: The feature is generally available to all the applicable users in your organization.
 
-Updates to feature release status are provided on the original Message center post. Filtering capability on **“Status for your org”** allows easier visibility on the updated release status.
+Updates to feature release status are provided on the original Message center post. Filtering capability on **Status for your org** allows easier visibility on the updated release status.
 
 The release status is only available for new and updated features that are also announced on Microsoft 365 Public Roadmap and that have general availability status (production ready). If you don't see release status on a message, it means the release status isn't available for that feature.
 
@@ -136,11 +138,11 @@ There are three levels of relevance:
 
 - **Low** - These posts are about changes that you need to monitor. They're related to low impact apps and services in your organization. Examples would be a feature update for an app or service, which isn't actively used in your organization.
 
-The relevance recommendations are **ONLY** available for the newer MC posts. This means the MC posts you already received are "blank" for relevance recommendation.
+The relevance recommendations are only available for newer Message center posts. This means the Message center posts you already received are "blank" for relevance recommendations.
 
 If you see **Processing** for a Message center post, it means that the score is being computed for this post and should be available soon. You should try to refresh after a few minutes.
 
-Once you start receiving this, tell us if a Message center post is **not relevant** to you through the [**extended feedback**](#give-feedback-on-a-post). This feedback is important for us to improve the accuracy of the relevance recommendations.
+Microsoft needs your feedback to improve the accuracy and relevance for Message center posts. Use the [**Extended Feedback**](#give-feedback-on-a-post) option on Message center posts to send us your opinions.
 
 ## Filter messages
 
@@ -158,8 +160,6 @@ You can select any column heading, except **Service** and **Tag**, to sort messa
 
 ### Major updates
 
-#### INCORPORATE INTO UPDATED MC SECTION?
-
 Major updates can be reviewed by selecting the **Major update** from the **Tags** drop-down.
 
 Major updates are communicated at least 30 days in advance when an action is required and might include:
@@ -173,7 +173,7 @@ Major updates are communicated at least 30 days in advance when an action is req
 
 ### Preferences
 
-If administration is distributed across your organization, you might not want or need to see posts about all Microsoft 365 services. Each admin can:
+If administration is distributed across your organization, you might not want or need to see posts about all Microsoft 365 services. Each admin can do the following actions:
 
 - Set preferences that control which messages are displayed in Message center.
 - Filter messages.
@@ -256,6 +256,8 @@ Here's a quick overview of the information in each column.
 ### Admin roles that don't have access to the Message center
 
 Most users assigned any admin role in Microsoft 365 can view Message center posts. You can also assign the Message center reader role to users who should be able to read and share Message center posts without having any other admin privileges.
+
+The following admin roles don't have access to the Message center:
 
 - Compliance administrator
 - Conditional access administrator

@@ -36,7 +36,7 @@ This modern change management model for Microsoft 365 helps your Frontier Firm s
 - Use AI‑powered access to Message center and Service Health insights to streamline identification of changes and issues and help teams act with clearer context
 - Manage how your organization experiences major feature updates with audience-based release phases aligned to your organization’s workflows
   - Opt into the release of new major features for testing and validation before releasing to the rest of your organization
-  - Delay the release of generally available (GA) major features for up to 30 days, giving you more time for your organization or specific users
+  - Delay the release of generally available (GA) major features for up to 30 days for your organization or specific users, giving you more time to prepare for changes before they release to your users
 - Easily understand feature updates with new Message center enhancements, such as:
   - Feature update announcements at the time of availability
   - Bullet point summaries that present key information in a clear, scannable format
@@ -51,19 +51,19 @@ The following table shows various communication channels we have that you can us
 | Communication channel | Description | Documentation |
 | ----- | ----- | ----- |
 | Microsoft 365 Roadmap | - Understand what features are coming, when they’re expected to release, and which environments they apply to.<br/>- Provides early planning signals that complement Message center announcements and supports proactive change management across Microsoft 365. | [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) |
-| Message center | - Learn about official service announcements and feature changes.<br/>- Read these messages in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email.<br/>- Share these messages with others in your organization when you see a message someone else should act on. | Message center in the Microsoft 365 admin center |
+| Message center | - Learn about official service announcements and feature changes.<br/>- Read these messages in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email.<br/>- Share these messages with others in your organization when you see a message someone else should act on. | [Message center in the Microsoft 365 admin center](message-center.md) |
 | Microsoft 365 Insider Blog for apps | Get updates and insights about Microsoft 365 features as they release to preview channels on Windows, the web, Mac, iOS, and Android. | [Microsoft 365 Insider Blog - Microsoft Community Hub](https://techcommunity.microsoft.com/category/microsoft365/blog/microsoft365insiderblog) |
 | Microsoft 365 Insider program (preview) | Provides early visibility into upcoming Microsoft 365 features so IT admins can evaluate changes, plan deployments, and gather feedback before features reach general availability. | [Microsoft 365 Insider program for Business](/microsoft-365-apps/insider/deploy/options) |
 
 ## Release settings - alternative layout vs list
 
-The following table displays various features you can integrate into your workflow to manage change: 
+The following table displays various features you can integrate into your workflow to manage change:
 
 | Feature | Description | Documentation |
 | ----- | ----- | ----- |
-| Microsoft Release Communications (MRC) Model Context Protocol (MCP) Server | Connect AI tools to the MRC MCP Server to instantly access trusted, up-to-date Microsoft 365 and Azure feature release information using natural language | [Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md) |
-| Release options | - Configure general availability release settings in the Microsoft 365 admin center based on your organizational readiness for new features with Standard or Deferred release options<br/> - Opt into the release of new features for testing and validation before releasing to the rest of your organization | [Configure release options for Microsoft 365](configure-release-options.md) |
-| Frontier program | - Offers early access to select AI and Microsoft 365 Copilot features before general availability.<br/> - Designed for exploration and feedback, and features might change or might not reach general availability. | [Frontier: Try what's next in AI](https://adoption.microsoft.com/copilot/frontier-program/)<br/>[Microsoft Adoption - Getting Started with Frontier](https://adoption.microsoft.com/files/copilot/Frontier_Getting-started-guide.pdf) |
+| Release Communications MCP Server | Connect AI tools to the MRC MCP Server to instantly access trusted, up-to-date Microsoft 365 and Azure feature release information using natural language | [Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md) |
+| Release options | - Configure general availability release settings in the Microsoft 365 admin center based on your organizational readiness for new features with Standard or Deferred release options<br/> - Opt into the release of new features for testing and validation before releasing to the rest of your organization with Targeted release | [Configure release options for Microsoft 365](configure-release-options.md) |
+| Frontier program | - Gain early access to select AI and Microsoft 365 Copilot features before general availability<br/> - Designed for exploration and feedback, and features might change or might not reach general availability. | [Frontier: Try what's next in AI](https://adoption.microsoft.com/copilot/frontier-program/)<br/>[Microsoft Adoption - Getting Started with Frontier](https://adoption.microsoft.com/files/copilot/Frontier_Getting-started-guide.pdf) |
 
 ## Customize your organization’s release experience for Microsoft 365
 
@@ -77,7 +77,7 @@ If you want to do early experimentation or validation before the broad rollout o
 
 For more information about release options and how to configure them, see [Configure release options for Microsoft 365 features](configure-release-options.md).
 
-### Compare release options for Microsoft 365 services
+### Compare release audiences for Microsoft 365 services
 
 The following table compares the release options available for Microsoft 365 features to help you understand the differences and choose the right approach for your organization’s needs.
 
@@ -86,7 +86,7 @@ The following table compares the release options available for Microsoft 365 fea
 | **Frontier** | Early experimentation and feedback | Pre‑GA, not fully supported | Features may change or be removed, are not guaranteed to reach GA, and do not include support, stability, or SLA commitments equivalent to GA |
 | **Targeted release** | Validation before broad rollout | Pre‑GA validation | Not all features are guaranteed to reach GA; functionality may still evolve; intended for readiness and validation, not reliance on fully supported GA features |
 | **Standard release** | Default GA rollout | Fully supported GA features | Features are supported, communicated through Message Center and release notes, and expected to remain available under standard lifecycle policies |
-| **Deferred release** | Delayed GA for additional preparation | Fully supported GA features (delayed) | Same functionality as Standard release, with timing delayed (up to \~30 days) to support governance and compliance readiness |
+| **Deferred release** | Delayed GA for additional preparation | Fully supported GA features (delayed) | Same functionality as Standard release, with timing delayed (up to ~30 days) to support governance and compliance readiness |
 
 ## Enable AI clients to retrieve product release information with MRC MCP server
 
@@ -107,7 +107,7 @@ For more details on the updated layout and information on keeping track of chang
 
 The Microsoft 365 roadmap helps IT admins understand what features are coming, when they’re expected to release, and which environments they apply to. It provides early planning signals that complement Message center announcements and supports proactive change management across Microsoft 365.
 
-Use the roadmap to:
+Use the roadmap to do the following actions that help your organization stay on top of changes:
 
 - Track upcoming features before they reach general availability
 - Identify potential impacts to users, governance, and compliance

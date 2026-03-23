@@ -124,19 +124,19 @@ Here are sample natural‑language queries that demonstrate how users can retrie
 
 **Microsoft 365 Roadmap**
 
-- As per Microsoft 365 Roadmap, which Microsoft Teams product features are releasing in June 2026?
+- As per Microsoft 365 Roadmap, which Microsoft Teams product features are releasing in June?
 - Which Outlook product features on the Microsoft 365 Roadmap were updated last week?
-- What is the status of Feature ID 526798?
+- What's the status of Feature ID 526798?
 - List all Excel features launching on Mac that are releasing in March.
 - Create an email for my Compliance team to review the Microsoft Purview features that are currently rolling out on Microsoft 365 Roadmap.
-- What is planned for mobile-only apps in OneNote?
+- What's planned for mobile-only apps in OneNote?
 
 **Azure Updates**
 
 - Which Azure features became Generally Available this quarter?
-- Show all Azure retirements scheduled for 2026.
+- Show all Azure retirements scheduled for this year.
 - What are the latest Azure AI services updates?
-- Which Azure Databricks features were released in February 2026?
+- Which Azure Databricks features were released in February?
 - List all Azure features that are retiring in next three months.
 
 ## Limitations

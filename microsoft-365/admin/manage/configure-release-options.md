@@ -44,11 +44,11 @@ For a comparison of the release options available for Microsoft 365 features, se
 
 The feature team validates each new release first, followed by the Microsoft 365 feature team and then Microsoft. After internal testing and validation, the next step is a Targeted release (formerly known as First release) to customers who opt in. After internal testing and validation, if you opt in users to the targeted release audience, they can get early access to new features before they’re released broadly to all customers.
 
-At each release ring, Microsoft collects feedback and further validates quality by monitoring key usage metrics. This series of progressive validation is in place to make sure the worldwide release is as robust as possible.
+At each release phase, Microsoft collects feedback and further validates quality by monitoring key usage metrics. This series of progressive validation is in place to make sure the worldwide release in to the Standard release audience is as robust as possible.
 
 The release audiences are pictured in the following figure.
 
-:::image type="content" source="../../media/release-audience-timeline.png" alt-text="Release validation rings for Microsoft 365":::
+:::image type="content" source="../../media/release-audience.png" alt-text="Release audiences for Microsoft 365":::
 
 For significant updates, Microsoft first notifies customers through the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). As an update approaches rollout, Microsoft notifies you through the <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">Microsoft 365 Message center</a>.
 
