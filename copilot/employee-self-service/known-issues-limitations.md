@@ -1,5 +1,5 @@
 ---
-title: Release Notes, known issues and limitations for the Employee Self-Service agent
+title: Release notes, known issues and limitations for the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: jatonewilson
 author: jatonewilson
@@ -17,7 +17,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Release Notes, Known issues and limitations for the Employee Self-Service agent
+# Release notes, known issues and limitations for the Employee Self-Service agent
 
 As you consider using the Employee Self-Service Agent, we want to provide a clear view of release notes, known issus and limitations—along with workarounds and roadmap visibility—to help you plan effectively and set the right expectations with your stakeholders.
 
