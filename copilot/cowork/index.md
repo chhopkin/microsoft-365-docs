@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork overview (Frontier)"
 description: "Learn about Copilot Cowork agent for Microsoft 365 Copilot, which is an AI agent that takes action on your behalf."
-ms.date: 03/23/2026
+ms.date: 03/31/2026
 ms.topic: overview
 author: leeclontz
 manager: KumarVivek

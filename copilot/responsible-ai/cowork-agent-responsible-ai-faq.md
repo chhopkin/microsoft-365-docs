@@ -1,7 +1,7 @@
 ---
 title: "Responsible AI FAQ for Copilot Cowork agent"
 description: "Get answers to frequently asked questions about responsible AI and Copilot Cowork agent in Microsoft 365 Copilot."
-ms.date: 03/23/2026
+ms.date: 03/31/2026
 ms.topic: faq
 ms.custom:
   - transparency-note

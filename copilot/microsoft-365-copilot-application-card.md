@@ -14,7 +14,7 @@ ms.collection:
 - must-keep
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 03/23/2026
+ms.date: 03/31/2026
 ---
 
 # Application card: Microsoft 365 Copilot

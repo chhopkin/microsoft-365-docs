@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork agent common questions (Frontier)"
 description: "Frequently asked questions about Copilot Cowork agent in Microsoft 365 Copilot."
-ms.date: 03/23/2026
+ms.date: 03/31/2026
 ms.topic: faq
 author: leeclontz
 manager: KumarVivek
