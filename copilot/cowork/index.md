@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork overview (Frontier)"
 description: "Learn about Copilot Cowork agent for Microsoft 365 Copilot, which is an AI agent that takes action on your behalf."
-ms.date: 03/31/2026
+ms.date: 03/23/2026
 ms.topic: overview
 author: leeclontz
 manager: KumarVivek
@@ -85,7 +85,7 @@ Here are the skills Copilot Cowork can use:
 | Enterprise Search | Search across your organization |
 | Communications | Draft stakeholder communications |
 | Deep Research | Conduct in-depth research across multiple sources to compile comprehensive answers and analysis |
-| Adaptive Cards | Generate interactive card-based responses with structured layouts, buttons, and data visualization |
+| Adaptive Cards | Generate interactive card-based responses with structured layouts, buttons, and data displays |
 
 As Copilot Cowork prepares skills during a conversation, the side panel updates to show which skills are active.
 

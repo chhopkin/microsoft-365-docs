@@ -1,7 +1,7 @@
 ---
 title: "Responsible AI overview for Copilot Cowork agent"
 description: "Learn about how Copilot Cowork agent in Microsoft 365 Copilot uses AI responsibly, including links to feature-specific FAQs and the Application Card."
-ms.date: 03/31/2026
+ms.date: 03/23/2026
 ms.topic: overview
 ms.custom:
   - responsible-ai-faqs

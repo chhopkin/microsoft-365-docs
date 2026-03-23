@@ -1,7 +1,7 @@
 ---
 title: "Get started with Copilot Cowork agent (Frontier)"
-description: "Start using Cowork agent in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
-ms.date: 03/31/2026
+description: "Start using Copilot Cowork agent in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
+ms.date: 03/23/2026
 ms.topic: get-started
 author: leeclontz
 manager: KumarVivek
