@@ -9,6 +9,7 @@ ms.date: 03/12/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
+ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
@@ -55,7 +56,7 @@ Solution accelerator packages come with a few components, like connectors, topic
 
 ### Instructions
 
-LLM (Large Language Model) experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses.[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
+LLM (Large Language Model) experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses. [Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
 ## Response quality
 
@@ -420,10 +421,11 @@ For information on SharePoint knowledge filtering, see [SharePoint Advanced Filt
 
 You can optionally customize how the Employee Self‑Service (ESS) agent appears and how users start conversations by configuring tenant‑level settings in the Microsoft 365 admin center. These settings complement Copilot Studio configuration and apply to deployed agents.
 
-### What you can customize in the Microsoft 365 admin center 
-- Categorized starter prompts
-- Accent colors
-- Quick links on the ESS landing page
+The **Rich landing page** gives you control over how your Employee Self-Service agent looks and feels to employees. On the agent’s landing page, you can:
+
+- Add accent colors to reflect your brand.
+- Organize starter prompts into categories so employees can quickly find what they need.
+- Surface quick links to important resources.
 
 > **Note**  
 > If you don’t configure these settings:
