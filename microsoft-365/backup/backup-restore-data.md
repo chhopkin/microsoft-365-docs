@@ -383,5 +383,7 @@ Microsoft 365 Backup supports the backup and restoration of any site and user ac
         For OneDrive, you can restore the OneDrive to the original URL or a new URL. At that time, the OneDrive is in an "orphaned" state. To connect the OneDrive to a user, see [Fix site user ID mismatch in SharePoint or OneDrive](/sharepoint/troubleshoot/sharing-and-permissions/fix-site-user-id-mismatch).
 
         For Exchange, if the user account is permanently deleted, Microsoft 365 Backup retains the inactive mailbox for the duration of the backup policy. To recover the inactive mailbox, follow the guidance at [Recover an inactive mailbox](/purview/recover-an-inactive-mailbox) to convert the inactive mailbox to a new, active mailbox. Once the inactive mailbox is recovered, add the new user to the backup policy to access backups from the recovered mailbox.  The original, now deleted user can then be removed from the backup policy.
+
+      When trying to recover the inactive mailbox, if you receive an error stating "The ExternalDirectoryObjectID of this inactive mailbox still exists", this means the user was deleted less than 30 days ago.  In this case, please restore the user based on instructions found at [Restore a user in the Microsoft 365 admin center](/microsoft-365/admin/add-users/restore-user).
       
     
