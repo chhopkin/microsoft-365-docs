@@ -5,7 +5,7 @@ ms.author: hokavian
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 3/25/2026
+ms.date: 3/23/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -31,7 +31,7 @@ How to get started:
 > [!NOTE]
 > - The evaluation tool can't review content inside of adaptive cards yet.
 > - The evaluation tool doesn't measure latency, or how quickly the agent responds.
-> - You'll need edit access to Copilot Studio to run tests. Test results can be shared with people who don't have access to Copilot Studio by exporting test results.
+> - You need edit access to Copilot Studio to run tests. Test results can be shared with people who don't have access to Copilot Studio by exporting test results.
 
 ## Why invest in evaluations for your agent?
 
@@ -47,10 +47,8 @@ Agent evaluations, also called evals, are a new way to measure how a generative 
 
 **Evaluations help you answer:**
 - Does this experience meet the needs of the employees?
-- Does knowledge, data, and conversational qualities come together in a
-way that will actually deflect tickets and improve the employee experience?
-- Do the responses form the agent reflect the right level of accuracy, completeness, and
-relevance to build trust and encourage user adoption?
+- Does knowledge, data, and conversational qualities come together in a way that actually deflects tickets and improve the employee experience?
+- Do the responses form the agent reflect the right level of accuracy, completeness, and relevance to build trust and encourage user adoption?
 
 ### How traditional quality assurance (QA) practices and LLM evaluations differ
 
@@ -71,9 +69,11 @@ Here are some examples that demonstrate the difference between QA and LLM evalua
 | LLM Evaluations | Response quality and usefulness |
 
 **Scenario:** An employee asks a common payroll question  
+
 **User prompt:** "Why is my net pay lower this month?"
 
 **Traditional QA example response:**
+
 > "Your net pay is lower because of deductions. Please check your pay slip for more details."
 
 From a traditional QA perspective, this response looks fine:
@@ -83,9 +83,10 @@ From a traditional QA perspective, this response looks fine:
 - The agent returned an answer
 - Nothing violated a hard rule
 
-The problem with a response like this is it won't help prevent tickets from getting created and won't increase employee satisfaction.
+The problem with a response like this one is it doesn't help prevent tickets from getting created and doesn't increase employee satisfaction.
 
 **Higher-quality response:**
+
 > "Your net pay is lower because deductions reset at the beginning of the calendar year. Get more details in Employee hub to check your last paystub."
 
 This response:
@@ -99,16 +100,16 @@ This response is much more useful and helps the user solve their problem. Evalua
 **User prompt:** "What’s my base salary?"
 
 **Traditional QA example response:**
+
 > “Your base salary can be found in Workday.”
 
 **Higher-quality response:**
-> “Your base salary is $155,000 USD. More payroll information can be found in the Employee Hub.”
 
+> “Your base salary is $155,000 USD. More payroll information can be found in the Employee Hub.”
 
 ## Think of agent evaluations as a program
 
 As you start evaluating agent responses, treat testing as a program, not a one-time task. You need clear roles, defined responsibilities, and a repeatable lifecycle so the right people review results, approve changes, implement changes, and rerun tests over time. This structure helps you improve quality consistently, scale to new scenarios, and compare performance across LLM models without experiencing unintended consequences.
-
 
 ### Roles and responsibilities
 
@@ -164,29 +165,35 @@ In enterprise deployments not everyone can edit the agent, many teams own polici
 ### The basic phases of the testing cycle
 
 **1. Start by measuring what matters most.**
+
 Begin with a small, intentional test set instead of trying to cover everything at once. Choose scenarios based on critical employee tasks, known problem areas, high-risk topics (such as pay, leave policies, and scenarios that require employee data), and areas tied to business outcomes.
 
 **2. Run the test to establish a baseline.**
+
 Assume the first run reveals gaps. You should get clear signals about where responses are weak, where safety boundaries are unclear, and where expectations don't match actual behavior. This baseline gives everyone a shared reference point instead of relying on opinions.
 
 **3. Synthesize results, because not all failures are equal.**
-This is the most important step. Ask what the failures are telling you. Look for patterns: Is the agent consistently too vague? Is it over-answering sensitive questions? Are failures concentrated in one domain? Without synthesis, evaluations quickly lose credibility.
+
+This step is the most important step. Ask what the failures are telling you. Look for patterns: Is the agent consistently too vague? Is it over-answering sensitive questions? Are failures concentrated in one domain? Without synthesis, evaluations quickly lose credibility.
 
 **4. Decide what actually needs to change.**
+
 Most changes fall into three categories:
 - **A. The agent needs to change—Results might show knowledge gaps, topics that don't trigger (or over-trigger), or missing user-context details like role and region. These issues usually require updates to knowledge sources, agent instructions, or topic design.
 - **B. The expected response needs to change—The expected response might be too strict, might not reinforce the right behavior, or might create false failures from minor wording differences.
-- **C. The test criteria needs to change—The issue might be the test type, pass thresholds that don't reflect acceptable quality, or criteria that measure the wrong thing.
+- **C. The test criteria need to change—The issue might be the test type, pass thresholds that don't reflect acceptable quality, or criteria that measure the wrong thing.
 
 **5. Iterate through a few improvement cycles.**
+
 Loop: Run -> Review -> Adjust -> Rerun. The agent improves, tests get more precise, and the team builds shared understanding of what good looks like.
 
 **6. The test stabilizes.**
-Expected responses stop shifting. Criteria feel fair. Failures become meaningful instead of noisy. The test has become a benchmark—passing it means the experience meets agreed-upon expectations and stakeholders trust the result.
+
+Expected responses stop shifting. Criteria feel fair. Failures become meaningful instead of noisy. The test becomes benchmark—passing, which it means the experience meets agreed-upon expectations and stakeholders trust the result.
 
 **7. Use the stabilized test for regressions.**
-Reuse the same test to: validate changes before rollout, catch regressions early, monitor quality over time, and check how quality varies between LLM models. The evaluation now acts as a safety rail.
 
+Reuse the same test to: validate changes before rollout, catch regressions early, monitor quality over time, and check how quality varies between LLM models. The evaluation now acts as a safety rail.
 
 ## Process considerations for your evaluation strategy
 
@@ -249,7 +256,7 @@ More regulated industries like healthcare, financial services, government, pharm
 
 ### Content lifecycle and frequency of change
 
-Benefits, payroll cycles, IT support standards, or troubleshooting instructions may update annually, or even quarterly. 
+Benefits, payroll cycles, IT support standards, or troubleshooting instructions may update annually, or even quarterly.
 
 **Strategy impact:**
 
@@ -258,7 +265,6 @@ Benefits, payroll cycles, IT support standards, or troubleshooting instructions 
 - Run and evaluate tests that are “policy-sensitive” so they're more closely monitored.
 
 ---
-
 
 ## Next steps
 
