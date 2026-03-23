@@ -69,7 +69,7 @@ The agent is discoverable from the Microsoft 365 Copilot app store for all users
 
 4. Select **Users and groups**.  
    
-   :::image type="content" alt-text="Screenshot indicates Frontline Agent users and groups selected." source="media/setupfrontlineagent/tac4_5.png" lightbox="media/setupfrontlineagent/tac4_5.png":::
+   :::image type="content" alt-text="Screenshot indicates Frontline Agent users and groups selected." source="media/setupfrontlineagent/tac4-5.png" lightbox="media/setupfrontlineagent/tac4-5.png":::
 
 5. Select **Edit availability** and specify the set of individuals or Microsoft 365 group you want to deploy the agent to. Click **Apply**.
  
