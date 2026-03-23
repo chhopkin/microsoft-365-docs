@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Purview management for SharePoint Embedded containers"
 ms.reviewer: dancost, tonchan, abisuresh
@@ -29,6 +29,8 @@ description: "Learn about Purview integration of SharePoint Embedded containers 
 
 This article covers Purview integration for SharePoint Embedded containers used by Copilot Pages, Copilot Notebooks, and Loop workspaces. The concepts apply to all these products because they share the same underlying SharePoint Embedded infrastructure.
 
+For personal user-owned containers, Copilot Pages, Copilot Notebooks, and Loop My workspace use the same physical SharePoint Embedded container. In admin tools and audit data, that container is identified as owned by Loop.
+
 ## At a glance
 
 | Task | How to do it |
@@ -46,8 +48,8 @@ Purview enables configuration of retention policies and other compliance feature
 
 1. Sign in to the SharePoint admin center with the [SharePoint Embedded administrator role](/sharepoint/dev/embedded/concepts/admin-exp/adminrole)
 1. Navigate to **Containers** > **Active containers** or **Deleted containers** where you can view the details of a selected Loop workspace or Copilot Pages and Copilot Notebooks container
-1. From the flyout pane, **General** tab
-1. Copy the container URL
+1. From the flyout pane, **General** tab.
+1. Copy the container URL.
 
 > [!NOTE]
 > The container URL doesn't provide access to the container and doesn't function as a shareable link. Use the container URL only within Purview to target that container for various Purview features. A separate Application Redirect URL is the clickable link for end users with access to open the container in the Loop app. The Application Redirect URL isn't yet available, it's part of the launch of [Roadmap ID 421612](https://www.microsoft.com/en-us/microsoft-365/roadmap?id=421612).
@@ -58,7 +60,7 @@ Loop application IDs:
 
 - Loop Web Application ID: `a187e399-0c36-4b98-8f04-1edc167a0996`
 - Loop Mobile Application ID: `0922ef46-e1b9-4f7e-9134-9ad00547eb41`
-- Copilot Pages and Copilot Notebooks containers are created using the Loop Application IDs.
+- The personal user-owned container shared by Copilot Pages, Copilot Notebooks, and Loop My workspace is identified using the Loop Application IDs.
 
 ### Search and Export
 
@@ -67,7 +69,7 @@ To search and export Microsoft 365 service events for all file related activity:
 1. In the [Purview audit logs search](https://purview.microsoft.com/auditlogsearch), search audit logs for "page" or "loop" or "loot" or "fluid" or for the Loop Application IDs in the **Keyword Search** filter
 1. Further filter exported results by "SourceFileExtension":"page" or "SourceFileExtension":"loop" or "SourceFileExtension":"loot" (templates) or "SourceFileExtension":"fluid" (deprecated)
 
-Loop workspaces create and update `.pod` files to manage content in the workspace.
+    Loop workspaces create and update `.pod` files to manage content in the workspace.
 
 ### Specific Loop workspace or Copilot Notebook
 
@@ -80,7 +82,7 @@ To search for audit events related to a specific Loop workspace or a Copilot Pag
     - **Keyword Search**: To find all audit events related to the container, extract the GUID from the container URL and enter it in the Keyword Search filter.  
       - In the preceding example, the GUID is `c33f9fa3-9cbe-4fac-ba1f-b8eeb9c30e23`.
 
-This approach ensures you capture all relevant audit events for the selected Loop workspace or the Copilot Pages and Copilot Notebooks container.
+    This approach ensures you capture all relevant audit events for the selected Loop workspace or the Copilot Pages and Copilot Notebooks container.
 
 <!--
 potential future examples

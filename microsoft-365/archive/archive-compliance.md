@@ -21,9 +21,9 @@ description: Learn about compliance features for archived sites in Microsoft 365
 > [!NOTE]
 > Microsoft Purview features work seamlessly with archived content. For example, you can apply retention hold on archived content without needing to unarchive it. Likewise, you can also archive content in retention hold without needing to move or delete it from retention scope.
 
-## Data promises for archive sites
+## Data promises for archived files and sites
 
-Just like active SharePoint sites, archived sites and files maintain a baseline level of data promises, ensuring that your information is always protected and accessible:
+Just like active SharePoint content, archived sites and files maintain a baseline level of data promises, ensuring that your information is always protected and accessible:
 
 - **Durability** – All archived data is equally as durable as active SharePoint data, meaning it remains intact and reliable over time.
 
@@ -45,7 +45,7 @@ Microsoft 365 Archive also affects various compliance offerings, ensuring that y
 
 - **Permissions and access policies** – These settings and policies are retained on the site throughout the archive and reactivation lifecycle. Archiving the site and then reactivating it doesn't change the application of permissions or related access policies.
 
-- **Audit** – Archiving, reactivation, and deletion of archived sites are recorded in the audit log. For more information, see [Audit log activities](/purview/audit-log-activities).
+- **Audit** – Archiving, reactivation, and deletion of archived sites and files are recorded in the audit log. For more information, see [Audit log activities](/purview/audit-log-activities).
 
-- **Information protection** – Archived content still honors sensitivity label settings. Additionally, new sensitivity labels will also get applied to files in archived sites or archived individually.
+- **Information protection** – Archived content still honors sensitivity label settings. Additionally, new sensitivity labels will also get applied to files in archived sites.
 
