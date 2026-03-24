@@ -56,10 +56,13 @@ To place an Exchange Online mailbox on litigation hold, that mailbox must be ass
 
     - **Web page with more information for the user**: Use this box to direct the user to a website for more information about litigation hold. This URL appears on the Account Information page in the user's mailbox if they're using Outlook 2010 or later. To access this page, users can select **File** in Outlook.
 
-5. Select **Save changes** on the **Litigation hold** flyout page to create the hold.
+1. Select **Save changes** on the **Litigation hold** flyout page to create the hold.
 
    The system displays a banner saying it might take up to 240 minutes for the change to take effect.
-
+   
+   > [!NOTE]
+   > After Litigation hold is enabled, the "created by" field will aways reflect the original user who enabled the hold, even when the hold is later modified.
+   
 ### Create a litigation hold using PowerShell
 
 You can also create a litigation hold by running the following command in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell):
