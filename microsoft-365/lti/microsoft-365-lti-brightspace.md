@@ -134,10 +134,15 @@ You now have a tool registration configured in the Microsoft registration portal
 **To create a Deep Linking Quicklink for documents:**
 
 1. Select **New Link**.
+
 1. Enter **Microsoft 365 Document** as the **Name**.
+
 1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
+
 1. Select **Deep Linking Quicklink** for the **Type**.
+
 1. Create a **Custom Parameter** named **launchType** with value **linkSelection**.
+
 1. Select **Save and Close** to create the link.
 
 **To create a Deep Linking Quicklink for content activities:**
