@@ -34,7 +34,7 @@ For example, you can understand the activity of every user licensed to use Share
   
 ## How do I get to the SharePoint activity report?
 
-For information about what permissioms are needed to view the report, see [Who can see reports](activity-reports.md#who-can-see-reports).
+For information about what permissioms are needed to view the report, see [Microsoft 365 admin center usage reports overview: Before you begin](activity-reports.md#before-you-begin).
 
 1. In the admin center, go to the **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.
 2. From the dashboard homepage, select **SharePoint** in the left navigation.
