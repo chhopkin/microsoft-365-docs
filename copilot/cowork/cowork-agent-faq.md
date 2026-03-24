@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork agent common questions (Frontier)"
 description: "Frequently asked questions about Copilot Cowork agent in Microsoft 365 Copilot."
-ms.date: 03/31/2026
+ms.date: 03/30/2026
 ms.topic: faq
 author: leeclontz
 manager: KumarVivek
@@ -24,35 +24,21 @@ Copilot Cowork is an AI agent available in Microsoft 365 Copilot. It carries out
 
 ## What can Copilot Cowork do for me?
 
-Copilot Cowork can handle a wide range of everyday work tasks, including:
+Copilot Cowork can send emails, schedule meetings, create documents (Word, Excel, PowerPoint, PDF), post in Teams, manage your calendar, prepare daily briefings, search across your organization, conduct deep research, and draft stakeholder communications. You can also schedule prompts to run automatically.
 
-- Send emails and draft messages on your behalf.
-- Schedule meetings and manage your calendar.
-- Create documents in Word, Excel, PowerPoint, and PDF.
-- Post in Teams channels and conversations.
-- Organize your calendar and prepare daily briefings.
-- Search across your organization for files, people, and information.
-- Draft stakeholder communications and other professional content.
+For a full breakdown by category, see [What can Copilot Cowork do for you?](index.md#what-can-copilot-cowork-do-for-you)
 
 ## What skills does Copilot Cowork have?
 
-Copilot Cowork comes with a set of built-in skills, each designed for a specific type of task:
+Copilot Cowork has 13 built-in skills: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. You can also create your own custom skills by placing a `SKILL.md` file in a subfolder of your OneDrive `/Cowork/.skills/` folder (for example, `/Cowork/.skills/weekly-report/SKILL.md`).
 
-| Skill | What it does |
-|---|---|
-| Word | Creates and edits Word documents |
-| Excel | Creates and edits spreadsheets |
-| PowerPoint | Creates and edits presentations |
-| PDF | Works with PDF documents |
-| Email | Composes, replies, forwards, and sends emails. Saves drafts and manages attachments |
-| Scheduling | Finds available times and proposes meetings |
-| Calendar Management | Creates events using natural language, adds Teams meeting links, and manages your calendar |
-| Meetings | Prepares meeting intelligence and insights |
-| Daily Briefing | Summarizes your upcoming day's meetings, priorities, and action items |
-| Enterprise Search | Finds files, people, and information across your organization |
-| Communications | Drafts professional messages for stakeholders and teams |
-| Deep Research | Conducts in-depth research across multiple sources to compile comprehensive answers and analysis on complex topics |
-| Adaptive Cards | Generates interactive card-based responses with structured layouts, buttons, and data displays |
+For a detailed description of each skill, see [Copilot Cowork skills](use-cowork-agent.md#copilot-cowork-skills).
+
+## Can I create my own custom skills?
+
+Yes. You can create up to 20 custom skills by placing `SKILL.md` files in your OneDrive `/Cowork/.skills/` folder. Each file contains a YAML frontmatter block with a name and description, followed by the skill instructions. Copilot Cowork discovers your custom skills automatically at the start of each conversation.
+
+For step-by-step instructions, see [Create custom skills](use-cowork-agent.md#create-custom-skills).
 
 ## How do I start using Copilot Cowork?
 
@@ -62,6 +48,10 @@ Getting started takes just a few steps.
 2. Select the **Copilot Cowork agent** from the agent list (or use **@Cowork** to mention it).
 3. Describe the task you want to accomplish. You can type up to 16,000 characters, and attach files by dragging them into the chat or using the file picker.
 4. Send your message. Copilot Cowork begins processing your request.
+
+## Does Copilot Cowork work on mobile devices?
+
+Yes. Copilot Cowork is available in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft), in the Microsoft 365 Copilot desktop app for Windows and Mac, and in the mobile app for iOS (17.4 and later) and Android. On smaller screens, panels collapse to overlays and the layout adapts to fit the available space.
 
 ## What file types does Copilot Cowork support?
 
@@ -145,6 +135,16 @@ Files that Copilot Cowork creates are saved to your **OneDrive and SharePoint** 
 ## Can I download all output files at once?
 
 Yes. When Copilot Cowork produces multiple files, select **Download All** at the top of the output file list to download everything as a single zip archive.
+
+## Can an administrator disable Copilot Cowork?
+
+Yes. Administrators can manage access to Copilot Cowork through the Microsoft 365 admin center:
+
+- **Disable for specific users**: Add users to a security group configured to exclude them from the Copilot experience.
+- **Control deployment**: In the Microsoft 365 Apps admin center, administrators can disable automatic installation of the Microsoft 365 Copilot app or manage distribution through Microsoft Intune, Configuration Manager, or Group Policy.
+- **Manage agent availability**: Administrators can manage which agents are available to users in their organization through the Copilot settings in the admin center.
+
+For more information, see [Microsoft 365 Copilot admin settings](/microsoft-365-copilot/copilot-for-microsoft-365-admin).
 
 ## Is Copilot Cowork secure?
 

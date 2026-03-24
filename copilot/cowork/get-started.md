@@ -1,7 +1,7 @@
 ---
 title: "Get started with Copilot Cowork agent (Frontier)"
 description: "Start using Copilot Cowork agent in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
-ms.date: 03/31/2026
+ms.date: 03/30/2026
 ms.topic: get-started
 author: leeclontz
 manager: KumarVivek
@@ -25,6 +25,8 @@ Before you begin, make sure you have:
 - **Microsoft 365 Copilot access**: An active Microsoft 365 Copilot license assigned to your account.
 - **A modern browser**: Microsoft Edge or Google Chrome recommended.
 - **The Copilot Cowork agent available**: Copilot Cowork is enabled in your Microsoft 365 Copilot environment.
+
+Copilot Cowork works in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft), in the Microsoft 365 Copilot desktop app for Windows and Mac, and in the mobile app for iOS (17.4 and later) and Android.
 
 ## Open Copilot Cowork
 

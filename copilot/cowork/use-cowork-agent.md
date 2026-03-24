@@ -1,7 +1,7 @@
 ---
 title: "Use Copilot Cowork agent (Frontier)"
 description: "Learn how to have conversations, manage files, approve actions, and organize projects with Copilot Cowork agent in Microsoft 365 Copilot."
-ms.date: 03/31/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 author: leeclontz
 manager: KumarVivek
@@ -153,7 +153,7 @@ When Copilot Cowork creates or updates files during a conversation, you can grab
 
 ### Supported file types
 
-Copilot Cowork supports all the file types you're likely to work with:
+Copilot Cowork supports the following file types:
 
 | Category | Supported extensions |
 |---|---|
@@ -328,6 +328,30 @@ Here's what Copilot Cowork can do:
 | Adaptive Cards | Generates interactive card-based responses with structured layouts, buttons, and data displays in the conversation. |
 
 You can display which skills Copilot Cowork used during a conversation in the **Skills** section of the side panel. They appear as chips.
+
+### Create custom skills
+
+You can extend Copilot Cowork with your own custom skills stored in OneDrive.
+
+1. In your OneDrive, navigate to the `/Cowork/.skills/` folder. Create it if it doesn't exist.
+2. Create a subfolder with your skill name (for example, `/Cowork/.skills/weekly-report/`).
+3. Inside the subfolder, create a file named `SKILL.md`.
+4. Add a YAML frontmatter block with a `name` and `description`, followed by the skill instructions in Markdown:
+
+   ```yaml
+   ---
+   name: Weekly Report
+   description: Generates a weekly status report from my recent emails and calendar.
+   ---
+
+   Gather my sent emails and calendar events from the past week, then create
+   a summary document organized by project.
+   ```
+
+5. Save the file. Copilot Cowork discovers your custom skills automatically at the start of each conversation.
+
+> [!NOTE]
+> You can create up to 20 custom skills. Each `SKILL.md` file can be up to 1 MB.
 
 ## Schedule prompts
 

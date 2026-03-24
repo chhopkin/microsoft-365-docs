@@ -1,7 +1,7 @@
 ---
 title: "Responsible AI FAQ for Copilot Cowork agent"
 description: "Get answers to frequently asked questions about responsible AI and Copilot Cowork agent in Microsoft 365 Copilot."
-ms.date: 03/31/2026
+ms.date: 03/30/2026
 ms.topic: faq
 ms.custom:
   - transparency-note
@@ -40,6 +40,7 @@ Copilot Cowork can:
 - Conduct deep research across multiple sources and compile comprehensive analysis.
 - Generate adaptive card responses with structured layouts and data displays.
 - Run scheduled prompts for recurring tasks (daily briefings, weekly reports).
+- Discover and use custom skills that you or your organization create via OneDrive.
 
 During a conversation, Copilot Cowork acquires specialized skills as needed, such as the following: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards.
 
@@ -108,7 +109,7 @@ Copilot Cowork doesn't use your data to train AI models. Your organizational dat
 - Copilot Cowork is available within Microsoft 365 Copilot and is subject to your organization's access policies and licensing.
 - Always review AI-generated content before approving actions that send, post, or share information externally.
 - Use the conversation controls (pause, resume, cancel) to manage the agent's work if it goes off track.
-- Administrators manage Copilot Cowork access through the Microsoft 365 admin center.
+- Administrators can manage access to Copilot Cowork through the Microsoft 365 admin center, including disabling access for specific users or controlling deployment across the organization.
 - Provide regular feedback through the thumbs up/down controls and the general feedback option to help improve the agent's performance over time.
 
 ## How do I provide feedback on Copilot Cowork agent?
