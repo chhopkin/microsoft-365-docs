@@ -15,13 +15,10 @@ ms.collection:
 - must-keep
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 02/18/2026
+ms.date: 03/24/2026
 ---
 
 # Application card: Microsoft 365 Copilot
-
-> [!NOTE]
-> As of February 17, 2026, the information in the Transparency Note for Microsoft 365 Copilot has been moved over to this article and the Transparency Note has been retired.
 
 ## What is an Application or Platform card?
 
@@ -156,7 +153,7 @@ Performance and safety evaluations assess whether AI applications are operating 
 
 ### Performance and quality evaluations
 
-Performance evaluations for AI applications are essential to help improve  their reliability in real-world applications. Metrics such as response relevance, accuracy, and groundedness help assess the accuracy and consistency of AI-generated outputs, so that they're factually supported in grounded content scenarios, contextually appropriate, and logically structured. For Microsoft 365 Copilot, we regularly conduct rigorous quality evaluations across multiple metrics such as relevance, accuracy, and groundedness.
+Performance evaluations for AI applications are essential to help improve their reliability in real-world applications. Metrics such as response relevance, accuracy, and groundedness help assess the accuracy and consistency of AI-generated outputs, so that they're factually supported in grounded content scenarios, contextually appropriate, and logically structured. For Microsoft 365 Copilot, we regularly conduct rigorous quality evaluations across multiple metrics such as relevance, accuracy, and groundedness.
 
 ### Performance and quality evaluation methods
 
