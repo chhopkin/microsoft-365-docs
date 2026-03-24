@@ -165,7 +165,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Enter **Microsoft 365 Document** as the **Name**.
 
-1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
 
 1. Select **Deep Linking Quicklink** for the **Type**.
 
@@ -179,7 +179,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Enter **Microsoft 365 Document Collaboration** as the **Name**.
 
-1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
 
 1. Select **Deep Linking Quicklink** for the **Type**.
 
