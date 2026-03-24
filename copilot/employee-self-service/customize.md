@@ -5,10 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 12/15/2025
+ms.date: 03/12/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
+ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
@@ -55,7 +56,7 @@ Solution accelerator packages come with a few components, like connectors, topic
 
 ### Instructions
 
-LLM (Large Language Model) experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses.[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
+LLM (Large Language Model) experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses. [Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
 ## Response quality
 
@@ -71,16 +72,21 @@ Optionally, you can brand the Employee Self-Service agent based on your branding
 
 End-users see the following customizable branding and content elements:
 
-|Element                           |Customization                |Next steps |
-|----------------------------------|-----------------------------|-----------|
-|Agent name                        |Copilot Studio overview page |Keep the original name or choose a name that aligns with your organization's brand and audience. |
-|Agent logo                        |Copilot Studio overview page |Use the default logo (a company badge) or add a logo that aligns with your brand. |
-|Agent short and long descriptions |Copilot Studio channels page |Consider a tagline and one-sentence description to be used to help users understand how Employee Self-Service agent can help them when they add the agent for the first time. |
-|Starter prompts                   |Copilot Studio overview page or the Microsoft 365 admin center if you also want to add categories |Help end-users understand how to engage with the Employee Self-Service agent by adding up to 12 starter prompts. |
-|Disclaimer message                |Copilot Studio channels page and topic |Add a general disclaimer on the agent's landing page or add a disclaimer that displays after certain responses. |
-|Agent (global) instructions       |Copilot Studio overview page |Draft instructions that help shape your agent's personality, behavior for edge cases, and guidance on how to use user context. |
+|Element                           |Customization                                                   |Next steps |
+|----------------------------------|----------------------------------------------------------------|-----------|
+|Agent name                        |Copilot Studio overview page                                    |Keep the original name or choose a name that aligns with your organization's brand and audience. |
+|Agent logo                        |Copilot Studio overview page                                    |Use the default logo (a company badge) or add a logo that aligns with your brand. |
+|Agent short and long descriptions |Copilot Studio channels page                                    |Consider a tagline and one-sentence description to help users understand how the Employee Self-Service agent can help when they add the agent for the first time. |
+|Starter prompts (basic)           |Copilot Studio overview page                                    |Help end-users understand how to engage with the Employee Self-Service agent by adding up to 12 starter prompts. |
+|Starter prompts (with categories)     |Microsoft 365 admin center                 |Optionally add categorized starter prompts (up to 10 categories, up to 12 prompts per category) via CSV upload. These settings override Copilot Studio starter prompts. |
+|Accent color                      |Microsoft 365 admin center                   |Optionally configure light and dark theme accent colors used for buttons, links, and loading indicators. Defaults apply if not configured. |
+|Quick links                       |Microsoft 365 admin center                    |Optionally add quick links via CSV upload to surface important tenant resources directly on the agent landing page. |
+|Disclaimer message                |Copilot Studio channels page and topic                          |Add a general disclaimer on the agent's landing page or add a disclaimer that displays after certain responses. |
+|Agent (global) instructions       |Copilot Studio overview page                                    |Draft instructions that help shape your agent's personality, behavior for edge cases, and guidance on how to use user context. |
 
-You can customize most of these elements in Copilot Studio by selecting the **Edit** button in the **Overview** section of the agent.
+
+
+You can customize most of these elements in Copilot Studio by selecting the **Edit** button in the **Overview** section of the agent. The additional landing page customizations can be found in the **Settings** section of the **Copilot dropdown** in the Microsoft 365 admin center. 
 
 > [!NOTE]
 > Providing a custom name to the agent shows the provided name for end-users in the Copilot chat interface. Most other admin-related interfaces, such as analytics dashboards in Copilot Studio, Copilot Analytics under Viva Insights, Microsoft admin center, Power Platform admin center, and other billing reports for metered consumption, display the agent's name:
@@ -220,25 +226,24 @@ The Employee Self-Service agent starter is "Consulting with a professional is th
 
 The triggers are:
 
-**This topic should only trigger ** when users mention **explicitly sensitive, confidential, or legal concerns ** such as **harassment **, **abuse **, **discrimination **, **unethical behavior **, or **retaliation ** in the work place. It activates in situations involving:
+**This topic should only trigger** when users mention **explicitly sensitive, confidential, or legal concerns** such as **harassment**, **abuse**, **discrimination**, **unethical behavior**, or **retaliation** in the work place. It activates in situations involving:
 
-- Requests for **HR consultation ** relating to sensitive matters
-- **Privacy concerns **
-- **Hostile work environments **
-- **Workplace violence **
-- **Legal action **
-- Reporting of **severe misconduct **
+- Requests for **HR consultation** relating to sensitive matters
+- **Privacy concerns**
+- **Hostile work environments**
+- **Workplace violence**
+- **Legal action**
+- Reporting of **severe misconduct**
 
-**Important: **
+> [!IMPORTANT]
+> This topic **must not** trigger for **general HR-related inquiries** such as:
+> 
+> - Accessing **benefits information** such as W2 forms and health benefits
+> - **Routine workplace questions**
+> - **Performance concerns**
+> - Other **non-sensitive** matters
 
-This topic **must not ** trigger for **general HR-related inquiries ** such as:
-
-- Accessing **benefits information ** such as W2 forms and health benefits
-- **Routine workplace questions **
-- **Performance concerns
-- Other **non-sensitive ** matters
-
-**It should only activate ** when explicit terms like **harassment **, **discrimination **, **retaliation **, **workplace violence **, or **legal support ** are mentioned.
+**It should only activate** when explicit terms like **harassment**, **discrimination**, **retaliation**, **workplace violence**, or **legal support** are mentioned.
 
 **Maker - What to customize**
 
@@ -402,14 +407,92 @@ For information on SharePoint knowledge filtering, see [SharePoint Advanced Filt
 
 **Starter prompts** help you roll out the Employee Self-Service agent efficiently to your organization. With starter prompts, users already have a few ready-to-go prompts to use. Creating starter prompts helps your organization decrease the time to value.
 
->[!TIP]
->Identify the most asked questions by your users to form the base of your starter prompts. Identifying the most accurate answers to these questions helps build trust with your users.
+> [!TIP]
+> Identify the most asked questions by your users to form the base of your starter prompts. Identifying the most accurate answers to these questions helps build trust with your users.
 
 1. Open the **Employee Self-Service** agent in Copilot Studio and navigate to the **Overview** page.
-1. Select the **Edit** button in **Starter prompts.**
+1. Select the **Edit** button in **Starter prompts**.
 1. Add prompts categorized by **Title**.
 1. **Save** your changes.
 1. The starter prompts you created display in the **Starter prompts** section.
+
+## Configure Employee Self‑Service branding and landing page content in the Microsoft 365 admin center
+
+You can optionally customize how the Employee Self‑Service (ESS) agent appears and how users start conversations by configuring tenant‑level settings in the Microsoft 365 admin center. These settings complement Copilot Studio configuration and apply to deployed agents.
+
+The **Rich landing page** gives you control over how your Employee Self-Service agent looks and feels to employees. On the agent’s landing page, you can:
+
+- Add accent colors to reflect your brand.
+- Organize starter prompts into categories so employees can quickly find what they need.
+- Surface quick links to important resources.
+
+> [!NOTE]
+> If you don't configure these settings:
+>  - Starter prompts fall back to Copilot Studio configuration.
+>  - Default Copilot accent colors are used.  
+>  - No quick links are shown.  
+
+Changes saved for a deployed agent are reflected for users within a few hours.
+
+---
+
+### Configure categorized starter prompts
+
+Categorized starter prompts help users understand what the ESS agent can do and guide them into the right scenarios.
+
+**Rules and limits**
+
+- Up to **10 categories**
+- Category name limit: **35 characters**
+- Up to **12 starter prompts per category**
+- Starter prompt title limit: **128 characters** (must be unique)
+- Starter prompt text limit: **4000 characters**
+- These settings **override** starter prompts configured in Copilot Studio
+
+|Step |Action |Expected result |
+|-----|-------|----------------|
+|1 |Open Microsoft 365 Admin Center and navigate to **Copilot > Settings > Employee Self‑Service Agent**. |ESS agent settings are displayed. |
+|2 |Select the **Starter prompts** tab. |Starter prompts configuration page opens. |
+|3 |Download the CSV template and add categories, titles, and prompts. |CSV is prepared with categorized prompts. |
+|4 |Upload the completed CSV file. |Prompts are validated and displayed for review. |
+|5 |Select **Save**. |Categorized starter prompts are applied to the deployed agent. |
+
+---
+
+### Configure accent colors
+
+Accent colors control the visual styling used across the ESS experience, including buttons, links, chat bubbles, and loading indicators.
+
+**Accessibility guidance**
+
+- Recommended contrast ratio: **4.5:1**
+- If a color doesn’t meet the ratio, a warning is shown but you can still save it
+
+|Step |Action |Expected result |
+|-----|-------|----------------|
+|1 |Navigate to the **Accent colors** tab. |Accent color settings are shown. |
+|2 |Enter HEX values or select colors for light and dark themes. |Custom accent colors are selected. |
+|3 |Select **Save**. |Accent colors are applied to the ESS agent. |
+
+---
+
+### Configure quick links
+
+Quick links give users direct access to important tenant resources from the ESS landing page.
+
+|Step |Action |Expected result |
+|-----|-------|----------------|
+|1 |Navigate to the **Quick links** tab. |Quick links configuration page opens. |
+|2 |Download the CSV template. |CSV template is available for editing. |
+|3 |Add link titles and URLs to the CSV. |Quick links are defined. |
+|4 |Upload the CSV file. |Links are validated and displayed for review. |
+|5 |Select **Save**. |Quick links appear on the ESS landing page. |
+
+---
+
+### Edit or remove MAC configuration
+
+You can update any of these settings by exporting the existing CSV, making changes, and reuploading the file. To revert to Copilot Studio defaults, delete the configured entries and save your changes.
 
 ## Customization checklist
 
