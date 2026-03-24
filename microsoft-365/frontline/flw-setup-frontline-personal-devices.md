@@ -55,7 +55,7 @@ Make sure you have:
 > [!NOTE]
 > For best results, use a private browsing session and close it after each setup.
 
-On the desktop kiosk or back-office PC, open a web browser and navigate to [aka.ms/getfrontlineteams](https://aka.ms/getfrontlineteams).
+On the desktop kiosk or back-office PC, open a web browser and navigate to [aka.ms/getfrontlineteams](https://flworchestrator.teams.microsoft.com/frontlinebyod?source=docs).
 
 ![Screenshot shows the user interface for the setup guide landing page.](media/setup-frontline-teams-on-personal-devices/get-started.png)
 
