@@ -4,7 +4,7 @@ ms.author: kwekua
 author: kwekuako
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 03/11/2026
+ms.date: 03/24/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-copilot
@@ -18,7 +18,7 @@ ms.collection:
 - OtherAILLMs
 appliesto:
 - ✅ Microsoft 365 Copilot
-description: "Learn about Anthropic as a subprocessor for Microsoft."
+description: "Learn about flex routing and how it affects inferencing for Microsoft 365 Copilot and Copilot chat during times of peak load."
 ---
 
 # European Union Data Boundary (EUDB) flex routing
@@ -47,9 +47,11 @@ Flex routing is on by default for tenants in EU and EFTA countries, except for e
 Review the flex routing setting in your tenant to ensure it aligns with your organizations requirements and compliance policies. To update the settings, follow these steps.
 
 1. Sign in to the Microsoft 365 admin center using an account with the required administrative permissions.
-2. Go to **Copilot** -> **Settings** -> **Flex routing**.
-3. Select the option to allow LLM requests to be processed outside the EU data boundary during peak loads.
-4. Or select the option to require all LLM requests to be processed inside the EU data boundary, even during times of peak load.
+2. Go to **Copilot** -> **Settings** -> **EU flex processing for Microsoft 365 Copilot.**.
+3. Select **Allow EU flex processing for Microsoft 365 Copilot**.
+    1. This setting allows Microsoft to execute some LLM calls outside of the EU during exceptional, high-demand time windows. All Microsoft 365 data processing and data residency commitments will continue to apply, and all data will remain encrypted both in transit and at rest.
+4. If you don’t want to allow EU flex processing, select **Don’t allow EU flex processing**.
+    1. If you select this option, LLM requests will be processed inside the EU Data Boundary, even at times of peak load.
 
 ## Frequently asked questions
 
@@ -65,9 +67,9 @@ Microsoft 365 data residency and processing commitments remain unchanged. All da
 
 If flex routing is enabled, LLM inferencing may occur in the United States, Canada, or Australia during times of peak load, depending on available capacity.
 
-### Is customer content stored outside the EU data boundary when flex routing is enabled?
+### Will Customer Data be stored outside the EU data boundary when flex routing is enabled?
 
-No, flex routing is limited to LLM inferencing and doesn't change where customer content is stored.
+No, flex routing is limited to LLM inferencing and doesn't change where Customer Data is stored.
 
 ### Can I see where LLM inferencing occurs when flex routing is enabled?
 
