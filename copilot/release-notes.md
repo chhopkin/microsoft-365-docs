@@ -68,7 +68,7 @@ Updates released between March 10, 2026, March 24, 2026
 
   Two new Copilot actions—Summarize and Explain—are now available in the Microsoft Edge PDF reader to help users understand content faster.
 
-  **Roadmap ID:** [498641](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=498641)
+  **Roadmap ID:** [498641](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=498641)
 
 
   **Details:**
@@ -374,7 +374,7 @@ Updates released between March 10, 2026, March 24, 2026
 
   Connect Microsoft 365 Copilot to Aha! with Copilot connectors so you can query product features and customer ideas in Copilot.
 
-  **Roadmap ID:** [515159](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515159)
+  **Roadmap ID:** [515159](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515159)
 
   **Details:**
 
@@ -725,7 +725,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can connect Microsoft 365 Copilot with Monday.com to track work and team progress using the Copilot Connector. 
 
-  **Roadmap ID:** [515177](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515177)
+  **Roadmap ID:** [515177](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515177)
 
   **Details:**
 
@@ -843,7 +843,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   IT admins can customize filters for data sources in Copilot Search without additional development work. 
 
-  **Roadmap ID:** [502534](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502534 ) 
+  **Roadmap ID:** [502534](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502534 ) 
 
   **Detailes:** 
 
@@ -955,7 +955,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+  **Roadmap ID:** [516565](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -984,7 +984,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [513422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513422)
 
   **Details:** 
 
@@ -1009,7 +1009,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
 
-  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+  **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
   **Detailes:** 
 
@@ -1152,7 +1152,7 @@ Updates released between January 27, 2026, February 10, 2026.
 
     The ServiceNow Tickets Copilot connector updates ticket status more frequently by ingesting both active and inactive tickets.
 
-    **Roadmap ID:** [505437](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=505437)
+    **Roadmap ID:** [505437](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=505437)
 
     **Details:**
 
@@ -1183,7 +1183,7 @@ Updates released between January 27, 2026, February 10, 2026.
 
   Connect Microsoft 365 Copilot to Miro with Copilot connectors so you can query visual boards and diagrams in Copilot.
 
-    **Roadmap ID:** [515166](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515166)
+    **Roadmap ID:** [515166](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515166)
 
     **Details:**
 
@@ -6486,7 +6486,7 @@ Updates released between February 10, 2026, and February 24, 2026.
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+  **Roadmap ID:** [516565](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -6515,7 +6515,7 @@ Updates released between February 10, 2026, and February 24, 2026.
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [513422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513422)
 
   **Details:** 
 
@@ -6542,7 +6542,7 @@ Updates released between February 10, 2026, and February 24, 2026.
 
   The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
 
-  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+  **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
   **Detailes:** 
 
@@ -9006,7 +9006,7 @@ Updates released between March 10, 2026, March 24, 2026
 
   Two new Copilot actions—Summarize and Explain—are now available in the Microsoft Edge PDF reader to help users understand content faster.
 
-  **Roadmap ID:** [498641](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=498641)
+  **Roadmap ID:** [498641](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=498641)
 
 
   **Details:**
@@ -9301,7 +9301,7 @@ Updates released between March 10, 2026, March 24, 2026
 
   Connect Microsoft 365 Copilot to Aha! with Copilot connectors so you can query product features and customer ideas in Copilot.
 
-  **Roadmap ID:** [515159](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515159)
+  **Roadmap ID:** [515159](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515159)
 
   **Details:**
 
@@ -9572,7 +9572,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can connect Microsoft 365 Copilot with Monday.com to track work and team progress using the Copilot Connector. 
 
-  **Roadmap ID:** [515177](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515177)
+  **Roadmap ID:** [515177](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515177)
 
   **Details:**
 
@@ -9690,7 +9690,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   IT admins can customize filters for data sources in Copilot Search without additional development work. 
 
-  **Roadmap ID:** [502534](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502534 ) 
+  **Roadmap ID:** [502534](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502534 ) 
 
   **Detailes:** 
 
@@ -9778,7 +9778,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+  **Roadmap ID:** [516565](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -9807,7 +9807,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [513422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513422)
 
   **Details:** 
 
@@ -9833,7 +9833,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
 
-  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+  **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
   **Detailes:** 
 
@@ -9976,7 +9976,7 @@ Updates released between January 27, 2026, February 10, 2026.
 
     The ServiceNow Tickets Copilot connector updates ticket status more frequently by ingesting both active and inactive tickets.
 
-    **Roadmap ID:** [505437](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=505437)
+    **Roadmap ID:** [505437](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=505437)
 
     **Details:**
 
@@ -10006,7 +10006,7 @@ Updates released between January 27, 2026, February 10, 2026.
 
   Connect Microsoft 365 Copilot to Miro with Copilot connectors so you can query visual boards and diagrams in Copilot.
 
-    **Roadmap ID:** [515166](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515166)
+    **Roadmap ID:** [515166](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515166)
 
     **Details:**
 
@@ -15930,7 +15930,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [513422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513422)
 
   **Details:** 
 
@@ -15955,7 +15955,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+  **Roadmap ID:** [516565](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -15986,7 +15986,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
 
-  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+  **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
   **Detailes:** 
 
