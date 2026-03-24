@@ -6,6 +6,7 @@ author: DHB-MSFT
 manager: dansimp
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
+ms.subservice: m365-privacy
 ms.collection: 
 - magic-ai-copilot
 - m365copilot
