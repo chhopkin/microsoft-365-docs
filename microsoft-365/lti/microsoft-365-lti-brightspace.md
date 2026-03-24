@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 10/10/2025
+ms.date: 03/24/2026
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education
@@ -64,7 +64,8 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
     | **Redirect URLs** | Copy the **Redirect URL** value from the Microsoft registration. |
     | **OpenID Connect Login URL** | Copy the **Open ID connection URL** value from the Microsoft registration. |
     | **Target Link URI** | Copy the **Target Link URL** value from the Microsoft registration. |
-
+    | **Keyset URL** | Copy the **JWKS URL** from Microsoft registration. |
+   
 1. Check the following **Extensions** options, and add the following **Substitution Parameters** to the registration:
 
     :::image type="content" source="./media/brightspace-extensions-2.png" alt-text="Screenshot of Brightspace extensions." border="true":::
@@ -128,6 +129,15 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. For the **Type**, select **Basic Launch**.
 
+1. Select **Save and Close** to create the link.
+
+**To create a Deep Linking Quicklink for documents:**
+
+1. Select **New Link**.
+1. Enter **Microsoft 365 Document** as the **Name**.
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
+1. Select **Deep Linking Quicklink** for the **Type**.
+1. Create a **Custom Parameter** named **launchType** with value **linkSelection**.
 1. Select **Save and Close** to create the link.
 
 **To create a Deep Linking Quicklink for content activities:**
