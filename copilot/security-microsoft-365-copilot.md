@@ -12,6 +12,7 @@ ms.update-cycle: 180-days
 ms.reviewer: sophieke
 audience: Admin
 ms.service: microsoft-365-copilot
+ms.subservice: security
 ms.localizationpriority: medium
 customer-intent: As an admin, I want to use a blueprint to help prevent oversharing when using Microsoft 365 Copilot.
 appliesto:

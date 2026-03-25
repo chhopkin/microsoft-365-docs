@@ -20,9 +20,6 @@ ms.date: 03/24/2026
 
 # Application card: Microsoft 365 Copilot
 
-> [!NOTE]
-> As of February 17, 2026, the information in the Transparency Note for Microsoft 365 Copilot has been moved over to this article and the Transparency Note has been retired.
-
 ## What is an Application or Platform card?
 
 Microsoft’s Application and Platform cards are intended to help you understand how our AI technology works, the choices application owners can make that influence application performance and behavior, and the importance of considering the whole application, including the technology, the people, and the environment. Application cards are created for AI applications and platform cards are created for AI platform services. These resources can support the development or deployment of your own applications and can be shared with users or stakeholders impacted by them.
