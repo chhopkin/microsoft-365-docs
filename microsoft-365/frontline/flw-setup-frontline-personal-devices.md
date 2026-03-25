@@ -29,7 +29,7 @@ The frontline Teams onboarding experience helps frontline workers set up Teams o
 
 
 ```
-> [!VIDEO https://youtu.be/Yz52WdwsbBs?si=xnicG8_H_vtSL6jQ]
+> [!VIDEO https://www.youtube.com/embed/Yz52WdwsbBs?si=bfBY3lbQ9vbgI2rs]
 ```
 
 ## Scenarios supported
