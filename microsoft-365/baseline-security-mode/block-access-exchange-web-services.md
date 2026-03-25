@@ -26,9 +26,11 @@ If you have enabled this setting but need to revert to the default behavior (all
 
 EWS has historically been used by legacy applications and custom integrations. However, it also represents a common attack vector because it allows broad programmatic access to mailbox data. Compromised accounts or malicious apps can use EWS to read mail, access contacts, send messages, or perform automated actions without user interaction. Enforcing this setting significantly reduces your risk by preventing unauthorized or outdated apps from reaching sensitive Exchange data. You can still allow exceptions for specific users or workloads using Exchange Online PowerShell.
 
-You can also generate a CSV report to identify which apps are making EWS requests, how frequently they access EWS, and the extent of your organization’s dependency on EWS. For a list of Microsoft first-party client application IDs, see [Commonly used Microsoft first-party services and portal apps](/power-platform/admin/apps-to-allow). For Microsoft applications, Microsoft updates those periodically to remove EWS dependencies. We recommend that you keep your client applications up-to-date. If you still can't find the Application ID, check your Enterprise Applications in Entra ID. For more information, see [Quickstart: View enterprise applications](/entra/identity/enterprise-apps/view-applications-portal).
+You can also generate a CSV report to identify which apps are making EWS requests, how frequently they access EWS, and the extent of your organization’s dependency on EWS. 
 
 > [!NOTE]
 > Usage data is collected and aggregated weekly, not daily.
+
+For a list of Microsoft first-party client application IDs, see [Commonly used Microsoft first-party services and portal apps](/power-platform/admin/apps-to-allow). For Microsoft applications, Microsoft updates those periodically to remove EWS dependencies. We recommend that you keep your client applications up-to-date. If you still can't find the Application ID, check your Enterprise Applications in Entra ID. For more information, see [Quickstart: View enterprise applications](/entra/identity/enterprise-apps/view-applications-portal).
 
 For more information, see [Control access to EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange).
