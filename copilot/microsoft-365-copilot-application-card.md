@@ -15,7 +15,7 @@ ms.collection:
 - must-keep
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 03/31/2026
+ms.date: 03/24/2026
 ---
 
 # Application card: Microsoft 365 Copilot
@@ -84,7 +84,6 @@ The key features and capabilities in the following table describe what Microsoft
 |Microsoft Copilot Studio|Microsoft Copilot Studio is a powerful platform for building secure, scalable, and intelligent agents that work across Microsoft 365 and line-of-business systems. <br/><br/> For more information, see [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext).|
 |Agent Builder feature in Microsoft 365 Copilot |The Agent Builder feature in Microsoft 365 Copilot provides a simple interface that you can use to quickly and easily build declarative agents, either by using natural language or manually. <br/><br/> For more information, see [Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder).|
 |Microsoft 365 Copilot with computer-using agent|Microsoft 365 Copilot with computer-using agent allows you to automate browser or desktop tasks so that your prompts can make use of more of your content and context. Because the agent can perform tasks on your behalf, there can be an increased risk to system security or privacy. To help mitigate this risk, the agent has multiple safeguards, including model-driven safety checks over content and actions as well as tenant admin controls that enable or disable the computer-using agent and restrict which internet sites and domains the agent can access. We recommend that you apply these controls and that you assess usage of the agent.|
-| Microsoft 365 Copilot with the Copilot Cowork agent | The Copilot Cowork agent in Microsoft 365 Copilot carries out tasks on your behalf across Microsoft 365. You describe what you need in natural language, and Copilot Cowork performs these tasks — sending emails, scheduling meetings, creating documents, posting in Teams, browsing the web, and managing files. During a conversation, Copilot Cowork acquires specialized skills as needed: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. Copilot Cowork connects to your Outlook, Calendar, Teams, Work IQ, Microsoft 365, Microsoft Learn, and web browsing services. It shows each step as it works, asks for your approval before sensitive actions (such as sending an email or posting in Teams), and lets you pause, resume, or cancel at any time. Copilot Cowork is available through the [Frontier program](https://adoption.microsoft.com/copilot/frontier-program/). For more information, see [FAQ for the Copilot Cowork agent in Microsoft 365 Copilot](responsible-ai/cowork-agent-responsible-ai-faq.md) and [Responsible AI overview for the Copilot Cowork agent](responsible-ai/cowork-agent-responsible-ai-overview.md). |
 
 ### Extensibility and customization
 
