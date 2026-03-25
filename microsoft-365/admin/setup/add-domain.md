@@ -83,7 +83,7 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 
 > [!IMPORTANT]
-> We recommend that your organization use a custom domain for sending, as it can enhance your email's appearance, improve its repution and avoid limits designed to prevent misuse.
+> We recommend that your organization use a custom domain for sending, as it can enhance your email's appearance, improve its reputation and avoid limits designed to prevent misuse.
 
 To add a custom domain to Microsoft 365, select the tab based on your registrar's support for [**Domain Connect**](#domain-connect):
 
