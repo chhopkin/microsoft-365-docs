@@ -106,10 +106,7 @@ For more information, see the following articles:
 
 ## Next step
 
-The next step is to start using the features in your license:
-
-- [Microsoft 365 Copilot admin guide for E3 licenses](microsoft-365-copilot-e3-guide.md)
-- [Microsoft 365 Copilot admin guide for E5 licenses](microsoft-365-copilot-e5-guide.md)
+The next step is to start using the features in your license. See [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md).
 
 ## Related content
 

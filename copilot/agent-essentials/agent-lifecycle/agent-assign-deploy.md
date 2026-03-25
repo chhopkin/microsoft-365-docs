@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 11/12/2025
+ms.date: 03/12/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -31,7 +31,7 @@ Certain Microsoft agents, such as Researcher and Analyst, are preinstalled and p
 You, as the administrator, have control over the lifecycle management of the agents you make available at your organization. You can install agents by using the Copilot Control System in Microsoft 365 admin center. You can upload custom agents, assign existing agents, and deploy agents as well. You can also prevent oversharing by removing and blocking agents that are unneeded by your organization. For related information, see [Admin-installed agents](/copilot/microsoft-365/copilot-agent-install#admin-installed-agents).
 
 #### User installed agents
-Members of your organization can install agents from the [Agent Store](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/). Given the tools and capability, they can also create agents using Copilot Studio, Copilot Studio (lite), and SharePoint. For related information, see [User-installed agents](/copilot/microsoft-365/copilot-agent-install#user-installed-agents).
+Members of your organization can install agents from the [Agent Store](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/). Given the tools and capability, they can also create agents using Copilot Studio, Agent Builder, and SharePoint. For related information, see [User-installed agents](/copilot/microsoft-365/copilot-agent-install#user-installed-agents).
 
 #### Publish agents
 Members of your organization can use Copilot Studio to create and publish agents. They can publish agents to multiple channels, such as live websites, mobile apps, Microsoft 365 Copilot or messaging platforms like Teams and Facebook.
@@ -47,14 +47,14 @@ Agents are listed in the agent inventory. The Agent inventory allows you to view
 To view details about an individual agent:
 
 1. Open the Copilot Control System within [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You’ll see the **Agent inventory** tab is selected.
    
     :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png" alt-text="Screenshot of your agent inventory in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png":::
 
 3. Select an agent from the list.
 4. Review the agent’s details, security, and compliance before to help determine whether an agent should be assigned to or available to users within your organization.
-    a. Select the **Details** tab to review the **Capabilities**, **Knowledge**, and **Actions**. 
+    a. Select the **Data & tools** tab to review the **Capabilities**, **Knowledge**, and **Actions**. 
     b. Select the **Security & compliance** tab to review the agent’s overall certification.
 
 

@@ -94,6 +94,8 @@ For OneDrive, you can restore the OneDrive to the original URL or a new URL. At 
 
 For Exchange, if the user account is permanently deleted, Microsoft 365 Backup retains the inactive mailbox for the duration of the backup policy. To recover the inactive mailbox, follow the guidance at [Recover an inactive mailbox](/purview/recover-an-inactive-mailbox) to convert the inactive mailbox to a new, active mailbox. Once the inactive mailbox is recovered, add the new user to the backup policy to access backups from the recovered mailbox.  The original, now deleted user can then be removed from the backup policy.  Note that only the [Recover an inactive mailbox](/purview/recover-an-inactive-mailbox) process is supported. The [Restore an inactive mailbox](/purview/restore-an-inactive-mailbox) process won't preserve the backup data from the old mailbox. 
 
+When trying to recover the inactive mailbox, if you receive an error stating "The ExternalDirectoryObjectID of this inactive mailbox still exists", this means the user was deleted less than 30 days ago.  In this case, please restore the user based on instructions found at [Restore a user in the Microsoft 365 admin center](/microsoft-365/admin/add-users/restore-user).
+
 #### If I transfer control of the Backup tool from the native first-party Microsoft 365 application to a third-party application built on the Microsoft 365 Backup Storage platform, will I be able to revert control back to the first-party application at a later date?
 
 Currently, you can only transfer control from the first-party Microsoft 365 application to a third-party application. We're actively working on an enhancement to allow transfers from third-party applications back to the first-party application. If you urgently need to transfer control from a third-party application to the first-party application, please file a support ticket.
@@ -106,7 +108,7 @@ Currently, you can only transfer control from the first-party Microsoft 365 appl
 Yes, you can. Microsoft 365 Backup supports PowerShell cmdlets. You can find the associated PowerShell cmdlets in the [Microsoft 365 Backup Storage Graph APIs](/graph/api/resources/backuprestoreroot) reference guide.
 #### Can I backup every type of SharePoint site?
 
-No, there are some SharePoint sites which are unsupported.  While most SharePoint templates are supported by M365 Backup, there're a handful of legacy template types which aren't supported.  These unsupported templates are:
+No, there are some SharePoint sites which are unsupported.  While most SharePoint templates are supported by Microsoft 365 Backup, there're a handful of legacy template types which aren't supported.  These unsupported templates are:
 
 |Template ID|Template|Template Name|
 | -------- | -------- | -------- |

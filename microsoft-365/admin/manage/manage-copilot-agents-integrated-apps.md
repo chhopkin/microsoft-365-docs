@@ -1,13 +1,13 @@
 ---
-title: Manage Microsoft 365 Copilot Agents
-description: Manage agents for Microsoft 365 Copilot in the admin center. Learn how to enable, assign, block, or remove agents to optimize your organization's Copilot experience.
+title: Manage agents in the Microsoft 365 admin center
+description: Manage agents in the Microsoft 365 admin center. Learn how to enable, assign, block, or remove agents to optimize your organization's agentic experience.
 #customer intent: As an IT admin, I want to manage agents for Microsoft 365 Copilot so that I can control their availability and functionality within my organization.
 f1.keywords:
 - NOCSH
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 12/10/2025
+ms.date: 12/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -31,7 +31,7 @@ search.appverid:
 - MOE150
 ---
 
-# Manage Copilot agents in the Microsoft 365 admin center
+# Manage agents in the Microsoft 365 admin center
 
 > [!IMPORTANT]
 >
@@ -43,6 +43,8 @@ Microsoft 365 Copilot combines the power of large language models with your data
 You can manage agents for Copilot by using the [Microsoft 365 admin center](https://admin.microsoft.com/). You can enable, disable, assign, block, or remove agents for your organization, and manage Copilot capabilities.
 
 > [!NOTE]
+> Researcher and Analyst are first-party Microsoft experiences built on the same foundation as Microsoft 365 Copilot, operating entirely within the Microsoft 365 commercial data processing boundary. These tools inherit all existing security, privacy, and compliance commitments that apply across the suite of Microsoft 365 products. These tools are available in Microsoft 365 Copilot Chat under **Tools** and can be invoked by the user anytime. While Researcher and Analyst coexist with agents and abide by all the agent-related governance capabilities, Researcher and Analyst are part of the core Copilot chat experience and will not fall under any agent-related settings. For related information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings).
+> 
 > Microsoft Agent 365 is the control plane for AI agents, empowering your organization to confidently deploy, govern, and manage all your agents at scale, regardless of where these agents are built or acquired. For more information, see [Overview of Microsoft Agent 365](/microsoft-agent-365/overview) and [Microsoft Agent 365 documentation](/microsoft-agent-365/).
 
 ## Overview
@@ -58,6 +60,9 @@ The hub Copilot experience shows the list of agents that are available and deplo
 You can manage several types of agents in Microsoft 365 Copilot, each serving different purposes:
 
 - **Published by your organization**: Built with predefined instructions and actions. These agents follow structured logic and are best for predictable, rule-based tasks. Before agents become available to users, these agents go through an admin approval and publishing process to ensure compliance and readiness.
+
+    > [!NOTE]
+    > Publishing agents to the organization is supported in Microsoft 365 Government Community Cloud High (GCCH) and Government Community Cloud Moderate (GCCM) environments.
 
 - **Shared by creator**: Shared agents are custom versions of Microsoft 365 Copilot that combine instructions, knowledge, and skills to perform specific tasks or scenarios. Creators can create and share these agents through multiple channels, such as Microsoft 365 Copilot Studio, Microsoft 365 Copilot Agent Builder, and more. Shared agents enhance the functionality of Copilot by adding search capabilities, custom actions, connectors, and APIs. For more information, see [Share agents with other users](/microsoft-copilot-studio/admin-share-bots).
 

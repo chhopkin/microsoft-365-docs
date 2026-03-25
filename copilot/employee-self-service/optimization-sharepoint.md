@@ -9,6 +9,7 @@ ms.date: 11/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
+ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
@@ -19,7 +20,7 @@ appliesto:
 
 # Optimizing SharePoint content for Employee Self-Service agents
 
-Copilot Studio grounds responses in your organization's authoritative knowledge sources and data using [configured knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio), returning only what each user's authorized to see. Simple information architecture, clear document structure, detailed metadata, and well-governed access translate into higher quality, citation-backed answers.
+Copilot Studio grounds responses in your organization's authoritative knowledge sources and data using [configured knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio) and returns only what each user is authorized to see. Simple information architecture, clear document structure, detailed metadata, and well-governed access translate into higher quality, citation-backed answers.
 
 Preparing SharePoint content for Copilot Studio and Employee Self-Service agent prevents oversharing, and gives employees fast, cited answers to common questions without leaving the agent they're already using.
 
@@ -211,7 +212,7 @@ Steps:
 1. Share the link by pasting the copied URL into an email, Teams message, or browser.
 1. (**Optional**) Share a QR code.
     1. Select **Share** > **Share QR Code** to generate a scannable code.
-    1. A pop-up will appear with the QR code you can download or share.
+    1. A pop-up appears with the QR code you can download or share.
 
 ### Use lists for clarity, not dense paragraphs or tables 
 

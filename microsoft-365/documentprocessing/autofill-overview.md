@@ -20,13 +20,13 @@ description: Learn about the autofill columns service in SharePoint.
 # Overview of autofill columns
 
 > [!NOTE]
-> Through December 2025, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of autofill columns and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
+> Through June 2026, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of autofill columns and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
 
 Autofill columns automatically extract, summarize, or generate content from files uploaded to a SharePoint document library. By using large language models (LLMs) through generative AI, autofill columns can save metadata automatically, streamlining the process of managing files and their associated information.
 
 For example, you can ask a question (a *prompt*) of a document in natural language, and the system saves the response directly to a designated library column. Or you can have more than one of these questions set to process any file uploaded to a library, with each response allocated to a specific column.
 
-Autofill columns can work alongside other docyment models. You can link various extractive prompts (which pull information from existing data) or generative prompts (which create new content) to multiple columns. This feature allows you to extract metadata that other models might miss or generate new insights.
+Autofill columns can work alongside other document models. You can link various extractive prompts (which pull information from existing data) or generative prompts (which create new content) to multiple columns. This feature allows you to extract metadata that other models might miss or generate new insights.
 
 ## Requirements and limitations
 
@@ -37,6 +37,8 @@ Autofill columns can work alongside other docyment models. You can link various 
 | ![Usage report symbol.](/office/media/icons/usage-report-blue.png)  | **Supported column types** <br>This service is available for the following column data types: Text, Multiple lines of text, Number, Yes/No, Date and time, Choice, Hyperlink, Currency, and Managed metadata.<br> Currently, this service isn't available for the following column data types: Person or Group, Location, Image, and Lookup.|
 
 ### Current release notes
+
+- For optimal performance, we recommend adding no more than 10 columns per library and processing files no larger than 65 pages.
 
 - Autofill columns now support managed metadata with term sets containing up to 100 terms. If a preferred term or synonym matches, autofill responds with the preferred term.
 
@@ -50,7 +52,9 @@ Autofill columns can work alongside other docyment models. You can link various 
 
 - Autofill columns use the same classification status fields as document processing models.
 
-- SharePoint subsites aren't currently supported. Autofill only works for document libraries located on top-level SharePoint sites. Libraries in subsites won't process successfully.
+- Text column limits: Single-line and multi-line text columns in SharePoint default to a 255-character limit. To allow longer values, edit the column settings, select **More options** and set **Allow unlimited length** to **Yes**, which increases the limit to 64K characters. For more information on column types and options click [here](https://support.microsoft.com/office/list-and-library-column-types-and-options-0d8ddb7b-7dc7-414d-a283-ee9dca891df7).
+
+- This service is available only for SharePoint sites — including hub sites, sites associated to a hub site, and the primary site of a site collection. Subsites aren’t supported.
 
 > [!NOTE] 
 > AI-generated content might be incorrect. Be sure to check the column results.
