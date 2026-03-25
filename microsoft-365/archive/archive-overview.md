@@ -83,6 +83,8 @@ Administrators should notify site owners and end users before archiving a site s
     
 - File-level archive is available only for SharePoint sites. When archived files are copied or moved, they retain their archived state. However, if an archived file is moved or copied into OneDrive, that archived state might not always be visually represented in the OneDrive user interface.
 
+- Files that are reactivated cannot be archived again for 30 days.
+
 - Certain file types can’t be archived, including OneNote, SharePoint pages, and SharePoint agents.
 
 - The Site Assets library on SharePoint sites does not support file-level archive.

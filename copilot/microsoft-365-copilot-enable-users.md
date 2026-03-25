@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene
 author: efrene
 manager: scotv
-ms.date: 10/25/2025
+ms.date: 03/24/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -27,7 +27,7 @@ appliesto:
 
 As part of your [Microsoft 365 Copilot adoption](microsoft-365-copilot-enablement-resources.md), a welcome email to your Microsoft 365 Copilot users is sent on license assignment that announces Microsoft 365 Copilot and its features. You can also enable feedback for Microsoft 365 Copilot users.
 
-:::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg" alt-text="Diagram that shows the send welcome email and enable feedback step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg":::
+:::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.png" alt-text="Diagram that shows the send welcome email and enable feedback step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.png":::
 
 Additionally, admins can use Organizational Messaging in the Microsoft Admin Center to deliver tailored in-product messages to your users directly through Teams.
 
@@ -53,7 +53,7 @@ Admins can also send a customizable in-product message through Teams with Organi
 
 Admins can configure their message through the Microsoft 365 admin center.
 
-:::image type="content" source="media/promote-using-copilot.png" alt-text="An image of the Set up Microsoft 365 Copilot page in the Microsoft 365 admin center.":::
+:::image type="content" source="media/promote-using-copilot.png" alt-text="An image of the Set up Microsoft 365 Copilot page in the Microsoft 365 admin center." lightbox="media/promote-using-copilot.png":::
 
 1. In your Microsoft 365 admin center, in the navigation pane, select **Setup**.
 2. On the Setup page, in the **Featured collections** section, select **Advanced deployment guides & assistance**.

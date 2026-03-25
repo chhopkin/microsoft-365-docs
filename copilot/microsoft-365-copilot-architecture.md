@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene
 author: Efrene
 manager: scotv
-ms.date: 03/03/2026
+ms.date: 03/24/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.reviewer: mandia, bcarter
@@ -32,7 +32,7 @@ Operating inside the **Microsoft 365 service boundary** doesn't grant Copilot te
 
 This data includes information that the user can access, including their activities, and the content they create and interact with in Microsoft 365 apps.
 
-:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.svg" alt-text="Diagram that shows the Microsoft 365 tenant architecture with Microsoft 365 Copilot and user data." lightbox="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.svg":::
+:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.png" alt-text="Diagram that shows the Microsoft 365 tenant architecture with Microsoft 365 Copilot and user data." lightbox="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.png":::
 
 Copilot is a shared service, just like many other services in Microsoft 365. When you use Copilot in your tenant:
 
@@ -54,7 +54,7 @@ When users open a Microsoft 365 app, like Word or PowerPoint, they can use Copil
 
 The following diagram provides a visual representation of how a Copilot prompt works.
 
-:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-query-flow.svg" alt-text="Diagram that shows the relationship between users, devices, apps, and Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-architecture/copilot-query-flow.svg":::
+:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-query-flow.png" alt-text="Diagram that shows the relationship between users, devices, apps, and Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-architecture/copilot-query-flow.png":::
 
 Let's take a look:
 
@@ -62,9 +62,13 @@ Let's take a look:
 
 2. Copilot preprocesses the input prompt by using **grounding** and accesses Microsoft Graph in the user's tenant.
 
-    - Grounding improves the specificity of your prompt, and helps you get answers that are relevant and actionable to your specific task. The prompt can include text from input files or other content Copilot discovers.
+The following video provides an overview of how grounding works in Microsoft 365 Copilot. It's 1 minute and 29 seconds long.
 
-    - The data Copilot uses to generate responses is encrypted in transit.
+> [!VIDEO ca405f29-ce24-41ea-8fa4-e27f73ed0624]
+
+- Grounding improves the specificity of your prompt, and helps you get answers that are relevant and actionable to your specific task. The prompt can include text from input files or other content Copilot discovers.
+
+- The data Copilot uses to generate responses is encrypted in transit.
 
 3. Copilot sends the grounded prompt to the LLM. The LLM uses the prompt to generate a response that is contextually relevant to the user's task.
 
@@ -76,7 +80,7 @@ Copilot only accesses data that an individual user is authorized to access, base
 
 The following diagram provides a visual representation of how Copilot and user access work together.
 
-:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-user-access.svg" alt-text="Diagram that shows Microsoft 365 Copilot only accesses the data the user has permissions to access." lightbox="media/microsoft-365-copilot-architecture/copilot-user-access.svg":::
+:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-user-access.png" alt-text="Diagram that shows Microsoft 365 Copilot only accesses the data the user has permissions to access." lightbox="media/microsoft-365-copilot-architecture/copilot-user-access.png":::
 
 Let's take a look:
 
@@ -96,7 +100,7 @@ To learn more, see [Data stored about user interactions with Microsoft 365 Copil
 
 Copilot honors Conditional Access policies and multifactor authentication (MFA).
 
-:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-conditional-access-mfa.svg" alt-text="Diagram that shows Conditional Access and MFA can control access to Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-architecture/copilot-conditional-access-mfa.svg":::
+:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-conditional-access-mfa.png" alt-text="Diagram that shows Conditional Access and MFA can control access to Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-architecture/copilot-conditional-access-mfa.png":::
 
 This means:
 
