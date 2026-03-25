@@ -10,6 +10,7 @@ audience: Admin
 ms.reviewer: suparekh; davidedwards
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: security
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
