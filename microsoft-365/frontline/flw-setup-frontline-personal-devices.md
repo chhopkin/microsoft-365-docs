@@ -128,9 +128,9 @@ Next, you'll see a screen to download Microsoft Teams.
 
 - Sign in and click **Done** when finished.
 
-- Sign out when prompted
+- Sign out when prompted.
 
-- Close the browser
+- Close the browser.
 
   ![Screenshot shows a QR code for downloading Microsoft Teams and includes sign-in instructions.](media/setup-frontline-teams-on-personal-devices/get-teams.png)
   
