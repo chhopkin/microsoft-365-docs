@@ -3,9 +3,9 @@ title: Moving from multitenant to migration readiness
 author: MicrosoftHeidi
 ms.author: heidip
 manager: dansimp
-ms.reviewer:
+ms.reviewer: rewood
 ms.topic: overview
-ms.date: 12/01/2025
+ms.date: 03/23/2026
 ms.service: microsoft-365-enterprise
 ms.localizationpriority: high
 description: "Preparing a multitenant Microsoft 365 environment for migration."

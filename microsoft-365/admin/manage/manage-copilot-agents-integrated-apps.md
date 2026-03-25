@@ -12,6 +12,7 @@ ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
+ms.subservice: agent-management
 ms.localizationpriority: medium
 ms.collection:
 - Tier2
