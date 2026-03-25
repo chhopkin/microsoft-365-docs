@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 integration with on-premises environments"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 09/24/2024
@@ -38,7 +38,7 @@ You can integrate Microsoft 365 with your existing on-premises Active Directory 
 > Microsoft 365 Local – run productivity and collaboration solutions on Azure Local through a specific reference architecture validated by Microsoft and supported by a network of partners. [Learn more](https://aka.ms/MSFTSovereignCloudBlog).
   
 - When you integrate AD DS, you can synchronize and manage user accounts for both environments. You can also add _password hash synchronization_ (PHS) or _single sign-on_ (SSO) so users can sign in both environments with their on-premises credentials.
-- When you integrate with on-premises server products, you create a hybrid environment. A hybrid environment can help as you migrate users or information to Microsoft 365, or you can continue to have some users or some information on-premises and some in the cloud. For more information about hybrid environments, see [hybrid cloud](../solutions/cloud-architecture-models.md#hybrid).
+- When you integrate with on-premises server products, you create a hybrid environment. A hybrid environment can help as you migrate users or information to Microsoft 365, or you can continue to have some users or some information on-premises and some in the cloud. For more information about hybrid environments, see [hybrid cloud](/previous-versions/microsoft-365/solutions/cloud-architecture-models#hybrid).
 
 You can also use the Microsoft Entra advisors for customized setup guidance in the Microsoft 365 admin center (you must be signed in to Microsoft 365):
 

@@ -4,7 +4,7 @@ ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.localizationpriority: high
 search.appverid: 
   - MET150
@@ -18,7 +18,7 @@ ms.collection:
   - trust-pod
 ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-security
 adobe-target:
 ms.date: 09/30/2025
 appliesto:
@@ -59,7 +59,7 @@ These security categories are described in the following sections and are summar
 |&nbsp;&nbsp;Microsoft Entra ID|Free|Free|Plan 1|
 |&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Microsoft Entra ID P2)|
 |**Email and collaboration security**||||
-|&nbsp;&nbsp;Default email protections for cloud mailboxes|✔|✔|✔|
+|&nbsp;&nbsp;Built-in security features for all cloud mailboxes|✔|✔|✔|
 |&nbsp;&nbsp;Microsoft Defender for Office 365|||Plan 1|
 |&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Defender for Office 365 Plan 2)|
 |**Device security**||||
@@ -85,9 +85,9 @@ For other considerations for administrator or admin accounts, see [Admin account
 
 ## Email and collaboration security
 
-All subscriptions in Microsoft 365 for business include the default email protections for cloud mailboxes against malware, spam, and phishing (spoofing) in email. For more information, see [Default email protections for cloud mailboxes](/defender-office-365/eop-about).
+All subscriptions in Microsoft 365 for business include the built-in security features for all cloud mailboxes against malware, spam, and phishing (spoofing) in email. For more information, see [Overview of the built-in security features for all cloud mailboxes](/defender-office-365/eop-about).
 
-The default email protections for cloud mailboxes include the following types of threat policies that are on by default:
+The built-in security features for all cloud mailboxes include the following types of threat policies that are on by default:
 
 - [Anti-malware policies](/defender-office-365/anti-malware-protection-about#anti-malware-policies)
 - [Anti-spam policies](/defender-office-365/anti-spam-protection-about#anti-spam-policies)

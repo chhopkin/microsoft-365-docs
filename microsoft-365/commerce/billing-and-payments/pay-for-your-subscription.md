@@ -5,7 +5,7 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: drjones, jobailey
+ms.reviewer: souchak, jobailey
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -17,7 +17,7 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
-- operations-pod
+service.tree.id: 3b35c9b8-bf14-4e4a-bc0d-21055e56b28c
 search.appverid: MET150
 ms.custom:
 - commerce_billing
@@ -29,7 +29,7 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 description: "Learn how to pay for your Microsoft business subscription by using a credit card or debit card."
-ms.date: 10/13/2025
+ms.date: 03/08/2026
 ---
 
 # Pay your Microsoft business invoice by using a credit or debit card
@@ -93,6 +93,17 @@ If you prefer, you can pay by electronic transfer between accounts. The Agency a
 
 > [!NOTE]
 > Paying with a Boleto Bancario isn’t available for MCA billing accounts.
+
+## Paying by SEPA Direct Debit in Europe
+Microsoft accepts SEPA Direct debit for eligible customers. You can add SEPA Direct Debit as a payment method any time through Microsoft 365 admin center, if you meet these conditions:
+- Your billing account must have an established billing history with Microsoft and a record of on-time payments with no outstanding balance.
+- Your billing address must be in one of the following countries/regions: Austria, Germany & Netherlands.
+
+When you set up SEPA Direct Debit, you provide your IBAN and accept a SEPA Direct Debit Mandate authorizing Microsoft to debit your bank account. Each billing period, the invoice amount is automatically collected from your bank account.
+
+> [!NOTE]
+> - SEPA Direct Debit is connected to the specific billing account where it is set up. If you have multiple billing accounts and want to use SEPA Direct Debit, you need to add this payment method separately to each account.
+> - If you have an MCA billing account type, you must have the Billing Administrator role to add or manage SEPA Direct Debit payment method. You can learn more about administrative roles in Microsoft 365 Admin Center [here](../../admin/add-users/about-admin-roles.md).
 
 ## What if I have an outstanding balance?
 

@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 08/14/2025
 audience: Admin
 ms.topic: overview
-ms.service: microsoft-365-basic-mobility-security
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection: 
 - Tier3
@@ -249,9 +249,9 @@ The following table compares the device protection features of Basic Mobility an
 |Feature area|Feature highlights|Basic Mobility and Security|Microsoft Intune|
 |---|---|:---:|:---:|
 |Supported device platforms|Manage different platforms and major management mode variants.|<ul><li>iOS/iPadOS</li><li>Android</li><li>Samsung Knox</li><li>Windows PCs</li></ul>|<ul><li>iOS/iPadOS</li><li>Android</li><li>Samsung Knox</li><li>Windows PCs</li><li>macOS</li></ul>
-|Device compliance|Set and manage security policies, like device level PIN lock and jailbreak detection.|Limited¹|✔|
-|Conditional access based on device compliance|Prevent noncompliant devices from accessing corporate email and data from the cloud.|Limited²|✔|
-|Device configuration|Configure device settings (for example, disabling the camera)|Limited³|✔|
+|Device compliance|Set and manage security policies, like device level PIN lock and jailbreak detection.|Limited<sup>1</sup>|✔|
+|Conditional access based on device compliance|Prevent noncompliant devices from accessing corporate email and data from the cloud.|Limited<sup>2</sup>|✔|
+|Device configuration|Configure device settings (for example, disabling the camera)|Limited<sup>3</sup>|✔|
 |Email profiles|Create a native email profile on the device.|✔|✔|
 |Wi-Fi profiles|Create a native Wi-Fi profile on the device.||✔|
 |VPN profiles|Create a native VPN profile on the device.||✔|
@@ -276,15 +276,15 @@ The following table compares the device protection features of Basic Mobility an
 |&nbsp;&nbsp;[Run Microsoft Defender Antivirus scans on Windows devices](/defender-endpoint/run-scan-microsoft-defender-antivirus#use-microsoft-intune-to-run-a-scan)|||✔|
 |&nbsp;&nbsp;[Send custom notifications on iOS/iPadOS and Android devices](/intune/intune-service/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device)|||✔|
 |&nbsp;&nbsp;[Synchronize devices](/intune/intune-service/remote-actions/device-sync)|||✔|
-|&nbsp;&nbsp;[TeamViewer (remote control)](/intune/intune-service/remote-actions/teamviewer-support)|||✔⁴|
+|&nbsp;&nbsp;[TeamViewer (remote control)](/intune/intune-service/remote-actions/teamviewer-support)|||✔<sup>4</sup>|
 
-¹ Limited on Android devices as previously described in the [Access requirement settings](#access-requirement-settings) section.
+<sup>1</sup> Limited on Android devices as previously described in the [Access requirement settings](#access-requirement-settings) section.
 
-² Not supported on Windows PCs. Limited to controlling access to Exchange Online, SharePoint, and Outlook.
+<sup>2</sup> Not supported on Windows PCs. Limited to controlling access to Exchange Online, SharePoint, and Outlook.
 
-³ Limited to settings previously described in the [Configuration settings](#configuration-settings) section. Intune settings are described in [Apply features and settings on your devices using device profiles in Microsoft Intune](/intune/intune-service/configuration/device-profiles).
+<sup>3</sup> Limited to settings previously described in the [Configuration settings](#configuration-settings) section. Intune settings are described in [Apply features and settings on your devices using device profiles in Microsoft Intune](/intune/intune-service/configuration/device-profiles).
 
-⁴ Purchased separately.
+<sup>4</sup> Purchased separately.
 
 ## Basic Mobility and Security FAQ
 

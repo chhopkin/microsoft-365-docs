@@ -1,6 +1,6 @@
 ---
 title: "Performance troubleshooting plan for Microsoft 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 03/12/2025
@@ -53,12 +53,12 @@ This action plan contains two parts; a preparation phase, and a logging phase. I
 - Close all extraneous Internet browsers.
 - Start the Steps Recorder, or another screen recorder.
 - Start your Netmon capture (or network tracing tool).
-- Clear your DNS cache on the client computer from the command line by typing ipconfig /flushdns.
+- Clear your DNS cache on the client computer from the command line by typing `ipconfig /flushdns`.
 - Start a new browser session and turn on HTTPWatch.
 - Optional: If you're testing Exchange Online, run the Exchange Client Performance Analyzer tool from the Microsoft 365 admin console.
 - Reproduce the exact steps that cause the performance issue.
 - Stop your Netmon or other tool's trace.
-- At the command line, run a trace route to your Microsoft 365 subscription by typing the following command and then pressing ENTER:
+- At the command line, run a trace route to your Microsoft 365 subscription by typing the following command and then pressing **ENTER**:
 
   ``` cmd
   tracert <subscriptionname>.onmicrosoft.com
@@ -76,7 +76,7 @@ Why? By flushing out the DNS cache, you're starting your tests with a clean slat
 #### Flush your DNS resolver cache
 
 1. Open the command prompt, (either **Start** \> **Run** \> **cmd** or **Windows key** \> **cmd**).
-2. Type the following command and press ENTER:
+2. Type the following command and press **ENTER**:
 
     ``` cmd
     ipconfig /flushdns
@@ -93,16 +93,17 @@ After you install Netmon 3.4, open the tool and take these steps:
 ### Take a Netmon trace and reproduce the issue
 
 1. Launch Netmon 3.4.
-There are three panes on the **Start** page: **Recent Captures**, **Select Networks**, and the **Getting Started with Microsoft Network Monitor 3.4. Notice**. The Select Networks panel will also give you a list of the default networks from which you can capture. Be sure that network cards are selected here.
+   There are three panes on the **Start** page: **Recent Captures**, **Select Networks**, and the **Getting Started with Microsoft Network Monitor 3.4. Notice**.    The Select Networks panel will also give you a list of the default networks from which you can capture. Be sure that network cards are selected here.
 
 2. Click **New Capture** at the top of the **Start** page. This adds a new tab beside the **Start** page tab called **Capture 1**.
-![Netmon's user interface with the New Capture, Start, and Stop buttons highlighted.](../media/d4527d84-62ec-4301-82d5-e0166ff71f20.PNG)
 
-3. To take a simple capture, click **Start** on the toolbar.
+   ![Netmon's user interface with the New Capture, Start, and Stop buttons highlighted.](../media/d4527d84-62ec-4301-82d5-e0166ff71f20.PNG)
 
-4. Reproduce the steps that present a performance issue.
+4. To take a simple capture, click **Start** on the toolbar.
 
-5. Click **Stop** \> **File** \> **Save As**. Remember to give the date and time with the time zone and to mention if it demonstrates bad or good performance.
+5. Reproduce the steps that present a performance issue.
+
+6. Click **Stop** \> **File** \> **Save As**. Remember to give the date and time with the time zone and to mention if it demonstrates bad or good performance.
 
 ## HTTPWatch
 
@@ -123,9 +124,9 @@ In the past, HTTPWatch has been associated with both the Commands and the Explor
 
 3. **Save** the HTTPWatch or **Send by Email**. Remember to name the file so that it includes date and time information and an indication of whether your Watch contains a demonstration of good or bad performance.
 
-![HTTPWatch showing the Network tab for a page load of the Microsoft 365 homepage.](../media/021a2c64-d581-49fd-adf4-4c364f589d75.PNG)
+   ![HTTPWatch showing the Network tab for a page load of the Microsoft 365 homepage.](../media/021a2c64-d581-49fd-adf4-4c364f589d75.PNG)
 
-This screenshot is from the Professional version of HTTPWatch. You can open traces taken in the Basic Version on a computer with a Professional version and read it there. Extra information might be available from the trace through that method.
+   This screenshot is from the Professional version of HTTPWatch. You can open traces taken in the Basic Version on a computer with a Professional version and read it there. Extra information might be available from the trace through that method.
 
 ## Problem Steps Recorder
 
@@ -141,9 +142,9 @@ Steps Recorder, or PSR.exe, allows you to record issues as they're occurring. It
 
 4. Click **Save**.
 
-![A screen shot of the Steps Recorder or PSR.exe.](../media/8542b0aa-a3ff-4718-8dc4-43f5521c6c34.PNG)
+   ![A screen shot of the Steps Recorder or PSR.exe.](../media/8542b0aa-a3ff-4718-8dc4-43f5521c6c34.PNG)
 
-The date and time is recorded for you. This links your PSR to your Netmon trace and HTTPWatch in time, and helps with precision troubleshooting. The date and time in the PSR record can show that a minute passed between the sign in and browsing of the URL and the partial render of the admin site, for example.
+   The date and time is recorded for you. This links your PSR to your Netmon trace and HTTPWatch in time, and helps with precision troubleshooting. The date and time in the PSR record can show that a minute passed between the sign in and browsing of the URL and the partial render of the admin site, for example.
 
 ## Read your traces
 
@@ -178,7 +179,7 @@ If you're only using Netmon tracing at the time of the problem, that's okay too.
 
 Get familiar with your traffic, and learn to locate the information you need. For example, learn to determine which packet in the trace has the first reference to the Microsoft 365 service you're using (like "Outlook").
 
-Taking Microsoft 365 Outlook Online as an example, the traffic begins something like this:
+Taking Microsoft 365 Outlook on the web as an example, the traffic begins something like this:
 
 - DNS Standard Query and DNS Response for outlook.office365.com with matching QueryIDs. It's important to note the time offset for this turn-around, and where in the world the Microsoft 365 Global DNS sends the request for name resolution. Ideally, as locally as possible, rather than halfway across the world.
 
@@ -224,9 +225,9 @@ To see the Windows Scaling value that is used by your network connection, expand
 
 ### TCP Idle Time Settings
 
-Historically, most perimeter networks are configured for transient connections, meaning idle connections are generally terminated. Idle TCP sessions can be terminated by proxies and firewalls at greater than 100 to 300 seconds. This is problematic for Outlook Online because it creates and uses long-term connections, whether they're idle or not.
+Historically, most perimeter networks are configured for transient connections, meaning idle connections are generally terminated. Idle TCP sessions can be terminated by proxies and firewalls at greater than 100 to 300 seconds. This is problematic for Outlook on the web because it creates and uses long-term connections, whether they're idle or not.
 
-When connections are terminated by proxy or firewall devices, the client isn't informed, and an attempt to use Outlook Online will mean a client computer will try, repeatedly, to revive the connection before making a new one. You might see hangs in the product, prompts, or slow performance on page load.
+When connections are terminated by proxy or firewall devices, the client isn't informed, and an attempt to use Outlook on the web will mean a client computer will try, repeatedly, to revive the connection before making a new one. You might see hangs in the product, prompts, or slow performance on page load.
 
 #### Tools
 
@@ -242,7 +243,7 @@ As an example, the filter in Netmon may look like  `.Protocol.IPv4.Address == 10
 > [!TIP]
 > Don't know if the IP address in your trace belongs to your DNS server? Try looking it up at the command line. Click **Start** \> **Run** \> and type **cmd**, or press **Windows Key** \> and type **cmd**. At the prompt, type  `nslookup <the IP address from the network trace>`. To test, use nslookup against your own computer's IP address. > To see a list of Microsoft's IP ranges, see [Microsoft 365 URLs and IP address ranges](./urls-and-ip-address-ranges.md).
 
-If there's a problem, expect long Time Offsets to appear, in this case (Outlook Online), particularly in TLS:TLS packets that show the passage of Application Data (for example, in Netmon you can find application data packets via  `.Protocol.TLS AND Description == "TLS:TLS Rec Layer-1 SSL Application Data"`). You should see a smooth progression in the time across the session. If you see long delays when refreshing your Outlook Online, this could be caused by a high degree of resets being sent.
+If there's a problem, expect long Time Offsets to appear, in this case (Outlook on the web), particularly in TLS:TLS packets that show the passage of Application Data (for example, in Netmon you can find application data packets via  `.Protocol.TLS AND Description == "TLS:TLS Rec Layer-1 SSL Application Data"`). You should see a smooth progression in the time across the session. If you see long delays when refreshing your Outlook on the web, this could be caused by a high degree of resets being sent.
 
 ### Latency/Round Trip Time
 
@@ -303,9 +304,9 @@ Remember to expand all the nodes (there's a button at the top for this) if you w
 
 This only applies to you if you're going through a proxy server. If not, you can skip these steps. When working properly, proxy authentication should take place in milliseconds, consistently. You shouldn't see intermittent bad performance during peak usage periods (for example).
 
-If Proxy authentication is on, each time you make a new TCP connection to Microsoft 365 to get information, you need to pass through an authentication process behind the scenes. So, for example, when switching from Calendar to Mail in Outlook Online, you'll authenticate. And in SharePoint, if a page displays media or data from multiple sites or locations, you'll authenticate for each different TCP connection that is needed in order to render the data.
+If Proxy authentication is on, each time you make a new TCP connection to Microsoft 365 to get information, you need to pass through an authentication process behind the scenes. So, for example, when switching from Calendar to Mail in Outlook on the web, you'll authenticate. And in SharePoint, if a page displays media or data from multiple sites or locations, you'll authenticate for each different TCP connection that is needed in order to render the data.
 
-In Outlook Online, you might experience slow load times whenever you switch between Calendar and your mailbox, or slow page loads in SharePoint. However, there are other symptoms not listed here.
+In Outlook on the web, you might experience slow load times whenever you switch between Calendar and your mailbox, or slow page loads in SharePoint. However, there are other symptoms not listed here.
 
 Proxy authentication is a setting on your egress proxy server. If it's causing a performance issue with Microsoft 365, you must consult your networking team.
 
@@ -369,19 +370,19 @@ You want to look at the time offset here. And it might be helpful to add the **T
 
 If you find a query of interest, consider isolating it by right-clicking that query in the frame details panel, choosing **Find Conversations** \> **DNS**. Notice that the Network Conversations panel jumps right to the specific conversation in its log of UDP traffic.
 
-![A Netmon trace of Outlook Online load filtered by DNS, and using Find Conversations then DNS to narrow down the results.](../media/763cf20e-7b48-4a37-9449-c9978cfe118b.PNG)
+![A Netmon trace of Outlook on the web load filtered by DNS, and using Find Conversations then DNS to narrow down the results.](../media/763cf20e-7b48-4a37-9449-c9978cfe118b.PNG)
 
 In Wireshark, you can make a column for DNS time. Take your trace (or open a trace) in Wireshark and filter by `dns`, or, more helpfully,  `dns.time`. Click on any DNS query, and, in the panel showing details, expand the  `Domain Name System (response)` details. You'll see a field for time (for example, `[Time: 0.001111100 seconds]`. Right-click this time and select **Apply as Column**. This will give you a **Time** column for quicker sorting of your trace. Click on the new column to sort by descending values to see which DNS call took the longest to resolve.
 
 [A browse of SharePoint filtered in Wireshark by (lowercase) dns.time, with the time from the details made into a column and sorted ascending.](../media/1439dcc2-12ff-4ee2-9ef3-1484cf79c384.PNG)
 
-If you would like to do more investigation of the DNS resolution time, try a PsPing against the DNS port used by TCP (for example,  `psping <IP address of DNS server>:53`). Do you still see a performance issue? If you do, then the problem is more likely to be a broader network issue than an issue of specific the DNS application you're hitting to do resolution. It's also worth mentioning, again, that a ping to outlook.office365.com will tell you where DNS name resolution for Outlook Online is taking place (for example, outlook-namnorthwest.office365.com).
+If you would like to do more investigation of the DNS resolution time, try a PsPing against the DNS port used by TCP (for example,  `psping <IP address of DNS server>:53`). Do you still see a performance issue? If you do, then the problem is more likely to be a broader network issue than an issue of specific the DNS application you're hitting to do resolution. It's also worth mentioning, again, that a ping to outlook.office365.com will tell you where DNS name resolution for Outlook on the web is taking place (for example, outlook-namnorthwest.office365.com).
 
 If the issue looks to be DNS specific, it may be necessary to contact your IT department to look at DNS configurations and DNS Forwarders to further investigate this issue.
 
 ### Proxy Scalability
 
-Services like Outlook Online in Microsoft 365 grant clients multiple long-term connections. Therefore, each user might use more connections that require a longer life.
+Services like Outlook on the web in Microsoft 365 grant clients multiple long-term connections. Therefore, each user might use more connections that require a longer life.
 
 #### Tools
 
@@ -456,7 +457,7 @@ Locate the connection in the trace that you're interested in seeing either by sc
 
 Where in the world Microsoft 365 tries to resolve your DNS call affects your connection speed.
 
-In Outlook Online, after the first DNS lookup is completed, the location of that DNS will be used to connect to your nearest datacenter. You'll be connected to an Outlook Online CAS server, which will use the backbone network to connect to the datacenter (dC) where your data is stored. This is faster.
+In Outlook on the web, after the first DNS lookup is completed, the location of that DNS will be used to connect to your nearest datacenter. You'll be connected to an Outlook on the web CAS server, which will use the backbone network to connect to the datacenter (dC) where your data is stored. This is faster.
 
 When accessing SharePoint, a user traveling abroad will be directed to their active datacenter - that's the dC whose location is based on their SPO tenant's home-base (so, a dC in the USA if the user if USA-based).
 
@@ -472,7 +473,7 @@ Lync online has active nodes in more than one dC at a time. When requests are se
 
 #### What to look for
 
-Requests for name resolution from the client's DNS servers to Microsoft's DNS servers should in most cases result in Microsoft DNS returning the IP address of a regional datacenter (dC). What does this mean for you? If your headquarters are in Bengaluru, India, but you're traveling in the United States, when your browser makes a request for Outlook Online, Microsoft's DNS servers should hand you IP addresses to datacenters in the United States - a regional datacenter. If mail is needed from Outlook, that data will travel across Microsoft's quick backbone network between the datacenters.
+Requests for name resolution from the client's DNS servers to Microsoft's DNS servers should in most cases result in Microsoft DNS returning the IP address of a regional datacenter (dC). What does this mean for you? If your headquarters are in Bengaluru, India, but you're traveling in the United States, when your browser makes a request for Outlook on the web, Microsoft's DNS servers should hand you IP addresses to datacenters in the United States - a regional datacenter. If mail is needed from Outlook, that data will travel across Microsoft's quick backbone network between the datacenters.
 
 DNS works fastest when name resolution is done as close to the user location as possible. If you're in Europe, you want to go to a Microsoft DNS in Europe, and (ideally) deal with a datacenter in Europe. Performance from a client in Europe going to DNS and a datacenter in America will be slower.
 
@@ -496,6 +497,6 @@ We don't cover tools used in application-specific troubleshooting in this networ
 
 ## Related articles
 
-[Managing Microsoft 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
+[Managing Microsoft 365 endpoints](managing-office-365-endpoints.md)
 
-[Microsoft 365 endpoints FAQ](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d)
+[Microsoft 365 endpoints FAQ](managing-office-365-endpoints.md)

@@ -29,9 +29,9 @@ Most organizations can quickly set up skills using our out-of-the-box People Ski
 
 1. Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/copilot/overview) and select **Settings** > **Data access** and then **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
 
-   :::image type="content" source="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png" alt-text="Screenshot displaying the People Skills in Microsoft 365 Copilot option in the Copilot page." lightbox="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png":::
+   :::image type="content" source="media/people-skills-inferencing/setup-people-skills.png" alt-text="Screenshot displaying the People Skills in Microsoft 365 Copilot option in the Copilot page." lightbox="media/setup-people-skills.png":::
 
-2. Select **Being quick setup**.
+2. Select **Begin quick setup**.
 
 3. Choose the skills you want to use from the out-of-the-box library. 
    > [!TIP]
@@ -53,7 +53,7 @@ You can change the settings confirmed during this setup [by Managing your skills
 
 Organizations can build their own custom skills library with a combination of skills from the out-of-the-box skills library and by importing your own custom skills.
 
-1. Got to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
+1. Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
 
 2. Under **Custom Setup**, select **Begin custom setup**. 
    :::image type="content" source="media/people-skills-inferencing/custom-setup-selection.png" alt-text="Screenshot of the People Skills in organization page that displays selection of custom setup." lightbox="media/people-skills-inferencing/custom-setup-selection.png":::

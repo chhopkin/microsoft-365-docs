@@ -1,6 +1,6 @@
 ---
 title: "Hybrid solutions"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 11/14/2024
@@ -36,8 +36,8 @@ With Microsoft Azure, you can deploy some Office Server workloads that were typi
   
 ## Related topics
 
-[Microsoft 365 solution and architecture center](../solutions/index.yml)
+[Microsoft 365 solution and architecture center](/previous-versions/microsoft-365/solutions/)
   
-[Microsoft cloud for enterprise architects illustrations](../solutions/cloud-architecture-models.md)
+[Microsoft cloud for enterprise architects illustrations](/previous-versions/microsoft-365/solutions/cloud-architecture-models)
   
 [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)

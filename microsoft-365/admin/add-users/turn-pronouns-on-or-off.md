@@ -6,7 +6,7 @@ author: denisebmsft
 manager: dansimp
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier2
@@ -30,7 +30,7 @@ As a Microsoft 365 administrator, you can turn on a feature that lets all users 
 
 Pronouns are stored together with a user's other profile data in Microsoft 365 and can be temporarily cached in other in-tenant users Exchange mailboxes for faster access by Copilot experiences. The cached data is updated when profile data is updated, and can't be accessed or edited by the user who owns the mailbox where the data is cached. 
 
-Pronouns are stored with other data in the user's Exchange mailbox. For more information, see [Data Residency for Exchange Online](../../enterprise/m365-dr-workload-exo.md#how-can-i-determine-customer-data-location).
+Pronouns are stored with other data in the user's Exchange mailbox. For more information, see [Data Residency for Exchange Online](../../enterprise/m365-dr-service-exo.md#how-can-i-determine-customer-data-location).
 
 For example, if Alice changes her pronouns in the profile card, the cached data in Bob's mailbox is updated with the new pronouns. Alices pronouns in Bob's mailbox can't be edited or accessed directly by Bob, he can only see the pronouns through experiences that has are allowed to read the pronouns. An example of an experience that has access to pronouns from Bob's mailbox is Microsoft 365 Copilot.
 

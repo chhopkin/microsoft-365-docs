@@ -4,7 +4,8 @@ description: Integrate and use the Microsoft Teams Assignments learning tool int
 author: jennplatt
 ms.author: avering
 manager: mimast
-ms.date: 10/20/2025
+ms.date: 01/14/2026
+last.review.date: 01/14/2026
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education
@@ -14,6 +15,9 @@ ms.collection:
 ---
 
 # Use Microsoft Teams Assignments LTI® app with Canvas
+
+>[!NOTE]
+>The classic Microsoft OneDrive, OneNote, Teams Assignments, and Reflect LTI apps have been replaced by the [new Microsoft 365 LTI](https://aka.ms/LMSAdminDocs). The classic apps will be sunset on September 17, 2026. After that date, the classic apps and any content links in courses will stop working. However, the files, notebooks, teams, meetings, and check-ins created by the classic app will continue to be accessible through Microsoft 365. For further guidance on moving your users and courses to the new Microsoft 365 LTI experiences and migrating content links, review the [migration guidance for the classic LTI apps](/microsoft-365/lti/microsoft-365-lti-first-time-configuration#migration-guidance).
 
 The Microsoft Teams Assignments LTI® app brings the Learning Accelerators, Microsoft Forms, Whiteboard, OneNote pages, and all of the new generative AI features of Teams Assignments to your LTI® v1.3 Advantage compliant learning management system (LMS).
 

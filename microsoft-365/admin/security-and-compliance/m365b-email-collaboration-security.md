@@ -7,7 +7,7 @@ author: vpattnai
 manager: dansimp
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-security
 ms.date: 08/14/2025
 ms.localizationpriority: medium
 ms.collection:
@@ -38,7 +38,7 @@ Although your organization includes a default level of protection for email and 
 
 ## Requirements
 
-[Default email protections](/defender-office-365/eop-about) are included in _all_ Microsoft 365 organizations with cloud mailboxes. Microsoft 365 Business Premium includes Microsoft Defender for Office 365 Plan 1 with more mail and collaboration protections. For detailed comparisons of the default email protections for cloud mailboxes and Defender for Office 365, see [Microsoft Defender for Office 365 overview](/defender-office-365/mdo-about).
+[Built-in security features](/defender-office-365/eop-about) are included in _all_ Microsoft 365 organizations with cloud mailboxes. Microsoft 365 Business Premium includes Microsoft Defender for Office 365 Plan 1 with more mail and collaboration protections. For detailed comparisons of the built-in security features for all cloud mailboxes and Defender for Office 365, see [Microsoft Defender for Office 365 overview](/defender-office-365/mdo-about).
 
 ### Roles and permissions
 

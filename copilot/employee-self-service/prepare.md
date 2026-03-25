@@ -5,10 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 11/05/2025
+ms.date: 11/12/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
+ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
@@ -30,7 +31,7 @@ Preparation is the first step to deploying the Employee Self-Service agent. You 
 
 ## Power Platform environment strategy for the Employee Self-Service agent
 
-The Employee Self-Service agent starters are tailored to each vertical, such as HR or IT, and each starter comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agent starters to a single, central agent, we advise you keep all the vertical agent starters within one Power Platform environment.
+The Employee Self-Service agent starters are tailored to each vertical, such as HR or IT, and each starter comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agent starters to a single, central agent, we advise you to keep all the vertical agent starters within one Power Platform environment.
 
 ## Assign the Power Platform administrator role
 
@@ -58,6 +59,12 @@ The Employee Self-Service agent starters are tailored to each vertical, such as 
 
 > [!CAUTION]
 > Environments created with the Dataverse Database have the **System Administrator** role. This role has full permission to customize or administer the environment, including creating, modifying, and assigning security roles. This role can view all data in the environment. This built-in role can't be modified.
+
+## Allow the external systems connector within Power Platform
+
+Most enterprise organizations have Data Loss Prevention (DLP) policies setup for maintaining security and compliance within their Power Platform ecosystem. The connectors that need to be used with the Employee Self-Service agent must be allowed within Power Platform for the connector to be available for customization.
+
+Work with your enterprise information security and/or Power Platform administrators to allowlist the connectors to be used with the Employee Self-Service agent.
 
 ## Infrastructure setup for external systems integration
 

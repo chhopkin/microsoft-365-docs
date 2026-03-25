@@ -6,7 +6,7 @@ author: vpattnai
 manager: dansimp
 ms.date: 08/14/2025
 ms.topic: how-to
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection:
 - M365-Campaigns

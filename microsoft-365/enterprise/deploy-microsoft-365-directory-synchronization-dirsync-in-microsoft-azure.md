@@ -1,6 +1,6 @@
 ---
 title: "Deploy Microsoft 365 Directory Synchronization in Microsoft Azure"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 02/12/2025
@@ -195,7 +195,7 @@ Microsoft Entra Connect adds accounts to your Microsoft 365 subscription from th
 
 ## See also
 
-[Microsoft 365 solution and architecture center](../solutions/index.yml)
+[Microsoft 365 solution and architecture center](/previous-versions/microsoft-365/solutions/)
   
 [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
 

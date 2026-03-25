@@ -46,16 +46,14 @@ When a mailbox is migrated cross-tenant with this feature, only user-visible con
 ## Licensing
 
 > [!IMPORTANT]
-Cross-Tenant migrations require a per user license (one-time fee) and can be assigned either on the source or target user object. This license also covers [OneDrive migration](cross-tenant-onedrive-migration.md). Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans: Microsoft 365 Business Basic, Standard, and Premium; Microsoft 365 F1/F3/E3/E5/; Office 365 F3/E1/E3/E5; Exchange Online; SharePoint in Microsoft 365; OneDrive and EDU.
+> Cross-Tenant migrations require a per user license (one-time fee) and can be assigned either on the source or target user object. This license also covers [OneDrive migration](cross-tenant-onedrive-migration.md). Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans: Microsoft 365 Business Basic, Standard, and Premium; Microsoft 365 F1/F3/E3/E5/; Office 365 F3/E1/E3/E5; Exchange Online; SharePoint in Microsoft 365; OneDrive and EDU.
 
 > [!WARNING]
 > You must purchase, or verify you can purchase, cross-tenant user data migration licenses before the next steps. Migrations fail if this step isn't completed. Microsoft doesn't offer exceptions for this licensing requirement.
 
 If you don't have the proper license assigned to the user being migrated, the migration fails, and you receive an error that is similar to the following example:
 
-``` code
-Error: CrossTenantMigrationWithoutLicensePermanentException: No license was found for the source recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87', or the target recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87'. A Cross-tenant User Data Migration license is required to move a mailbox between tenants.
-```
+`Error: CrossTenantMigrationWithoutLicensePermanentException: No license was found for the source recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87', or the target recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87'. A Cross-tenant User Data Migration license is required to move a mailbox between tenants.`
 
 ## Preparing source and target tenants
 
@@ -110,7 +108,7 @@ All users in both the source and target organizations must be licensed with the 
 
 10. By default, **User.Read** permissions are assigned to the app you created, but these permissions aren't required for mailbox migrations. You can remove those permissions.
 
-    :::image type="content" alt-text="Screenshot of 'Configured permissions'." source="../media/tenant-to-tenant-mailbox-move/6a8c13a36cb3e10964a6920b8138e12b.png" lightbox="../media/tenant-to-tenant-mailbox-move/6a8c13a36cb3e10964a6920b8138e12b.png":::
+    :::image type="content" alt-text="Screenshot of Configured permissions." source="../media/tenant-to-tenant-mailbox-move/6a8c13a36cb3e10964a6920b8138e12b.png" lightbox="../media/tenant-to-tenant-mailbox-move/6a8c13a36cb3e10964a6920b8138e12b.png":::
 
 11. To add permission for mailbox migration, select **Add a permission**.
 
@@ -223,15 +221,15 @@ Now that the migration application and secret is successfully created, the next 
    $orgrelname = "[name of your new organization relationship]"
    # Enable customization if tenant is dehydrated
    $dehydrated = Get-OrganizationConfig | select isdehydrated
-   if ($dehydrated.isdehydrated -eq $true) {Enable-OrganizationCustomization}
+   if ($dehydrated.isdehydrated -eq $true) { Enable-OrganizationCustomization }
    if (!(New-DistributionGroup -Type Security -Name $scope)) { Write-Host "Group already exists." }
-   $orgrels=Get-OrganizationRelationship
+   $orgrels = Get-OrganizationRelationship
    $existingOrgRel = $orgrels | ?{$_.DomainNames -like $targetTenantId}
-   If ($null -ne $existingOrgRel)
+   if ($null -ne $existingOrgRel)
    {
        Set-OrganizationRelationship $existingOrgRel.Name -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability RemoteOutbound -OAuthApplicationId $appId -MailboxMovePublishedScopes $scope
    }
-   If ($null -eq $existingOrgRel)
+   if ($null -eq $existingOrgRel)
    {
        New-OrganizationRelationship $orgrelname -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability RemoteOutbound -DomainNames $targetTenantId -OAuthApplicationId $appId -MailboxMovePublishedScopes $scope
    }
@@ -255,13 +253,12 @@ For any mailbox moving from a source organization, you must provision a MailUser
 
    1. The Target MailUser must have these attributes from the source mailbox or assigned with the new User object:
 
-      1. ExchangeGUID (direct flow from source to target): The mailbox GUID must match. The move process doesn't proceed if this attribute isn't present on target object.
-      2. ArchiveGUID (direct flow from source to target): The archive GUID must match. The move process doesn't proceed if this attribute isn't present on the target object. (This attribute is only required if the source mailbox is Archive enabled).
-      3. LegacyExchangeDN (flow as proxyAddress, "x500:\<LegacyExchangeDN\>"): The LegacyExchangeDN must be present on target MailUser as x500: proxyAddress. **In addition, you also need to copy all x500 addresses from the source mailbox to the target mail user.** The move process doesn't proceed if these x500 addresses aren't present on the target object. Also, this step is important for enabling reply ability for emails that are sent before migration. The sender/recipient address in each email item and the autocomplete cache in Microsoft Outlook and in Microsoft Outlook Web App (OWA) use the value of the LegacyExchangeDN attribute. If a user can't be located using the LegacyExchangeDN value, the delivery of email messages might fail with a 5.1.1 NDR.
-      4. UserPrincipalName: UPN aligns to the user's NEW identity or target company (for example, user@northwindtraders.onmicrosoft.com).
-      5. Primary SMTPAddress: Primary SMTP address aligns to the user's NEW company (for example, user@northwindtraders.com).
-      6. TargetAddress/ExternalEmailAddress: MailUser references the user's current mailbox hosted in source tenant (for example user@contoso.onmicrosoft.com). When this value is being assigned, verify that you have/are also assigning PrimarySMTPAddress. Otherwise, this value sets the PrimarySMTPAddress, which causes move failures.
-      7. You can't add legacy smtp proxy addresses from source mailbox to target MailUser. For example, you can't maintain contoso.com on the MEU in northwindtraders.onmicrosoft.com tenant objects. Domains are associated with one Microsoft Entra ID or Exchange Online tenant only.
+      - **ExchangeGUID (direct flow from source to target)**: The mailbox GUID must match. The move process doesn't proceed if this attribute isn't present on target object.
+      - **ArchiveGUID (direct flow from source to target)**: The archive GUID must match. The move process doesn't proceed if this attribute isn't present on the target object. (This attribute is only required if the source mailbox is Archive enabled).
+      - **LegacyExchangeDN (flow as proxyAddress, "x500:\<LegacyExchangeDN\>")**: The LegacyExchangeDN must be present on target MailUser as x500: proxyAddress. **In addition, you also need to copy all x500 addresses from the source mailbox to the target mail user.** The move process doesn't proceed if these x500 addresses aren't present on the target object. Also, this step is important for enabling reply ability for emails that are sent before migration. The sender/recipient address in each email item and the autocomplete cache in Microsoft Outlook and in Microsoft Outlook Web App (OWA) use the value of the LegacyExchangeDN attribute. If a user can't be located using the LegacyExchangeDN value, the delivery of email messages might fail with a 5.1.1 NDR.
+      - **UserPrincipalName**: UPN aligns to the user's NEW identity or target company (for example, user@northwindtraders.onmicrosoft.com).
+      - **Primary SMTPAddress**: Primary SMTP address aligns to the user's NEW company (for example, user@northwindtraders.com).
+      - **ExternalEmailAddress (TargetAddress)**: MailUser references the user's current mailbox hosted in source tenant (for example user@contoso.onmicrosoft.com). When this value is being assigned, verify that you have/are also assigning PrimarySMTPAddress. Otherwise, this value sets the PrimarySMTPAddress, which causes move failures. You can't add legacy smtp proxy addresses from source mailbox to target MailUser. For example, you can't maintain contoso.com on the MEU in northwindtraders.onmicrosoft.com tenant objects. Domains are associated with one Microsoft Entra ID or Exchange Online tenant only.
 
          Example **target** MailUser object:
 
@@ -270,7 +267,7 @@ For any mailbox moving from a source organization, you must provision a MailUser
          | Alias                | LaraN                                                                                                                                |
          | RecipientType        | MailUser                                                                                                                             |
          | RecipientTypeDetails | MailUser                                                                                                                             |
-         | UserPrincipalName    | LaraN@northwintraders.onmicrosoft.com                                                                                                |
+         | UserPrincipalName    | LaraN@northwindtraders.onmicrosoft.com                                                                                               |
          | PrimarySmtpAddress   | Lara.Newton@northwindtraders.com                                                                                                     |
          | ExternalEmailAddress | SMTP:LaraN@contoso.onmicrosoft.com                                                                                                   |
          | ExchangeGUID         | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                                 |
@@ -282,24 +279,24 @@ For any mailbox moving from a source organization, you must provision a MailUser
 
          Example **source** Mailbox object:
 
-         | Attribute            | Value                                                                                                                          |
-         | -------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-         | Alias                | LaraN                                                                                                                          |
-         | RecipientType        | UserMailbox                                                                                                                    |
-         | RecipientTypeDetails | UserMailbox                                                                                                                    |
-         | UserPrincipalName    | LaraN@contoso.onmicrosoft.com                                                                                                  |
-         | PrimarySmtpAddress   | Lara.Newton@contoso.com                                                                                                        |
-         | ExchangeGUID         | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                           |
-         | LegacyExchangeDN     | /o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9-Lara|
-         | EmailAddresses       | smtp:LaraN@contoso.onmicrosoft.com                                                                                             |
-         |                      | SMTP:Lara.Newton@contoso.com                                                                                                   |
-         |                      | X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f161af74128f460fba5c0c23984b3d6c-Lara |
+         | Attribute            | Value                                                                                                                                |
+         | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+         | Alias                | LaraN                                                                                                                                |
+         | RecipientType        | UserMailbox                                                                                                                          |
+         | RecipientTypeDetails | UserMailbox                                                                                                                          |
+         | UserPrincipalName    | LaraN@contoso.onmicrosoft.com                                                                                                        |
+         | PrimarySmtpAddress   | Lara.Newton@contoso.com                                                                                                              |
+         | ExchangeGUID         | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                                 |
+         | LegacyExchangeDN     | /o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9-Lara      |
+         | EmailAddresses       | smtp:LaraN@contoso.onmicrosoft.com                                                                                                   |
+         |                      | SMTP:Lara.Newton@contoso.com                                                                                                         |
+         |                      | X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f161af74128f460fba5c0c23984b3d6c-Lara       |
 
 7. Other attributes may be included in Exchange hybrid write-back already. If not, they should be included.
 
-   1. `msExchBlockedSendersHash` – Writes back online blocked sender data from clients to on-premises Active Directory.
-   2. `msExchSafeRecipientsHash` – Writes back online safe recipients data from clients to on-premises Active Directory.
-   3. `msExchSafeSendersHash` – Writes back online safe sender data from clients to on-premises Active Directory.
+   - `msExchBlockedSendersHash` – Writes back online blocked sender data from clients to on-premises Active Directory.
+   - `msExchSafeRecipientsHash` – Writes back online safe recipients data from clients to on-premises Active Directory.
+   - `msExchSafeSendersHash` – Writes back online safe sender data from clients to on-premises Active Directory.
 
    Users in the target organization must be licensed with appropriate Exchange Online subscriptions applicable for the organization. You may apply a license in advance of a mailbox move but ONLY once the target MailUser is properly set up with ExchangeGUID and proxy addresses. Applying a license before the ExchangeGUID is applied results in a new mailbox provisioned in target organization. You must also apply a Cross Tenant User Data Migration license. Otherwise, you may see a transient error reading **needs approval**, which reports a warning in the move report that a license isn't applied to the target user.
 
@@ -623,7 +620,7 @@ Cross-tenant migration only migrates mailbox data and nothing else. There are mu
 
 ### Can I have the same labels in the destination tenant as you had in the source tenant? Either as the only set of labels or an additional set of labels for the migrated users, depending on alignment between the organizations.\*\*
 
-Because cross-tenant migrations don't export labels and there's no way to share labels between tenants, you can only achieve this objective by recreating the labels in the destination tenant.
+Because cross-tenant migrations don't export labels and there's no way to share labels between tenants, recreating the labels in the destination tenant is the only way to achieve this objective.
 
 ### Do you support moving Microsoft 365 Groups?
 
@@ -859,7 +856,7 @@ Company   PendingActivation   882e1d05-acd1-4ccb-8708-6ee03664b117 INTUNE_O365
   | eDiscovery (Premium) Storage (500 GB)            |
   | Customer Lockbox                                 |
   | Data Loss Prevention                             |
-  | Exchange Enterprise CAL Services (EOP, DLP)      |
+  | Exchange Enterprise CAL Services                 |
   | Exchange Essentials                              |
   | Exchange Foundation                              |
   | Exchange Online (P1)                             |
@@ -1020,4 +1017,4 @@ Company   PendingActivation   882e1d05-acd1-4ccb-8708-6ee03664b117 INTUNE_O365
 
 - [Manage Microsoft 365 with PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
 - [Get started with the Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/get-started)
-- [https://techcommunity.microsoft.com/t5/exchange-team-blog/troubleshooting-cross-tenant-mailbox-migrations/ba-p/4178404]
+- [Troubleshooting Cross-Tenant Mailbox Migrations](https://techcommunity.microsoft.com/t5/exchange-team-blog/troubleshooting-cross-tenant-mailbox-migrations/ba-p/4178404)

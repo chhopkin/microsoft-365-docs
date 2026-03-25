@@ -3,7 +3,7 @@ title: "Contact volume licensing support"
 f1.keywords: NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
+manager: scotv
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
 ms.topic: how-to
@@ -12,14 +12,14 @@ ms.subservice: m365-commerce-volume-licensing
 ms.collection:
 - Tier1
 - scotvorg
-- operations-pod
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
+service.tree.id: e6e1ea2a-04a0-4f78-bc75-7d45c90eee39
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to contact Microsoft support for volume licensing products."
-ms.date: 05/30/2025
+ms.date: 12/02/2025
 ---
 
 # Contact volume licensing support
@@ -102,20 +102,20 @@ Use the information in the following tables to find the support number for your 
 |Country/Region |Toll Numbers |Hour of Operation |Languages Supported |
 |---------|---------|---------|---------|
 |China |800 819 0567 (Toll Free)<br/>400 620 0567 (Mobile.Toll Free) |09:00 - 18:00 GMT+8 |Mandarin, English |
-|Hong Kong SAR |85230022897 (Toll Free)	|09:00 - 18:00 GMT+8 |Cantonese, Mandarin, English |
+|Hong Kong SAR |85230022897 (Toll Free)	|09:00 - 18:00 GMT+8 |Mandarin, English |
 |India |000 8000404455 (Toll Free)<br/>+1 (212) 444.0497 |01:00 - 10:00 GMT+5.30 |English |
 |Indian subcontinent |+1 (212) 444.0497 |09:00 - 18:00 GMT+5.30 |English |
 |Indonesia |0018030160575 (Toll Free) |09:00 - 18:00 GMT+7 |English |
 |Japan |0120-737-565 (Toll Free) |09:00 - 17:30（土日、祝日を除く）|日本語 |
-|Macao SAR |800 969 800 (Toll Free) |09:00 - 18:00 GMT+8 |Cantonese, Mandarin, English |
+|Macao SAR |800 969 800 (Toll Free) |09:00 - 18:00 GMT+8 |Mandarin, English |
 |Malaysia |1 800 80 7456 (Toll Free) |01:00 - 10:00 GMT |English |
 |Philippines |1800 1441 0123 (Toll Free) |09:00 - 18:00 |English |
-|Singapore |1800 820 9963 (Toll Free)<br/>+65 6622 1235 |09:00 - 18:00 GMT+8 |English |
+|Singapore |1800 820 9963 (Toll Free)<br/>+65 3157 1106 |09:00 - 18:00 GMT+8 |English |
 |South Korea |82798142030016 |09:00 - 18:00 GMT+9 |Korean |
 |Taiwan |886 8011 28004 |09:00 - 18:00 GMT+8 |Mandarin, English |
 |Thailand |661800012821 (Toll Free)<br/>+65 6622 1235 |01:00 - 10:00 GMT |English|
 |Vietnam |8412011860 (Toll Free)<br/>+65 6622 1235 |01:00 - 10:00 GMT |English |
-|Southeast Asia |International tolls to Singapore might apply.<br/>+65 6622 1235 |09:00 - 18:00 GMT+8 |English |
+|Southeast Asia |International tolls to Singapore might apply.<br/>+65 3157 1106 |09:00 - 18:00 GMT+8 |English |
 
 ### Europe
 
@@ -129,7 +129,7 @@ Use the information in the following tables to find the support number for your 
 |Finland |358981710026 (Toll Free) |09:00 - 17:00 Monday to Friday |English |
 |France |800902791 (Toll Free) |09:00 - 18:00 Monday to Friday |French |
 |Germany |+49 8924445094 (Toll)<br/>0800 6270101 (Toll Free) |08:30 - 18:00 Monday to Friday |German |
-|Greece |0800 352021 (Toll Free) |09:00 - 17:00 Monday to Friday |Greek |
+|Greece |0800 352021 (Toll Free) |09:00 - 17:00 Monday to Friday |English|
 |Hungary |06800 15829 (Toll Free) |09:30 - 18:00 Monday to Friday |English |
 |Ireland |1800 555035 (Toll Free) |08:00 - 17:00 Monday to Friday |English |
 |Italy |800 785768 (Toll Free) |09:00 - 18:00 Monday to Friday |Italian |

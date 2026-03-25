@@ -25,7 +25,7 @@ description: "An overview of how to deploy and manage Office Add-ins."
 
 ## What are Office add-ins?
 
-Office Add-ins help users get things done right from their Office applications. They are made by Microsoft or non-Microsoft developers either for use within their own organizations or made available to the public in [AppSource](https://appsource.microsoft.com). For more information, see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862).
+Office Add-ins help users get things done right from their Office applications. They are made by Microsoft or non-Microsoft developers either for use within their own organizations or made available to the public in [Microsoft Marketplace](https://marketplace.microsoft.com). For more information, see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862).
 
 ## Before you begin
 
@@ -180,11 +180,11 @@ Managing how users can install and use Office add-ins means that you decide who 
 
 Options available in non-educational tenants:
 
-   ![Let user access office store settings](../../media/user-owned-apps-and-services.png)
+   ![Let user access Microsoft Marketplace settings](../../media/user-owned-apps-and-services.png)
 
 Options available in educational tenants:
 
-   ![Let user access office store settings for EDU](../../media/user-owned-apps-and-services-edu.png)
+   ![Let user access Microsoft Marketplace settings for EDU](../../media/user-owned-apps-and-services-edu.png)
 
 The user's license information is used to define whether a user is a faculty, staff, or a student along with the Age Group property to check whether the student is an adult or not.
 
@@ -213,7 +213,7 @@ The user's license information is used to define whether a user is a faculty, st
 > [!NOTE]
 > This setting doesn't affect any deployed Outlook add-ins. You can continue to deploy Outlook add-ins to users in your organization, even if the setting is turned off.
 
-Microsoft is now partnering with leading developers to create unified apps that work across Outlook, Word, Excel, PowerPoint, Teams, and the Microsoft 365 App (formerly known as Office.com). Any settings made for Office Add-ins continue to be honored as long as they stay as add-ins. When Office add-ins are upgraded to work across different Microsoft applications, you can learn to manage them from here. For more information, see [Controls for managing Teams apps that work on Outlook and Microsoft 365](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365#controls-for-managing-teams-apps-that-work-on-outlook-and-the-microsoft-365-app).
+Microsoft is now partnering with leading developers to create unified apps that work across Outlook, Word, Excel, PowerPoint, Teams, and the Microsoft 365 App (formerly known as Office.com). Any settings made for Office Add-ins continue to be honored as long as they stay as add-ins. When Office add-ins are upgraded to work across different Microsoft applications, you can learn to manage them from here. For more information, see [Apps for Microsoft 365 that work across application hosts](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365#controls-for-managing-cross-application-apps).
 
 ## Upload Custom Office Add-ins in your organization  
 
@@ -250,14 +250,14 @@ Office Add-ins combine a manifest file that contains some metadata about the add
 
 For more information about the types and capabilities of Office Add-ins, see [Office Add-ins platform overview](/office/dev/add-ins/overview/office-add-ins), especially the section *Components of an Office Add-in*.
 
-To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. Most of the add-ins in the Office Store are level **read/write document** with almost all add-ins supporting at least the **read document** level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins).
+To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. Most of the add-ins in the Microsoft Marketplace are level **read/write document** with almost all add-ins supporting at least the **read document** level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins).
 
 When a manifest is updated, the typical changes are to an add-in's icon and text. Occasionally, add-in commands change. However, the permissions of the add-in don't change. The web application where all the code and logic for the add-in runs can change at any time, which is the nature of web applications.
 
 Updates for add-ins happen as follows.
 
 - **Line-of-business add-in**: In this case, where an admin uploaded a manifest, the admin must upload the new manifest file to support metadata changes. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
-- **AppSource add-in**: When an admin selected an add-in from AppSource and then the developer updated the manifest in AppSource, the admin doesn't have to take any action. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
+- **Microsoft Marketplace add-in**: When an admin selected an add-in from Microsoft Marketplace and then the developer updated the manifest in Microsoft Marketplace, the admin doesn't have to take any action. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
 
 > [!NOTE]
 > There are other ways for deploying Office Add-ins in certain scenarios. For more information, see [Deploy and publish Office Add-ins](/office/dev/add-ins/publish/publish).

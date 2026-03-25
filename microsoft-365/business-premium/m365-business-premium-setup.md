@@ -7,7 +7,7 @@ author: chrisda
 manager: deniseb
 audience: Admin
 ms.topic: overview
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-admin
 ms.date: 06/07/2024
 ms.localizationpriority: medium
 ms.reviewer: nehabha
@@ -50,7 +50,7 @@ When you're ready to sign up for Microsoft 365 Business Premium, you have severa
 
 Microsoft has a list of solution providers who are authorized to sell offerings, including Microsoft 365 Business Premium. If you're not already working with a solution provider, you can find one by following these steps:
 
-1. Go to the **Connect with partners** page at <https://appsource.microsoft.com/marketplace/partner-dir>.
+1. Go to the **Connect with partners** page at <https://marketplace.microsoft.com/marketplace/partner-dir>.
 
 2. In the **Filters** pane, specify search criteria. For example:
 
@@ -109,7 +109,7 @@ After you add users to your Microsoft 365 subscription, give them a link to the 
 
 If you'd prefer to have a Microsoft partner help you get and set up Microsoft 365 Business Premium, follow these steps:
 
-1. Go to the [Browse Partners](https://appsource.microsoft.com/marketplace/partner-dir) page.
+1. Go to the [Browse Partners](https://marketplace.microsoft.com/marketplace/partner-dir) page.
 
 2. In the **Filters** pane, specify search criteria, such as:
 
