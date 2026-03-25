@@ -167,6 +167,10 @@ Yes. When Copilot Cowork references information in a response, you can open the 
 
 Yes. Sometimes Copilot Cowork needs more information to complete your request. When this happens, it presents a question with a set of choices for you to pick from. You can select an option, type your own answer, or select **Skip** to let Copilot Cowork continue without additional input. The task status shows **Needs user input** when Copilot Cowork is waiting for your answer.
 
+## Does Copilot Cowork connect to external models for processing?
+
+Yes. Copilot Cowork uses Anthropic models as a subprocessor to ensure secure and responsible use of Anthropic models within your organization. Details about the integration can be found at [Anthropic as a subprocessor for Microsoft Online Services](/copilot/microsoft-365/connect-to-ai-subprocessor).
+
 ## Related content
 
 - [Copilot Cowork overview](index.md)

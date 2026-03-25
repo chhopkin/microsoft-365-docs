@@ -108,6 +108,10 @@ Copilot Cowork helps you stay organized with built-in project and task managemen
 - **Task views**: Display your tasks in a sortable **list view** or a visual **kanban board**. Each task shows a status: **In progress**, **Needs user input**, **Done**, or **Failed**.
 - **Projects dashboard**: Get an overview of all your projects in one place, with a **Highlights** tab for recommended actions and recent activity, and an **All Projects** tab for the complete list.
 
+## Data protection and privacy
+
+Copilot Cowork adheres to the data protection policies detailed in [Microsoft 365 Copilot Privacy](/copilot/microsoft-365/microsoft-365-copilot-privacy) and [Microsoft Privacy Statement](https://www.microsoft.com/en-us/privacy/privacystatement?msockid=02283d33f3b26a153db42c6af7b26c18).
+
 ## Get started
 
 Copilot Cowork is available in your browser, the Windows and Mac desktop apps, and the mobile app for iOS (17.4 and later) and Android.
