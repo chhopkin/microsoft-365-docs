@@ -2,8 +2,8 @@
 title: Microsoft 365 Copilot data protection architecture
 f1.keywords:
 - NOCSH
-ms.author: ruihu
-author: maggierui
+ms.author: deniseb
+author: denisebmsft
 manager: dansimp
 ms.date: 03/03/2026
 ms.update-cycle: 180-days
@@ -12,6 +12,7 @@ customer-intent: As an IT professional, I want to understand how Microsoft 365 C
 ms.reviewer: mandia, bcarter, ruihu, cabailey
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: security
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
