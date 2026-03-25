@@ -1,8 +1,8 @@
 ---
 title: Release notes, known issues and limitations for the Employee Self-Service agent
 f1.keywords: NOCSH
-ms.author: MicrosoftHeidi
-author: jatonewilson
+ms.author: jatonewilson
+author: MicrosoftHeidi
 manager: swatigulati
 ms.reviewer: semani
 ms.date: 03/23/2026
