@@ -8,7 +8,7 @@ author: denisebmsft
 manager: dansimp
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier2
@@ -91,4 +91,4 @@ After creating a new group and adding members, you can further configure your gr
 ## Related content
 
 [Manage guest access to Microsoft 365 groups](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) (article)\
-[Choose the domain to use when creating Microsoft 365 groups](../../solutions/choose-domain-to-create-groups.md) (article)\
+[Choose the domain to use when creating Microsoft 365 groups](/previous-versions/microsoft-365/solutions/choose-domain-to-create-groups) (article)\

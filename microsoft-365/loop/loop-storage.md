@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: concept-article
 ms.service: loop
 ms.reviewer: michalbr, dancost
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -32,6 +32,7 @@ appliesto:
 | Key fact | Details |
 |----------|--------|
 | **Storage locations** | SharePoint Embedded, SharePoint sites, or OneDrive (depends on where content is created) |
+| **Personal SharePoint Embedded container control** | Disable both Loop workspace creation and Copilot Pages/Notebooks creation to prevent the single user-owned container from being created |
 | **Quota** | Counts against your organization's SharePoint storage quota |
 | **Container limit** | 25 TB maximum per container |
 | **User departure** | Personal workspace follows OneDrive cleanup schedule (30 days active → soft delete → 93 days to permanent deletion) |
@@ -69,18 +70,20 @@ Loop content is stored in SharePoint, OneDrive, and [SharePoint Embedded](/share
 |OneNote for Windows or for the web|||✔️in 📁`OneNote Loop files`|user account|
 |Whiteboard|||✔️in 📁`Whiteboard\Components`|user account|
 
-\* The My workspace SharePoint Embedded container also contains Copilot Pages and Copilot Notebooks.
+\* The My workspace SharePoint Embedded container is the same physical user-owned container used by Copilot Pages and Copilot Notebooks.
 
-## My workspace container name
+## User-owned container name
 
-Copilot Pages and Copilot Notebooks all use the Loop My workspace container. This user-owned container is named 'Pages' if the person visits the Microsoft 365 Copilot app first. It is named 'My workspace' (localized into the language of the user's Loop experience during creation) if the person visits the Loop application first. Refer to [listing all user-owned containers](cpcn-loop-spe-management.md#listing-all-the-user-owned-containers) to get a list, regardless of the container name.
+Copilot Pages and Copilot Notebooks use the same user-owned SharePoint Embedded container as Loop My workspace. This container is named 'Pages' if the person visits the Microsoft 365 Copilot app first. It is named 'My workspace' (localized into the language of the user's Loop experience during creation) if the person visits the Loop application first. Refer to [listing all user-owned containers](cpcn-loop-spe-management.md#listing-all-the-user-owned-containers) to get a list, regardless of the container name.
 
-To completely disable the creation of the **Personal Workspace** SharePoint Embedded container you need to do the following:
+This single user-owned container is created when a user first needs one of these experiences and at least one of the relevant creation policies allows it. If *Create Loop workspaces in Loop* is disabled but *Create and view Copilot Pages and Copilot Notebooks* is enabled, creating a Copilot Page or Notebook can still create the container. If *Create and view Copilot Pages and Copilot Notebooks* is disabled but *Create Loop workspaces in Loop* is enabled, opening Loop My workspace can still create that same container.
 
-1. Disable the **Pages** and **Notebooks** creation of the **Personal Workspace** using the *Create and view Copilot Pages and Copilot Notebooks* policy.
-1. Disable the **My Workspace** creation of the **Personal Workspace** using the *Create Loop workspaces in Loop* policy.
+To prevent the single user-owned container from being created, disable both of the following policies for the same user:
 
-This prevents the creation of the **Personal Workspace** from any of these product experiences. For more information, see the admin policies articles for [Loop](loop-admin-configuration.md) and [Copilot Pages and Copilot Notebooks](cpcn-admin-configuration.md).
+1. *Create and view Copilot Pages and Copilot Notebooks*
+1. *Create Loop workspaces in Loop*
+
+In SharePoint admin center and PowerShell, the owning application for this container is shown as Loop. For more information, see the admin policies articles for [Loop](loop-admin-configuration.md) and [Copilot Pages and Copilot Notebooks](cpcn-admin-configuration.md).
 
 ## Storage quota
 
@@ -111,12 +114,12 @@ Storage behaviors after user departure depends on the type of Loop workspace. Th
 
 ### Personal Workspaces
 
-- Copilot Pages, Copilot Notebooks, and [My workspace](#my-workspace) store content within the same user-owned SharePoint Embedded container.
+- Copilot Pages, Copilot Notebooks, and [My workspace](#my-workspace) store content within the same physical user-owned SharePoint Embedded container.
 - This personal content is private by default, allowing users to work without forced sharing or coauthoring, similar to OneDrive.
 
 #### My workspace
 
-- My workspace is stored in a user-owned SharePoint Embedded container, created by Loop. The container is lifecycle managed with the user account, deleted when the user account is deleted from the organization.
+- My workspace is stored in the same user-owned SharePoint Embedded container, created through Loop application IDs. The container is lifecycle managed with the user account and is deleted when the user account is deleted from the organization.
 - My workspace can't be permanently reassigned to a new owner. It follows the same cleanup schedule as OneDrive: 30 days active, then soft deleted, and permanently purged 93 days after soft deletion.
 - Admins can recover content during the soft delete period using the SharePoint Admin Center or PowerShell.
 

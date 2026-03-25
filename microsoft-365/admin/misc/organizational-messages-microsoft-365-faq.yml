@@ -1,8 +1,8 @@
 ### YamlMime:FAQ
 metadata:
-  title: Organizational Messages in Microsoft 365 FAQ
-  description: Learn how to create and manage organizational messages in the Microsoft 365 admin center. Drive adoption and configure delivery to Windows and Teams.
-  ms.date: 03/02/2026
+  title: Organizational messages in Microsoft 365 FAQ
+  description: Find answers to common questions about organizational messages in Microsoft 365, including message delivery, permissions, localization, and more.
+  ms.date: 03/13/2026
   f1.keywords:
   - NOCSH
   ms.author: kwekua
@@ -23,11 +23,13 @@ metadata:
   search.appverid:
    - MET150
    - MOE150
-title: Organizational Messages in Microsoft 365 FAQ
+title: Organizational messages in Microsoft 365 FAQ
 summary: |
 
+  This article provides answers to frequently asked questions that administrator might have about organizational messages in Microsoft 365. For more information about organizational messages in Microsoft 365, see [Organizational messages in the Microsoft 365 admin center](organizational-messages-microsoft-365.md).
+
 sections:
-- name: Organizational Messages in Microsoft 365 FAQ
+- name: Organizational messages in Microsoft 365 FAQ
   questions:
   - question: |
       Can you tell me more about delivery expectations for these messages?
@@ -58,7 +60,7 @@ sections:
     answer: |
       Reach out to an admin with appropriate permissions and ask them to assign you the [Organizational Messages Writer](/azure/active-directory/roles/permissions-reference#organizational-messages-writer) or [Organizational Message Approver](/azure/active-directory/roles/permissions-reference#organizational-messagesapprover) Microsoft Entra role by following these steps:
 
-      1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+      1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
       1. From the left navigation bar, select **… Show all**, and then select **Users** to expand it.
 
@@ -203,7 +205,7 @@ sections:
 
       1. Enable all of the policies described in [Set Tenant Policies](organizational-messages-microsoft-365.md#set-tenant-policies).
 
-      1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+      1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
       1. From the left navigation bar, select **… Show all**, and then select **Reports** to expand it.
 

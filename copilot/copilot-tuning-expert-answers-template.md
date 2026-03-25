@@ -1,25 +1,24 @@
 ---
-title: Copilot Tuning Expert Answers agent template
+title: Copilot Tuning Expert Answers agent template (early access preview)
 author: lauragra
 ms.author: lauragra
 manager: calvind
 ms.collection: operations-pod
 ms.reviewer: riyazp
-ms.date: 02/19/2026
+ms.date: 03/10/2026
 ms.service: microsoft-365-copilot
 ms.topic: how-to
 ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for expert answers.
 ---
 
-# Copilot Tuning Expert Answers agent template
+# Copilot Tuning Expert Answers agent template (early access preview)
 
 The **Expert Answers** agent template is a tunable Microsoft 365 Copilot agent template designed to answer complex, domain-specific questions grounded in your organization's content. You can further tune the agent by using enterprise data to improve answer quality, relevance, and consistency.
 
 This article describes common scenarios, tuning options, requirements, and limitations to help you implement the Expert Answers agent template effectively.
 
-> [!IMPORTANT]
-> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## Expert Answers agent template overview
 
@@ -64,7 +63,7 @@ You must select a SharePoint site before asking a question. The agent answers qu
 
 Start by selecting the **Expert Answers agent template** in Agent Builder. 
 
-:::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png" alt-text="Screenshot showing the Expert Answers agent template template selection in Agent Builder." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png":::
+:::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png" alt-text="Screenshot showing the Expert Answers agent template selection in Agent Builder." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png":::
 
 Provide the following information:
 

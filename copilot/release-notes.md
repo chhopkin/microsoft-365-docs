@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 02/24/2026
+ms.date: 03/24/2026
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -32,6 +32,691 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 <!--- All features regardless of platform go here  -->
 <!-- 101270,100818,110355,80610,109718,101645,100669,100610,100361,100356,100354,98694 -->
 
+
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+### Microsoft 365 Copilot app
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+
+
+
+### Microsoft 365 Copilot Chat
+- **Summarize and Explain actions in PDF reader** [Web]
+
+  Two new Copilot actions—Summarize and Explain—are now available in the Microsoft Edge PDF reader to help users understand content faster.
+
+  **Roadmap ID:** [498641](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=498641)
+
+
+  **Details:**
+
+  **What changed:** The built in PDF reader now includes Summarize and Explain options alongside the existing Ask Copilot integration. Users can generate overviews or simplify complex text directly within the PDF experience.
+
+  **Why:** These additions help users quickly interpret long or complex documents without leaving the PDF reader.
+
+
+  **Try this:**
+
+  - Open a PDF in Microsoft Edge and select Summarize to get a concise overview.
+  - Highlight a section of text and choose Explain to simplify technical or dense content.
+  - Use these actions to prepare for meetings or review documents more efficiently.
+
+  **Why this matters:**
+
+  **Business impact:** Improves document review workflows and reduces time spent interpreting complex PDFs.
+
+  **Personal impact:** Helps users understand information more quickly and with less effort.
+
+
+
+
+
+
+
+
+
+
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
+
+
+### Microsoft 365 Copilot extensibility
+- **Query Coda docs and wikis with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Coda with Copilot connectors so you can query collaborative documents and wikis from Copilot. 
+
+  **Roadmap ID:** [515165](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515165)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports a Coda Enterprise Copilot connector that can index Coda documents and pages for use in Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps people find knowledge stored in Coda without leaving Microsoft 365. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Coda with a Copilot connector.
+  - Ask Copilot to summarize content in a Coda workspace.
+  - Ask Copilot to retrieve the URL for a specific Coda document.
+
+  **Why this matters:**
+
+  **Business impact:** Improves knowledge discovery by making Coda content available in Microsoft 365 Copilot and Microsoft Search. 
+
+
+  **Personal impact:** Makes it easier to get answers from Coda docs and wikis using natural language.
+
+- **Query Bitbucket pull requests with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Bitbucket with Copilot connectors so you can query pull requests and related engineering context.
+
+  **Roadmap ID:** [515163](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515163)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports a Bitbucket Pull Request Copilot connector that brings pull request information into Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps teams find pull request details through Microsoft 365 tools they already use.
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Bitbucket with a Copilot connector. 
+  - Ask Copilot to find pull requests related to a repository or feature. 
+  - Ask Copilot to summarize the discussion and status of a pull request.
+
+  **Why this matters:**
+
+  **Business impact:** Surfaces pull request context in Microsoft 365 Copilot to speed up collaboration and reviews. 
+
+  **Personal impact:** Makes it easier to understand a pull request without switching apps.
+
+
+
+- **Copilot Chat recommends installed agents** [Windows, Web]
+
+  Copilot Chat now recommends relevant installed agents when it detects a match with the user’s intent.
+
+  **Details:**
+
+  **What changed:** When a user’s prompt aligns with the capabilities of an installed agent, Copilot Chat will suggest that agent directly in the conversation. Previously, users had to know which agent to invoke.
+
+  **Why:** This helps users discover and use the right agent at the right time, improving task completion and reducing friction.
+
+  **Try this:**
+
+  - Ask Copilot Chat to perform a task that aligns with one of your installed agents.
+  - Select the recommended agent when it appears in the chat.
+  - Continue the conversation using the agent’s specialized capabilities.
+
+  **Why this matters:**
+
+  **Business impact:** Increases utilization of installed agents and improves workflow efficiency.
+
+  **Personal impact:** Makes it easier to find the right tool without remembering agent names.
+
+
+
+
+
+
+
+
+
+- **Connect Copilot with Zendesk Help Center to retrieve support articles** [Web] 
+
+  Users can connect Microsoft 365 Copilot with Zendesk Help Center to retrieve support articles and FAQs using the Copilot Connector.
+
+  **Roadmap ID:** [513279]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513279)
+
+  **Details:**
+
+  **What changed:** Copilot can now search and summarize content from Zendesk Help Center, including help articles, troubleshooting steps, and FAQs.
+
+  **Why:** This integration helps support teams get faster access to the information they need to resolve issues.
+
+  **Try this:**
+
+  -	Ask Copilot to summarize a Zendesk article related to an open issue.
+  -	Retrieve common FAQs from Zendesk.
+  -	Request recommended troubleshooting steps from Zendesk content.
+
+  **Why this matters:**
+
+  **Business impact:** Speeds up support workflows and improves response quality.
+
+  **Personal impact:** Helps support agents resolve customer issues faster.
+
+  ****Additional resources:****
+
+  **Learn:**
+
+  [Zendesk Help Center Microsoft 365 Copilot connector overview](/microsoftsearch/zendesk-help-center-overview)
+
+
+
+- **Query GitLab merge requests and content with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to GitLab with Copilot connectors so you can query merge requests and related repository activity. 
+
+  Roadmap ID: [515162](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515162)
+
+  **Details:**
+
+  **What changed:**
+  Microsoft 365 Copilot now supports GitLab merge request connectors, making merge request information discoverable and retrievable in Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:**
+  This change reduces context switching by bringing merge request information into Microsoft 365 workflows.
+
+  **Try this:**
+
+  -	Connect Microsoft 365 Copilot to GitLab with a Copilot connector. 
+  -	Ask Copilot to list open merge requests waiting for review. 
+  -	Ask Copilot to summarize merge requests targeting a release branch. 
+
+  **Why this matters:**
+
+  **Business impact:** Improves visibility into engineering work by bringing merge request context into Microsoft 365 experiences. 
+
+  **Personal impact:** Helps you find and summarize merge requests faster using natural language.
+
+
+
+
+
+- **Track GitLab issues in Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to GitLab Issues with Copilot connectors so you can query engineering tasks and bugs from Copilot. 
+
+  **Roadmap ID:** [515158](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515158)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports GitLab Issues connectors that can index issue data and make it available in Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps teams retrieve issue details, assignments, and context without leaving Microsoft 365 workflows. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to GitLab Issues with a Copilot connector.
+  - Ask Copilot to summarize high-priority issues for a release milestone.
+  - Ask Copilot to list blocked issues and their owners.
+
+  **Why this matters:**
+
+  **Business impact:** Improves visibility into work tracking by surfacing GitLab issues in Microsoft 365 Copilot.  
+
+  **Personal impact:** Makes it easier to find issue context and stay on top of tasks using natural language.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [GitLab Issues Server Microsoft 365 Copilot connector overview](/microsoftsearch/gitlab-issues-server-overview)
+
+
+
+- **Bring Asana tasks into Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to Asana with a Copilot connector so you can query projects and tasks from within Microsoft 365.
+
+  **Roadmap ID:** [515175](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515175)
+
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports an Asana Copilot connector that can index Asana tasks for use in Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:** This change helps people access project and task information in the flow of work. 
+
+  **Try this:**
+
+  -	Connect Microsoft 365 Copilot to Asana with a Copilot connector. 
+  -	Ask Copilot to summarize tasks and deadlines across projects. 
+  -	Ask Copilot to list overdue tasks in a project.
+
+  **Why this matters:**
+
+  **Business impact:** Improves project tracking by bringing Asana task data into Microsoft 365 Copilot and search experiences. 
+
+  **Personal impact:** Helps you stay on top of tasks without switching tools.
+
+  ****Additional resources:****
+
+  **Learn:**
+
+
+  [Asana Microsoft 365 Copilot connector overview](/microsoftsearch/asana-overview)
+
+
+
+- **Connect Copilot with Egnyte for secure file collaboration** [Web]
+
+  Users can connect Microsoft 365 Copilot with Egnyte to collaborate on secure file storage using the Copilot Connector.
+
+  **Roadmap ID:** [513283]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513283)
+
+  **Details:**
+
+  **What changed:** Copilot can now access files stored in Egnyte, allowing users to retrieve, summarize, and interact with content without manually opening those files.
+
+  **Why:** This integration supports organizations that rely on Egnyte for secure file storage and governance.
+
+  **Try this:**
+
+  -	Ask Copilot to summarize a document stored in Egnyte.
+  -	Retrieve key insights from Egnyte folders.
+  -	Request a list of recent Egnyte updates relevant to your team.
+
+  **Why this matters:**
+
+  **Business impact:** Supports secure and compliant integration with existing file storage systems.
+
+  **Personal impact:** Helps users quickly access and understand stored content.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Egnyte Microsoft 365 Copilot connector overview](/microsoftsearch/egnyte-overview)
+
+- **Search Aha! features and ideas in Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to Aha! with Copilot connectors so you can query product features and customer ideas in Copilot.
+
+  **Roadmap ID:** [515159](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515159)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports an Aha! Copilot connector that can index Aha! features and ideas and make them discoverable through Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:** This change helps product and engineering teams find roadmap and feedback context in Microsoft 365 workflows. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Aha! with a Copilot connector.
+  - Ask Copilot to list features assigned to you in Aha!. 
+  - Ask Copilot to show ideas with the highest number of votes. 
+
+  **Why this matters:**
+
+  **Business impact:** Improves cross-team alignment by making Aha! roadmap and feedback content easier to find in Microsoft 365. 
+
+  **Personal impact:** Helps you answer product questions faster without leaving Microsoft 365.
+
+
+
+
+- **Connect Copilot to Smartsheet for project and task management** [Web]
+
+  Microsoft Copilot (Microsoft 365) can now connect to Smartsheet so users can work with collaborative projects and tasks through a Copilot connector.
+
+  **Details:** 
+
+  **What changed:** A new Copilot connector allows Microsoft 365 Copilot to access project and task information stored in Smartsheet.
+
+  **Why:** Many teams manage collaborative projects in Smartsheet and want Copilot to reference that information without switching tools.
+
+  **Try this:**
+
+  - Configure the Smartsheet Copilot connector for your organization.
+  - Ask Copilot to find, summarize, or reference projects and tasks stored in Smartsheet.
+
+  **Why this matters:**
+
+  **Business impact:** Enables teams to work with Smartsheet project data directly in Copilot workflows, improving visibility and coordination.
+
+  **Personal impact:** Helps individuals understand project status and tasks more quickly using Copilot.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Smartsheet Sheet Microsoft 365 Copilot connector overview](/microsoftsearch/smartsheet-sheet-overview)
+
+
+- **Faster connector authentication setup for Gong, GitHub, and Monday** [Web]
+
+  Admins can now set up authentication for Gong, GitHub, and Monday connectors using a simplified, faster OAuth experience.
+
+  **Details:**
+
+  **What changed:**
+  The connector setup flow now uses a streamlined OAuth process that replaces lengthy manual steps. Admins can complete authentication in minutes instead of hours.
+
+  **Why:**
+  This update reduces friction for IT teams and aligns connector setup with modern authentication standards.
+
+  **Try this:**
+  - Open the Microsoft 365 admin center and start configuring one of the supported connectors.
+  - Follow the guided OAuth prompts to complete authentication.
+  - Review your connector list to confirm the setup is complete.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces setup time and administrative overhead for connector deployment.
+
+  **Personal impact:** Makes it easier for admins to configure connectors confidently and quickly.
+
+
+
+
+## March 10, 2026
+Updates released between February 24, 2026, March 10, 2026
+
+### Microsoft 365 Copilot Chat
+- **Expanded AI skill inferencing for E3 and E5 users** [Windows, Web]
+
+  This update expands AI‑powered skill inferencing to Microsoft 365 E3 and E5 users, helping organizations keep user profiles more accurate and up to date.
+
+  **Roadmap ID**: [548643](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=548643)
+
+  **Details:**
+
+  **What changed:** AI‑powered skill inferencing, previously available only to Microsoft 365 Copilot and Microsoft Viva licensed users, can now be enabled for Microsoft 365 E3 and E5 users. Admins can turn this capability on directly in the Microsoft 365 admin center. When enabled, AI automatically identifies and updates skills on users’ Microsoft 365 profiles based on work activity from the Microsoft Graph. This control is available to tenants with Copilot licenses.
+
+  **Why:** Organizations asked for broader access to AI‑powered skill updates so they could maintain more complete and accurate user profiles across their workforce. Expanding this capability helps teams surface expertise more easily and improves profile data quality. 
+
+  **Try this:**
+
+  - Open the Microsoft 365 admin center and review the People Skills settings.  
+  - Turn on AI‑powered skill inferencing for Microsoft 365 E3 or E5 users.  
+  - Inform users that their profiles may begin updating automatically based on their work activity.
+
+  **Why this matters:**
+
+  **Business impact:** Improves organizational visibility into employee skills, making it easier to identify expertise and support workforce planning.  
+
+  **Personal impact:** Helps users keep their profiles current without manual updates, making their expertise easier for colleagues to discover.
+
+  **Additional resources:** 
+
+  **Learn:**
+
+  [Manage your skills library in People Skills](/copilot/microsoft-365/people-skills-manage-skills-library)
+
+- **Chat History filtering experience refresh**
+
+  This update refreshes the Chat History filtering experience to make it easier to find past conversations and clear filters when needed.
+
+  **Roadmap ID:** [543423](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=543423)
+
+  **Details:**
+
+  **What changed:** The filtering interface on the Chat History landing page has been simplified to help users locate conversations more quickly. The updated design makes filters easier to apply and provides a clearer way to remove them, reducing the chance of getting stuck in a filtered view.
+
+  **Why:** Users asked for a more intuitive filtering experience so they could navigate their chat history with less effort and avoid confusion when filters were active.
+
+  **Try this:**
+
+  - Open the Chat History page and apply a filter to narrow your results.
+  - Select the clear option to remove all filters and return to the full list.
+  - Switch between filter types to see how the simplified layout improves navigation.
+
+  **Why this matters:**
+
+  **Business impact:** Helps teams retrieve past conversations faster, improving productivity and reducing time spent searching for information.  
+
+  **Personal impact:** Makes it easier for individuals to manage and revisit their own chat history.
+
+- **Explainable AI with deep and inline citations for connectors**
+
+  Microsoft Copilot introduces an explainable AI experience that shows how responses from connected data sources are generated by using inline and deep citations.
+
+  **Details:**
+
+  **What changed:** Copilot now provides inline citations for connector-based results, with a hover experience that displays a glance card summarizing the cited entity, and a deep citation view available when users select the citation for more detail.
+
+  **Why:** Users want clearer insight into how Copilot-generated results are created, especially when responses are based on external or connected data sources. This update improves transparency by explaining the origin of information through richer citation details.
+
+  **Try this:**
+
+  - Hover over an inline citation in a Copilot response to view a summary of the referenced entity.
+  - Select the citation to open a detailed view that explains how the result was generated.
+
+  **Why this matters:**
+
+  **Business impact:** Improves trust and confidence in Copilot responses by making data sources and reasoning more transparent for teams using connected systems.
+
+  **Personal impact:** Helps individuals better understand and validate Copilot results by clearly showing where information comes from and how it was used.
+
+- **Summarize and explain PDFs with Copilot in Microsoft Edge** [Web]
+
+  Microsoft Edge expands its built‑in PDF reader with new Copilot actions that help you quickly summarize or explain PDF content directly in the browser. 
+
+  **Roadmap ID:** [498641](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=498641)
+
+  **Details:**
+
+  **What changed:** The existing Ask Copilot experience in the Microsoft Edge PDF reader now includes two additional actions—Summarize and Explain—that let you generate a concise overview or simplify complex sections of a PDF or selected content. These actions follow the same enterprise controls and policies already applied to Copilot in Edge.
+
+  **Why:** Reviewing long or complex PDFs often requires extra time and context switching. This update makes it easier to understand key points or technical language without leaving the PDF reader or copying content into another tool. 
+
+  **Try this:**
+
+  - Open a PDF in Microsoft Edge and select Summarize to get a quick overview of the document.
+  - Select a paragraph or section and choose Explain to simplify complex language or concepts. 
+
+  **Why this matters:**
+
+  **Business impact:** Helps teams review documents faster and stay within existing enterprise controls while using Copilot in Edge. 
+
+  **Personal impact:** Makes it easier to understand lengthy or technical PDFs without interrupting your workflow.
+
+- **Ask Copilot directly from the Microsoft Edge address bar** [Web]
+
+  Microsoft Edge lets users send a search query from the address bar directly to Copilot to receive a synthesized, more targeted answer.
+
+  **Roadmap ID:** [493287](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=493287) 
+
+  **Details:**
+
+  **What changed:** When users type a search query in the Microsoft Edge address bar, they can choose to ask Copilot instead of running a standard search, enabling Copilot to generate a focused response based on web content and, for eligible users, work content.
+
+  **Why:** Switching between search results and separate AI tools can interrupt workflow. This update allows users to move from intent to answer in one step, directly from the address bar.
+
+  **Try this:**
+
+  - Type a question or topic in the Edge address bar and select Ask Copilot.
+  - Use Copilot’s response to quickly understand a topic before refining or acting on the result.
+
+  **Why this matters:**
+
+  **Business impact:** Helps teams find relevant information faster by combining search and AI responses in a single, policy‑governed experience within Microsoft Edge.
+
+  **Personal impact:** Reduces time spent scanning search results by delivering clearer, synthesized answers directly from the address bar.
+
+- **Scope Copilot Chat prompts to Teams channels with Context IQ** [Web]
+
+  You can now search for and select Microsoft Teams channels in Context IQ to ground Copilot Chat prompts in the conversations and content that matter most.
+
+  **Roadmap ID:** [429645](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=429645)
+
+  **Details:**
+
+  **What changed:** Context IQ now allows you to search for and select Microsoft Teams channels when creating prompts in Copilot Chat, so responses are grounded in a specific channel instead of across all Teams content.
+
+  **Why:** Users asked for more precise ways to focus Copilot Chat on relevant team conversations and reduce noise from unrelated channels.
+
+  **Try this:**
+
+  - Open Copilot Chat and start a new prompt.
+  - Use the Context IQ menu to search for and select a Teams channel.
+  - Ask a question to get responses grounded in that channel’s conversations.
+
+  **Why this matters:**
+
+  **Business impact:** Improves response relevance and reduces time spent searching across multiple Teams channels.
+
+  **Personal impact:** Makes it easier to get accurate, channel-specific answers without manual filtering.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot and Copilot Chat](https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0)
+
+### Microsoft 365 Copilot extensibility
+
+  - **Connect Copilot with Shortcut to manage agile development workflows** [Web]
+
+    Users can connect Microsoft 365 Copilot with Shortcut to manage agile development workflows using the Copilot Connector. 
+
+    **Roadmap ID:** [515178](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515178)
+
+    **Details:** 
+
+    **What changed:** Users can now integrate Shortcut as a data source for Microsoft 365 Copilot. This enables Copilot to retrieve, summarize, and assist with agile development tasks directly from Shortcut project data. 
+
+    **Why:** Teams using Shortcut for product and engineering work can now bring their workflow data into Copilot to streamline task updates and planning. -- incorrect. find new.
+
+    **Try this:** 
+
+    - Open Copilot and ask for a summary of active Shortcut stories. 
+    - Request an overview of recent team progress pulled from Shortcut.
+    - Use Copilot to identify blockers based on Shortcut task data. 
+
+    **Why this matters:** 
+
+    **Business impact:** Helps teams maintain visibility into engineering work without switching tools. 
+
+    **Personal impact:** Makes daily task reviews faster and easier.
+
+- **Connect Copilot to Amazon S3 document repositories** [Web]
+
+  Users can connect Microsoft 365 Copilot to Amazon S3 so Copilot can access structured document repositories through a Copilot connector.
+
+  **Roadmap ID:** [513285](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513285)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot can now connect to Amazon S3 using a Copilot connector, which makes structured documents stored in S3 available in Copilot experiences.
+
+  **Why:** Many organizations store important documents in Amazon S3 and want Copilot to reference that content without moving or duplicating data.
+
+  **Try this:**
+
+  - Configure the Amazon S3 Copilot connector for your organization.
+  - Ask Copilot to find or summarize documents stored in connected Amazon S3 repositories.
+
+  **Why this matters:**
+
+  **Business impact:** Enables teams to access Amazon S3 content directly in Copilot workflows, reducing context switching and manual searches.
+
+  **Personal impact:** Helps individuals find and reference documents stored in Amazon S3 more quickly using natural language.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Deploy the Amazon S3 Copilot connector](/microsoftsearch/amazon-s3-deployment)
+
+ ### Excel
+
+  - **Edit with Copilot in Excel to enhance your productivity (formerly Agent Mode)** [Windows, Web, Mac]
+
+    Edit with Copilot in Excel to build and change workbooks, using Excel tools like tables, charts, PivotTables, and formulas to complete complex data tasks faster.
+
+
+    **Roadmap IDs:** [542182](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=542182), [527835](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=527835) 
+
+    **Details:**
+
+    **What changed:** A new option is available in Copilot in Excel that enables you to edit your workbook through chat. You can use Copilot as an assistant to create and make changes by describing what you want to do through chat. 
+
+    **Why:** This change reduces the need to switch between manual steps and back-and-forth requests, which can help you move through data modeling and analysis with less effort.
+
+    **Try this:**
+
+    - Open Copilot chat in Excel and see "Let's edit together" welcome message.
+    - If you don't see the message, then go to the tools menu and select "Edit with Copilot".
+    - Describe what you'd like to do in the chat. For example, "Build an expense tracking template, then add formulas for variance calculations."
+
+    **Business impact:** Helps teams complete complex models and reports faster by reducing manual steps in Excel workflows.
+
+    **Personal impact:** Saves you time by letting Copilot perform multi-step workbook updates while you stay focused on insights.
+
+### PowerPoint
+
+- **Edit images in PowerPoint with Designer Editor** [Mac]
+
+  PowerPoint now includes the Designer Editor for image editing, giving you a modern, intuitive way to refine images directly on your slides without leaving PowerPoint.
+
+  **Details:**
+
+  **What changed:** You can now use PowerPoint’s new AI-powered image editing capabilities to perform tasks such as improving image resolution, removing backgrounds, and moving image elements with generative AI—all directly within your presentation. 
+
+  **Why:** Creating polished slides often requires quick image adjustments, and switching tools slows down the workflow. This change keeps image editing within PowerPoint so you can stay focused on your presentation. 
+
+  **Try this:**
+
+  - Select an image on a slide and open the Designer Editor to refine visuals directly in PowerPoint. 
+  - Remove distracting backgrounds from photos before placing them into layouts.
+  - Add text annotations with cool text effects.
+
+  **Why this matters:**
+
+  **Business impact:** Helps teams create more polished presentations faster by reducing the need to switch tools for image editing.
+
+  **Personal impact:** Makes it easier to enhance slide visuals quickly, helping your presentations look more professional with less effort.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Edit pictures](https://support.microsoft.com/office/edit-pictures-1d4bf84a-ab8b-4b3e-be78-78b0ed9f4ede)
+
+
 ## February 24, 2026
 Updates released between February 10, 2026, February 24, 2026
 ### Microsoft 365 Copilot extensibility
@@ -40,7 +725,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can connect Microsoft 365 Copilot with Monday.com to track work and team progress using the Copilot Connector. 
 
-  **Roadmap ID:** [515177](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515177)
+  **Roadmap ID:** [515177](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515177)
 
   **Details:**
 
@@ -158,7 +843,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   IT admins can customize filters for data sources in Copilot Search without additional development work. 
 
-  **Roadmap ID:** [502534](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502534 ) 
+  **Roadmap ID:** [502534](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502534 ) 
 
   **Detailes:** 
 
@@ -270,7 +955,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+  **Roadmap ID:** [516565](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -299,7 +984,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [513422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513422)
 
   **Details:** 
 
@@ -324,7 +1009,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
 
-  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+  **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
   **Detailes:** 
 
@@ -467,7 +1152,7 @@ Updates released between January 27, 2026, February 10, 2026.
 
     The ServiceNow Tickets Copilot connector updates ticket status more frequently by ingesting both active and inactive tickets.
 
-    **Roadmap ID:** [505437](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=505437)
+    **Roadmap ID:** [505437](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=505437)
 
     **Details:**
 
@@ -498,7 +1183,7 @@ Updates released between January 27, 2026, February 10, 2026.
 
   Connect Microsoft 365 Copilot to Miro with Copilot connectors so you can query visual boards and diagrams in Copilot.
 
-    **Roadmap ID:** [515166](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515166)
+    **Roadmap ID:** [515166](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515166)
 
     **Details:**
 
@@ -617,7 +1302,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Details:**
 
-    **What changed:** Previously, the Copilot icon always appeared in the toolbar. Users can now hide or show the icon, and admins can manage visibility using the ""Microsoft365CopilotChatIconEnabled policy.""
+    **What changed:** Previously, the Copilot icon always appeared in the toolbar. Users can now hide or show the icon, and admins can manage visibility using the "Microsoft365CopilotChatIconEnabled policy."
 
     **Why:** This change gives users and IT admins more flexibility in managing the Edge interface and Copilot availability.
 
@@ -5645,6 +6330,126 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Windows](#tab/win)
 
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+
+### Microsoft 365 Copilot app
+
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
+
+## March 10, 2026
+Updates released between February 24, 2026, and March 10, 2026.
+
+### Microsoft 365 Copilot Chat
+
+- **Expanded AI skill inferencing for E3 and E5 users** [Windows, Web]
+
+  This update expands AI‑powered skill inferencing to Microsoft 365 E3 and E5 users, helping organizations keep user profiles more accurate and up to date.
+
+  **Roadmap ID**: [548643](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=548643)
+
+  **Details:**
+
+  **What changed:** AI‑powered skill inferencing, previously available only to Microsoft 365 Copilot and Microsoft Viva licensed users, can now be enabled for Microsoft 365 E3 and E5 users. Admins can turn this capability on directly in the Microsoft 365 admin center. When enabled, AI automatically identifies and updates skills on users’ Microsoft 365 profiles based on work activity from the Microsoft Graph. This control is available to tenants with Copilot licenses.
+
+  **Why:** Organizations asked for broader access to AI‑powered skill updates so they could maintain more complete and accurate user profiles across their workforce. Expanding this capability helps teams surface expertise more easily and improves profile data quality. 
+
+  **Try this:**
+
+  - Open the Microsoft 365 admin center and review the People Skills settings.  
+  - Turn on AI‑powered skill inferencing for Microsoft 365 E3 or E5 users.  
+  - Inform users that their profiles may begin updating automatically based on their work activity.
+
+  **Why this matters:**
+
+  **Business impact:** Improves organizational visibility into employee skills, making it easier to identify expertise and support workforce planning.  
+
+  **Personal impact:** Helps users keep their profiles current without manual updates, making their expertise easier for colleagues to discover.
+
+  **Additional resources:** 
+
+  **Learn:**
+
+  [Manage your skills library in People Skills](/copilot/microsoft-365/people-skills-manage-skills-library)
+
+ ### Excel
+
+  - **Edit with Copilot in Excel to enhance your productivity (formerly Agent Mode)** [Windows, Web, Mac]
+
+    Edit with Copilot in Excel to build and change workbooks, using Excel tools like tables, charts, PivotTables, and formulas to complete complex data tasks faster.
+
+
+    **Roadmap IDs:** [542182](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=542182), [527835](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=527835) 
+
+    **Details:**
+
+    **What changed:** A new option is available in Copilot in Excel that enables you to edit your workbook through chat. You can use Copilot as an assistant to create and make changes by describing what you want to do through chat. 
+
+    **Why:** This change reduces the need to switch between manual steps and back-and-forth requests, which can help you move through data modeling and analysis with less effort.
+
+    **Try this:**
+
+    - Open Copilot chat in Excel and see "Let's edit together" welcome message.
+    - If you don't see the message, then go to the tools menu and select "Edit with Copilot".
+    - Describe what you'd like to do in the chat. For example, "Build an expense tracking template, then add formulas for variance calculations."
+
+    **Business impact:** Helps teams complete complex models and reports faster by reducing manual steps in Excel workflows.
+
+    **Personal impact:** Saves you time by letting Copilot perform multi-step workbook updates while you stay focused on insights.
+
 ## February 24, 2026
 Updates released between February 10, 2026, and February 24, 2026.
 
@@ -5681,7 +6486,7 @@ Updates released between February 10, 2026, and February 24, 2026.
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+  **Roadmap ID:** [516565](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -5710,7 +6515,7 @@ Updates released between February 10, 2026, and February 24, 2026.
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [513422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513422)
 
   **Details:** 
 
@@ -5737,7 +6542,7 @@ Updates released between February 10, 2026, and February 24, 2026.
 
   The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
 
-  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+  **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
   **Detailes:** 
 
@@ -8166,6 +8971,598 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Web](#tab/Web)
 
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+
+### Microsoft 365 Copilot app
+
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Summarize and Explain actions in PDF reader** [Web]
+
+  Two new Copilot actions—Summarize and Explain—are now available in the Microsoft Edge PDF reader to help users understand content faster.
+
+  **Roadmap ID:** [498641](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=498641)
+
+
+  **Details:**
+
+  **What changed:** The built in PDF reader now includes Summarize and Explain options alongside the existing Ask Copilot integration. Users can generate overviews or simplify complex text directly within the PDF experience.
+
+  **Why:** These additions help users quickly interpret long or complex documents without leaving the PDF reader.
+
+
+  **Try this:**
+
+  - Open a PDF in Microsoft Edge and select Summarize to get a concise overview.
+  - Highlight a section of text and choose Explain to simplify technical or dense content.
+  - Use these actions to prepare for meetings or review documents more efficiently.
+
+  **Why this matters:**
+
+  **Business impact:** Improves document review workflows and reduces time spent interpreting complex PDFs.
+
+  **Personal impact:** Helps users understand information more quickly and with less effort.
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
+
+### Microsoft 365 Copilot extensibility
+- **Query Coda docs and wikis with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Coda with Copilot connectors so you can query collaborative documents and wikis from Copilot. 
+
+  **Roadmap ID:** [515165](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515165)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports a Coda Enterprise Copilot connector that can index Coda documents and pages for use in Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps people find knowledge stored in Coda without leaving Microsoft 365. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Coda with a Copilot connector.
+  - Ask Copilot to summarize content in a Coda workspace.
+  - Ask Copilot to retrieve the URL for a specific Coda document.
+
+  **Why this matters:**
+
+  **Business impact:** Improves knowledge discovery by making Coda content available in Microsoft 365 Copilot and Microsoft Search. 
+
+
+  **Personal impact:** Makes it easier to get answers from Coda docs and wikis using natural language.
+
+- **Query Bitbucket pull requests with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Bitbucket with Copilot connectors so you can query pull requests and related engineering context.
+
+  **Roadmap ID:** [515163](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515163)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports a Bitbucket Pull Request Copilot connector that brings pull request information into Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps teams find pull request details through Microsoft 365 tools they already use.
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Bitbucket with a Copilot connector. 
+  - Ask Copilot to find pull requests related to a repository or feature. 
+  - Ask Copilot to summarize the discussion and status of a pull request.
+
+  **Why this matters:**
+
+  **Business impact:** Surfaces pull request context in Microsoft 365 Copilot to speed up collaboration and reviews. 
+
+  **Personal impact:** Makes it easier to understand a pull request without switching apps.
+
+
+
+- **Copilot Chat recommends installed agents** [Windows, Web]
+
+  Copilot Chat now recommends relevant installed agents when it detects a match with the user’s intent.
+
+  **Details:**
+
+  **What changed:** When a user’s prompt aligns with the capabilities of an installed agent, Copilot Chat will suggest that agent directly in the conversation. Previously, users had to know which agent to invoke.
+
+  **Why:** This helps users discover and use the right agent at the right time, improving task completion and reducing friction.
+
+  **Try this:**
+
+  - Ask Copilot Chat to perform a task that aligns with one of your installed agents.
+  - Select the recommended agent when it appears in the chat.
+  - Continue the conversation using the agent’s specialized capabilities.
+
+  **Why this matters:**
+
+  **Business impact:** Increases utilization of installed agents and improves workflow efficiency.
+
+  **Personal impact:** Makes it easier to find the right tool without remembering agent names.
+
+
+
+
+
+
+
+
+
+- **Connect Copilot with Zendesk Help Center to retrieve support articles** [Web] 
+
+  Users can connect Microsoft 365 Copilot with Zendesk Help Center to retrieve support articles and FAQs using the Copilot Connector.
+
+  **Roadmap ID:** [513279]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513279)
+
+  **Details:**
+
+  **What changed:** Copilot can now search and summarize content from Zendesk Help Center, including help articles, troubleshooting steps, and FAQs.
+
+  **Why:** This integration helps support teams get faster access to the information they need to resolve issues.
+
+  **Try this:**
+
+  -	Ask Copilot to summarize a Zendesk article related to an open issue.
+  -	Retrieve common FAQs from Zendesk.
+  -	Request recommended troubleshooting steps from Zendesk content.
+
+  **Why this matters:**
+
+  **Business impact:** Speeds up support workflows and improves response quality.
+
+  **Personal impact:** Helps support agents resolve customer issues faster.
+
+  ****Additional resources:****
+
+  **Learn:**
+
+  [Zendesk Help Center Microsoft 365 Copilot connector overview](/microsoftsearch/zendesk-help-center-overview)
+
+
+
+- **Query GitLab merge requests and content with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to GitLab with Copilot connectors so you can query merge requests and related repository activity. 
+
+  Roadmap ID: [515162](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515162)
+
+  **Details:**
+
+  **What changed:**
+  Microsoft 365 Copilot now supports GitLab merge request connectors, making merge request information discoverable and retrievable in Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:**
+  This change reduces context switching by bringing merge request information into Microsoft 365 workflows.
+
+  **Try this:**
+
+  -	Connect Microsoft 365 Copilot to GitLab with a Copilot connector. 
+  -	Ask Copilot to list open merge requests waiting for review. 
+  -	Ask Copilot to summarize merge requests targeting a release branch. 
+
+  **Why this matters:**
+
+  **Business impact:** Improves visibility into engineering work by bringing merge request context into Microsoft 365 experiences. 
+
+  **Personal impact:** Helps you find and summarize merge requests faster using natural language.
+
+
+
+
+
+- **Track GitLab issues in Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to GitLab Issues with Copilot connectors so you can query engineering tasks and bugs from Copilot. 
+
+  **Roadmap ID:** [515158](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515158)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports GitLab Issues connectors that can index issue data and make it available in Microsoft 365 Copilot and Microsoft Search.
+
+  **Why:** This change helps teams retrieve issue details, assignments, and context without leaving Microsoft 365 workflows. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to GitLab Issues with a Copilot connector.
+  - Ask Copilot to summarize high-priority issues for a release milestone.
+  - Ask Copilot to list blocked issues and their owners.
+
+  **Why this matters:**
+
+  **Business impact:** Improves visibility into work tracking by surfacing GitLab issues in Microsoft 365 Copilot.  
+
+  **Personal impact:** Makes it easier to find issue context and stay on top of tasks using natural language.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [GitLab Issues Server Microsoft 365 Copilot connector overview](/microsoftsearch/gitlab-issues-server-overview)
+
+
+
+- **Bring Asana tasks into Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to Asana with a Copilot connector so you can query projects and tasks from within Microsoft 365.
+
+  **Roadmap ID:** [515175](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515175)
+
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports an Asana Copilot connector that can index Asana tasks for use in Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:** This change helps people access project and task information in the flow of work. 
+
+  **Try this:**
+
+  -	Connect Microsoft 365 Copilot to Asana with a Copilot connector. 
+  -	Ask Copilot to summarize tasks and deadlines across projects. 
+  -	Ask Copilot to list overdue tasks in a project.
+
+  **Why this matters:**
+
+  **Business impact:** Improves project tracking by bringing Asana task data into Microsoft 365 Copilot and search experiences. 
+
+  **Personal impact:** Helps you stay on top of tasks without switching tools.
+
+  ****Additional resources:****
+
+  **Learn:**
+
+
+  [Asana Microsoft 365 Copilot connector overview](/microsoftsearch/asana-overview)
+
+
+
+- **Connect Copilot with Egnyte for secure file collaboration** [Web]
+
+  Users can connect Microsoft 365 Copilot with Egnyte to collaborate on secure file storage using the Copilot Connector.
+
+  **Roadmap ID:** [513283]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513283)
+
+  **Details:**
+
+  **What changed:** Copilot can now access files stored in Egnyte, allowing users to retrieve, summarize, and interact with content without manually opening those files.
+
+  **Why:** This integration supports organizations that rely on Egnyte for secure file storage and governance.
+
+  **Try this:**
+
+  -	Ask Copilot to summarize a document stored in Egnyte.
+  -	Retrieve key insights from Egnyte folders.
+  -	Request a list of recent Egnyte updates relevant to your team.
+
+  **Why this matters:**
+
+  **Business impact:** Supports secure and compliant integration with existing file storage systems.
+
+  **Personal impact:** Helps users quickly access and understand stored content.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Egnyte Microsoft 365 Copilot connector overview](/microsoftsearch/egnyte-overview)
+
+- **Search Aha! features and ideas in Copilot with a connector** [Web]
+
+  Connect Microsoft 365 Copilot to Aha! with Copilot connectors so you can query product features and customer ideas in Copilot.
+
+  **Roadmap ID:** [515159](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515159)
+
+  **Details:**
+
+  **What changed:** Microsoft 365 Copilot now supports an Aha! Copilot connector that can index Aha! features and ideas and make them discoverable through Microsoft 365 Copilot and Microsoft Search. 
+
+  **Why:** This change helps product and engineering teams find roadmap and feedback context in Microsoft 365 workflows. 
+
+  **Try this:**
+
+  - Connect Microsoft 365 Copilot to Aha! with a Copilot connector.
+  - Ask Copilot to list features assigned to you in Aha!. 
+  - Ask Copilot to show ideas with the highest number of votes. 
+
+  **Why this matters:**
+
+  **Business impact:** Improves cross-team alignment by making Aha! roadmap and feedback content easier to find in Microsoft 365. 
+
+  **Personal impact:** Helps you answer product questions faster without leaving Microsoft 365.
+
+
+
+
+- **Connect Copilot to Smartsheet for project and task management** [Web]
+
+  Microsoft Copilot (Microsoft 365) can now connect to Smartsheet so users can work with collaborative projects and tasks through a Copilot connector.
+
+  **Details:** 
+
+  **What changed:** A new Copilot connector allows Microsoft 365 Copilot to access project and task information stored in Smartsheet.
+
+  **Why:** Many teams manage collaborative projects in Smartsheet and want Copilot to reference that information without switching tools.
+
+  **Try this:**
+
+  - Configure the Smartsheet Copilot connector for your organization.
+  - Ask Copilot to find, summarize, or reference projects and tasks stored in Smartsheet.
+
+  **Why this matters:**
+
+  **Business impact:** Enables teams to work with Smartsheet project data directly in Copilot workflows, improving visibility and coordination.
+
+  **Personal impact:** Helps individuals understand project status and tasks more quickly using Copilot.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Smartsheet Sheet Microsoft 365 Copilot connector overview](/microsoftsearch/smartsheet-sheet-overview)
+
+
+- **Faster connector authentication setup for Gong, GitHub, and Monday** [Web]
+
+  Admins can now set up authentication for Gong, GitHub, and Monday connectors using a simplified, faster OAuth experience.
+
+  **Details:**
+
+  **What changed:**
+  The connector setup flow now uses a streamlined OAuth process that replaces lengthy manual steps. Admins can complete authentication in minutes instead of hours.
+
+  **Why:**
+  This update reduces friction for IT teams and aligns connector setup with modern authentication standards.
+
+  **Try this:**
+  - Open the Microsoft 365 admin center and start configuring one of the supported connectors.
+  - Follow the guided OAuth prompts to complete authentication.
+  - Review your connector list to confirm the setup is complete.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces setup time and administrative overhead for connector deployment.
+
+  **Personal impact:** Makes it easier for admins to configure connectors confidently and quickly.
+
+## March 10, 2026
+Updates released between February 24, 2026, March 10, 2026
+
+### Microsoft 365 Copilot Chat
+- **Expanded AI skill inferencing for E3 and E5 users** [Windows, Web]
+
+  This update expands AI‑powered skill inferencing to Microsoft 365 E3 and E5 users, helping organizations keep user profiles more accurate and up to date.
+
+  **Roadmap ID**: [548643](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=548643)
+
+  **Details:**
+
+  **What changed:** AI‑powered skill inferencing, previously available only to Microsoft 365 Copilot and Microsoft Viva licensed users, can now be enabled for Microsoft 365 E3 and E5 users. Admins can turn this capability on directly in the Microsoft 365 admin center. When enabled, AI automatically identifies and updates skills on users’ Microsoft 365 profiles based on work activity from the Microsoft Graph. This control is available to tenants with Copilot licenses.
+
+  **Why:** Organizations asked for broader access to AI‑powered skill updates so they could maintain more complete and accurate user profiles across their workforce. Expanding this capability helps teams surface expertise more easily and improves profile data quality. 
+
+  **Try this:**
+
+  - Open the Microsoft 365 admin center and review the People Skills settings.  
+  - Turn on AI‑powered skill inferencing for Microsoft 365 E3 or E5 users.  
+  - Inform users that their profiles may begin updating automatically based on their work activity.
+
+  **Why this matters:**
+
+  **Business impact:** Improves organizational visibility into employee skills, making it easier to identify expertise and support workforce planning.  
+
+  **Personal impact:** Helps users keep their profiles current without manual updates, making their expertise easier for colleagues to discover.
+
+  **Additional resources:** 
+
+  **Learn:**
+
+  [Manage your skills library in People Skills](/copilot/microsoft-365/people-skills-manage-skills-library)
+
+ - **Summarize and explain PDFs with Copilot in Microsoft Edge** [Web]
+
+    Microsoft Edge expands its built‑in PDF reader with new Copilot actions that help you quickly summarize or explain PDF content directly in the browser. 
+
+    **Roadmap ID:** [498641](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=498641)
+
+    **Details:**
+
+    **What changed:** The existing Ask Copilot experience in the Microsoft Edge PDF reader now includes two additional actions—Summarize and Explain—that let you generate a concise overview or simplify complex sections of a PDF or selected content. These actions follow the same enterprise controls and policies already applied to Copilot in Edge.
+
+    **Why:** Reviewing long or complex PDFs often requires extra time and context switching. This update makes it easier to understand key points or technical language without leaving the PDF reader or copying content into another tool. 
+
+    **Try this:**
+
+    - Open a PDF in Microsoft Edge and select Summarize to get a quick overview of the document.
+    - Select a paragraph or section and choose Explain to simplify complex language or concepts. 
+
+    **Why this matters:**
+
+    **Business impact:** Helps teams review documents faster and stay within existing enterprise controls while using Copilot in Edge. 
+
+    **Personal impact:** Makes it easier to understand lengthy or technical PDFs without interrupting your workflow.
+  
+  - **Ask Copilot directly from the Microsoft Edge address bar** [Web]
+
+    Microsoft Edge lets users send a search query from the address bar directly to Copilot to receive a synthesized, more targeted answer.
+
+    **Roadmap ID:** [493287](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=493287) 
+
+    **Details:**
+
+    **What changed:** When users type a search query in the Microsoft Edge address bar, they can choose to ask Copilot instead of running a standard search, enabling Copilot to generate a focused response based on web content and, for eligible users, work content.
+
+    **Why:** Switching between search results and separate AI tools can interrupt workflow. This update allows users to move from intent to answer in one step, directly from the address bar.
+
+    **Try this:**
+
+    - Type a question or topic in the Edge address bar and select Ask Copilot.
+    - Use Copilot’s response to quickly understand a topic before refining or acting on the result.
+
+    **Why this matters:**
+
+    **Business impact:** Helps teams find relevant information faster by combining search and AI responses in a single, policy‑governed experience within Microsoft Edge.
+
+    **Personal impact:** Reduces time spent scanning search results by delivering clearer, synthesized answers directly from the address bar.
+
+- **Scope Copilot Chat prompts to Teams channels with Context IQ** [Web]
+
+  You can now search for and select Microsoft Teams channels in Context IQ to ground Copilot Chat prompts in the conversations and content that matter most.
+
+  **Roadmap ID:** [429645](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=429645)
+
+  **Details:**
+
+  **What changed:** Context IQ now allows you to search for and select Microsoft Teams channels when creating prompts in Copilot Chat, so responses are grounded in a specific channel instead of across all Teams content.
+
+  **Why:** Users asked for more precise ways to focus Copilot Chat on relevant team conversations and reduce noise from unrelated channels.
+
+  **Try this:**
+
+  - Open Copilot Chat and start a new prompt.
+  - Use the Context IQ menu to search for and select a Teams channel.
+  - Ask a question to get responses grounded in that channel’s conversations.
+
+  **Why this matters:**
+
+  **Business impact:** Improves response relevance and reduces time spent searching across multiple Teams channels.
+
+  **Personal impact:** Makes it easier to get accurate, channel-specific answers without manual filtering.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Using Context IQ to refer to specific files, people, and more in Microsoft 365 Copilot and Copilot Chat](https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0)"
+
+### Microsoft 365 Copilot extensibility
+
+- **Connect Copilot with Shortcut to manage agile development workflows** [Web]
+
+  Users can connect Microsoft 365 Copilot with Shortcut to manage agile development workflows using the Copilot Connector. 
+  
+  **Roadmap ID:** [515178](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515178)
+  
+  **Details:** 
+  
+  **What changed:** Users can now integrate Shortcut as a data source for Microsoft 365 Copilot. This enables Copilot to retrieve, summarize, and assist with agile development tasks directly from Shortcut project data. 
+  
+  **Why:** Teams using Shortcut for product and engineering work can now bring their workflow data into Copilot to streamline task updates and planning. -- incorrect. find new.
+  
+  **Try this:** 
+  
+  - Open Copilot and ask for a summary of active Shortcut stories. 
+  - Request an overview of recent team progress pulled from Shortcut.
+  - Use Copilot to identify blockers based on Shortcut task data. 
+  
+  **Why this matters:** 
+  
+  **Business impact:** Helps teams maintain visibility into engineering work without switching tools. 
+  
+  **Personal impact:** Makes daily task reviews faster and easier.
+
+- **Connect Copilot to Amazon S3 document repositories** [Web]
+
+  Users can connect Microsoft 365 Copilot to Amazon S3 so Copilot can access structured document repositories through a Copilot connector.
+  
+  **Roadmap ID:** [513285](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513285)
+  
+  **Details:**
+  
+  **What changed:** Microsoft 365 Copilot can now connect to Amazon S3 using a Copilot connector, which makes structured documents stored in S3 available in Copilot experiences.
+  
+  **Why:** Many organizations store important documents in Amazon S3 and want Copilot to reference that content without moving or duplicating data.
+  
+  **Try this:**
+  
+  - Configure the Amazon S3 Copilot connector for your organization.
+  - Ask Copilot to find or summarize documents stored in connected Amazon S3 repositories.
+  
+  **Why this matters:**
+  
+  **Business impact:** Enables teams to access Amazon S3 content directly in Copilot workflows, reducing context switching and manual searches.
+  
+  **Personal impact:** Helps individuals find and reference documents stored in Amazon S3 more quickly using natural language.
+  
+  **Additional resources:**
+  
+  **Learn:**
+  
+  [Deploy the Amazon S3 Copilot connector](/microsoftsearch/amazon-s3-deployment)
+
+### Excel
+
+- **Edit with Copilot in Excel to enhance your productivity (formerly Agent Mode)** [Windows, Web, Mac]
+
+  Edit with Copilot in Excel to build and change workbooks, using Excel tools like tables, charts, PivotTables, and formulas to complete complex data tasks faster.
+  
+  Roadmap IDs:[542182](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=542182), [527835](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=527835) 
+  
+  **Details:**
+  
+  **What changed:** A new option is available in Copilot in Excel that enables you to edit your workbook through chat. You can use Copilot as an assistant to create and make changes by describing what you want to do through chat. 
+  
+  **Why:** This change reduces the need to switch between manual steps and back-and-forth requests, which can help you move through data modeling and analysis with less effort.
+  
+  **Try this:**
+  
+  - Open Copilot chat in Excel and see "Let's edit together" welcome message.
+  - If you don't see the message, then go to the tools menu and select "Edit with Copilot".
+  - Describe what you'd like to do in the chat. For example, "Build an expense tracking template, then add formulas for variance calculations."
+  
+  **Business impact:** Helps teams complete complex models and reports faster by reducing manual steps in Excel workflows.
+  
+  **Personal impact:** Saves you time by letting Copilot perform multi-step workbook updates while you stay focused on insights.
 
 ## February 24, 2026
 Updates released between February 10, 2026, February 24, 2026
@@ -8175,7 +9572,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can connect Microsoft 365 Copilot with Monday.com to track work and team progress using the Copilot Connector. 
 
-  **Roadmap ID:** [515177](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515177)
+  **Roadmap ID:** [515177](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515177)
 
   **Details:**
 
@@ -8293,7 +9690,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   IT admins can customize filters for data sources in Copilot Search without additional development work. 
 
-  **Roadmap ID:** [502534](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502534 ) 
+  **Roadmap ID:** [502534](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502534 ) 
 
   **Detailes:** 
 
@@ -8381,7 +9778,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+  **Roadmap ID:** [516565](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -8410,7 +9807,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [513422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513422)
 
   **Details:** 
 
@@ -8436,7 +9833,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
 
-  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+  **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
   **Detailes:** 
 
@@ -8579,7 +9976,7 @@ Updates released between January 27, 2026, February 10, 2026.
 
     The ServiceNow Tickets Copilot connector updates ticket status more frequently by ingesting both active and inactive tickets.
 
-    **Roadmap ID:** [505437](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=505437)
+    **Roadmap ID:** [505437](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=505437)
 
     **Details:**
 
@@ -8609,7 +10006,7 @@ Updates released between January 27, 2026, February 10, 2026.
 
   Connect Microsoft 365 Copilot to Miro with Copilot connectors so you can query visual boards and diagrams in Copilot.
 
-    **Roadmap ID:** [515166](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515166)
+    **Roadmap ID:** [515166](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515166)
 
     **Details:**
 
@@ -12526,7 +13923,63 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Android](#tab/androidos)
 
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+### Microsoft 365 Copilot app
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
 
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
 
 ## January 27, 2026
 Updates released between January 13, 2025, and January 27, 2026.
@@ -13282,6 +14735,65 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [iOS](#tab/appleios)
 
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+
+### Microsoft 365 Copilot app
+
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
 
 ## January 27, 2026
 Updates released between January 13, 2025, and January 27, 2026.
@@ -14295,12 +15807,130 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Mac](#tab/mac)
 
+## March 24, 2026
+Updates released between March 10, 2026, March 24, 2026
+### Microsoft 365 Copilot app
+- **Scatter image effect** [Android, Windows, iOS, Mac, Web]
+
+  We’re introducing a new Scatter image effect that helps users quickly apply a modern, stylized look to AI‑generated or uploaded images.
+
+
+  **Roadmap ID:** [537288](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=537288)
+
+  **Details:**
+
+  **What changed:** The image editor in Copilot Chat and the Create module now includes a Scatter effect. This effect adds a dynamic, dispersed visual style to images, giving users more creative options than before.
+
+  **Why:** Users asked for more built‑in creative effects to help them produce unique visuals without needing external editing tools.
+
+  **Try this:**
+
+  -	 Generate an image in Chat, click the image to open Editor and apply the Scatter effect to give it a more artistic look.
+  -	Use the Scatter effect in the Create module to enhance visuals for presentations or social posts.
+
+  **Why this matters:**
+
+  **Business impact:** Expands creative capabilities directly within Microsoft 365 workflows, reducing the need for third‑party tools.
+
+  **Personal impact:** Makes it easier to create visually distinctive images with minimal effort.
+
+### Microsoft 365 Copilot Chat
+
+- **Delegate calendar search in Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
+
+
+  **Roadmap ID:** [413718](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=413718)
+
+  Delegates with calendar access can now search for another user’s meetings directly in Copilot Chat.
+
+  **Details:**
+
+  **What changed:** Delegates can use Copilot Chat to search for meetings on behalf of the person whose calendar they manage. Previously, this required manual navigation in Outlook.
+  
+  **Why:** This update streamlines workflows and reduces time spent searching across calendars.
+  
+  **Try this:**
+
+  -	In Copilot Chat, ask for upcoming calendar planning meetings for the person whose calendar you manage.
+  -	Search for specific meeting details, such as attendees or topics
+  **Why this matters:**
+
+  **Business impact:** Improves efficiency for executive assistants and teams with shared calendar planning responsibilities.
+
+  **Personal impact:** Saves time by making calendar searches faster and more intuitive.
+
+  **Additional resources:**
+
+  **Support:**
+
+  [Use Copilot search in calendar items as a delegate]( https://support.microsoft.com/topic/use-copilot-search-in-calendar-items-as-a-delegate-2227730b-4d67-4156-8a1c-dccac8fe6577) 
+
+## March 10, 2026
+Updates released between February 24, 2026, March 10, 2026
+
+### Excel
+
+- **Edit with Copilot in Excel to enhance your productivity (formerly Agent Mode)** [Windows, Web, Mac]
+
+  Edit with Copilot in Excel to build and change workbooks, using Excel tools like tables, charts, PivotTables, and formulas to complete complex data tasks faster.
+  
+  Roadmap IDs:[542182](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=542182), [527835](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=527835) 
+  
+  **Details:**
+  
+  **What changed:** A new option is available in Copilot in Excel that enables you to edit your workbook through chat. You can use Copilot as an assistant to create and make changes by describing what you want to do through chat. 
+  **Why:** This change reduces the need to switch between manual steps and back-and-forth requests, which can help you move through data modeling and analysis with less effort.
+  
+  **Try this:**
+  
+  - Open Copilot chat in Excel and see "Let's edit together" welcome message.
+  - If you don't see the message, then go to the tools menu and select "Edit with Copilot".
+  - Describe what you'd like to do in the chat. For example, "Build an expense tracking template, then add formulas for variance calculations."
+  
+  **Business impact:** Helps teams complete complex models and reports faster by reducing manual steps in Excel workflows.
+  
+  **Personal impact:** Saves you time by letting Copilot perform multi-step workbook updates while you stay focused on insights.
+  
+  ### PowerPoint
+
+- **Edit images in PowerPoint with Designer Editor** [Mac]
+
+    PowerPoint now includes the Designer Editor for image editing, giving you a modern, intuitive way to refine images directly on your slides without leaving PowerPoint.
+  
+    **Details:**
+  
+    **What changed:** You can now use PowerPoint’s new AI-powered image editing capabilities to perform tasks such as improving image resolution, removing backgrounds, and moving image elements with generative AI—all directly within your presentation. 
+  
+    **Why:** Creating polished slides often requires quick image adjustments, and switching tools slows down the workflow. This change keeps image editing within PowerPoint so you can stay focused on your presentation. 
+  
+    **Try this:**
+  
+    - Select an image on a slide and open the Designer Editor to refine visuals directly in PowerPoint. 
+    - Remove distracting backgrounds from photos before placing them into layouts.
+    - Add text annotations with cool text effects.
+  
+    **Why this matters:**
+  
+    **Business impact:** Helps teams create more polished presentations faster by reducing the need to switch tools for image editing.
+  
+    **Personal impact:** Makes it easier to enhance slide visuals quickly, helping your presentations look more professional with less effort.
+  
+    **Additional resources:**
+  
+    **Learn:**
+  
+    [Edit pictures](https://support.microsoft.com/office/edit-pictures-1d4bf84a-ab8b-4b3e-be78-78b0ed9f4ede)
+
+## February 24, 2026
+Updates released between February 10, 2026, February 24, 2026
+
 ### PowerPoint
+
 - **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [513422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513422)
 
   **Details:** 
 
@@ -14325,7 +15955,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+  **Roadmap ID:** [516565](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -14356,7 +15986,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
 
-  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+  **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
   **Detailes:** 
 
@@ -15596,6 +17226,9 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
+
+
 
 
 

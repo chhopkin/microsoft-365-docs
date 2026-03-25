@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Requirements for Loop components and Loop workspaces"
 ms.reviewer: dancost, tonchan
@@ -65,6 +65,14 @@ Users need a license that includes the Loop with workspaces service plan. This c
 ## Exchange Online requirement
 
 For full functionality including @mentions and workspace sharing, users need an Exchange Online mailbox. Users with Exchange On-Premises mailboxes have limited capabilities.
+
+## Relationship to Copilot Pages and Copilot Notebooks
+
+Loop My workspace, Copilot Pages, and Copilot Notebooks use the same user-owned SharePoint Embedded container. These are separate user experiences and separate admin settings, but they share one physical personal container per user.
+
+The single user-owned container is created when a user first needs one of these experiences and at least one of the relevant creation policies allows it. If *Create Loop workspaces in Loop* is disabled but *Create and view Copilot Pages and Copilot Notebooks* is enabled, creating a Copilot Page or Notebook can still create the container. If *Create and view Copilot Pages and Copilot Notebooks* is disabled but *Create Loop workspaces in Loop* is enabled, opening Loop My workspace can still create that same container.
+
+To prevent the single user-owned container from being created, disable both policies for the same user.
 
 ## Related articles
 

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/20/2026
+ms.date: 03/16/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -87,15 +87,15 @@ For Word, Excel, and PowerPoint add-ins, your users must use one of the followin
 
 For Outlook, your users must use one of the following versions:
 
-| Product / Platform | Minimum version required | Add-in in **My add-ins** | Add-in in Outlook ribbon |
-|---|---|---|---|
-| Microsoft 365 Business licenses (Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium), Office 365 Enterprise licenses (E1/E3/E5/F3), or Microsoft 365 for enterprise licenses (E3/E5/F3) | Version 1701 or later | ✅ | |
-| Office Professional Plus 2019 or Office Standard 2019 | Version 1808 or later | ✅ | |
-| Office Professional Plus 2016 (MSI) or Office Standard 2016 (MSI)\* | Version 16.0.4494.1000 or later | | ✅ |
-| Office Professional Plus 2013 (MSI) or Office Standard 2013 (MSI)\* | Version 15.0.4937.1000 or later | | ✅ |
-| Office 2016 for Mac | Version 16.0.9318.1000 or later | ✅ | |
-| Outlook mobile for iOS | Version 2.75.0 or later | ✅ | |
-| Outlook mobile for Android | Version 2.2.145 or later | ✅ | |
+| **Product/Platform** | **Minimum version required**                 | **Add-in in My add-ins** | **Add-in in Outlook ribbon** |
+| -------------------- | -------------------------------------------- | ------------------------ | ---------------------------- |
+| Microsoft 365 Business licenses (Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium), Office 365 Enterprise licenses (E1/E3/E5/F3), or Microsoft 365 for enterprise licenses (E3/E5/F3)           | Version 1701 or later           | ✅ |    |
+| Office Professional Plus 2019 or Office Standard 2019               | Version 1808 or later           | ✅ |    |
+| Office Professional Plus 2016 (MSI) or Office Standard 2016 (MSI)\* | Version 16.0.4494.1000 or later |    | ✅ |
+| Office Professional Plus 2013 (MSI) or Office Standard 2013 (MSI)\* | Version 15.0.4937.1000 or later |    | ✅ |
+| Office 2016 for Mac                                                 | Version 16.0.9318.1000 or later | ✅ |    |
+| Outlook mobile for iOS                                              | Version 2.75.0 or later         | ✅ |    |
+| Outlook mobile for Android                                          | Version 2.2.145 or later        | ✅ |    |
 
 ### Exchange Online requirements
 
@@ -107,7 +107,7 @@ To find out which configuration is in use, check with your organization's Exchan
 
 Use the Exchange admin center (EAC) to assign permissions to users. The following steps detail the permissions required to view and modify deployed add-ins.
 
-1. Sign in to the classic EAC as a global administrator.
+1. Sign in to the classic EAC with an account with appropriate permissions.
 
 1. Go to **Permissions** and then select **User Roles**.
 
@@ -123,9 +123,12 @@ Use the Exchange admin center (EAC) to assign permissions to users. The followin
 >
 > These roles are selected by default.
 
-[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
-
 For more information, see [Manage role groups in Exchange Online](/exchange/permissions-exo/role-groups). For a detailed description of the different roles, see [Role assignment policies in Exchange Online](/exchange/permissions-exo/role-assignment-policies).
+
+### Check the AppsForOfficeEnabled parameter
+If you're deploying Office add-ins and none are showing up, then as a first troubleshooting step, use the `Get-OrganizationConfig | fl AppsForOfficeEnabled` PowerShell command. If the query returns a value of **False**, set this parameter to **True** using the `Set-OrganizationConfig -AppsForOfficeEnabled:$True` command. The add-ins should then appear as expected.
+
+We don't recommend that the **AppsForOfficeEnabled** parameter be set to **False**. A value of **False** overrides all the Administrative and User role settings and prevent any new apps from being activated by any user in the organization.
 
 ### Admin requirements
 
@@ -135,7 +138,7 @@ To deploy an add-in through centralized deployment, you need to be an Exchange a
 >
 > An Exchange admin can deploy an add-in if they add the **Application Administrator** role or set the **App Registrations** property to true in Microsoft Entra admin center, as shown in the following image:
 >
-> :::image type="content" source="../../media/144516704-8874a10d-b540-41f3-ae9d-c07a8d7e143f.png" alt-text="Screenshot of the App Registrations property set to true in the Microsoft Entra admin center.":::
+> :::image type="content" source="../../media/144516704-8874a10d-b540-41f3-ae9d-c07a8d7e143f.png" alt-text="Screenshot of the App Registrations property set to true in the Microsoft Entra admin center." lightbox="../../media/144516704-8874a10d-b540-41f3-ae9d-c07a8d7e143f.png":::
 
 ### Centralized Deployment Compatibility Checker
 
@@ -161,13 +164,11 @@ By using the Centralized Deployment Compatibility Checker, you can verify whethe
    Invoke-CompatibilityCheck
    ```
 
-   This command prompts you for _TenantDomain_ (for example, _TailspinToysIncorporated.onmicrosoft.com_) and _TenantAdmin_ credentials (use your global admin credentials), and then requests consent.
+   This command prompts you for *TenantDomain* (for example, *TailspinToysIncorporated.onmicrosoft.com*) and *TenantAdmin* credentials, and then requests consent.
 
    > [!NOTE]
    >
    > Depending on the number of users in your tenant, the checker can complete in minutes or hours.
-
-[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 When the tool finishes running, it produces an output file in comma-separated (.csv) format. The tool saves the file to **the current working directory** by default. The output file contains the following information:
 
@@ -201,17 +202,17 @@ Centralized deployment supports assignments to individual users, groups, and eve
 
 Take a look at the following example where Sandra, Sheila, and the Sales Department group are assigned to an add-in. Because the West Coast Sales Department is a nested group, Bert and Fred aren't assigned to an add-in.
 
-:::image type="content" source="../../media/683094bb-1160-4cce-810d-26ef7264c592.png" alt-text="Screenshot of a diagram showing nested group assignments where the West Coast Sales Department nested group isn't assigned to the add-in.":::
+:::image type="content" source="../../media/683094bb-1160-4cce-810d-26ef7264c592.png" alt-text="Screenshot of a diagram showing nested group assignments where the West Coast Sales Department nested group isn't assigned to the add-in." lightbox="../../media/683094bb-1160-4cce-810d-26ef7264c592.png":::
 
 ### Find out if a group contains nested groups
 
 The easiest way to detect if a group contains nested groups is to view the group contact card within Outlook. If you enter the group name within the **To** field of an email and then select the group name when it resolves, it shows you if it contains users or nested groups. In the following example, the **Members** tab of the Outlook contact card for the Test Group shows no users and only two sub groups.
 
-:::image type="content" source="../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png" alt-text="Screenshot of the Members tab of the Outlook contact card showing two sub groups and no users.":::
+:::image type="content" source="../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png" alt-text="Screenshot of the Members tab of the Outlook contact card showing two sub groups and no users." lightbox="../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png":::
 
 You can do the opposite query by resolving the group to see if it's a member of any group. In the following example, you can see under the **Membership** tab of the Outlook contact card that Sub Group 1 is a member of the Test Group.
 
-:::image type="content" source="../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png" alt-text="Screenshot of the Membership tab of the Outlook contact card showing Sub Group 1 as a member of the Test Group.":::
+:::image type="content" source="../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png" alt-text="Screenshot of the Membership tab of the Outlook contact card showing Sub Group 1 as a member of the Test Group." lightbox="../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png":::
 
 Alternately, you can use the Microsoft Graph API to run queries to find the list of groups within a group. For more information, see [Manage groups in Microsoft Graph](/graph/api/resources/groups-overview).
 
@@ -219,10 +220,10 @@ Alternately, you can use the Microsoft Graph API to run queries to find the list
 
 If you or your users encounter problems loading the add-in while using centrally deployed Microsoft 365 apps for the web (Word, Excel, etc.), [contact Microsoft support](../../business-video/get-help-support.md). Provide the following information about your Microsoft 365 environment in the support ticket.
 
-|Platform|Debug information|
-|---|---|
-|Microsoft 365|Charles/Fiddler logs <br/> Tenant ID ([learn how](/onedrive/find-your-office-365-tenant-id)) <br/> CorrelationID. View the source of one of the Office pages and look for the Correlation ID value and send it to support:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">` <br/> `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`|
-|Rich clients (Windows, Mac)|Charles/Fiddler logs <br/> Build numbers of the client app (preferably as a screenshot from **File/Account**)|
+| **Platform**                | **Debug information** |
+| --------------------------- | --------------------- |
+| Microsoft 365               | <ul><li>Charles/Fiddler logs</li><li>Tenant ID ([learn how](/onedrive/find-your-office-365-tenant-id))</li><li>CorrelationID: View the source of one of the Office pages and look for the Correlation ID value and send it to support. For example:<br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`<br/>`<input name="user_id" type="hidden" value="1003bffd96933623"></form>`</li></ul> |
+| Rich clients (Windows, Mac) | <ul><li>Charles/Fiddler logs</li><li>Build numbers of the client app (preferably as a screenshot from **File/Account**)</li></ul> |
 
 ## Related content
 

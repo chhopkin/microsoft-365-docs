@@ -6,18 +6,17 @@ author: DHB-MSFT
 manager: dansimp
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
-ms.localizationpriority: high
+ms.subservice: m365-privacy
 ms.collection: 
 - privacy-microsoft365
-- privacy-copilot
+- privacy-microsoft365-copilot
 - m365copilot
 - magic-ai-copilot
 - must-keep
-- trust-pod
 - d-star
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 02/10/2026
+ms.date: 03/09/2026
 ms.custom: [copilot-learning-hub]
 ---
 
@@ -35,7 +34,7 @@ For an overview of how these three components work together, see [Microsoft 365 
 > - Microsoft 365 Copilot, including [Microsoft 365 Copilot Search](/copilot/microsoft-365/microsoft-365-copilot-search), is compliant with our existing privacy, security, and compliance commitments to Microsoft 365 commercial customers, including the General Data Protection Regulation (GDPR) and European Union (EU) Data Boundary.
 > - Prompts, responses, and data accessed through Microsoft Graph aren't used to train foundation LLMs, including those used by Microsoft 365 Copilot.
 > - Microsoft 365 Copilot operates with multiple protections, which include, but aren't limited to, [blocking harmful content](#how-does-copilot-block-harmful-content), [detecting protected material](#does-copilot-provide-protected-material-detection), and [blocking prompt injections (jailbreak attacks)](#does-copilot-block-prompt-injections-jailbreak-attacks).
-> - Anthropic models within Microsoft 365 Copilot experiences are provided under the Microsoft Product Terms and Data Protection Addendum. Anthropic models have built-in protections, instantiated and operated by Anthropic, to help prevent harmful content from being returned in prompt responses. [Learn more about Anthropic's safeguards.](https://support.claude.com/collections/4078535-safeguards)
+> - Anthropic models within Microsoft 365 Copilot experiences are provided under the Microsoft Product Terms and Data Protection Addendum. [Learn more about Anthropic's safeguards.](https://support.claude.com/collections/4078535-safeguards)
 > - Anthropic models are out of scope for the EU Data Boundary and when available, in-country LLM processing commitments. For more information, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
 
 The information in this article is intended to help provide answers to the following questions:
@@ -132,7 +131,7 @@ We already implement multiple forms of protection to help prevent customers from
 
 - Your control over your data is reinforced by Microsoft's commitment to comply with broadly applicable privacy laws, such as the GDPR, and privacy standards, such as ISO/IEC 27018, the world’s first international code of practice for cloud privacy.
 
-- For content accessed through Microsoft 365 Copilot agents, encryption can exclude programmatic access, thus limiting the agent from accessing the content. For more information, see [Configure usage rights for Azure Information Protection](/azure/information-protection/configure-usage-rights).
+- For content accessed through agents in Microsoft 365, encryption can exclude programmatic access, thus limiting the agent from accessing the content. For more information, see [Configure usage rights for Azure Information Protection](/azure/information-protection/configure-usage-rights).
 
 ## Meeting regulatory compliance requirements
 

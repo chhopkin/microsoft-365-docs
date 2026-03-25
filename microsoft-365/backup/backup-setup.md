@@ -63,7 +63,10 @@ Once you have the information on this list, you're ready to begin. As a first st
   
 5. To turn off Backup, go to **Settings** tab, click on **Backup** and toggle **Status** to Off. 
 
+**Multiple Billing Experience**
 
+Now you can connect multiple billing policies to Backup and segment backup costs into different Azure subscriptions. You can connect more than one billing policies to Microsoft 365 Backup in the **Billing Policies** tab in Pay-as-you-go page. This will be ideal for organizations that prefer to breakdown their cost to different Azure subscriptions. 
+If you prefer to manage Backup by departments, we recommend you enable <a href="/microsoft-365/backup/backup-billing?view=o365-worldwide" target="_blank">**Departmental Billing feature**</a>.
 
 
 ## 2. Create backup policies to protect your data

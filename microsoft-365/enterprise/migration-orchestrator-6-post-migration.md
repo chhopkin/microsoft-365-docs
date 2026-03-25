@@ -23,6 +23,22 @@ description: "The steps to take after completing a migration with Microsoft 365 
 
 After the migration completes, you should remove permissions and return the tenants to their original nonmigration state. If you want to migrate again in the future, you need to restore all these permissions and settings. To remove the data and permissions, you need to import the individual modules before deletion.
 
+### Delete batch data
+
+This feature allows you to delete the data associated with a batch from the migration system. It deletes the data within 30 days of the request.
+
+```powershell
+Remove-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
+```
+
+Only batches in a terminal state can be canceled. Either cancel the batch, or wait for all users to reach a terminal state of Canceled, Failed, or Completed.
+
+> [!NOTE]
+> Deleting batch data affects future migrations the batch would inform. We don't recommend deleting batch data until the entire migration completes.
+
+
+### Delete data and permissions
+
 Identity mapping data is stored until you explicitly delete it.
 
 Use the `Remove-CtimData -SourceTenantGuid <SourceTenantGuid>` cmdlet to remove identity mapping data from the target tenant. Use the `Remove-CtimData -TargetTenantGuid <TargetTenantGuid>` cmdlet to remove identity mapping data from the source tenant.
