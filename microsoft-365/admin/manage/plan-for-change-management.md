@@ -25,12 +25,10 @@ appliesto:
 
 # Manage continuous change in Microsoft 365
 
-Microsoft 365 is changing faster and more continuously than ever, especially as AI and Copilot capabilities roll out across workloads. For IT admins, this means fewer discrete release moments and a steady flow of updates that can affect users, support teams, and governance. A *frontier firm* is an organization that is designed to operate in this environment of continuous change, where updates are expected and managed as part of normal operations rather than treated as exceptions. Unlike traditional change management models—which rely on reactive planning, long validation cycles, and broad delays to reduce risk—frontier firms plan for change proactively and harness AI into their everyday workflows to accelerate decision-making, foster innovation, and prioritize governance, security, and compliance. Microsoft’s modern change management approach supports this shift by providing earlier planning signals, clearer impact communication, and flexible release options, helping you and your organization manage risk, meet compliance requirements, and adopt new Microsoft 365 features with confidence.
+Organizations now operate in an environment of continuous change. Instead of relying on reactive planning, lengthy validation cycles, and broad release delays, IT admins can enable their organizations to plan for change proactively and use AI enabled tools to help teams assess impact, prioritize work, and make informed decisions.
 
-> **Alternative intro:**
-> Organizations now operate in an environment of continuous change. Instead of relying on reactive planning, lengthy validation cycles, and broad release delays, IT admins can enable their organizations to plan for change proactively and use AI enabled tools to help teams assess impact, prioritize work, and make informed decisions. Microsoft’s AI supported approach to change management helps organizations apply planning signals, understand impact more clearly, and use flexible release options. Together, these capabilities help IT admins manage risk, meet compliance requirements, and adopt Microsoft 365 features with confidence.
-
-This modern change management model for Microsoft 365 helps your Frontier Firm stay on top of major updates in the following ways:
+Microsoft’s AI supported approach to change management helps organizations apply planning signals, understand impact more clearly, and use flexible release options. Together, these capabilities help IT admins manage risk, meet compliance requirements, and adopt Microsoft 365 features with confidence.
+This modern change management model for Microsoft 365 helps your organization stay on top of major updates in the following ways: 
 
 - Connect AI tools to the Microsoft Release Communications (MRC) Model Context Protocol (MCP) Server to instantly access trusted, up-to-date Microsoft 365 and Azure feature release information using natural language
 - Use AI‑powered access to Message center and Service Health insights to streamline identification of changes and issues and help teams act with clearer context
