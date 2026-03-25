@@ -1,12 +1,12 @@
 ---
-title: Add and Replace a onmicrosoft.com Fallback Domain
+title: Add or replace a onmicrosoft.com fallback domain
 f1.keywords:
 - NOCSH
 ms.author: dansimp
 ms.reviewer: frankroj
 author: dansimp
 manager: dansimp
-ms.date: 02/19/2026
+ms.date: 03/13/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -39,11 +39,16 @@ description: Learn how to add a new onmicrosoft.com domain and set it as your fa
 #customer intent: As an IT admin, I want to add a new onmicrosoft.com domain so that I can customize my organization's fallback domain.
 ---
 
-# Add and replace a onmicrosoft.com fallback domain in Microsoft 365
+# Add or replace a onmicrosoft.com fallback domain in Microsoft 365
 
 When you sign up for Microsoft 365, Microsoft provides an *onmicrosoft.com* domain. The *onmicrosoft.com* domain is your **fallback domain**. Microsoft provides the fallback domain in case you don't own a domain or don't want to connect a domain to Microsoft 365. An example of a fallback domain is:
 
-`tailspintoys.onmicrosoft.com`
+> [!IMPORTANT]
+> To prevent misuse and help improve deliverability of customer email, we recommend that onmicrosoft.com domains should only be used for testing purposes, not sending regular email.
+>
+> Starting **October 15, 2025**, we are introducing limits that might restrict your Microsoft 365 environment from sending to more than 100 external recipients per 24 hours, see: [Limiting Onmicrosoft Domain Usage for Sending Emails](https://techcommunity.microsoft.com/blog/exchange/limiting-onmicrosoft-domain-usage-for-sending-emails/4446167).
+
+When you sign up for Microsoft 365, Microsoft provides an *onmicrosoft.com* domain - your **fallback domain** - in case you don't own a domain, or don't want to connect it to Microsoft 365 (for example, tailspintoys.onmicrosoft.com). Your fallback domain is used by default in:
 
 Use your fallback domain by default in:
 
@@ -76,23 +81,23 @@ To add, modify, or remove domains, you must be a **Domain Name Administrator** o
 
 To add a new onmicrosoft.com domain, follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
+1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
 
 1. In the **Domains** page, select your onmicrosoft.com default domain.
 
-    :::image type="content" source="../../media/onmicrosoft-domains.png" alt-text="Screenshot of the Domains page showing the onmicrosoft.com default domain.":::
+    :::image type="content" source="../../media/onmicrosoft-domains.png" alt-text="Screenshot of the Domains page showing the onmicrosoft.com default domain." lightbox="../../media/onmicrosoft-domains.png":::
 
 1. On the domain properties page, in the **About this domain** section, select **Add onmicrosoft domain**.
 
-    :::image type="content" source="../../media/add-onmicrosoft-domain-link.png" alt-text="Screenshot of the About this domain section with the Add onmicrosoft domain link.":::
+    :::image type="content" source="../../media/add-onmicrosoft-domain-link.png" alt-text="Screenshot of the About this domain section with the Add onmicrosoft domain link." lightbox="../../media/add-onmicrosoft-domain-link.png":::
 
 1. In the **Add onmicrosoft domain** page, in the **Domain name** box, type the name for your new onmicrosoft.com domain.
 
-    :::image type="content" source="../../media/add-an-onmicrosoftcom-domain-page.png" alt-text="Screenshot of the Add onmicrosoft domain page with the Domain name box.":::
+    :::image type="content" source="../../media/add-an-onmicrosoftcom-domain-page.png" alt-text="Screenshot of the Add onmicrosoft domain page with the Domain name box." lightbox="../../media/add-an-onmicrosoftcom-domain-page.png":::
 
     > [!IMPORTANT]
     >
@@ -100,7 +105,7 @@ To add a new onmicrosoft.com domain, follow these steps:
 
 1. Select **Add domain**. When you add the domain successfully, you see a message stating that it was successfully added.
 
-    :::image type="content" source="../../media/domain-added.png" alt-text="Screenshot of the confirmation message indicating the domain was added successfully.":::
+    :::image type="content" source="../../media/domain-added.png" alt-text="Screenshot of the confirmation message indicating the domain was added successfully." lightbox="../../media/domain-added.png":::
 
 ## Make your new onmicrosoft.com domain your fallback domain
 
@@ -112,23 +117,23 @@ To add a new onmicrosoft.com domain, follow these steps:
 
 After you create your new onmicrosoft.com domain, change your fallback domain:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
+1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
 
 1. In the **Domains** page, select the new onmicrosoft.com domain that you created.
 
-    :::image type="content" source="../../media/onmicrosoft-domains-added.png" alt-text="Screenshot of the Domains page showing the newly added onmicrosoft.com domain.":::
+    :::image type="content" source="../../media/onmicrosoft-domains-added.png" alt-text="Screenshot of the Domains page showing the newly added onmicrosoft.com domain." lightbox="../../media/onmicrosoft-domains-added.png":::
 
 1. On the domain's property page, select **Make fallback domain**.
 
-    :::image type="content" source="../../media/new-fallback.png" alt-text="Screenshot of the domain property page with the Make fallback domain option.":::
+    :::image type="content" source="../../media/new-fallback.png" alt-text="Screenshot of the domain property page with the Make fallback domain option." lightbox="../../media/new-fallback.png":::
 
 1. A message displays on the page stating that your fallback domain changed to the new domain.
 
-    :::image type="content" source="../../media/fallback-success.png" alt-text="Screenshot of the confirmation message indicating the fallback domain was successfully changed.":::
+    :::image type="content" source="../../media/fallback-success.png" alt-text="Screenshot of the confirmation message indicating the fallback domain was successfully changed." lightbox="../../media/fallback-success.png":::
 
 ## Support
 

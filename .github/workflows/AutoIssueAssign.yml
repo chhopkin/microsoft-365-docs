@@ -4,8 +4,8 @@ permissions:
   issues: write
       
 on:
- # schedule:
- #   - cron: "0 9 1 * *"
+  schedule:
+    - cron: "26 21 * * *"
 
   workflow_dispatch:
   
@@ -14,7 +14,7 @@ jobs:
 
   stale-branch:
     if: github.repository_owner == 'MicrosoftDocs'
-    uses: MicrosoftDocs/max-cpub-test/.github/workflows/Shared-AutoIssueAssign.yml@main
+    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-AutoIssueAssign.yml@workflows-prod
     with:
         PayloadJson: ${{ toJSON(github) }}
         ExcludedUserList: '["user1", "user2"]'

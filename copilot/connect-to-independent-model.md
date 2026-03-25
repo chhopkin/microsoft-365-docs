@@ -36,7 +36,7 @@ Anthropic’s AI models can help people in your organization with some of the fo
 - Idea generation, drafting and editing
 
 When your organization chooses to use an Anthropic model, your organization is choosing to share your data with Anthropic to power the features. This data is processed outside all Microsoft‑managed environments and audit controls, therefore Microsoft’s customer agreements, including the [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Data Processing Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) don't apply.
-In addition, Microsoft’s data‑residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment don't apply to your use of Anthropic services. Instead, use of Anthropic's services is governed by Anthropic’s [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) and Anthropic’s [Data Processing Addendum](https://www.anthropic.com/legal/data-processing-addendum).
+In addition, Microsoft’s data‑residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment don't apply to your use of Anthropic services. Instead, use of Anthropic's services is governed by Anthropic’s [Commercial Terms of Service](https://go.microsoft.com/fwlink/?linkid=2356202) and Anthropic’s [Data Processing Addendum](https://go.microsoft.com/fwlink/?linkid=2356300).
 
 ## Before you begin
 
