@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 03/04/2026
+ms.date: 03/25/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -36,7 +36,7 @@ Here's what happens when you create a litigation hold.
 
 ## Assign an Exchange Online Plan 2 license
 
-To place an Exchange Online mailbox on litigation hold, that mailbox must be assigned an Exchange Online Plan 2 license. If a mailbox is assigned an Exchange Online Plan 1 license, you would have to assign it a separate Exchange Online Archiving license to place it on hold.
+To place an Exchange Online mailbox on litigation hold, that mailbox must be assigned an Exchange Online Plan 2 license. If a mailbox is assigned an Exchange Online Plan 1 license, you must assign that mailbox a separate Exchange Online Archiving license to place it on hold.
 
 ## Place a mailbox on litigation hold
 
@@ -44,7 +44,7 @@ To place an Exchange Online mailbox on litigation hold, that mailbox must be ass
 
 2. Select **Users** > **Active users**, and then select the user for whom you want to place on litigation hold.
 
-3. On the properties flyout page, select the **Mail** tab, and then under **More actions**, select **Manage litigation hold**.
+3. On the **Properties** flyout panel, select the **Mail** tab, and then under **More actions**, select **Manage litigation hold**.
 
    :::image type="content" source="media/create-litigation-hold-mac/user-manage-litigation-hold.png" alt-text="Screenshot showing th eManage Litigation Hold option." lightbox="media/create-litigation-hold-mac/user-manage-litigation-hold.png":::
 
@@ -59,7 +59,10 @@ To place an Exchange Online mailbox on litigation hold, that mailbox must be ass
 5. Select **Save changes** on the **Litigation hold** flyout page to create the hold.
 
    The system displays a banner saying it might take up to 240 minutes for the change to take effect.
-
+   
+   > [!NOTE]
+   > After a litigation hold is enabled, the "created by" field reflects the original user who enabled the hold, even when the hold is later modified.
+   
 ### Create a litigation hold using PowerShell
 
 You can also create a litigation hold by running the following command in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell):
