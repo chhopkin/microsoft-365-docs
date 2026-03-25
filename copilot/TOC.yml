@@ -444,9 +444,9 @@ items:
       - name: App Builder agent
         items:
         - name: Overview of App Builder
-          href: app-builder-privacy-data-subject-request-faq.md
-        - name: App Builder privacy and data subject request (DSR) FAQ
           href: responsible-ai/faq-app-builder.md
+        - name: App Builder privacy and data subject request (DSR) FAQ
+          href: app-builder-privacy-data-subject-request-faq.md
       - name: Learning agent
         items:
         - name: Overview and setup of Learning agent
@@ -466,9 +466,9 @@ items:
       - name: Workflows agent
         items:
         - name: Overview of Workflows
-          href: flow-builder-privacy-data-subject-request-faq.md
-        - name: Workflows privacy and data subject request (DSR) FAQ
           href: responsible-ai/flow-builder-responsible-ai-faq.md
+        - name: Workflows privacy and data subject request (DSR) FAQ
+          href: flow-builder-privacy-data-subject-request-faq.md
       - name: Workforce Insights agent
         items:
           - name: Overview of Workforce Insights agent

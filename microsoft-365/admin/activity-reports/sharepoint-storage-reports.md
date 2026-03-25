@@ -37,7 +37,7 @@ The SharePoint storage report provides an overview of your tenant’s storage us
 
 ## View SharePoint storage report
 
-For information about what permissioms are needed to view the report, see [Who can see reports](activity-reports.md#who-can-see-reports).
+For information about what permissioms are needed to view the report, see [Microsoft 365 admin center usage reports overview: Before you begin](activity-reports.md#before-you-begin).
 
 To view the SharePoint storage report, perform the following steps:
 
@@ -45,8 +45,8 @@ To view the SharePoint storage report, perform the following steps:
 
    :::image type="content" source="../../media/usage-page.png" alt-text="Screenshot that shows the Usage page." lightbox="../../media/usage-page.png":::
 
-1. From the left navigation pane, select **SharePoint**.
-1. Select the **Storage** tab.
+2. From the left navigation pane, select **SharePoint**.
+3. Select the **Storage** tab.
 
 > [!NOTE]
 > This report refreshes every 48-72 hours. Banner notifications appear when SharePoint usage exceeds 80% of quota.

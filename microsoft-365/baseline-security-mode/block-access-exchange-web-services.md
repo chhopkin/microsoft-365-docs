@@ -4,7 +4,7 @@ description: Use the Microsoft 365 admin center, to prevent unauthorized and out
 author: vpattnai
 ms.author: vpattnaik
 manager: dansimp
-ms.date: 02/25/2026
+ms.date: 03/25/2026
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
@@ -30,5 +30,7 @@ You can also generate a CSV report to identify which apps are making EWS request
 
 > [!NOTE]
 > Usage data is collected and aggregated weekly, not daily.
+
+For a list of Microsoft first-party client application IDs, see [Commonly used Microsoft first-party services and portal apps](/power-platform/admin/apps-to-allow). For Microsoft applications, Microsoft updates those periodically to remove EWS dependencies. We recommend that you keep your client applications up-to-date. If you still can't find the Application ID, check your Enterprise Applications in Entra ID. For more information, see [Quickstart: View enterprise applications](/entra/identity/enterprise-apps/view-applications-portal).
 
 For more information, see [Control access to EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange).
