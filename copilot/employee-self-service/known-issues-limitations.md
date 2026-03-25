@@ -1,7 +1,7 @@
 ---
 title: Release notes, known issues and limitations for the Employee Self-Service agent
 f1.keywords: NOCSH
-ms.author: jatonewilson
+ms.author: MicrosoftHeidi
 author: jatonewilson
 manager: swatigulati
 ms.reviewer: semani
@@ -26,7 +26,7 @@ As you consider using the Employee Self-Service Agent, we want to provide a clea
 
 | Feature | Update | Customer Action | Documentation | Status | Date |
 |--------|--------|-----------------|---------------|--------|------|
-| Rich Landing Page | New customizable landing experience | Optional configuration in Copilot Studio or M365 Admin Center | [https://learn.microsoft.com/copilot/microsoft-365/employee-self-service/customize](https://learn.microsoft.com/copilot/microsoft-365/employee-self-service/customize) | Available | Mar 2026 |
+| Rich Landing Page | New customizable landing experience | Optional configuration in Copilot Studio or M365 Admin Center || Available | Mar 2026 |
 
 ## Full list of known issues and limitations
 
