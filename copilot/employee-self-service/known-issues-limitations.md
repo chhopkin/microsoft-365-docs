@@ -26,7 +26,7 @@ As you consider using the Employee Self-Service Agent, we want to provide a clea
 
 | Feature | Update | Customer Action | Documentation | Status | Date |
 |--------|--------|-----------------|---------------|--------|------|
-| Rich Landing Page | New customizable landing experience | Optional configuration in Copilot Studio or M365 Admin Center || Available | Mar 2026 |
+| Rich Landing Page | New customizable landing experience | Optional configuration in M365 Admin Center || Available | Mar 2026 |
 
 ## Full list of known issues and limitations
 
