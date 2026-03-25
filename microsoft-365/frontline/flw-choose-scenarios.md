@@ -106,7 +106,7 @@ More information: [Appointments with Microsoft Teams](virtual-appointments.md)
 
 ## More scenarios and solutions with the digital ecosystem
 
-The scenarios described earlier in this article can be achieved with out-of-the-box capabilities from Microsoft. You can extend even further with third-party apps in [AppSource](https://appsource.microsoft.com) and custom apps that you or our partners build for you with Power Platform, Teams, and Viva extensibility.
+The scenarios described earlier in this article can be achieved with out-of-the-box capabilities from Microsoft. You can extend even further with third-party apps in [Microsoft Marketplace](https://marketplace.microsoft.com) and custom apps that you or our partners build for you with Power Platform, Teams, and Viva extensibility.
 
 Learn more about third-party apps in Teams at [Overview of third-party apps in Microsoft Teams](/microsoftteams/overview-third-party-apps).
 

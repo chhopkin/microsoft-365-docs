@@ -5,7 +5,7 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: drjones, jobailey
+ms.reviewer: souchak, jobailey
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -16,7 +16,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
+service.tree.id: 3b35c9b8-bf14-4e4a-bc0d-21055e56b28c
 search.appverid: MET150
 ms.custom:
 - commerce_billing

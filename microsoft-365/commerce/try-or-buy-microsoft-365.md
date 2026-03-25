@@ -152,7 +152,7 @@ When you add a subscription through the <a href="https://go.microsoft.com/fwlink
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.
    - If you're using the **Simplified view**, select **Billing**, then select **Add more products**.
-   - If you're using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page. For some customers, the page is named **Marketplace**.
+   - If you're using the **Dashboard view**, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
 2. Find the plan that you want to try, and select **Details**.
 3. In the **Select a plan** drop-down list, select the trial plan.
 4. Enter the number of licenses that you want to buy when the trial ends.
@@ -168,7 +168,7 @@ When you add a subscription through the <a href="https://go.microsoft.com/fwlink
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.
    - If you're using the **Simplified view**, select **Billing**, then select **Add more products**.
-   - If you're using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page. For some customers, the page is named **Marketplace**.
+   - If you're using the **Dashboard view**, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
 2. Find the plan that you want to try, and select **Details**.
 3. On the next page, enter the number of licenses that you want to buy when the trial ends, then select **Start free trial**.
     > [!NOTE]
@@ -200,7 +200,7 @@ If you found this video helpful, check out the [complete training series for sma
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.
    - If you're using the **Simplified view**, select **Billing**, then select **Add more products**.
-   - If you're using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page. For some customers, the page is named **Marketplace**.
+   - If you're using the **Dashboard view**, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
 2. Select the plan that you want to buy, then select **Details**.
 3. On the product details page, in the **Select a plan** drop-down list, select the plan, and enter the number of licenses that you want to buy. Select a subscription length and billing frequency, then select **Buy**.
 4. In the **Checkout** pane, choose the billing profile that you want to use, or add a new one.
@@ -211,7 +211,7 @@ If you found this video helpful, check out the [complete training series for sma
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.
    - If you're using the **Simplified view**, select **Billing**, then select **Add more products**.
-   - If you're using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page. For some customers, the page is named **Marketplace**.
+   - If you're using the **Dashboard view**, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
 2. Select the plan that you want to buy, then select **Details**.
 3. On the product details page, enter the number of licenses that you need, select a billing frequency, then select **Buy**.
 4. On the **Checkout** page, verify the **Sold to** information. Select a payment method or add a new one. Verify the number of licenses that you need, then select **Place order**.

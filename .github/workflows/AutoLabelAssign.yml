@@ -39,3 +39,5 @@ jobs:
             PrivateKey: ${{ secrets.M365_APP_PRIVATE_KEY }}
 
             ClientId: ${{ secrets.M365_APP_CLIENT_ID }}
+
+

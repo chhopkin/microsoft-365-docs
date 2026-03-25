@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 09/24/2025
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier2

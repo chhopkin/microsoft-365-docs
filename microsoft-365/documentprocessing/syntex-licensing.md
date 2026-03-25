@@ -19,6 +19,9 @@ description: Learn about pay-as-you-go licensing for document processing for Mic
 
 # Licensing for document processing for Microsoft 365
 
+> [!NOTE]
+> In October 2025, Microsoft announced a progressive end of AI Builder credits. Learn more in the [End of AI Builder credits](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fai-builder%2Fendofaibcredits&data=05%7C02%7Ckarlha%40microsoft.com%7Cb3257816d34747a6811108de4e2cf175%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C639034152144192901%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=d4maX3KGxGsENBKpdiNcx3VWlcyg9hJ5u2Z7qE9whuU%3D&reserved=0) article.
+> 
 Microsoft 365 offers flexible, scalable document processing services through a pay-as-you-go licensing model. This model is ideal for organizations seeking agility without upfront commitments.
 
 > [!NOTE]
@@ -30,7 +33,7 @@ Microsoft 365 offers flexible, scalable document processing services through a p
 
 - **Organization-wide access**: Any user in your tenant can use the services, provided they have a Microsoft 365 license.
 
-- **Azure-based billing**: Use your active Azure subscription for billing. Learn more about [setting up billing](/microsoft-365/services/pay-as-you-go-setup) and the [terms of service](/legal/microsoft-365/microsoft-syntex-pay-as-you-go-terms).
+- **Azure-based billing**: Use your active Azure subscription for billing. Learn more about [setting up billing](/microsoft-365/commerce/services/pay-as-you-go-setup) and the [terms of service](/legal/microsoft-365/microsoft-syntex-pay-as-you-go-terms).
 
 ## Document processing services
 

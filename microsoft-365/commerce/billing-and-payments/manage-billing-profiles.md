@@ -4,7 +4,7 @@ f1.keywords:
 - MACBillingBillsPaymentsBillingProfiles
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
@@ -15,14 +15,14 @@ ms.collection:
 - Tier1
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
 - admindeeplinkMAC
 - AdminTemplateSet
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn about billing profiles and how they're used to pay invoices for Microsoft business accounts."
-ms.date: 08/15/2025
+ms.date: 01/19/2026
 ---
 
 # Manage your Microsoft business billing profiles

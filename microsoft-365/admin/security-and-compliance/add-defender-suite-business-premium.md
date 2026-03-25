@@ -10,7 +10,7 @@ manager: dansimp
 audience: Admin
 ms.topic: article
 ms.date: 09/24/2025
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - tier2

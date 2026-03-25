@@ -9,7 +9,7 @@ manager: deniseb
 audience: Admin
 description: Learn how to strengthen your organization's security posture.
 ms.topic: solution-overview
-ms.service: microsoft-365-security
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 search.appverid:
 - MET150
@@ -21,7 +21,6 @@ ms.collection:
 - highpri
 - tier1
 - ContentEnagagementFY24
-- trust-pod
 ms.date: 08/28/2024
 ---
 

@@ -9,23 +9,23 @@ ms.reviewer: titung, jasoni
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
-ms.subservice: m365-commerce-volume-licensing
+ms.subservice: m365-commerce-marketplace
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_purchase
 - AdminSurgePortfolio
 - admindeeplinkMAC
 - GAUpdates
 - campaignIDs-batch2
+service.tree.id: 052e60a1-7cf9-4c1e-9cfc-86a63f28aaab
 search.appverid: MET150
 description: "Learn about the proposal workflow used when you buy Microsoft business products and services. Discover how to review and approve proposals."
-ROBOTS: NOINDEX
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 10/08/2025
 ---
 
@@ -210,3 +210,10 @@ Payment instructions for where to send check or wire transfers are included in t
 ## Accessing your proposals
 
 You can access a list of currently active and completed proposals in the Microsoft 365 admin center. To see a list of your proposals, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">Billing accounts</a> page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2253461" target="_blank">Proposals</a> tab. From there, you can see a list of all your active and completed proposals, filter by proposal state, and search for proposals by name. Select a proposal to open the proposal and accept it, if active, or review it, if completed.
+
+## Related content
+
+[What is a cloud subscription?](/azure/cost-management-billing/manage/cloud-subscription) (article)\
+[Manage a Microsoft Azure credit resource group a subscription](/azure/cost-management-billing/manage/manage-azure-credits) (article)\
+[Manage a Microsoft Azure discount resource under a subscription](/azure/cost-management-billing/manage/manage-azure-discount)  (article)\
+[Manage a Microsoft Azure Consumption Commitment resource](/azure/cost-management-billing/manage/manage-consumption-commitment)  (article)

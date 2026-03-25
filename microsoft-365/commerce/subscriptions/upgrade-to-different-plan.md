@@ -4,8 +4,8 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: mijeffer, nicholak
+manager: scotv
+ms.reviewer: mijeffer, jobailey
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -16,7 +16,6 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_subscriptions
 - SaRA
@@ -24,6 +23,7 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
 - GAUpdates
+service.tree.id: 84a24b9c-ce0c-4b4b-b837-45bc5ee4bef0
 search.appverid: MET150
 description: "Learn how to upgrade or change to a different plan in the Microsoft 365 admin center."
 ms.date: 10/28/2025
@@ -60,7 +60,8 @@ Changing plans is the right choice when you want to move all users assigned to a
    - If you’re using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
 2. Select the subscription that you want to manage.
 1. On the subscription details page, in the **Other subscription options** section, select **Change to a different subscription option**.
-1. Choose when to schedule the change, enter the number of licenses that you want, select a subscription length and a billing frequency, then select **Change plan**.
+1. Choose when to schedule the change, enter the number of licenses that you want, select a subscription length and a billing frequency, then select **Change plan**. 
+
 ### If you have an MOSA billing account type
 
 [!INCLUDE [office-365-operated-by-21vianet-admin-center-link](../../includes/office-365-operated-by-21vianet-admin-center-link.md)]
@@ -115,7 +116,7 @@ When you change plans automatically, your services and billing are affected in t
 
 ### Billing
 
-The day your plan change is complete, the billing on your old subscription is turned off and the billing on your new subscription is turned on. Depending on the new plan you selected, you might receive a prorated credit. You receive a new invoice that includes the credit for your old subscription within 30 days of changing to the new subscription.
+The day your plan change is complete, the billing on your old subscription is turned off and the billing on your new subscription is turned on. Depending on the new plan you selected, you might receive a prorated credit. If you have an MCA billing account, you receive a new invoice that includes the credit for your old subscription within one to two days of changing to the new subscription. If you have an MOSA billing account, you receive a new invoice that includes the credit for your old subscription within 30 days of changing to the new subscription.
 
 > [!NOTE]
 > The length of time it takes to receive your prorated credit depends on the payment method used for the old subscription.

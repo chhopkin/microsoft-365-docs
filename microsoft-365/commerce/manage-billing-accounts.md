@@ -4,7 +4,7 @@ f1.keywords:
 - MACBillingBillingAccountsOverview
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
@@ -16,7 +16,6 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
 - AdminSurgePortfolio
@@ -24,9 +23,10 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 - campaignIDs-batch2
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn about Microsoft business billing accounts and how they're used to manage account settings, invoices, payment methods, and purchases."
-ms.date: 09/15/2025
+ms.date: 02/26/2026
 ---
 
 # Understand your Microsoft business billing account
@@ -87,7 +87,7 @@ The following table lists the terms shown on the billing account details page.
 |Tax ID                           |This field only applies if you're in a country/region that requires you to provide a VAT or local equivalent. For more information, see [Tax information](billing-and-payments/tax-information.md). |
 |Registration number (Optional)   |A legal registration number that you provide to us so we can review the details of your account. For more information, see [About registration numbers and under-review notifications](about-registration-numbers.md). To add a registration number, select **Edit**. |
 |Type|The type of billing account.|
-|Agreements|Links to the agreements signed by your organization with Microsoft. Not all agreements are available to view online.|
+|Agreements|Links to the agreements signed by your organization with Microsoft. This includes a link to view the agreement along with details like invoice effective date and who signed it.  Not all agreements are available to view online.|
 
 > [!NOTE]
 > If you need to change the **Sold-to** name, you must [contact support](../admin/get-help-support.md) to change it. Requests to change the **Sold-to** name require a credit check. Complete [this form](https://www.microsoft.com/download/details.aspx?id=102732), and be ready to share one of the following documents with Microsoft when you contact support:
