@@ -6,7 +6,7 @@ ms.author: deniseb
 manager: dansimp 
 ms.date: 03/16/2026
 ms.topic: concept-article
-ms.service: microsoft-365-enterprise
+ms.service: microsoft-365-copilot
 ms.reviewer: eljones
 search.appverid: MET150
 f1.keywords: NOCSH 
