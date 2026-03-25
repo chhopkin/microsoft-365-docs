@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Multi-Geo tenant configuration
 ms.reviewer: jugiammo
-ms.date: 10/02/2024
+ms.date: 05/09/2025
 ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona

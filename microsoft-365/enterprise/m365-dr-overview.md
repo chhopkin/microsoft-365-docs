@@ -9,7 +9,7 @@ ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 11/07/2025
+ms.date: 2/27/2026
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
@@ -37,7 +37,7 @@ In order to promote clarity in the capability descriptions on data residency fun
 |Durable Commitment on Data Location |One of the four existing methods to ensure that _Tenant_ data location for a particular service does not change. These methods include _[European Union Data Boundary (EUDB)](/privacy/eudb/eu-data-boundary-learn#eu-data-boundary-countries-and-datacenter-locations)_, _[Privacy and Security Product Terms](https://www.microsoft.com/licensing/terms/product/PrivacyandSecurityTerms/all)_, _[Advanced Data Residency (ADR)](m365-dr-commitments.md)_, and _[Multi-Geo Capabilities](microsoft-365-multi-geo.md)_. |
 |Educational (EDU) Tenant |A _Tenant_ that has an active Office 365 Education subscription (i.e., A SKU). |
 |European Free Trade Association (EFTA) |A regional trade organization and free trade area consisting of four European states - Liechtenstein, Iceland, **Norway**, and **Switzerland**. <br/> <br/> **Note:** Microsoft 365 currently has data centers in the **bold** _EFTA_ countries. |
-|European Union (EU) |An international organization comprising 27 European countries. These countries are **Austria**, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, **Finland**, **France**, **Germany**, Greece, Hungary, **Ireland**, **Italy**, Latvia, Lithuania, Luxembourg, Malta, **Netherlands**, **Poland**, Portugal, Romania, Slovakia, Slovenia, **Spain**, and **Sweden**. <br/> <br/> **Note:** Microsoft 365 currently has data centers in the **bold** _European Union_ countries. |
+|European Union (EU) |An international organization comprising 27 European countries. These countries are **Austria**, Belgium, Bulgaria, Croatia, Cyprus, Czechia, **Denmark**, Estonia, **Finland**, **France**, **Germany**, Greece, Hungary, **Ireland**, **Italy**, Latvia, Lithuania, Luxembourg, Malta, **Netherlands**, **Poland**, Portugal, Romania, Slovakia, Slovenia, **Spain**, and **Sweden**. <br/> <br/> **Note:** Microsoft 365 currently has data centers in the **bold** _European Union_ countries. |
 |European Union/EFTA |Data that is stored within the _European Union (EU)_ and/or the _European Free Trade Association (EFTA)_. |
 |European Union Data Boundary (EUDB) |_European Union Data Boundary_ commitment. For more information, please see [Microsoft EU Data Boundary Overview - Microsoft Trust Center](https://www.microsoft.com/trust-center/privacy/european-data-boundary-eudb). |
 |Future Local Region Geography |Future planned data center regions: Denmark, Greece, Kuwait, Saudi Arabia, Thailand |
@@ -45,14 +45,14 @@ In order to promote clarity in the capability descriptions on data residency fun
 |Legacy Move Program |This program, which is no longer active, was offered to _Tenants_ who had a valid _Default Geography_ which allowed the _Tenant_ to migrate existing data at rest into a _Local Region Geography_. |
 |Local Region Geography |Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, United Kingdom |
 |Macro Region Geography |Macro Region Geography 1 – Europe, Macro Region Geography 2 – Asia Pacific, Macro Region Geography 3 – Americas, Macro Region Geography 4 – European Union/EFTA |
-|Macro Region Geography 1 – Europe |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden <br/> <br/> **Note:** This term is referenced as “Europe” on the _Data Location Card_. |
+|Macro Region Geography 1 – Europe |Data centers in Austria, Denmark, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden <br/> <br/> **Note:** This term is referenced as “Europe” on the _Data Location Card_. |
 |Macro Region Geography 2 – Asia Pacific |Data centers in Australia, Hong Kong Special Administrative Region, India, Indonesia, Japan, Malaysia, New Zealand, Singapore, South Korea |
 |Macro Region Geography 3 – Americas |Data centers in Brazil, Canada, Chile, Mexico, and the United States (USA) <br/> <br/> **Note:** This term is referenced as “Americas” on the _Data Location Card_. |
-|Macro Region Geography 4 – European Union/EFTA |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden, Norway, and Switzerland. <br/> <br/> **Note:** This term is referenced as “European Union/EFTA” on the _Data Location Card_. |
+|Macro Region Geography 4 – European Union/EFTA |Data centers in Austria, Denmark, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden, Norway, and Switzerland. <br/> <br/> **Note:** This term is referenced as “European Union/EFTA” on the _Data Location Card_. |
 |Microsoft Entra ID |Microsoft Entra ID is the new name for [Azure Active Directory](/entra/fundamentals/new-name). |
 |Microsoft 365 admin center Data Location |To see the _Primary Provisioned Geography_ for Exchange Online, SharePoint, OneDrive, and Microsoft Teams, refer to the Microsoft 365 admin center by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. |
 |Microsoft 365 Core Services |Exchange Online, SharePoint and OneDrive, Microsoft Teams, Microsoft 365 Copilot and Copilot Chat |
-|Microsoft 365 Expanded Services |Microsoft Defender for Office P1 and [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about), Microsoft 365 web apps (formerly known as "Office for the Web"), Viva Connections, Microsoft Purview* |
+|Microsoft 365 Expanded Services |Microsoft Defender for Office P1 and [the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](/defender-office-365/eop-about), Microsoft 365 web apps (formerly known as "Office for the Web"), Viva Connections, Microsoft Purview* |
 |Microsoft 365 Multi-Geo Capabilities |_Microsoft 365 Multi-Geo Capabilities_ allows a single _Tenant_ to store customer data-at-rest across multiple geographies rather than be limited to the single _Primary Provisioned Geography_. See the _[Multi-Geo](microsoft-365-multi-geo.md)_ page for more detail. |
 |Microsoft 365 Service provisioning country mapping |Refer to [data maps](https://aka.ms/datamaps) to learn where a given service provisions specified customer data, based on the _Tenant Default Geography._ |
 |Microsoft 365 Service provisioning mapping |All Microsoft 365 services use the _Default Geography_ to determine where a given _Tenant's_ specified data will be provisioned and stored. |
@@ -64,7 +64,7 @@ In order to promote clarity in the capability descriptions on data residency fun
 |Tenant |A _Tenant_ represents an organization in _Microsoft Entra ID_. It's a reserved Microsoft Entra service instance that an organization receives and owns when it signs up for a Microsoft cloud service such as Azure or Microsoft 365. Each _Microsoft Entra ID Tenant_ is distinct and separate from other _Microsoft Entra ID Tenants_. |
 
 > [!NOTE]
-> *The [Microsoft Purview](m365-dr-workload-purview.md) services covered as part of the _Advanced Data Residency commitment_ (as of July 2025) include [Data Loss Prevention](m365-dr-workload-purview.md#data-security---data-loss-prevention-dlp), [Information Barriers](m365-dr-workload-purview.md#data-security---information-barriers), [Information Protection (MIP)](m365-dr-workload-purview.md#data-security---information-protection-mip), [Audit (Standard)](m365-dr-workload-purview.md#risk--compliance---audit-standard), [Audit (Premium)](m365-dr-workload-purview.md#risk--compliance---audit-premium), and [Data Lifecycle Management (DLM)](m365-dr-workload-purview.md#risk--compliance---data-lifecycle-management-dlm). Additional Microsoft Purview services are not currently supported.
+> *The [Microsoft Purview](m365-dr-service-purview.md) services covered as part of the _Advanced Data Residency commitment_ (as of February 2026) include [Data Loss Prevention](m365-dr-service-purview.md#data-security---data-loss-prevention-dlp), [Information Barriers](m365-dr-service-purview.md#data-security---information-barriers), [Information Protection (MIP)](m365-dr-service-purview.md#data-security---information-protection-mip), [Audit (Standard)](m365-dr-service-purview.md#risk--compliance---audit-standard), [Audit (Premium)](m365-dr-service-purview.md#risk--compliance---audit-premium), and [Data Lifecycle Management (DLM)](m365-dr-service-purview.md#risk--compliance---data-lifecycle-management-dlm). Additional Microsoft Purview services are not currently supported.
 
 ## Overview of Data Residency
 
@@ -85,10 +85,10 @@ Microsoft 365 services aren't deployed to all Microsoft data centers globally. T
 
 Over time, a particular service may deploy their software to additional _Geographies_, so the provisioning locations for new customers can change over time. This doesn't necessarily cause customer data to move to a new _Geography_.
 
-You can use the _Data Location Card_ via the Microsoft 365 admin center to understand where your data for a given service is stored. As a Global Tenant Admin, you can find the actual data location by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. Currently, data location details are available for Exchange Online, SharePoint, OneDrive, Microsoft Teams, Microsoft 365 Copilot, [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about), and Viva Connections. Additional data location details can be found on the [Data Maps page](o365-data-locations.md).
+You can use the _Data Location Card_ via the Microsoft 365 admin center to understand where your data for a given service is stored. As a Global Tenant Admin, you can find the actual data location by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. Currently, data location details are available for Exchange Online, SharePoint, OneDrive, Microsoft Teams, Microsoft 365 Copilot, [the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](/defender-office-365/eop-about), and Viva Connections. Additional data location details can be found on the [Data Maps page](o365-data-locations.md).
 
 > [!NOTE]
-> Microsoft Defender for Office P1, Microsoft Purview (select services), and Microsoft 365 Copilot Chat are covered by [Durable Commitments on Data Location](m365-dr-overview.md#durable-commitments-on-data-location) but not currently displayed in the _Data Location Card_. Refer to [Where your Microsoft 365 customer data is stored](o365-data-locations.md) for more information.
+> [Microsoft Defender for Office P1](m365-dr-service-mdo-p1.md), [Microsoft Purview (select services)](m365-dr-service-purview.md), and [Microsoft 365 Copilot Chat](m365-dr-service-copilot.md) are covered by [Durable Commitments on Data Location](m365-dr-overview.md#durable-commitments-on-data-location) but not currently displayed in the _Data Location Card_. Refer to [Where your Microsoft 365 customer data is stored](o365-data-locations.md) for more information.
 
 Some examples:
 
@@ -132,11 +132,11 @@ There are three methods for ensuring that the _Tenant_ data location for a parti
 | Microsoft Purview |- |- |X<sup>3</sup> |
 
 1. Only available in the following countries/regions: Australia, Brazil, Canada, France, Germany, India, Japan, Qatar, South Korea, Norway, South Africa, Sweden, Switzerland, United Arab Emirates, United Kingdom, European Union and the United States.
-1. Available in _Local Region Geography_, _Future Local Region Geography_ (when the future data center is launched) and _Regional Geography countries/regions_
+1. Available in _Local Region Geography_, _Future Local Region Geography_ (when the future data center is launched) and _Regional Geography countries/regions_.
 1. Only available for _Local Region Geography_ and _Future Local Region Geography_ (when the future data center is launched) countries/regions.
   
 > [!NOTE]
-> See the [Service Data Residency Capabilities section](m365-dr-workload-exo.md) for more details on these topics.
+> See the [Service Data Residency Capabilities section](m365-dr-service-exo.md) for more details on these topics.
 
 #### **Table 3: Durable Commitments on Data Location by Geography**
 

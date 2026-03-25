@@ -9,6 +9,7 @@ ms.date: 11/13/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
+ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
@@ -491,7 +492,7 @@ check for in role id
 
 ### SAP SF Single Sign-on issues with Microsoft Entra 
 
-**Pre-requisites for troubleshooting:**
+**Prerequisites for troubleshooting:**
 
 - Client tool for testing and managing APIs like Postman, Bruno, and so on.
 - Access to [https://samltool.io](https://samltool.io).

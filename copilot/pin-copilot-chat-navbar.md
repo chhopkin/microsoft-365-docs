@@ -51,7 +51,7 @@ Continue to the next section for a description of each option in this setting.
 
 ## Pinning options
 
-:::image type="content" source="media/pin-copilot-microsoft-365-apps2.png" alt-text="Screenshot of Microsoft 365 admin center showing selected checkbox for Pin Copilot Chat in Microsoft 365 apps setting." lightbox="media/pin-copilot-microsoft-365-apps2.png":::
+:::image type="content" source="media/pin-copilotchat-m365-apps.png" alt-text="Screenshot of Microsoft 365 admin center showing selected checkbox for Pin Copilot Chat in Microsoft 365 apps setting." lightbox="media/pin-copilotchat-m365-apps.png":::
 
 Copilot Chat is pinned by default to the navigation bar of the Microsoft 365 apps and the Microsoft 365 Copilot app. This behavior applies for most users eligible for Copilot Chat across web, mobile, and desktop.
 
@@ -73,13 +73,13 @@ You can pin the Microsoft 365 Copilot app to the Windows taskbar of managed devi
 
 This setting applies only to users who have an active Intune license. To view or configure Copilot taskbar pinning in the Microsoft 365 admin center, you need to be a member of the **Intune Administrator** role.
 
-:::image type="content" source="media/pin-copilot-microsoft-365-win-taskbar.png" alt-text="Screenshot showing the link to pin Microsoft 365 Copilot app to the Windows taskbar." lightbox="media/pin-copilot-microsoft-365-win-taskbar.png":::
+:::image type="content" source="media/pin-copilotchat-m365-apps2.png" alt-text="Screenshot showing the link to pin Microsoft 365 Copilot app to the Windows taskbar." lightbox="media/pin-copilotchat-m365-apps2.png":::
 
 For more information, see [Pin Microsoft 365 Copilot app to the Windows taskbar](pin-copilot-taskbar.md).
 
 If your organization doesn't have an Intune subscription, then you see the following page:
 
-:::image type="content" source="media/pin-copilot-microsoft-365-no-intune.png" alt-text="Screenshot showing the link to pin Microsoft 365 Copilot app to the Windows taskbar if you don't have an Intune subscription.":::
+:::image type="content" source="media/pin-m365-copilot-apps-windows.png" alt-text="Screenshot showing the link to pin Microsoft 365 Copilot app to the Windows taskbar if you don't have an Intune subscription.":::
 
 ## Pin at a group or user level
 

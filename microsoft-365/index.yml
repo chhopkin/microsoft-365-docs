@@ -46,10 +46,6 @@ highlightedContent:
     - title: Get your small business started with Microsoft 365
       itemType: video
       url: business-video/index.yml
-    # Card
-    - title: Set up your infrastructure for hybrid work
-      itemType: how-to-guide
-      url: solutions/empower-people-to-work-remotely.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -111,6 +107,9 @@ conceptualContent:
             - url: /microsoft-365/places
               itemType: overview
               text: Microsoft Places
+            - url: /microsoft-365/whiteboard
+              itemType: overview
+              text: Microsoft Whiteboard
         # Card
         - title: Microsoft 365 Apps and Office
           links:
@@ -133,31 +132,7 @@ conceptualContent:
           footerLink:
             url: /microsoft-365-apps
             text: See more
-        # Card
-        - title: Solutions for your business
-          links:
-            - url: solutions/empower-people-to-work-remotely.md
-              itemType: how-to-guide
-              text: Set up your infrastructure for hybrid work
-            - url: solutions/setup-secure-collaboration-with-teams.md
-              itemType: how-to-guide
-              text: Set up secure collaboration
-            - url: solutions/deploy-threat-protection.md
-              itemType: how-to-guide
-              text: Deploy threat protection
-            - url: solutions/data-privacy-protection.md
-              itemType: how-to-guide
-              text: Manage data privacy and data protection
-            - url: /microsoft-365/admin/security-and-compliance/m365b-security-overview
-              itemType: how-to-guide
-              text: Microsoft 365 security for smaller businesses and campaigns
-            - url: solutions/productivity-illustrations.md
-              itemType: download
-              text: Microsoft 365 productivity illustrations
-          # footerLink (optional)
-          footerLink:
-            url: solutions/index.yml
-            text: See more
+
         # Card
         - title: Manage devices
           links:

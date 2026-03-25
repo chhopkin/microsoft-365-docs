@@ -27,7 +27,7 @@ service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn about the new billing experience for business subscription in the Microsoft 365 admin center."
-ms.date: 11/10/2025
+ms.date: 03/03/2026
 ---
 
 # Overview of the new Microsoft billing experience for business subscriptions
@@ -60,7 +60,7 @@ For more information, see [Manage your Microsoft business billing profiles](bill
 
 The following list describes other changes we’ve made to the billing experience.
 
-- **New invoice**&mdash;The format of the invoice has changed. You will continue to get a separate invoice for each purchase you make. Mid-term changes will be invoiced around the beginning of the following month. For more information, see [Understand your bill or invoice](billing-and-payments/understand-your-invoice.md).
+- **New invoice**&mdash;The format of the invoice has changed. You will continue to get a separate invoice for each purchase you make. Mid-term changes such as adding or removing licenses will be billed the next day. For more information, see [Understand your bill or invoice](billing-and-payments/understand-your-invoice.md).
 - **More billing frequencies**&mdash;Depending on the product or service you buy, you can now choose to pay for your subscription monthly, yearly, or every three years.
 - **More subscription lengths**&mdash;Depending on the product or service you buy, you can choose a subscription length of one month, one year, or three years.
 - **New cancellation policy**&mdash;You can now only cancel and receive a prorated credit or refund if you cancel within seven days after the start or renewal of your subscription. If you cancel during this limited time window, the prorated amount is either credited towards your next invoice or returned to you in the next billing cycle. For more information, see [Cancel your Microsoft business subscription](subscriptions/cancel-your-subscription.md).

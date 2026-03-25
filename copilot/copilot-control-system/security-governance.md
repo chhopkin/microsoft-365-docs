@@ -8,7 +8,7 @@ manager: scotv
 ms.reviewer: bensum,sophieke,ericatoelle
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 10/09/2025
+ms.date: 02/25/2026
 ---
 
 # Copilot Control System security and governance

@@ -21,7 +21,7 @@ ms.date: 01/30/2026
 
 # Set up or disconnect pay-as-you-go billing in the Copilot node of the Microsoft 365 admin center
 
-This article explains how to set up or disconnect pay-as-you-go billing in the **Copilot** node of the Microsoft 365 admin center for Microsoft 365 Copilot agents.
+This article explains how to set up or disconnect pay-as-you-go billing in the **Copilot** node of the Microsoft 365 admin center for agents.
 
 ## Before you begin
 

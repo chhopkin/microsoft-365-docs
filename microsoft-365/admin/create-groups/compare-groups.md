@@ -1,7 +1,7 @@
 ---
 title: Compare types of groups in Microsoft 365
 ms.reviewer: batre
-ms.date: 10/01/2025
+ms.date: 02/02/2026
 f1.keywords: CSH
 ms.author: deniseb
 author: denisebmsft
@@ -34,7 +34,7 @@ description: Learn about the types of groups that are available in Microsoft 365
 
 # Compare types of groups in Microsoft 365
 
-In the Microsoft 365 admin center, in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**Groups**</a> section, you can create and manage these types of groups: 
+In the Microsoft 365 admin center, in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">**Groups**</a> section, you can create and manage these types of groups:
 
 - **Microsoft 365 Groups** that are used for collaboration between users, both inside and outside your company. They include collaboration services such as SharePoint and Planner. Microsoft Teams uses Microsoft 365 Groups for membership.
 - **Distribution groups** that are used for sending email notifications to a group of people.
@@ -54,7 +54,7 @@ Some groups allow dynamic membership or email, as listed in the following table:
 | Shared mailboxes | Yes | No |
 | Dynamic distribution groups | Yes | No |
 
-All of these group types can be used with Power Automate.
+Microsoft 365 groups can be used with Power Automate.
 
 ## Microsoft 365 Groups
 
@@ -66,7 +66,7 @@ Microsoft 365 Groups can be [configured for dynamic membership in Microsoft Entr
 
 Microsoft 365 Groups can be accessed through mobile apps such as Outlook for iOS and Outlook for Android.
 
-Group members can send as or send on behalf of the group email address if this feature is [enabled by the administrator](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group).
+Group members can send as or send on behalf of the group email address if this feature is [enabled by the administrator](/previous-versions/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group).
 
 If recipients subscribe to receive group conversations in their inbox, they can delete email messages from the group without removing those messages from the group's shared mailbox. And, if an email is deleted from the group's shared mailbox, it isn't deleted from group members' personal inbox. See [Who can delete email from the Group inbox](/microsoft-365/admin/create-groups/create-groups#who-can-delete-email-from-the-group-inbox).
 
@@ -84,7 +84,7 @@ Distribution groups can be added to a team in Microsoft Teams, though only the m
 
 Microsoft 365 Groups can't be members of distribution groups.
 
-## Dynamic distribution groups 
+## Dynamic distribution groups
 
 [Dynamic distribution groups](/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) are mail-enabled groups that are used to send mail to people with specific attributes, such as department or location. These attributes are defined in the Exchange admin center rather than Microsoft Entra ID.
 

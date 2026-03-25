@@ -3,7 +3,7 @@ title: The end-user experience after using migration orchestrator
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 01/26/2026
+ms.date: 03/16/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -25,7 +25,7 @@ description: "How individual users experience the results of using Microsoft 365
 
 Target users can access and interact with all content that was in their mailbox in the source tenant. Users can, for instance, reply to emails that they received while the mailbox was in the source tenant via their target tenant user profile.
 
-Source users no longer have any access to the mailbox or any of its content, including the calendar.
+Source users no longer have any access to the mailbox or any of its contents, including the calendar.
 
 ## Teams chats
 
@@ -127,10 +127,25 @@ If you need to edit Identity Mapping while any migration batches are running, do
 1. Self-chats ("You") aren't migrated. These self-chats aren't available in the target tenant.
 2. Chat threads created by a user external to the source and target tenant don't migrate or update. Target users don't have access to these chat threads.
 3. Chat threads created by a user who no longer exists and/or no longer has a Teams license on either tenant isn't migrated or updated. Target users don't have access to these chat threads.
-4. Reactions to chat messages aren't migrated. Target users don't see reactions sent before migration.
-5. Migrated threads that are still accessible on the source tenant. They aren't locked, but any new messages sent after migration don't migrate to the target tenant.
-6. Apps aren't migrated, including Polls.
-7. Forwarded/Scheduled messages aren't migrated. If a scheduled message was sent, it migrates. If a scheduled message was scheduled, but not sent, it doesn't migrate.
+4. 1:1 threads without two members aren't migrated.
+5. Reactions to chat messages aren't migrated. Target users don't see reactions sent before migration.
+6. Migrated threads that are still accessible on the source tenant. They aren't locked, but any new messages sent after migration don't migrate to the target tenant.
+7. Apps aren't migrated, including Polls. App messages aren't migrated.
+8. Forwarded/Scheduled messages aren't migrated. If a scheduled message was sent, it migrates. If a scheduled message was scheduled, but not sent, it doesn't migrate.
+9. Users with unrecognized GUID formats, users without Microsoft accounts, and users without display names or user IDs don't have their messages migrated and aren't added to target threads.
+10. Threads without any identifiable members aren't migrated.
+11. Users removed from chats before migration don't see the chat history on the target after migration.
+12. We don't migrate messages with:
+  - More than 4 MB of data
+  - Unsupported/decommissioned emojis
+  - Missing body content
+  - Legacy Skype metadata
+  - Code snippets
+  - Invalid source images
+  - Attachments without extensions
+  - Attachments with missing markers
+14. Deleted messages aren't migrated.
+15. System Event Messages other than meeting recap messages aren't migrated.
 
 ## Meetings issues
 
@@ -151,8 +166,8 @@ If you need to edit Identity Mapping while any migration batches are running, do
 15. All RSVPs are reset during migration. Attendees who have already RSVP'd (accepted, declined, tentative) have to respond again.
 16. Only meetings in the user's Default calendar migrate. Meetings hosted by other calendars created by the user are out of scope.
 17. Meeting chats for meetings that occurred over 60 days before the time of migration that contain a colon (**:**) in their titles have those colons replace by semicolons (**;**) in the new created group chat.
-1. The value of the "spoken language in this meeting" is reset to the default (English (US)) after migration.
-1. Meetings marked Confidential or Highly Confidential aren't migrated.
+18. The value of the "spoken language in this meeting" is reset to the default (English (US)) after migration.
+19. Meetings marked Confidential or Highly Confidential aren't migrated.
 
 ## Next steps
 

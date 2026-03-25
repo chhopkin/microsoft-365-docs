@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 01/06/2025
+ms.date: 03/04/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -81,8 +81,6 @@ Use these three factors to determine which of the two options is best for your b
 ### Option 1: Sign in with your Outlook, Hotmail, Yahoo, Gmail or other email account
 
 This option applies to Microsoft 365 Business Standard and Microsoft 365 Apps for Business. You sign in to Microsoft 365 with this email address. For example, somebody@example.com.
-
-:::image type="content" source="../../media/ssu-how-you-sign-in.png" alt-text="Screenshot: Sign in with your personal email.":::
 
 1. Create a password on the next page, and select **Create account** to continue. On the next page, read about how we handle your data and select whether you want Microsoft Partners to contact you. Select **Next**.
 

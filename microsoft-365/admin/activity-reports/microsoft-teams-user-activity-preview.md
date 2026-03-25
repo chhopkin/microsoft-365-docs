@@ -41,7 +41,7 @@ You can view the user activity in the Teams report by choosing the **User activi
 
 ![Microsoft 365 reports - Microsoft Teams user activity.](../../media/user-activity-charts.png)
 
-Select **Choose columns** to add or remove columns from the report.  
+Select **Choose columns** to add or remove columns from the report.
 
 :::image type="content" alt-text="Teams user activity report - choose columns." source="../../media/user-activity-columns.png":::
 
