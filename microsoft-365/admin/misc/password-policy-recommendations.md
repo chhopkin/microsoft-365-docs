@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 01/02/2026
 audience: Admin
 ms.topic: article
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: high
 ms.collection:
 - Tier1
