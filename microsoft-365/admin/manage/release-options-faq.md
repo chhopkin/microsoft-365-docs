@@ -28,6 +28,46 @@ appliesto:
 
 This article provides answers to frequently asked questions that IT admins might have about release options in Microsoft 365. For more information about release options in Microsoft 365, see [Manage continuous change in Microsoft 365](plan-for-change-management.md) and [Configure release options](configure-release-options.md).
 
+## What are Standard and Deferred Release options?
+These audience-based release options allow your organization to decide when certain major Microsoft 365 features will become available to your users.
+
+- **Standard Release**: Users receive new features as they begin rolling out in General Availability (GA).
+- **Deferred Release**: Users receive eligible major features 30 days after rollout begins in Standard Release.
+
+This helps your organization:
+
+- Start testing early with a small group of users
+- Prepare communications and training
+- Complete readiness or compliance reviews before broader rollout
+
+## Can I choose which users get Microsoft 365 features earlier vs later?
+
+Yes, within the same tenant, you can choose the following:
+
+- Assign most users to Standard Release and assign a subset of users to Deferred Release, or
+- Assign most users to Deferred Release and assign a small group of early adopters to Standard Release
+
+This allows you to:
+
+- Test changes with IT or pilot groups first
+- Give business-critical users more time before receiving changes
+
+## Can I defer individual features?
+
+No, you can’t defer individual features. Deferred release applies to eligible major features that Microsoft identifies as "deferred‑capable."
+
+If your tenant is configured for Deferred release, all eligible major features follow the deferred timeline automatically.
+
+You can still use existing admin controls (when available) to manage specific features in your tenant.
+
+## When does the 30‑day Deferred period begin?
+
+The 30‑day timer starts when the feature *begins* rolling out in general availability (GA) to Standard release users globally. The Deferred period doesn’t begin when the Standard global rollout completes. Standard users can begin evaluating the feature immediately, but users that are in Deferred release receive the feature 30 days later.
+
+## Will tenant-wide features respect Standard vs Deferred user settings?
+
+Most Microsoft 365 features are delivered at the user level and respect your Standard vs Deferred release assignments. However, some features are deployed at the tenant level. Tenant-wide changes might apply to all users at once, regardless of release audience assignment.
+
 ## What is a release audience and how does it affect my organization?
 
 You can segment audiences in your tenant into Standard release and Deferred release channels based on regulatory status and readiness. The Standard release audience receives Microsoft 365 features as soon as they become generally available. For features that are deferred-capable, Deferred release channels get a 30-day buffer for compliance validation.
