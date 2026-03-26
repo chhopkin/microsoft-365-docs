@@ -421,6 +421,10 @@ For information on SharePoint knowledge filtering, see [SharePoint Advanced Filt
 
 You can optionally customize how the Employee Self‑Service (ESS) agent appears and how users start conversations by configuring tenant‑level settings in the Microsoft 365 admin center. These settings complement Copilot Studio configuration and apply to deployed agents.
 
+## Roles that can access these settings in MAC 
+- Global Admin 
+- AI Admin 
+
 The **Rich landing page** gives you control over how your Employee Self-Service agent looks and feels to employees. On the agent’s landing page, you can:
 
 - Add accent colors to reflect your brand.
