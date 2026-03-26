@@ -60,14 +60,25 @@ Use Copilot Chat if you want users in your organization to:
 
 - Use secure AI chat grounded on the web and powered by the latest models
 - Access to pay-as-you-go agents
-- Use AI chat directly in Microsoft 365 apps like Word, Excel, PowerPoint, OneNote, and Outlook
 - Have built-in IT controls, enterprise data protection, and agent management
 - Use features like Copilot Pages, file upload, and image generation
+- - Use AI chat directly in Microsoft 365 apps like Word, Excel, PowerPoint, OneNote, and Outlook
 
 To learn more, see:
 
 - [Learn more about Copilot Chat](/copilot/overview)
 - [Read about Copilot for all: Introducing Microsoft 365 Copilot Chat - blog](https://www.microsoft.com/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat)
+
+> [!NOTE]
+>
+> Copilot experiences in Word, Excel, PowerPoint, and OneNote may vary depending on your organization's licensing and tenant configuration.
+> In-product labels are displayed in Microsoft 365 apps like Word, Excel, PowerPoint, and OneNote, and in the Microsoft 365 Copilot app, to help users identify their Copilot experience. 
+>
+> **M365 Copilot (Premium)** indicates that a user has a Microsoft 365 Copilot add-on license and the full experience of Copilot chat in Word, Excel, PowerPoint, and OneNote. 
+>
+>**M365 Copilot (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license but will have [standard access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) (Standard versus priority access to features in Microsoft 365 Copilot Chat) to Copilot in those apps to ensure a reliable experience.
+>
+> **Copilot chat (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license and does not have access to Copilot chat in Word, Excel, PowerPoint and OneNote.
 
 ## Microsoft 365 Copilot license
 Added Copilot license: AI chat grounded in organizational data and the web
