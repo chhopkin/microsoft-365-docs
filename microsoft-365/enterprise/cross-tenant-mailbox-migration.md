@@ -221,15 +221,15 @@ Now that the migration application and secret is successfully created, the next 
    $orgrelname = "[name of your new organization relationship]"
    # Enable customization if tenant is dehydrated
    $dehydrated = Get-OrganizationConfig | select isdehydrated
-   if ($dehydrated.isdehydrated -eq $true) {Enable-OrganizationCustomization}
+   if ($dehydrated.isdehydrated -eq $true) { Enable-OrganizationCustomization }
    if (!(New-DistributionGroup -Type Security -Name $scope)) { Write-Host "Group already exists." }
-   $orgrels=Get-OrganizationRelationship
+   $orgrels = Get-OrganizationRelationship
    $existingOrgRel = $orgrels | ?{$_.DomainNames -like $targetTenantId}
-   If ($null -ne $existingOrgRel)
+   if ($null -ne $existingOrgRel)
    {
        Set-OrganizationRelationship $existingOrgRel.Name -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability RemoteOutbound -OAuthApplicationId $appId -MailboxMovePublishedScopes $scope
    }
-   If ($null -eq $existingOrgRel)
+   if ($null -eq $existingOrgRel)
    {
        New-OrganizationRelationship $orgrelname -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability RemoteOutbound -DomainNames $targetTenantId -OAuthApplicationId $appId -MailboxMovePublishedScopes $scope
    }
@@ -258,7 +258,7 @@ For any mailbox moving from a source organization, you must provision a MailUser
       - **LegacyExchangeDN (flow as proxyAddress, "x500:\<LegacyExchangeDN\>")**: The LegacyExchangeDN must be present on target MailUser as x500: proxyAddress. **In addition, you also need to copy all x500 addresses from the source mailbox to the target mail user.** The move process doesn't proceed if these x500 addresses aren't present on the target object. Also, this step is important for enabling reply ability for emails that are sent before migration. The sender/recipient address in each email item and the autocomplete cache in Microsoft Outlook and in Microsoft Outlook Web App (OWA) use the value of the LegacyExchangeDN attribute. If a user can't be located using the LegacyExchangeDN value, the delivery of email messages might fail with a 5.1.1 NDR.
       - **UserPrincipalName**: UPN aligns to the user's NEW identity or target company (for example, user@northwindtraders.onmicrosoft.com).
       - **Primary SMTPAddress**: Primary SMTP address aligns to the user's NEW company (for example, user@northwindtraders.com).
-      - **TargetAddress/ExternalEmailAddress**: MailUser references the user's current mailbox hosted in source tenant (for example user@contoso.onmicrosoft.com). When this value is being assigned, verify that you have/are also assigning PrimarySMTPAddress. Otherwise, this value sets the PrimarySMTPAddress, which causes move failures. You can't add legacy smtp proxy addresses from source mailbox to target MailUser. For example, you can't maintain contoso.com on the MEU in northwindtraders.onmicrosoft.com tenant objects. Domains are associated with one Microsoft Entra ID or Exchange Online tenant only.
+      - **ExternalEmailAddress (TargetAddress)**: MailUser references the user's current mailbox hosted in source tenant (for example user@contoso.onmicrosoft.com). When this value is being assigned, verify that you have/are also assigning PrimarySMTPAddress. Otherwise, this value sets the PrimarySMTPAddress, which causes move failures. You can't add legacy smtp proxy addresses from source mailbox to target MailUser. For example, you can't maintain contoso.com on the MEU in northwindtraders.onmicrosoft.com tenant objects. Domains are associated with one Microsoft Entra ID or Exchange Online tenant only.
 
          Example **target** MailUser object:
 
@@ -267,7 +267,7 @@ For any mailbox moving from a source organization, you must provision a MailUser
          | Alias                | LaraN                                                                                                                                |
          | RecipientType        | MailUser                                                                                                                             |
          | RecipientTypeDetails | MailUser                                                                                                                             |
-         | UserPrincipalName    | LaraN@northwintraders.onmicrosoft.com                                                                                                |
+         | UserPrincipalName    | LaraN@northwindtraders.onmicrosoft.com                                                                                               |
          | PrimarySmtpAddress   | Lara.Newton@northwindtraders.com                                                                                                     |
          | ExternalEmailAddress | SMTP:LaraN@contoso.onmicrosoft.com                                                                                                   |
          | ExchangeGUID         | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                                 |
@@ -279,18 +279,18 @@ For any mailbox moving from a source organization, you must provision a MailUser
 
          Example **source** Mailbox object:
 
-         | Attribute            | Value                                                                                                                          |
-         | -------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-         | Alias                | LaraN                                                                                                                          |
-         | RecipientType        | UserMailbox                                                                                                                    |
-         | RecipientTypeDetails | UserMailbox                                                                                                                    |
-         | UserPrincipalName    | LaraN@contoso.onmicrosoft.com                                                                                                  |
-         | PrimarySmtpAddress   | Lara.Newton@contoso.com                                                                                                        |
-         | ExchangeGUID         | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                           |
-         | LegacyExchangeDN     | /o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9-Lara|
-         | EmailAddresses       | smtp:LaraN@contoso.onmicrosoft.com                                                                                             |
-         |                      | SMTP:Lara.Newton@contoso.com                                                                                                   |
-         |                      | X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f161af74128f460fba5c0c23984b3d6c-Lara |
+         | Attribute            | Value                                                                                                                                |
+         | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+         | Alias                | LaraN                                                                                                                                |
+         | RecipientType        | UserMailbox                                                                                                                          |
+         | RecipientTypeDetails | UserMailbox                                                                                                                          |
+         | UserPrincipalName    | LaraN@contoso.onmicrosoft.com                                                                                                        |
+         | PrimarySmtpAddress   | Lara.Newton@contoso.com                                                                                                              |
+         | ExchangeGUID         | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                                 |
+         | LegacyExchangeDN     | /o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9-Lara      |
+         | EmailAddresses       | smtp:LaraN@contoso.onmicrosoft.com                                                                                                   |
+         |                      | SMTP:Lara.Newton@contoso.com                                                                                                         |
+         |                      | X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f161af74128f460fba5c0c23984b3d6c-Lara       |
 
 7. Other attributes may be included in Exchange hybrid write-back already. If not, they should be included.
 
@@ -571,9 +571,9 @@ TestUser_8@northwindtraders.onmicrosoft.com      {FullAccess}                   
 > [!NOTE]
 > Cross-tenant mailbox and calendar permissions aren't supported. You must organize principals and delegates into consolidated move batches so that these connected mailboxes are transitioned at the same time from the source tenant.
 
-### What X500 proxy should be added to the target MailUser proxy addresses to enable migration?
+### What X.500 proxy should be added to the target MailUser proxy addresses to enable migration?
 
-The cross-tenant mailbox migration requires that the LegacyExchangeDN value of the source mailbox object is stamped as an x500 email address on the target MailUser object.
+The cross-tenant mailbox migration requires that the LegacyExchangeDN value of the source mailbox object is stamped as an X.500 email address on the target MailUser object.
 
 Example:
 
@@ -581,14 +581,14 @@ Example:
 LegacyExchangeDN value on source mailbox is:
 /o=First Organization/ou=Exchange Administrative Group(FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9Lara
 
-so, the x500 email address to be added to target MailUser object would be:
+so, the X.500 email address to be added to target MailUser object would be:
 x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9-Lara
 ```
 
 > [!NOTE]
-> In addition to this X500 proxy, you need to copy all X500 proxies from the mailbox in the source to the mailbox in the target.
+> In addition to this X.500 proxy, you need to copy all X.500 proxies from the mailbox in the source to the mailbox in the target.
 > 
-> While rare, you could also run across an X400 proxy address on a mailbox. While it's not a requirement for the move to complete, we recommend you also stamp this address on the target mail user object.
+> While rare, you could also run across an X.400 proxy address on a mailbox. While it's not a requirement for the move to complete, we recommend you also stamp this address on the target MailUser object.
 
 ### Can the source and target tenants utilize the same domain name?
 

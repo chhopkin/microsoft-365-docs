@@ -10,6 +10,7 @@ ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
+ms.subservice: security
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot

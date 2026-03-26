@@ -13,6 +13,7 @@ audience: Admin
 customer-intent: As an IT admin, I want to prepare my organization with for Microsoft 365 Copilot with Microsoft 365 E3 or E5.
 ms.topic: get-started
 ms.service: microsoft-365-copilot
+ms.subservice: security
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg

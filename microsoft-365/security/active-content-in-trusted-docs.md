@@ -8,7 +8,7 @@ manager: deniseb
 audience: Admin
 ms.topic: tutorial
 ms.localizationpriority: medium
-ms.service: microsoft-365-security
+ms.service: microsoft-365-admin
 ms.collection:
 - M365-security-compliance
 - tier3
