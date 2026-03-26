@@ -35,7 +35,7 @@ sections:
       - question: "Can I enable Claude in Researcher agent?"
         answer: "Yes. Learn more about enabling [Claude in Researcher agent](connect-to-ai-subprocessor.md)."
       - question: "Can I select which model will be used within Researcher?"
-        answer: "Yes, you can pick the model and mode in the model picker on the top right corner of the page when in the Researcher Agent. If you are adding Researcher (@Researcer) to a Copilot chat outside of the agent, the model picker will be disabled and it will default to auto.  The ability to select the model when adding Researcher outside the of the agent is coming soon. "
+        answer: "Yes, you can pick the model and mode in the model picker on the top right corner of the page when in the Researcher Agent. If you are adding Researcher (@Researcher) to a Copilot chat outside of the agent, the model picker will be disabled and it will default to auto. The ability to select the model when adding Researcher outside of the agent is coming soon."
 
   - name: Administration and controls
     questions:
