@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 03/12/2026
+ms.date: 03/26/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -81,7 +81,7 @@ Microsoft 365 Copilot offers chat grounded in both web-based and work-based data
 
 By default, Microsoft and Microsoft partners provide ready-to-use agents that you can quickly integrate and deploy with Microsoft 365 Copilot Chat and Microsoft 365 Copilot. In addition, you can integrate and deploy agents created by members of your organization.
 
-When using a Microsoft 365 subscription, you have agents available with your Microsoft 365 apps, such as Word and Excel. You can also view agents directly in the Microsoft 365 Copilot app. For more information, see [Welcome to the Microsoft 365 Copilot app](https://support.microsoft.com/topic/welcome-to-the-microsoft-365-copilot-app-092599f1-5917-4bd6-bd59-58af628bbc39).
+You can view agents directly in the Microsoft 365 Copilot app. For more information about using The Microsoft 365 Copilot app, see [What is the Microsoft 365 Copilot app?](https://support.microsoft.com/topic/welcome-to-the-microsoft-365-copilot-app-092599f1-5917-4bd6-bd59-58af628bbc39) For information about agents, see [Get started with agents in the Microsoft 365 Copilot app](https://support.microsoft.com/topic/get-started-with-agents-in-the-microsoft-365-copilot-app-943e563d-602d-40fa-bdd1-dbc83f582466).
 
 ✅ **Task: Understand how to view agents in Microsoft 365 Copilot and Microsoft Teams.**
 
