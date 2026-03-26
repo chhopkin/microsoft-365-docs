@@ -9,7 +9,7 @@ manager: dansimp
 ms.date: 03/25/2026
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.custom:
 - admindeeplinkCOMPLIANCE
