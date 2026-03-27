@@ -52,8 +52,8 @@ While users can create a Microsoft 365 group from Outlook or other apps, as an a
 
 1. On the **Settings** page, type a unique email address for the group, choose a privacy option and whether you want to add Microsoft Teams, and then select **Next**.
 
-  > [!NOTE]
-  > The email domain of the group can be changed after the group has been created.
+    > [!NOTE]
+    > The email domain of the group can be changed after the group has been created.
     
 1. After reviewing your settings and making any changes, select **Create group**.
 
