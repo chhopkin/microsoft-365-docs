@@ -21,7 +21,7 @@ For organizations that disable access to the Windows Store, the installer can be
 
 To install for a single user, follow these steps:
 
-1. Download the [.exe installer](https://go.microsoft.com/fwlink/?linkid=2325486).
+1. Download the [.exe installer](https://get.microsoft.com/installer/download/9WZDNCRD29V9).
 1. Navigate to where the exe file is located.
 1. Run the downloaded installer manually to install the app. 
 
