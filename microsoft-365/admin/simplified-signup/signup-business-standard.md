@@ -172,7 +172,6 @@ To add a domain and create a business email account, see the following articles:
 
 - [Set up Microsoft 365 Business Standard](../setup/setup-business-standard.md).
 - [Add a domain to Microsoft 365](../setup/add-domain.md).
-- [Finish setting up](../setup/setup-business-standard.md#finish-setting-up).
 
 ## Microsoft 365 Business Standard Frequently asked questions (FAQ)
 
