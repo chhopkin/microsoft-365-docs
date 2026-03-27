@@ -124,7 +124,7 @@ Employee Self Service (ESS) is available on mobile through the M365 Copilot app 
 
 If your organization has enabled ESS on web, users can access ESS on mobile by signing in to the M365 Copilot app and selecting the ESS agent from the agent list.
 
-No additional configuration is required to enable mobile access.
+No other configuration is required to enable mobile access.
 
 Users should update to the latest version of the app if they are not able to see the ESS agent.
 
@@ -134,12 +134,12 @@ The ESS mobile experience supports core self-service scenarios available through
 
 | Capability Area       | Limitation on Mobile                                                                 | Recommended Behavior                                                                 |
 |-----------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Agent Handoff         | Handoff to another agent or live agent is not supported in mobile experiences       | Users are redirected to complete the interaction on ESS web                         |
-| Starter Prompts       | ESS Mobile currently displays six starter prompts on its main landing page. Neither iOS nor Android currently offer access to the Prompt Gallery nor the capability to add reference or modify values in a starter prompt. | — |
-| Rich Landing Page     | Rich landing page elements configured in MAC (e.g., starter prompts, quick links, accent color) may not render on mobile | Use ESS on web for full landing page experience; configure essential prompts in Copilot Studio when needed |
-| Multi Agent Support   | Multi-agent orchestration scenarios may have limited functionality on mobile        | Continue interaction on web for complex agent routing                               |
-| Official Sources      | Official sources on mobile provide the same content as the web experience, but the visual elements, such as the official source header and badge, will not be shown | — |
-| Official Answers      | On mobile, the Official Answer label will not appear in the response. Official Answers will provide the same content as the web experience, but users will need to click an adaptive card to access the content. | — |
+| Agent Handoff         | Handoff to another agent or live agent is not supported in mobile experiences.       | Users are redirected to complete the interaction on ESS web                         |
+| Starter Prompts       | ESS Mobile currently displays six starter prompts on its main landing page. Neither iOS nor Android currently offer access to the Prompt Gallery nor the capability to add references or modify values in a starter prompt. | — |
+| Rich Landing Page     | Rich landing page elements configured in MAC (for example, starter prompts, quick links, accent color) may not render on mobile. | Use ESS on web for full landing page experience; configure essential prompts in Copilot Studio when needed. |
+| Multi Agent Support   | Multi-agent orchestration scenarios may have limited functionality on mobile.        | Continue interaction on web for complex agent routing.                               |
+| Official Sources      | Official sources on mobile provide the same content as the web experience, but the visual elements, such as the official source header and badge, will not be shown. | — |
+| Official Answers      | On mobile, the Official Answer label does not appear in the response. Official Answers provide the same content as the web experience, but users need to click an adaptive card to access the content. | — |
 
 ### What’s Next
 
