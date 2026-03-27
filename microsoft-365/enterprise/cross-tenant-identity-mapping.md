@@ -390,7 +390,7 @@ The CTIMwrite command writes the following attributes from the mapped source mai
    This command updates MailUser attributes in the on-premises Active Directory (AD).
 
 4. Sync changes to Microsoft 365:
-    1. Wait for Microsoft Entra Connect (Azure AD Connect) to synchronize changes to the cloud.
+    1. Wait for Microsoft Entra Connect (formerly Azure AD Connect) to synchronize changes to the cloud.
     1. You may manually trigger a sync for faster results.
 5. Confirm attributes are correctly written:
 
