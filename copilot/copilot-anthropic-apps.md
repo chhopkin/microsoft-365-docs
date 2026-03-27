@@ -23,4 +23,42 @@ description: "Learn about the new toggle for Microsoft 365 apps for Anthropic in
 
 # Copilot in Microsoft 365 apps with Anthropic models
 
-Microsoft is introducing a new offering with Anthropic AI models as part of Microsoft Online Services, delivering enterprise-grade commitments and safeguards to ensure secure and responsible use of Anthropic models within your organization.
+To provide additional flexibility in model choice for customers in the European Union (EU), European Free Trade Association (EFTA), and United Kingdom (UK), Microsoft 365 Copilot includes an admin setting that enables the use of Anthropic models in Copilot experiences across Word, Excel, and PowerPoint.
+
+This setting allows Microsoft 365 Copilot in supported Microsoft 365 apps to use Anthropic models by default when generating or refining content.
+
+## Anthropic model availability in Microsoft 365 apps
+
+As the admin, you can manage the Anthropic model setting in the Microsoft 365 admin center. When this setting is turned on, Anthropic models are available for use in Copilot experiences across:
+
+- Microsoft Excel  
+- Microsoft PowerPoint  
+- Microsoft Word *(support for Anthropic models will be added in summer, 2026)*
+
+This setting applies only to Copilot experiences within these apps and does not affect Anthropic model usage in other Microsoft 365 Copilot features or services. It is separate from the [global Anthropic subprocessor setting in Microsoft 365](connect-to-ai-subprocessor.md). Changes to this setting do not modify global subprocessor configurations.
+
+---
+
+## Data processing and the EU Data Boundary
+
+When Anthropic models are used in Copilot experiences in Word, Excel, or PowerPoint, data processing for these models occurs outside of the Microsoft EU Data Boundary (EUDB).
+
+[Anthropic operates as a Microsoft subprocessor](connect-to-ai-subprocessor.md) and is subject to Microsoft Product Terms and the Microsoft Data Protection Addendum (DPA).
+
+---
+
+## Manage the setting in the Microsoft 365 admin center
+
+1. Sign in to the Microsoft 365 admin center as an administrator assigned the **AI Administrator** role.  
+2. Go to **Copilot** -> **Settings** -> **View All** -> **AI providers operating as Microsoft Subprocessor**.
+3. Confirm the correct setting for your organization.
+
+---
+
+## Appendix (temporary tracking — not for publishing)
+
+### Topics that will reference this article
+
+- Create files with Word, Excel, and PowerPoint Agents in Microsoft 365 Copilot | Microsoft Learn  
+- Get started with Word, Excel, and PowerPoint Agents in Microsoft 365 Copilot - Microsoft Support  
+- Word, Excel, and PowerPoint Agents: Responsible AI frequently asked questions | Microsoft Learn
