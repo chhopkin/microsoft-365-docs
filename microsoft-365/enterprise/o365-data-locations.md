@@ -72,7 +72,7 @@ Select the link for each of the Microsoft 365 services to understand the current
 - Viva Learning [Data Location](m365-dr-service-other.md#viva-learning)
 - Viva Pulse [Data Location](/viva/pulse/get-started/data-residency-for-viva-pulse)
 - Whiteboard [Data Location](m365-dr-service-other.md#whiteboard)
-- Yammer [Data Location](m365-dr-service-other.md#viva-engage)
+- Viva Engage [Data Location](m365-dr-service-other.md#viva-engage)
 
 For more information on data location for non-Microsoft 365 Services, see the following service documentation pages:
 
