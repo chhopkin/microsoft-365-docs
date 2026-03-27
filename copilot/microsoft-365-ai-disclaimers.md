@@ -8,6 +8,7 @@ manager: scotv
 ms.date: 12/10/2025
 ms.topic: how-to
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 audience: Admin
 appliesto:
 - ✅ Microsoft 365 Copilot

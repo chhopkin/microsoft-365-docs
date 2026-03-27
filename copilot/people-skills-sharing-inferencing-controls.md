@@ -5,6 +5,7 @@ author: kwekuako
 ms.author: kwekua
 manager: scotv
 ms.service: microsoft-365-copilot
+ms.subservice: people-skills
 ms.collection: 
 - trust-pod
 - operations-pod
