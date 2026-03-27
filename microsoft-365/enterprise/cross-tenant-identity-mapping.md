@@ -96,7 +96,7 @@ The target MailUser must have these attributes from the source mailbox or assign
 3. LegacyExchangeDN (flow as proxyAddress, `"x500:<LegacyExchangeDN>"`): The LegacyExchangeDN must be present on the target MailUser as x500: proxyAddress. All the x500 addresses from the source mailbox must be on the target mail user. The move process doesn't proceed if these x500 addresses aren't present on the target object. This step is important for enabling reply ability for emails sent before migration. The sender/recipient address in each email item and the autocomplete cache in Microsoft Outlook and in Microsoft Outlook Web App (OWA) use the value of the LegacyExchangeDN attribute. If a user can't be located using the LegacyExchangeDN value, the delivery of email messages may fail with a 5.1.1 NDR.
 4. UserPrincipalName: UPN aligns to the user's ***new*** identity or target company (for example, user@target.onmicrosoft.com).
 5. Primary SMTPAddress: Primary SMTP address aligns to the user's NEW company (for example, user@target.onmicrosoft.com).
-6. TargetAddress/ExternalEmailAddress: MailUser references the user's current mailbox hosted in source tenant (for example user@source.onmicrosoft.com). When this value is assigned, confirm you're also assigning PrimarySMTPAddress. Otherwise, this value sets the PrimarySMTPAddress, which causes move failures.
+6. TargetAddress/ExternalEmailAddress: MailUser references the user's current mailbox hosted in source tenant (for example, user@source.onmicrosoft.com). When this value is assigned, confirm you're also assigning PrimarySMTPAddress. Otherwise, this value sets the PrimarySMTPAddress, which causes move failures.
 7. You can't add legacy SMTP proxy addresses from the source mailbox to the target MailUser. For example, you can't maintain source.com on the MEU in target.onmicrosoft.com tenant objects. Domains are associated with one Microsoft Entra ID or Exchange Online tenant only.
 
 To confirm the source user's attributes, run:
@@ -385,11 +385,12 @@ The CTIMwrite command writes the following attributes from the mapped source mai
     ```powershell
     Write-CtimIdentitiesInOnPremises -IdentitiesCsvFilepath <path> -ProgressOutputCsvFilePath <path>
     ```
+    Using Cross-Tenant Identity Mapping reduces mistakes when configuring target objects for a migration by automatically configuring values such as _ExchangeGuid_, _ArchiveGuid_, and all necessary _X.500 proxy addresses_.
 
    This command updates MailUser attributes in the on-premises Active Directory (AD).
 
 4. Sync changes to Microsoft 365:
-    1. Wait for Microsoft Entra Connect (Azure AD Connect) to synchronize changes to the cloud.
+    1. Wait for Microsoft Entra Connect (formerly Azure AD Connect) to synchronize changes to the cloud.
     1. You may manually trigger a sync for faster results.
 5. Confirm attributes are correctly written:
 
