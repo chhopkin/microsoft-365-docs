@@ -35,7 +35,7 @@ Copilot Cowork can:
 - Create Word documents, Excel spreadsheets, PowerPoint presentations, and PDFs.
 - Search across your organization for files, people, and information.
 - Browse and manage files in OneDrive and SharePoint.
-- Execute Python and Bash scripts to process data, generate reports, or automate calculations.
+- Process data, generate reports, or automate calculations.
 - Prepare daily briefings and meeting intelligence summaries.
 - Draft stakeholder communications.
 - Conduct deep research across multiple sources and compile comprehensive analysis.

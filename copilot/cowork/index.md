@@ -23,7 +23,7 @@ Copilot Cowork in Microsoft 365 Copilot can carry out tasks on your behalf. You 
 
 Copilot Cowork is an AI agent available in Microsoft 365 Copilot. It carries out tasks across your Microsoft 365 environment. Rather than describing what you could do, it does the work.
 
-- **Sends emails**: Drafts, replies, forwards, and sends messages through Outlook, complete with attachments.
+- **Sends emails**: Drafts, replies, forwards, and sends messages through Outlook.
 - **Schedules meetings**: Creates calendar events, adds attendees, and helps you organize your day.
 - **Creates documents**: Builds Word documents, Excel spreadsheets, PowerPoint presentations, and PDFs.
 - **Posts in Teams**: Sends messages to channels and chats.
@@ -39,20 +39,22 @@ The following sections describe what you can ask Copilot Cowork to do.
 
 - Draft and send emails, reply to messages, and forward entire email threads to the right people.
 - Save email drafts and manage attachments before sending.
-- Post updates in Teams channels or send direct messages in Teams chats.
+- Post updates in Teams channels or send direct messages in 1:1 or group Teams chats.
+- Create and send HTML newsletters via email.
+- Manage your inbox by sorting emails into folders, deleting emails, and responding inline
 - Prepare polished stakeholder communications such as status updates, announcements, and follow-ups.
 
 ### Documents and files
 
 - Create Word documents, Excel spreadsheets, PowerPoint presentations, and PDFs from scratch.
 - Edit and refine existing documents you share in the conversation.
-- Browse your OneDrive files and pull in the content you need.
+- Browse your SharePoint and OneDrive files and pull in the content you need.
 
 ### Calendar and meetings
 
 - Schedule meetings using natural language, such as "set up a 30-minute check-in with Alex tomorrow at 2 PM."
-- Create all-day events or add a Teams meeting link automatically.
-- Manage your calendar&mdash;add events, move things around, or clean up conflicts.
+- Create all-day events.
+- Manage your calendar&mdash;add events, move things around, or clean up conflicts by declining meetings. Cowork can include a message to the organizer on the reason you're declining.
 - Get meeting intelligence and insights to help you prepare for upcoming conversations.
 - Start your day with a daily briefing that highlights what's ahead.
 
@@ -60,7 +62,7 @@ The following sections describe what you can ask Copilot Cowork to do.
 
 - Search across your organization to find documents, messages, and information.
 - Perform deep research that synthesizes information from multiple sources into comprehensive reports.
-- Browse your OneDrive folders and select files to work with.
+- Browse your SharePoint and OneDrive folders and select files to work with.
 
 ### Automation
 
@@ -84,6 +86,7 @@ Here's how a typical interaction works:
 
 1. **Describe your task**: Tell Copilot Cowork what you need. For example, "Send a meeting recap to my team" or "Create a slide deck summarizing Q3 results." You can also attach files by dragging them into the chat.
 1. **Watch Copilot Cowork work**: The agent breaks your request into steps and works through them one by one. You can follow along as each step appears in the conversation.
+1. **Interrupt, steer, or pause the conversation**: At any point, you can interrupt Copilot Cowork to give it additional context or clarify your request. 
 1. **Approve actions when asked**: Before Copilot Cowork takes an important action, like sending an email or scheduling a meeting, it pauses and asks for your go-ahead. You decide whether to proceed.
 1. **Review the results**: When Copilot Cowork finishes, review what it produced. Download documents, check sent messages, or ask Copilot Cowork to make changes.
 

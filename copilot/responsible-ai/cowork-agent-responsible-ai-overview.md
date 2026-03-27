@@ -42,10 +42,6 @@ Copilot Cowork connects to your Outlook, Calendar, Teams, Work IQ, Microsoft 365
 
 Copilot Cowork is available through the [Frontier program](https://adoption.microsoft.com/copilot/frontier-program/).
 
-## Application Card
-
-For information about how Microsoft 365 Copilot works, including its intended uses, limitations, evaluations, safety components, and best practices for responsible deployment, see the [Application card: Microsoft 365 Copilot](../microsoft-365-copilot-application-card.md).
-
 ## Related content
 
 - [Copilot Cowork overview](../cowork/index.md)
