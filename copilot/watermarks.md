@@ -15,7 +15,7 @@ ms.collection:
 - must-keep
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 02/24/2026
+ms.date: 03/27/2026
 ---
 
 # Add watermarks to content generated or altered by using AI in Microsoft 365
@@ -64,7 +64,7 @@ Regardless of how you configure this policy, [additional information is added to
 
 ## Watermarks for images
 
-The "Include a watermark when content from Microsoft 365 is generated or altered by AI" policy doesn’t apply to images. Instead, your users will be able to turn on watermarks for images by going to **Settings & Privacy** > **Privacy** at [https://myaccount.microsoft.com](https://myaccount.microsoft.com). We anticipate this capability will be available by the end of March 2026.
+The "Include a watermark when content from Microsoft 365 is generated or altered by AI" policy doesn’t apply to images. Instead, your users will be able to turn on watermarks for images by going to **Settings & Privacy** > **Privacy** > **Data options** at [https://myaccount.microsoft.com](https://myaccount.microsoft.com).
 
 > [!NOTE]
 > - If you don’t want your users to be able to generate images by using AI in Microsoft 365, you can set the "Control access to Designer Image Generation" policy to **Enabled** in [Cloud Policy](/microsoft-365-apps/admin-center/overview-cloud-policy).
