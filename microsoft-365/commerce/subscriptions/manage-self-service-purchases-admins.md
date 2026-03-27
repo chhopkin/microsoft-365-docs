@@ -107,6 +107,9 @@ Both methods let you do the following tasks:
 - View a list of applicable products and their statuses.
 - View or modify the current setting for a specific product.
 
+> [!NOTE]
+> It can take up to 72 hours for the policy to be disabled and changes to occur. For self-serve trials in Microsoft Teams, we recommended that you close and  restart the app to ensure the change is reflected.
+
 ### Use the Microsoft 365 admin center to allow or block self-service purchases and trials
 
 > [!NOTE]
