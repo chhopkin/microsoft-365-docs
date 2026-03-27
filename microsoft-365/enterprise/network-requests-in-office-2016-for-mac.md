@@ -53,9 +53,9 @@ The following network endpoints are used to download the Office for Mac installa
 |:-----|:-----|:-----|
 |```https://go.microsoft.com/fwlink/```  <br/> |ST  <br/> |Microsoft 365 Installation Portal forward link service to latest installation packages.  <br/> |
 |```https://officecdn-microsoft-com.akamaized.net/```  <br/> |SS  <br/> |Location of installation packages on the Content Delivery Network.  <br/> |
-|```https://officecdn.microsoft.com/```  <br/> |SS  <br/> |Location of installation packages on the Content Delivery Network.  <br/> |
+|```https://res.public.onecdn.static.microsoft/mro1cdnstorage/```  <br/> |SS  <br/> |Location of installation packages on the Content Delivery Network.  <br/> |
 |```https://officeci-mauservice.azurewebsites.net/```  <br/> |ST  <br/> |Management Control endpoint for Microsoft AutoUpdate  <br/> |
-|```https://officecdnmac.microsoft.com/```  <br/> |  <br/> |Enhanced content delivery network (CDN) for Microsoft AutoUpdate updates  <br/> |
+|```https://res.public.onecdn.static.microsoft/mro1cdnstorage/```  <br/> |  <br/> |Enhanced content delivery network (CDN) for Microsoft AutoUpdate updates  <br/> |
 
  **First app launch**
   
@@ -76,7 +76,7 @@ The following network endpoints are contacted on first launch of an Office app. 
 |```https://store.office.com/```  <br/> |WXP  <br/> |CS  <br/> |Store configuration for Office apps.  <br/> |
 |```https://odc.officeapps.live.com/```  <br/> |WXPN  <br/> |CS  <br/> |Office Document Integration Services Catalog (list of services and endpoints) and Home Realm Discovery.  <br/> |
 |```https://cdn.odc.officeapps.live.com/```  <br/> |WXPON  <br/> |CS  <br/> |Resources for Home Realm Discovery v2 (15.40 and later)  <br/> |
-|```https://officecdn.microsoft.com/```  <br/> |WXPON  <br/> |ST  <br/> |Microsoft AutoUpdate Manifests - checks to see if there are updates available  <br/> |
+|```https://res.public.onecdn.static.microsoft/mro1cdnstorage/```  <br/> |WXPON  <br/> |ST  <br/> |Microsoft AutoUpdate Manifests - checks to see if there are updates available  <br/> |
 |```https://ajax.aspnetcdn.com/```  <br/> |WXPO  <br/> |SS  <br/> |Microsoft Ajax JavaScript Library  <br/> |
 |```https://wikipedia.firstpartyapps.oaspapps.com/```  <br/> |W  <br/> |SS  <br/> |Wikipedia app for Office configuration and resources.  <br/> |
 |```https://excelbingmap.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |SS  <br/> |Bing Map app for Office configuration and resources.  <br/> |
