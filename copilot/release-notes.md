@@ -12,6 +12,7 @@ audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg

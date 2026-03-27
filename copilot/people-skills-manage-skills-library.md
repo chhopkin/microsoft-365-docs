@@ -5,6 +5,7 @@ author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
 ms.service: microsoft-365-copilot
+ms.subservice: people-skills
 manager: scotv
 ms.topic: how-to
 ms.date: 05/29/2025

@@ -4,6 +4,7 @@ description: Enterprise and company IT Admins can use this guide to manage the d
 author:      efrene
 ms.author:   efrene
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.topic: how-to
 ms.date:     03/26/2026
 manager: scotv
