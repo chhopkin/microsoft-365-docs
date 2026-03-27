@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene
 author: efrene
 manager: scotv
-ms.date: 03/13/2026
+ms.date: 03/27/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -26,6 +26,16 @@ description: Learn how to use Microsoft 365 usage analytics in Power BI to track
 ---
 
 # Microsoft 365 usage analytics overview
+
+> [!IMPORTANT]
+> Beginning in January 2026, the **Company field** filter in the **User Activity** tab is no longer available. Customers can combine metrics from the Microsoft 365 usage report graph API with their own organizational data sources based on user attributes.
+> The Microsoft 365 usage report graph APIs include:
+> [getEmailActivityUserDetail](/graph/api/reportroot-getemailactivityuserdetail)
+> [getOneDriveActivityUserDetail](/graph/api/reportroot-getonedriveactivityuserdetail)
+> [getSharePointActivityUserDetail](/graph/api/reportroot-getsharepointactivityuserdetail)
+> [getSkypeForBusinessActivityUserDetail](/graph/api/reportroot-getskypeforbusinessactivityuserdetail)
+> [getTeamsUserActivityUserDetail](/graph/api/reportroot-getteamsuseractivityuserdetail)
+> [getYammerActivityUserDetail](/graph/api/reportroot-getyammeractivityuserdetail)
 
 This article is intended for Microsoft 365 administrators who want to understand what insights Microsoft 365 usage analytics provides and how the available reports support adoption and licensing decisions.
 
