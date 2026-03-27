@@ -10,6 +10,7 @@ author: leeclontz
 manager: KumarVivek
 ms.author: leeclontz
 ms.service: microsoft-365-copilot
+ms.subservice: cowork
 ---
 
 # Responsible AI overview for Copilot Cowork agent

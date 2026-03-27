@@ -8,6 +8,7 @@ manager: KumarVivek
 ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
+ms.subservice: cowork
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -39,14 +40,6 @@ To give Copilot Cowork extra context, you can include files with your message.
    - Select **Attach cloud files** to pick files from OneDrive, SharePoint, or Teams.
 1. Wait for the upload to finish. An animated progress chip for each file displays.
 1. Add your message text if needed, then send it.
-
-### Select an agent
-
-Copilot Cowork gives you access to specialized agents for different kinds of tasks. To direct your message to a specific agent:
-
-1. Type **@** in the chat input. A list of available agents appears.
-1. Select the agent you want. It appears in the input field so you know who you're talking to.
-1. Type your message and send it.
 
 ### Use voice input
 
@@ -87,7 +80,7 @@ A status indicator shows your connection state:
 
 ### Send messages while Copilot Cowork is busy
 
-If you think of something else while Copilot Cowork is still working, you can send another message. It's queued automatically. Your message appears above the input field. Copilot Cowork processes queued messages in order.
+If you think of something else while Copilot Cowork is still working, you can send another message. It's queued automatically. Your message appears above the input field. Copilot Cowork processes queued messages in order. If your new message changes the direction of the task, Copilot Cowork adjusts its approach accordingly.
 
 ### Answer questions from Copilot Cowork
 
@@ -105,7 +98,7 @@ If a message fails to send, Copilot Cowork shows you an error with an option to 
 
 ## Approve actions
 
-Copilot Cowork asks for your permission before taking sensitive actions, like sending an email or posting a message in Teams. Each approval shows a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you know the impact. The following table explains the options you have when approving:
+Copilot Cowork asks for your permission before taking sensitive actions, like sending an email or posting a message in Teams. Approvals for medium and high risk actions include a risk level indicator so you know the impact. The following table explains the options you have when approving:
 
    | Option | What it does |
    |---|---|
@@ -115,7 +108,7 @@ Copilot Cowork asks for your permission before taking sensitive actions, like se
 
 ### Review and respond to an approval request
 
-When you need an approval, a dialog appears with the details of the action Copilot Cowork wants to take. For some actions, a rich preview of the content appears (for example, a draft email or a Teams message). For other actions, a summary of what Copilot Cowork plans to do appears. Each approval prompt includes a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you can gauge the impact before deciding.
+When you need an approval, a dialog appears with the details of the action Copilot Cowork wants to take. For some actions, a rich preview of the content appears (for example, a draft email, a Teams message, or a scheduled meeting). For other actions, a summary of what Copilot Cowork plans to do appears. Approvals for medium and high risk actions include a risk level indicator so you can gauge the impact before deciding.
 
 > [!IMPORTANT]
 > Always review the details before you approve. Copilot Cowork shows you exactly what it plans to do. Check that the recipients, content, and other details are correct.
@@ -150,6 +143,9 @@ When Copilot Cowork creates or updates files during a conversation, you can grab
 
 > [!TIP]
 > When Copilot Cowork produces multiple output files, select **Download All** at the top of the output file list to download every file as a single zip archive.
+
+> [!NOTE]
+> You can also access files that Copilot Cowork creates directly in your OneDrive **Cowork** folder at any time.
 
 ### Supported file types
 
@@ -210,18 +206,12 @@ To open or close it, select the side panel toggle in the conversation view.
 | Progress | A progress bar showing the percentage of tasks complete, plus a step-by-step log of what Copilot Cowork is doing. |
 | Input folder | Files you provided as context for the conversation. |
 | Output folder | Files Copilot Cowork created. Each file has **Download** and **Preview** buttons. |
-| Skills | Skills that Copilot Cowork used during the conversation, shown as chips. |
+| Skills | Skills that Copilot Cowork loaded during the conversation, shown as chips. |
+| Schedule | Scheduled prompts you created, with options to edit, pause, resume, or delete them. |
+| Permissions | Actions you approved with **Approve & Remember**, so you can review your approval preferences. |
 
 > [!NOTE]
 > The side panel updates in real time as Copilot Cowork works, so you always have a current view of progress, files, and skills.
-
-### View sources
-
-When Copilot Cowork references information in a response, you can open the **Sources** panel to view citations. The panel lists the sources Copilot Cowork used so you can verify the information or explore the original content.
-
-1. Select the **Sources** link on a response that includes citations.
-1. The **Sources** panel opens alongside the conversation.
-1. Select **Close** to dismiss the panel.
 
 ## Control the conversation
 
@@ -245,16 +235,9 @@ To stop Copilot Cowork's current work entirely, select **Cancel**. Canceling cle
 > [!TIP]
 > Use **Pause (soft)** when you want to check intermediate results before Copilot Cowork continues. Use **Cancel** when you want to change direction entirely.
 
-## Browse and manage projects
+## Manage your tasks
 
-The **Projects dashboard** helps you organize and track work across multiple conversations.
-
-### Access the dashboard
-
-1. Select **Tasks** from the main navigation.
-1. The dashboard opens with two tabs:
-   - **Highlights**: Shows recommended actions and your most recent projects.
-   - **All Projects**: Shows every project you have access to.
+Select **Tasks** from the main navigation to see all your conversations with Copilot Cowork.
 
 ### Switch between views
 
@@ -262,21 +245,13 @@ Choose the view that works best for you:
 
 | View | Description |
 |---|---|
-| Kanban board | Organizes projects into columns by status. Drag and drop projects between columns to update their status. |
-| List | Shows projects in a vertical list with key details. |
-| Grid | Displays projects as cards in a grid layout. |
+| List | Shows tasks in a vertical list with key details. |
+| Kanban board | Organizes tasks into columns by status. Drag and drop tasks between columns to update their status. |
+| Scheduled | Shows your scheduled prompts with options to edit, pause, resume, or delete them. |
 
-### Track project and task status
+### Track task status
 
-Every project has a status that tells you where things stand:
-
-| Status | Meaning |
-|---|---|
-| In progress | Work is actively underway. |
-| Ready for review | The work is done and needs your review. |
-| Done | The project is complete. |
-
-Individual tasks within a project can also show these statuses:
+Each task shows a status that tells you where things stand:
 
 | Status | Meaning |
 |---|---|
@@ -285,13 +260,7 @@ Individual tasks within a project can also show these statuses:
 | Done | The task is finished. |
 | Failed | The task didn't complete. Review the conversation for details. |
 
-### Create a new project
-
-When you start a new project, Copilot Cowork walks you through setup with a step-by-step progress screen that shows each stage of initialization.
-
-### Open a project or task
-
-Select any project or task card to jump into its conversation and keep working.
+Select any task to open its conversation and continue working.
 
 ## Browse OneDrive files
 
@@ -307,9 +276,7 @@ To pull in the files you need, you can browse your OneDrive files and folders di
 
 ## Copilot Cowork skills
 
-Copilot Cowork comes with a set of built-in skills. These skills are specialized abilities that let it handle different types of tasks. When you ask Copilot Cowork to do something, it automatically picks the right skill for the job.
-
-Here's what Copilot Cowork can do:
+Copilot Cowork uses specialized skills as it works. When the agent loads a new skill during your conversation, a message such as "Preparing to compose emails" appears, and the skill shows up in the side panel. The following out-of-the-box skills are available:
 
 | Skill | What it does |
 |---|---|
@@ -327,14 +294,14 @@ Here's what Copilot Cowork can do:
 | Communications | Draft stakeholder communications. |
 | Adaptive Cards | Generates interactive card-based responses with structured layouts, buttons, and data displays in the conversation. |
 
-You can display which skills Copilot Cowork used during a conversation in the **Skills** section of the side panel. They appear as chips.
+You can display which skills Copilot Cowork loaded during a conversation in the **Skills** section of the side panel. They appear as chips.
 
 ### Create custom skills
 
 You can extend Copilot Cowork with your own custom skills stored in OneDrive.
 
-1. In your OneDrive, navigate to the `/Cowork/.skills/` folder. Create it if it doesn't exist.
-2. Create a subfolder with your skill name (for example, `/Cowork/.skills/weekly-report/`).
+1. In your OneDrive, navigate to the `/Documents/Cowork/Skills/` folder. Create it if it doesn't exist.
+2. Create a subfolder with your skill name (for example, `/Documents/Cowork/Skills/weekly-report/`).
 3. Inside the subfolder, create a file named `SKILL.md`.
 4. Add a YAML frontmatter block with a `name` and `description`, followed by the skill instructions in Markdown:
 
@@ -355,16 +322,9 @@ You can extend Copilot Cowork with your own custom skills stored in OneDrive.
 
 ## Schedule prompts
 
-You can schedule a prompt to run automatically at a set time or on a recurring basis. Scheduled prompts are useful for tasks you want Copilot Cowork to handle regularly, such as a daily briefing or a weekly status report.
+You can schedule a prompt to run automatically on a recurring basis. To create a scheduled prompt, describe what you want and when in your message. For example, "Send me a daily briefing every morning at 9 AM" or "Create a weekly status report every Friday."
 
-To create a scheduled prompt:
-
-1. Enter your prompt in the message box.
-1. Select the **Schedule** option instead of sending the prompt immediately.
-1. Choose the frequency (one-time, daily, weekly) and the time.
-1. Select **Save** to activate the schedule.
-
-Scheduled prompts appear in the side panel and in your task list with a schedule indicator. You can edit, pause, or cancel a scheduled prompt at any time from the task list.
+Copilot Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel. From there, you can edit, pause, resume, or delete any scheduled prompt.
 
 ## Provide feedback
 

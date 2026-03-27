@@ -10,6 +10,7 @@ manager: KumarVivek
 ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
+ms.subservice: cowork
 appliesto:
 - Microsoft 365 Copilot
 ---

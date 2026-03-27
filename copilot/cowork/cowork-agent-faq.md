@@ -8,6 +8,7 @@ manager: KumarVivek
 ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
+ms.subservice: cowork
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -45,13 +46,13 @@ For step-by-step instructions, see [Create custom skills](use-cowork-agent.md#cr
 Getting started takes just a few steps.
 
 1. Open  [Microsoft 365 Copilot](https://m365.cloud.microsoft).
-2. Select the **Copilot Cowork agent** from the agent list (or use **@Cowork** to mention it).
+2. Select the **Copilot Cowork** agent.
 3. Describe the task you want to accomplish. You can type up to 16,000 characters, and attach files by dragging them into the chat or using the file picker.
 4. Send your message. Copilot Cowork begins processing your request.
 
 ## Does Copilot Cowork work on mobile devices?
 
-Yes. Copilot Cowork is available in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft), in the Microsoft 365 Copilot desktop app for Windows and Mac, and in the mobile app for iOS (17.4 and later) and Android. On smaller screens, panels collapse to overlays and the layout adapts to fit the available space.
+Copilot Cowork is currently available in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft) and in the Microsoft 365 Copilot desktop app for Windows and Mac. Mobile support is not yet available.
 
 ## What file types does Copilot Cowork support?
 
@@ -85,7 +86,7 @@ Select a file to open an inline preview. You can also go full-screen or open the
 
 ## How does action approval work?
 
-Before Copilot Cowork takes a sensitive action like sending an email or posting in Teams, it displays an approval prompt. Each prompt includes a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you can gauge the impact. Your choices are:
+Before Copilot Cowork takes a sensitive action like sending an email or posting in Teams, it displays an approval prompt. Approvals for medium and high risk actions include a risk level indicator so you can gauge the impact. Your choices are:
 
 - **Approve**: Let Copilot Cowork proceed with the action this one time.
 - **Approve & Remember**: Allow the action now and skip the prompt for similar actions in the current conversation.
@@ -94,7 +95,7 @@ Before Copilot Cowork takes a sensitive action like sending an email or posting 
 You can also select **Show parameters** to see the technical details of the action before deciding.
 
 > [!NOTE]
-> For some actions, such as sending an email or posting in Teams, Copilot Cowork shows you a native preview of the content so you can review it before approving.
+> For some actions, such as sending an email, posting a Teams message, or scheduling a meeting, Copilot Cowork shows you a preview of the content so you can review it before approving.
 
 ## Can I pause or stop Copilot Cowork while it's working?
 
@@ -115,18 +116,19 @@ Yes. Select the microphone button in the chat input to speak your message. Copil
 > [!NOTE]
 > Voice input availability depends on your browser. Not all browsers support this feature.
 
-## How do I manage my projects and tasks?
+## How do I manage my tasks?
 
-Copilot Cowork gives you the following ways to stay organized:
+Select **Tasks** from the main navigation to see all your conversations with Copilot Cowork. You can switch between three views:
 
-- **Tasks view**: Show your tasks in a **list** or **kanban board** and track their progress.
-- **Projects dashboard**: Browse your **highlights** and **all projects**. Switch between kanban, list, and grid views. Each project shows its current status so you always know where things stand.
+- **List**: Shows tasks in a vertical list.
+- **Kanban board**: Organizes tasks into columns by status.
+- **Scheduled**: Shows your scheduled prompts with options to edit, pause, resume, or delete them.
 
-Select a project to jump back into the conversation.
+Select any task to jump back into its conversation.
 
 ## Can I schedule recurring prompts?
 
-Yes. You can schedule a prompt to run at a set time or on a recurring basis — daily, weekly, or as a one-time event. Scheduled prompts are useful for tasks like daily briefings or weekly status reports. You can manage, pause, or cancel scheduled prompts from your task list.
+Yes. Describe what you want and when in your message — for example, "Send me a daily briefing every morning at 9 AM." Copilot Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel.
 
 ## Where are my files saved?
 
@@ -146,6 +148,14 @@ Yes. Administrators can manage access to Copilot Cowork through the Microsoft 36
 
 For more information, see [Microsoft 365 Copilot admin settings](/microsoft-365-copilot/copilot-for-microsoft-365-admin).
 
+## Are there known limitations?
+
+Yes. The following limitations are by design:
+
+- Copilot Cowork can't access or edit files stored locally on your device. It works with files in OneDrive and SharePoint.
+- Copilot Cowork can't delete files or folders in OneDrive or SharePoint.
+- Custom skills created by users are not validated by Microsoft. Review custom skill outputs carefully.
+
 ## Is Copilot Cowork secure?
 
 Yes. Every action Copilot Cowork takes is authorized through your Microsoft 365 account. Copilot Cowork accesses only the services and data you're already permitted to use. The agent runs in a secure, isolated environment.
@@ -158,10 +168,6 @@ You can share feedback in the following ways:
 - **Document feedback**: When previewing a file Copilot Cowork created, use the feedback controls to rate it.
 - **Inline comments**: Leave comments directly on messages in the conversation to provide targeted feedback on specific parts of a response.
 - **General feedback**: To share broader thoughts about your experience, open the menu and select the feedback option.
-
-## Can I see where Copilot Cowork gets its information?
-
-Yes. When Copilot Cowork references information in a response, you can open the **Sources** panel to view citations. The panel lists the sources Copilot Cowork used so you can verify the information or explore the original content.
 
 ## Does Copilot Cowork ask me questions?
 

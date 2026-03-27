@@ -8,6 +8,7 @@ manager: KumarVivek
 ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
+ms.subservice: cowork
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -26,7 +27,7 @@ Before you begin, make sure you have:
 - **A modern browser**: Microsoft Edge or Google Chrome recommended.
 - **The Copilot Cowork agent available**: Copilot Cowork is enabled in your Microsoft 365 Copilot environment.
 
-Copilot Cowork works in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft), in the Microsoft 365 Copilot desktop app for Windows and Mac, and in the mobile app for iOS (17.4 and later) and Android.
+Copilot Cowork works in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft) and in the Microsoft 365 Copilot desktop app for Windows and Mac.
 
 ## Open Copilot Cowork
 
@@ -41,27 +42,26 @@ The Copilot Cowork home page opens. A chat input where you can describe what you
 
 1. Type what you want done in the chat input, or select one of the suggested prompts such as **Catch me up**, **Organize my inbox**, or **Prep for a meeting**. You can enter up to 16,000 characters, so feel free to include plenty of detail.
 1. Attach files if needed. You can drag and drop files onto the input area, select **Upload images and files** to browse your device, or select **Attach cloud files** to pick files from OneDrive, SharePoint, or Teams.
-1. (Optional) Pick a specific agent by typing **@** and selecting from the list.
 1. (Optional) Use voice input by selecting the microphone icon to speak your request instead of typing.
 1. Send your message by selecting **Send**.
 
 > [!TIP]
-> The more specific you are, the better your results. Instead of *send an email*, try *Send an email to the marketing team summarizing last week's campaign results and include the attached report as a PDF*.
+> The more specific you are, the better your results. Instead of *send an email*, try *Send an email to the marketing team summarizing last week's campaign results and format the summary as a PDF*.
 
 ## Watch Copilot Cowork work
 
 After you send your message, Copilot Cowork begins processing your request. Here's what appears in the chat as each step happens:
 
 - **A thinking indicator**: Appears while Copilot Cowork figures out the best approach.
-- **Skill messages**: Show when Copilot Cowork prepares a skill it needs, such as "Preparing to compose emails" or "Preparing to create Word documents."
+- **Skill messages**: Show when Copilot Cowork loads a skill it needs, such as "Preparing to compose emails" or "Preparing to create Word documents."
 - **Tool steps**: Show exactly what Copilot Cowork is doing at each stage, such as *Composing your email* or *Creating your presentation*.
 - **The response streams in**: In real time, so you can follow along as Copilot Cowork builds your result.
 
 ## Approve actions
 
-Before Copilot Cowork takes an action on your behalf, like sending an email or scheduling a meeting, it asks for your permission. When the approval dialog appears, you have the following choices:
+Before Copilot Cowork takes an action on your behalf, like sending an email, posting a Teams message, or scheduling a meeting, it asks for your permission. When the approval dialog appears, you have the following choices:
 
-Each approval prompt includes a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you can quickly gauge the impact.
+Approval prompts for medium and high risk actions include a risk level indicator so you can gauge the impact.
 
 - **Approve**: Allow this action to proceed.
 - **Approve & Remember**: Allow this action, and tell Copilot Cowork not to ask for approval on the same type of action again in this conversation.
@@ -78,6 +78,7 @@ When Copilot Cowork finishes, any files it created appear in the side panel on t
 
 - Download individual files to your device, or select **Download All** to download every file as a single zip archive.
 - Preview files directly in the browser. Supported formats include PDF, Markdown, images, CSV, and HTML.
+- Open files in OneDrive and directly in the online version of PowerPoint. 
 
 The side panel also shows a progress bar with the percentage of tasks complete and the skills Copilot Cowork used. You can select **thumbs down** on responses that missed the mark, or **thumbs up** on ones that were helpful.
 
@@ -85,7 +86,7 @@ The side panel also shows a progress bar with the percentage of tasks complete a
 
 Select the **Tasks** view to see everything you asked Copilot Cowork to do. Here you can:
 
-- Switch between **list view** and **kanban board** depending on how you like to organize.
+- Switch between **list view**, **kanban board**, and the **Scheduled** tab depending on how you like to organize.
 - Select any task to open it and resume the conversation.
 
 ## Related content
