@@ -110,3 +110,37 @@ The following matrix provides an overview of the various external systems integr
 - [Learn more](workday.md#topics) about Workday preconfigured scenarios.
 - [Learn more](servicenow-hrsd-itsm.md#topics) about ServiceNow HR preconfigured scenarios.
 - [Learn more](servicenow-hrsd-itsm.md#topics-1) about ServiceNow IT preconfigured scenarios.
+
+## Use Employee Self Service (ESS) on Mobile
+
+Employee Self Service (ESS) is available on mobile through the M365 Copilot app on iOS and Android, allowing employees to access HR and IT support wherever they work.
+
+### What ESS on Mobile Supports
+
+- Access to the ESS agent from the M365 Copilot mobile app  
+- Core ESS scenarios aligned with the web experience  
+
+### How Access Works
+
+If your organization has enabled ESS on web, users can access ESS on mobile by signing in to the M365 Copilot app and selecting the ESS agent from the agent list.
+
+No additional configuration is required to enable mobile access.
+
+Users should update to the latest version of the app if they are not able to see the ESS agent.
+
+### Current Limitations
+
+The ESS mobile experience supports core self-service scenarios available through the M365 Copilot mobile app. Some capabilities currently available on web are not yet supported on mobile.
+
+| Capability Area       | Limitation on Mobile                                                                 | Recommended Behavior                                                                 |
+|-----------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Agent Handoff         | Handoff to another agent or live agent is not supported in mobile experiences       | Users are redirected to complete the interaction on ESS web                         |
+| Starter Prompts       | ESS Mobile currently displays six starter prompts on its main landing page. Neither iOS nor Android currently offer access to the Prompt Gallery nor the capability to add reference or modify values in a starter prompt. | — |
+| Rich Landing Page     | Rich landing page elements configured in MAC (e.g., starter prompts, quick links, accent color) may not render on mobile | Use ESS on web for full landing page experience; configure essential prompts in Copilot Studio when needed |
+| Multi Agent Support   | Multi-agent orchestration scenarios may have limited functionality on mobile        | Continue interaction on web for complex agent routing                               |
+| Official Sources      | Official sources on mobile provide the same content as the web experience, but the visual elements, such as the official source header and badge, will not be shown | — |
+| Official Answers      | On mobile, the Official Answer label will not appear in the response. Official Answers will provide the same content as the web experience, but users will need to click an adaptive card to access the content. | — |
+
+### What’s Next
+
+The ESS mobile experience will continue to evolve as platform and configuration capabilities converge. Future updates will expand supported scenarios and improve parity across surfaces.
