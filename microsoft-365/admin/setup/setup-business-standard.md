@@ -1,5 +1,5 @@
 ---
-title: Set Up Microsoft 365 Business Standard with your domain
+title: Set up Microsoft 365 Business Standard with your domain
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -33,9 +33,7 @@ description: Set up Microsoft 365 Business Standard with a domain you own or buy
 
 # Set up Microsoft 365 Business Standard with a new or existing domain
 
-When you purchase Microsoft 365 Business Standard, you can add a domain. The domain can be one you already own or a new one that you purchase. For more information about signing up for Microsoft 365 Business Standard, see [Sign up for Microsoft 365 Business Standard](../simplified-signup/signup-business-standard.md).
-
-This article explains how to set up your Microsoft 365 Business Standard subscription with a domain.
+When you purchase Microsoft 365 Business Standard, you can add a domain. The domain can be one you already own or a new one that you purchase. For more information about signing up for Microsoft 365 Business Standard, see [Sign up for Microsoft 365 Business Standard](../simplified-signup/signup-business-standard.md). This article explains how to set up your Microsoft 365 Business Standard subscription with a domain. By the end of this article, your domain will be connected and users can send and receive business email.
 
 > [!TIP]
 >
@@ -69,9 +67,9 @@ To add, modify, or remove domains, you must be a [Domain Name Administrator](/en
 
 ## Add users and assign licenses
 
-After you add your domain, add users and assign licenses to them through the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). When you assign licenses to your users, you give them access to the services included in your Microsoft 365 Business Standard subscription. To add users and assign licenses, follow the steps in [Add users and assign licenses](../add-users/add-users.md).
+Assigning licenses to your users gives them access to the services included in your subscription. After you add your domain, you can add users and assign licenses to them through the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). To add users and assign licenses, follow the steps in [Add users and assign licenses](../add-users/add-users.md).
 
-If your Microsoft 365 Business Standard subscription already has existing users, make sure to also assign licenses to them.
+If your subscription already has existing users, make sure that licenses are also assigned to them.
 
 ## Set up users with Microsoft 365 services
 
@@ -80,17 +78,21 @@ For steps on setting up your users on Microsoft 365 services such as Outlook, Mi
 For more information, see the following articles:
 
 - [Set up Outlook for Microsoft 365 for business email](setup-outlook.md).
-- [Setup OneDrive included with Microsoft 365](https://support.microsoft.com/office/937e3ac8-b396-4a70-a561-6eaa479a4720).
+- [Set up OneDrive included with Microsoft 365](https://support.microsoft.com/office/937e3ac8-b396-4a70-a561-6eaa479a4720).
 
-### Watch: Set up Outlook for email
+## Watch: Set up Outlook for email
+
+The following video shows how to set up Outlook for email with your Microsoft 365 Business Standard subscription:
 
 > [!VIDEO e30573c6-b0d5-4007-8ff6-8c9dfd4e39fe]
 
-#### Watch: Import and redirect email
+## Watch: Import and redirect email
+
+The following video shows how to import your previous email, calendar, and contacts from previous email accounts into your new Microsoft 365 account:
 
 > [!VIDEO 9efe5ae1-1dec-4f2c-8ea5-fef10843388e]
 
-#### Import email
+## Import email
 
 In Outlook, you can import your previous email, calendar, and contacts from previous email accounts into your new Microsoft 365 account.
 
@@ -108,7 +110,7 @@ In Outlook, you can import your previous email, calendar, and contacts from prev
 
 For more information, see [Move your old email, calendars, and contacts to Microsoft 365](https://support.microsoft.com/office/365-2c37f0b7-2915-423c-b35e-9e03267f23dc).
 
-You can also use the [Exchange admin center](https://go.microsoft.com/fwlink/p/?linkid=2059104) to import user's email. For more information, see [Ways to migrate multiple email accounts to Microsoft 365 or Office 365](/Exchange/mailbox-migration/mailbox-migration).
+You can also use the [Exchange admin center](https://go.microsoft.com/fwlink/p/?linkid=2059104) to import users' email. For more information, see [Ways to migrate multiple email accounts to Microsoft 365 or Office 365](/Exchange/mailbox-migration/mailbox-migration).
 
 ## Invite users to join your subscription and organization
 
