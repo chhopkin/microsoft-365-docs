@@ -28,9 +28,9 @@ description: Learn how to use Microsoft 365 usage analytics in Power BI to track
 # Microsoft 365 usage analytics overview
 
 > [!IMPORTANT]
-> Beginning in March 2026, the *Company field* filter in the *User Activity* tab is **no longer supported**. Customers can join metrics from the Microsoft 365 usage report Graph API with their own organizational data sources based on user attributes and build this in their own in-house custom dashboards in Power BI or other data visualization tools.
+> Starting in March 2026, the *Company field* filter in the *User Activity* tab will **no longer be supported**. To continue filtering activity data by company attributes, you can join metrics from the Microsoft 365 usage report Graph API with your own data sources and build a custom dashboard in Power BI or another data visualization tool of your choice. 
 >
-> The Microsoft 365 usage report graph APIs include:</br>
+> The following Graph API reports include user-level detail:</br>
 > [getEmailActivityUserDetail](/graph/api/reportroot-getemailactivityuserdetail)</br>
 > [getOneDriveActivityUserDetail](/graph/api/reportroot-getonedriveactivityuserdetail)</br>
 > [getSharePointActivityUserDetail](/graph/api/reportroot-getsharepointactivityuserdetail)</br>
@@ -38,7 +38,7 @@ description: Learn how to use Microsoft 365 usage analytics in Power BI to track
 > [getTeamsUserActivityUserDetail](/graph/api/reportroot-getteamsuseractivityuserdetail)</br>
 > [getYammerActivityUserDetail](/graph/api/reportroot-getyammeractivityuserdetail)</br>
 >
-> Instead of using the Graph API, you can export user details from the corresponding reports in the Microsoft 365 admin center.
+> If using Microsoft 365 usage report Graph API is not an option for your organization, you can also export user detail reports directly from the Microsoft 365 admin center as an alternative.
 
 This article is intended for Microsoft 365 administrators who want to understand what insights Microsoft 365 usage analytics provides and how the available reports support adoption and licensing decisions.
 
