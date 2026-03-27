@@ -53,7 +53,7 @@ Data security and compliance are enforced through:
 
 ## Customization, scalability, and extensibility
 
-Copilot Studio and Power Platform provide extensive customization options, including low-code and pro-code development environments. Organizations can modify agent behavior, extend dialog flows, and integrate additional data sources. The platform supports scaling across regions and business units, with centralized management and version control for agent configurations.
+Copilot Studio and Power Platform provide extensive customization options, including low-code and pro-code development environments. Organizations can modify agent behavior, extend dialog flows, and integrate more data sources. The platform supports scaling across regions and business units, with centralized management and version control for agent configurations.
 
 Each starter comes with default content and accelerators to get you started like:
 
@@ -69,7 +69,7 @@ The agent ships with a few solution accelerators to integrate with external syst
 - Flows
 - Templates
 
-In addition to the shipped solution accelerators, the agent is extensible within Copilot Studio by adding components to support additional business scenarios.
+In addition to the shipped solution accelerators, the agent is extensible within Copilot Studio by adding components to support other business scenarios.
 
 [Learn more](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent) about Copilot Studio samples and adding more scenarios.
 
@@ -113,7 +113,7 @@ The following matrix provides an overview of the various external systems integr
 
 ## Use Employee Self Service (ESS) on Mobile
 
-Employee Self Service (ESS) is available on mobile through the M365 Copilot app on iOS and Android, allowing employees to access HR and IT support wherever they work.
+Employee Self Service (ESS) is available on mobile through the M365 Copilot app on iOS and Android. This enables employees to access HR and IT support wherever they work.
 
 ### What ESS on Mobile Supports
 
@@ -135,7 +135,7 @@ The ESS mobile experience supports core self-service scenarios available through
 | Capability Area       | Limitation on Mobile                                                                 | Recommended Behavior                                                                 |
 |-----------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | Agent Handoff         | Handoff to another agent or live agent is not supported in mobile experiences.       | Users are redirected to complete the interaction on ESS web                         |
-| Starter Prompts       | ESS Mobile currently displays six starter prompts on its main landing page. Neither iOS nor Android currently offer access to the Prompt Gallery nor the capability to add references or modify values in a starter prompt. | — |
+| Starter Prompts       | ESS Mobile currently displays six starter prompts on its main landing page. iOS and Android do not currently offer access to the Prompt Gallery nor the capability to add references or modify values in a starter prompt. | — |
 | Rich Landing Page     | Rich landing page elements configured in MAC (for example, starter prompts, quick links, accent color) may not render on mobile. | Use ESS on web for full landing page experience; configure essential prompts in Copilot Studio when needed. |
 | Multi Agent Support   | Multi-agent orchestration scenarios may have limited functionality on mobile.        | Continue interaction on web for complex agent routing.                               |
 | Official Sources      | Official sources on mobile provide the same content as the web experience, but the visual elements, such as the official source header and badge, will not be shown. | — |
@@ -143,4 +143,4 @@ The ESS mobile experience supports core self-service scenarios available through
 
 ### What’s Next
 
-The ESS mobile experience will continue to evolve as platform and configuration capabilities converge. Future updates will expand supported scenarios and improve parity across surfaces.
+The ESS mobile experience continues to evolve as platform and configuration capabilities converge. Future updates will expand supported scenarios and improve parity across surfaces.
