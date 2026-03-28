@@ -445,9 +445,9 @@ items:
         items:
         - name: Overview of App Builder
           href: responsible-ai/faq-app-builder.md
-      - name: Copilot Cowork agent (Frontier)
+      - name: Copilot Cowork (Frontier)
         items:
-        - name: Overview of Copilot Cowork agent
+        - name: Overview of Copilot Cowork
           href: cowork/index.md
         - name: Get started
           href: cowork/get-started.md
