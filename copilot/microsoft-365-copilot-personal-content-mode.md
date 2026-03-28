@@ -11,6 +11,7 @@ audience: Admin
 ms.reviewer: s.francis
 ms.topic: how-to
 ms.service: microsoft-365-copilot
+ms.subservice: security
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
