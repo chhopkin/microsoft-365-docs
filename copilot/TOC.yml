@@ -451,10 +451,12 @@ items:
           href: cowork/index.md
         - name: Get started
           href: cowork/get-started.md
-        - name: Use Copilot Cowork agent
+        - name: Use Copilot Cowork
           href: cowork/use-cowork-agent.md
-        - name: Copilot Cowork agent common questions
+        - name: Copilot Cowork common questions
           href: cowork/cowork-agent-faq.md
+        - name: Managing Copilot Cowork
+          href: cowork/cowork-admin-governance.md
         - name: Responsible AI
           items:
           - name: Overview
