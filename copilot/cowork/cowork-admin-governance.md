@@ -57,7 +57,7 @@ You manage Cowork the same way you manage any agent, through the **Microsoft 365
 
 **Navigation:** [admin.microsoft.com](https://admin.microsoft.com) → **Copilot** → **Agents** → **All agents**
 
-From there, find **Copilot Cowork** and select it to manage its settings. The key availability controls are:
+From there, find **Cowork** and select it to manage its settings. The key availability controls are:
 
 | Setting | Effect |
 |---|---|
@@ -75,10 +75,10 @@ For a full walkthrough of these controls, see [Manage agents in the Microsoft 36
 
 Instead of waiting for users to install Cowork themselves, admins can **deploy** it on behalf of all users or a specific group. Deploying an agent automatically installs it, and users don't need to take any other action.
 
-**To deploy Copilot Cowork:**
+**To deploy Cowork:**
 
 1. In the admin center, go to **Copilot** → **Agents** → **All agents**.
-2. Select **Copilot Cowork**.
+2. Select **Cowork**.
 3. Under **Deploy to**, choose **Entire organization** or **Specific users/groups**.
 4. Select **Deploy**.
 
