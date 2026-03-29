@@ -1,6 +1,6 @@
 ---
-title: "Use Copilot Cowork agent (Frontier)"
-description: "Learn how to have conversations, manage files, approve actions, and organize projects with Copilot Cowork agent in Microsoft 365 Copilot."
+title: "Use Copilot Cowork (Frontier)"
+description: "Learn how to have conversations, manage files, approve actions, and organize projects with Copilot Cowork in Microsoft 365 Copilot."
 ms.date: 03/30/2026
 ms.topic: how-to
 author: leeclontz
@@ -13,26 +13,26 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Use Copilot Cowork agent (Frontier)
+# Use Copilot Cowork (Frontier)
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Copilot Cowork agent in Microsoft 365 Copilot carries out tasks on your behalf, such as send emails, create documents, schedule meetings, and search across your organization. This article explains everything you can do with Copilot Cowork.
+Copilot Cowork in Microsoft 365 Copilot carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
 
 ## Start a conversation
 
-The Copilot Cowork home page has a chat input where you can type or speak your request. Below it, a list of your recent tasks appears, so you can resume a previous conversation.
+The Cowork home page has a chat input where you can type or speak your request. Below it, a list of your recent tasks appears, so you can resume a previous conversation.
 
 ### Type a message
 
-1. Go to the Copilot Cowork home page. You see a set of suggested prompts such as **Catch me up**, **Organize my inbox**, **Organize my week**, **Prep for a meeting**, **Plan an event**, **Prepare for my 1:1**, and **Research a company**. Select one to get started quickly, or continue with the steps below.
+1. Go to the Cowork home page. You see a set of suggested prompts such as **Catch me up**, **Organize my inbox**, **Organize my week**, **Prep for a meeting**, **Plan an event**, **Prepare for my 1:1**, and **Research a company**. Select one to get started quickly, or continue with the steps below.
 1. Select the chat input field.
 1. Type your message or instruction. You can enter up to 16,000 characters.
 1. Submit your message by pressing **Enter** or selecting the **Send** button.
 
 ### Attach files
 
-To give Copilot Cowork extra context, you can include files with your message.
+To give Cowork extra context, you can include files with your message.
 
 1. Choose how to add files:
    - **Drag and drop** files directly onto the chat input.
@@ -53,17 +53,17 @@ You can also use speech-to-text to dictate your message.
 > [!TIP]
 > Check the home page for your recent tasks. Select any task to jump back into that conversation without starting over.
 
-## Follow along as Copilot Cowork works
+## Follow along as Cowork works
 
-After you send a message, Copilot Cowork begins processing your request. You can follow along in real time.
+After you send a message, Cowork begins processing your request. You can follow along in real time.
 
-### What displays while Copilot Cowork is working
+### What displays while Cowork is working
 
-As Copilot Cowork works on your request, some things happen on screen:
+As Cowork works on your request, some things happen on screen:
 
-- **Thinking indicator**: An animation lets you know Copilot Cowork is processing your message.
-- **Step-by-step updates**: Updates show what Copilot Cowork is doing at each stage, such as *Composing your email* or *Searching OneDrive*.
-- **Streaming response**: Copilot Cowork's reply appears word by word as it generates, so you don't have to wait for the entire response.
+- **Thinking indicator**: An animation lets you know Cowork is processing your message.
+- **Step-by-step updates**: Updates show what Cowork is doing at each stage, such as *Composing your email* or *Searching OneDrive*.
+- **Streaming response**: Cowork's reply appears word by word as it generates, so you don't have to wait for the entire response.
 - **Interactive cards**: Some responses include interactive cards with structured layouts, buttons, and data displays directly in the conversation.
 
 > [!NOTE]
@@ -73,48 +73,48 @@ As Copilot Cowork works on your request, some things happen on screen:
 
 A status indicator shows your connection state:
 
-- **Connecting**: Copilot Cowork is getting ready.
+- **Connecting**: Cowork is getting ready.
 - **Connected**: The connection is active.
-- **Reconnecting**: The connection dropped briefly. Copilot Cowork is working to restore it automatically.
+- **Reconnecting**: The connection dropped briefly. Cowork is working to restore it automatically.
 - **Failed**: Something went wrong. Select **Retry** to try connecting again.
 
-### Send messages while Copilot Cowork is busy
+### Send messages while Cowork is busy
 
-If you think of something else while Copilot Cowork is still working, you can send another message. It's queued automatically. Your message appears above the input field. Copilot Cowork processes queued messages in order. If your new message changes the direction of the task, Copilot Cowork adjusts its approach accordingly.
+If you think of something else while Cowork is still working, you can send another message. It's queued automatically. Your message appears above the input field. Cowork processes queued messages in order. If your new message changes the direction of the task, Cowork adjusts its approach accordingly.
 
-### Answer questions from Copilot Cowork
+### Answer questions from Cowork
 
-Sometimes Copilot Cowork needs more information to complete your request. When this happens, it presents a set of choices for you to pick from.
+Sometimes Cowork needs more information to complete your request. When this happens, it presents a set of choices for you to pick from.
 
 1. Review the question and the available options.
 1. Use the arrow keys to navigate, then press **Space** to select your choice.
 1. Select **Submit** to send your answer.
 
-If you'd rather not answer, select **Skip**. Copilot Cowork continues with the information it already has.
+If you'd rather not answer, select **Skip**. Cowork continues with the information it already has.
 
 ### If something goes wrong
 
-If a message fails to send, Copilot Cowork shows you an error with an option to retry. To resend the message, select **Retry**.
+If a message fails to send, Cowork shows you an error with an option to retry. To resend the message, select **Retry**.
 
 ## Approve actions
 
-Copilot Cowork asks for your permission before taking sensitive actions, like sending an email or posting a message in Teams. Approvals for medium and high risk actions include a risk level indicator so you know the impact. The following table explains the options you have when approving:
+Cowork asks for your permission before taking sensitive actions, like sending an email or posting a message in Teams. Approvals for medium and high risk actions include a risk level indicator so you know the impact. The following table explains the options you have when approving:
 
    | Option | What it does |
    |---|---|
-   | Approve | Allows Copilot Cowork to proceed with the action this one time. |
-   | Approve & Remember | Allows Copilot Cowork to proceed and remembers your choice for similar actions in the current conversation, so you aren't asked again. |
-   | Reject | Stops the action. Copilot Cowork skips it and moves on with the rest of your request. |    
+   | Approve | Allows Cowork to proceed with the action this one time. |
+   | Approve & Remember | Allows Cowork to proceed and remembers your choice for similar actions in the current conversation, so you aren't asked again. |
+   | Reject | Stops the action. Cowork skips it and moves on with the rest of your request. |    
 
 ### Review and respond to an approval request
 
-When you need an approval, a dialog appears with the details of the action Copilot Cowork wants to take. For some actions, a rich preview of the content appears (for example, a draft email, a Teams message, or a scheduled meeting). For other actions, a summary of what Copilot Cowork plans to do appears. Approvals for medium and high risk actions include a risk level indicator so you can gauge the impact before deciding.
+When you need an approval, a dialog appears with the details of the action Cowork wants to take. For some actions, a rich preview of the content appears (for example, a draft email, a Teams message, or a scheduled meeting). For other actions, a summary of what Cowork plans to do appears. Approvals for medium and high risk actions include a risk level indicator so you can gauge the impact before deciding.
 
 > [!IMPORTANT]
-> Always review the details before you approve. Copilot Cowork shows you exactly what it plans to do. Check that the recipients, content, and other details are correct.
+> Always review the details before you approve. Cowork shows you exactly what it plans to do. Check that the recipients, content, and other details are correct.
 
 > [!NOTE]
-> For certain actions like Outlook mail rules, Copilot Cowork presents a detailed approval card that shows exactly what the rule will do before you approve.
+> For certain actions like Outlook mail rules, Cowork presents a detailed approval card that shows exactly what the rule will do before you approve.
 
 
 1. From the previous table, select one of the options (**Approve**, **Approve & Remember**, or **Reject**) to respond to the request.
@@ -125,31 +125,31 @@ When you need an approval, a dialog appears with the details of the action Copil
 
 ## Work with files
 
-Copilot Cowork can work with a wide variety of files. You can upload files to provide context, and download files that Copilot Cowork creates for you.
+Cowork can work with a wide variety of files. You can upload files to provide context, and download files that Cowork creates for you.
 
 ### Upload files
 
 1. Drag and drop files onto the chat input area, or select the file picker button to browse your device.
 1. Watch the animated progress chips as each file uploads.
-1. Once the upload finishes, Copilot Cowork can use the file in your conversation.
+1. Once the upload finishes, Cowork can use the file in your conversation.
 
 ### Download output files
 
-When Copilot Cowork creates or updates files during a conversation, you can grab them from the side panel.
+When Cowork creates or updates files during a conversation, you can grab them from the side panel.
 
 1. Open the side panel if it isn't already visible.
 1. Under the **Output folder** section, find the file.
 1. To save the file to your device, select **Download**.
 
 > [!TIP]
-> When Copilot Cowork produces multiple output files, select **Download All** at the top of the output file list to download every file as a single zip archive.
+> When Cowork produces multiple output files, select **Download All** at the top of the output file list to download every file as a single zip archive.
 
 > [!NOTE]
-> You can also access files that Copilot Cowork creates directly in your OneDrive **Cowork** folder at any time.
+> You can also access files that Cowork creates directly in your OneDrive **Cowork** folder at any time.
 
 ### Supported file types
 
-Copilot Cowork supports the following file types:
+Cowork supports the following file types:
 
 | Category | Supported extensions |
 |---|---|
@@ -169,7 +169,7 @@ Copilot Cowork supports the following file types:
 
 ## Preview documents
 
-You can preview many file types directly inside Copilot Cowork. You don't need to download them first. The preview opens alongside your conversation in a split view.
+You can preview many file types directly inside Cowork. You don't need to download them first. The preview opens alongside your conversation in a split view.
 
 ### Supported preview formats
 
@@ -203,41 +203,41 @@ To open or close it, select the side panel toggle in the conversation view.
 
 | Section | What you find |
 |---|---|
-| Progress | A progress bar showing the percentage of tasks complete, plus a step-by-step log of what Copilot Cowork is doing. |
+| Progress | A progress bar showing the percentage of tasks complete, plus a step-by-step log of what Cowork is doing. |
 | Input folder | Files you provided as context for the conversation. |
-| Output folder | Files Copilot Cowork created. Each file has **Download** and **Preview** buttons. |
-| Skills | Skills that Copilot Cowork loaded during the conversation, shown as chips. |
+| Output folder | Files Cowork created. Each file has **Download** and **Preview** buttons. |
+| Skills | Skills that Cowork loaded during the conversation, shown as chips. |
 | Schedule | Scheduled prompts you created, with options to edit, pause, resume, or delete them. |
 | Permissions | Actions you approved with **Approve & Remember**, so you can review your approval preferences. |
 
 > [!NOTE]
-> The side panel updates in real time as Copilot Cowork works, so you always have a current view of progress, files, and skills.
+> The side panel updates in real time as Cowork works, so you always have a current view of progress, files, and skills.
 
 ## Control the conversation
 
-Copilot Cowork provides controls to pause, resume, or stop work at any time.
+Cowork provides controls to pause, resume, or stop work at any time.
 
 ### Pause
 
 You have two ways to pause:
 
-- **Pause (soft)**: Copilot Cowork finishes what it's currently doing, then pauses before starting the next step. Use this when you want to review progress so far.
-- **Pause (hard)**: Copilot Cowork pauses immediately, including mid-step. Use this when you need to stop now.
+- **Pause (soft)**: Cowork finishes what it's currently doing, then pauses before starting the next step. Use this when you want to review progress so far.
+- **Pause (hard)**: Cowork pauses immediately, including mid-step. Use this when you need to stop now.
 
 ### Resume
 
-After pausing, select **Resume** to continue from where Copilot Cowork stopped.
+After pausing, select **Resume** to continue from where Cowork stopped.
 
 ### Cancel
 
-To stop Copilot Cowork's current work entirely, select **Cancel**. Canceling clears the current task so you can send a new message without needing to resume.
+To stop Cowork's current work entirely, select **Cancel**. Canceling clears the current task so you can send a new message without needing to resume.
 
 > [!TIP]
-> Use **Pause (soft)** when you want to check intermediate results before Copilot Cowork continues. Use **Cancel** when you want to change direction entirely.
+> Use **Pause (soft)** when you want to check intermediate results before Cowork continues. Use **Cancel** when you want to change direction entirely.
 
 ## Manage your tasks
 
-Select **Tasks** from the main navigation to see all your conversations with Copilot Cowork.
+Select **Tasks** from the main navigation to see all your conversations with Cowork.
 
 ### Switch between views
 
@@ -255,8 +255,8 @@ Each task shows a status that tells you where things stand:
 
 | Status | Meaning |
 |---|---|
-| In progress | Copilot Cowork is actively working on the task. |
-| Needs user input | Copilot Cowork is waiting for your response before it can continue. |
+| In progress | Cowork is actively working on the task. |
+| Needs user input | Cowork is waiting for your response before it can continue. |
 | Done | The task is finished. |
 | Failed | The task didn't complete. Review the conversation for details. |
 
@@ -264,7 +264,7 @@ Select any task to open its conversation and continue working.
 
 ## Browse OneDrive files
 
-To pull in the files you need, you can browse your OneDrive files and folders directly from Copilot Cowork.
+To pull in the files you need, you can browse your OneDrive files and folders directly from Cowork.
 
 1. From the file selection interface, open the OneDrive file browser.
 1. Browse your files and folders in the tree view.
@@ -272,11 +272,11 @@ To pull in the files you need, you can browse your OneDrive files and folders di
 1. To include a file in your conversation, select it.
 
 > [!NOTE]
-> If your files don't load, Copilot Cowork shows a **Retry** button. To try again, select it.
+> If your files don't load, Cowork shows a **Retry** button. To try again, select it.
 
-## Copilot Cowork skills
+## Cowork skills
 
-Copilot Cowork uses specialized skills as it works. When the agent loads a new skill during your conversation, a message such as "Preparing to compose emails" appears, and the skill shows up in the side panel. The following out-of-the-box skills are available:
+Cowork uses specialized skills as it works. When Cowork loads a new skill during your conversation, a message such as "Preparing to compose emails" appears, and the skill shows up in the side panel. The following out-of-the-box skills are available:
 
 | Skill | What it does |
 |---|---|
@@ -294,11 +294,11 @@ Copilot Cowork uses specialized skills as it works. When the agent loads a new s
 | Communications | Draft stakeholder communications. |
 | Adaptive Cards | Generates interactive card-based responses with structured layouts, buttons, and data displays in the conversation. |
 
-You can display which skills Copilot Cowork loaded during a conversation in the **Skills** section of the side panel. They appear as chips.
+You can display which skills Cowork loaded during a conversation in the **Skills** section of the side panel. They appear as chips.
 
 ### Create custom skills
 
-You can extend Copilot Cowork with your own custom skills stored in OneDrive.
+You can extend Cowork with your own custom skills stored in OneDrive.
 
 1. In your OneDrive, navigate to the `/Documents/Cowork/Skills/` folder. Create it if it doesn't exist.
 2. Create a subfolder with your skill name (for example, `/Documents/Cowork/Skills/weekly-report/`).
@@ -315,7 +315,7 @@ You can extend Copilot Cowork with your own custom skills stored in OneDrive.
    a summary document organized by project.
    ```
 
-5. Save the file. Copilot Cowork discovers your custom skills automatically at the start of each conversation.
+5. Save the file. Cowork discovers your custom skills automatically at the start of each conversation.
 
 > [!NOTE]
 > You can create up to 20 custom skills. Each `SKILL.md` file can be up to 1 MB.
@@ -324,15 +324,15 @@ You can extend Copilot Cowork with your own custom skills stored in OneDrive.
 
 You can schedule a prompt to run automatically on a recurring basis. To create a scheduled prompt, describe what you want and when in your message. For example, "Send me a daily briefing every morning at 9 AM" or "Create a weekly status report every Friday."
 
-Copilot Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel. From there, you can edit, pause, resume, or delete any scheduled prompt.
+Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel. From there, you can edit, pause, resume, or delete any scheduled prompt.
 
 ## Provide feedback
 
-Your feedback helps improve Copilot Cowork. You can share it in many ways.
+Your feedback helps improve Cowork. You can share it in many ways.
 
 ### Rate responses
 
-1. Hover over any response from Copilot Cowork in the conversation.
+1. Hover over any response from Cowork in the conversation.
 1. Select **thumbs up** if the response was helpful, or **thumbs down** if it wasn't.
 
 ### Rate documents
@@ -342,7 +342,7 @@ Your feedback helps improve Copilot Cowork. You can share it in many ways.
 
 ### Leave inline comments
 
-You can leave inline comments directly on messages in the conversation to provide targeted feedback on specific parts of Copilot Cowork's response.
+You can leave inline comments directly on messages in the conversation to provide targeted feedback on specific parts of Cowork's response.
 
 ### Send general feedback
 
@@ -352,7 +352,7 @@ You can leave inline comments directly on messages in the conversation to provid
 
 ## Keyboard shortcuts
 
-Copilot Cowork supports keyboard shortcuts to help you work faster.
+Cowork supports keyboard shortcuts to help you work faster.
 
 1. Select the **Settings** menu in the header.
 1. Select **Keyboard shortcuts**.
@@ -366,4 +366,4 @@ Copilot Cowork supports keyboard shortcuts to help you work faster.
 
 - [Copilot Cowork overview](index.md)
 - [Get started with Copilot Cowork](get-started.md)
-- [Copilot Cowork agent common questions](cowork-agent-faq.md)
+- [Copilot Cowork common questions](cowork-faq.md)

@@ -1,6 +1,6 @@
 ---
-title: "Get started with Copilot Cowork agent (Frontier)"
-description: "Start using Copilot Cowork agent in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
+title: "Get started with Copilot Cowork (Frontier)"
+description: "Start using Copilot Cowork in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
 ms.date: 03/30/2026
 ms.topic: get-started
 author: leeclontz
@@ -13,30 +13,30 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Get started with Copilot Cowork agent (Frontier)
+# Get started with Copilot Cowork (Frontier)
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Copilot Cowork is an agent available in Microsoft 365 Copilot. You describe what you need&mdash;draft an email, build a spreadsheet, schedule a meeting&mdash;and Copilot Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
+Cowork is available in Microsoft 365 Copilot. You describe what you need &mdash; draft an email, build a spreadsheet, schedule a meetin g&mdash; and Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
 
 ## Prerequisites
 
 Before you begin, make sure you have:
 
-- **Microsoft 365 Copilot access**: An active Microsoft 365 Copilot license assigned to your account.
+- **Microsoft 365 Copilot access**: An active Microsoft 365 Copilot license assigned to your account and enrollment in the frontier program.
 - **A modern browser**: Microsoft Edge or Google Chrome recommended.
-- **The Copilot Cowork agent available**: Copilot Cowork is enabled in your Microsoft 365 Copilot environment.
+- **Copilot Cowork available**: Cowork is enabled in your Microsoft 365 Copilot environment.
 
-Copilot Cowork works in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft) and in the Microsoft 365 Copilot desktop app for Windows and Mac.
+Cowork works in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft), in Outlook and Teams, and in the Microsoft 365 Copilot desktop app for Windows and Mac.
 
 ## Open Copilot Cowork
 
 1. Open [Microsoft 365 Copilot](https://m365.cloud.microsoft).
-1. Select the **Copilot Cowork** agent.
+1. Select **Cowork**.
 
     If you don't see it, select **Show more**.
 
-The Copilot Cowork home page opens. A chat input where you can describe what you need displays, along with any recent tasks you can pick up where you left off.
+The Cowork home page opens. A chat input where you can describe what you need appears, along with any recent tasks you can pick up where you left off.
 
 ## Start your first conversation
 
@@ -50,37 +50,37 @@ The Copilot Cowork home page opens. A chat input where you can describe what you
 
 ## Watch Copilot Cowork work
 
-After you send your message, Copilot Cowork begins processing your request. Here's what appears in the chat as each step happens:
+After you send your message, Cowork begins processing your request. Here's what appears in the chat as each step happens:
 
-- **A thinking indicator**: Appears while Copilot Cowork figures out the best approach.
-- **Skill messages**: Show when Copilot Cowork loads a skill it needs, such as "Preparing to compose emails" or "Preparing to create Word documents."
-- **Tool steps**: Show exactly what Copilot Cowork is doing at each stage, such as *Composing your email* or *Creating your presentation*.
-- **The response streams in**: In real time, so you can follow along as Copilot Cowork builds your result.
+- **A thinking indicator**: Appears while Cowork figures out the best approach.
+- **Skill messages**: Show when Cowork loads a skill it needs, such as "Preparing to compose emails" or "Preparing to create Word documents."
+- **Tool steps**: Show exactly what Cowork is doing at each stage, such as *Composing your email* or *Creating your presentation*.
+- **The response streams in**: In real time, so you can follow along as Cowork builds your result.
 
 ## Approve actions
 
-Before Copilot Cowork takes an action on your behalf, like sending an email, posting a Teams message, or scheduling a meeting, it asks for your permission. When the approval dialog appears, you have the following choices:
+Before Cowork takes an action on your behalf, like sending an email, posting a Teams message, or scheduling a meeting, it asks for your permission. When the approval dialog appears, you have the following choices:
 
 Approval prompts for medium and high risk actions include a risk level indicator so you can gauge the impact.
 
 - **Approve**: Allow this action to proceed.
-- **Approve & Remember**: Allow this action, and tell Copilot Cowork not to ask for approval on the same type of action again in this conversation.
+- **Approve & Remember**: Allow this action, and tell Cowork not to ask for approval on the same type of action again in this conversation.
 - **Reject**: Stop this action.
 
 > [!NOTE]
-> Copilot Cowork doesn't take actions without your approval. You can also pause Copilot Cowork at any time (to finish the current step, or immediately), resume when you're ready, or cancel the task entirely.
+> Cowork doesn't take actions without your approval. You can also pause Cowork at any time (to finish the current step, or immediately), resume when you're ready, or cancel the task entirely.
 
-Sometimes Copilot Cowork asks you a question to clarify your request. When this happens, you see a set of choices you can select from, or you can type your own answer. Select **Skip** if you'd rather not answer.
+Sometimes Cowork asks you a question to clarify your request. When this happens, you see a set of choices you can select from, or you can type your own answer. Select **Skip** if you'd rather not answer.
 
 ## Review your results
 
-When Copilot Cowork finishes, any files it created appear in the side panel on the right. From there you can:
+When Cowork finishes, any files it created appear in the side panel on the right. From there you can:
 
 - Download individual files to your device, or select **Download All** to download every file as a single zip archive.
 - Preview files directly in the browser. Supported formats include PDF, Markdown, images, CSV, and HTML.
 - Open files in OneDrive and directly in the online version of PowerPoint. 
 
-The side panel also shows a progress bar with the percentage of tasks complete and the skills Copilot Cowork used. You can select **thumbs down** on responses that missed the mark, or **thumbs up** on ones that were helpful.
+The side panel also shows a progress bar with the percentage of tasks complete and the skills Cowork used. You can select **thumbs down** on responses that missed the mark, or **thumbs up** on ones that were helpful.
 
 ## Find your past work
 
@@ -92,5 +92,5 @@ Select the **Tasks** view to see everything you asked Copilot Cowork to do. Here
 ## Related content
 
 - [Copilot Cowork overview](index.md)
-- [Use Copilot Cowork agent](use-cowork-agent.md)
-- [Copilot Cowork agent common questions](cowork-agent-faq.md)
+- [Use Copilot Cowork](use-cowork.md)
+- [Copilot Cowork common questions](cowork-faq.md)
