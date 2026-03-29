@@ -33,7 +33,7 @@ For a full breakdown by category, see [What can Copilot Cowork do for you?](inde
 
 Cowork has 13 built-in skills: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. You can also create your own custom skills by placing a `SKILL.md` file in a subfolder of your OneDrive `/Documents/Cowork/Skills/` folder (for example, `/Documents/Cowork/Skills/weekly-report/SKILL.md`).
 
-For a detailed description of each skill, see [Copilot Cowork skills](use-cowork.md#copilot-cowork-skills).
+For a detailed description of each skill, see [Copilot Cowork skills](use-cowork.md#cowork-skills).
 
 ## Can I create my own custom skills?
 
