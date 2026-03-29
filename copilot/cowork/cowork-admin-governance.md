@@ -84,7 +84,7 @@ Instead of waiting for users to install Cowork themselves, admins can **deploy**
 
 When you deploy Cowork, it's installed for the target users and appears in their list. The deployment process accepts users' permissions on their behalf.
 
-For details, see [Deploy agents in Microsoft 365 Copilot](/agent-essentials/agent-lifecycle/agent-deploy).
+For details, see [Deploy agents in Microsoft 365 Copilot](/agent-essentials/agent-lifecycle/agent-deploy.md).
 
 ## Pre-pin Copilot Cowork in the Copilot rail
 
