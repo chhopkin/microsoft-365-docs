@@ -455,7 +455,7 @@ items:
           href: cowork/use-cowork.md
         - name: Common questions
           href: cowork/cowork-faq.md
-        - name: Managing Copilot Cowork
+        - name: Manage Copilot Cowork
           href: cowork/cowork-admin-governance.md
         - name: Responsible AI
           items:
