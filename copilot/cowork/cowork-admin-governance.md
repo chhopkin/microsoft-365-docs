@@ -37,15 +37,15 @@ Users can discover Cowork through the **Agent Store**, the built-in marketplace 
 **In Microsoft 365 Copilot (web or desktop):**
 
 1. Open Microsoft 365 Copilot.
-1. In the left navigation pane, select **Agents**, and then select **All agents**.
-1. Search for **Copilot Cowork** and select **Add**.
+1. In the left navigation pane select **All agents** under the **Agents** header.
+1. Search for **Cowork** and select **Add**.
 
 **In Microsoft Teams:**
 
-1. In the right navigation pane, select **Get agents**.
-1. Search for **Copilot Cowork** and select **Add**.
+1. In the right navigation pane, select **Open Agents and bots**.
+1. Search for **Cowork** and select **Add**.
 
-Once added, Copilot Cowork appears in the user's list in the Copilot rail.
+Once added, Cowork appears in the user's list in the Copilot rail.
 
 > **Note:** Users can only install Cowork if your organization makes it available to them. If you restrict access to specific groups, only those users see it in the Agent Store.
 
@@ -86,18 +86,18 @@ When you deploy Cowork, it's installed for the target users and appears in their
 
 For details, see [Deploy agents in Microsoft 365 Copilot](../agent-essentials/agent-lifecycle/agent-deploy.md).
 
-## Pre-pin Copilot Cowork in the Copilot rail
+## Pre-pin Cowork in the Copilot rail
 
 Pinning makes Cowork persistently visible in the Copilot rail (the right-side panel) without the user needing to open the store. Pinning is a separate step from deployment—an agent must be deployed before it can be pinned.
 
 **To pin Cowork for your users:**
 
 1. In the admin center, go to **Copilot** → **Agents** → **Manage pinned agents**.
-2. Select **Add a pinned agent** and choose **Copilot Cowork**.
+2. Select **Add a pinned agent** and choose **Cowork**.
 3. Choose whether to pin it for the entire organization or specific groups.
 4. Save your changes.
 
-Users will see Copilot Cowork in their Copilot rail the next time they open Copilot. Users can unpin admin-pinned agents from their own view if they prefer.
+Users will see Cowork in their Copilot rail the next time they open Copilot. Users can unpin admin-pinned agents from their own view if they prefer.
 
 For more information, see [Manage pinned agents for Microsoft 365 Copilot](/admin/manage/agent-registry).
 

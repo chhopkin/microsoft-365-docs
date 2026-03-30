@@ -34,7 +34,7 @@ Cowork works in your browser at [m365.cloud.microsoft](https://m365.cloud.micros
 1. Open [Microsoft 365 Copilot](https://m365.cloud.microsoft).
 1. Select **Cowork**.
 
-    If you don't see it, select **Show more**.
+    If you don't see it, select **All agents**.
 
 The Cowork home page opens. A chat input where you can describe what you need appears, along with any recent tasks you can pick up where you left off.
 
