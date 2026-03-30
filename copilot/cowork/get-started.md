@@ -17,7 +17,7 @@ appliesto:
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Cowork is available in Microsoft 365 Copilot. You describe what you need &mdash; draft an email, build a spreadsheet, schedule a meetin g&mdash; and Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
+Cowork is available in Microsoft 365 Copilot. You describe what you need &mdash; draft an email, build a spreadsheet, schedule a meeting &mdash; and Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
 
 ## Prerequisites
 
