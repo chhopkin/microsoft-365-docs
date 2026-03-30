@@ -4,7 +4,7 @@ ms.author: kwekua
 author: kwekuako
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 03/24/2026
+ms.date: 03/27/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-copilot
@@ -23,10 +23,13 @@ description: "Learn about flex routing and how it affects inferencing for Micros
 
 # European Union Data Boundary (EUDB) flex routing
 
-Flex routing lets customers in the European Union (EU) and the European Free Trade Association (EFTA) choose to allow large language model (LLM) inferencing – and storage of associated pseudonymized data – outside the EU Data Boundary during periods of peak demand. Inferencing is the phase of processing when an AI model executes the prompt to produce an output or response (for example, generating text, summarizing content, answering a question, or calculating values). At times of peak demand, more flexibility in where LLM inferencing can occur helps keep Copilot responsive for European customers. Tenant administrators can access the flex routing setting in the Microsoft 365 admin center. This setting applies to Copilot in Microsoft 365, Dynamics 365, Power Platform, and Copilot Studio.
+Flex routing lets customers in the European Union (EU) and the European Free Trade Association (EFTA) choose to allow large language model (LLM) inferencing and the storage of associated pseudonymized data to occur outside the EU Data Boundary during periods of peak demand. 
+Inferencing is the phase of processing when an AI model executes the prompt to produce an output or response (for example, generating text, summarizing content, answering a question, or calculating values). At times of peak demand, allowing inferencing to occur in more locations can help keep Copilot responsive for European customers.
+
+Tenant administrators can manage the flex routing setting in the Microsoft 365 admin center or Power Platform admin center. The Microsoft 365 admin center setting applies to Microsoft 365 Copilot and Copilot Chat. The Power Platform admin center setting applies to Copilot experiences in Dynamics 365, Power Platform, Copilot Studio, and Agent Builder in Microsoft 365 Copilot.
 
 > [!NOTE]
-> If flex routing is allowed in the Microsoft 365 admin center, you can also access this setting in the Power Platform admin center. By default, the flex routing setting in the Power Platform admin center will match the setting in the Microsoft 365 admin center unless you choose a more restrictive setting in the Power Platform admin center. For more information see <PPAC learn link>.
+> By default, the flex routing setting in the Power Platform admin center will match the setting in the Microsoft 365 admin center unless you choose a more restrictive setting in the Power Platform admin center. For more information see <PPAC learn link>.
 
 ## Eligibility
 
@@ -34,36 +37,37 @@ Flex routing is available for tenants located in countries in the EU or EFTA. Fo
 
 ## Set up flex routing
 
-Flex routing is on by default for tenants in EU and EFTA countries, except for enterprise and public sector tenants that were created before March 25th, 2026.
+Flex routing is on by default for tenants in EU and EFTA countries, except for enterprise and public sector tenants that existed before March 25th, 2026.
 
-As the administrators you're encouraged to check your tenant's flex routing setting to ensure it aligns with your company's requirements.
+As the administrator you're encouraged to check your tenant's flex routing setting to ensure it aligns with your company's requirements.
+
+**Enable flex routing**
 
 1. Sign in to the Microsoft 365 admin center as a tenant administrator assigned the [AI Administrator role](/entra/identity/role-based-access-control/permissions-reference).
-2. Go to **Copilot** -> **Settings** -> **EU flex routing for Microsoft 365 Copilot.**.
-3. Select **Allow EU flex routing for Microsoft 365 Copilot**.
-    1. This setting allows Microsoft to execute some LLM calls outside of the EU during exceptional, high-demand time windows. All Microsoft 365 data processing and data residency commitments will continue to apply, and all data will remain encrypted both in transit and at rest.
-4. If you don’t want to allow EU flex routing, select **Don’t allow EU flex processing**.
-    1. If you select this option, LLM requests will be processed inside the EU Data Boundary, even at times of peak load.
+2. Go to **Copilot** -> **Settings** -> **Flex routing during peak load periods**.
+3. Select **Allow flex routing during periods of peak load**.
+    1. This setting allows LLM inferencing and the storage of associated pseudonymized data to occur outside the EU data boundary during periods of peak demand. Typically, these periods are limited in duration and do not run continuously.
+4. If you don’t want to allow EU flex routing, select **Do not allow EU flex processing**.
+    1. If you select this option, LLM inferencing will occur inside the EU Data Boundary, even during periods of peak demand. All Microsoft 365 data processing and data residency commitments will continue to apply.
 
 ## Frequently asked questions
 
 ### Why don’t I see the flex routing setting in the Microsoft 365 admin center?
 
-The flex routing setting is only visible for tenants located in EU or EFTA countries. Tenants outside these regions do not see this option. See the [EU data boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn) topic for more information.
+The flex routing setting is only visible in the Microsoft 365 admin center for tenants in EU/EFTA countries. See [EU data boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn) for more information.
 
 ### How does flex routing affect Microsoft’s EU data boundary commitments?
 
-Microsoft 365 data residency and processing commitments remain unchanged. All data is encrypted both in transit and at rest, and you can disable flex routing at any time to ensure LLM inferencing occurs inside the EU data boundary.
+When flex routing is enabled, LLM inferencing and storage of associated pseudonymized data may occur outside the EUDB. Pseudonymized personal data is personal data that has had direct identifiers removed or replaced so it cannot be attributed to an individual without additional information that is stored separately. EU and EFTA customers can disable flex routing in the Microsoft 365 admin center at any time.
 
 ### Where does LLM inferencing occur when flex routing is enabled?
 
-If flex routing is enabled, LLM inferencing may occur in the United States, Canada, or Australia during times of peak load, depending on available capacity.
+If flex routing is enabled, LLM inferencing may occur in the United States, Canada, or Australia during times of peak demand.
 
-### Will Customer Data be stored outside the EU data boundary when flex routing is enabled?
+### Will data be stored outside the EU Data Boundary if flex routing is enabled?
 
-No, flex routing is limited to LLM inferencing and doesn't change where Customer Data is stored.
+Yes, some pseudonymized personal data may be stored outside the EU Data Boundary when flex routing is enabled. Pseudonymized personal data is personal data that has had direct identifiers removed or replaced so it cannot be attributed to an individual without additional information that is stored separately.
 
-### Can I see where LLM inferencing occurs when flex routing is enabled?
+### How does flex routing help keep Copilot responsive?
 
-There is currently no way for customers to see where LLM inferencing occurs, regardless of their flex routing setting.
-
+Flex routing helps ensure that during periods of peak demand, some inferencing calls may be routed to regions that are experiencing less demand which results in a more responsive Copilot for all European customers.
