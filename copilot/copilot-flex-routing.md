@@ -23,10 +23,10 @@ description: "Learn about flex routing and how it affects inferencing for Micros
 
 # European Union Data Boundary (EUDB) flex routing
 
-Flex routing lets customers in the European Union (EU) and the European Free Trade Association (EFTA) choose to allow large language model (LLM) inferencing and the storage of associated pseudonymized data to occur outside the EU Data Boundary during periods of peak demand. 
+Flex routing lets customers in the European Union (EU) and the European Free Trade Association (EFTA) choose to allow large language model (LLM) inferencing and the storage of associated pseudonymized data to occur outside the EU Data Boundary during periods of peak demand.
 Inferencing is the phase of processing when an AI model executes the prompt to produce an output or response (for example, generating text, summarizing content, answering a question, or calculating values). At times of peak demand, allowing inferencing to occur in more locations can help keep Copilot responsive for European customers.
 
-Tenant administrators can manage the flex routing setting in the Microsoft 365 admin center or Power Platform admin center. The Microsoft 365 admin center setting applies to Microsoft 365 Copilot and Copilot Chat. The Power Platform admin center setting applies to Copilot experiences in Dynamics 365, Power Platform, Copilot Studio, and Agent Builder in Microsoft 365 Copilot.
+Tenant administrators can manage the flex routing setting in the Microsoft 365 admin center or Power Platform admin center. The Microsoft 365 admin center setting applies to Microsoft 365 Copilot and Copilot Chat. The Power Platform admin center setting applies to Copilot experiences in Dynamics 365, Power Platform, and Copilot Studio in Microsoft 365 Copilot.
 
 > [!NOTE]
 > By default, the flex routing setting in the Power Platform admin center will match the setting in the Microsoft 365 admin center unless you choose a more restrictive setting in the Power Platform admin center. For more information see <PPAC learn link>.
