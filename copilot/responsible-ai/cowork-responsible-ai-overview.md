@@ -45,7 +45,7 @@ Cowork is available through the [Frontier program](https://adoption.microsoft.co
 ## Related content
 
 - [Copilot Cowork overview](../cowork/index.md)
-- [Get started with Copilot Cowork (../cowork/get-started.md)
+- [Get started with Copilot Cowork](../cowork/get-started.md)
 - [Use Copilot Cowork](../cowork/use-cowork.md)
 - [Copilot Cowork common questions](../cowork/cowork-faq.md)
 - [Responsible AI FAQ for Copilot Cowork agent](cowork-responsible-ai-faq.md)
