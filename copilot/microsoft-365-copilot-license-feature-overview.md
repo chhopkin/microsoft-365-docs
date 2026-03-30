@@ -13,6 +13,7 @@ audience: Admin
 ms.reviewer: emilyblundo, sophieke
 ms.topic: get-started
 ms.service: microsoft-365-copilot
+ms.subservice: commerce	
 ms.localizationpriority: medium
 ms.collection:
   - scotvorg

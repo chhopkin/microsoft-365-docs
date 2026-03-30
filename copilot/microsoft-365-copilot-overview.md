@@ -12,6 +12,7 @@ audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
