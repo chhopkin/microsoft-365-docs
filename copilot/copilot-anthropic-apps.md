@@ -37,28 +37,14 @@ As the admin, you can manage the Anthropic model setting in the Microsoft 365 ad
 
 This setting applies only to Copilot experiences within these apps and does not affect Anthropic model usage in other Microsoft 365 Copilot features or services. It is separate from the [global Anthropic subprocessor setting in Microsoft 365](connect-to-ai-subprocessor.md). Changes to this setting do not modify global subprocessor configurations.
 
----
-
 ## Data processing and the EU Data Boundary
 
 When Anthropic models are used in Copilot experiences in Word, Excel, or PowerPoint, data processing for these models occurs outside of the Microsoft EU Data Boundary (EUDB).
 
 [Anthropic operates as a Microsoft subprocessor](connect-to-ai-subprocessor.md) and is subject to Microsoft Product Terms and the Microsoft Data Protection Addendum (DPA).
 
----
-
 ## Manage the setting in the Microsoft 365 admin center
 
 1. Sign in to the Microsoft 365 admin center as an administrator assigned the **AI Administrator** role.  
 2. Go to **Copilot** -> **Settings** -> **View All** -> **AI providers operating as Microsoft Subprocessor**.
 3. Confirm the correct setting for your organization.
-
----
-
-## Appendix (temporary tracking — not for publishing)
-
-### Topics that will reference this article
-
-- Create files with Word, Excel, and PowerPoint Agents in Microsoft 365 Copilot | Microsoft Learn  
-- Get started with Word, Excel, and PowerPoint Agents in Microsoft 365 Copilot - Microsoft Support  
-- Word, Excel, and PowerPoint Agents: Responsible AI frequently asked questions | Microsoft Learn
