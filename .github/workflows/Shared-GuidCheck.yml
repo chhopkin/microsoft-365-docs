@@ -1,0 +1,199 @@
+name: GUIDs in PR are unique
+
+permissions:
+  pull-requests: write
+  contents: read
+
+on:
+  workflow_call:
+    secrets:
+      AccessToken:
+        required: true
+
+jobs:
+  check-duplicate-guids:
+    if: github.repository_owner == 'MicrosoftDocs'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.AccessToken }}
+
+      - name: Extract GUIDs from PR files
+        id: extract
+        run: |
+          LC_ALL=C
+          export LC_ALL
+
+          # Get markdown files added or modified in this PR
+          CHANGED_FILES=$(git diff --name-only --diff-filter=AM origin/${{ github.base_ref }}...HEAD -- '*.md' '**/*.md' | grep -v '/includes/' || true)
+
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No markdown files changed in this PR."
+            echo "has_guids=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Changed files:"
+          echo "$CHANGED_FILES"
+          echo ""
+
+          # Extract GUIDs from changed files into a pattern file
+          PATTERN_FILE=$(mktemp)
+          echo "pattern_file=$PATTERN_FILE" >> "$GITHUB_OUTPUT"
+
+          while IFS= read -r file; do
+            [ -f "$file" ] || continue
+            GUID=$(sed '1s/^\xEF\xBB\xBF//' "$file" | tr -d '\r' | sed -n '2,/^---$/p' | grep -i '^awa-articleGuid:' | sed 's/^[^:]*:\s*//' | tr -d '[:space:]')
+            if [ -n "$GUID" ]; then
+              echo "$GUID" >> "$PATTERN_FILE"
+              echo "Found GUID $GUID in $file"
+            else
+              echo "No GUID in $file (will be assigned on merge)"
+            fi
+          done <<< "$CHANGED_FILES"
+
+          if [ ! -s "$PATTERN_FILE" ]; then
+            echo ""
+            echo "No GUIDs to check."
+            echo "has_guids=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "has_guids=true" >> "$GITHUB_OUTPUT"
+
+      - name: Check for duplicates across repo
+        id: check
+        if: steps.extract.outputs.has_guids == 'true'
+        run: |
+          LC_ALL=C
+          export LC_ALL
+
+          PATTERN_FILE="${{ steps.extract.outputs.pattern_file }}"
+
+          DUPES=$(find . -name '*.md' -not -path '*/includes/*' -print0 | \
+            xargs -0 awk '
+              BEGIN {
+                while ((getline g < "'"$PATTERN_FILE"'") > 0) {
+                  gsub(/[[:space:]]/, "", g)
+                  if (length(g) > 0) guids[tolower(g)] = 1
+                }
+              }
+              FNR > 50 { nextfile }
+              tolower($0) ~ /awa-articleguid:/ {
+                val = $0
+                sub(/^[^:]*:[[:space:]]*/, "", val)
+                gsub(/[[:space:]]/, "", val)
+                val = tolower(val)
+                if (val in guids) {
+                  count[val]++
+                  files[val] = files[val] FILENAME "|"
+                }
+                nextfile
+              }
+              END {
+                for (g in count) {
+                  if (count[g] > 1) {
+                    print g "\t" files[g]
+                  }
+                }
+              }
+            ' || true)
+
+          rm "$PATTERN_FILE"
+
+          if [ -n "$DUPES" ]; then
+            echo "$DUPES" > /tmp/dupes.txt
+            echo "has_dupes=true" >> "$GITHUB_OUTPUT"
+            echo "::error::Duplicate awa-articleGuid values found in this PR!"
+            exit 1
+          fi
+
+          echo "All GUIDs in this PR are unique across the repository."
+
+      - name: Comment on PR
+        if: always() && steps.check.outputs.has_dupes == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.AccessToken }}
+          script: |
+            const fs = require('fs');
+            const crypto = require('crypto');
+            const { execSync } = require('child_process');
+
+            const dupes = fs.readFileSync('/tmp/dupes.txt', 'utf8').trim();
+            const baseRef = process.env.GITHUB_BASE_REF || 'main';
+
+            // Check if a file had this GUID on the base branch
+            function hadGuidOnBase(file, guid) {
+              try {
+                const content = execSync(`git show "origin/${baseRef}:${file}" 2>/dev/null`, { encoding: 'utf8' });
+                const match = content.match(/awa-articleGuid:\s*(\S+)/i);
+                return match && match[1].toLowerCase() === guid.toLowerCase();
+              } catch {
+                return false;
+              }
+            }
+
+            let body = '## One or more duplicate GUIDs were found\n\n';
+            body += 'Update the `awa-articleGuid` field in each file in the **Action required** table with the provided GUID.\n\n';
+
+            for (const line of dupes.split('\n')) {
+              const [guid, fileStr] = line.split('\t');
+              const allFiles = fileStr.split('|').filter(Boolean).map(f => f.replace(/^\.\//, ''));
+
+              const keepFiles = allFiles.filter(f => hadGuidOnBase(f, guid));
+              const changeFiles = allFiles.filter(f => !hadGuidOnBase(f, guid));
+
+              // If all files are new to this GUID, keep the first one and change the rest
+              if (keepFiles.length === 0 && changeFiles.length > 1) {
+                keepFiles.push(changeFiles.shift());
+              }
+
+              body += `**Duplicate GUID:** \`${guid}\`\n\n`;
+
+              if (changeFiles.length > 0) {
+                body += 'Action required:\n';
+                body += '| File path | Update to | New GUID |\n| --- | :---: | --- |\n';
+                for (const f of changeFiles) {
+                  const newGuid = crypto.randomUUID();
+                  body += `| \`${f}\` | \u2192 | \`${newGuid}\` |\n`;
+                }
+                body += '\n';
+              }
+
+              if (keepFiles.length > 0) {
+                body += 'Do not change:\n';
+                body += '| File path | Current GUID |\n| --- | --- |\n';
+                for (const f of keepFiles) {
+                  body += `| \`${f}\` | \`${guid}\` |\n`;
+                }
+                body += '\n';
+              }
+            }
+
+            // Delete previous duplicate GUID comments
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            });
+
+            for (const c of comments.data) {
+              if (c.body.startsWith('## One or more duplicate GUIDs were found')) {
+                await github.rest.issues.deleteComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: c.id
+                });
+              }
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: body
+            });
