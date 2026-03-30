@@ -11,6 +11,7 @@ ms.update-cycle: 180-days
 audience: Admin
 ms.topic: get-started
 ms.service: microsoft-365-copilot
+ms.subservice: commerce	
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
