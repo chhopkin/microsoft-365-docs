@@ -27,17 +27,6 @@ Microsoft 365 Copilot and [Microsoft 365 Copilot Chat](/copilot/overview) have a
 > - This article concerns the web search functionality in Microsoft 365 Copilot and Microsoft 365 Copilot Chat. Microsoft 365 **Copilot Search** is an additional, universal search experience that allows users with a Microsoft 365 Copilot license to search across all their Microsoft 365 and third-party data sources. Learn more about [Microsoft 365 Copilot Search]( /copilot/microsoft-365/microsoft-365-copilot-search).
 > - The information about web search in this article also applies to [Researcher](https://support.microsoft.com/topic/e63ab760-f3de-4c47-ae87-dad601b0e9c4) and [Analyst](https://support.microsoft.com/topic/ff505b9c-a06c-4be9-b855-69d89b1d25d2) in Microsoft 365 Copilot. While web search isn't a prerequisite for using Researcher and Analyst, enabling web search is recommended to get the most value out of using them. The only difference is that Researcher and Analyst don’t have a **Web content** toggle for users.
 
-> [!NOTE]
->
-> Copilot experiences in Word, Excel, PowerPoint, and OneNote may vary depending on your organization's licensing and tenant configuration.
-> In-product labels are displayed in Microsoft 365 apps like Word, Excel, PowerPoint, and OneNote, and in the Microsoft 365 Copilot app, to help users identify their Copilot experience.
->
-> **M365 Copilot (Premium)** indicates that a user has a Microsoft 365 Copilot add-on license and the full experience of Copilot chat in Word, Excel, PowerPoint, and OneNote.
->
->**M365 Copilot (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license but will have [standard access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) (Standard versus priority access to features in Microsoft 365 Copilot Chat) to Copilot in those apps to ensure a reliable experience.
->
-> **Copilot chat (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license and does not have access to Copilot chat in Word, Excel, PowerPoint and OneNote.
-
 ## Web search
 
 When web search is enabled, Microsoft 365 Copilot and Microsoft 365 Copilot Chat may fetch information from the Bing search service when information from the web helps to provide a better, more grounded response. Admin controls and a user-level **Web content** toggle (only for Microsoft 365 Copilot) are available to [manage whether web search is enabled](#controls-available-to-manage-web-search) in your environment.
