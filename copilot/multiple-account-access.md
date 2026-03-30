@@ -14,7 +14,7 @@ ms.collection:
 - magic-ai-copilot
 - must-keep
 hideEdit: true
-ms.date: 07/09/2025
+ms.date: 03/30/2026
 ms.update-cycle: 180-days
 ---
 
@@ -39,7 +39,7 @@ When multiple account access to Copilot is disabled, if the user only has access
 
 Copilot data protection is always based on the identity used to access the file. This ensures enterprise data protection for files in your organization, regardless of which account grants Copilot access.
 
-The setting for [web grounding in Copilot](manage-public-web-access.md) is also based on the identity used to access the file. If you disable web grounding in Copilot for a user in your organization, that user isn't able to use web grounding even when using Copilot access from another account.
+The setting for [web search in Microsoft 365 Copilot](manage-public-web-access.md) is also based on the identity used to access the file. If you disable web search in Copilot for a user in your organization, that user isn't able to use web search even when using Copilot access from another account.
 
 Users using multiple account access to Copilot on work and school documents also have limited access to Copilot as shown in the following table.
 
@@ -58,8 +58,7 @@ You can use the "Multiple account access to Copilot for work documents" policy s
 To configure this policy setting, you need to use [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
 
 > [!NOTE]
-> - The policy setting is available in Cloud Policy as of January 30, 2025.
-> - Microsoft 365 GCC customers can see the policy setting in Cloud Policy, but the policy has no effect on them because multiple account access to Copilot is always disabled for Microsoft 365 GCC customers.
+> Microsoft 365 GCC customers can see the policy setting in Cloud Policy, but the policy has no effect on them because multiple account access to Copilot is always disabled for Microsoft 365 GCC customers.
 
 If you enable or don't configure this policy setting, your users can use Copilot on work and school documents with a Copilot license that is from outside your organization.
 
@@ -73,38 +72,38 @@ The end-user experience for blocked users viewing work and school documents is a
 
 ## Apps where multiple account access to Copilot is available
 
-Multiple account access is available in the following apps, starting with the version listed.
+Multiple account access is available in the following apps.
 
 ### On Android devices
 
-- Outlook: Version 4.2511.0
-- PowerPoint: Version 16.0.18623.20090
-- Word: Version 16.0.18920.20000
+- Outlook
+- PowerPoint
+- Word
 
 ### On iOS devices
 
-- OneNote: Version 16.96 (25040710)
-- Outlook: Version 4.2511.0
-- PowerPoint: Version 2.95.25030623
-- Word: Version 2.95.305.0
+- OneNote
+- Outlook
+- PowerPoint
+- Word
 
 ### On iPad devices
 
-- Excel: Version 2.95.224.0
-- PowerPoint: Version 2.95.224.0
+- Excel
+- PowerPoint
 
 ### On Mac devices
 
-- Excel: Version 16.95
-- OneNote: Version 16.96
-- Outlook: Version 16.95.303.0
-- PowerPoint: Version 16.95
-- Word: Version 16.95.3
+- Excel
+- OneNote
+- Outlook
+- PowerPoint
+- Word
 
 ### On Windows devices
 
-- Excel: Version 2503
-- OneNote: Version 2504
-- Outlook (new): Version 20250320055
-- PowerPoint: Version 2503
-- Word: Version 2503
+- Excel
+- OneNote
+- Outlook (new)
+- PowerPoint
+- Word
