@@ -11,6 +11,7 @@ audience: Admin
 ms.reviewer: valerieyoung
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot

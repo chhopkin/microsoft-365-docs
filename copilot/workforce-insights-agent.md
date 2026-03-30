@@ -3,6 +3,7 @@ title: Workforce Insights agent
 description: This article details how to use the Workforce Insights agent
 ms.date: 03/20/2026
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.topic: how-to
 ms.localizationpriority: medium
 author: tiaraquan
