@@ -16,7 +16,7 @@ description: "Learn about enabling brand kits and asset libraries in the Microso
 
 # Accessing an organizational asset library in the Microsoft 365 Copilot app
 
-Connecting an organizational asset library (OAL) to Copilot enables brand content access in the **Create** experience of the Microsoft 365 Copilot app.
+Connecting an organizational asset library (OAL) to Copilot enables brand content access in the **Create** experience of the Microsoft 365 Copilot app, while also enabling Copilot Chat access in PowerPoint and Word.
 
 :::image type="content" source="media/brand-manager/brand-manager-create.png" alt-text="Screenshot showing the Microsoft 365 Copilot Create tab with an image generated.":::
 

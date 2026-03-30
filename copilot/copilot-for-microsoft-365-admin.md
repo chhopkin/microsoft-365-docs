@@ -54,6 +54,7 @@ To use Copilot in Microsoft 365 admin centers, follow these steps:
     :::image type="content" source="media/copilot-admins-mac-2.png" alt-text="Screenshot of the Microsoft 365 admin agent page showing a selection of the Microsoft 365 admin agent.":::
 
 1. If you don't find the agent in the left navigation pane, select **All agents**, search for **Microsoft 365 Admin**, and select **Add**.
+1. You can also use the agent in any apps you use such as Word, Excel, and PowerPoint.
 
 ## Capabilities in Copilot for admins
 
