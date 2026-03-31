@@ -1,22 +1,23 @@
 ---
-title: Microsoft 365 Copilot agents admin guide
+title: Agents admin guide for Microsoft 365
 f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 01/28/2026
+ms.date: 03/26/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
+ms.subservice: agent-management
 ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: Learn about administering and deploying Microsoft 365 Copilot agents.
+description: Learn about administering and deploying agents in Microsoft 365.
 ---
 
-# Microsoft 365 Copilot agents admin guide
+# Agents admin guide for Microsoft 365
 
 When you add [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) to your qualifying Microsoft 365 for business subscription, you provide generative AI capabilities to your organization. With these capabilities, you help enhance your organization’s productivity, improve accuracy, and provide personalized assistance.
 
@@ -49,7 +50,7 @@ If you’re already using Copilot, view your [license plan](/copilot/microsoft-3
 
 ### Understand available agent options
 
-To best understand your overall Copilot deployment, you must understand the options available for Copilot agents. Different agent capabilities are available based on whether you choose to deploy Microsoft 365 Copilot Chat without usage billing, deploy Microsoft 365 Copilot Chat with usage billing, or deploy Microsoft 365 Copilot.
+To best understand your overall Copilot deployment, you must understand the options available for agents. Different agent capabilities are available based on whether you choose to deploy Microsoft 365 Copilot Chat without usage billing, deploy Microsoft 365 Copilot Chat with usage billing, or deploy Microsoft 365 Copilot.
 
 > [!NOTE]
 > Agents that access shared tenant data, such as SharePoint or Graph Connector content, are billed based on metered consumption. Agents utilizing metered consumption are off by default for users in Microsoft 365 Copilot Chat.
@@ -80,7 +81,7 @@ Microsoft 365 Copilot offers chat grounded in both web-based and work-based data
 
 By default, Microsoft and Microsoft partners provide ready-to-use agents that you can quickly integrate and deploy with Microsoft 365 Copilot Chat and Microsoft 365 Copilot. In addition, you can integrate and deploy agents created by members of your organization.
 
-When using a Microsoft 365 subscription, you have agents available with your Microsoft 365 apps, such as Word and Excel. You can also view agents directly in the Microsoft 365 Copilot app. For more information, see [Welcome to the Microsoft 365 Copilot app](https://support.microsoft.com/topic/welcome-to-the-microsoft-365-copilot-app-092599f1-5917-4bd6-bd59-58af628bbc39).
+You can view agents directly in the Microsoft 365 Copilot app. For more information about using The Microsoft 365 Copilot app, see [What is the Microsoft 365 Copilot app?](https://support.microsoft.com/topic/welcome-to-the-microsoft-365-copilot-app-092599f1-5917-4bd6-bd59-58af628bbc39) For information about agents, see [Get started with agents in the Microsoft 365 Copilot app](https://support.microsoft.com/topic/get-started-with-agents-in-the-microsoft-365-copilot-app-943e563d-602d-40fa-bdd1-dbc83f582466).
 
 ✅ **Task: Understand how to view agents in Microsoft 365 Copilot and Microsoft Teams.**
 
@@ -190,9 +191,9 @@ Agent policies refer to the tenant settings you can make as an administrator in 
 Copilot agent governance refers to managing agents across your organization using policies, settings, and actions. You can create policies to globally maintain appropriate access to agents, and use administration settings and controls to approve, publish, deploy, remove, and block agents for your organization. By effectively managing Copilot agents, you can help protect and secure the agents and data that your organization uses in a responsible and compliant approach.
 
 For more information related to agent governance, see the following resources:
-- [Microsoft 365 Copilot agents deployment blueprint](m365-agents-blueprint.md)
-- [Microsoft 365 Copilot agents visual guide](m365-agents-visual-map.md)
-- [Microsoft 365 agents deployment checklist](m365-agents-checklist.md)
+- [Agents deployment blueprint for Microsoft 365](m365-agents-blueprint.md)
+- [Agents visual guide for Microsoft 365](m365-agents-visual-map.md)
+- [Agents deployment checklist for Microsoft 365](m365-agents-checklist.md)
 - [What governance or controls are available for agents?](m365-agents-faq.md#what-governance-or-controls-are-available-for-agents)
 - [Governance and security best practices overview](/microsoft-copilot-studio/guidance/sec-gov-intro)
 
@@ -229,7 +230,7 @@ In the Copilot Control System within Microsoft 365 admin center, you can manage 
 - Copilot actions pertaining to available functionality and use
 - Additional settings about how Copilot can be used
 
-For Microsoft 365 Copilot agents, you can specifically control how members of your organization can create and use agents.
+For agents in Microsoft 365, you can specifically control how members of your organization can create and use agents.
 
 > [!TIP]
 > The Microsoft 365 admin center provides Microsoft 365 Copilot [deployment guides and assistance](https://admin.microsoft.com/adminportal/home?Q=ADG#/setupguidance). Consider following the extensibility guide, see [Get started with Microsoft 365 Copilot extensibility](https://admin.microsoft.com/adminportal/home?Q=ADG#/modernonboarding/copilotextensibility).
@@ -346,7 +347,7 @@ In Microsoft 365 admin center you can view your organization’s available agent
 Use the following steps to view your organization’s agent inventory:
 
 1. Open [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
 3. Filter your agent inventory:
     1. Next to **Filters**, select **Availability** > **All users**.
     Note the **Support in** column to recognize where the agent can be used by members of your organization.
@@ -385,7 +386,7 @@ Your Copilot agent ZIP file can be downloaded from Copilot Studio by selecting *
 To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
 1. Open Copilot Control System in [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents** > **Upload custom agent**.
+2. Select **Agents** > **All agents** > **Upload custom agent**.
 3. Select **Choose File** to find and select the agent ZIP file.
     The ZIP file is validated.
 4. Verify the agent’s name, icon, and host products. Then, select **Next**.
@@ -438,14 +439,14 @@ Agents are listed in the [Agent inventory](#agent-inventory). The Agent inventor
 To view details about an individual agent:
 
 1. Open the Copilot Control System within [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You’ll see the **Agent inventory** tab is selected.
    
     :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png" alt-text="Screenshot of your agent inventory in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png":::
 
 3. Select an agent from the list.
 4. Review the agent’s details, security, and compliance before to help determine whether an agent should be assigned to or available to users within your organization.
-    a. Select the **Details** tab to review the **Capabilities**, **Knowledge**, and **Actions**. 
+    a. Select the **Data & tools** tab to review the **Capabilities**, **Knowledge**, and **Actions**. 
     b. Select the **Security & compliance** tab to review the agent’s overall certification.
 
 ### Assign agents
@@ -465,7 +466,7 @@ There are two different actions that involve assigning agents to members of your
 To view details about an individual agent:
 
 1. Open the Copilot Control System within [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You’ll see the **Agent inventory** tab is selected.
 3. Select an agent from the list.
 4. Select the **Users** tab and select **Assign to**. 
@@ -492,7 +493,7 @@ By deploying an agent, you effectively install the agent on behalf of a user by 
 Use the following steps to deploy an individual agent:
 
 1. Open the Copilot Control System within Microsoft 365 admin center in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You'll see the **Agent inventory** tab is selected.
 3. Select an agent from the list.
 4. Select **Deploy**.
@@ -530,7 +531,7 @@ When an agent is submitted for admin approval, all metadata about an agent’s d
 Use the following steps to view pending agent requests and act on those requests:
 
 1. Open Copilot Control System in [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents** > **Requested agents**.
+2. Select **Agents** > **All agents** > **Requests**.
 3. Select the requested agent and view the agent’s details.
     Confirm the capabilities, data sources, and custom actions that the agent can invoke.
 4. Next to the name of the agent, select the action to **Publish** or **Reject** the agent.

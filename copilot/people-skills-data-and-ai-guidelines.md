@@ -7,6 +7,7 @@ manager: scotv
 ms.topic: concept-article
 ms.date: 09/25/2025
 ms.service: microsoft-365-copilot
+ms.subservice: people-skills
 ms.collection: 
 - trust-pod
 - operations-pod

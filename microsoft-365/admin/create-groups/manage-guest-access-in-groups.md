@@ -8,7 +8,7 @@ author: denisebmsft
 manager: dansimp
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier2
@@ -44,8 +44,8 @@ Once approved, the guest is added to the directory and the group.
 
 Guest access in groups is often used as part of a broader scenario that includes SharePoint or Teams. These services have their own guest sharing settings. For complete instructions for setting up guest sharing across groups, SharePoint, and Teams, see:
 
-- [Collaborate with guests in a site](../../solutions/collaborate-in-site.md)
-- [Collaborate with guests in a team](../../solutions/collaborate-as-team.md)
+- [Collaborate with guests in a site](/previous-versions/microsoft-365/solutions/collaborate-in-site)
+- [Collaborate with guests in a team](/previous-versions/microsoft-365/solutions/collaborate-as-team)
 
 ## Manage groups guest access
 
@@ -80,7 +80,7 @@ To remove users in the Microsoft Entra admin center, see [remove a guest user an
 
 ## Related content
 
-[Block guests from a specific group](../../solutions/per-group-guest-access.md) (article)\
+[Block guests from a specific group](/microsoft-365/solutions/per-group-guest-access) (article)\
 [Manage group membership in the Microsoft 365 admin center](add-or-remove-members-from-groups.md) (article)\
 [Microsoft Entra access reviews](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) (article)\
 [Update-MgUser](/powershell/module/microsoft.graph.users/update-mguser) (article)
