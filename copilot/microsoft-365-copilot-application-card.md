@@ -6,6 +6,7 @@ author: DHB-MSFT
 manager: dansimp
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
+ms.subservice: m365-privacy
 ms.collection: 
 - magic-ai-copilot
 - m365copilot
@@ -14,19 +15,16 @@ ms.collection:
 - must-keep
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 02/18/2026
+ms.date: 03/30/2026
 ---
 
 # Application card: Microsoft 365 Copilot
-
-> [!NOTE]
-> As of February 17, 2026, the information in the Transparency Note for Microsoft 365 Copilot has been moved over to this article and the Transparency Note has been retired.
 
 ## What is an Application or Platform card?
 
 Microsoft’s Application and Platform cards are intended to help you understand how our AI technology works, the choices application owners can make that influence application performance and behavior, and the importance of considering the whole application, including the technology, the people, and the environment. Application cards are created for AI applications and platform cards are created for AI platform services. These resources can support the development or deployment of your own applications and can be shared with users or stakeholders impacted by them.
 
-As part of its commitment to responsible AI, Microsoft adheres to [six core principles](https://www.microsoft.com/ai/principles-and-approach/?msockid=3da790040c776d6f2b5485e40de56c06#ai-principles): fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability. These principles are embedded in the [Responsible AI Standard](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Microsoft-Responsible-AI-Standard-General-Requirements.pdf), which guides teams in designing, building, and testing AI applications. Application and Platform cards play a key role in operationalizing these principles by offering transparency around capabilities, intended uses, and limitations. For further insight, readers are encouraged to explore Microsoft’s [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2025.pdf) and either the [Microsoft Enterprise AI Services Code of Conduct](/legal/ai-code-of-conduct) (for organizations) or the [Code Conduct section in the Microsoft Services Agreement](https://www.microsoft.com/servicesagreement#3_codeOfConduct) (for individuals), both of which outline how to engage with AI responsibly.
+As part of its commitment to responsible AI, Microsoft adheres to [six core principles](https://www.microsoft.com/ai/principles-and-approach/?msockid=3da790040c776d6f2b5485e40de56c06#ai-principles): fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability. These principles are embedded in the [Responsible AI Standard](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Microsoft-Responsible-AI-Standard-General-Requirements.pdf), which guides teams in designing, building, and testing AI applications. Application and Platform cards play a key role in operationalizing these principles by offering transparency around capabilities, intended uses, and limitations. For further insight, readers are encouraged to explore Microsoft’s [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2025.pdf) and either the [Microsoft Enterprise AI Services Code of Conduct](/legal/ai-code-of-conduct) (for organizations) or the [Code of Conduct section in the Microsoft Services Agreement](https://www.microsoft.com/servicesagreement#3_codeOfConduct) (for individuals), both of which outline how to engage with AI responsibly.
 
 ## Overview
 
@@ -47,10 +45,11 @@ The following table provides a glossary of key terms related to Microsoft 365 Co
 |Enriched prompt|A prompt is enriched when additional instructions are added to the prompt to guide Microsoft 365 Copilot in generating a more specific and relevant response. |
 |Grounding |Grounding refers to the process of providing input sources to the LLM related to the prompt. By enabling Microsoft 365 Copilot to access data to use as input sources, such as data from Microsoft Graph or Bing, Microsoft 365 Copilot may deliver more accurate, contextually relevant responses to users. |
 |Indexing|Microsoft uses both lexical and semantic indexing of Microsoft Graph data to ground responses for Microsoft 365 Copilot in enterprise data. Indexing interprets prompts to produce contextually relevant responses. |
+|Inferencing|Inferencing is the processing step when an AI model executes the prompt to produce an output or response, such as summarizing content or answering a question.|
 |Large language model (LLM)|Large language models (LLMs) in this context are AI models that are trained on large amounts of text data to predict words in sequences. LLMs are capable of performing a variety of tasks, such as text generation, summarization, translation, classification, and more.|
 |Microsoft Graph |Microsoft Graph is the gateway to data and intelligence in Microsoft 365. It includes information about the relationships between users, activities, and an organization’s data. |
 |Post-processing|The processing Microsoft 365 Copilot does after it receives a response from the LLM. This post-processing includes additional grounding calls to Microsoft Graph, responsible AI, security, compliance, and privacy checks.|
-|Processing |Processing of a user prompt in Microsoft 365 Copilot involves several steps, including responsible AI checks, to help Microsoft 365 Copilot provides relevant and actionable responses. |
+|Processing |Processing of a user prompt in Microsoft 365 Copilot involves several steps, including responsible AI checks, to help Microsoft 365 Copilot provide relevant and actionable responses. |
 |Prompt |A Prompt is the text sent to Microsoft 365 Copilot to execute a specific task or provide information. For example, a user might input the following prompt: Write an email congratulating my team on the end of the fiscal year. |
 |Red team testing|Techniques used by experts to assess the limitations and vulnerabilities of a system and to test the effectiveness of planned mitigations. Red team testing is used to identify potential risks and is distinct from systematic measurement of risks. |
 |Response|The content generated by the LLM and returned to Microsoft 365 Copilot as a reply to a prompt.|
@@ -127,7 +126,7 @@ Microsoft 365 Copilot doesn't require web content or organizational data to prov
 
 ## Limitations
 
-Understanding Microsoft 365 Copilot’s limitations is crucial to determine it's used within safe and effective boundaries. While we encourage customers to leverage Microsoft 365 Copilot in their innovative solutions or applications, it’s important to note that Microsoft 365 Copilot wasn't designed for every possible scenario. We encourage users to refer to either the [Microsoft Enterprise AI Services Code of Conduct](/legal/ai-code-of-conduct) (for organizations) or the [Code Conduct section in the Microsoft Services Agreement](https://www.microsoft.com/servicesagreement#3_codeOfConduct) (for individuals) as well as the following considerations when choosing a use case:
+Understanding Microsoft 365 Copilot’s limitations is crucial to determine it's used within safe and effective boundaries. While we encourage customers to leverage Microsoft 365 Copilot in their innovative solutions or applications, it’s important to note that Microsoft 365 Copilot wasn't designed for every possible scenario. We encourage users to refer to either the [Microsoft Enterprise AI Services Code of Conduct](/legal/ai-code-of-conduct) (for organizations) or the [Code of Conduct section in the Microsoft Services Agreement](https://www.microsoft.com/servicesagreement#3_codeOfConduct) (for individuals) as well as the following considerations when choosing a use case:
 
 - **Compatibility:** While Microsoft 365 Copilot is designed to work seamlessly with Microsoft 365 applications, there can be limitations or issues with compatibility in certain environments, especially with third party (non-Microsoft) apps and customized or nonstandard configurations.
 
@@ -155,7 +154,7 @@ Performance and safety evaluations assess whether AI applications are operating 
 
 ### Performance and quality evaluations
 
-Performance evaluations for AI applications are essential to help improve  their reliability in real-world applications. Metrics such as response relevance, accuracy, and groundedness help assess the accuracy and consistency of AI-generated outputs, so that they're factually supported in grounded content scenarios, contextually appropriate, and logically structured. For Microsoft 365 Copilot, we regularly conduct rigorous quality evaluations across multiple metrics such as relevance, accuracy, and groundedness.
+Performance evaluations for AI applications are essential to help improve their reliability in real-world applications. Metrics such as response relevance, accuracy, and groundedness help assess the accuracy and consistency of AI-generated outputs, so that they're factually supported in grounded content scenarios, contextually appropriate, and logically structured. For Microsoft 365 Copilot, we regularly conduct rigorous quality evaluations across multiple metrics such as relevance, accuracy, and groundedness.
 
 ### Performance and quality evaluation methods
 
@@ -225,7 +224,7 @@ To improve the performance in relation to the accuracy of Microsoft 365 Copilot 
 
 - **Be aware of the risk of overreliance:** Overreliance on AI happens when users accept incorrect or incomplete AI outputs, mainly because mistakes in AI outputs may be hard to detect. For the end-user, overreliance could result in decreased productivity, loss of trust, product abandonment, financial loss, psychological harm, physical harm, among others. (for example, a doctor accepts an incorrect AI output). For Microsoft 365 Copilot, we help mitigate this risk by adding disclaimers to our products but users should still make sure to review the accuracy of the answers. 
 
-- **Exercise caution when designing agentic AI in sensitive domains:** Users should exercise caution when designing and/or deploying agentic AI systems in sensitive domains where agent actions are irreversible or highly consequential. Additional precautions should also be taken when creating autonomous agentic AI as described further in either the [Microsoft Enterprise AI Services Code of Conduct](/legal/ai-code-of-conduct) (for organizations) or the [Code Conduct section in the Microsoft Services Agreement](https://www.microsoft.com/servicesagreement#3_codeOfConduct) (for individuals).
+- **Exercise caution when designing agentic AI in sensitive domains:** Users should exercise caution when designing and/or deploying agentic AI systems in sensitive domains where agent actions are irreversible or highly consequential. Additional precautions should also be taken when creating autonomous agentic AI as described further in either the [Microsoft Enterprise AI Services Code of Conduct](/legal/ai-code-of-conduct) (for organizations) or the [Code of Conduct section in the Microsoft Services Agreement](https://www.microsoft.com/servicesagreement#3_codeOfConduct) (for individuals).
 
 ### Deployers should:
 

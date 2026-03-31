@@ -2,7 +2,7 @@
 title: Security for Microsoft 365 Copilot
 description: Learn how Microsoft secures Microsoft 365 Copilot and how Copilot inherits Microsoft 365 security, compliance, and privacy protections.
 ms.topic: conceptual
-ms.date: 03/09/2026
+ms.date: 03/16/2026
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -12,6 +12,7 @@ ms.update-cycle: 180-days
 ms.reviewer: sophieke
 audience: Admin
 ms.service: microsoft-365-copilot
+ms.subservice: security
 ms.localizationpriority: medium
 customer-intent: As an admin, I want to use a blueprint to help prevent oversharing when using Microsoft 365 Copilot.
 appliesto:
@@ -25,7 +26,7 @@ Security is foundational to Microsoft's approach to Microsoft 365 Copilot. This 
 > [!NOTE]
 > This article describes Microsoft's security approach for Microsoft 365 Copilot. It doesn't include deployment or data‑readiness steps.
 >
-> For rollout planning and readiness guidance, see [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md).
+> For rollout planning and readiness guidance, see [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md).
 >
 > For deep technical details about data flow, protections, and auditing, see:
 > - [Microsoft 365 Copilot data protection architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
@@ -62,14 +63,14 @@ For details, see the following articles:
 
 Microsoft 365 Copilot operates within existing permissions and access controls. Overshared or poorly governed content can affect Copilot results and increase risk.
 
-For prescriptive remediation guidance, see: [Microsoft 365 Copilot blueprint for oversharing](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing).
+For prescriptive remediation guidance, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/copilot/microsoft-365/secure-govern-copilot-foundational-deployment-guidance).
 
 ## Related guidance
 
 Use these articles for deeper coverage of related articles:
 
 - **Deployment and readiness**
-  - [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md)
+  - [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
   - [Minimum requirements to deploy Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements)
 
 - **Architecture and data handling**
@@ -77,4 +78,4 @@ Use these articles for deeper coverage of related articles:
   - [Microsoft 365 Copilot data protection architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
 
 - **Oversharing remediation**
-  - [Microsoft 365 Copilot blueprint for oversharing](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing)
+  - [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/copilot/microsoft-365/secure-govern-copilot-foundational-deployment-guidance)

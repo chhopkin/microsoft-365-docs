@@ -55,7 +55,7 @@ The following types of device protection policies are available in Business Prem
     - Linux
   - **[App Control for Business policies](/intune/intune-service/protect/endpoint-security-app-control-policy#get-started-with-app-control-for-business-policies)**: Manage approved apps for Windows devices with App Control for Business policies and Managed Installers. Supported platforms:
     - Windows
-  - **[Attack surface reduction](/intune/intune-service/protect/endpoint-security-asr-policy)**: Targets behavior typically used to infect computers, and helps secure removable devices. Uses Windows Defender antivirus on Windows devices. Supported platforms:
+  - **[Attack surface reduction](/intune/intune-service/protect/endpoint-security-asr-policy)**: Targets behavior typically used to infect computers, and helps secure removable devices. Uses Microsoft Defender Antivirus on Windows devices. Supported platforms:
     - Windows and [Configuration Manager](/intune/configmgr/core/understand/introduction) on Windows.
   - **[Disk encryption policies](/intune/intune-service/protect/endpoint-security-disk-encryption-policy)**: Manage built-in disk and folder-level encryption on Windows and macOS devices. Supported platforms:
     - Windows

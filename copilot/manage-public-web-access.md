@@ -6,14 +6,13 @@ author: DHB-MSFT
 manager: dansimp
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
-ms.localizationpriority: medium
+ms.subservice: m365-privacy
 ms.collection:
 - privacy-microsoft365
-- privacy-copilot 
+- privacy-microsoft365-copilot
 - m365copilot
 - magic-ai-copilot
 - must-keep
-- trust-pod
 hideEdit: true
 ms.date: 02/25/2026
 ms.update-cycle: 180-days
