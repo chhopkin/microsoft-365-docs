@@ -30,7 +30,7 @@ appliesto:
 
 # Secure and govern Microsoft 365 Copilot: Foundational deployment guidance
 
-Microsoft 365 Copilot can accelerate how people find information, summarize content, and get work done - by grounding responses in the data users already have permission to access. To realize that value confidently, organizations require a foundation that is both secure and well-governed, with robust safeguards in place—including measures to protect interactions when using Copilot—and fully aligned with AI regulatory standards.
+Microsoft 365 Copilot can accelerate how people find information, summarize content, and get work done by grounding responses in the data users already have permission to access. To realize that value confidently, organizations require a foundation that is both secure and well-governed, with robust safeguards in place, including measures to protect interactions when using Copilot and meeting AI regulatory standards.
 
 ## How this blueprint can help you secure and govern Microsoft 365 Copilot
 
