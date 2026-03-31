@@ -36,8 +36,6 @@ If you don't want users to have the ability to upload files in Microsoft 365 Cop
 - **Disable file uploads in Microsoft 365 Copilot Web mode and Microsoft 365 Copilot Chat while allowing file uploads in Microsoft 365 Copilot Work mode**: Enables file upload in Microsoft 365 Copilot Chat *Work mode only* and disables file upload in Microsoft 365 Copilot Web mode and Microsoft 365 Copilot Chat.
 
 Changes to the file upload control could take up to 24 hours to be reflected for end users.
- 
-Changes to the file upload control could take up to 24 hours to be reflected for end users.
 
 If users are prevented from uploading files in Microsoft 365 Copilot and Microsoft 365 Copilot Chat, the **Files** tab doesn't appear for those users in the Microsoft 365 Copilot app.
 
