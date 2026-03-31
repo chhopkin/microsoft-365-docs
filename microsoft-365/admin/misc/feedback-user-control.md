@@ -1,5 +1,5 @@
 ---
-title: Manage Microsoft Feedback for Your Organization
+title: Microsoft Feedback User Experience and Control
 f1.keywords:
 - NOCSH
 ms.author: danbrown
@@ -21,7 +21,7 @@ hideEdit: true
 description: Learn how to manage Microsoft feedback in your organization, understand what data Microsoft collects, and configure policies in Microsoft 365. Get started now.
 ---
 
-# Manage Microsoft feedback for your organization
+# Microsoft Feedback user experience and control
 
 To manage Microsoft feedback for your organization, you need to understand how Microsoft 365 apps collect and use feedback. This article explains feedback types, what Microsoft feedback collects, and how it handles feedback data so you can configure policies with confidence.
 
