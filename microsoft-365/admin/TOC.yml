@@ -234,8 +234,6 @@ items:
           href: setup/domains-faq.yml
         - name: DNS instructions
           items:
-            - name: Change nameservers at any DNS host
-              href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
             - name: Connect your domain by adding DNS records
               href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
             - name: Connect your DNS records with a non-Microsoft DNS provider
