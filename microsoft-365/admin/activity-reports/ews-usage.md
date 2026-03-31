@@ -1,9 +1,8 @@
 ---
-title: "Microsoft 365 Reports in the admin center – EWS usage"
+title: "Exchange Web Service (EWS) usage report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 03/18/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -21,16 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 description: "Learn about using the Microsoft 365 Exchange Web Services (EWS) report in the Microsoft 365 admin center."
+ms.date: 03/18/2025
 ---
 
-# Microsoft 365 Reports in the admin center – EWS usage
+# Exchange Web Service (EWS) usage report - Microsoft 365 admin center
 
-The Microsoft 365 Reports dashboard shows you the activity overview across the products in your organization. It enables you to drill into individual product level reports to give you more granular insight about the activities within each product. For information about available reports, see [Microsoft 365 Reports in the admin center](activity-reports.md). The Exchange Web Services (EWS) usage report displays the SOAP actions used by each application calling EWS in your organization. It also shows the successful-call volume for each SOAP action. This information enables you to coordinate with the application owners to ensure they're preparing for the EWS [deprecation in October 2026](https://techcommunity.microsoft.com/blog/exchange/retirement-of-exchange-web-services-in-exchange-online/3924440).
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
 
-## How to get to the email apps report
+The Exchange Web Services (EWS) usage report displays the SOAP actions used by each application calling EWS in your organization. It also shows the successful-call volume for each SOAP action. This information enables you to coordinate with the application owners to ensure they're preparing for the EWS [deprecation in October 2026](https://techcommunity.microsoft.com/blog/exchange/retirement-of-exchange-web-services-in-exchange-online/3924440).
 
-1. In the admin center, go to the **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.
-2. From the **Overview** page, select **Exchange** > **EWS Usage**.
+## View the EWS usage report
+
+For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
+
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+1. On the **Overview** page, select **Exchange** > **EWS Usage**.
 
 ## Interpret the email activity report
 

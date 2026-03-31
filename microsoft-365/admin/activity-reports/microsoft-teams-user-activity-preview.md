@@ -1,10 +1,9 @@
 ---
-title: "Microsoft 365 admin center Teams user activity reports"
+title: "Microsoft Teams user activity report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
 ms.reviewer: hlu
-ms.date: 08/21/2023
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -23,17 +22,21 @@ search.appverid:
 - MET150
 - MOE150
 description: "Learn how to get the Microsoft Teams user activity report and gain insights into the Teams activity in your organization."
+ms.date: 08/21/2023
 ---
 
-# Microsoft 365 Reports in the admin center - Microsoft Teams user activity
+# Microsoft Teams user activity report - Microsoft 365 admin center
 
-The Microsoft 365 Reports dashboard shows you the activity overview across the products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. Check out [the Reports overview article](activity-reports.md). In the Microsoft Teams user activity report, you can gain insights into the Microsoft Teams activity in your organization.
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
 
-## How to get to the Microsoft Teams user activity report
+In the Microsoft Teams user activity report, you can gain insights into the Microsoft Teams activity in your organization.
 
-1. In the admin center, go to the **Reports**, then select **Usage**.
+## View the Microsoft Teams user activity report
 
-2. From the dashboard homepage, select the **View more** button on the Microsoft Teams activity card.
+For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
+
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+1. From the dashboard homepage, select the **View more** button on the Microsoft Teams activity card.
 
 ## Interpret the Microsoft Teams user activity report
 
@@ -101,6 +104,5 @@ To make the data in Teams user activity report anonymous, you have to be a globa
 
 ## Related content
 
-[Microsoft Teams device usage report](../activity-reports/microsoft-teams-device-usage-preview.md)
-
-[Microsoft Teams usage activity report](../activity-reports/microsoft-teams-usage-activity.md)
+[Microsoft Teams device usage report](../activity-reports/microsoft-teams-device-usage-preview.md) (article)\
+[Microsoft Teams usage activity report](../activity-reports/microsoft-teams-usage-activity.md) (article)

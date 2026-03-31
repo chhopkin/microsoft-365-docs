@@ -1,9 +1,8 @@
 ---
-title: "Microsoft 365 admin center mailbox usage reports"
+title: "Mailbox usage report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 11/27/2023
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -23,16 +22,21 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: "Learn how to get the Mailbox usage report to find out about activity levels for users with a user mailbox, and storage and quota information for each."
+ms.date: 11/27/2023
 ---
 
-# Microsoft 365 Reports in the admin center - Mailbox usage
+# Mailbox usage report - Microsoft 365 admin center
+
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 The **Mailbox usage report** provides information about users with a user mailbox and the level of activity by each based on the email send, read, create appointment, send meeting, accept meeting, decline meeting and cancel meeting activity. It also provides information about how much storage has been consumed by each user mailbox, and how many of them are approaching storage quotas. The mailbox usage report also contains information on mailboxes shared among users, providing storage and quota data on shared mailboxes.
 
-## How to get to the mailbox usage report
+## View the mailbox usage report
 
-1. In the admin center, go to the **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.
-2. Select **View More** under **Email activity**. 
+For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
+
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+1. Under **Email activity**, select **View More**. 
 3. From the **Email activity** drop-down list, select **Exchange** \> **Mailbox usage**.
 
 ## Interpret the Mailbox usage report

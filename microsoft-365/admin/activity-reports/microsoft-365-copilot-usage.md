@@ -191,6 +191,7 @@ To ensure data quality, the system performs daily data validation checks for the
 | Last activity date of Microsoft Edge (UTC)     | The latest date the user had activity in Copilot Chat in entry point Microsoft Edge, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.         |
 | Last activity date of any agent (UTC)   | The latest date the user had activity with an agent built by your org, regardless of the selected timeframe of past 7/30/90/180 days.      |
 
+
 ## Display user-specific data
 
 By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
