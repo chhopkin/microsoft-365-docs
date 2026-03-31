@@ -74,12 +74,9 @@ Proof of payment is provided in the form of Fapiaos. You can submit your Fapiao 
 
 ::: moniker-end
 
-## Storage limitations for Microsoft 365 Education trial customers
+## Storage limitations for Microsoft 365 trial customers
 
-> [!NOTE]
-> The following information only applies to customers who have a trial subscription for Microsoft 365 Education.
-
-If you have a Microsoft 365 Education trial, your subscription is limited to 300 GB of pooled storage. Pooled storage provides a single pool of storage for each tenant, and spans OneDrive, SharePoint Online, and Exchange Online. The storage pool represents the maximum amount of collective storage for these three services and is shared across and consumed by all users within the tenant. All SharePoint sites and OneDrives contribute towards pooled storage. In Exchange Online, pooled storage contributions include user mailboxes, shared mailboxes, and group mailboxes. All other mailbox types, including archive mailboxes, don't count towards pooled storage.
+If you have a Microsoft 365 trial, your subscription is limited to 300 GB of pooled storage. Pooled storage provides a single pool of storage for each tenant, and spans OneDrive, SharePoint Online, and Exchange Online. The storage pool represents the maximum amount of collective storage for these three services and is shared across and consumed by all users within the tenant. All SharePoint sites and OneDrives contribute towards pooled storage. In Exchange Online, pooled storage contributions include user mailboxes, shared mailboxes, and group mailboxes. All other mailbox types, including archive mailboxes, don't count towards pooled storage.
 
 ## Try a free trial subscription
 
