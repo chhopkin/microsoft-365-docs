@@ -1,5 +1,5 @@
 ---
-title: Get early access to AI innovations with the Microsoft Frontier program
+title: Get started with the Microsoft Frontier program
 description: Learn how IT administrators can enable the Microsoft Frontier program to provide users with early access to emerging AI features and agents before general availability.
 author: dansimp
 ms.author: dansimp
@@ -15,42 +15,26 @@ ms.collection:
 ms.localizationpriority: medium
 ---
 
-# Get early access to AI innovations with the Microsoft Frontier program
+# Get started with the Microsoft Frontier program
 
-The Microsoft Frontier program gives organizations early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability (GA). By opting in to Frontier, IT administrators can evaluate new Copilot agents and AI-powered experiences in a controlled environment and determine readiness for broader deployment across their tenant. Administrators can also provide feedback on Frontier capabilities to Microsoft. 
+The Microsoft Frontier program gives organizations early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability (GA). By opting in to Frontier, IT administrators can evaluate new Copilot agents and AI-powered experiences, determine readiness for broader deployment across their tenant, and provide feedback about Frontier feature capabilities to Microsoft.
 
 Access to Frontier experiences varies depending on your organization’s subscription and user roles. Frontier is managed at the tenant level and must be enabled by an administrator before eligible users can access preview features in Frontier.
 
-## How Frontier works
-
-Frontier allows administrators to selectively enable preview AI experiences for users in their organization. After Frontier is turned on:
-
-- Eligible users with assigned Microsoft 365 Copilot licenses can access Frontier features.
-- Administrators can control which preview agents and AI experiences are available.
-- Some Frontier features may require additional configuration before users can begin using them.
-- Access can be scoped to:
-  - No users (default)
-  - All licensed users
-  - Specific user or security groups
-
-This approach enables organizations to pilot new AI capabilities with a subset of users before enabling those experiences more broadly.
+> [!IMPORTANT]
+> For more detailed information, see [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program).
 
 ## Prerequisites
 
-Before enabling Frontier in your tenant, ensure that the following requirements are met.
+Frontier is managed at the tenant level. Before enabling Frontier in your tenant, ensure that the following requirements are met.
 
-### Required
+- Assign Copilot licenses to users
+- An account with Microsoft 365 Admin Center access
+- Meet Frontier feature-specific requirements, if applicable
 
-- Microsoft 365 Copilot licenses are assigned to users who will participate in Frontier experiences.
-- You have access to the Microsoft 365 admin center.
-- Your organization meets any feature-specific requirements for the Frontier experiences you want to enable.
+## Set up Frontier experiences
 
-> [!NOTE]
-> Some Frontier experiences require additional onboarding steps.
-
-## Set up Frontier experiences in your tenant
-
-IT administrators can enable Frontier preview capabilities across Microsoft 365 in multiple ways, depending on the type of AI experience they want to pilot. Use the following procedures to configure Frontier agents, Microsoft 365 app experiences, AI-enabled Cloud PCs, or Project Opal in your tenant.
+IT administrators can enable Frontier capabilities across Microsoft 365 in multiple ways, depending on the type of AI experience they want to try. Use the following procedures to configure Frontier agents, Microsoft 365 app experiences, AI-enabled Cloud PCs, or Project Opal in your tenant.
 
 ### Enable Frontier agents
 
