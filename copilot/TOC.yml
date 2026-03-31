@@ -499,7 +499,6 @@ items:
     items:
     - name: Overview
       href: /microsoft-365/copilot/connectors/overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-    - name: Set up connectors
     - name: Connectors gallery
       href: /microsoft-365/copilot/connectors/connectors-gallery?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Set up connectors
