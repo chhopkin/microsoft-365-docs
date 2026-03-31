@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: danbrown
 author: DHB-MSFT
 manager: dansimp
-ms.date: 03/31/2026
+ms.date: 03/12/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -28,8 +28,7 @@ As the admin of a Microsoft 365 organization, there are several policies to help
 Microsoft reviews all feedback submitted by customers. Microsoft uses this feedback to improve the product experiences for users, including by improving the quality of AI-generated responses and troubleshooting product issues. Keeping the feedback experiences enabled allows you to see what your users are saying about the Microsoft products they're using. The feedback we collect from your users is available in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 > [!NOTE]
->
-> Microsoft acts as a data processor for your tenant's feedback. As the tenant administrator, you can manage your tenant's feedback in the Microsoft 365 admin center. For more information, see [How can I see my user's feedback?](../misc/feedback-user-control.md#view-your-users-feedback)
+> Microsoft acts as a data processor for your tenant's feedback. As the tenant administrator, you can manage your tenant's feedback in the Microsoft 365 admin center. For more information, see [How can I see my user's feedback?](../misc/feedback-user-control.md#how-can-i-see-my-users-feedback)
 
 To learn more about the types of feedback and how Microsoft uses user feedback, see [Learn about Microsoft feedback for your organization](../misc/feedback-user-control.md).
 
@@ -67,8 +66,7 @@ The following table represents which apps and services are currently connected t
 ## Feedback policies
 
 > [!IMPORTANT]
->
-> If you're an admin in a United States government environment, see the [Feedback policies in United States government environments](#feedback-policies-in-united-states-government-environments) section later in this article.
+> If you’re an admin in a United States government environment, see the [Feedback policies in United States government environments](#feedback-policies-in-united-states-government-environments) section later in this article.
 
 When the following policies are set to **Not Configured**, it has the same effect as if you set the policies to **Enabled**.
 
@@ -82,7 +80,6 @@ When the following policies are set to **Not Configured**, it has the same effec
 |Allow users to include log files and content samples when feedback is submitted to Microsoft|Allows users to include Microsoft generated files such as additional log files and content samples when relevant to feedback they're submitting. Examples may include Microsoft 365 Copilot prompt and response interactions.|
 
 > [!NOTE]
->
 > The **Allow users to access the feedback portal** policy is only available in Cloud Policy service for Microsoft 365. This policy isn't available in Group Policy and doesn't have a corresponding registry key available to set the policy.
 
 ## Configure policies
@@ -92,7 +89,6 @@ To configure these policy settings, you can use Cloud Policy service for Microso
 These policy settings are also available if you use Group Policy. To use these policy settings, download the most current version of the [Administrative Template files (ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030). You can find these policy settings under User Configuration\Policies\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center.
 
 > [!NOTE]
->
 > After you apply policies, it can take a few hours for the client applications to update.
 
 ## Feedback policies in United States government environments
@@ -104,7 +100,7 @@ The following information only applies to United States government customers usi
   - Restricted feedback: Users can't provide written comments but can only provide predefined feedback such as giving a thumbs up/down rating or selecting an issue type from a list of likely issues.
   - Verbatim feedback: Users can submit more detailed feedback that includes optional written comments.
 - No diagnostic logs, prompts, responses, screenshots, attachments, or user files are collected in any configuration in United States government environments.
-- The Feedback portal and in-product surveys aren't available in this environment, so setting these policies don't have any effect at this time.
+- The Feedback portal and in-product surveys aren’t available in this environment, so setting these policies don’t have any effect at this time.
 - While the following policies are available to change, changes will have no effect and those policies will always be treated as **Disabled**:
   - Allow users to include screenshots and attachments when they submit feedback to Microsoft.
   - Allow Microsoft to follow up on feedback submitted by users.
