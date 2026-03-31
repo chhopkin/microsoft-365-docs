@@ -3,7 +3,7 @@ title: Plan for multitenant organizations in Microsoft 365
 ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
-ms.date: 04/02/2025
+ms.date: 03/31/2026
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
