@@ -37,6 +37,8 @@ If you don't want users to have the ability to upload files in Microsoft 365 Cop
 
 Changes to the file upload control could take up to 24 hours to be reflected for end users.
  
+Changes to the file upload control could take up to 24 hours to be reflected for end users.
+
 If users are prevented from uploading files in Microsoft 365 Copilot and Microsoft 365 Copilot Chat, the **Files** tab doesn't appear for those users in the Microsoft 365 Copilot app.
 
 > [!NOTE]
@@ -49,7 +51,3 @@ If users are prevented from uploading files in Microsoft 365 Copilot and Microso
 >**M365 Copilot (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license but will have [standard access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) (Standard versus priority access to features in Microsoft 365 Copilot Chat) to Copilot in those apps to ensure a reliable experience.
 >
 > **Copilot chat (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license and does not have access to Copilot chat in Word, Excel, PowerPoint and OneNote.
-
-
-> [!NOTE]
-> Changes to the file upload control could take up to 24 hours to be reflected for end users.
