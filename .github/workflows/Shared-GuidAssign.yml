@@ -1,0 +1,83 @@
+name: GUID assign
+
+on:
+  workflow_call:
+    inputs:
+      PayloadJson:
+        required: true
+        type: string
+    secrets:
+      AccessToken:
+        required: true
+
+jobs:
+  assign-guids:
+    if: github.repository_owner == 'MicrosoftDocs'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          token: ${{ secrets.AccessToken }}
+
+      - name: Assign GUIDs to new markdown files
+        run: |
+          # Find files added or modified in the merge commit
+          NEW_FILES=$(git diff --name-only --diff-filter=AM HEAD~1...HEAD -- '*.md' '**/*.md')
+
+          if [ -z "$NEW_FILES" ]; then
+            echo "No new articles in this push."
+            echo "guid_changed=0" >> "$GITHUB_ENV"
+            exit 0
+          fi
+
+          CHANGED=0
+          while IFS= read -r file; do
+            # Skip files without frontmatter
+            if ! head -1 "$file" | sed 's/^\xEF\xBB\xBF//' | tr -d '\r' | grep -q '^---$'; then
+              echo "Skipping $file (no frontmatter)"
+              continue
+            fi
+
+            # Skip includes directory
+            if echo "$file" | grep -q '/includes/'; then
+              echo "Skipping $file (includes directory)"
+              continue
+            fi
+
+            # Extract awa-articleGuid line from frontmatter
+            GUID_LINE=$(sed '1s/^\xEF\xBB\xBF//' "$file" | tr -d '\r' | sed -n '2,/^---$/p' | grep -i '^awa-articleGuid:' || true)
+
+            if [ -z "$GUID_LINE" ]; then
+              # No awa-articleGuid field — insert one before the closing ---
+              NEW_UUID=$(uuidgen | tr '[:upper:]' '[:lower:]')
+              CLOSE_LINE=$(sed '1s/^\xEF\xBB\xBF//' "$file" | tr -d '\r' | awk '/^---$/{count++; if(count==2){print NR; exit}}')
+              sed -i "${CLOSE_LINE}i\\awa-articleGuid: ${NEW_UUID}" "$file"
+              echo "Assigned GUID $NEW_UUID to $file (field was missing)"
+              git add -- "$file"
+              CHANGED=1
+            else
+              # Field exists — check if value is empty
+              GUID_VALUE=$(echo "$GUID_LINE" | sed 's/^[Aa][Ww][Aa]-[Aa][Rr][Tt][Ii][Cc][Ll][Ee][Gg][Uu][Ii][Dd]:[[:space:]]*//' | tr -d '[:space:]')
+              if [ -z "$GUID_VALUE" ]; then
+                NEW_UUID=$(uuidgen | tr '[:upper:]' '[:lower:]')
+                sed -i "s/^[Aa][Ww][Aa]-[Aa][Rr][Tt][Ii][Cc][Ll][Ee][Gg][Uu][Ii][Dd]:.*/awa-articleGuid: ${NEW_UUID}/" "$file"
+                echo "Assigned GUID $NEW_UUID to $file (field was empty)"
+                git add -- "$file"
+                CHANGED=1
+              else
+                echo "File $file already has GUID: $GUID_VALUE"
+              fi
+            fi
+          done <<< "$NEW_FILES"
+
+          echo "guid_changed=$CHANGED" >> "$GITHUB_ENV"
+
+      - name: Commit GUID assignments
+        if: env.guid_changed == '1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Auto-assign awa-articleGuid to new articles"
+          git push
