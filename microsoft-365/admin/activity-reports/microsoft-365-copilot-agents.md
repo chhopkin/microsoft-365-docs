@@ -30,7 +30,7 @@ ms.date: 03/20/2026
 
 # Microsoft 365 Copilot Agent usage report - Microsoft 365 admin center
 
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 In the Microsoft 365 Copilot Agent usage report, you can view the adoption of agents in Microsoft 365 Copilot in your organization. For agent activity on a given day, the report becomes available within 72 hours of the end of that day (in UTC).
 

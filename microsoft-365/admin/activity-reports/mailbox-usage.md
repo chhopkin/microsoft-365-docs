@@ -22,7 +22,7 @@ ms.date: 04/03/2026
 
 # Mailbox usage report - Microsoft 365 admin center
 
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 The **Mailbox usage report** provides information about users with a user mailbox and the level of activity by each user, based on the email send, read, create appointment, send meeting, accept meeting, decline meeting, and cancel meeting activity. It also provides information about how much storage each user mailbox consumes, and how many of them are approaching storage quotas. The mailbox usage report also contains information on mailboxes shared among users, providing storage and quota data on shared mailboxes.
 
@@ -62,16 +62,16 @@ The **Mailbox** chart shows you the total number of user or shared mailboxes in 
 > [!NOTE]
 > Shared mailboxes don't have activity independent of a user mailbox, so the report shows only a count of shared mailboxes when you select this mailbox type.
 
-On the Mailbox chart:
+On the **Mailbox** chart:
 
 - The Y axis is the number of user or shared mailboxes. 
 - The X axis is the selected date range for this specific report.
 
 ### The Storage chart
 
-The **Storage** chart shows you the amount of storage used in your organization by mailbox type. The Storage chart doesn't include archive mailboxes. For more information about auto-expanding archiving, see [Overview of auto-expanding archiving in Microsoft 365](../../compliance/autoexpanding-archiving.md).
+The **Storage** chart shows you the amount of storage used in your organization by mailbox type. The **Storage** chart doesn't include archive mailboxes. For more information about auto-expanding archiving, see [Overview of auto-expanding archiving in Microsoft 365](../../compliance/autoexpanding-archiving.md).
 
-On the Storage chart:
+On the **Storage** chart:
 
 - The Y axis is the amount of storage used by user or shared mailboxes in your organization.
 - The X axis is the selected date range for this specific report.
@@ -120,17 +120,10 @@ To learn more about the recoverable items folder, see [Recoverable Items folder 
 
 If your organization's policies prevent you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. For more information, see the **Hide user details in the reports** section in the [Activity Reports in the Microsoft 365 admin center](activity-reports.md).
 
-Select **Choose columns** to add or remove columns from the report.  <br/> :::image type="content" alt-text="Mailbox usage report - choose columns." source="../../media/ea3d0b18-6ac6-41b0-9bb9-4844f040ea75.png":::
+Select **Choose columns** to add or remove columns from the report.
+
+:::image type="content" alt-text="Mailbox usage report - choose columns." source="../../media/ea3d0b18-6ac6-41b0-9bb9-4844f040ea75.png":::
 
 To export the report data into an Excel .csv file, select the **Export** link. 
 
-## Display user-specific data
-
-By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
-
-[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
-
-1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page.
-1. Select the **Services** tab, then select **Reports**.
-1. In the **Reports** panel, select the checkbox next to **Display Concealed user, group, and site names in all reports**.
-1. Select **Save**.
+[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]

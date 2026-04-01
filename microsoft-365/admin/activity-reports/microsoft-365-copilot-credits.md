@@ -27,7 +27,7 @@ ms.date: 03/20/2026
 
 # Microsoft 365 Copilot credits report - Microsoft 365 admin center
 
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 The Microsoft 365 Copilot credits report helps you manage metered consumption costs for Microsoft 365 Copilot Chat. This report gives you visibility into credits used associated with your Microsoft 365 Copilot pay-as-you-go billing policies and includes key metrics such as:
 

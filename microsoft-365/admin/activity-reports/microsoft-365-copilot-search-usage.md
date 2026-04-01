@@ -90,15 +90,7 @@ The User activity table includes user-level details about each active Copilot Se
 
 To export the report data into an Excel .csv file, at the top of the table, select the ellipses and then select **Export**. This function exports the Copilot Search usage data of all users and lets you do simple sorting, filtering, and searching for further analysis.
 
-## Display user-specific data
-
-By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
-
-[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
-
-1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page. Under the **Services** tab, select **Reports**.
-1. Select **Reports**, and then select the checkbox next to **Display Concealed user, group, and site names in all reports**.
-1. Select **Save changes**.
+[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]
 
 ## FAQ
 

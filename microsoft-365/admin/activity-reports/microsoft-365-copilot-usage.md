@@ -31,7 +31,7 @@ ms.date: 03/20/2026
 
 # Microsoft 365 Copilot usage report - Microsoft 365 admin center
 
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 In the Microsoft 365 Copilot usage report, which is in continuous enhancement, you can view a summary of how users' adoption, retention, and engagement are with Microsoft 365 Copilot and its associated enabled apps, including agent usage. For Copilot activity on a given day, the report becomes available typically within 72 hours of the end of that day (in UTC).
 

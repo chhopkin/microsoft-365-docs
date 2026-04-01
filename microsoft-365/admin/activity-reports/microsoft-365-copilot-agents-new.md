@@ -28,7 +28,7 @@ ms.date: 03/20/2026
 
 # Microsoft 365 Copilot Agent usage report - Microsoft 365 admin center
 
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 The Agent usage report helps you track how agents are used in Microsoft 365 Copilot Chat and Microsoft 365 apps – Word, Excel, and PowerPoint. You can see which agents both licensed and unlicensed Microsoft 365 Copilot users use across Declarative, SharePoint, and Custom engine agents. These agents include agents built by your org, Microsoft, and Microsoft Partners.
 

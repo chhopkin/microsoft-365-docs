@@ -21,7 +21,7 @@ ms.date: 10/09/2025
 
 # Microsoft 365 Copilot Chat usage report - Microsoft 365 admin center
 
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 The Microsoft 365 Copilot Chat usage dashboard provides insights into active usage of Microsoft 365 Copilot Chat. The report includes total active users, average daily active users, total prompts submitted, and average prompts submitted per user. You can view usage insights as totals and trends for the past 7, 30, 90, or 180-day periods. The report also shows the last activity date, prompts submitted, and active days per user, anonymized by default. To view all reports, see [Microsoft 365 Reports in the admin center overview](activity-reports.md).
 
@@ -104,16 +104,7 @@ You can also export the report data into an Excel .csv file by selecting the **E
 | **Last activity date of PowerPoint (UTC)** | The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in PowerPoint. This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of OneNote (UTC)** | The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in OneNote. This date remains fixed even if the timeframe of the report is changed. |
 
-## Display user-specific data
-
-By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
-
-[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
-
-1. In the admin center, go to **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a>.
-1. Select the **Services** tab, and then select **Reports**.
-1. In the **Reports** panel, select the checkbox next to **Display Concealed user, group, and site names in all reports**.
-1. Select **Save**.
+[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]
 
 ## FAQ
 

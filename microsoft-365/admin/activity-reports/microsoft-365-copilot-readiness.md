@@ -30,7 +30,7 @@ ms.date: 02/13/2026
 
 # Microsoft 365 Copilot readiness report - Microsoft 365 admin center
 
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 The Microsoft 365 Copilot readiness report shows which users are technically eligible for Copilot. From the report, you can assign licenses and monitor usage of Microsoft 365 apps that Copilot integrates best with. The report is available within 72 hours, and once available, the usage data shown on the report can have up to a maximum of 72 hours latency.
 
