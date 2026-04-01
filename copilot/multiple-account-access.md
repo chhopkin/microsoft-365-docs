@@ -33,7 +33,7 @@ This means that when multiple account access to Copilot is enabled, your users c
 When multiple account access to Copilot is disabled, if the user only has access to Copilot through an account outside of your organization, such as from a personal Microsoft 365 subscription, they can’t use Copilot on work or school documents.
 
 > [!NOTE]
-> Multiple account access to Copilot is always disabled for the following customers: Microsoft 365 GCC (Government Community Cloud), Microsoft 365 GCC High, Microsoft 365 DoD, and Microsoft 365 operated by 21Vianet.
+> Multiple account access to Microsoft 365 Copilot is always disabled for the following customers: Microsoft 365 GCC (Government Community Cloud), Microsoft 365 GCC High, Microsoft 365 DoD, and Microsoft 365 operated by 21Vianet.
 
 ## Data protection
 
@@ -53,12 +53,12 @@ Users using multiple account access to Copilot on work and school documents also
 
 ## Manage multiple account access to Microsoft 365 Copilot using Cloud Policy
 
-You can use the "Multiple account access to Copilot for work documents" policy setting to control whether your users can use multiple account access to Copilot on work and school documents. This policy only applies to Microsoft 365 apps that allow signing in with multiple accounts (Word, Excel, PowerPoint, Outlook, and OneNote desktop and mobile apps).
+You can use the "Multiple account access to Copilot for work documents" policy setting to control whether your users can use multiple account access to Microsoft 365 Copilot on work and school documents. This policy only applies to Microsoft 365 apps that allow signing in with multiple accounts (Word, Excel, PowerPoint, Outlook, and OneNote desktop and mobile apps).
 
 To configure this policy setting, you need to use [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
 
 > [!NOTE]
-> Microsoft 365 GCC customers can see the policy setting in Cloud Policy, but the policy has no effect on them because multiple account access to Copilot is always disabled for Microsoft 365 GCC customers.
+> Microsoft 365 GCC customers can see the policy setting in Cloud Policy, but the policy has no effect on them because multiple account access to Microsoft 365 Copilot is always disabled for Microsoft 365 GCC customers.
 
 If you enable or don't configure this policy setting, your users can use Copilot on work and school documents with a Copilot license that is from outside your organization.
 
