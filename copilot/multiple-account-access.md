@@ -37,7 +37,7 @@ When multiple account access to Copilot is disabled, if the user only has access
 
 ## Data protection
 
-Copilot data protection is always based on the identity used to access the file. This ensures enterprise data protection for files in your organization, regardless of which account grants Copilot access.
+Microsoft 365 Copilot data protection is always based on the identity used to access the file. This ensures enterprise data protection for files in your organization, regardless of which account grants Copilot access.
 
 The setting for [web search in Microsoft 365 Copilot](manage-public-web-access.md) is also based on the identity used to access the file. If you disable web search in Copilot for a user in your organization, that user isn't able to use web search even when using Copilot access from another account.
 
