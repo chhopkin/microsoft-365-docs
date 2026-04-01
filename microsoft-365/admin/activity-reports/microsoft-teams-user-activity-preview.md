@@ -1,19 +1,16 @@
 ---
-title: "Microsoft Teams user activity report - Microsoft 365 admin center"
+title: Microsoft Teams user activity report - Microsoft 365 admin center
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
 ms.reviewer: hlu
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- Tier2
-- scotvorg
-- M365-subscription-management
-- Adm_O365
-- Adm_TOC
+ - M365-subscription-management
+ - Adm_O365
 ms.custom:
 - GAUpdates
 search.appverid:
@@ -21,15 +18,15 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
-description: "Learn how to get the Microsoft Teams user activity report and gain insights into the Teams activity in your organization."
-ms.date: 08/21/2023
+description: Learn how to get the Microsoft Teams user activity report and gain insights into the Teams activity in your organization.
+ms.date: 04/03/2026
 ---
 
 # Microsoft Teams user activity report - Microsoft 365 admin center
 
 [!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
 
-In the Microsoft Teams user activity report, you can gain insights into the Microsoft Teams activity in your organization.
+The Microsoft Teams user activity report provides insights into the Microsoft Teams activity in your organization.
 
 ## View the Microsoft Teams user activity report
 
@@ -42,11 +39,11 @@ For information about the roles needed to view usage reports, see [Microsoft 365
 
 You can view the user activity in the Teams report by choosing the **User activity** tab.
 
-![Microsoft 365 reports - Microsoft Teams user activity.](../../media/user-activity-charts.png)
+:::image type="content" source="../../media/user-activity-charts.png" alt-text="Microsoft 365 reports - Microsoft Teams user activity." lightbox="../../media/user-activity-charts.png":::
 
 Select **Choose columns** to add or remove columns from the report.
 
-:::image type="content" alt-text="Teams user activity report - choose columns." source="../../media/user-activity-columns.png":::
+:::image type="content" source="../../media/user-activity-columns.png" alt-text="Teams user activity report - choose columns." lightbox="../../media/user-activity-columns.png":::
 
 You can also export the report data into an Excel .csv file by selecting the **Export** link. This exports data of all users and enables you to do simple sorting and filtering for further analysis. The exported format for **audio time**, **video time**, and **screen share time** follows ISO 8601 duration format.
 
