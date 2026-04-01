@@ -21,14 +21,14 @@ ms.update-cycle: 180-days
 # Multiple account access to Microsoft 365 Copilot for work and school documents
 
 > [!NOTE]
-> - Multiple account access to Microsoft 365 Copilot is available for some apps on specific types of devices. For more information, see [Apps where multiple account access to Copilot is available](#apps-where-multiple-account-access-to-microsoft-365-copilot-is-available).
-> - For information about turning off multiple account access by using a policy setting, see [Manage multiple account access to Copilot using Cloud Policy](#manage-multiple-account-access-to-microsoft-365-copilot-using-cloud-policy).
+> - Multiple account access to Microsoft 365 Copilot is available for some apps on specific types of devices. For more information, see [Apps where multiple account access to Microsoft 365 Copilot is available](#apps-where-multiple-account-access-to-microsoft-365-copilot-is-available).
+> - For information about turning off multiple account access by using a policy setting, see [Manage multiple account access to Microsoft 365 Copilot using Cloud Policy](#manage-multiple-account-access-to-microsoft-365-copilot-using-cloud-policy).
 
 ## What is multiple account access to Microsoft 365 Copilot?
 
 In Microsoft 365 apps that support signing in with multiple accounts (desktop versions and mobile versions, if available, of Word, Excel, PowerPoint, Outlook, and OneNote), users can use their Microsoft 365 Copilot access from one account on documents from a different account.
 
-This means that when multiple account access to Copilot is enabled, your users can use Copilot on work documents without a Copilot license assigned from your organization.
+This means that when multiple account access to Copilot is enabled, your users can use Copilot on work documents without a Microsoft 365 Copilot license assigned from your organization.
 
 When multiple account access to Copilot is disabled, if the user only has access to Copilot through an account outside of your organization, such as from a personal Microsoft 365 subscription, they can’t use Copilot on work or school documents.
 
@@ -60,9 +60,9 @@ To configure this policy setting, you need to use [Cloud Policy service for Micr
 > [!NOTE]
 > Microsoft 365 GCC customers can see the policy setting in Cloud Policy, but the policy has no effect on them because multiple account access to Microsoft 365 Copilot is always disabled for Microsoft 365 GCC customers.
 
-If you enable or don't configure this policy setting, your users can use Copilot on work and school documents with a Copilot license that is from outside your organization.
+If you enable or don't configure this policy setting, your users can use Copilot on work and school documents with a Microsoft 365 Copilot license that is from outside your organization.
 
-If you disable this policy setting, your users can't use Copilot on work and school documents with a Copilot license that is from outside your organization.
+If you disable this policy setting, your users can't use Copilot on work and school documents with a Microsoft 365 Copilot license that is from outside your organization.
 
 The experience for blocked users viewing work and school documents is as follows:
 
