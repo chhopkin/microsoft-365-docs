@@ -1,5 +1,5 @@
 ---
-title: "European Union Data Boundary (EUDB) Flex Routing"
+title: "Flex routing (EU and EFTA)"
 ms.author: kwekua
 author: kwekuako
 ms.update-cycle: 180-days
@@ -21,7 +21,7 @@ appliesto:
 description: "Learn about flex routing and how it affects inferencing for Microsoft 365 Copilot and Copilot chat during times of peak load."
 ---
 
-# European Union Data Boundary (EUDB) flex routing
+# Flex routing (EU and EFTA)
 
 Flex routing lets customers in the European Union (EU) and the European Free Trade Association (EFTA) allow large language model (LLM) inferencing to occur outside the EU Data Boundary during periods of peak demand to help maintain a consistent Copilot experience. Inferencing is the processing step when an AI model executes the prompt to produce an output or response, such as summarizing content or answering a question.
 
