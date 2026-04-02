@@ -3,20 +3,17 @@ title: Microsoft 365 Copilot readiness report - Microsoft 365 admin center
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: kols
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection:
-  - Tier2
-  - scotvorg
   - M365-subscription-management
   - Adm_O365
-  - Adm_NonTOC
   - m365copilot
   - magic-ai-copilot
-  - operations-pod
 ms.custom:
 - GAUpdates
 search.appverid:
@@ -24,23 +21,24 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
+ai-usage: ai-assisted
 description: Learn how to use the Microsoft 365 Copilot readiness report to evaluate user eligibility, optimize license assignments, and prepare your organiation for sucessful Copilot adoption.
 ms.date: 02/13/2026
 ---
 
 # Microsoft 365 Copilot readiness report - Microsoft 365 admin center
 
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
-
 The Microsoft 365 Copilot readiness report shows which users are technically eligible for Copilot. From the report, you can assign licenses and monitor usage of Microsoft 365 apps that Copilot integrates best with. The report is available within 72 hours, and once available, the usage data shown on the report can have up to a maximum of 72 hours latency.
 
-## View the Microsoft 365 Copilot Readiness and Usage report
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
+
+## View the Microsoft 365 Copilot Readiness and usage report
 
 For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
-1. Select the **Microsoft 365 Copilot** page.
-1. You can view **Readiness** on the first tab. Switch to the **Usage** tab to view adoption and usage metrics.
+1. On the **Usage** page, under **Reports**, select **Microsoft 365 Copilot**, then select **Copilot**.
+1. On the report page, you can view **Readiness** on the first tab. Select the **Usage** tab to view adoption and usage metrics.
 
 ## Interpret the Readiness section in the Microsoft 365 Copilot report
 
@@ -102,15 +100,7 @@ The **Suggested candidate for Copilot** column in the Microsoft 365 Copilot Read
 - To support interpretability, several of the inputs to the suggestion model are also shown in the Copilot readiness details table. Users that actively used Teams meetings, Teams chats, Outlook emails, or Office docs over the preceding 28 day period have a "Yes" value in the columns corresponding with each of these applications.
 - The intended purpose of this capability is to support organizations with the rollout of Microsoft 365 Copilot by highlighting users who are most likely to quickly benefit from its capabilities based on their consistent usage of Microsoft 365 apps. It's not intended to be used to evaluate employee performance.
 
-## Make the user-specific data anonymous
-
-To make the data in the Microsoft 365 Copilot report anonymous, you must be a global administrator. This action hides identifiable information (by using MD5 hashes) such as display name, email, and Microsoft Entra Object ID in the report and their export.
-
-[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
-
-1. In Microsoft 365 admin center, go to **Settings** \> **Org Settings**. Under the **Services** tab, select **Reports**.
-1. Select **Reports**, and then choose **Display anonymous identifiers**. This setting applies to both the usage reports in Microsoft 365 admin center and Teams admin center.
-1. Select **Save changes**.
+[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]
 
 ## Related content
 

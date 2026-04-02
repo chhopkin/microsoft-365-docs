@@ -3,6 +3,7 @@ title: Mailbox usage report - Microsoft 365 admin center
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: hlu
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -16,23 +17,26 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
+ai-usage: ai-assisted
 description: "Track mailbox usage and email activity in Microsoft 365 admin center. Monitor storage quotas, analyze user engagement, and export detailed reports for better email management."
 ms.date: 04/03/2026
 ---
 
 # Mailbox usage report - Microsoft 365 admin center
 
+The Mailbox usage report provides information about users with a user mailbox and the level of activity by each user, based on the email send, read, create appointment, send meeting, accept meeting, decline meeting, and cancel meeting activity. It also provides information about how much storage each user mailbox consumes, and how many of them are approaching storage quotas. The mailbox usage report also contains information about mailboxes shared among users, providing storage and quota data on shared mailboxes.
+
 [!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
-The **Mailbox usage report** provides information about users with a user mailbox and the level of activity by each user, based on the email send, read, create appointment, send meeting, accept meeting, decline meeting, and cancel meeting activity. It also provides information about how much storage each user mailbox consumes, and how many of them are approaching storage quotas. The mailbox usage report also contains information on mailboxes shared among users, providing storage and quota data on shared mailboxes.
-
-## View the mailbox usage report
+## View the Mailbox usage report
 
 For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
-1. Under **Email activity**, select **View More**. 
-1. From the **Email activity** drop-down list, select **Exchange** \> **Mailbox usage**.
+1. On the **Usage** page, under **Reports**, select **Exchange**.
+1. On the report page, select the **Email activity** tab.
+2. Under **Email activity**, select **View More**. 
+3. From the **Email activity** drop-down list, select **Exchange** \> **Mailbox usage**.
 
 ## Interpret the Mailbox usage report
 
@@ -45,7 +49,7 @@ To access shared mailbox information, change the drop-down selection at the top 
   
 :::image type="content" alt-text="Mailbox usage report." source="../../media/9f610e91-cbc1-4e59-b824-7b1ddd84b738.png" lightbox="../../media/9f610e91-cbc1-4e59-b824-7b1ddd84b738.png":::
 
-You can view the **Mailbox usage** report for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you select a particular day in the report, the table shows data for up to 28 days from the current date (not the date the report was generated). The data in each report usually covers up to the last 24 to 48 hours.
+You can view the Mailbox usage report for trends over the last 7, 30, 90, or 180 days. However, if you select a particular day in the report, the table shows data for up to 28 days from the current date (not the date the report was generated). The data in each report usually covers up to the last 24 to 48 hours.
 
 ### The Mailbox chart
 
@@ -80,12 +84,12 @@ On the **Storage** chart:
 
 The **Quota** chart shows the number of user or shared mailboxes in each quota category. There are four quota categories:
 
-- Good: The number of users or shared mailboxes whose storage used is below the "issue warning" quota.
-- Warning: The number of users or shared mailboxes whose storage used is at or above the "issue warning" quota, but below the "prohibit send" quota.
-- Can't send: The number of users or shared mailboxes whose storage used is at or above the "prohibit send" quota, but below the "prohibit send/receive" quota.
-- Can't send/receive: The number of users or shared mailboxes whose storage used is at or above the "prohibit send/receive" quota.
+- **Good**: The number of users or shared mailboxes whose storage used is below the "issue warning" quota.
+- **Warning**: The number of users or shared mailboxes whose storage used is at or above the "issue warning" quota, but below the "prohibit send" quota.
+- **Can't send**: The number of users or shared mailboxes whose storage used is at or above the "prohibit send" quota, but below the "prohibit send/receive" quota.
+- **Can't send/receive**: The number of users or shared mailboxes whose storage used is at or above the "prohibit send/receive" quota.
 
-On the Quota chart:
+On the **Quota** chart:
 
 - The Y axis is the number of user or shared mailboxes in each storage quota.
 - The X axis is the quota category.
@@ -117,8 +121,6 @@ This table shows a breakdown of mailbox usage at the per mailbox level. You can 
 |Has Archive|Shows if the mailbox has an online archive enabled. |
 
 To learn more about the recoverable items folder, see [Recoverable Items folder in Exchange Online](/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder#recoverable-items-mailbox-quotas).
-
-If your organization's policies prevent you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. For more information, see the **Hide user details in the reports** section in the [Activity Reports in the Microsoft 365 admin center](activity-reports.md).
 
 Select **Choose columns** to add or remove columns from the report.
 

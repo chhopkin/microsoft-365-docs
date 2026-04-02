@@ -29,17 +29,18 @@ ms.date: 03/20/2026
 > [!NOTE]
 > The Copilot Search usage report is currently in public preview. Deployment processes and functionality might change before this report becomes generally available. During the public preview phase, users might notice some unexpected behaviors. These observations are a normal part of the preview experience and help inform improvements before general availability.
 
-The Microsoft 365 Copilot Search usage report provides an overview of Copilot Search usage within the Microsoft 365 Copilot app. It helps you  understand adoption and engagement trends for Copilot Search capabilities.
+The Microsoft 365 Copilot Search usage report provides an overview of Copilot Search usage within the Microsoft 365 Copilot app. It helps you understand adoption and engagement trends for Copilot Search capabilities.
 
 The Copilot Search usage report provides a detailed view of both organizational and individual user activity with Copilot Search across platforms. It includes trend charts for active usage and search activity at the organization level, and insights into each user’s search behavior during a selected timeframe. User behaviors are reflected in the report within one hour. With these insights, you can easily track Copilot Search usage trends and make informed decisions on how to drive further adoption within your organization.
+
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 ## View the Copilot Search usage report
 
 For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
-1. Expand **Microsoft 365 Copilot** to view the list of Copilot reports.
-1. Select **Copilot Search**.
+1. On the **Usage** page, under **Reports**, select **Microsoft 365 Copilot**, then select **Copilot Search**.
 
 ## Interpret the Copilot Search usage report
 

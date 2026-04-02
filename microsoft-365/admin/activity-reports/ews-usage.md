@@ -1,8 +1,9 @@
 ---
-title: Exchange Web Service (EWS) usage report - Microsoft 365 admin center
+title: Exchange Web Services (EWS) usage report - Microsoft 365 admin center
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: hlu
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -15,26 +16,28 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
+ai-usage: ai-assisted
 description: "View the Exchange Web Services (EWS) usage report to track SOAP actions and analyze trends. Monitor application activity and export data before EWS deprecation in October 2026."
 ms.date: 04/03/2026
 ---
 
-# Exchange Web Service (EWS) usage report - Microsoft 365 admin center
-
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
+# Exchange Web Services (EWS) usage report - Microsoft 365 admin center
 
 The Exchange Web Services (EWS) usage report displays the SOAP actions used by each application calling EWS in your organization. It also shows the successful-call volume for each SOAP action. This information enables you to coordinate with the application owners to ensure they're preparing for the [EWS deprecation in October 2026](https://techcommunity.microsoft.com/blog/exchange/retirement-of-exchange-web-services-in-exchange-online/3924440).
+
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 ## View the EWS usage report
 
 For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
-1. On the **Overview** page, select **Exchange** > **EWS Usage**.
+1. On the **Usage** page, under **Reports**, select **Exchange**.
+1. On the report page, select the **EWS usage** tab.
 
-## Interpret the EWS usage activity report
+## Interpret the EWS usage report
 
-To review the applications that use EWS within your organization, examine the **Usage Trend** and **Usage Details** sections. Additionally, summarized information at the top provides an overview of the overall usage.
+To review the applications that use EWS within your organization, examine the **Usage trend** and **Usage details** sections. Additionally, summarized information at the top provides an overview of the overall usage.
 
 :::image type="content" source="../../media/exchange-web-usage-report.png" alt-text="Screenshot of the Exchange Web Services (EWS) usage report." lightbox="../../media/exchange-web-usage-report.png":::
 
