@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork overview (Frontier)"
 description: "Learn about Copilot Cowork in Microsoft 365 Copilot, which take action on your behalf."
-ms.date: 03/30/2026
+ms.date: 04/02/2026
 ms.topic: overview
 author: leeclontz
 manager: KumarVivek
@@ -18,6 +18,8 @@ appliesto:
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
 Cowork in Microsoft 365 Copilot can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. You approve each action before it happens.
+
+:::image type="content" source="media/cowork-overview-interface.png" alt-text="Screenshot of the Copilot Cowork home page showing the chat input, suggested prompts, and recent tasks.":::
 
 ## What is Copilot Cowork?
 
