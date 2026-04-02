@@ -51,7 +51,7 @@ jobs:
                     "StaleBranch.yml",
                     "TierManagement.yml",
                     "workflow-status-report.yml",
-                    "Shared-AutoIssueAssign.yml"
+                    "Shared-AutoIssueAssign.yml",
                     "Shared-AutoLabelAssign.yml", 
                     "Shared-AutoLabelMsftContributor.yml",
                     "Shared-AutoPublish.yml",
