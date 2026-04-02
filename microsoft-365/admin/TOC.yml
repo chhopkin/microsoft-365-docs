@@ -289,7 +289,7 @@ items:
             - name: Agent Settings
               href: manage/agent-settings.md
          - name: Microsoft Graph connectors for Microsoft Search
-         - href: /microsoftsearch/connectors-overview
+           href: /microsoftsearch/connectors-overview
          - name: Monitor Microsoft 365 activity by using reports
            items:
             - name: Microsoft 365 Reports in the admin center - overview
