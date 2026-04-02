@@ -1,4 +1,4 @@
- ---
+---
 title: "Copilot in Microsoft 365 apps with Anthropic models"
 ms.author: kwekua
 author: kwekuako
