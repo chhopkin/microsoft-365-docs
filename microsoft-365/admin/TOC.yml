@@ -268,7 +268,7 @@ items:
       items:
          - name: Copilot in Microsoft 365 admin center
            href: /copilot/microsoft-365/copilot-for-microsoft-365-admin
-         - name: Microsoft 365 Copilot extensibility
+         - name: Agents in Microsoft 365
            items:
             - name: Manage agents in the Microsoft 365 admin center
               href: manage/manage-copilot-agents-integrated-apps.md
@@ -288,8 +288,10 @@ items:
               href: manage/manage-tools-for-agent.md
             - name: Agent Settings
               href: manage/agent-settings.md
-            - name: Microsoft Graph connectors for Microsoft Search
-              href: /microsoftsearch/connectors-overview
+         - name: Connectors in Microsoft 365
+           items:              
+              - name: Microsoft Graph connectors for Microsoft Search
+              - href: /microsoftsearch/connectors-overview
          - name: Monitor Microsoft 365 activity by using reports
            items:
             - name: Microsoft 365 Reports in the admin center - overview
