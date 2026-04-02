@@ -8,14 +8,12 @@ manager: dansimp
 ms.date: 08/14/2025
 audience: Admin
 ms.topic: concept-article
-ms.service: microsoft-365-security
-ms.localizationpriority: high
+ms.service: microsoft-365-business
+ms.subservice: m365-privacy
 ms.collection:
-- highpri
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-- trust-pod
 ms.custom:
 - VSBFY23
 - AdminSurgePortfolio
