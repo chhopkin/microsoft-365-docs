@@ -24,15 +24,12 @@ Access to Frontier experiences varies depending on your organization’s subscri
 > Use of Microsoft Frontier requires a Microsoft 365 Copilot license.
 > Not all preview features are available in Frontier. For more detailed information, see [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program). 
 
-
-
 ## Set up Frontier experiences
 
-IT administrators can enable Frontier capabilities across Microsoft 365 in multiple ways. Use one or more of the following procedures to configure Frontier for the experience you want in your tenant.
+The steps for IT administrators to enable Frontier capabilities depend on the the specific Frontier feature or servce.. Use one or more of the following procedures to configure Frontier for the experience you want to try in your tenant.
 
 > [!IMPORANT]
 > Frontier is managed at the tenant level. Before enabling Frontier, ensure that you've assigned Microsoft 365 Copilot licenses to your users, and you have an administrator account that can access the Microsoft 365 Admin Center.
-
 
 ### Enable Frontier agents
 
