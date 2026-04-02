@@ -171,7 +171,7 @@ To ensure data quality, the system performs daily data validation checks for the
 |------|-------------|
 | User name    | The user's principal name.  |
 | Display name  | The full name of the user.  |
-| Prompts submitted (any app) | The total number of prompts this user submitted to Microsoft 365 Copilot Chat during the selected timeframe. |
+| Prompts submitted (any app) | Total number of prompts a user submitted in Copilot across all in-scope host applications during the selected timeframe. |
 | Copilot Chat (work) prompts submitted | The total number of prompts this user submitted to Copilot Chat (work) during the selected timeframe. |
 | Copilot Chat (web) prompts submitted | The total number of prompts this user submitted to Copilot Chat (web) during the selected timeframe. |
 | Active Days | The total number of days the user submitted prompts to Microsoft 365 Copilot Chat within the selected timeframe. |
