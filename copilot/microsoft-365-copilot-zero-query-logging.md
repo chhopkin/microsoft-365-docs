@@ -37,7 +37,7 @@ Zero Query Logging (ZQL) provides enhanced privacy and compliance when web groun
 
 ## What is Zero Query Logging?
 
-Once ZQL is enabled, no Query Data is logged in Bing during web grounding processes through Copilot. In other words, Query Data and identifiers aren't logged by Bing when using web search through Copilot.
+When ZQL is enabled, no Query Data is logged in Bing during web grounding processes through Microsoft 365 Copilot, Copilot Chat, and the Researcher agent. In other words, Query Data and identifiers aren't logged by Bing when using web search through Copilot.
 
 To make ZQL possible, Microsoft created a separate search index for web queries through Copilot. This index curates a subset of the full index used for Bing with the most popular answer types. Once ZQL is turned on, web grounding for Copilot only occurs from this curated web index.
 
