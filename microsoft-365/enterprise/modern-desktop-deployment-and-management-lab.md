@@ -32,7 +32,8 @@ The labs include evaluation versions of the following products:
 
 - Windows 11 Enterprise, version 25H2
 
-- Microsoft Configuration Manager, version 2409
+- Microsoft Configuration Manager, version 2509
+
 - Windows Assessment and Deployment Kit for Windows 11
 - Windows Server 2025
 
