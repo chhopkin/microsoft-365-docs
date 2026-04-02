@@ -19,15 +19,15 @@ appliesto:
 
 [!INCLUDE [preview](../includes/preview.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Copilot Cowork agent in Microsoft 365 Copilot.
+These frequently asked questions (FAQ) describe the AI impact of Copilot Cowork in Microsoft 365 Copilot.
 
-## What is Copilot Cowork agent?
+## What is Cowork?
 
 Copilot Cowork in Microsoft 365 Copilot helps you carry out tasks across Microsoft 365 using natural language instructions. For example, it can send emails, schedule meetings, create documents, post in Teams, and manage files. Each action that Cowork takes is visible in the conversation. Sensitive actions require your explicit approval before they're executed.
 
-## What are Copilot Cowork's capabilities?
+## What are Cowork's capabilities?
 
-Copilot Cowork can:
+Cowork can:
 
 - Draft and send emails, reply to messages, and forward messages with attachments through Outlook.
 - Create and manage calendar events and schedule meetings.
@@ -45,7 +45,7 @@ Copilot Cowork can:
 
 During a conversation, Cowork acquires specialized skills as needed, such as the following: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards.
 
-## What is Copilot Cowork's intended use?
+## What is Cowork's intended use?
 
 Cowork is designed for information workers who use Microsoft 365 and want to delegate multi-step tasks. Typical use cases include:
 
@@ -57,7 +57,7 @@ Cowork is designed for information workers who use Microsoft 365 and want to del
 
 Cowork isn't intended for use cases that require guaranteed accuracy without human review. Examples are legal filings, medical decisions, or financial transactions that bypass approval processes.
 
-## How is Cowork agent evaluated, and what metrics are used to measure performance?
+## How is Cowork evaluated, and what metrics are used to measure performance?
 
 Microsoft evaluates Cowork across several areas:
 
@@ -66,7 +66,7 @@ Microsoft evaluates Cowork across several areas:
 - **User feedback**: Thumbs up and thumbs down ratings on individual responses and generated documents, collected directly in the conversation.
 - **Safety and compliance**: Ongoing evaluation to ensure Cowork operates within Microsoft's responsible AI principles.
 
-## What are the limitations of Copilot Cowork, and how can users minimize the impact of these limitations?
+## What are the limitations of Cowork, and how can users minimize the impact of these limitations?
 
 Current limitations include:
 
@@ -84,7 +84,7 @@ To minimize these limitations:
 - Use the pause and cancel controls to stop work if Cowork is heading in the wrong direction.
 - Provide thumbs up or thumbs down feedback to help improve future responses.
 
-## How does Copilot Cowork handle action approval?
+## How does Cowork handle action approval?
 
 Before Cowork performs a sensitive action such as sending an email, posting in Teams, or modifying a file, it presents an approval dialog. You have the following options:
 
@@ -94,7 +94,7 @@ Before Cowork performs a sensitive action such as sending an email, posting in T
 
 For certain actions, such as sending an email, Cowork displays a preview of the content so you can review it before approving. Cowork doesn't execute sensitive actions without your explicit consent.
 
-## How does Copilot Cowork handle my data?
+## How does Cowork handle my data?
 
 Cowork operates within the security and compliance boundaries of Microsoft 365.
 
@@ -113,7 +113,7 @@ Cowork doesn't use your data to train AI models. Your organizational data remain
 - Administrators can manage access to Cowork through the Microsoft 365 admin center, including disabling access for specific users or controlling deployment across the organization.
 - Provide regular feedback through the thumbs up/down controls and the general feedback option to help improve Cowork's performance over time.
 
-## How do I provide feedback on Copilot Cowork?
+## How do I provide feedback on Cowork?
 
 You can provide feedback in the following ways:
 
@@ -121,7 +121,7 @@ You can provide feedback in the following ways:
 - **Document feedback**: When previewing files that Cowork created.
 - **General feedback**: Through the feedback option in the header menu.
 
-Your feedback is used to evaluate and improve Cowork agent's quality and safety.
+Your feedback is used to evaluate and improve Cowork's quality and safety.
 
 ## Related content
 
