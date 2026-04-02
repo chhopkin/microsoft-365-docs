@@ -35,7 +35,7 @@ As the admin, you can manage the Anthropic model setting in the Microsoft 365 ad
 - Microsoft PowerPoint  
 - Microsoft Word *(support for Anthropic models will be added in summer, 2026)*
 
-This setting applies only to Copilot experiences within these apps and doesn't affect Anthropic model usage in other Microsoft 365 Copilot features or services. It's separate from the [global Anthropic subprocessor setting in Microsoft 365](connect-to-ai-subprocessor.md). Changes to this setting don't modify global subprocessor configurations.
+This setting applies only to Copilot experiences within these apps and does not affect Anthropic model usage in other Microsoft 365 Copilot features or services. It is separate from the [global Anthropic subprocessor setting in Microsoft 365](connect-to-ai-subprocessor.md). Changes to this setting do not modify global subprocessor configurations.
 
 This setting is on by default for tenants in the EU, EFTA, and UK that were created after March 25, 2026. For tenants in the EU, EFTA and UK that existed before March 25, 2026, check the [Message Center](https://go.microsoft.com/fwlink/p/?linkid=2070717) for details on your tenant’s default setting.
 
