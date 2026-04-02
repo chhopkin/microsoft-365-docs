@@ -45,10 +45,10 @@ All tenant administrators are encouraged to check their tenant's flex routing se
 **Enable flex routing**
 
 1. Sign in to the Microsoft 365 admin center as an administrator assigned the [AI Administrator role](/entra/identity/role-based-access-control/permissions-reference).
-2. Go to **Copilot** -> **Settings** -> **Flex routing during periods of peak demand**.
+2. Go to **Copilot** -> **Settings** -> **Flexible inferencing during periods of peak period loads**.
 3. Select **Allow flex routing during periods of peak load**.
     1. This setting allows LLM inferencing and the storage of associated pseudonymized data to occur outside the EU data boundary during periods of peak demand. Typically, these periods are limited in duration and do not run continuously.
-4. If you don’t want to allow flex routing, select **Do not allow EU flex routing**.
+4. If you don’t want to allow flex routing, select **Do not allow flex routing**.
     1. If you select this option, LLM inferencing will occur inside the EU Data Boundary, even during periods of peak demand. All Microsoft 365 data processing and data residency commitments will continue to apply.
 
 ## Frequently asked questions
@@ -65,6 +65,6 @@ When flex routing is enabled, LLM inferencing may occur outside the EU Data Boun
 
 If flex routing is enabled, LLM inferencing may occur in the United States, Canada, or Australia during times of peak demand.
 
-### Why is the flex routing setting greyed out in the Power Platform admin center
+### Why can't I change the flex routing setting in the Power Platform admin center?
 
 If flex routing is not allowed in the Microsoft 365 admin center, flex routing will be off by default in the Power Platform admin center and you will not be able to change the setting. If flex routing is allowed in the Microsoft 365 admin center, then the flex routing setting in the Power Platform admin center will be configurable.
