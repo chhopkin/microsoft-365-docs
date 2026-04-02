@@ -8,6 +8,7 @@ manager: scotv
 ms.date: 12/10/2025
 ms.topic: how-to
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 audience: Admin
 appliesto:
 - ✅ Microsoft 365 Copilot
@@ -29,9 +30,9 @@ To turn on the Copilot AI disclaimer, you need to be assigned the AI Administrat
 
 ## Turn on Microsoft 365 Copilot AI disclaimers
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Copilot** -> **Settings** -> **Copilot actions** -> **Copilot AI disclaimer**.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Copilot** -> **Settings** -> **View all** -> **Copilot AI disclaimer**.
 2. On the **Copilot AI disclaimer** page, select **Standard** or **Bold** to select the font for the disclaimer.
-3. Optional: Create a page with your organization’s internal AI policy and add the URL under Provide a web address that's available from the tooltip. Or leave this field blank if you want to keep the default Microsoft Copilot AI disclaimer.
+3. Optional: Create a page with your organization’s internal AI policy and add the URL under **Provide a web address that is available from the tooltip**. Or leave this field blank if you want to keep the default Microsoft Copilot AI disclaimer.
 4. Review the disclaimer and select **Save** to apply the setting.
 
 > [!NOTE]

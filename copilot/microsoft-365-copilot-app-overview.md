@@ -8,7 +8,7 @@ ms.date: 03/03/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: microsoft-365-copilot
-ms.subservice: 
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
