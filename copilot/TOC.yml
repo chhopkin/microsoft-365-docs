@@ -108,6 +108,8 @@ items:
     items:
     - name: Anthropic as a subprocessor for Microsoft Online Services
       href: connect-to-ai-subprocessor.md
+    - name: Copilot in Microsoft 365 apps with Anthropic models
+      href: copilot-anthropic-apps.md      
     - name: Connect to xAI's models  
       href: connect-to-ai-models.md
     - name: Deploy Microsoft 365 Copilot app
