@@ -24,7 +24,7 @@ Responsible AI FAQs are part of a broader effort to put Microsoft's AI principle
 
 ## AI-driven features
 
-Copilot Cowork contains a growing list of AI-driven features. To learn about the capabilities and impact of specific features, select an article in the list.
+Cowork contains a growing list of AI-driven features. To learn about the capabilities and impact of specific features, select an article in the list.
 
 - **Task execution across Microsoft 365** — Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages files based on your natural language instructions.
 - **Work context integration** — You can attach emails, files, and calendar events to your conversation so Cowork has the context it needs to complete your request.
@@ -35,7 +35,7 @@ Copilot Cowork contains a growing list of AI-driven features. To learn about the
 
 For detailed information about how these features use AI responsibly, see [Responsible AI FAQ for Copilot Cowork](cowork-responsible-ai-faq.md).
 
-## About Copilot Cowork
+## About Cowork
 
 Cowork is available in Microsoft 365 Copilot and carries out tasks on your behalf across Microsoft 365. You describe what you need in natural language, and Cowork does the work — sending emails, scheduling meetings, creating documents, posting in Teams, browsing the web, and managing files.
 
@@ -49,5 +49,5 @@ Cowork is available through the [Frontier program](https://adoption.microsoft.co
 - [Get started with Copilot Cowork](../cowork/get-started.md)
 - [Use Copilot Cowork](../cowork/use-cowork.md)
 - [Copilot Cowork common questions](../cowork/cowork-faq.md)
-- [Responsible AI FAQ for Copilot Cowork agent](cowork-responsible-ai-faq.md)
+- [Responsible AI FAQ for Copilot Cowork](cowork-responsible-ai-faq.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)

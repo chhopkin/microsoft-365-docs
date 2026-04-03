@@ -1,6 +1,6 @@
 ---
 title: "Copilot Cowork overview (Frontier)"
-description: "Learn about Copilot Cowork in Microsoft 365 Copilot, which take action on your behalf."
+description: "Learn about Copilot Cowork in Microsoft 365 Copilot, which takes action on your behalf."
 ms.date: 04/02/2026
 ms.topic: overview
 author: leeclontz
