@@ -9,6 +9,7 @@ ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
+ai-usage: ai-generated
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -19,7 +20,7 @@ appliesto:
 
 Cowork in Microsoft 365 Copilot can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. You approve each action before it happens.
 
-:::image type="content" source="media/cowork-overview-interface.png" alt-text="Screenshot of the Copilot Cowork home page showing the chat input, suggested prompts, and recent tasks.":::
+:::image type="content" source="media/cowork-overview-interface.png" alt-text="Screenshot of the Copilot Cowork home page showing the chat input, suggested prompts, and recent tasks."  lightbox="media/cowork-overview-interface.png":::
 
 ## What is Copilot Cowork?
 

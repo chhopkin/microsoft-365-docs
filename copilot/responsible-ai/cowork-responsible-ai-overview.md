@@ -10,6 +10,7 @@ author: leeclontz
 manager: KumarVivek
 ms.author: leeclontz
 ms.service: microsoft-365-copilot
+ai-usage: ai-generated
 ms.subservice: cowork
 ---
 
