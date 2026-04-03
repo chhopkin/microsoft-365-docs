@@ -65,7 +65,7 @@ Prebuilt agents are available from Microsoft and trusted partners. Use this meth
 2. Review the agent’s information based on availability and capability:  
 - Select **Overview** to view details, such as **Publisher**, **Channel**, and **Last updated**.
 - Choose **Users** to assign and deploy to users or to allow users to install.
-- Select**Data & tools** to view **Capabilities**, **Knowledge**, and **Actions**.
+- Select **Data & tools** to view **Capabilities**, **Knowledge**, and **Actions**.
 - Select **Security & compliance** to view agent risks and protections.
 - Choose **Certification** to view the certification or publisher attestation information available for the agent.
 - Select **Activity** when you’ve previously deployed the agent and want to confirm usage data. 
