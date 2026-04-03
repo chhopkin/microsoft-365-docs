@@ -158,7 +158,7 @@ By default, the Copilot credits report anonymizes the Billing Policy ID, just li
 
 [!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
-To learn how to change the setting to show the Username and Display name information, see [Show user, group, or site details in the reports](activity-reports.md#show-user-group-or-site-details-in-the-reports).
+To learn how to change the setting to show the Username and Display name information, see [Show user, group, or site details in usage reports](activity-reports.md#show-user-group-or-site-details-in-usage-reports).
 
 > [!NOTE]
 > Changes to this hidden data setting affect the username, display name, and Billing Policy ID.

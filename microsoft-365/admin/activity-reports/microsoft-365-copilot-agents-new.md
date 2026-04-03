@@ -199,7 +199,7 @@ By default, the usage report anonymizes the username and display name. Global ad
 
 [!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
-To learn how to change the setting to show the username and display name information, see [Show user, group, or site details in the reports](activity-reports.md#show-user-group-or-site-details-in-the-reports).
+To learn how to change the setting to show the username and display name information, see [Show user, group, or site details in usage reports](activity-reports.md#show-user-group-or-site-details-in-usage-reports).
 
 ### Are SharePoint agents used in Teams included in the usage report?
 

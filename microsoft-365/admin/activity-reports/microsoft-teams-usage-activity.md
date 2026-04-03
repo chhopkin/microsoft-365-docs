@@ -119,10 +119,10 @@ You can view data for the following metrics for individual teams.
 |Channel messages|The number of unique messages that the user posted in a team chat during the specified time period.|
 |Last activity date|The latest date that any member of the team committed an action.|
 
+[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]
+
 > [!NOTE]
 > Metric counts include Teams client built-in features, but don't include changes to chat and channel through service integration, such as Teams app posts or replies and emails in the channel.
-
-[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]
 
 ## Related content
 
