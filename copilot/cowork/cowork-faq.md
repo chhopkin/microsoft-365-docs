@@ -156,7 +156,7 @@ Yes. The following limitations are by design:
 - Cowork can't access or edit files stored locally on your device. It works with files in OneDrive and SharePoint.
 - Cowork can't delete files or folders in OneDrive or SharePoint.
 - Custom skills created by users are not validated by Microsoft. Review custom skill outputs carefully.
-- Attached files must be less than 200MB.
+- Attached files must be less than 200 MB.
 - Cowork can't read encrypted files, even if the user has access.
 
 ## Is Cowork secure?
