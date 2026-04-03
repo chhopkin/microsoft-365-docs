@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 03/31/2026
+ms.date: 04/02/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -133,8 +133,6 @@ Protect sensitive data by default and decide how it should be used with Copilot 
 1. Are there files or emails that shouldn't be used by Copilot for grounding? If yes, setup [Microsoft Purview DLP for Copilot policies](/purview/dlp-microsoft365-copilot-location-learn-about) to restrict Copilot processing of files and emails with specific sensitivity label
 
 1. Are there keywords or types of sensitive data that shouldn't be processed by Copilot? If yes, enable a [Purview DLP for Copilot prompts](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts containing specified sensitive information
-
-1. Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts that contain sensitive information.
 
    Optionally, allow sensitive data to be used for Work IQ grounding but block from web grounding
   
