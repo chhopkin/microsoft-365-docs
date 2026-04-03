@@ -34,8 +34,6 @@ Tenant administrators can change the flex routing setting at any time in the Mic
 
 ## Eligibility
 
-Flex routing is available for tenants located in countries in the EU or EFTA. For more information, see [EU Data Boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn).
-
 Flex routing is available for customers with a sign-up location in a country or region in the EU or EFTA. For more information, see [EU Data Boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn). Note that this setting will not be available for customers who have purchased Multi-Geo Capabilities even if their tenant is listed as being in a country or region in the EU or EFTA. Customers can check their tenant’s country or region in the [Microsoft 365 admin center](../microsoft-365/admin/manage/change-address-contact-and-more.md).
 
 ## Set up flex routing
