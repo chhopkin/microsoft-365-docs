@@ -94,7 +94,7 @@ Use this method to create a custom agent using Copilot Studio, the native agent 
 
 ### Step 2: Submit the agent for admin approval (Maker)
 1. In Copilot Studio, select the **Channels** tab for your agent.
-2. Select **Microsoft 365 Copilot and Microsoft Teams** as the publishing channel. The related pane with show channel specific settings.
+2. Select **Microsoft 365 Copilot and Microsoft Teams** as the publishing channel. The related pane will show channel specific settings.
 3. Confirm that **Make agent available in Microsoft 365 Copilot** has been selected.
 4. Select **Edit details** to configure how your agent will be displayed. Once complete, select **Save** to return to the channel specific settings.
 5. Select **Save** to send the agent for admin review. Once the agent is reviewed and published in the [Microsoft 365 admin center](https://admin.microsoft.com/), you're able to view your agent in Agent Store.
