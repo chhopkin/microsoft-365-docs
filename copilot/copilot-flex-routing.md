@@ -30,7 +30,7 @@ No matter where LLM inferencing occurs, data will be encrypted in transit and at
 Tenant administrators can change the flex routing setting at any time in the Microsoft 365 admin center or Power Platform admin center. The Microsoft 365 admin center setting applies to Microsoft 365 Copilot and Copilot Chat. The Power Platform admin center setting applies to Copilot experiences in Dynamics 365, Power Platform, and Copilot Studio.
 
 > [!NOTE]
-> By default, the flex routing setting in the Power Platform admin center will be the same as the setting in the Microsoft 365 admin center unless you choose a more restrictive setting in the Power Platform admin center. For more information, see [Move data across regions for Copilots, AI agents, and generative AI features](/power-platform/admin/geographical-availability-copilot).
+> The flex routing setting in the Power Platform admin center will honor the flex routing setting in the Microsoft 365 admin center unless the current setting in the Power Platform admin center is more restrictive. For more information, see [Move data across regions for Copilots, AI agents, and generative AI features](/power-platform/admin/geographical-availability-copilot).
 
 ## Eligibility
 
