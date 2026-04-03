@@ -8,20 +8,20 @@ ms.service: microsoft-365-enterprise
 ms.subservice: multi-tenant
 ms.topic: upgrade-and-migration-article
 f1.keywords:
-  - NOCSH
-ms.date: 02/28/2025
+- NOCSH
+ms.date: 02/28/2026
 ms.reviewer: georgiah
 ms.custom:
-  - it-pro
-  - admindeeplinkMAC
-  - admindeeplinkEXCHANGE
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
+- it-pro
+- admindeeplinkMAC
+- admindeeplinkEXCHANGE
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 ms.localizationpriority: high
 ms.collection:
-  - scotvorg
-  - M365-subscription-management
-  - must-keep
+- scotvorg
+- M365-subscription-management
+- must-keep
 ---
 
 # Cross-tenant mailbox migration
