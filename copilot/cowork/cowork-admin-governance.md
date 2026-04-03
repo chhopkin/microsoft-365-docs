@@ -9,7 +9,7 @@ ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
-ai-usage: ai-generated
+ai-usage: ai-assisted
 appliesto:
 - Microsoft 365 Copilot
 ---
