@@ -11,6 +11,7 @@ manager: KumarVivek
 ms.author: leeclontz
 ms.service: microsoft-365-copilot
 ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 ms.subservice: cowork
 ---
 
