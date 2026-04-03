@@ -9,7 +9,7 @@ ms.subservice: multi-tenant
 ms.topic: upgrade-and-migration-article
 f1.keywords:
 - NOCSH
-ms.date: 02/28/2026
+ms.date: 09/28/2025
 ms.reviewer: georgiah
 ms.custom:
 - it-pro
