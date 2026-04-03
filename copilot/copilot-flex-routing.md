@@ -36,6 +36,8 @@ Tenant administrators can change the flex routing setting at any time in the Mic
 
 Flex routing is available for tenants located in countries in the EU or EFTA. For more information, see [EU Data Boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn).
 
+Flex routing is available for customers with a sign-up location in a country or region in the EU or EFTA. For more information, see [EU Data Boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn). Note that this setting will not be available for customers who have purchased Multi-Geo Capabilities even if their tenant is listed as being in a country or region in the EU or EFTA. Customers can check their tenant’s country or region in the [Microsoft 365 admin center](../microsoft-365/admin/manage/change-address-contact-and-more.md).
+
 ## Set up flex routing
 
 Flex routing is on by default for tenants in the EU or EFTA that were created after March 25, 2026. For tenants in the EU or EFTA that existed before March 25, 2026, please check the Message Center for more details on your tenant’s default flex routing setting.
@@ -53,9 +55,9 @@ All tenant administrators are encouraged to check their tenant's flex routing se
 
 ## Frequently asked questions
 
-### Why don’t I see the flex routing setting in the Microsoft 365 admin center?
+### Why can't I see the flex routing setting in the Microsoft 365 admin center?
 
-The flex routing setting is only visible in the Microsoft 365 admin center for tenants in EU and EFTA countries. See [EU data boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn) for more information.
+The flex routing setting is only visible in the Microsoft 365 admin center for customers with a sign-up location in a country or region in the EU or EFTA. For more information, see [EU data boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn). This setting is also not available for customers who have purchased multi-geo capabilities even if their tenant is listed as being in a country or region in the EU or EFTA. Customers can check their tenant’s country or region in the [Microsoft 365 admin center](../microsoft-365/admin/manage/change-address-contact-and-more.md).
 
 ### How does flex routing affect Microsoft’s EU data boundary commitments?
 
