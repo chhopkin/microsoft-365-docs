@@ -156,6 +156,8 @@ Yes. The following limitations are by design:
 - Cowork can't access or edit files stored locally on your device. It works with files in OneDrive and SharePoint.
 - Cowork can't delete files or folders in OneDrive or SharePoint.
 - Custom skills created by users are not validated by Microsoft. Review custom skill outputs carefully.
+- Attached files must be less than 200MB.
+- Cowork can't read encrypted files, even if the user has access.
 
 ## Is Cowork secure?
 
@@ -176,7 +178,7 @@ Yes. Sometimes Cowork needs more information to complete your request. When this
 
 ## Does Cowork connect to external models for processing?
 
-Yes. Cowork uses Anthropic models as a subprocessor to ensure secure and responsible use of Anthropic models within your organization. Details about the integration can be found at [Anthropic as a subprocessor for Microsoft Online Services](/copilot/microsoft-365/connect-to-ai-subprocessor).
+Yes. Cowork uses Anthropic models as a subprocessor to ensure secure and responsible use of Anthropic models within your organization. Details about the integration can be found at [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
 
 ## Related content
 

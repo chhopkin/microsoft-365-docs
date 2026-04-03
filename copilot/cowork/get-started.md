@@ -27,7 +27,7 @@ Before you begin, make sure you have:
 - **Microsoft 365 Copilot access**: An active Microsoft 365 Copilot license assigned to your account and enrollment in the frontier program.
 - **A modern browser**: Microsoft Edge or Google Chrome recommended.
 - **Cowork available**: Cowork is enabled in your Microsoft 365 Copilot environment.
-- **Access to Anthropic subprocessing**: Cowork uses Anthropic models as a subprocessor to ensure secure and responsible use of Anthropic models within your organization. Details about the integration can be found at [Anthropic as a subprocessor for Microsoft Online Services](/copilot/microsoft-365/connect-to-ai-subprocessor).
+- **Anthropic enabled in tenant**: Cowork uses Anthropic models as a subprocessor to ensure secure and responsible use of Anthropic models within your organization. Details about the integration can be found at [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
 
 Cowork works in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft), in Outlook and Teams, and in the Microsoft 365 Copilot desktop app for Windows and Mac.
 
