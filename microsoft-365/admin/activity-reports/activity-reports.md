@@ -162,7 +162,7 @@ Other reports, such as some reports in the Microsoft Teams admin center, follow 
 
 Global administrators can update the settings to display concealed information if your organization's privacy practices allow it.
 
-[!INCLUDE [global-administrator-note](global-administrator-note.md)]
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 It takes a few minutes for these changes to take effect. This setting also applies to the Microsoft 365 usage reports in [Microsoft Graph](/graph/api/resources/report) and [Power BI](/microsoft-365/admin/usage-analytics/usage-analytics) and to [the usage reports in Microsoft Teams Admin center](/microsoftteams/teams-analytics-and-reports/teams-reporting-reference). Showing identifiable user information is a logged event in the Microsoft Purview portal audit log.
 
@@ -177,7 +177,7 @@ It takes a few minutes for these changes to take effect. This setting also appli
 
 ### Use adminReportSettings to show user, group, or site details
 
-Admins can use an API in all environments to change this setting without needing to visit the Microsoft 365 admin center. For more information, see [adminReportSettings API](adminreportsettings-view=graph-rest-beta&preserve-view=true).
+Admins can use an API in all environments to change this setting without needing to visit the Microsoft 365 admin center. For more information, see [adminReportSettings resource type](/graph/api/resources/adminreportsettings?view=graph-rest-beta&preserve-view=true).
 
 Two methods are approved for this API:
 
