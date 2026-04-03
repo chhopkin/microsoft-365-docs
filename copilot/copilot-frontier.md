@@ -26,44 +26,24 @@ Access to Frontier experiences varies depending on your organization’s subscri
 
 ## Set up Frontier experiences
 
-The steps for IT administrators to enable Frontier capabilities depend on the the specific Frontier feature or servce.. Use one or more of the following procedures to configure Frontier for the experience you want to try in your tenant.
+Frontier settings are managed in the Microsoft 365 Admin Center.
 
 > [!IMPORANT]
 > Frontier is managed at the tenant level. Before enabling Frontier, ensure that you've assigned Microsoft 365 Copilot licenses to your users, and you have an administrator account that can access the Microsoft 365 Admin Center.
 
-### Enable Frontier agents
 
-To make Frontier preview agents available to users in your organization:
+## Enable Frontier features in Microsoft 365 apps and Agents
+
+To enable Frontier preview experiences in Microsoft 365 applications and agents:
 
 1. Sign in to the Microsoft 365 admin center.
-2. Navigate to **Copilot**.
-3. Select **Agents and Copilot Frontier**, and then turn on Frontier.
-
-   This setting allows Frontier agents and preview AI features to be available in your tenant.
-
-4. Open **Copilot Chat**.
-5. Go to **Settings** > **Copilot Frontier**.
-6. Choose how Frontier access is assigned in your organization:
+2. Navigate to **Copilot** > **Settings**.
+3. Select **Copilot Frontier**.
+4. Choose how Frontier access is assigned in your organization:
 
    - **No access** (default)
    - **All users**
    - **Specific users or security groups**
-
-7. Go to the **Agent Store** and review available Frontier agents.
-
-## Enable Frontier features in Microsoft 365 apps
-
-To enable Frontier preview experiences in Microsoft 365 applications:
-
-1. Sign in to the Microsoft 365 admin center.
-2. Navigate to **Copilot**.
-3. Turn on **Copilot Frontier**.
-
-   This setting activates early-access AI features at the tenant level.
-
-4. Confirm that users who participate in Frontier experiences have Microsoft 365 Copilot licenses assigned.
-
-   Only licensed users can access Frontier features in Microsoft 365 apps.
 
 5. If necessary for a selected feature, enroll participating users in:
 
@@ -72,11 +52,15 @@ To enable Frontier preview experiences in Microsoft 365 applications:
 
 After Frontier is enabled, supported preview features become available to eligible users as they're released.
 
+If you're enabling Frontier feature agents, your users should now be able to go to the **Agent Store** and review available Frontier agents.
+
+ Users who participate in Frontier experiences must be assigned a Microsoft 365 Copilot license.
+
 ### Configure AI-enabled Cloud PCs
 
 To use AI-enabled Cloud PCs during Frontier preview, complete the following steps shown in [AI-enabled Cloud PC](http://aka.ms/AICloudPCsLearn).
 
-User accounts and Cloud PCs meet required technical specifications. All AI enablement to eligible Cloud PCs are completed by using Microsoft Intune. Cloud PCs must also be enrolled in the Windows Insider Program Beta Channel.
+User accounts and Cloud PCs meet required technical specifications. All AI enablement for eligible Cloud PCs are completed by using Microsoft Intune. Cloud PCs must also be enrolled in the Windows Insider Program Beta Channel.
 
 - [Experience next-gen productivity with Windows 365 AI-enabled Cloud PCs](http://aka.ms/AICloudPCs)  
 - [AI-enabled Cloud PC](http://aka.ms/AICloudPCsLearn)
@@ -98,4 +82,3 @@ To enable Project Opal Frontier experiences in your tenant:
 
    - Configure Cloud PCs
    - Set up starter prompts for users
-
