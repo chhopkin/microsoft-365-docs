@@ -34,18 +34,18 @@ Tenant administrators can change the flex routing setting at any time in the Mic
 
 ## Eligibility
 
-Flex routing is available for customers with a sign-up location in a country or region in the EU or EFTA. For more information, see [EU Data Boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn). Note that this setting will not be available for customers who have purchased Multi-Geo Capabilities even if their tenant is listed as being in a country or region in the EU or EFTA. Customers can check their tenant’s country or region in the [Microsoft 365 admin center](../microsoft-365/admin/manage/change-address-contact-and-more.md).
+Flex routing is available for customers with a sign-up location in a country or region in the EU or EFTA. For more information, see [EU Data Boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn). Note that this setting will not be available for customers who have purchased multi-geo capabilities even if their tenant is listed as being in a country or region in the EU or EFTA. Customers can check their tenant’s country or region in the [Microsoft 365 admin center](../microsoft-365/admin/manage/change-address-contact-and-more.md).
 
 ## Set up flex routing
 
-Flex routing is on by default for tenants in the EU or EFTA that were created after March 25, 2026. For tenants in the EU or EFTA that existed before March 25, 2026, please check the Message Center for more details on your tenant’s default flex routing setting.
+Flex routing is on by default for eligible tenants that were created after March 25, 2026. For eligible tenants that existed before March 25, 2026, please check the Message Center for more details on your tenant’s default flex routing setting.
 
 All tenant administrators are encouraged to check their tenant's flex routing setting to ensure it aligns with their company's requirements.
 
 **Enable flex routing**
 
 1. Sign in to the Microsoft 365 admin center as an administrator assigned the [AI Administrator role](/entra/identity/role-based-access-control/permissions-reference).
-2. Go to **Copilot** -> **Settings** -> **Flexible inferencing during periods of peak period loads**.
+2. Go to **Copilot** -> **Settings** -> **Flexible inferencing during peak load periods**.
 3. Select **Allow flex routing during periods of peak load**.
     1. This setting allows LLM inferencing and the storage of associated pseudonymized data to occur outside the EU data boundary during periods of peak demand. Typically, these periods are limited in duration and do not run continuously.
 4. If you don’t want to allow flex routing, select **Do not allow flex routing**.
@@ -55,7 +55,8 @@ All tenant administrators are encouraged to check their tenant's flex routing se
 
 ### Why can't I see the flex routing setting in the Microsoft 365 admin center?
 
-The flex routing setting is only visible in the Microsoft 365 admin center for customers with a sign-up location in a country or region in the EU or EFTA. For more information, see [EU data boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn). This setting is also not available for customers who have purchased multi-geo capabilities even if their tenant is listed as being in a country or region in the EU or EFTA. Customers can check their tenant’s country or region in the [Microsoft 365 admin center](../microsoft-365/admin/manage/change-address-contact-and-more.md).
+The flex routing setting is only visible in the Microsoft 365 admin center for customers with a sign-up location in a country or region in the EU or EFTA.
+For more information, see [EU Data Boundary countries and datacenter locations](/privacy/eudb/eu-data-boundary-learn). This setting is also not available for customers who have purchased multi-geo capabilities even if their tenant is listed as being in a country or region in the EU or EFTA. Customers can check their tenant’s country or region in the [Microsoft 365 admin center](../microsoft-365/admin/manage/change-address-contact-and-more.md).
 
 ### How does flex routing affect Microsoft’s EU data boundary commitments?
 
