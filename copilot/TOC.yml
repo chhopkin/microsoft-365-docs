@@ -431,6 +431,8 @@ items:
       items:
       - name: Agents in Copilot Chat
         href: /copilot/agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+      - name: Agent Store in Microsoft 365 Copilot
+        href: /copilot/copilot-agent-store?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json        
       - name: Install agents in Microsoft 365 Copilot
         href: copilot-agent-install.md
       - name: Manage agents for Copilot

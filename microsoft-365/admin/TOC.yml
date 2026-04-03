@@ -275,7 +275,7 @@ items:
             - name: Agent Overview page
               href: manage/agent-365-overview.md
             - name: Agent Store in Microsoft 365 Copilot
-              href: /copilot/copilot-agent-store.md
+              href: /copilot/copilot-agent-store?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
             - name: Agent Registry
               items:
               - name: Agent Registry
