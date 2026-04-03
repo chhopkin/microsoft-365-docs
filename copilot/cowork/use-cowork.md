@@ -1,7 +1,7 @@
 ---
 title: "Use Copilot Cowork (Frontier)"
 description: "Learn how to have conversations, manage files, approve actions, and organize projects with Copilot Cowork in Microsoft 365 Copilot."
-ms.date: 03/30/2026
+ms.date: 04/03/2026
 ms.topic: how-to
 author: leeclontz
 manager: KumarVivek
@@ -9,6 +9,8 @@ ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
+ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -17,7 +19,7 @@ appliesto:
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Copilot Cowork in Microsoft 365 Copilot carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
+Cowork in Microsoft 365 Copilot carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
 
 ## Start a conversation
 
@@ -36,8 +38,10 @@ To give Cowork extra context, you can include files with your message.
 
 1. Choose how to add files:
    - **Drag and drop** files directly onto the chat input.
-   - Select **Upload images and files** to browse your device.
-   - Select **Attach cloud files** to pick files from OneDrive, SharePoint, or Teams.
+   - Select the **Add attachments** button, then choose one of the following:
+     - **Add work context** to reference files, people, or meetings from your organization.
+     - **Upload images and files** to browse your device.
+     - **Attach cloud files** to pick files from OneDrive, SharePoint, or Teams.
 1. Wait for the upload to finish. An animated progress chip for each file displays.
 1. Add your message text if needed, then send it.
 
@@ -98,13 +102,14 @@ If a message fails to send, Cowork shows you an error with an option to retry. T
 
 ## Approve actions
 
-Cowork asks for your permission before taking sensitive actions, like sending an email or posting a message in Teams. Approvals for medium and high risk actions include a risk level indicator so you know the impact. The following table explains the options you have when approving:
+Cowork asks for your permission before taking sensitive actions, like sending an email or posting a message in Teams. Approvals for medium and high risk actions include a risk level indicator so you know the impact. The approval button label matches the specific action. The following table explains the options you have when approving:
 
    | Option | What it does |
    |---|---|
-   | Approve | Allows Cowork to proceed with the action this one time. |
-   | Approve & Remember | Allows Cowork to proceed and remembers your choice for similar actions in the current conversation, so you aren't asked again. |
-   | Reject | Stops the action. Cowork skips it and moves on with the rest of your request. |    
+   | Action button (for example, **Send**, **Post**, or **Create**) | Allows Cowork to proceed with the action this one time. |
+   | **Don't ask again** (dropdown) | Select the dropdown arrow next to the action button. Allows Cowork to proceed and skips the approval prompt for similar actions in the current conversation. |
+   | Approve All | When multiple tool approvals are pending, allows all of them to proceed at once. |
+   | Cancel | Stops the action. Cowork skips it and moves on with the rest of your request. |
 
 ### Review and respond to an approval request
 
@@ -117,7 +122,7 @@ When you need an approval, a dialog appears with the details of the action Cowor
 > For certain actions like Outlook mail rules, Cowork presents a detailed approval card that shows exactly what the rule will do before you approve.
 
 
-1. From the previous table, select one of the options (**Approve**, **Approve & Remember**, or **Reject**) to respond to the request.
+1. From the previous table, select the action button (for example, **Send** or **Post**), expand the dropdown for the **don't ask again** option, or select **Cancel** to stop the action.
 
 2. To see the technical details of the action, select **Show parameters**.
 
@@ -175,11 +180,12 @@ You can preview many file types directly inside Cowork. You don't need to downlo
 
 The following file types can be previewed directly:
 
-- **PDF**: Renders inline with page navigation.
+- **PDF**: Renders inline with page navigation. Use **Ctrl+F** to search within the document.
 - **CSV**: Displays as a formatted table.
 - **Markdown**: Renders with full formatting.
 - **Images**: Displays inline (png, jpg, jpeg, gif, webp, bmp, svg, ico).
 - **HTML**: Renders in the preview pane.
+- **Email**: Opens email references in a side-by-side preview panel.
 
 ### Preview a document
 
@@ -208,7 +214,7 @@ To open or close it, select the side panel toggle in the conversation view.
 | Output folder | Files Cowork created. Each file has **Download** and **Preview** buttons. |
 | Skills | Skills that Cowork loaded during the conversation, shown as chips. |
 | Schedule | Scheduled prompts you created, with options to edit, pause, resume, or delete them. |
-| Permissions | Actions you approved with **Approve & Remember**, so you can review your approval preferences. |
+| Permissions | Actions you approved with **don't ask again**, so you can review your approval preferences. |
 
 > [!NOTE]
 > The side panel updates in real time as Cowork works, so you always have a current view of progress, files, and skills.
@@ -246,8 +252,8 @@ Choose the view that works best for you:
 | View | Description |
 |---|---|
 | List | Shows tasks in a vertical list with key details. |
-| Kanban board | Organizes tasks into columns by status. Drag and drop tasks between columns to update their status. |
-| Scheduled | Shows your scheduled prompts with options to edit, pause, resume, or delete them. |
+| Board | Organizes tasks into columns by status. Drag and drop tasks between columns to update their status. |
+| Scheduled | Shows your scheduled prompts with options to edit, pause, resume, or delete them. This view only appears when you have at least one scheduled prompt. |
 
 ### Track task status
 
@@ -354,8 +360,7 @@ You can leave inline comments directly on messages in the conversation to provid
 
 Cowork supports keyboard shortcuts to help you work faster.
 
-1. Select the **Settings** menu in the header.
-1. Select **Keyboard shortcuts**.
+1. Select the **Keyboard shortcuts** button in the header, or press **Ctrl+Shift+/**.
 
     A dialog opens showing all available shortcuts and their key combinations.
 

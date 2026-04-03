@@ -9,6 +9,8 @@ ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
+ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---

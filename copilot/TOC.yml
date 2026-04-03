@@ -108,6 +108,8 @@ items:
     items:
     - name: Anthropic as a subprocessor for Microsoft Online Services
       href: connect-to-ai-subprocessor.md
+    - name: Copilot in Microsoft 365 apps with Anthropic models
+      href: copilot-anthropic-apps.md      
     - name: Connect to xAI's models  
       href: connect-to-ai-models.md
     - name: Deploy Microsoft 365 Copilot app
@@ -429,6 +431,8 @@ items:
       items:
       - name: Agents in Copilot Chat
         href: /copilot/agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+      - name: Agent Store in Microsoft 365 Copilot
+        href: copilot-agent-store.md    
       - name: Install agents in Microsoft 365 Copilot
         href: copilot-agent-install.md
       - name: Manage agents for Copilot
@@ -509,6 +513,8 @@ items:
     href: microsoft-365-copilot-reports-for-admins.md
   - name: View costs and billing for pay-as-you-go
     href: pay-as-you-go/view-cost.md
+  - name: Flex routing (EU and EFTA)
+    href: copilot-flex-routing.md    
 
 - name: Improve
   items:
