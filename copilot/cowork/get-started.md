@@ -26,12 +26,12 @@ Before you begin, make sure you have:
 
 - **Microsoft 365 Copilot access**: An active Microsoft 365 Copilot license assigned to your account and enrollment in the frontier program.
 - **A modern browser**: Microsoft Edge or Google Chrome recommended.
-- **Copilot Cowork available**: Cowork is enabled in your Microsoft 365 Copilot environment.
+- **Cowork available**: Cowork is enabled in your Microsoft 365 Copilot environment.
 - **Access to Anthropic subprocessing**: Cowork uses Anthropic models as a subprocessor to ensure secure and responsible use of Anthropic models within your organization. Details about the integration can be found at [Anthropic as a subprocessor for Microsoft Online Services](/copilot/microsoft-365/connect-to-ai-subprocessor).
 
 Cowork works in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft), in Outlook and Teams, and in the Microsoft 365 Copilot desktop app for Windows and Mac.
 
-## Open Copilot Cowork
+## Open Cowork
 
 1. Open [Microsoft 365 Copilot](https://m365.cloud.microsoft).
 1. Select **Cowork**.
@@ -50,7 +50,7 @@ The Cowork home page opens. A chat input where you can describe what you need ap
 > [!TIP]
 > The more specific you are, the better your results. Instead of *send an email*, try *Send an email to the marketing team summarizing last week's campaign results and format the summary as a PDF*.
 
-## Watch Copilot Cowork work
+## Watch Cowork work
 
 After you send your message, Cowork begins processing your request. Here's what appears in the chat as each step happens:
 
@@ -86,7 +86,7 @@ The side panel also shows a progress bar with the percentage of tasks complete a
 
 ## Find your past work
 
-Select the **Tasks** view to see everything you asked Copilot Cowork to do. Here you can:
+Select the **Tasks** view to see everything you asked Cowork to do. Here you can:
 
 - Switch between **list view**, **kanban board**, and the **Scheduled** tab depending on how you like to organize.
 - Select any task to open it and resume the conversation.

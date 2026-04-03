@@ -18,7 +18,7 @@ appliesto:
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Copilot Cowork in Microsoft 365 Copilot carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
+Cowork in Microsoft 365 Copilot carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
 
 ## Start a conversation
 

@@ -18,19 +18,19 @@ appliesto:
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Find answers to common questions about Copilot Cowork in Microsoft 365 Copilot.
+Find answers to common questions about Cowork in Microsoft 365 Copilot.
 
-## What is Copilot Cowork?
+## What is Cowork?
 
 Cowork is available in Microsoft 365 Copilot. It carries out tasks on your behalf. For example, it can send emails, schedule meetings, create documents, post in Teams, and handle multi-step tasks across your Microsoft 365 environment.
 
-## What can Copilot Cowork do for me?
+## What can Cowork do for me?
 
 Cowork can send emails, schedule meetings, create documents (Word, Excel, PowerPoint, PDF), post in Teams, manage your calendar, prepare daily briefings, search across your organization, conduct deep research, and draft stakeholder communications. You can also schedule prompts to run automatically.
 
 For a full breakdown by category, see [What can Copilot Cowork do for you?](index.md#what-can-copilot-cowork-do-for-you)
 
-## What skills does Copilot Cowork have?
+## What skills does Cowork have?
 
 Cowork has 13 built-in skills: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. You can also create your own custom skills by placing a `SKILL.md` file in a subfolder of your OneDrive `/Documents/Cowork/Skills/` folder (for example, `/Documents/Cowork/Skills/weekly-report/SKILL.md`).
 
@@ -47,17 +47,17 @@ For step-by-step instructions, see [Create custom skills](use-cowork.md#create-c
 Getting started takes just a few steps.
 
 1. Open  [Microsoft 365 Copilot](https://m365.cloud.microsoft).
-2. Select the **Copilot Cowork**.
+2. Select **Cowork**.
 3. Describe the task you want to accomplish. You can type up to 16,000 characters and attach files by dragging them into the chat or using the file picker.
-4. Send your message. Copilot Cowork begins processing your request.
+4. Send your message. Cowork begins processing your request.
 
-## Does Copilot Cowork work on mobile devices?
+## Does Cowork work on mobile devices?
 
-Copilot Cowork is currently available in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft) and in the Microsoft 365 Copilot desktop app for Windows and Mac. Mobile support is not yet available.
+Cowork is currently available in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft) and in the Microsoft 365 Copilot desktop app for Windows and Mac. Mobile support is not yet available.
 
-## What file types does Copilot Cowork support?
+## What file types does Cowork support?
 
-You can attach a wide variety of files to your conversations. Copilot Cowork supports the following categories:
+You can attach a wide variety of files to your conversations. Cowork supports the following categories:
 
 - **Word**: `.doc`, `.docx`, `.docm`, `.dot`, `.dotx`, `.odt`, `.rtf`
 - **Excel**: `.csv`, `.xls`, `.xlsm`, `.xlsx`, `.ods`
@@ -87,16 +87,16 @@ Select a file to open an inline preview. You can also go full-screen or open the
 
 ## How does action approval work?
 
-Before Copilot Cowork takes a sensitive action like sending an email or posting in Teams, it displays an approval prompt. Approvals for medium and high risk actions include a risk level indicator so you can gauge the impact. Your choices are:
+Before Cowork takes a sensitive action like sending an email or posting in Teams, it displays an approval prompt. Approvals for medium and high risk actions include a risk level indicator so you can gauge the impact. Your choices are:
 
-- **Approve**: Let Copilot Cowork proceed with the action this one time.
+- **Approve**: Let Cowork proceed with the action this one time.
 - **Approve & Remember**: Allow the action now and skip the prompt for similar actions in the current conversation.
-- **Reject**: Stop Copilot Cowork from taking the action.
+- **Reject**: Stop Cowork from taking the action.
 
 You can also select **Show parameters** to see the technical details of the action before deciding.
 
 > [!NOTE]
-> For some actions, such as sending an email, posting a Teams message, or scheduling a meeting, Copilot Cowork shows you a preview of the content so you can review it before approving.
+> For some actions, such as sending an email, posting a Teams message, or scheduling a meeting, Cowork shows you a preview of the content so you can review it before approving.
 
 ## Can I pause or stop Cowork while it's working?
 
@@ -129,7 +129,7 @@ Select any task to jump back into its conversation.
 
 ## Can I schedule recurring prompts?
 
-Yes. Describe what you want and when in your message — for example, "Send me a daily briefing every morning at 9 AM." Copilot Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel.
+Yes. Describe what you want and when in your message — for example, "Send me a daily briefing every morning at 9 AM." Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel.
 
 ## Where are my files saved?
 
