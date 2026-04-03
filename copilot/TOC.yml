@@ -511,6 +511,8 @@ items:
     href: microsoft-365-copilot-reports-for-admins.md
   - name: View costs and billing for pay-as-you-go
     href: pay-as-you-go/view-cost.md
+  - name: Flex routing (EU and EFTA)
+    href: copilot-flex-routing.md    
 
 - name: Improve
   items:
