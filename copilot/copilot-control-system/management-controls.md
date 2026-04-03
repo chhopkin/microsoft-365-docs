@@ -7,8 +7,9 @@ ms.author: mstewart
 manager: scotv
 ms.reviewer: bensum,samerbaroudi
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.topic: solution-overview
-ms.date: 10/09/2025
+ms.date: 02/25/2026
 ---
 
 
@@ -37,9 +38,7 @@ To manage the costs associated with deploying Copilot, your organization needs c
 
 ### Copilot and Copilot chat in the Microsoft 365 admin center
 
-Use the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview) to manage Microsoft 365 Copilot and Copilot Chat licensing. You can also configure pay-as-you-go billing so that you only pay when users use it:
-
-:::image type="content" source="media/m365-admin-center-billing-usage-connections.png" alt-text="Screenshot of the Microsoft 365 Admin Center, Billing & usage node, showing the pane to Manage billing policy connections for Microsoft 365 Copilot Chat." lightbox="media/m365-admin-center-billing-usage-connections-large.png":::
+Use the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview) to manage Microsoft 365 Copilot and Copilot Chat licensing. You can also configure pay-as-you-go billing so that you only pay when users use it.
 
 For more information, see the following articles:
 
@@ -48,11 +47,7 @@ For more information, see the following articles:
 
 ### Copilot Studio in the Power Platform admin center
 
-Use the [Power Platform admin center](/power-platform/admin/) to manage message capacity for Copilot Studio:
-
-:::image type="content" source="media/power-platform-admin-center-licensing.png" alt-text="Screenshot of the Power Platform admin center, Licensing node, showing the Copilot Studio page that summarizes message capacity." lightbox="media/power-platform-admin-center-licensing-large.png":::
-
-For more information, see [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity).
+Use the [Power Platform admin center](/power-platform/admin/) to manage message capacity for Copilot Studio while monitoring overall capacity consumption. This experience allows administrators to efficiently manage their available session capacity. For more information, see [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity).
 
 ## Agent lifecycle
 

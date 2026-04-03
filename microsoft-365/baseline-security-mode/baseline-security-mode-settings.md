@@ -3,7 +3,7 @@ title: Baseline security mode settings
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/19/2026
+ms.date: 03/13/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
@@ -70,13 +70,13 @@ Run the Baseline security mode settings in this way:
 
 To access **Baseline Security Mode** settings, follow these steps:
 
-1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Org Settings**](https://admin.cloud.microsoft/?#/Settings/SecurityPrivacy).
+1. Under **Settings**, select [**Org Settings**](https://go.microsoft.com/fwlink/p/?linkid=2053743).
 
-1. In the **Org Settings** page, select the **Security and Privacy** tab.
+1. In the **Org Settings** page, select the [**Security and Privacy**](https://go.microsoft.com/fwlink/p/?linkid=2072756) tab.
 
 1. In the **Security and Privacy** tab, select **Baseline Security Mode**.
 

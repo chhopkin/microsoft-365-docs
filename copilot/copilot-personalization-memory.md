@@ -3,6 +3,7 @@ title: Microsoft 365 Copilot personalization and memory
 description: This article details how to use the personalization and memory settings in Microsoft 365 Copilot
 ms.date: 11/18/2025
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.topic: how-to
 ms.localizationpriority: medium
 author: tiaraquan

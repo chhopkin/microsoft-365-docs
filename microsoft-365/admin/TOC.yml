@@ -22,6 +22,8 @@ items:
           items:
            - name: Sign up for Microsoft 365 Business Standard
              href: ../admin/simplified-signup/signup-business-standard.md
+           - name: Sign up for Microsoft 365 Business Standard FAQ
+             href: ../admin/simplified-signup/signup-business-standard-faq.yml
            - name: Set up Microsoft 365 Business Standard
              href: ../admin/setup/setup-business-standard.md
            - name: Invite users to Microsoft 365 for business subscription
@@ -232,8 +234,6 @@ items:
           href: setup/domains-faq.yml
         - name: DNS instructions
           items:
-            - name: Change nameservers at any DNS host
-              href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
             - name: Connect your domain by adding DNS records
               href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
             - name: Connect your DNS records with a non-Microsoft DNS provider
@@ -268,11 +268,11 @@ items:
       items:
          - name: Copilot in Microsoft 365 admin center
            href: /copilot/microsoft-365/copilot-for-microsoft-365-admin
-         - name: Microsoft 365 Copilot extensibility
+         - name: Agents in Microsoft 365 admin center
            items:
-            - name: Manage Copilot agents in the Microsoft 365 admin center
+            - name: Manage agents in the Microsoft 365 admin center
               href: manage/manage-copilot-agents-integrated-apps.md
-            - name: Agent 365 Overview page
+            - name: Agent Overview page
               href: manage/agent-365-overview.md
             - name: Agent Registry
               items:
@@ -284,12 +284,12 @@ items:
                 href: manage/manage-connected-agents-for-researcher.md
             - name: Agent Map
               href: manage/agent-map.md
-            - name: Manage Tools for Agent 365
+            - name: Manage Tools for agents 
               href: manage/manage-tools-for-agent.md
             - name: Agent Settings
               href: manage/agent-settings.md
-            - name: Microsoft Graph connectors for Microsoft Search
-              href: /microsoftsearch/connectors-overview
+         - name: Microsoft Graph connectors for Microsoft Search
+           href: /microsoftsearch/connectors-overview
          - name: Monitor Microsoft 365 activity by using reports
            items:
             - name: Microsoft 365 Reports in the admin center - overview
@@ -406,6 +406,8 @@ items:
            href: setup/upgrade-users-to-latest-office-client.md
          - name: Organizational messages
            href: misc/organizational-messages-microsoft-365.md
+         - name: Organizational messages FAQ
+           href: misc/organizational-messages-microsoft-365-faq.yml
          - name: Place a mailbox on Litigation Hold
            href: misc/create-litigation-hold-mac.md
          - name: Integrated apps portal
@@ -448,6 +450,8 @@ items:
            items:
            - name: About usage analytics
              href: usage-analytics/usage-analytics.md
+           - name: Usage analytics FAQ
+             href: usage-analytics/usage-analytics-faq.yml
            - name: Enable usage analytics
              href: usage-analytics/enable-usage-analytics.md
            - name: Get the latest version of usage analytics

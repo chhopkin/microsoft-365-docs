@@ -4,11 +4,12 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 11/12/2025
+ms.date: 03/12/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
+ms.subservice: agent-management
 ms.localizationpriority: medium
 ms.collection:
 - m365copilot
@@ -16,7 +17,7 @@ ms.collection:
 description: Learn about prerequisites for Microsoft 365 Copilot agent governance.
 ---
 
-# Prerequisites for managing Microsoft 365 Copilot agents
+# Prerequisites for managing agents in Microsoft 365
 
 Organizations typically deploy a combination of Microsoft 365 Copilot Chat and Microsoft 365 Copilot. Before you get started, it's important to understand the differences between these two offerings and the licensing involved when deploying and using agents. Agents allow you and your end users to extend Copilot’s knowledge, automate complex workflows, and deliver tailored user experiences.
 

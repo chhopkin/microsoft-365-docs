@@ -4,7 +4,7 @@ ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona
 ms.reviewer: jugiammo
-ms.date: 1/30/2026
+ms.date: 4/01/2026
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
@@ -31,7 +31,7 @@ The following services are included in _ADR_. For more information, see:
 - [Exchange Online](m365-dr-service-exo.md)
 - [Microsoft 365 Copilot and Microsoft 365 Copilot Chat](m365-dr-service-copilot.md)
 - [Microsoft 365 web apps (formerly "Office for the Web")](m365-dr-service-m365-web-apps.md)
-- [Microsoft Defender for Office P1 and the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](m365-dr-service-mdo-p1.md)
+- [Microsoft Defender for Office P1 and the built-in security features for all cloud mailboxes (formerly "Exchange Online Protection (EOP)")](m365-dr-service-mdo-p1.md)
 - [Microsoft Purview](m365-dr-service-purview.md)*
   - [Audit (Standard)](m365-dr-service-purview.md#risk--compliance---audit-standard)
   - [Audit (Premium)](m365-dr-service-purview.md#risk--compliance---audit-premium)
@@ -44,7 +44,7 @@ The following services are included in _ADR_. For more information, see:
 - [Viva Connections](m365-dr-service-viva-connections.md)
 
 > [!NOTE]
-> *The Microsoft Purview services list includes all services covered as part of the _Advanced Data Residency_ commitment as of November 2025. Other Microsoft Purview services aren't currently supported.
+> *The Microsoft Purview services list includes all services covered as part of the _Advanced Data Residency_ commitment as of February 2026. Additional Microsoft Purview services aren't currently supported.
 
 ## Licensing and Purchase
 
@@ -52,7 +52,7 @@ The following services are included in _ADR_. For more information, see:
 
 The _Advanced Data Residency_ ("_ADR_") add-on is intended for Microsoft 365 enterprise customers who have comprehensive data residency requirements. To be eligible to purchase _ADR_, customers must meet the following prerequisites:
 
-- The _Tenant Default Geography_ must be one of the countries or regions included in the _Local Region Geography_: Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom.
+- The _Tenant Default Geography_ must be one of the countries or regions included in the _Local Region Geography_: Australia, Austria, Brazil, Canada, Chile, Denmark, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom.
 - Customers must have licenses for one or more of the following products:
   - Microsoft 365 F1, F3, E3, or E5 (including SKUs without Microsoft Teams)
   - Office 365 F3, E1, E3, or E5 (including SKUs without Microsoft Teams)
@@ -84,7 +84,7 @@ Customers who purchase _Multi-Geo_ licenses for their tenant don't have to also 
 To view/determine the number of assigned _ADR_ licenses for your _Tenant_, you can access the _Data Location Card_ in the Microsoft 365 admin center by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. This page displays the "Required Seat Count," "License Count," and "License Expiration." For more information, see "What does the "Advanced Data Residency (ADR) License Information" display?" below.
 
 > [!NOTE]
-> A new _Data Location Card (DLC)_ experience is rolling out now to Microsoft 365 customer _Tenants_. During the phased rollout, _Tenants_ may see a different _Data Location Card_ view within the Microsoft 365 admin center than the latest enhancements displayed below. Tenant Global Admins can [Learn More about the Data Location Card](m365-dr-data-location.md) in anticipation of the rollout in our updated Microsoft Learn documentation.
+> [Microsoft Defender for Office P1](m365-dr-service-mdo-p1.md), [Microsoft Purview (select services)](m365-dr-service-purview.md), and [Microsoft 365 Copilot Chat](m365-dr-service-copilot.md) are covered by [Durable Commitments on Data Location](m365-dr-overview.md#durable-commitments-on-data-location) but not currently displayed in the _Data Location Card_. Refer to [Where your Microsoft 365 customer data is stored](o365-data-locations.md) for more information.
 
 :::image type="content" alt-text="Screenshot of Data Location Card Advanced Data Residency (ADR) License Information." source="media\data-residency\m365-dlc-adr-license-information-0725.png" lightbox="media\data-residency\m365-dlc-adr-license-information-0725.png":::
 

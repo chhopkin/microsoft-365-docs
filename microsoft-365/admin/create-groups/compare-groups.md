@@ -8,7 +8,7 @@ author: denisebmsft
 manager: dansimp
 audience: Admin
 ms.topic: product-comparison
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier2
@@ -66,7 +66,7 @@ Microsoft 365 Groups can be [configured for dynamic membership in Microsoft Entr
 
 Microsoft 365 Groups can be accessed through mobile apps such as Outlook for iOS and Outlook for Android.
 
-Group members can send as or send on behalf of the group email address if this feature is [enabled by the administrator](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group).
+Group members can send as or send on behalf of the group email address if this feature is [enabled by the administrator](/previous-versions/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group).
 
 If recipients subscribe to receive group conversations in their inbox, they can delete email messages from the group without removing those messages from the group's shared mailbox. And, if an email is deleted from the group's shared mailbox, it isn't deleted from group members' personal inbox. See [Who can delete email from the Group inbox](/microsoft-365/admin/create-groups/create-groups#who-can-delete-email-from-the-group-inbox).
 

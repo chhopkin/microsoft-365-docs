@@ -7,11 +7,12 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 02/17/2026
+ms.date: 02/23/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
+ms.subservice: agent-management
 ms.localizationpriority: medium
 ms.collection:
   - Tier2
@@ -205,7 +206,7 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
 
 :::image type="content" source="../../media/agents/career-coach.png" alt-text="Screenshot showing the Career Coach for an agent." lightbox="../../media/agents/details.png":::
 
-You can access key metadata for Copilot agents in **Agents** > **All Agents**. When you select an agent, you see the metadata in the **Details** tab.
+You can access key metadata for Copilot agents in **Agents** > **All Agents**. When you select an agent, you see the metadata in the **Data & tools** tab.
 
 The metadata includes details such as the agent's capabilities, data sources, and custom actions. Example data sources include OneDrive and SharePoint files and sites, or Graph connectors. Metadata is only for custom agents, which are designed to perform specific tasks based on predefined rules and configurations.
 
@@ -687,7 +688,7 @@ To help administrators manage these scenarios, the Microsoft 365 admin center no
 
 ### Reassign ownership of shared agents
 
-IT administrators can reassign ownership of shared agents that they create within the organization by using Copilot Studio Lite.
+IT administrators can reassign ownership of shared agents that they create within the organization by using Agent Builder.
 
 > [!IMPORTANT]
 >

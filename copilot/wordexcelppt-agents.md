@@ -6,11 +6,12 @@ f1.keywords:
 ms.author: smbhardwaj
 author: smritib17
 manager: scotvidican
-ms.date: 02/05/2026
+ms.date: 03/26/2026
 audience: Admin
 ms.reviewer: HollyPollock
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot
@@ -67,7 +68,7 @@ Generated content is stored securely in OneDrive. All documents created by these
 
 ## Limitations and support
 
-These Agents currently support English (United States, United Kingdom), Chinese (Simplified), French (France, Canada), German, Italian, Japanese, Portuguese (Brazil), and Spanish (Spain, Mexico). Other languages are available, and official support for additional languages is coming soon. Users should review AI-generated content for accuracy.
+Word, Excel, and PowerPoint Agents are available to Microsoft 365 users with or without a Microsoft 365 Copilot license, including Microsoft 365 Personal, Family, and Premium plans, in all officially supported Microsoft 365 Copilot languages. For the complete list of supported languages, see [Supported languages for Microsoft 365 Copilot](https://support.microsoft.com/office/supported-languages-for-microsoft-365-copilot-94518d61-644b-4118-9492-617eea4801d8).
 
 Feedback mechanisms exist for reporting inaccuracies or inappropriate content; support articles provide further guidance.
 

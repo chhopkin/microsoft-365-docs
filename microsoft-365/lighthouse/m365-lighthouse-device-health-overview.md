@@ -69,7 +69,7 @@ The Device tab provides device health insights for all managed Windows devices, 
 
 - Hardware model, manufacturer, OS version, and disk type
 
-Select a device from the list for more detailed device information, including a comprehensive list of startup processes on that device. A shortcut is provided to view the device in Microsoft Endpoint Manager, where you can see more insights and recommendations.
+Select a device from the list for more detailed device information, including a comprehensive list of startup processes on that device. A shortcut is provided to view the device in Microsoft Intune, where you can see more insights and recommendations.
 
 The Devices tab also includes the following options:
 

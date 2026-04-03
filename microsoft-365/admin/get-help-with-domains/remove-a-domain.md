@@ -1,11 +1,11 @@
 ---
-title: Remove a Domain from Microsoft 365
+title: Remove a domain from Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 02/19/2026
+ms.date: 03/13/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -55,15 +55,15 @@ Before you remove a domain, make sure that:
 
 ::: moniker range="o365-worldwide"
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-::: moniker-end
+   ::: moniker-end
+    
+   ::: moniker range="o365-21vianet"
 
-::: moniker range="o365-21vianet"
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
 
-1. Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn/adminportal/).
-
-::: moniker-end
+   ::: moniker-end
 
 1. Select **Users** > **Active users**.
 
@@ -73,7 +73,7 @@ Before you remove a domain, make sure that:
 
 1. In the **Change domains** pane, select a different domain.
 
-You need to do this step for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, sign out and sign back in by using the new domain you chose to continue.
+    You need to do this step for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, sign out and sign back in by using the new domain you chose to continue.
 
 ### Move yourself
 
@@ -83,15 +83,15 @@ You need to do this step for yourself, too, if you're on the domain that you wan
 
 ::: moniker range="o365-worldwide"
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-::: moniker-end
+   ::: moniker-end
+    
+   ::: moniker range="o365-21vianet"
 
-::: moniker range="o365-21vianet"
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
 
-1. Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn/adminportal/).
-
-::: moniker-end
+    ::: moniker-end
 
 1. In the left navigation bar, select **Users** > **Active Users**.
 
@@ -115,15 +115,15 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 ::: moniker range="o365-worldwide"
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-::: moniker-end
-
-::: moniker range="o365-21vianet"
+   ::: moniker-end
+    
+   ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn/adminportal/).
 
-::: moniker-end
+    ::: moniker-end
 
 1. In the left hand navigation pane, select **Teams & groups** to expand it, and then select **Active teams & groups**.
 
@@ -149,15 +149,15 @@ You can also use PowerShell to move users to another domain. For more informatio
 >
 > If you're removing a custom domain, complete the steps in [Remove a custom domain](#remove-a-custom-domain) before continuing.
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-::: moniker-end
+   ::: moniker-end
+    
+   ::: moniker range="o365-21vianet"
 
-::: moniker range="o365-21vianet"
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
 
-1. Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn/adminportal/).
-
-::: moniker-end
+    ::: moniker-end
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** > **Domains**.
 
@@ -169,7 +169,9 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 ## Remove a custom domain
 
-If you're canceling your subscription and using a custom domain, you need to complete a few extra steps before canceling your subscription.
+If you're canceling your subscription and using a custom domain, you need to complete a few extra steps with your custom domain before canceling your subscription.
+
+Your domain registrar and DNS hosting provider are often the same company, but they can be different. The registrar manages your domain registration, while the DNS hosting provider manages the DNS records that route traffic for your domain. To determine who your registrar and DNS hosting provider are, see [Find your domain registrar and DNS hosting provider](find-your-domain-registrar.md).
 
 To remove a custom domain from Microsoft 365, select the tab based on where your domain nameservers (NS) are hosted:
 

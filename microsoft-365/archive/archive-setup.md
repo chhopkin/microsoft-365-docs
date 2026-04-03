@@ -30,7 +30,7 @@ To set up Microsoft 365 Archive, follow these steps:
 
 3. [Turn on Microsoft 365 Archive](#set-up-microsoft-365-archive) in the Microsoft 365 admin center.
 
-4. [Manage Microsoft 365 Archive](archive-manage.md) in the SharePoint admin center.
+4. [Manage Microsoft 365 Archive for sites](archive-manage.md) in the SharePoint admin center.
 <!---
 The following video demonstrates the steps to help you set up pay-as-you-go billing.
 
@@ -58,23 +58,36 @@ You must be a [SharePoint Administrator](/entra/identity/role-based-access-contr
 
 Once pay-as-you-go billing is enabled in the Microsoft 365 admin center, Microsoft 365 Archive can be enabled.
 
+1. In the Microsoft 365 admin center, select **<a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">Settings > Org settings</a>**.
+
+1. On the **Org settings** page, select **Pay-as-you-go services**.
+
+1. On the **Pay-as-you-go services** page, select the **Settings** tab.
+
+1. Under **Storage services**, select **Archive**.
+
+1. On the **Microsoft 365 Archive** panel, in the **SharePoint site archive** section, select the status toggle to turn on Microsoft 365 Archive for SharePoint sites.
+
+1. On the **Enable SharePoint archiving** panel, select **Confirm**.
+
+Microsoft 365 Archive is now enabled for you.  You're able to archive sites from the SharePoint admin center, and by default users can archive files on SharePoint sites. 
+
+> [!NOTE]
+> To enable the file-level archive preview, see [Manage](archive-manage.md).
+
+Billing for unlicensed OneDrive accounts can also be enabled from the same **Microsoft 365 Archive** panel.
+
 1. In the Microsoft 365 admin center, select <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Settings > Org settings**</a>.
 
 2. On the **Org settings** page, select **Pay-as-you-go services**.
 
 3. On the **Pay-as-you-go services** page, select the **Settings** tab.
 
-4. Under **Storage services**, select **Archive**.
-
-5. On the **Microsoft 365 Archive** panel, in the **SharePoint site archive** section, select the status toggle to turn on Microsoft 365 Archive for SharePoint sites.
-
-6. On the **Enable site archiving** panel, select **Confirm**.
+1. Under **Storage services**, select **Archive**.
 
 7. On the **Microsoft 365 Archive** panel, in the **Manage archived unlicensed OneDrive accounts** section, select the status toggle to turn on Microsoft 365 Archive for unlicensed OneDrive accounts.
 
 8. On the **Enable billing for unlicensed OneDrive accounts** panel, select **Confirm**.
-
-Microsoft 365 Archive is now enabled for you, and you're able to archive content from the SharePoint admin center.
 
 ## Turn off Microsoft 365 Archive
 
@@ -82,11 +95,13 @@ To turn off Microsoft 365 Archive:
 
 1. On the **Pay-as-you-go services** page, select the **Settings** tab.
 
-2. Under **Storage services**, select **Archive**.
+1. Under **Storage services**, select **Archive**.
 
-3. On the **Microsoft 365 Archive** panel, in the **SharePoint site archive** section, select the status toggle to turn off Microsoft 365 Archive for SharePoint sites.
+1. On the **Microsoft 365 Archive** panel, in the **SharePoint site archive** section, select the status toggle to turn off Microsoft 365 Archive for SharePoint sites.
 
-4. On the **Disable site archiving** panel, select **Confirm**.
+1. On the **Disable Microsoft 365 Archive** panel, select **Confirm**.
+
+Billing for unlicensed OneDrive accounts can also be enabled separately. 
 
 5. On the **Microsoft 365 Archive** panel, in the **Manage archived unlicensed OneDrive accounts** section, select the status toggle to turn off Microsoft 365 Archive for unlicensed OneDrive accounts.
 

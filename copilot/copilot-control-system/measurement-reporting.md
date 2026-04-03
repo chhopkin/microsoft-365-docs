@@ -7,8 +7,9 @@ ms.author: mstewart
 manager: scotv
 ms.reviewer: bensum,mikewalsh
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.topic: solution-overview
-ms.date: 10/09/2025
+ms.date: 02/25/2026
 ---
 
 
@@ -59,11 +60,7 @@ To help you prepare for Copilot and agent deployment and track adoption, several
 
 They also provide operational metrics like agent billing, usage and spend rates, and success rates of agent performance. You get deeper insights into how users use Copilot features across Microsoft 365. For example, you see how users summarize meeting notes, draft emails, or create presentations.
 
-The following image shows a brief example of the **Adoption** tab of the Copilot Dashboard in Viva Insights:
-
-:::image type="content" source="media/viva-insights-copilot-dashboard-adoption.png" alt-text="Screenshot of the Adoption tab on the Microsoft Copilot Dashboard in Viva Insights displaying both licensed and active users and adoption by group." lightbox="media/viva-insights-copilot-dashboard-adoption-large.png":::
-
-There's also a Copilot readiness report in the Microsoft 365 admin center. For more information, see [Microsoft 365 Copilot readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness).
+The **Adoption** tab of the Copilot Dashboard in Viva Insights page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. There's also a Copilot readiness report in the Microsoft 365 admin center. For more information, see [Microsoft 365 Copilot readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness). 
 
 Use the **Analytics** tab in Copilot Studio to get insights into specific agents. For more information, see [Analytics in Copilot Studio](/microsoft-copilot-studio/analytics-overview).
 
@@ -73,10 +70,6 @@ Productivity-focused reporting helps you understand how Copilot transforms the w
 
 Additionally, the dashboard provides tools to help you understand user sentiment around Copilot's impact. It combines both qualitative data and quantitative data from Pulse and Glint surveys to offer a comprehensive view of users' experiences. You can also compare your organization to industry benchmarks.
 
-The following image shows a brief example of the **Impact** tab of the Copilot Dashboard in Viva Insights:
-
-:::image type="content" source="media/viva-insights-copilot-dashboard-impact.png" alt-text="Screenshot of the Microsoft Copilot Dashboard in Viva Insights, showing the Impact tab." lightbox="media/viva-insights-copilot-dashboard-impact-large.png":::
-
 The Microsoft 365 admin center also provides reports that detail Copilot and Copilot Chat usage. For more information, see the following articles:
 
 - [Microsoft 365 Copilot usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)
@@ -85,8 +78,6 @@ The Microsoft 365 admin center also provides reports that detail Copilot and Cop
 ## Business value and ROI
 
 To better measure the business value of Copilot and agents, integrate your key organizational metrics. You can incorporate additional information from other data sources into this Copilot reporting system. This advanced reporting lets you customize analysis specific to your organization. Based on learnings from these custom insights, make adjustments to your deployment and usage plans to improve impact.
-
-:::image type="content" source="media/business-impact-report.png" alt-text="Screenshot of a business impact report, specifically Agent impact for a human resources support agent." lightbox="media/business-impact-report.png":::
 
 For more information on configuring and customizing these reports with your custom organizational metrics, see [Copilot Business Impact Report](/viva/insights/advanced/analyst/templates/copilot-business-impact).
 

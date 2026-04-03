@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/17/2026
+ms.date: 03/16/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -38,7 +38,7 @@ description: Deploy Office Add-ins to users and groups using centralized deploym
 >
 > The [integrated apps portal](test-and-deploy-microsoft-365-apps.md) is the recommended and most feature-rich way for most customers to centrally deploy Office Add-ins to users and groups within your organization. If that method isn't available for your organization, use the add-in portal as described in [Deploy an Office Add-in using the admin center](#deploy-an-office-add-in-using-the-admin-center) later in this article.
 
-Office Add-ins help you personalize your documents and streamline the way you access information on the web. As an admin, you can deploy Office Add-ins for the users in your organization by using the centralized deployment feature in the [Microsoft 365 admin center](https://admin.cloud.microsoft/). For more information, see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862).
+Office Add-ins help you personalize your documents and streamline the way you access information on the web. As an admin, you can deploy Office Add-ins for the users in your organization by using the centralized deployment feature in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). For more information, see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862).
 
 For more information on how to determine if your organization can support centralized deployment, see [Determine if centralized deployment of Office Add-ins works for your organization](centralized-deployment-of-add-ins.md).
 
@@ -66,7 +66,7 @@ Before you begin, see [Determine if centralized deployment of add-ins works for 
 
 To deploy an Office Add-in using the Microsoft 365 admin center, follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** > **Integrated apps**.
 
@@ -94,7 +94,7 @@ To deploy an Office Add-in using the Microsoft 365 admin center, follow these st
 
 1. If you choose to upload a custom add-in, carry out the following steps:
 
-    1. In the **Choose how to upload app** section, do one of the following steps:
+   1. In the **Choose how to upload app** section, do one of the following steps:
 
       - Select the option to upload the manifest, and then select the **Choose File** button. Navigate to the add-in's manifest and select it.
 
@@ -104,7 +104,7 @@ To deploy an Office Add-in using the Microsoft 365 admin center, follow these st
 
       - Select the option to provide a URL for the manifest, and then fill in the URL.
 
-    1. Select **Upload**.
+   1. Select **Upload**.
 
 1. On the next page, select **Everyone**, **Specific users/groups**, or **Just me** to specify who the add-in is deployed to. Use the Search box to find specific users or groups. <br/>
 
@@ -112,7 +112,7 @@ To deploy an Office Add-in using the Microsoft 365 admin center, follow these st
 
    > [!NOTE]
    >
-   > To learn about other states that apply to an add-in, see [Add-in states](./manage-addins-in-the-admin-center.md#add-in-states).
+   > To learn about other states that apply to an add-in, see [Add-in states](./manage-addins-in-the-admin-center.md#add-in-states-in-the-microsoft-365-admin-center).
 
 1. Select **Deploy**.
 

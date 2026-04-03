@@ -12,6 +12,7 @@ ms.date: 08/05/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection: 
 - Tier2
@@ -26,9 +27,9 @@ ms.collection:
 
 # Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar
 
-As an admin, you can pin the Microsoft 365 Copilot app together with selected companion apps to the Windows 11 taskbar on Intune-managed devices. This provides users with quick access to Copilot features such as Chat, Search, and Agents. In addition, these lightweight companion apps provide quick access to files, people, and your calendar directly from the Windows 11 taskbar. You can configure this behavior in the Microsoft 365 admin center to automatically pin the apps on all eligible Windows 11 Intune-managed devices where they are installed. The setting is off by default. Follow the steps to download, install and configure the companion apps.
+As an admin, you can pin the Microsoft 365 Copilot app to the Windows 11 taskbar on Intune-managed devices. This provides users with quick access to Copilot features such as Chat, Search, and Agents. You can choose to pin selected companion apps in the same way. These lightweight companion apps provide quick access to files, people, and your calendar directly from the Windows 11 taskbar. You can configure this behavior in the Microsoft 365 admin center to automatically pin the apps on all eligible Windows 11 Intune-managed devices where they're installed. The setting is off by default. 
 
-For more information, see [Overview of Microsoft 365 companion apps](/microsoft-365-apps/companions/overview).
+Learn more about the [Microsoft 365 companion apps](/microsoft-365-apps/companions/overview).
 
 ## Before you begin
 
@@ -74,7 +75,7 @@ To configure this setting in the Microsoft 365 admin center, you need to be assi
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. Go to **Copilot** > **Settings** > **User access**.
-1. Select **Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar.**.
+1. Select **Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar**.
 1. Choose one of the following options and then select **Save**:
 
     - **Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar (recommended)**
@@ -92,9 +93,7 @@ To configure this setting in the Microsoft 365 admin center, you need to be assi
 
     - **Do not pin Copilot and its companion apps to the Windows taskbar (default)**
 
-        This is the default setting: managed policy does not pin Microsoft 365 Copilot or companion apps to the Windows taskbar. Users may still pin these apps manually. You can change these settings at any time. Changes take up to 48 hours to apply on devices and might require a restart.
-        
-        You can change these settings at any time. Changes take up to 48 hours to apply on devices and might require a restart.
+        This is the default setting: Managed policy does not pin Microsoft 365 Copilot or companion apps to the Windows taskbar. Users may still pin these apps manually. You can change these settings at any time. On devices running Windows 11 or later, changes take up to eight hours to apply and don't require a restart. Changes to devices running older versions of Windows take up to 48 hours to apply and may require a restart.
 
 ## Announce the companion apps
 

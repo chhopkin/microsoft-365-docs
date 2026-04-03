@@ -8,7 +8,7 @@ author: denisebmsft
 manager: dansimp
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier2
@@ -47,7 +47,7 @@ When a group is restored, the following content is restored:
 - Power BI [Classic workspace](/power-bi/collaborate-share/service-create-workspaces)
 
 > [!NOTE]
-> This article describes restoring only Microsoft 365 groups. All other groups can't be restored once deleted.
+> This article describes how to restore Microsoft 365 groups only.
 
 ## Restore a group
 

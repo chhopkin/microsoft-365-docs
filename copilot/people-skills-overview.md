@@ -6,6 +6,7 @@ ms.author: kwekua
 ms.collection: operations-pod
 manager: scotv
 ms.service: microsoft-365-copilot
+ms.subservice: people-skills
 ms.topic: overview
 ms.date: 10/21/2025
 ---
@@ -54,24 +55,25 @@ If you have questions about licensing or access, contact your Microsoft represen
 | GA | Taxonomy egress | ✕ | ✓ | ✓ | ✓ | ✓ |
 | GA | Editing out of the box taxonomy | ✕ | ✓ | ✓ | ✓ | ✓ |
 | GA | Skills in M365 Copilot | ✕ | ✓ | ✕ | ✕ | ✕ |
-| GA | Viva Learning - Skills based learning experience  | ✕ | ✓ | ✓ | ✕ | ✓ |
-| Frontier| Agents in M365 Copilot (e.g., People Agent)| ✕ | ✓ | ✕ | ✕ | ✕ |
+| GA | Viva Learning - Skills based learning experience | ✕ | ✓ | ✓ | ✕ | ✓ |
+| Frontier| Agents in M365 Copilot (e.g. Workforce Insights Agent)| ✕ | ✓ | ✕ | ✕ | ✕ |
 | GA | Copilot Analytics - Skill landscape report in Analyst Workbench | ✕ | ✓ | ✓ | ✓ | ✕ |
 
 
-¹ People skills are available in the Microsoft 365 commercial public cloud, excluding EDU.   
+¹ People skills are available in the Microsoft 365 commercial public cloud, excluding EDU.  
 ² AI inferencing is not available for M365 commercial users by default. Tenants with M365 Copilot licenses can opt-in Microsoft Enterprise E3 and E5 users for AI-powered inferencing. Learn more  [here.](/copilot/microsoft-365/people-skills-manage-skills-library)
 
 ## Where does People Skills data appear?
 
 People Skills data appears in Microsoft 365 for employees, leaders, and organizations:  
 
-- [Skills in the Microsoft 365 profile card](https://support.microsoft.com/office/explore-what-you-can-do-with-your-skills-0e8dd61c-89b9-42de-8e4d-7c606806cf40): Users can view and manage their skills with others directly from the profile card in Microsoft 365 to share their skills and learn more about others. People Skills is available today on the profile card in the new Outlook desktop for Windows, Outlook Web App, Microsoft 365 Copilot, Office.com, SharePoint, and People Companion, and will expand to other applications where you see the profile card in future releases.
+- [Skills in the Microsoft 365 profile card](https://support.microsoft.com/office/explore-what-you-can-do-with-your-skills-0e8dd61c-89b9-42de-8e4d-7c606806cf40): Users can view and manage their skills with others directly from the profile card in Microsoft 365 to share their skills and learn more about others. People Skills is available today on the profile card in the new Outlook desktop for Windows, Outlook Web App, Microsoft 365 Copilot, Office.com, SharePoint, and People Companion, Teams and will expand to other applications where you see the profile card in future releases.
+
 - [Skills in Microsoft 365 Copilot](https://support.microsoft.com/office/overview-of-people-skills-988029ce-f749-4f99-a6f3-f2e4cef450ae): If you use Microsoft 365 Copilot, shared skills surface in people related queries in Copilot to help form connections and find people with the skills you need.
 - **Skills in Org Explorer and People Companion**:  Tools like [Org Explorer](https://support.microsoft.com/topic/org-explorer-40c65909-b12d-4ab9-8d6c-a1592789dc8e) and [People Companion](/microsoft-365-apps/companions/people) help users quickly find the right person based on their shared skills data.
 - [Skills in Viva Learning: ](https://aka.ms/Admindocupdate)Users can now manage skills they want to develop within Viva Learning, and receive personalized course recommendations based on those skills.
 - [Skills in Copilot Analytics (Viva Insights)](/viva/insights/advanced/analyst/templates/skills-landscape): The Skills landscape report allows organizational analysts to discover top skills in their workforce, assess their distribution across groups, identify potential gaps, and explore related skill insights.
-- [Agents in M365 Copilot](https://adoption.microsoft.com/en-us/ai-agents/agents-in-microsoft-365/) (available in Frontier): People Skills data will power three Agents in Microsoft 365 Copilot to support employees and leaders throughout their AI transformation journey: People Agent (discover people and skills), Learning Agent (personalized learning recommendations and skill-based paths), and Workforce Insights Agent (organizational insights including skill gaps and opportunities, available in Frontier Dec 2025). [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-new-microsoft-365-copilot-agents-to-drive-workforce-transformation/4470689)
+- [Agents in M365 Copilot](https://adoption.microsoft.com/en-us/ai-agents/agents-in-microsoft-365/) (available in Frontier): People Skills data will power Agents in Microsoft 365 Copilot to support employees and leaders throughout their AI transformation journey:  Learning Agent (personalized learning recommendations and skill-based paths), and Workforce Insights Agent (organizational insights including skill gaps and opportunities, available in Frontier Dec 2025). [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-new-microsoft-365-copilot-agents-to-drive-workforce-transformation/4470689)
 
 People Skills AI inferencing and experiences are based on a user's Microsoft 365 Copilot, Microsoft 365, Office 365, and Viva plan. Read more about [licensing in People Skills](#licensing).
 
