@@ -1,5 +1,5 @@
 ---
-title: Mailbox usage report - Microsoft 365 admin center
+title: "Mailbox usage report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
@@ -18,7 +18,7 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 ai-usage: ai-assisted
-description: "Track mailbox usage and email activity in Microsoft 365 admin center. Monitor storage quotas, analyze user engagement, and export detailed reports for better email management."
+description: "Use the mailbox usage report in Microsoft 365 admin center to monitor email activity, track storage quotas, and export detailed mailbox data."
 ms.date: 04/03/2026
 ---
 
@@ -32,15 +32,17 @@ The Mailbox usage report provides information about users with a user mailbox an
 
 For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
+1. In the navigation menu, select **Reports**. If you don't see **Reports**, select **Show all**, and then select **Reports**.
+1. Select <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
 1. On the **Usage** page, under **Reports**, select **Exchange**.
 1. On the report page, select the **Email activity** tab.
-2. Under **Email activity**, select **View More**. 
-3. From the **Email activity** drop-down list, select **Exchange** \> **Mailbox usage**.
+1. Under **Email activity**, select **View More**. 
+1. From the **Email activity** drop-down list, select **Exchange** \> **Mailbox usage**.
 
 ## Interpret the Mailbox usage report
 
-You can get a view into your organization's mailbox usage by looking at the **Mailbox**, **Storage**, and **Quota** charts.
+You can view your organization's mailbox usage by looking at the **Mailbox**, **Storage**, and **Quota** charts.
 
 To access shared mailbox information, change the drop-down selection at the top right of the charts to **Shared**. If your tenant doesn't have shared mailboxes, you can't view any shared mailbox information.
 
@@ -49,7 +51,7 @@ To access shared mailbox information, change the drop-down selection at the top 
   
 :::image type="content" alt-text="Mailbox usage report." source="../../media/9f610e91-cbc1-4e59-b824-7b1ddd84b738.png" lightbox="../../media/9f610e91-cbc1-4e59-b824-7b1ddd84b738.png":::
 
-You can view the Mailbox usage report for trends over the last 7, 30, 90, or 180 days. However, if you select a particular day in the report, the table shows data for up to 28 days from the current date (not the date the report was generated). The data in each report usually covers up to the last 24 to 48 hours.
+You can view the Mailbox usage report for trends over the last 7, 30, 90, or 180 days. However, if you select a particular day in the report, the table shows data for up to 28 days from the current date (not the date the report generated). The data in each report usually covers up to the last 24 to 48 hours.
 
 ### The Mailbox chart
 
@@ -120,12 +122,12 @@ This table shows a breakdown of mailbox usage at the per mailbox level. You can 
 |Report Period| The period for which the report is available.|
 |Has Archive|Shows if the mailbox has an online archive enabled. |
 
+[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]
+
 To learn more about the recoverable items folder, see [Recoverable Items folder in Exchange Online](/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder#recoverable-items-mailbox-quotas).
 
 Select **Choose columns** to add or remove columns from the report.
 
-:::image type="content" alt-text="Mailbox usage report - choose columns." source="../../media/ea3d0b18-6ac6-41b0-9bb9-4844f040ea75.png":::
+:::image type="content" source="../../media/ea3d0b18-6ac6-41b0-9bb9-4844f040ea75.png" alt-text="Mailbox usage report - choose columns." lightbox="../../media/ea3d0b18-6ac6-41b0-9bb9-4844f040ea75.png":::
 
 To export the report data into an Excel .csv file, select the **Export** link. 
-
-[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]

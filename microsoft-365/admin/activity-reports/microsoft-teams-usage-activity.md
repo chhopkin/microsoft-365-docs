@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams usage report - Microsoft 365 admin center
+title: "Microsoft Teams usage report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ai-usage: ai-assisted
-description: "Learn how to access and interpret Microsoft Teams usage reports in the Microsoft 365 admin center. Track active users, channels, messages, and meetings to analyze collaboration trends and optimize team performance across your organization."
+description: "Microsoft Teams usage report helps you track active users, channels, and meetings in Microsoft 365 admin center. Analyze team collaboration trends and boost performance."
 ms.date: 04/03/2026
 ---
 
@@ -30,33 +30,37 @@ The Microsoft Teams usage report provides an overview of the usage activity in T
 
 [!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
-:::image type="content" source="../../media/teams-usage.png" alt-text="Microsoft 365 reports - Microsoft Teams activity report" lightbox="../../media/teams-usage.png":::
+:::image type="content" source="../../media/teams-usage.png" alt-text="Screenshot of the Microsoft Teams usage report." lightbox="../../media/teams-usage.png":::
 
-## View the Microsoft Teams usage activity report
+## View the Microsoft Teams usage report
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
+
+1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
+1. In the navigation menu, select **Reports**. If you don't see **Reports**, select **Show all**, and then select **Reports**.
+1. Select <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
 1. On the **Usage** page, under **Reports**, select **Microsoft Teams**.
 1. On the report page, select the **Team usage** tab.
 
-## Interpret the Microsoft Teams usage report
+## Interpret the Team usage report
 
-Use the Teams usage report to view channel and team usage, including data about individual teams. The **Team usage** tab displays the following charts:
+Use the Team usage report to view channel and team usage, including data about individual teams. The **Team usage** tab displays the following charts:
 
 - **Channel usage**: Tracks the number of channel uses, by activity type, over time.
 
-  :::image type="content" source="../../media/teams-usage-channel.png" alt-text="Teams usage activity report - channel usage" lightbox="../../media/teams-usage-channel.png":::
+  :::image type="content" source="../../media/teams-usage-channel.png" alt-text="Screenshot of the Microsoft Teams channel usage report. " lightbox="../../media/teams-usage-channel.png":::
   
 - **Team usage**: Tracks the number of teams, by type and activity, over time.
 
-  :::image type="content" source="../../media/teams-usage-usage.png" alt-text="Teams usage activity report - team usage" lightbox="../../media/teams-usage-usage.png":::
+  :::image type="content" source="../../media/teams-usage-usage.png" alt-text="Screenshot of the Microsoft Teams team usage report." lightbox="../../media/teams-usage-usage.png":::
   
 Additionally, the chart includes usage details for individual teams, such as last activity date, active users, active channels, and other data.
 
-:::image type="content" source="../../media/teams-usage-table.png" alt-text="Microsoft 365 reports - Microsoft Teams usage activity table" lightbox="../../media/teams-usage-table.png":::
+:::image type="content" source="../../media/teams-usage-table.png" alt-text="Screenshot of the Microsoft Teams usage table." lightbox="../../media/teams-usage-table.png":::
 
 In the table, select **Choose columns** to add or remove columns from the report.
 
-:::image type="content" source="../../media/teams-usage-columns.png" alt-text="Teams usage activity report - choose columns" lightbox="../../media/teams-usage-columns.png":::
+:::image type="content" source="../../media/teams-usage-columns.png" alt-text="Screenshot showing the choose columns list in the Microsoft Teams usage report." lightbox="../../media/teams-usage-columns.png":::
 
 Select the **Export** link to export the report data into an Excel .csv file. This action exports data for all users and enables you to do simple sorting and filtering for further analysis. The exported format for **audio time**, **video time**, and **screen share time** follows ISO8601 duration format.
 

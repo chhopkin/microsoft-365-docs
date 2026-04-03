@@ -3,16 +3,17 @@ title: "Microsoft 365 Copilot Agent usage report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: nesanghi
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection:
-- M365-subscription-management
-- Adm_O365
-- m365copilot
-- magic-ai-copilot
+ - M365-subscription-management
+ - Adm_O365
+ - m365copilot
+ - magic-ai-copilot
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -20,7 +21,7 @@ search.appverid:
 - MET150
 - MOE150
 ai-usage: ai-assisted
-description: "Learn about agent usage in Microsoft 365 Copilot and gain insights into the Microsoft 365 Copilot activity in your organization."
+description: "Microsoft 365 Copilot Agent usage report helps admins track agent adoption and activity. Discover trends and optimize agent deployment in your organization."
 ms.date: 04/03/2026
 ---
 
@@ -37,8 +38,10 @@ In the Microsoft 365 Copilot Agent usage report, you can view the adoption of ag
 
 For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
-1. On the **Usage** page, under **Reports**, select **Microsoft 365 Copilot**, then select **Agents**.
+1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
+1. In the navigation menu, select **Reports**. If you don't see **Reports**, select **Show all**, and then select **Reports**.
+1. Select <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+1. On the **Usage** page, under **Reports**, select **Microsoft 365 Copilot**, and then select **Agents**.
 
 ## Interpret the Microsoft 365 Copilot Agents report
 
@@ -49,7 +52,7 @@ At the top of the report, you can filter by different periods. You can view the 
 > [!NOTE]
 > Copilot agent data in Copilot Chat (work) and Copilot in Word and PowerPoint is available starting November 1, 2024. Agent data in Copilot Chat (web) is available starting January 15, 2025.
 
-:::image type="content" source="../../media/agents-hero-metrics.png" alt-text="Screenshot showing the active agents metrics for Microsoft 365 Copilot.":::
+:::image type="content" source="../../media/agents-hero-metrics.png" alt-text="Screenshot showing the active agents metrics for Microsoft 365 Copilot." lightbox="../../media/agents-hero-metrics.png":::
 
 **Active agents** shows the distinct number of apps with a declarative agent element in that app with at least one active user over the selected time period. For more information, see [Declarative agents FAQ](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps). As defined earlier in this article, only agents that your organization created, including both admin approved and shared by users in your organization, are included.    
 
@@ -75,7 +78,7 @@ You can switch between Summary view and Trend view.
 
 :::image type="content" source="../../media/agents-trend-chart.png" alt-text="Screenshot showing the trend chart for agent usage in Microsoft 365 Copilot." lightbox="../../media/agents-trend-chart.png":::
 
-## Agent details table
+### Agent details table
 
 :::image type="content" source="../../media/agents-details.png" alt-text="Screenshot showing the detail table for agent usage in Microsoft 365 Copilot." lightbox="../../media/agents-details.png":::
 
