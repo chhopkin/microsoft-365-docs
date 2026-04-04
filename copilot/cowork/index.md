@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork overview (Frontier)"
 description: "Learn about Copilot Cowork in Microsoft 365 Copilot, which takes action on your behalf."
-ms.date: 04/02/2026
+ms.date: 04/03/2026
 ms.topic: overview
 author: leeclontz
 manager: KumarVivek
@@ -10,6 +10,7 @@ ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
 ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -97,7 +98,7 @@ Here's how a typical interaction works:
 
 You control what Cowork does throughout a conversation.
 
-- **Approve actions**: Cowork asks for your permission before taking sensitive actions, with a risk level indicator for medium and high risk actions. You can **Approve**, **Approve & Remember** (for the current conversation), or **Reject**.
+- **Approve actions**: Cowork asks for your permission before taking sensitive actions, with a risk level indicator for medium and high risk actions. The button label matches the action (for example, **Send** or **Post**), and a dropdown option lets you skip future prompts for similar actions. Select **Cancel** to stop an action.
 - **Pause, resume, and cancel**: Pause at any time, resume when ready, or cancel the current task.
 - **Give feedback**: Rate responses, leave comments on documents, or share general feedback.
 
