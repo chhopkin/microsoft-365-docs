@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork common questions (Frontier)"
 description: "Frequently asked questions about Copilot Cowork in Microsoft 365 Copilot."
-ms.date: 03/30/2026
+ms.date: 04/03/2026
 ms.topic: faq
 author: leeclontz
 manager: KumarVivek
@@ -10,6 +10,7 @@ ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
 ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -89,9 +90,9 @@ Select a file to open an inline preview. You can also go full-screen or open the
 
 Before Cowork takes a sensitive action like sending an email or posting in Teams, it displays an approval prompt. Approvals for medium and high risk actions include a risk level indicator so you can gauge the impact. Your choices are:
 
-- **Approve**: Let Cowork proceed with the action this one time.
-- **Approve & Remember**: Allow the action now and skip the prompt for similar actions in the current conversation.
-- **Reject**: Stop Cowork from taking the action.
+- **Action button** (for example, **Send**, **Post**, or **Create**): Let Cowork proceed with the action this one time.
+- **Don't ask again**: Select the dropdown arrow next to the action button to allow the action now and skip the prompt for similar actions in the current conversation.
+- **Cancel**: Stop Cowork from taking the action.
 
 You can also select **Show parameters** to see the technical details of the action before deciding.
 
@@ -122,8 +123,8 @@ Yes. Select the microphone button in the chat input to speak your message. Cowor
 Select **Tasks** from the main navigation to see all your conversations with Cowork. You can switch between three views:
 
 - **List**: Shows tasks in a vertical list.
-- **Kanban board**: Organizes tasks into columns by status.
-- **Scheduled**: Shows your scheduled prompts with options to edit, pause, resume, or delete them.
+- **Board**: Organizes tasks into columns by status.
+- **Scheduled**: Shows your scheduled prompts with options to edit, pause, resume, or delete them. This view only appears when you have at least one scheduled prompt.
 
 Select any task to jump back into its conversation.
 
@@ -145,7 +146,7 @@ Yes. Administrators can manage access to Cowork through the Microsoft 365 admin 
 
 - **Disable for specific users**: Add users to a security group configured to exclude them from the Copilot experience.
 - **Control deployment**: In the Microsoft 365 Apps admin center, administrators can disable automatic installation of the Microsoft 365 Copilot app or manage distribution through Microsoft Intune, Configuration Manager, or Group Policy.
-- **Manage availability**: Administrators can manage availablity for users in their organization through the Copilot settings in the admin center.
+- **Manage availability**: Administrators can manage availability for users in their organization through the Copilot settings in the admin center.
 
 For more information, see [Microsoft 365 Copilot admin settings](/microsoft-365-copilot/copilot-for-microsoft-365-admin).
 
