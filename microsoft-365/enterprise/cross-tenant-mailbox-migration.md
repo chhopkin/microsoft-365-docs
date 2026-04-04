@@ -179,8 +179,8 @@ Now that the migration application and secret is successfully created, the next 
    New-MigrationEndpoint -RemoteServer outlook.office.com -RemoteTenant $remote -Credentials $Credential -ExchangeRemoteMove:$true -Name $name -ApplicationId $AppId
    ```
 
-> [!NOTE]
-> If the previous command fails, check with the source tenant administrator to confirm if the application was granted admin consent.
+   > [!NOTE]
+   > If the previous command fails, check with the source tenant administrator to confirm if the application was granted admin consent.
 
 3. Create a new organization relationship object or edit your existing organization relationship object to your source tenant.
 
