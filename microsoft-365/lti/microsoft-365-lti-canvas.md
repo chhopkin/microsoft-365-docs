@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 01/15/2026
+ms.date: 04/03/2026
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education
@@ -144,10 +144,15 @@ A migration tool to help teachers migrate content links in Canvas courses from c
    1. To confirm the OneDrive app is enabled, sign in as a Canvas root admin, go to **Admin > `<your root account>` > Apps > View App Configurations** and select the Gear icon menu for the **Microsoft Education** app.
 
    1. Select the **Configure** option to open the Microsoft 365 LTI **Admin Settings** page.
+
        :::image type="content" source="media/configure-option.png" alt-text="Screenshot showing configure option.":::
+
    1. Verify the OneDrive app is enabled.
+
        :::image type="content" source="media/migrate-applications.png" alt-text="Screenshot showing applications.":::
+
    1. It's also recommended that you toggle On the **Add to RCE** Toolbar switch for the new Microsoft Education app so that its icon is pinned in the Canvas Rich Text Editors for users to easily discover.
+
        :::image type="content" source="media/rce.png" alt-text="Screenshot of RCE toolbar toggle.":::
 
 1. The classic Microsoft OneDrive app must also be deployed and enabled (do **not** delete it!). However, once the migration tool is released for instructors, the placements for the classic OneDrive app should be disabled so no further files are attached using this tool during/after migration.
@@ -195,7 +200,9 @@ You must have a teacher role or Canvas admin role to have access to the migratio
    - Select the **Authorize** button to grant access to the required APIs to locate and update file links for migration.
 
      :::image type="content" source="media/authorize-api.png" alt-text="Screenshot of authorize button.":::
+
    - A dialog pops up to confirm your authorization for the app to access Canvas APIs on your behalf to complete the migration. Select **Authorize** to continue.
+
      :::image type="content" source="media/authorize-key.png" alt-text="Screenshot of an authorize button.":::
 
 1. The migration tool scans your course for classic OneDrive LTI file links and displays the content items containing file links that can be migrated. The content type (for example: Assignments, Pages), name, and number of file links found are displayed. You can choose to deselect a content item to exclude it from migration.
