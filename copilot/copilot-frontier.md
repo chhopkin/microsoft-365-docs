@@ -32,14 +32,15 @@ Frontier settings are managed in the Microsoft 365 Admin Center.
 > Frontier is managed at the tenant level. Before enabling Frontier, ensure that you've assigned Microsoft 365 Copilot licenses to your users, and you have an administrator account that can access the Microsoft 365 Admin Center.
 
 
-## Enable Frontier features in Microsoft 365 apps and Agents
+## Enable Frontier features in Microsoft 365 Web apps
 
 To enable Frontier preview experiences in Microsoft 365 applications and agents:
 
-1. Sign in to the Microsoft 365 admin center.
+1. Sign in to the Microsoft 365 admin center with an account that includes one of the following roles: **AI Admin**, **Security Admin**, **Office Apps Admin**.   
 2. Navigate to **Copilot** > **Settings**.
 3. Select **Copilot Frontier**.
-4. Choose how Frontier access is assigned in your organization:
+4. There are three tabs in the **Frontier settings** 
+5. In the **Web apps** tab, choose how Frontier access is assigned in your organization:
 
    - **No access** (default)
    - **All users**
@@ -66,6 +67,8 @@ User accounts and Cloud PCs meet required technical specifications. All AI enabl
 - [AI-enabled Cloud PC](http://aka.ms/AICloudPCsLearn)
 
 ### Enable Project Opal
+
+Project Opal can complete tasks on users behalf using a Windows Cloud PC for Agents. Learn more about [Project Opal](/copilot/opal-settings-manage.md). 
 
 To enable Project Opal Frontier experiences in your tenant:
 
