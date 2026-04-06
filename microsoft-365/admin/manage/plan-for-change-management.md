@@ -1,11 +1,11 @@
 ---
-title: "Manage continuous change in Microsoft 365"
+title: "Modern change management for Microsoft 365 - Overview"
 f1.keywords:
 - CSH
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 03/13/2026
+ms.date: 04/06/2026
 ms.reviewer: pamelaar, gsaini
 audience: Admin
 ms.topic: how-to
@@ -33,11 +33,12 @@ This modern change management model for Microsoft 365 helps your organization st
 
 - Connect AI tools to the MRC MCP Server to instantly access trusted, up-to-date Microsoft 365 and Azure feature release information using natural language
 - Use AI‑powered access to Message center and Service Health insights to streamline identification of changes and issues and help teams act with clearer context
-- Manage how your org experiences major feature updates  
+- Manage how your org experiences **major** feature updates  
 - Control feature delivery by using audience-based release phases aligned to your organization’s workflows
 - Configure general availability release settings in the Microsoft 365 admin center based on your organizational readiness for new features with Standard or Deferred release options
 - Opt into the release of new features for testing before releasing to the rest of your organization
 - Easily understand feature updates with new Message center enhancements, such as:
+  - New **Timing of chang**e column allows you to sort and filter posts by when a rollout is planned
   - Feature update announcements at the time of availability
   - Bullet point summaries that present key information in a clear, scannable format
   - Embedded links that connect to curated supplemental resources
@@ -71,33 +72,28 @@ For information on how to start using MRC MCP server, see [Get started with Rele
 
 ## Customize your organization’s release experience for Microsoft 365
 
-### General availability release options
+From the Microsoft admin center, you can choose between various release options for Microsoft 365 updates, either during general availability or before general availability.
 
-From the Microsoft admin center, you can choose between two *general availability* release audiences for Microsoft 365 updates: Standard release and Deferred release.
+### General availability
 
-With **Standard release**, your organization receives new features as soon as they're generally available. Standard release is the default option and should be the primary release channel for most customers. Microsoft thoroughly tests and validates all features and services prior to release. Your organization is configured as Standard release by default.
+With **Standard release**, your organization receives new features as soon as they’re generally available (GA). Standard release is the default option and should be the primary release channel for most customers. Microsoft thoroughly tests and validates all features and services prior to release. Your organization is configured as standard release by default.
 
-If you have additional validation requirements, your organization may want to consider **Deferred release** for all or some users. Major Microsoft 365 releases are considered are "deferred-capable," meaning admins will get up to 30 days to prepare for the release. After 30 days, generally available Microsoft 365 features appear to your users. You can see which features are deferred-capable in the Message center.
+If you have additional validation requirements, your organization may want to consider **Deferred release** for all or some users. Major Microsoft 365 releases are considered “deferred-capable”, meaning admins will get up to 30 days to prepare for the release. After 30 days, generally available Microsoft 365 features appear to your users. You can see which features are deferred-capable in the Message center.
 
-For more information about release options for Microsoft 365 features, see [Configure release options for Microsoft 365 features](configure-release-options.md).
+For more information about release options and how to configure them, see [Configure Standard and Deferred release options for Microsoft 365](configure-release-options.md).
 
-### Before general availability release options
+> [!NOTE]
+> Standard and deferred release channels aren’t currently available for GCC, GCC High, and DoD cloud environments. Check this article for updates regarding future support.
 
-If you want to do early experimentation or validation *before* the broad rollout of M365 features, you can opt-in users for the Frontier program. The [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program) gives organizations early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability. By opting in to Frontier program, IT administrators can evaluate new Copilot agents and AI-powered experiences, determine readiness for broader deployment across their tenant, and provide feedback about Frontier feature capabilities to Microsoft.
+### Before general availability
 
-For more information about release options for Microsoft 365 features, see [Configure release options for Microsoft 365 features](configure-release-options.md).
+As an IT admin, you can opt in to use features before general availability by assigning users to specific release audiences.
 
-### Compare release audiences for Microsoft 365 services
+The **Microsoft Frontier program** gives organizations early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability. By opting in to Frontier program, IT administrators can evaluate new Copilot agents and AI-powered experiences, determine readiness for broader deployment across their tenant, and provide feedback about Frontier feature capabilities to Microsoft.
 
-The following table compares the release options available for Microsoft 365 features to help you understand the differences and choose the right approach for your organization’s needs.
+The Frontier program supports early experimentation, but the features aren't fully supported, may change, and might not reach GA. They’re intended for evaluation and readiness, not production use.
 
-| Release audience | Primary purpose | Feature readiness | Key considerations for IT admins |
-| ----- | ----- | ----- | ----- |
-| **Frontier** | Early experimentation and feedback | Pre‑GA, not fully supported | Features may change or be removed, are not guaranteed to reach GA, and do not include support, stability, or SLA commitments equivalent to GA |
-| **Targeted release** | Validation before broad rollout | Pre‑GA validation | Not all features are guaranteed to reach GA; functionality may still evolve; intended for readiness and validation, not reliance on fully supported GA features |
-| **Standard release** | Default GA rollout | Fully supported GA features | Features are supported, communicated through Message Center and release notes, and expected to remain available under standard lifecycle policies |
-| **Deferred release** | Delayed GA for additional preparation | Fully supported GA features (delayed) | Same functionality as Standard release, with timing delayed (up to ~30 days) to support governance and compliance readiness |
-
+For more information on the Frontier program, see [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program).
 
 ## Use the updated Message center interface
 
@@ -121,10 +117,20 @@ Use the roadmap to do the following actions that help your organization stay on 
 
 For more information, see [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
+## Modern change management development
+
+This is the first step in our modernization change management journey. Not all Microsoft 365 workloads are available in this new model. We’re starting with Microsoft 365 Copilot. Existing and legacy change management tools and methodologies can still be used for these experiences.
+
+| Modern change management | Legacy change management |
+| ----- | ----- |
+| - [Modern change management - Overview](plan-for-change-management.md) <br/> - [Configure modern release options](configure-release-options.md) <br/> - FAQ – release options <br/> - [Release Communications MCP server](mrc-mcp.md) <br/> - [Message Center](message-center.md) <br/> - [FAQ – Message Center](message-center-faq.md) | - [Set up the Standard or Targeted release options](release-options-in-office-365.md) <br/> - [Microsoft 365 change guide - Microsoft 365 Apps](/microsoft-365-apps/best-practices/microsoft-365-change-guide) <br/> - [Stay on top of changes](stay-on-top-of-updates.md) |
+
 ## Related articles
 
-[Configure release options for Microsoft 365 features](configure-release-options.md)
+[Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)
+
+[Configure modern release options for Microsoft 365](configure-release-options.md)
+
+[Release options FAQ](release-options-faq.md)
 
 [Track new and changed features in the Microsoft 365 Message center](message-center.md)
-
-[Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)
