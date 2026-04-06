@@ -29,33 +29,34 @@ Access to Frontier experiences varies depending on your organization’s subscri
 Frontier settings are managed in the Microsoft 365 Admin Center.
 
 > [!IMPORANT]
-> Frontier is managed at the tenant level. Before enabling Frontier, ensure that you've assigned Microsoft 365 Copilot licenses to your users, and you have an administrator account that can access the Microsoft 365 Admin Center.
+> Frontier is managed at the tenant level. Before enabling Frontier, ensure that you've assigned **Microsoft 365 Copilot** licenses to your users, and you have an administrator account that can access the Microsoft 365 Admin Center.
 
+### Turn on Frontier features
 
-## Enable Frontier features in Microsoft 365 Web apps
-
-To enable Frontier preview experiences in Microsoft 365 applications and agents:
+To enable Frontier preview experiences:
 
 1. Sign in to the Microsoft 365 admin center with an account that includes one of the following roles: **AI Admin**, **Security Admin**, **Office Apps Admin**.   
 2. Navigate to **Copilot** > **Settings**.
 3. Select **Copilot Frontier**.
-4. There are three tabs in the **Frontier settings** 
-5. In the **Web apps** tab, choose how Frontier access is assigned in your organization:
+4. Choose how Frontier access is assigned in your organization:
 
    - **No access** (default)
    - **All users**
    - **Specific users or security groups**
 
-5. If necessary for a selected feature, enroll participating users in:
-
-   - Microsoft 365 Insider, or
-   - the Beta Channel
-
 After Frontier is enabled, supported preview features become available to eligible users as they're released.
 
-If you're enabling Frontier feature agents, your users should now be able to go to the **Agent Store** and review available Frontier agents.
 
- Users who participate in Frontier experiences must be assigned a Microsoft 365 Copilot license.
+If necessary for a selected feature, enroll participating users in:
+
+ - Microsoft 365 Insider, or
+ - the Beta Channel
+
+> [!IMPORTANT]
+> **Frontier agents** are available from the Agent store in Microsoft 365 Copilot. Search for "Built my Microsoft", and Frontier program agents will be displayed with **(Frontier)** in the name.
+
+> [!NOTE]
+> Some AI features in Microsoft 365 Desktop and mobile apps are currently released as a part of the Microsoft 365 Insider program. Learn more about the [Microsoft 365 Insider Program for Business](https://aka.ms/msft365insiderbusiness).
 
 ### Configure AI-enabled Cloud PCs
 
