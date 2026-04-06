@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 03/14/2026
+ms.date: 04/06/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -25,7 +25,7 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
-description: "Learn how to set up the release option for new Microsoft 365 product and feature updates in the Microsoft 365 admin center."
+description: "Learn how to set up the Targeted release option for new Microsoft 365 product and feature updates in the Microsoft 365 admin center."
 appliesto:
 - Outlook (new)
 - OneDrive
@@ -34,7 +34,7 @@ appliesto:
 - Microsoft 365 admin center
 ---
 
-# SET UP REDIRECT TO CONFIGURE - Set up the Standard or Targeted release options for Microsoft 365
+# Set up the Standard or Targeted release options for Microsoft 365
 
 > [!IMPORTANT]
 > The Microsoft 365 updates described in this article apply to new Outlook, OneDrive, SharePoint in Microsoft 365, Microsoft 365 for the web, Microsoft 365 admin center, some components of Exchange Online and Microsoft Teams. These release options are targeted, best effort ways to release changes to Microsoft 365 but can't be guaranteed at all times or for all updates. They don't currently apply to services other than those listed previously. For information about release options for Microsoft 365 Apps, see [Overview of update channels for Microsoft 365 Apps](/deployoffice/overview-update-channels).
@@ -109,8 +109,6 @@ It can take up to 24 hours for the following changes to take effect in Microsoft
 1. To enable targeted release for some people in your organization, select **Targeted release for selected users**, then select **Save**.
 1. Choose **Select users** to add users one at a time, or **Upload users** to add them in bulk.
 1. When you're done adding users, select **Save**.
-
-**UPDATE SCREENSHOTS**
 
 :::image type="content" alt-text="Screenshot: Showing the set up release option in the Microsoft 365 admin." source="../../media/release_option_admincenter.png" lightbox="../../media/release_option_admincenter.png":::
 
