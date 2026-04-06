@@ -60,16 +60,16 @@ If necessary for a selected feature, enroll participating users in:
 
 ### Configure AI-enabled Cloud PCs
 
-To use AI-enabled Cloud PCs during Frontier preview, complete the following steps shown in [AI-enabled Cloud PC](http://aka.ms/AICloudPCsLearn).
+To use AI-enabled Cloud PCs during Frontier preview, complete the following steps shown in [AI-enabled Cloud PC](https://aka.ms/AICloudPCsLearn).
 
 User accounts and Cloud PCs meet required technical specifications. All AI enablement for eligible Cloud PCs are completed by using Microsoft Intune. Cloud PCs must also be enrolled in the Windows Insider Program Beta Channel.
 
-- [Experience next-gen productivity with Windows 365 AI-enabled Cloud PCs](http://aka.ms/AICloudPCs)  
-- [AI-enabled Cloud PC](http://aka.ms/AICloudPCsLearn)
+- [Experience next-gen productivity with Windows 365 AI-enabled Cloud PCs](https://aka.ms/AICloudPCs)  
+- [AI-enabled Cloud PC](https://aka.ms/AICloudPCsLearn)
 
 ### Enable Project Opal
 
-Project Opal can complete tasks on users behalf using a Windows Cloud PC for Agents. Learn more about [Project Opal](/copilot/opal-settings-manage.md). 
+Project Opal can complete tasks on users behalf using a Windows Cloud PC for Agents. Learn more about [Project Opal](opal-settings-manage.md). 
 
 To enable Project Opal Frontier experiences in your tenant:
 
