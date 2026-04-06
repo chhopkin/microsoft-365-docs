@@ -4,7 +4,7 @@ ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona
 ms.reviewer: jugiammo
-ms.date: 2/27/2026
+ms.date: 4/01/2026
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
@@ -31,7 +31,7 @@ The following services are included in _ADR_. For more information, see:
 - [Exchange Online](m365-dr-service-exo.md)
 - [Microsoft 365 Copilot and Microsoft 365 Copilot Chat](m365-dr-service-copilot.md)
 - [Microsoft 365 web apps (formerly "Office for the Web")](m365-dr-service-m365-web-apps.md)
-- [Microsoft Defender for Office P1 and the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](m365-dr-service-mdo-p1.md)
+- [Microsoft Defender for Office P1 and the built-in security features for all cloud mailboxes (formerly "Exchange Online Protection (EOP)")](m365-dr-service-mdo-p1.md)
 - [Microsoft Purview](m365-dr-service-purview.md)*
   - [Audit (Standard)](m365-dr-service-purview.md#risk--compliance---audit-standard)
   - [Audit (Premium)](m365-dr-service-purview.md#risk--compliance---audit-premium)
@@ -52,7 +52,7 @@ The following services are included in _ADR_. For more information, see:
 
 The _Advanced Data Residency_ ("_ADR_") add-on is intended for Microsoft 365 enterprise customers who have comprehensive data residency requirements. To be eligible to purchase _ADR_, customers must meet the following prerequisites:
 
-- The _Tenant Default Geography_ must be one of the countries or regions included in the _Local Region Geography_: Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom.
+- The _Tenant Default Geography_ must be one of the countries or regions included in the _Local Region Geography_: Australia, Austria, Brazil, Canada, Chile, Denmark, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom.
 - Customers must have licenses for one or more of the following products:
   - Microsoft 365 F1, F3, E3, or E5 (including SKUs without Microsoft Teams)
   - Office 365 F3, E1, E3, or E5 (including SKUs without Microsoft Teams)

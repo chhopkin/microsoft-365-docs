@@ -30,7 +30,7 @@ ms.custom:
 service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn how to interpret the charges on your invoice for your Microsoft business subscription with an MOSA billing account."
-ms.date: 10/28/2025
+ms.date: 03/31/2026
 ---
 
 # Understand your invoice for your Microsoft MOSA billing account

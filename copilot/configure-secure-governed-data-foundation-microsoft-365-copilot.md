@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 03/19/2026
+ms.date: 04/02/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -134,8 +134,6 @@ Protect sensitive data by default and decide how it should be used with Copilot 
 
 1. Are there keywords or types of sensitive data that shouldn't be processed by Copilot? If yes, enable a [Purview DLP for Copilot prompts](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts containing specified sensitive information
 
-1. Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts that contain sensitive information.
-
    Optionally, allow sensitive data to be used for Work IQ grounding but block from web grounding
   
 1. Enable [Microsoft Purview Insider Risk Management (IRM](/purview/insider-risk-management-solution-overview) policies to detect patterns of inappropriate or noncompliant Copilot usage and [automatically add risky users to more restrictive security policies](/purview/insider-risk-management-adaptive-protection)
@@ -192,7 +190,7 @@ Reduce ongoing risk and improve Copilot answer quality by continuously cleaning 
 
 After completing the steps in this article:
 
-1. Use the [Microsoft Purview portal](/purview/purview-portal) and the [Content Governance Agent](/sharepoint/content-governance-agent) to view information and run reports on a scheduled basis.
+1. Use the [Microsoft Purview portal](/purview/purview-portal) and the [SharePoint Admin Agent](/sharepoint/content-governance-agent) to view information and run reports on a scheduled basis.
 
 1. Educate site owners and users on labeling, sharing, and responsible Copilot use. (See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).)
 
