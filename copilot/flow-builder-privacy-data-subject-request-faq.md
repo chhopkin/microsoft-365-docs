@@ -24,6 +24,53 @@ Flows created with Workflows agent are stored in the user's Power Platform envir
 
 Users can export or delete flows using standard Power Platform tools. Flows are subject to Microsoft’s Data Subject Request (DSR) processes.
 
+# Prerequisites: Identify the Scope
+Before performing a DSR, you must identify where the user’s "Workflows" data resides.
+•	Locate the Environment: Navigate to the [Power Platform Admin Center (PPAC)](https://admin.powerplatform.microsoft.com/) Inventory.
+•	Check Two Locations: Workflows artifacts will typically be in one of two places:
+1.	The Default Environment of the tenant.
+2.	The user's Personal Development Environment (PDE).
+•	Action: Go to Inventory, filter by the user's email, and note the Environment ID where their Workflows agents are listed.
+ 
+
+Each Workflows agents workflows are backed by specific Dataverse entities. Because these are not surfaced in the standard Power Automate UI, you must use the following methods to locate them:
+
+# Method A: Web-Based Management (UI)
+For a manual, UI-based approach, navigate to the environment identified in Step 1 and use the Tables view in Power Apps or the Maker Portal.
+
+In the identified environment, refer to the following Dataverse entities on the environment to perform DSR Export/Delete. 
+
+| Target Data | Dataverse Table |
+| :--- | :--- |
+| **Process** | Workflows (Category 5: Modern Flow AND ModernFlowType: M365CopilotFlow) |
+| **Process** | AI Flows (Category 7: AI Flow) |
+| **ConnectionReference** | Connections |
+| **AI Model** | AI Prompts - AI Model |
+| **AI Configurations** | AI Prompt Prompt Data |
+| **WorkflowMetadata** | WorkflowMetadata |
+| **FlowRun** | Flow Run (If Flow Run Ingestion is enabled) |
+| **AI FlowRun** | Flow Run |
+| **Approvals** | Approvals (Subject to a 28-day automatic deletion retention policy) |
+
+# Method B: API-Based Management (Bulk/Automation)
+If you are handling multiple requests, use the Environment-scoped APIs.
+
+| API | Notes |
+| :--- | :--- |
+| [**Get Conversation Transcripts With Environment**](https://learn.microsoft.com/en-us/rest/api/power-platform/workflowsagent/dsr-compliance/get-conversation-transcripts-with-environment) | Get conversation transcripts for DSR export (environment-scoped). |
+| [**Get Flow Run Actions With Environment**](https://learn.microsoft.com/en-us/rest/api/power-platform/workflowsagent/dsr-compliance/get-flow-run-actions-with-environment) | Get flow run actions for DSR export (environment-scoped). |
+| [**Get Flow Runs (Default/PDE)**](https://learn.microsoft.com/en-us/rest/api/power-platform/workflowsagent/dsr-compliance/get-flow-runs-non-singleton) | Get flow runs for DSR export (environment-scoped). |
+| [**Get Run History Data (Default/PDE)**](https://learn.microsoft.com/en-us/rest/api/power-platform/workflowsagent/dsr-compliance/get-run-history-data-non-singleton) | Get run history customer data for DSR export (environment-scoped). |
+
+Api Permissions setup: Please visit [RBAC Permissions](https://learn.microsoft.com/en-us/power-platform/admin/security/role-based-access-control) to learn more about permissions needed for API access.
+Specific permissions table for Worflows Agent DSR:
+
+| Role Name | Role ID | Description | Assignable Scope |
+| :--- | :--- | :--- | :--- |
+| **Workflows Agent Data Subject Rights Environment Reader** | `38a014c1-0485-4e5e-b784-782ea373b34b` | Grants full access to perform read operations for Data Subject Rights requests for Workflows Agent Flows for a given environment. | `/tenants/{0}/environments/{1}` |
+
+Here is the link with the tutorial for customers: [RBAC Tutorial](https://review.learn.microsoft.com/en-us/power-platform/admin/programmability-tutorial-rbac-role-assignment)
+
 **Export**: Admins can export all data pertaining to a user's usage on Workflows agents. Learn more here:
 [List flows for a user](/connectors/flowmanagement/#list-flows-as-admin-(v2)), 
 [Get flow definition](/connectors/flowmanagement/#get-flow-as-admin) 
