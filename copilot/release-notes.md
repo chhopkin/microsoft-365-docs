@@ -33,6 +33,224 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 <!--- All features regardless of platform go here  -->
 <!-- 101270,100818,110355,80610,109718,101645,100669,100610,100361,100356,100354,98694 -->
 
+## April 7, 2026
+Updates released between March 24, 2026, April 7, 2026
+
+### Microsoft 365 Copilot chat
+
+- **Microsoft 365 Copilot Chat available in Teams chats, channels, and meetings** [Windows, Mac, Web]
+  
+  Microsoft 365 Copilot Chat integration is expanding to Teams chats, channels, and meetings, with mobile support coming soon.
+  
+  **Roadmap ID:** [501107](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501107)
+    
+  **Details:**
+  
+  **What changed:** Microsoft 365 Copilot Chat is now accessible across Teams chats, channels, calling, and meetings. This expands availability beyond its previous limited scope.
+  
+  **Why:** The goal is to make Microsoft 365 Copilot Chat available wherever users collaborate, improving consistency and access.
+  
+  **Try this:**
+  
+  -	Open a Teams chat or channel and launch Copilot.
+  
+  -	Use Microsoft 365 Copilot Chat to ask questions or generate insights.
+  
+  -	Try Microsoft 365 Copilot Chat during a meeting to support real time collaboration.
+  
+  **Why this matters:**
+  
+  **Business impact:** Enhances collaboration by bringing Microsoft 365 Copilot Chat into more communication surfaces.
+  
+  **Personal impact:** Makes it easier to access Microsoft 365 Copilot Chat wherever you work in Teams.
+
+
+- **Edit scheduled prompts for Copilot** [Windows, Mac, Web]
+  
+  Users can now edit the schedule of their Copilot prompts, giving them more flexibility and control.
+  
+  **Roadmap ID:** [531912](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=531912)
+  
+  **Details:**
+  
+  **What changed:** You can now adjust the timing of scheduled prompts instead of deleting and recreating them. This update improves usability and reduces repetitive setup.
+  
+  **Why:** This change was made to give users more control over their workflows and reduce friction when managing recurring prompts.
+  
+  **Try this:**
+  
+  -	Open your list of scheduled prompts.
+  
+  -	Select a prompt and adjust the schedule to match your needs.
+  
+  -	Save your changes to update the prompt timing.
+  
+  **Why this matters:**
+  
+  **Business impact:** Reduces time spent managing recurring workflows. 
+  
+  **Personal impact:** Makes it easier to keep prompts aligned with changing schedules.
+  
+  **Additional resources:**
+  
+  **Learn:**
+  
+  [Manage Scheduled Prompts for Microsoft 365 Copilot](/microsoft-365/copilot/scheduled-prompts) 
+
+
+
+### Microsoft 365 Copilot extensibility
+
+-  **Code interpreter now works on files found via Chat search**
+  
+    Analyze enterprise search results with code interpreter Copilot’s code interpreter can now analyze files found via enterprise search in Chat, even if they weren’t manually uploaded or linked. 
+    
+    **Roadmap ID:** [519570]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=519570)
+    
+    **Details:**
+    
+    **What changed:** Previously, code interpreter only worked on files explicitly uploaded or attached. Now, it can also analyze files surfaced through enterprise search in Copilot Chat.
+    
+    **Why:** This change reduces friction and improves usability by allowing users to analyze relevant files without needing to manually attach them.
+    
+    **Try this:**
+    
+    -	Search for a spreadsheet in Copilot Chat and ask the code interpreter to summarize trends.
+    
+    -	Locate a CSV file via enterprise search and request a data visualization.
+    
+    -	Find a document using Chat and ask Copilot to run calculations or extract metrics.
+    
+    **Why this matters:**
+    
+    **Business impact:** Streamlines workflows by enabling analysis of discovered files without manual uploads.
+    
+    **Personal impact:** Saves time and effort when working with files found through search.
+
+-  **Smarter answers with embedded image understanding** [Windows]
+
+    Declarative Agents can now interpret and ground responses using embedded images in Word, PowerPoint, and PDF files. This enhancement enables Copilot to extract insights from charts, diagrams, and screenshots, improving the accuracy and completeness of answers.
+    
+    **Roadmap ID:** [531758](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=531758)
+    
+    **Details:** 
+    
+    **What changed:** Declarative Agents now analyze embedded images in supported file types (.docx, .pptx, .pdf). Visual elements such as charts and diagrams are used to inform responses, resulting in more contextually accurate answers.
+    
+    Why: Users often include critical information in visuals. This change ensures Copilot can interpret both text and graphics for more complete responses.
+    
+    **Try this:**
+    
+    -	Upload a Word document with embedded charts and ask Copilot to summarize key insights.
+    
+    -	Attach a PowerPoint file with diagrams and request an explanation of the visual flow.
+    
+    -	Use a PDF with screenshots and ask Copilot to describe the process shown.
+    
+    **Why this matters:** 
+    
+    **Business impact:** Improves Copilot’s ability to deliver comprehensive answers grounded in both text and visuals.
+    
+    **Personal impact:** Helps users get more accurate and complete responses from files with embedded images.
+
+- **Fewer confirmation prompts for Copilot actions** [Web]
+  
+    Action confirmations have been streamlined, so users experience fewer interruptions while still maintaining safety controls.
+    
+    **Details:**
+    
+    **What changed:** Copilot now reduces the number of confirmation prompts shown during read actions which don't make changes to external systems. Safety checks remain in place while enhancing the user experience.
+    
+    **Why:** This update helps users stay focused and reduces friction during task execution.
+    
+    **Try this:**
+    
+    -	Use an agent to fetch data from an external system.
+    
+    -	Notice fewer confirmation steps during the process.
+    
+    -	Continue your workflow without additional interruptions.
+    
+    **Why this matters:**
+    
+    **Business impact:** Improves workflow efficiency by reducing delays. 
+    
+    **Personal impact:** Creates a smoother, more natural Copilot experience.
+    
+    **Additional resources:**
+    
+    **Learn:**
+    
+    [Confirmation prompts for API plugins for Microsoft 365 Copilot](/microsoft-365/copilot/extensibility/api-plugin-confirmation-prompts)
+
+### Microsoft Viva
+
+- **Copilot adoption report updated with streamlined UX and power user insights** [Web]
+  
+  The updated Copilot adoption Power BI report introduces a cleaner experience and new insights that help organizations understand how power users engage with Copilot.
+  
+  **Roadmap ID:** [557674](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=557674)
+  
+  **Details:**
+  
+  **What changed:** The Copilot adoption Power BI report now includes a simplified, more intuitive layout and new insights that highlight how power users interact with Copilot. These updates make it easier to identify Copilot adoption and habit formation compared to the previous version.
+  
+  **Why:** These improvements were made to help organizations better track Copilot engagement and identify opportunities to increase value and usage.
+  
+  **Try this:**
+  
+  -	Open the updated Copilot adoption Power BI report in Advanced insights.
+  
+  -	Review the new power user insights to identify high-impact usage patterns.
+  
+  -	Share findings with team leads to support targeted Copilot enablement.
+  
+  **Why this matters:**
+  
+  **Business impact:** Helps organizations better understand Copilot usage and identify opportunities to improve adoption. 
+  
+  **Additional resources:**
+  
+  **Learn:**
+  
+  [Microsoft 365 Copilot adoption report](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-adoption)
+
+
+### OneDrive
+
+  - **Share OneDrive files with a Copilot-generated summary in Windows** [Windows]
+  
+    You can now generate a file summary with Copilot and include it directly when sharing OneDrive files in Windows.
+      
+    **Roadmap ID:** [527840](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=527840)
+      
+      
+    **Details:**
+      
+    **What changed:** A new option in File Explorer and the OneDrive Activity Center lets you summarize a file with Copilot and send that summary within the share dialog. Previously, users needed to create summaries separately before sharing.
+      
+    **Why:** Sharing a file often means the recipient has to open it just to understand what it's about. Now, Copilot generates a summary for you so the people you share with get the key points upfront, right in the share notification.
+      
+    **Try this:**
+    
+    -	Open File Explorer and select a file stored in OneDrive.
+      
+    -	Choose Share, then select the option to generate a Copilot summary.
+      
+    -	Send the file along with the summary to your recipient.
+      
+    -	Open OneDrive activity center and select a file.
+      
+    -	Choose Share, then select the option to generate a Copilot summary.
+      
+    -	Send the file along with the summary to your recipient.
+    
+    **Why this matters:** 
+    
+    **Business impact:** Your recipients can quickly decide if a file needs their attention without opening it first. Whether you're sharing a proposal, report, or meeting notes, the summary gives everyone the context they need to act faster.
+    
+    **Personal impact:** Makes it easier to communicate key points without extra steps.
+
 
 ## March 24, 2026
 Updates released between March 10, 2026, March 24, 2026
@@ -6331,9 +6549,136 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Windows](#tab/win)
 
+## April 7, 2026
+Updates released between March 24, 2026, April 7, 2026
+
+### Microsoft 365 Copilot chat
+
+- **Microsoft 365 Copilot Chat available in Teams chats, channels, and meetings** [Windows, Mac, Web]
+  
+  Microsoft 365 Copilot Chat integration is expanding to Teams chats, channels, and meetings, with mobile support coming soon.
+  
+  **Roadmap ID:** [501107](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501107)
+    
+  **Details:**
+  
+  **What changed:** Microsoft 365 Copilot Chat is now accessible across Teams chats, channels, calling, and meetings. This expands availability beyond its previous limited scope.
+  
+  **Why:** The goal is to make Microsoft 365 Copilot Chat available wherever users collaborate, improving consistency and access.
+  
+  **Try this:**
+  
+  -	Open a Teams chat or channel and launch Copilot.
+  
+  -	Use Microsoft 365 Copilot Chat to ask questions or generate insights.
+  
+  -	Try Microsoft 365 Copilot Chat during a meeting to support real time collaboration.
+  
+  **Why this matters:**
+  
+  **Business impact:** Enhances collaboration by bringing Microsoft 365 Copilot Chat into more communication surfaces.
+  
+  **Personal impact:** Makes it easier to access Microsoft 365 Copilot Chat wherever you work in Teams.
+
+
+- **Edit scheduled prompts for Copilot** [Windows, Mac, Web]
+  
+  Users can now edit the schedule of their Copilot prompts, giving them more flexibility and control.
+  
+  **Roadmap ID:** [531912](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=531912)
+  
+  **Details:**
+  
+  **What changed:** You can now adjust the timing of scheduled prompts instead of deleting and recreating them. This update improves usability and reduces repetitive setup.
+  
+  **Why:** This change was made to give users more control over their workflows and reduce friction when managing recurring prompts.
+  
+  **Try this:**
+  
+  -	Open your list of scheduled prompts.
+  
+  -	Select a prompt and adjust the schedule to match your needs.
+  
+  -	Save your changes to update the prompt timing.
+  
+  **Why this matters:**
+  
+  **Business impact:** Reduces time spent managing recurring workflows. 
+  
+  **Personal impact:** Makes it easier to keep prompts aligned with changing schedules.
+  
+  **Additional resources:**
+  
+  **Learn:**
+  
+  [Manage Scheduled Prompts for Microsoft 365 Copilot](/microsoft-365/copilot/scheduled-prompts) 
+
+### Microsoft 365 Copilot extensibility
+
+-  **Smarter answers with embedded image understanding** [Windows]
+
+    Declarative Agents can now interpret and ground responses using embedded images in Word, PowerPoint, and PDF files. This enhancement enables Copilot to extract insights from charts, diagrams, and screenshots, improving the accuracy and completeness of answers.
+    
+    **Roadmap ID:** [531758](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=531758)
+    
+    **Details:** 
+    
+    **What changed:** Declarative Agents now analyze embedded images in supported file types (.docx, .pptx, .pdf). Visual elements such as charts and diagrams are used to inform responses, resulting in more contextually accurate answers.
+    
+    Why: Users often include critical information in visuals. This change ensures Copilot can interpret both text and graphics for more complete responses.
+    
+    **Try this:**
+    
+    -	Upload a Word document with embedded charts and ask Copilot to summarize key insights.
+    
+    -	Attach a PowerPoint file with diagrams and request an explanation of the visual flow.
+    
+    -	Use a PDF with screenshots and ask Copilot to describe the process shown.
+    
+    **Why this matters:** 
+    
+    **Business impact:** Improves Copilot’s ability to deliver comprehensive answers grounded in both text and visuals.
+    
+    **Personal impact:** Helps users get more accurate and complete responses from files with embedded images.
+
+
+
 ## March 24, 2026
 Updates released between March 10, 2026, March 24, 2026
+### OneDrive
 
+  - **Share OneDrive files with a Copilot-generated summary in Windows** [Windows]
+  
+    You can now generate a file summary with Copilot and include it directly when sharing OneDrive files in Windows.
+      
+    **Roadmap ID:** [527840](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=527840)
+      
+      
+    **Details:**
+      
+    **What changed:** A new option in File Explorer and the OneDrive Activity Center lets you summarize a file with Copilot and send that summary within the share dialog. Previously, users needed to create summaries separately before sharing.
+      
+    **Why:** Sharing a file often means the recipient has to open it just to understand what it's about. Now, Copilot generates a summary for you so the people you share with get the key points upfront, right in the share notification.
+      
+    **Try this:**
+    
+    -	Open File Explorer and select a file stored in OneDrive.
+      
+    -	Choose Share, then select the option to generate a Copilot summary.
+      
+    -	Send the file along with the summary to your recipient.
+      
+    -	Open OneDrive activity center and select a file.
+      
+    -	Choose Share, then select the option to generate a Copilot summary.
+      
+    -	Send the file along with the summary to your recipient.
+    
+    **Why this matters:** 
+    
+    **Business impact:** Your recipients can quickly decide if a file needs their attention without opening it first. Whether you're sharing a proposal, report, or meeting notes, the summary gives everyone the context they need to act faster.
+    
+    **Personal impact:** Makes it easier to communicate key points without extra steps.
 ### Microsoft 365 Copilot app
 
 - **Scatter image effect** [Android, Windows, iOS, Mac, Web]
@@ -8971,6 +9316,134 @@ Updates released between December 18, 2024, and January 7, 2025.
 <!-- 100671,100312,96561,96560,96300,104967,104073,102626,101108,97855 -->
 
 ## [Web](#tab/Web)
+
+## April 7, 2026
+Updates released between March 24, 2026, April 7, 2026
+
+### Microsoft 365 Copilot chat
+
+- **Microsoft 365 Copilot Chat available in Teams chats, channels, and meetings** [Windows, Mac, Web]
+  
+  Microsoft 365 Copilot Chat integration is expanding to Teams chats, channels, and meetings, with mobile support coming soon.
+  
+  **Roadmap ID:** [501107](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501107)
+    
+  **Details:**
+  
+  **What changed:** Microsoft 365 Copilot Chat is now accessible across Teams chats, channels, calling, and meetings. This expands availability beyond its previous limited scope.
+  
+  **Why:** The goal is to make Microsoft 365 Copilot Chat available wherever users collaborate, improving consistency and access.
+  
+  **Try this:**
+  
+  -	Open a Teams chat or channel and launch Copilot.
+  
+  -	Use Microsoft 365 Copilot Chat to ask questions or generate insights.
+  
+  -	Try Microsoft 365 Copilot Chat during a meeting to support real time collaboration.
+  
+  **Why this matters:**
+  
+  **Business impact:** Enhances collaboration by bringing Microsoft 365 Copilot Chat into more communication surfaces.
+  
+  **Personal impact:** Makes it easier to access Microsoft 365 Copilot Chat wherever you work in Teams.
+
+
+- **Edit scheduled prompts for Copilot** [Windows, Mac, Web]
+  
+  Users can now edit the schedule of their Copilot prompts, giving them more flexibility and control.
+  
+  **Roadmap ID:** [531912](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=531912)
+  
+  **Details:**
+  
+  **What changed:** You can now adjust the timing of scheduled prompts instead of deleting and recreating them. This update improves usability and reduces repetitive setup.
+  
+  **Why:** This change was made to give users more control over their workflows and reduce friction when managing recurring prompts.
+  
+  **Try this:**
+  
+  -	Open your list of scheduled prompts.
+  
+  -	Select a prompt and adjust the schedule to match your needs.
+  
+  -	Save your changes to update the prompt timing.
+  
+  **Why this matters:**
+  
+  **Business impact:** Reduces time spent managing recurring workflows. 
+  
+  **Personal impact:** Makes it easier to keep prompts aligned with changing schedules.
+  
+  **Additional resources:**
+  
+  **Learn:**
+  
+  [Manage Scheduled Prompts for Microsoft 365 Copilot](/microsoft-365/copilot/scheduled-prompts) 
+
+### Microsoft 365 Copilot extensibility
+
+- **Fewer confirmation prompts for Copilot actions** [Web]
+  
+    Action confirmations have been streamlined, so users experience fewer interruptions while still maintaining safety controls.
+    
+    **Details:**
+    
+    **What changed:** Copilot now reduces the number of confirmation prompts shown during read actions which don't make changes to external systems. Safety checks remain in place while enhancing the user experience.
+    
+    **Why:** This update helps users stay focused and reduces friction during task execution.
+    
+    **Try this:**
+    
+    -	Use an agent to fetch data from an external system.
+    
+    -	Notice fewer confirmation steps during the process.
+    
+    -	Continue your workflow without additional interruptions.
+    
+    **Why this matters:**
+    
+    **Business impact:** Improves workflow efficiency by reducing delays. 
+    
+    **Personal impact:** Creates a smoother, more natural Copilot experience.
+    
+    **Additional resources:**
+    
+    **Learn:**
+    
+    [Confirmation prompts for API plugins for Microsoft 365 Copilot](/microsoft-365/copilot/extensibility/api-plugin-confirmation-prompts)
+
+### Microsoft Viva
+
+- **Copilot adoption report updated with streamlined UX and power user insights** [Web]
+  
+  The updated Copilot adoption Power BI report introduces a cleaner experience and new insights that help organizations understand how power users engage with Copilot.
+  
+  **Roadmap ID:** [557674](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=557674)
+  
+  **Details:**
+  
+  **What changed:** The Copilot adoption Power BI report now includes a simplified, more intuitive layout and new insights that highlight how power users interact with Copilot. These updates make it easier to identify Copilot adoption and habit formation compared to the previous version.
+  
+  **Why:** These improvements were made to help organizations better track Copilot engagement and identify opportunities to increase value and usage.
+  
+  **Try this:**
+  
+  -	Open the updated Copilot adoption Power BI report in Advanced insights.
+  
+  -	Review the new power user insights to identify high-impact usage patterns.
+  
+  -	Share findings with team leads to support targeted Copilot enablement.
+  
+  **Why this matters:**
+  
+  **Business impact:** Helps organizations better understand Copilot usage and identify opportunities to improve adoption. 
+  
+  **Additional resources:**
+  
+  **Learn:**
+  
+  [Microsoft 365 Copilot adoption report](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-adoption)
 
 ## March 24, 2026
 Updates released between March 10, 2026, March 24, 2026
@@ -15807,6 +16280,71 @@ Updates released between December 18, 2024, and January 7, 2025.
   Get suggestions for how to rewrite any text in your document, enhancing clarity and effectiveness. [Learn more](https://support.microsoft.com/topic/923d9763-f896-4da7-8a3f-5b12c3bfc475).
 
 ## [Mac](#tab/mac)
+
+## April 7, 2026
+Updates released between March 24, 2026, April 7, 2026
+
+### Microsoft 365 Copilot chat
+
+- **Microsoft 365 Copilot Chat available in Teams chats, channels, and meetings** [Windows, Mac, Web]
+  
+  Microsoft 365 Copilot Chat integration is expanding to Teams chats, channels, and meetings, with mobile support coming soon.
+  
+  **Roadmap ID:** [501107](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501107)
+    
+  **Details:**
+  
+  **What changed:** Microsoft 365 Copilot Chat is now accessible across Teams chats, channels, calling, and meetings. This expands availability beyond its previous limited scope.
+  
+  **Why:** The goal is to make Microsoft 365 Copilot Chat available wherever users collaborate, improving consistency and access.
+  
+  **Try this:**
+  
+  -	Open a Teams chat or channel and launch Copilot.
+  
+  -	Use Microsoft 365 Copilot Chat to ask questions or generate insights.
+  
+  -	Try Microsoft 365 Copilot Chat during a meeting to support real time collaboration.
+  
+  **Why this matters:**
+  
+  **Business impact:** Enhances collaboration by bringing Microsoft 365 Copilot Chat into more communication surfaces.
+  
+  **Personal impact:** Makes it easier to access Microsoft 365 Copilot Chat wherever you work in Teams.
+
+
+- **Edit scheduled prompts for Copilot** [Windows, Mac, Web]
+  
+  Users can now edit the schedule of their Copilot prompts, giving them more flexibility and control.
+  
+  **Roadmap ID:** [531912](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=531912)
+  
+  **Details:**
+  
+  **What changed:** You can now adjust the timing of scheduled prompts instead of deleting and recreating them. This update improves usability and reduces repetitive setup.
+  
+  **Why:** This change was made to give users more control over their workflows and reduce friction when managing recurring prompts.
+  
+  **Try this:**
+  
+  -	Open your list of scheduled prompts.
+  
+  -	Select a prompt and adjust the schedule to match your needs.
+  
+  -	Save your changes to update the prompt timing.
+  
+  **Why this matters:**
+  
+  **Business impact:** Reduces time spent managing recurring workflows. 
+  
+  **Personal impact:** Makes it easier to keep prompts aligned with changing schedules.
+  
+  **Additional resources:**
+  
+  **Learn:**
+  
+  [Manage Scheduled Prompts for Microsoft 365 Copilot](/microsoft-365/copilot/scheduled-prompts) 
+
 
 ## March 24, 2026
 Updates released between March 10, 2026, March 24, 2026
