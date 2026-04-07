@@ -1,7 +1,7 @@
 ---
 title: "Get started with Copilot Cowork (Frontier)"
 description: "Start using Copilot Cowork in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
-ms.date: 03/30/2026
+ms.date: 04/03/2026
 ms.topic: get-started
 author: leeclontz
 manager: KumarVivek
@@ -10,6 +10,7 @@ ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
 ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -43,7 +44,7 @@ The Cowork home page opens. A chat input where you can describe what you need ap
 ## Start your first conversation
 
 1. Type what you want done in the chat input, or select one of the suggested prompts such as **Catch me up**, **Organize my inbox**, or **Prep for a meeting**. You can enter up to 16,000 characters, so feel free to include plenty of detail.
-1. Attach files if needed. You can drag and drop files onto the input area, select **Upload images and files** to browse your device, or select **Attach cloud files** to pick files from OneDrive, SharePoint, or Teams.
+1. Attach files if needed. Select the **Add attachments** button to choose from **Add work context** (files, people, meetings), **Upload images and files** from your device, or **Attach cloud files** from OneDrive, SharePoint, or Teams. You can also drag and drop files onto the input area.
 1. (Optional) Use voice input by selecting the microphone icon to speak your request instead of typing.
 1. Send your message by selecting **Send**.
 
@@ -61,13 +62,13 @@ After you send your message, Cowork begins processing your request. Here's what 
 
 ## Approve actions
 
-Before Cowork takes an action on your behalf, like sending an email, posting a Teams message, or scheduling a meeting, it asks for your permission. When the approval dialog appears, you have the following choices:
+Before Cowork takes an action on your behalf, like sending an email, posting a Teams message, or scheduling a meeting, it asks for your permission. The approval dialog shows a preview of what Cowork plans to do and a button labeled with the specific action.
 
 Approval prompts for medium and high risk actions include a risk level indicator so you can gauge the impact.
 
-- **Approve**: Allow this action to proceed.
-- **Approve & Remember**: Allow this action, and tell Cowork not to ask for approval on the same type of action again in this conversation.
-- **Reject**: Stop this action.
+- **Action button** (for example, **Send**, **Post**, or **Create**): Allow this specific action to proceed.
+- **Don't ask again**: Select the dropdown arrow next to the action button to allow the action and skip future approval prompts for similar actions in the current conversation.
+- **Cancel**: Stop this action.
 
 > [!NOTE]
 > Cowork doesn't take actions without your approval. You can also pause Cowork at any time (to finish the current step, or immediately), resume when you're ready, or cancel the task entirely.

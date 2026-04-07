@@ -1,7 +1,7 @@
 ---
 title: "Responsible AI FAQ for Copilot Cowork"
 description: "Get answers to frequently asked questions about responsible AI and Copilot Cowork in Microsoft 365 Copilot."
-ms.date: 03/30/2026
+ms.date: 04/03/2026
 ms.topic: faq
 ms.custom:
   - transparency-note
@@ -12,6 +12,7 @@ ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
 ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -89,9 +90,9 @@ To minimize these limitations:
 
 Before Cowork performs a sensitive action such as sending an email, posting in Teams, or modifying a file, it presents an approval dialog. You have the following options:
 
-- **Approve**: Allow the action to proceed this one time.
-- **Approve & Remember**: Allow the action and skip the approval prompt for similar actions in the current conversation.
-- **Reject**: Block the action.
+- **Action button** (for example, **Send**, **Post**, or **Create**): Allow the action to proceed this one time.
+- **Don't ask again**: Select the dropdown arrow next to the action button to allow the action and skip the approval prompt for similar actions in the current conversation.
+- **Cancel**: Block the action.
 
 For certain actions, such as sending an email, Cowork displays a preview of the content so you can review it before approving. Cowork doesn't execute sensitive actions without your explicit consent.
 

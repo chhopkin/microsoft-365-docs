@@ -284,7 +284,7 @@ items:
         - name: Pin agents
           href: /microsoft-365/admin/manage/manage-pinning-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Manage M365 Copilot connectors
-          href: /microsoft-365-copilot/extensibility/overview-copilot-connector?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+          href: /microsoft-365/copilot/extensibility/overview-copilot-connector?toc=/copilot/toc.json&bc=/copilot/agent-framework/bread/toc.json
         - name: Assign and deploy an agent
           items:
           - name: Set availability of an agent
@@ -296,19 +296,19 @@ items:
       - name: Create M365 Copilot agents
         items:
         - name: Create agents overview
-          href: /microsoft-365-copilot/extensibility/agents-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-        - name: Choose a Copilot Studio experience
-          href: /microsoft-365-copilot/extensibility/copilot-studio-experience?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+          href: /microsoft-365/copilot/extensibility/agents-overview?toc=/copilot/toc.json&bc=/copilot/agent-framework/bread/toc.json
+        - name: Choose an agent development tool
+          href: /microsoft-365/copilot/extensibility/copilot-studio-experience?toc=/copilot/toc.json&bc=/copilot/agent-framework/bread/toc.json
         - name: Development environment setup
-          href: /microsoft-365-copilot/extensibility/prerequisites?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+          href: /microsoft-365/copilot/extensibility/prerequisites?toc=/copilot/toc.json&bc=/copilot/agent-framework/bread/toc.json
         - name: Declarative agents
           items:
           - name: Create declarative agents
-            href: /microsoft-365-copilot/extensibility/overview-declarative-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+            href: /microsoft-365/copilot/extensibility/overview-declarative-agent?toc=/copilot/toc.json&bc=/copilot/agent-framework/bread/toc.json
           - name: Declarative agent tools
-            href: /microsoft-365-copilot/extensibility/declarative-agent-tool-comparison?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+            href: /microsoft-365/copilot/extensibility/declarative-agent-tool-comparison?toc=/copilot/toc.json&bc=/copilot/agent-framework/bread/toc.json
         - name: Create custom engine agents
-          href: /microsoft-365-copilot/extensibility/overview-custom-engine-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+          href: /microsoft-365/copilot/extensibility/overview-custom-engine-agent?toc=/copilot/toc.json&bc=/copilot/agent-framework/bread/toc.json
         - name: Agent development tools
           items:
           - name: Create agents using SharePoint
@@ -316,17 +316,17 @@ items:
           - name: Agent Builder
             items:
             - name: Agent Builder agents overview
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+              href: /microsoft-365/copilot/extensibility/copilot-studio-lite?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
             - name: Build Agent Builder agents
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+              href: /microsoft-365/copilot/extensibility/copilot-studio-lite-build?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
             - name: Share and manage agents
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#share-the-agent
+              href: /microsoft-365/copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#share-the-agent
             - name: Provide agent ZIP file to admin
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#deploy-an-agent-via-zip-package
+              href: /microsoft-365/copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#deploy-an-agent-via-zip-package
             - name: Add knowledge sources to an agent
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#add-knowledge-sources
+              href: /microsoft-365/copilot/extensibility/copilot-studio-lite-build?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#add-knowledge-sources
             - name: Add capabilities to an agent
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#add-capabilities
+              href: /microsoft-365/copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#add-capabilities
           - name: Copilot Studio
             items:
             - name: Create agents using Copilot Studio
@@ -352,9 +352,9 @@ items:
         - name: Manage agent access to third-party systems
           items:
           - name: Microsoft 365 Copilot connectors usage
-            href: /microsoft-365-copilot/extensibility/overview-copilot-connector?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+            href: /microsoft-365/copilot/extensibility/overview-copilot-connector?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Graph connector agent for on-premises data
-            href: /microsoftsearch/graph-connector-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+            href: /microsoft-365/copilot/connectors/connector-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Power Platform connectors
             href: /connectors/overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
         - name: Manage oversharing of SharePoint content
@@ -431,6 +431,8 @@ items:
       items:
       - name: Agents in Copilot Chat
         href: /copilot/agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+      - name: Agent Store in Microsoft 365 Copilot
+        href: copilot-agent-store.md    
       - name: Install agents in Microsoft 365 Copilot
         href: copilot-agent-install.md
       - name: Manage agents for Copilot
@@ -500,9 +502,11 @@ items:
   - name: Microsoft 365 Copilot connectors
     items:
     - name: Overview
-      href: /microsoftsearch/connectors-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+      href: /microsoft-365/copilot/connectors/overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+    - name: Connectors gallery
+      href: /microsoft-365/copilot/connectors/connectors-gallery?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Set up connectors
-      href: /microsoftsearch/configure-connector?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+      href: /microsoft-365/copilot/connectors/deployment-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Manage generative AI apps for your organization
     href: manage-generative-ai-apps.md
   - name: Service plan diagnostic tool
