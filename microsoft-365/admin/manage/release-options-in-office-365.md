@@ -122,6 +122,8 @@ Discover how to [manage messages](/office365/admin/manage/message-center) in you
 
 [Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
 
-[Configure Standard or Deferred release options for Microsoft 365 Copilot](configure-release-options.md)
+[Configure modern release options for Microsoft 365 Copilot](configure-release-options.md)
+
+[Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)
 
 [Prepare for Microsoft 365 updates with Message center](message-center.md)

@@ -117,7 +117,7 @@ To assign users to the Deferred release audience, follow these steps:
 
 [Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
 
-[Configure Microsoft Release Communications MCP server](mrc-mcp.md)
+[Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)
 
 [Set up the Standard or Targeted release options for Microsoft 365](release-options-in-office-365.md)
 

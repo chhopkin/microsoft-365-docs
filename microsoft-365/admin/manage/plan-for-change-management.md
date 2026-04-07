@@ -18,7 +18,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 search.appverid: MET150
-description: "Learn how to manage continuous change in Microsoft 365."
+description: "IT admins can enable their organizations to proactively plan for change using AI-enabled tools to help teams assess impact, prioritize work, and make informed decisions."
 appliesto: 
 - Microsoft 365 admin center
 ---
@@ -38,7 +38,7 @@ This modern change management model for Microsoft 365 helps your organization st
 - Configure general availability release settings in the Microsoft 365 admin center based on your organizational readiness for new features with Standard or Deferred release options
 - Opt into the release of new features for testing before releasing to the rest of your organization
 - Easily understand feature updates with new Message center enhancements, such as:
-  - New **Timing of chang**e column allows you to sort and filter posts by when a rollout is planned
+  - New **Timing of change** column allows you to sort and filter posts by when a rollout is planned
   - Feature update announcements at the time of availability
   - Bullet point summaries that present key information in a clear, scannable format
   - Embedded links that connect to curated supplemental resources
@@ -87,7 +87,7 @@ For more information about release options and how to configure them, see [Confi
 
 ### Before general availability
 
-As an IT admin, you can opt in to use features before general availability by assigning users to specific release audiences.
+As an IT admin, you can opt in to use features *before* general availability by assigning users to specific release audiences.
 
 The **Microsoft Frontier program** gives organizations early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability. By opting in to Frontier program, IT administrators can evaluate new Copilot agents and AI-powered experiences, determine readiness for broader deployment across their tenant, and provide feedback about Frontier feature capabilities to Microsoft.
 
@@ -103,19 +103,6 @@ Enhance your organization’s ability to deliver timely, relevant, and actionabl
 - Incorporate a structured and more effective messaging format that includes change descriptions, rollout timelines, affected users and platforms, action checklists, and compliance impacts (including data handling)
 
 For more details on the updated layout and information on keeping track of changes using the Microsoft 365 Message center, see [Message center in the Microsoft 365 admin center](message-center.md).
-
-## Use the Microsoft 365 Roadmap to plan and manage change
-
-The Microsoft 365 roadmap helps IT admins understand what features are coming, when they’re expected to release, and which environments they apply to. It provides early planning signals that complement Message center announcements and supports proactive change management across Microsoft 365.
-
-Use the roadmap to do the following actions that help your organization stay on top of changes:
-
-- Track upcoming features before they reach general availability
-- Identify potential impacts to users, governance, and compliance
-- Plan validation, communications, and support readiness
-- Align feature timing with your organization’s release strategy
-
-For more information, see [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 ## Modern change management development
 

@@ -243,19 +243,22 @@ Here's a quick overview of the information in each column.
 |---|---|
 |Check mark|Selecting the check mark in the column heading row selects all messages currently displayed. Selecting the check mark next to one or more messages lets you take action on those messages.|
 |Message title|Message titles are brief descriptions of upcoming changes. If the full title doesn't display, hover your cursor over it and the entire title will appear in a pop-up box.|
-|Service|Icons indicate the application to which the message applies.|
 |More options|More options let you dismiss a message, mark it as read or unread, or share it with another admin. To restore an archived message, select the **Archive** tab, select the check mark next to the message, and select **Restore**.|
-|Tags| You can choose tags from the Tag drop-down to filter messages. <br> <p> **Data Privacy**: Data privacy notification (limited to global administrator and Message center Privacy reader roles). <p> **Major update**: Changes communicated at least 30 days in advance ([Major updates](#major-updates)). <p> **Retirement**: Retirement of a service or feature. <p> **New feature**: New feature or service. <p> **Feature update**: Update to an existing feature. <p> **Admin impact**: When the change clearly impacts the admin in the following ways - UI change, workflow change, control available, and Specific/Potential Action. <p> **User impact**: When the change to the service clearly impacts the user - UI Change and workflow change. <p> **Updated message**: When a message is updated.|
-|Category| This isn't shown by default, but can be specified in the **Choose columns** panel. Messages are identified by one of the following three categories: <p> **Prevent or fix issues**: Informs you of known issues affecting your organization and might require that you take action to avoid disruptions in service. Prevent or fix issues are different than Service health messages because they prompt you to be proactive to avoid issues. <p> **Plan for change**: Informs you of changes to Microsoft 365 that might require you to act to avoid disruptions in service. For example, we let you know about changes to system requirements or about features that are being removed. We try to provide at least 30 days' notice of any change that requires an admin to act to keep the service running normally. <p> **Stay informed**: Tells you about new or updated features we're turning on in your organization. announced first in the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=2070821). <p> Also lets you know about planned maintenance in accordance with our Service Level Agreement. Planned maintenance might result in down time, where you or your users can't access Microsoft 365, a specific feature, or a service such as email or OneDrive.|
-|Act by|We'll only have dates here if we're making a change that requires you to take an action by a certain deadline. Since we rarely use the **Act by** column, if you see something here, you should pay extra attention to it.|
+|Favorite|You can select the star to mark a message as a favorite. Once you have marked messages as favorite, you can also sort and filter them.|
+|Service|Icons indicate the application to which the message applies.|
 |Last updated|Date that the message was published or last updated.|
+|Timing of change|Allows you to sort and filter posts by when a rollout is planned.|
+|Act by|We'll only have dates here if we're making a change that requires you to take an action by a certain deadline. Since we rarely use the **Act by** column, if you see something here, you should pay extra attention to it.|
+|Relevance|Relevance is our recommendation based on the potential impact to your organization and the usage of affected services.|
+|Status for your org|This column only shows a status if the service is supported or if it's applicable.|
+|Tag|You can choose tags from the Tag drop-down to filter messages. <br> <p> **Data Privacy**: Data privacy notification (limited to global administrator and Message center Privacy reader roles). <p> **Major update**: Changes communicated at least 30 days in advance ([Major updates](#major-updates)). <p> **Retirement**: Retirement of a service or feature. <p> **New feature**: New feature or service. <p> **Feature update**: Update to an existing feature. <p> **Admin impact**: When the change clearly impacts the admin in the following ways - UI change, workflow change, control available, and Specific/Potential Action. <p> **User impact**: When the change to the service clearly impacts the user - UI Change and workflow change. <p> **Updated message**: When a message is updated.|
+|Platform||
+|Category|This isn't shown by default, but can be specified in the **Choose columns** panel. Messages are identified by one of the following three categories: <p> **Prevent or fix issues**: Informs you of known issues affecting your organization and might require that you take action to avoid disruptions in service. Prevent or fix issues are different than Service health messages because they prompt you to be proactive to avoid issues. <p> **Plan for change**: Informs you of changes to Microsoft 365 that might require you to act to avoid disruptions in service. For example, we let you know about changes to system requirements or about features that are being removed. We try to provide at least 30 days' notice of any change that requires an admin to act to keep the service running normally. <p> **Stay informed**: Tells you about new or updated features we're turning on in your organization. announced first in the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=2070821). <p> Also lets you know about planned maintenance in accordance with our Service Level Agreement. Planned maintenance might result in down time, where you or your users can't access Microsoft 365, a specific feature, or a service such as email or OneDrive.|
 |Message ID|Microsoft tracks our Message center posts by message ID. You can refer to this ID if you want to give feedback or if you call Support about a particular message.|
-
-[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 ### Admin roles that don't have access to the Message center
 
-Most users assigned any admin role in Microsoft 365 can view Message center posts. You can also assign the Message center reader role to users who should be able to read and share Message center posts without having any other admin privileges.
+Most users assigned any admin role in Microsoft 365 can view Message center posts. You can also assign the** Message center reader role** to users who should be able to read and share Message center posts without having any other admin privileges.
 
 The following admin roles don't have access to the Message center:
 
@@ -269,6 +272,8 @@ The following admin roles don't have access to the Message center:
 - Intune service administrator
 - Privileged role administrator
 - Reports reader
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 For more information about admin roles, see [About administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
@@ -322,10 +327,6 @@ Need to get an archived message back? No problem.
 
 1. Select the message, select **Restore**, and the message is restored to Inbox.
 
-## Favorite messages
-
-To mark a message as a favorite, hover over the message title and you'll see a **Favorite** :::image type="icon" source="../../media/favorite-star.png" border="false"::: star you can select right after the **More options** ellipses. Once you have marked messages as favorite, you can also sort and filter them.
-
 ## Scroll messages in the message pane
 
 When you open a message in a reading pane, you can use the **Up** and **Down** :::image type="icon" source="../../media/updownarrows.png" border="false"::: arrows on the top of the pane to move to the next, or the previous message in the list.
@@ -355,8 +356,8 @@ If you'd like to program an alternative way to get real-time service health info
 
 [Frequently asked questions about Message center](message-center-faq.md)
 
-[Manage continuous change in Microsoft 365](plan-for-change-management.md)
+[Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
 
-[Set up the Standard or Targeted release options](../manage/release-options-in-office-365.md)
+[Configure modern release options](configure-release-options.md)
 
-[Configure Standard or Deferred release options for Microsoft 365 Copilot](configure-release-options.md)
+[Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)

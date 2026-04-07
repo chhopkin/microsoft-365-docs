@@ -72,4 +72,8 @@ To manage the number of messages within Message center, each message expires and
 
 [Track new and changed features in the Microsoft 365 Message center](message-center.md)
 
-[Manage continuous change in Microsoft 365](plan-for-change-management.md)
+[Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
+
+[Configure modern release options](configure-release-options.md)
+
+[Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)

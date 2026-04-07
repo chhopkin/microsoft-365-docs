@@ -446,9 +446,11 @@ items:
            href: manage/manage-feedback-ms-org.md
          - name: Change management
            items: 
-           - name: Manage continuous change in Microsoft 365
+           - name: Overview of modern change management
              href: manage/plan-for-change-management.md
-           - name: Configure release options
+           - name: Connect Release Communications MCP Server
+             href: manage/mrc-mcp.md
+           - name: Configure modern release options
              href: manage/configure-release-options.md
            - name: Release options FAQ
              href: manage/release-options-faq.md
@@ -456,10 +458,6 @@ items:
              href: manage/message-center.md
            - name: Message center FAQ
              href: manage/message-center-faq.md
-           - name: Connect Release Communications MCP Server
-             href: manage/mrc-mcp.md
-           - name: Stay on top of changes
-             href: manage/stay-on-top-of-updates.md
          - name: Power BI usage analytics
            items:
            - name: About usage analytics

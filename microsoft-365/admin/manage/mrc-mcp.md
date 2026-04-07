@@ -3,7 +3,7 @@ title: "Get started with the Microsoft Release Communications MCP Server"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 03/16/2026
+ms.date: 04/06/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -202,4 +202,8 @@ These clients don't expose explicit tool selection UI. Instead, do the following
 
 ## Related articles
 
-[Manage continuous change in Microsoft 365](plan-for-change-management.md)
+[Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
+
+[Configure modern release options for Microsoft 365 Copilot](configure-release-options.md)
+
+[Prepare for Microsoft 365 updates with Message center](message-center.md)

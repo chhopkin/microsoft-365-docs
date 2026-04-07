@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 03/13/2026
+ms.date: 04/06/2026
 ms.reviewer: pamelaar, gsaini
 audience: Admin
 ms.topic: how-to
@@ -168,8 +168,10 @@ No. For information about release options for Microsoft 365 Apps, see [Overview 
 
 ## Related articles
 
-[Configure release options for Microsoft 365](configure-release-options.md)
+[Configure modern release options for Microsoft 365](configure-release-options.md)
 
-[Manage continuous change in Microsoft 365](plan-for-change-management.md)
+[Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
 
 [Message center in the Microsoft 365 admin center](message-center.md)
+
+[Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)
