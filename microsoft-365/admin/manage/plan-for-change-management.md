@@ -36,7 +36,7 @@ This modern change management model for Microsoft 365 helps your organization st
 - Manage how your org experiences **major** feature updates  
 - Control feature delivery by using audience-based release phases aligned to your organization’s workflows
 - Configure general availability release settings in the Microsoft 365 admin center based on your organizational readiness for new features with Standard or Deferred release options
-- Opt into the release of new features for testing before releasing to the rest of your organization
+- Opt into the release of new features for testing before releasing to the rest of your organization with [Microsoft Frontier Program](https://www.microsoft.com/microsoft-365-copilot/frontier-program)
 - Easily understand feature updates with new Message center enhancements, such as:
   - New **Timing of change** column allows you to sort and filter posts by when a rollout is planned
   - Feature update announcements at the time of availability
@@ -53,16 +53,6 @@ The following table shows various communication channels we have that you can us
 | ----- | ----- | ----- |
 | Microsoft 365 Roadmap | - Understand what features are coming, when they’re expected to release, and which environments they apply to.<br/>- Provides early planning signals that complement Message center announcements and supports proactive change management across Microsoft 365. | [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) |
 | Message center | - Learn about official service announcements and feature changes.<br/>- Read these messages in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email.<br/>- Share these messages with others in your organization when you see a message someone else should act on. | [Message center in the Microsoft 365 admin center](message-center.md) |
-
-## Release settings
-
-The following table displays various features you can integrate into your workflow to manage change:
-
-| Feature | Description | Documentation |
-| ----- | ----- | ----- |
-| Microsoft Release Communications (MRC) Model Context Protocol (MCP) Server | Connect AI tools to the MRC MCP Server to instantly access trusted, up-to-date Microsoft 365 and Azure feature release information using natural language | [Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md) |
-| Release options | - Configure general availability release settings in the Microsoft 365 admin center based on your organizational readiness for new features with Standard or Deferred release options | [Configure release options for Microsoft 365](configure-release-options.md) |
-| Frontier program | - Offers early access to select AI and Microsoft 365 Copilot features before general availability.<br/> - Designed for exploration and feedback, and features might change or might not reach general availability. | [Microsoft Frontier Program](https://www.microsoft.com/microsoft-365-copilot/frontier-program) |
 
 ## Enable AI clients to retrieve product release information with MRC MCP server
 
