@@ -58,15 +58,15 @@ Before your users can access Frontier agents, you'll need to make sure that Agen
 You can optionally allow other agent types by using this control. This allows users to be able to search and discover your own organization agents and allows users to build and use their own agents. 
 
 > [!NOTE]
-> You can manage access for specific agents for specific users or groups. For more information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings.md)
+> You can manage access for specific agents for specific users or groups. For more information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings.md).
 >
-> You can also manage the agents that show up in the Agent Store. For more information, see [Set up Agent Store in Microsoft 365 Copilot](/microsoft-365/admin/manage/agent-settings/copilot-agent-store.md)
+> You can also manage the agents that show up in the Agent Store. For more information, see [Set up Agent Store in Microsoft 365 Copilot](/copilot/copilot-agent-store.md)
 
 > [!IMPORTANT]
 > After the Frontier program is enabled, **Frontier agents** are available from the Agent store in Microsoft 365 Copilot. Search for "Built my Microsoft", and Frontier program agents will be displayed with **(Frontier)** in the name. It might take up to an hour for Frontier agents to appear in the store. 
 
 ### Manage AI provider large language models
-Some Frontier features and agents might require access to other AI provider large language models, such as Anthropic. Review the requirements and understand the implications for each large language model you want to use. 
+Some Frontier features and agents might require access to other AI provider large language models, such as Anthropic. Review the requirements and understand the implications for each large language model you want to use.
 
 To allow access to other models, use the Microsoft 365 Admin Center to explicitly approve each model. For more information, see [Manage AI provider settings in the Microsoft 365 admin center](/microsoft-365/copilot/copilot-anthropic-apps#manage-the-setting-in-the-microsoft-365-admin-center).
 
