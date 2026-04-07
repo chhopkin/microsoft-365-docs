@@ -29,13 +29,13 @@ appliesto:
 Microsoft 365 delivers updates continuously, enabling organizations to adopt new capabilities without large, infrequent upgrades. To help IT admins manage this pace of change, Microsoft 365 introduces a new three-tier release model—**Frontier, Standard, and Deferred**—that balances broad adoption and organizational readiness.
 
 > [!IMPORTANT]
-> The Microsoft 365 updates described in this article apply to new Outlook, OneDrive, SharePoint in Microsoft 365, Microsoft 365 for the web, Microsoft 365 admin center, some components of Exchange Online and Microsoft Teams. These release options are targeted, best effort ways to release changes to Microsoft 365 but can't be guaranteed at all times or for all updates. They don't currently apply to services other than those listed previously. For information about release options for Microsoft 365 Apps, see [Overview of update channels for Microsoft 365 Apps](/deployoffice/overview-update-channels).
+> The Microsoft 365 updates described in this article apply to new Outlook, OneDrive, SharePoint in Microsoft 365, Microsoft 365 for the web, Microsoft 365 admin center, some components of Exchange Online and Microsoft Teams. These release options are targeted, best effort ways to release changes to Microsoft 365 but can't always be guaranteed or for all updates. They don't currently apply to services other than those listed previously. For information about release options for Microsoft 365 Apps, see [Overview of update channels for Microsoft 365 Apps](/deployoffice/overview-update-channels).
 
-With **Standard release**, your organization receives new features as soon as they’re generally available (GA). Standard release is the default option and should be the primary release channel for most customers. Microsoft thoroughly tests and validates all features and services prior to release. Your organization is configured as standard release by default.
+With **Standard release**, your organization receives new features as soon as they’re generally available (GA). Standard release is the default option and should be the primary release channel for most customers. Microsoft thoroughly tests and validates all features and services before we release them. Your organization is configured as standard release by default.
 
-If you have additional validation requirements, your organization may want to consider **Deferred release** for all or some users. Major Microsoft 365 releases are considered “deferred-capable”, meaning admins will get up to 30 days to prepare for the release. After 30 days, generally available Microsoft 365 features appear to your users. You can see which features are deferred-capable in the Message center.
+If you have additional validation requirements, your organization might want to consider **Deferred release** for all or some users. Major Microsoft 365 releases are considered "deferred-capable," meaning admins in Standard release get up to 30 days to prepare for the release before users in Deferred release. After 30 days, generally available Microsoft 365 features appear to these users. You can see which features are deferred-capable in the Message center.
 
-For pre-release, the [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program) provides early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability.
+For pre-release availability, the [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program) provides early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability.
 
 You can use these new release options so you can align feature delivery with your organization’s readiness, governance requirements, and overall change management strategy.
 
@@ -44,18 +44,18 @@ You can use these new release options so you can align feature delivery with you
 
 ## How release validation works
 
-Microsoft feature teams validates each new release first, followed by the Microsoft 365 feature team, and then that feature rolls out to all of Microsoft. At each release phase, Microsoft collects feedback and further validates quality by monitoring key usage metrics before it goes to the public. This series of progressive validations helps make sure the worldwide rollout to general availability (Standard release) is as robust as possible.  
+Microsoft feature teams validate each new release first, followed by the Microsoft 365 feature team, and then that feature rolls out to all of Microsoft. At each release phase, Microsoft collects feedback and further validates quality by monitoring key usage metrics before it goes to the public. This series of progressive validations helps make sure the worldwide rollout to general availability (Standard release) is as robust as possible.  
 
 :::image type="content" source="../../media/microsoft365-release-options.png" alt-text="Release audiences for Microsoft 365.":::
 
-<sup>*</sup>Experimental features only
+<sup>*</sup>Experimental features only<br/>
 <sup>**</sup>Deferred-enabled features only
 
 For a comparison of release options, see the following table:
 
 | Release audience | Primary purpose | Feature readiness | Key considerations for IT admins |
 | ----------------- | ----------------- | ------------------- | ---------------------------------- |
-| Frontier program | Early experimentation and feedback | Pre-GA, not fully supported | Features may change or be removed, aren’t guaranteed to reach GA, and don’t include support, stability, or service-level agreement (SLA) commitments equivalent to GA |
+| Frontier program | Early experimentation and feedback | Pre-GA, not fully supported | Features might change or be removed, aren’t guaranteed to reach GA, and don’t include support, stability, or service-level agreement (SLA) commitments equivalent to GA |
 | Standard release | Default GA rollout | Fully supported GA features | Features are supported, communicated through Message Center and release notes, and expected to remain available under standard lifecycle policies |
 | Deferred release | Delayed GA for additional preparation | Fully supported GA features (delayed) | Same functionality as Standard release, with timing delayed (up to ~30 days) to support governance and compliance readiness |
 
@@ -79,19 +79,19 @@ You must have one of the following roles in Microsoft 365 admin center to config
 
 We recommend that you use the release options in the following ways to balance early access with organizational readiness:
 
-- If you only want to configure release audiences to access broadly available and fully supported features, assign most users in deferred release and put IT Pros and power users in standard release to evaluate new features for privacy and compliance and to prepare teams to support users.
+- If you only want to configure release audiences to access broadly available and fully supported features, assign most users to deferred release and put IT Pros and power users in standard release to evaluate new features for privacy and compliance and to prepare teams to support users.
 - Use deferred release for features that are deferred-capable when you need extra time to do security reviews and compliance checks before releasing to your organization.
 - Plan release phases around user impact and readiness, not individual feature controls, to help manage risk and set clear expectations for users.
 - Align your release configuration with your change management and support readiness, including documentation, training, and help desk preparation.
 - Review and adjust audience assignments over time as your organization’s readiness and change tolerance evolve.
 - If your organization is already using Targeted release, you can continue doing so. If your organization isn't using Targeted release, we recommend using this three-tier release model, which includes Frontier, Standard, and Deferred release options. For legacy configuration models for change management, see [Configure Standard and Targeted release](release-options-in-office-365.md).
 
-## Configure release options for in Microsoft 365 admin center
+## Configure release options in Microsoft 365 admin center
 
-Standard release is the default release option for Microsoft 365 service updates and should be used by the majority of customers. To better manage your organization’s readiness and testing needs, you can change the default release selection at any time in the Microsoft 365 admin center. It can take up to 24 hours for the following changes to take effect in Microsoft 365.
+By default, use Standard release for Microsoft 365 service updates. This option meets the needs of most customers. To better manage your organization’s readiness and testing needs, you can change the default release selection at any time in the Microsoft 365 admin center. It can take up to 24 hours for the following changes to take effect in Microsoft 365.
 
 > [!NOTE]
-> Currently, Deferred release option only supports Microsoft 365 Copilot-related features. For information on which features are Deferred-capable, check Message Center posts. This documentation will be updated as more features are supported.
+> Currently, Deferred release option only supports Microsoft 365 Copilot-related features. For information on which features are Deferred-capable, check Message Center posts. We'll update this documentation as more features are supported.
 
 To assign users to the Deferred release audience, follow these steps:
 

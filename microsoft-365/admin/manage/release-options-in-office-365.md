@@ -25,7 +25,7 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
-description: "Learn how to set up the Targeted release option for new Microsoft 365 product and feature updates in the Microsoft 365 admin center."
+description: "Learn how to set up the legacy Targeted release option for new Microsoft 365 product and feature updates in the Microsoft 365 admin center."
 appliesto:
 - Outlook (new)
 - OneDrive
@@ -36,7 +36,7 @@ appliesto:
 
 # Set up the Standard or Targeted release options for Microsoft 365
 
-With Microsoft 365, you receive new product updates and features as they become available instead of doing costly updates every few years. You can manage how your organization receives these updates. For example, you can sign up for an early release so that your organization receives updates first. You can designate that only certain individuals receive the updates. Or, you can remain on the default release schedule and receive the updates later. This article explains the different traditional release options and how you can use them for your organization.
+With Microsoft 365, you receive new product updates and features as they become available instead of doing costly updates every few years. You can manage how your organization receives these updates. For example, you can sign up for an early release so that your organization receives updates first. You can designate that only certain individuals receive the updates. Or, you can remain on the default release schedule and receive the updates later. This article explains the different legacy release options and how you can use them for your organization.
 
 If your organization is already using Targeted release, continue doing so. If your organization isn't using Targeted release, we recommend using our three-tier release model, which includes Frontier, Standard, and Deferred release options. For information about modern release options for Microsoft 365, see [Configure modern release options for Microsoft 365 Copilot](configure-release-options.md).
 
