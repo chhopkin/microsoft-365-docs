@@ -58,9 +58,9 @@ Before your users can access Frontier agents, you'll need to make sure that Agen
 You can optionally allow other agent types by using this control. This allows users to be able to search and discover your own organization agents and allows users to build and use their own agents. 
 
 > [!NOTE]
-> You can manage access for specific agents for specific users or groups. For more information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings.md).
+> You can manage access for specific agents for specific users or groups. For more information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings).
 >
-> You can also manage the agents that show up in the Agent Store. For more information, see [Set up Agent Store in Microsoft 365 Copilot](/copilot/copilot-agent-store.md)
+> You can also manage the agents that show up in the Agent Store. For more information, see [Set up Agent Store in Microsoft 365 Copilot](/microsoft-365/copilot/copilot-agent-store)
 
 > [!IMPORTANT]
 > After the Frontier program is enabled, **Frontier agents** are available from the Agent store in Microsoft 365 Copilot. Search for "Built my Microsoft", and Frontier program agents will be displayed with **(Frontier)** in the name. It might take up to an hour for Frontier agents to appear in the store. 
