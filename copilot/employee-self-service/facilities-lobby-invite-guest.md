@@ -95,7 +95,7 @@ In the **Invite a Guest** scenario, an employee can pre-register a visitor such 
 
 hrough the Employee Self-Service (ESS) platform, the employee can initiate a guest invitation by providing essential details like the guest’s name, contact information, visit date, time, and purpose. The system validates the request and registers the guest with visitor management system, sends an invitation mail with arrival instructions to the guest, and notifies the reception team about their arrival. This ensures a smooth check-in experience for the guest while maintaining workplace security and operational efficiency. 
 
-This process involves only one step: 
+This process involves only one step:
 
 - **Creating a topic**: Define the workflow, trigger prompts, and instructions for the guest invite scenario.
   - Design an Adaptive card to capture guest visit details, and to build binding inputs to state variables for API requests.
@@ -136,7 +136,7 @@ This process involves only one step:
 
 - The subsequent node makes an HTTP call to the backend API to fetch all buildings; these buildings are prepopulated in the guest registration form that gets rendered in the upcoming steps. We have used HttpRequestAction component for making the HTTP call. This can be alternatively configured in several other ways described in the connectors section above.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-Buildings.png" alt-text="Screenshot showing the HTTP request node that fetches all buildings.":::
+:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-building.png" alt-text="Screenshot showing the HTTP request node that fetches all buildings.":::
 
 - In the next node, we use a bunch of Customize Response nodes to determine the guest visit purpose and location from the user query to auto-populate in the guest invite form. This is added for an enriched user experience; however, this is optional and the corresponding nodes can be omitted as per requirements.
 
@@ -164,19 +164,19 @@ We have used *HttpRequestAction* component for making the HTTP calls. As a start
 
 - Expand the *HttpRequestAction* node, and in the URL section click on Select variable -> Formula to update your backend API URL. Click Insert to save the URL.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-HttpRequestAction.png" alt-text="Screenshot showing the HttpRequestAction component configuration.":::
+:::image type="content" source="media/facilities-lobby-invite-guest-httprequest.png" alt-text="Screenshot showing the HttpRequestAction component configuration.":::
 
 - Select the appropriate http request method from the method dropdown
-:::image type="content" source="media/facilities-lobby-invite-guest-HttpRequestAction-method.png" alt-text="Screenshot showing the HTTP method configuration in HttpRequestAction.":::
+:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-method.png" alt-text="Screenshot showing the HTTP method configuration in HttpRequestAction.":::
 
 - Now, add the required headers, request body and error handling as per your backend API definition
-:::image type="content" source="media/facilities-lobby-invite-guest-HttpRequestAction-headers-body.png" alt-text="Screenshot showing the headers and body configuration in HttpRequestAction.":::
+:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-headers-body.png" alt-text="Screenshot showing the headers and body configuration in HttpRequestAction.":::
 
 - Set the appropriate Response type as per your backend contracts
-:::image type="content" source="media/facilities-lobby-invite-guest-HttpRequestAction-contract.png" alt-text="Screenshot showing the response data type configuration in HttpRequestAction.":::
+:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-contract.png" alt-text="Screenshot showing the response data type configuration in HttpRequestAction.":::
 
 - Save the response in a state variable to access it in the later steps
-:::image type="content" source="media/facilities-lobby-invite-guest-HttpRequestAction-variable.png" alt-text="Screenshot showing how to save the API response to a state variable.":::
+:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-variable.png" alt-text="Screenshot showing how to save the API response to a state variable.":::
 
 ### How are error conditions handled?
 
