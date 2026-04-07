@@ -907,7 +907,7 @@ Updates released between February 24, 2026, March 10, 2026
 
 ### PowerPoint
 
-- **Edit images in PowerPoint with Designer Editor** [Mac]
+- **Edit images in PowerPoint with Designer Editor** [Windows, Web, Mac]
 
   PowerPoint now includes the Designer Editor for image editing, giving you a modern, intuitive way to refine images directly on your slides without leaving PowerPoint.
 
@@ -6641,6 +6641,40 @@ Updates released between March 24, 2026, April 7, 2026
     
     **Personal impact:** Helps users get more accurate and complete responses from files with embedded images.
 
+### OneDrive
+
+  - **Share OneDrive files with a Copilot-generated summary in Windows** [Windows]
+  
+    You can now generate a file summary with Copilot and include it directly when sharing OneDrive files in Windows.
+      
+    **Roadmap ID:** [527840](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=527840)
+      
+      
+    **Details:**
+      
+    **What changed:** A new option in File Explorer and the OneDrive Activity Center lets you summarize a file with Copilot and send that summary within the share dialog. Previously, users needed to create summaries separately before sharing.
+      
+    **Why:** Sharing a file often means the recipient has to open it just to understand what it's about. Now, Copilot generates a summary for you so the people you share with get the key points upfront, right in the share notification.
+      
+    **Try this:**
+    
+    -	Open File Explorer and select a file stored in OneDrive.
+      
+    -	Choose Share, then select the option to generate a Copilot summary.
+      
+    -	Send the file along with the summary to your recipient.
+      
+    -	Open OneDrive activity center and select a file.
+      
+    -	Choose Share, then select the option to generate a Copilot summary.
+      
+    -	Send the file along with the summary to your recipient.
+    
+    **Why this matters:** 
+    
+    **Business impact:** Your recipients can quickly decide if a file needs their attention without opening it first. Whether you're sharing a proposal, report, or meeting notes, the summary gives everyone the context they need to act faster.
+    
+    **Personal impact:** Makes it easier to communicate key points without extra steps.
 
 
 ## March 24, 2026
@@ -6795,6 +6829,36 @@ Updates released between February 24, 2026, and March 10, 2026.
     **Business impact:** Helps teams complete complex models and reports faster by reducing manual steps in Excel workflows.
 
     **Personal impact:** Saves you time by letting Copilot perform multi-step workbook updates while you stay focused on insights.
+
+### PowerPoint
+
+- **Edit images in PowerPoint with Designer Editor** [Windows, Web, Mac]
+
+    PowerPoint now includes the Designer Editor for image editing, giving you a modern, intuitive way to refine images directly on your slides without leaving PowerPoint.
+  
+    **Details:**
+  
+    **What changed:** You can now use PowerPoint’s new AI-powered image editing capabilities to perform tasks such as improving image resolution, removing backgrounds, and moving image elements with generative AI—all directly within your presentation. 
+  
+    **Why:** Creating polished slides often requires quick image adjustments, and switching tools slows down the workflow. This change keeps image editing within PowerPoint so you can stay focused on your presentation. 
+  
+    **Try this:**
+  
+    - Select an image on a slide and open the Designer Editor to refine visuals directly in PowerPoint. 
+    - Remove distracting backgrounds from photos before placing them into layouts.
+    - Add text annotations with cool text effects.
+  
+    **Why this matters:**
+  
+    **Business impact:** Helps teams create more polished presentations faster by reducing the need to switch tools for image editing.
+  
+    **Personal impact:** Makes it easier to enhance slide visuals quickly, helping your presentations look more professional with less effort.
+  
+    **Additional resources:**
+  
+    **Learn:**
+  
+    [Edit pictures](https://support.microsoft.com/office/edit-pictures-1d4bf84a-ab8b-4b3e-be78-78b0ed9f4ede)
 
 ## February 24, 2026
 Updates released between February 10, 2026, and February 24, 2026.
@@ -9413,6 +9477,33 @@ Updates released between March 24, 2026, April 7, 2026
     
     [Confirmation prompts for API plugins for Microsoft 365 Copilot](/microsoft-365/copilot/extensibility/api-plugin-confirmation-prompts)
 
+-  **Code interpreter now works on files found via Chat search**
+  
+    Analyze enterprise search results with code interpreter Copilot’s code interpreter can now analyze files found via enterprise search in Chat, even if they weren’t manually uploaded or linked. 
+    
+    **Roadmap ID:** [519570]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=519570)
+    
+    **Details:**
+    
+    **What changed:** Previously, code interpreter only worked on files explicitly uploaded or attached. Now, it can also analyze files surfaced through enterprise search in Copilot Chat.
+    
+    **Why:** This change reduces friction and improves usability by allowing users to analyze relevant files without needing to manually attach them.
+    
+    **Try this:**
+    
+    -	Search for a spreadsheet in Copilot Chat and ask the code interpreter to summarize trends.
+    
+    -	Locate a CSV file via enterprise search and request a data visualization.
+    
+    -	Find a document using Chat and ask Copilot to run calculations or extract metrics.
+    
+    **Why this matters:**
+    
+    **Business impact:** Streamlines workflows by enabling analysis of discovered files without manual uploads.
+    
+    **Personal impact:** Saves time and effort when working with files found through search.
+
+
 ### Microsoft Viva
 
 - **Copilot adoption report updated with streamlined UX and power user insights** [Web]
@@ -10301,6 +10392,34 @@ Updates released between February 10, 2026, February 24, 2026
 
   **Personal impact:** Gives individuals more flexibility and creative options.
 
+
+- **Edit images in PowerPoint with Designer Editor** [Windows, Web, Mac]
+
+  PowerPoint now includes the Designer Editor for image editing, giving you a modern, intuitive way to refine images directly on your slides without leaving PowerPoint.
+
+  **Details:**
+
+  **What changed:** You can now use PowerPoint’s new AI-powered image editing capabilities to perform tasks such as improving image resolution, removing backgrounds, and moving image elements with generative AI—all directly within your presentation. 
+
+  **Why:** Creating polished slides often requires quick image adjustments, and switching tools slows down the workflow. This change keeps image editing within PowerPoint so you can stay focused on your presentation. 
+
+  **Try this:**
+
+  - Select an image on a slide and open the Designer Editor to refine visuals directly in PowerPoint. 
+  - Remove distracting backgrounds from photos before placing them into layouts.
+  - Add text annotations with cool text effects.
+
+  **Why this matters:**
+
+  **Business impact:** Helps teams create more polished presentations faster by reducing the need to switch tools for image editing.
+
+  **Personal impact:** Makes it easier to enhance slide visuals quickly, helping your presentations look more professional with less effort.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Edit pictures](https://support.microsoft.com/office/edit-pictures-1d4bf84a-ab8b-4b3e-be78-78b0ed9f4ede)
 
 ### Viva Insights
 - **Copilot Studio agent report enhancements** [Web, Windows, Mac]
@@ -16432,7 +16551,7 @@ Updates released between February 24, 2026, March 10, 2026
   
   ### PowerPoint
 
-- **Edit images in PowerPoint with Designer Editor** [Mac]
+- **Edit images in PowerPoint with Designer Editor** [Windows, Web, Mac]
 
     PowerPoint now includes the Designer Editor for image editing, giving you a modern, intuitive way to refine images directly on your slides without leaving PowerPoint.
   
