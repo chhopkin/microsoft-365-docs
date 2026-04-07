@@ -58,10 +58,6 @@ For significant updates, customers are initially notified by the [Microsoft 365 
 
 For Microsoft 365, Standard release is the default option where you and your users receive the latest updates when they're released broadly to all customers.
   
-A good practice is to leave most users in **Standard release** and IT Pros and power users in **Targeted release** to evaluate new features and prepare teams to support your users.
-
-You must configure *Microsoft 365 Copilot* release options for general availability separately. For more information, see [Configure Standard or Deferred release options for Microsoft 365 Copilot](configure-release-options.md).
-  
 ## Targeted release
 
 With this option, you and your users can be the first to see the latest updates and help shape the product by providing early feedback. You can choose to have individuals or the entire organization receive updates early.
@@ -94,6 +90,12 @@ Targeted release allows admins, change managers, or anyone else responsible for 
 - Prepare internal help-desk for upcoming changes.
 - Go through compliance and security reviews.
 - Use feature controls, where applicable, to control the release of updates to end users.
+
+## Best practices for Targeted release
+
+- Keep most users in standard release and assign IT pros and power users to targeted release to evaluate new features ahead of broader rollout. Targeted release users can then prepare user notifications, documentation, and the internal help desk before updates are released worldwide.
+- Only assign specific users in targeted release.
+- If you need to test a feature in targeted release with a larger group of users (or a tenant), consider using a test tenant instead of putting your entire organization in targeted release.
 
 ## Set up the release option in the admin center
 
