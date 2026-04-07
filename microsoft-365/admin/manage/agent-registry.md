@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 02/23/2026
+ms.date: 04/07/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -454,7 +454,7 @@ You can find the details of all types of permissions in the **Permissions** tab 
 
 1. In the agent details pane that opens, select the **Permissions** tab to view all the permissions granted to the agent.
 
-    :::image type="content" source="../../media/manage-agents-permissions/agent-permissions.png" alt-text="Screenshot showing the Permissions tab on the agent details page in the Microsoft 365 admin center." lightbox="../../media/manage-agents-permissions/agent-permissions.png":::
+    :::image type="content" source="../../media/agents/agent-permissions.png" alt-text="Screenshot showing the Permissions tab on the agent details page in the Microsoft 365 admin center." lightbox="../../media/agents/agent-permissions.png":::
 
 ### Manage pinning of agents
 
@@ -482,7 +482,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
 #### Pinned agents
 
-:::image type="content" source="../../media/manage-pinning-agents/copilot-chat-pinned-agents.png" alt-text="Screenshot showing the pinned agents in Microsoft 365 Copilot chat." lightbox="../../media/manage-pinning-agents/copilot-chat-pinned-agents.png":::
+:::image type="content" source="../../media/agents/copilot-chat-pinned-agents.png" alt-text="Screenshot showing the pinned agents in Microsoft 365 Copilot chat." lightbox="../../media/agents/copilot-chat-pinned-agents.png":::
 
 #### Microsoft-pinned agents
 
@@ -525,7 +525,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
 1. In the **All Agents** page, select the **Manage pinned agents** icon.
 
-    :::image type="content" source="../../media/manage-pinning-agents/manage-pinned-agents.png" alt-text="Screenshot showing the Manage pinned agents setting in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/manage-pinned-agents.png":::
+    :::image type="content" source="../../media/agents/manage-pinned-agents.png" alt-text="Screenshot showing the Manage pinned agents setting in the Microsoft 365 admin center." lightbox="../../media/agents/manage-pinned-agents.png":::
 
 1. In the **Pinned agents** pane, view the agents pinned by Microsoft under the **Pinned by Microsoft** list. Initially, the **Pinned by your org** section has no agents.
 
@@ -533,7 +533,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
 1. In the **Select an agent to pin** pane, find the agent you want to pin from the list of agents. You can search the list to find a specific agent by name.
 
-    :::image type="content" source="../../media/manage-pinning-agents/select-an-agent.png" alt-text="Screenshot showing a list of agents that you can select from in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/select-an-agent.png":::
+    :::image type="content" source="../../media/agents/select-an-agent.png" alt-text="Screenshot showing a list of agents that you can select from in the Microsoft 365 admin center." lightbox="../../media/agents/select-an-agent.png":::
 
 1. When you find the desired agent, select it and then select **Next**.
 
@@ -547,27 +547,27 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
     - **Specific users or groups the agent is deployed to** - Pin for one or more groups or individual accounts.
 
-    :::image type="content" source="../../media/manage-pinning-agents/scope-agent.png" alt-text="Screenshot showing the scope selection for pinning agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/scope-agent.png":::
+    :::image type="content" source="../../media/agents/scope-agent.png" alt-text="Screenshot showing the scope selection for pinning agents in the Microsoft 365 admin center." lightbox="../../media/agents/scope-agent.png":::
 
 1. If you select **Specific users or groups the agent is deployed to**, select the specific users or groups to pin the agent.
 
-    :::image type="content" source="../../media/manage-pinning-agents/choose-specific-users-groups.png" alt-text="Screenshot showing a list of users or groups that you can select from in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/choose-specific-users-groups.png":::
+    :::image type="content" source="../../media/agents/choose-specific-users-groups.png" alt-text="Screenshot showing a list of users or groups that you can select from in the Microsoft 365 admin center." lightbox="../../media/agents/choose-specific-users-groups.png":::
 
 1. Select **Save**.
 
 1. After you save the configuration, the system records which agent is pinned for the selected audience.
 
-    :::image type="content" source="../../media/manage-pinning-agents/pinned-agents.png" alt-text="Screenshot showing all the pinned agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/pinned-agents.png":::
+    :::image type="content" source="../../media/agents/pinned-agents.png" alt-text="Screenshot showing all the pinned agents in the Microsoft 365 admin center." lightbox="../../media/agents/pinned-agents.png":::
 
 #### Can any agent be pinned
 
 You can only pin deployed agents. If the agent isn't deployed, you see a banner with a message to first deploy the agent.
 
-:::image type="content" source="../../media/manage-pinning-agents/deploy-agents.png" alt-text="Screenshot a message to first deploy the agent." lightbox="../../media/manage-pinning-agents/deploy-agents.png":::
+:::image type="content" source="../../media/agents/deploy-agents.png" alt-text="Screenshot a message to first deploy the agent." lightbox="../../media/agents/deploy-agents.png":::
 
 If the agent is blocked, unblock the agent before you pin it.
 
-:::image type="content" source="../../media/manage-pinning-agents/unblock-agent.png" alt-text="Screenshot a message to first unblock the agent." lightbox="../../media/manage-pinning-agents/unblock-agent.png":::
+:::image type="content" source="../../media/agents/unblock-agent.png" alt-text="Screenshot a message to first unblock the agent." lightbox="../../media/agents/unblock-agent.png":::
 
 #### Rank the list of pinned agents
 
@@ -583,13 +583,13 @@ From the list of pinned agents, find the agent that you want to unpin and select
 
 Select the agent and choose **Edit users** to modify the scope of users for which an agent is pinned.
 
-:::image type="content" source="../../media/manage-pinning-agents/edit-user.png" alt-text="Screenshot showing the edit user option for pinning agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/edit-user.png":::
+:::image type="content" source="../../media/agents/edit-user.png" alt-text="Screenshot showing the edit user option for pinning agents in the Microsoft 365 admin center." lightbox="../../media/agents/edit-user.png":::
 
 #### Alternate entry point for pinning
 
 You can also pin an agent from the agent details pane. Select the pin for the user icon. The icon is only enabled if the agent is deployed.
 
-:::image type="content" source="../../media/manage-pinning-agents/agent-details.png" alt-text="Screenshot showing the agent details pane in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/agent-details.png":::
+:::image type="content" source="../../media/agents/agent-details.png" alt-text="Screenshot showing the agent details pane in the Microsoft 365 admin center." lightbox="../../media/agents/agent-details.png":::
 
 ### Block or unblock agents
 
@@ -762,6 +762,8 @@ For more information, see [Agent and app Package Management API overview (previe
 
 The **Risks** column on the Microsoft 365 admin center **All agents** page provides a unified view of aggregated high severity risks across Microsoft security platforms such as Microsoft Entra, Defender, and Purview. It was introduced to close a critical visibility gap for IT administrators responsible for governing AI agents. The **Risks** column is only available when a tenant has either an E7 license or an A365 license.
 
+:::image type="content" source="../../media/agents/all-agents-page.png" alt-text="Screenshot showing the all agents page in the Microsoft 365 admin center." lightbox="../../media/agents/all-agents-page.png":::
+
 To access the **All Agents** page in the Microsoft 365 admin center and view the **Risks** column, follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
@@ -776,7 +778,11 @@ To access the **All Agents** page in the Microsoft 365 admin center and view the
 
 When an administrator selects the risk count for an agent from the **Risks** column, they're taken directly to the Security tab within the agent's flyout details pane. This flyout provides a focused and actionable view of the total aggregated risk counts across all supported detection platforms for the selected agent. From this view, the administrator can further investigate risks and take mitigation actions, such as using the **Block** option to prevent the agent from operating if necessary. Additionally, the **Enabled policies and protection** sections display the default security protections applied to the agent by Microsoft Entra and Microsoft Purview.
 
+:::image type="content" source="../../media/agents/agent-risks-flyout.png" alt-text="Screenshot showing the agent risks flyout pane in the Microsoft 365 admin center." lightbox="../../media/agents/agent-risks-flyout.png":::
+
 If the agent has multiple instances associated with it, the flyout initially displays a breakdown of aggregated risks by instance. From here, the admin can proceed to view the total aggregated risk counts across all detection platforms for the selected agent.
+
+:::image type="content" source="../../media/agents/agent-instances-risks-flyout.png" alt-text="Screenshot showing the agent instances risks flyout pane in the Microsoft 365 admin center." lightbox="../../media/agents/agent-instances-risks-flyout.png":::
 
 To support further investigation, admins can select the **Review** link. The **Review** link redirects to the respective security portals where further action can be taken.
 
