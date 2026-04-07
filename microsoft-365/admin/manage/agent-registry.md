@@ -758,7 +758,38 @@ The API works with the **AI Admin Role**.
 
 For more information, see [Agent and app Package Management API overview (preview)](/microsoft-365-copilot/extensibility/api/admin-settings/package/overview).
 
-## Risks column in the Microsoft 365 admin center Inventory page
+## Risks column in the Microsoft 365 admin center All agents page
+
+The **Risks** column on the Microsoft 365 admin center **All agents** page provides a unified view of aggregated high severity risks across Microsoft security platforms such as Microsoft Entra, Defender, and Purview. It was introduced to close a critical visibility gap for IT administrators responsible for governing AI agents. The **Risks** column is only available when a tenant has either an E7 license or an A365 license.
+
+When an administrator selects the count in the **Risks** column for an agent , they're taken directly to the **Security** tab in the agent's flyout details pane.  This flyout provides a focused and actionable view of all risks associated with the specific agent across the respective security products. A **Block** option is available which allows an admin to block the agent if needed. The **Enabled policies and protection** sections displays all the default protections provided by Microsoft Entra and Purview for these agents.
+
+If the agent has multiple instances under it, the flyout first shows a breakdown of the number of aggregated risks per instance. This view then leads into the same experience when an agent only has one instance.
+
+To support further investigation, admins can select on the **Review** link. The **Review** link redirects to the respective security portals where further action can be taken.
+
+> [!IMPORTANT]
+>
+> - The **Risks** column only shows high severity risks flagged by the respective platforms. Zero risks is an indication that there are no high risks presently for the agent. However, there could be other types of risks, such as low or medium, in the respective security platforms.
+>
+> - There might be a delay of up to an hour for the risks count in the Microsoft 365 admin center when compared to what is shown in the security portals.
+
+### Role-based access for the Review link
+
+The following table shows what each role has access to when they select the **Review** link:
+
+| **Role**          | **Microsoft Entra** | **Purview**         | **Defender**        |
+| ----------------- | ------------------- | ------------------- | ------------------- |
+| **Global Reader** | Can View            | Can View            | Can View            |
+| **AI Admin role** | Can View            | No view permissions | No view permissions |
+
+> [!IMPORTANT]
+>
+> - To access alerts, all roles require to have a separate **Insider Risk Management** (IRM) role in Purview. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
+>
+> - There could be a delay in the risks counts found in the Microsoft 365 admin center when compared to the security portals.
+
+<!--
 
 The **Risks** column in the Microsoft 365 admin center **Inventory** page provides a clear and consolidated view of an agent's security posture by displaying the total number of active high severity alerts associated with each agent and its underlying instances. It closes a critical visibility gap for IT administrators responsible for governing AI agents.
 
@@ -795,3 +826,5 @@ Access is permission based. Global Admins can take corrective actions directly i
 > [!NOTE]
 >
 > The **Risks** column shows Microsoft Entra alerts from the past 90 days, following Microsoft Entra's retention policy. If agents no longer return active alerts because the underlying alerts are older than 90 days, the column appears as blank. As a result, some agents might continue to be marked **at risk** within Microsoft Entra even if no corresponding alert appears in Microsoft 365 admin center's **Risks** column. The column supports all blueprint IDs and their associated instances. Any other agent types appear as blank in the **Risks** column.
+
+-->
