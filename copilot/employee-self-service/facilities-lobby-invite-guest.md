@@ -29,9 +29,9 @@ At Microsoft, we have extended ESS to bring in Real Estate and Facilities relate
 
 Some scenarios that this extensibility to ESS is helping us power:
 
-- Create a Facilities Ticket, for example, “I want to report a water leak”
-- Register a Vehicle, for example, “I want to register my vehicle Tesla Model 3”
-- View food stations or counters by cuisine, for example, “Where can I find Chinese food?”
+- Create a Facilities Ticket, for example, "I want to report a water leak"
+- Register a Vehicle, for example, "I want to register my vehicle Tesla Model 3"
+- View food stations or counters by cuisine, for example, "Where can I find Chinese food?"
 - Invite a Guest, e.g. "I want to invite my spouse to Building 32".
 
 In the following section, we will see how a maker in Copilot Studio can extend ESS to support the above scenarios. But before we dive into the maker experience, let’s understand what real estate and facilities are and how they support employees.
