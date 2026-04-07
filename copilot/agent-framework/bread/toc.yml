@@ -14,7 +14,7 @@ items:
   topicHref: /microsoft-365/index
   items:
   - name: Microsoft 365 Copilot
-    tocHref:  /viva/copilot/
+    tocHref:  /viva/
     topicHref: /microsoft-365/copilot/index
 - name: Microsoft 365
   tocHref:  /microsoft-365/

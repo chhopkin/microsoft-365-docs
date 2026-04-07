@@ -402,18 +402,18 @@ items:
         - name: Understand Copilot licensing
           items:
           - name: Microsoft 365 Copilot license options 
-            href: microsoft-365-copilot-licensing.md
+            href: /microsoft-365/copilot/microsoft-365-copilot-licensing?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
           - name: Copilot Studio license options
             href: /microsoft-copilot-studio/billing-licensing?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
         - name: Understand Microsoft 365 Copilot pay-as-you-go plan
-          href: /copilot/microsoft-365/pay-as-you-go/overview?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
+          href: /microsoft-365/copilot/pay-as-you-go/overview?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
           items:
           - name: Set up pay-as-you-go for Microsoft 365 Copilot services
-            href: /copilot/microsoft-365/pay-as-you-go/setup?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
+            href: /microsoft-365/copilot/pay-as-you-go/setup?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
           - name: Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot
-            href: /copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
+            href: /microsoft-365/copilot/pay-as-you-go/copilot-capacity-packs?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
           - name: View costs and billing for Microsoft 365 Copilot pay-as-you-go
-            href: /copilot/microsoft-365/pay-as-you-go/view-cost?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
+            href: /microsoft-365/copilot/pay-as-you-go/view-cost?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
         - name: Understand Copilot Studio billing rates and management
           href: /microsoft-copilot-studio/requirements-messages-management?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
           items:
