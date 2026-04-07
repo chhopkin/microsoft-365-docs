@@ -340,18 +340,18 @@ The activation process consists of the following steps:
 
     Once activated, the agent is available for creating instances in the Microsoft Teams App Store, and the requester is notified. For future user additions, the process is simplified. The administrator only needs to approve or reject requests, using existing templates without repeating the full activation steps.
 
-| Service Name | Policy Name | Description of Policy | More Information |
-| --- | --- | --- | --- |
-| Microsoft Entra | Identity Protection  | Detect agent identity threats by flagging anomalous activities involving agents. | [What is Microsoft Entra ID Protection?](/entra/id-protection/overview-identity-protection) |
-| Microsoft Entra | Network visibility | Enable network visibility to agent access to external resources. | [Learn about Secure Web And AI Gateway for Microsoft Copilot Studio agents](/entra/global-secure-access/concept-secure-web-ai-gateway-agents) |
-| Microsoft Entra | Lifecycle management for agents | Govern Microsoft Entra Agent IDs at scale with lifecycle policies. | [Automate identity lifecycle management with Microsoft Entra ID Governance](/entra/id-governance/scenarios/automate-identity-lifecycle) |
-| SharePoint | Restrict external sharing of sites and its content | Provides capability to allow or restrict specific agents from sharing content in SharePoint sites and OneDrive with guests. | [What is SharePoint Advanced Management?](/sharepoint/advanced-management) |
-| SharePoint | Access Control for Sites and OneDrive | Allows admin to specify agents and users allowed to access a given site. | [Restrict SharePoint site access with Microsoft 365 groups and Microsoft Entra security groups](/SharePoint/restricted-access-control) |
-| SharePoint | Agent access insights | Provides insights on content and sites permissioned to users. | [Data access governance reports for SharePoint and OneDrive sites](/sharepoint/data-access-governance-reports) |
-| SharePoint | Content Permissions Insights | Provides insights on agents accessing SharePoint and OneDrive sites. | [Monitor agent access to SharePoint and OneDrive](/SharePoint/insights-on-agent-access) |
-| Purview | Purview Audit Enabled | Audit trails log all activities and provide clear observability. | [Data security](/microsoft-agent-365/admin/data-security) |
-| Purview | Know Your Data Policy | Data security controls safeguard against sensitive data leaks and oversharing. | [Data security](/microsoft-agent-365/admin/data-security) |
-| Purview | Purview AI compliance assessment | Continuous monitoring evaluates agents for compliance gaps and identifies areas needing attention. | [Data security](/microsoft-agent-365/admin/data-security) |
+| **Service Name**     | **Policy Name**                                    | **Description of Policy** | **More Information** |
+| -------------------- | -------------------------------------------------- | ------------------------- | -------------------- |
+| **Microsoft Entra**  | Identity Protection                                | Detect agent identity threats by flagging anomalous activities involving agents. | [What is Microsoft Entra ID Protection?](/entra/id-protection/overview-identity-protection) |
+| **Microsoft Entra**  | Network visibility                                 | Enable network visibility to agent access to external resources. | [Learn about Secure Web And AI Gateway for Microsoft Copilot Studio agents](/entra/global-secure-access/concept-secure-web-ai-gateway-agents) |
+| **Microsoft Entra**  | Lifecycle management for agents                    | Govern Microsoft Entra Agent IDs at scale with lifecycle policies. | [Automate identity lifecycle management with Microsoft Entra ID Governance](/entra/id-governance/scenarios/automate-identity-lifecycle) |
+| **SharePoint**       | Restrict external sharing of sites and its content | Provides capability to allow or restrict specific agents from sharing content in SharePoint sites and OneDrive with guests. | [What is SharePoint Advanced Management?](/sharepoint/advanced-management) |
+| **SharePoint**       | Access Control for Sites and OneDrive              | Allows admin to specify agents and users allowed to access a given site. | [Restrict SharePoint site access with Microsoft 365 groups and Microsoft Entra security groups](/SharePoint/restricted-access-control) |
+| **SharePoint**       | Agent access insights                              | Provides insights on content and sites permissioned to users. | [Data access governance reports for SharePoint and OneDrive sites](/sharepoint/data-access-governance-reports) |
+| **SharePoint**       | Content Permissions Insights                       | Provides insights on agents accessing SharePoint and OneDrive sites. | [Monitor agent access to SharePoint and OneDrive](/SharePoint/insights-on-agent-access) |
+| **Purview**          | Purview Audit Enabled                              | Audit trails log all activities and provide clear observability. | [Data security](/microsoft-agent-365/admin/data-security) |
+| **Purview**          | Know Your Data Policy                              | Data security controls safeguard against sensitive data leaks and oversharing. | [Data security](/microsoft-agent-365/admin/data-security) |
+| **Purview**          | Purview AI compliance assessment                   | Continuous monitoring evaluates agents for compliance gaps and identifies areas needing attention. | [Data security](/microsoft-agent-365/admin/data-security) |
 
 ##### Default template automatic license assignment
 
@@ -410,13 +410,13 @@ Key features of application permissions:
 
 ###### Common Application Permissions
 
-| Permission | Details |
-| --- | ---|
-| **Group.Read.All** | Read all groups in the organization. |
-| **TeamsActivity.Send** | Send a teamwork activity to any user. |
-| **RoleManagement.Read.Directory**| Read all directory role-based access control (RBAC) settings. |
-| **User.Read.All** | Read all users' full profiles. |
-| **Team.ReadBasic.All** | Get a list of all teams in the organization. |
+| **Permission**                    | **Details**                                                   |
+| --------------------------------- | ------------------------------------------------------------- |
+| **Group.Read.All**                | Read all groups in the organization.                          |
+| **TeamsActivity.Send**            | Send a teamwork activity to any user.                         |
+| **RoleManagement.Read.Directory** | Read all directory role-based access control (RBAC) settings. |
+| **User.Read.All**                 | Read all users' full profiles.                                |
+| **Team.ReadBasic.All**            | Get a list of all teams in the organization.                  |
 
 ##### Delegated Permissions
 
@@ -762,11 +762,23 @@ For more information, see [Agent and app Package Management API overview (previe
 
 The **Risks** column on the Microsoft 365 admin center **All agents** page provides a unified view of aggregated high severity risks across Microsoft security platforms such as Microsoft Entra, Defender, and Purview. It was introduced to close a critical visibility gap for IT administrators responsible for governing AI agents. The **Risks** column is only available when a tenant has either an E7 license or an A365 license.
 
-When an administrator selects the count in the **Risks** column for an agent , they're taken directly to the **Security** tab in the agent's flyout details pane.  This flyout provides a focused and actionable view of all risks associated with the specific agent across the respective security products. A **Block** option is available which allows an admin to block the agent if needed. The **Enabled policies and protection** sections displays all the default protections provided by Microsoft Entra and Purview for these agents.
+To access the **All Agents** page in the Microsoft 365 admin center and view the **Risks** column, follow these steps:
+
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+
+1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
+
+1. Under **Agents**, select [**All Agents**](https://admin.cloud.microsoft/?#/agents/all).
+
+1. In the **All Agents** page, make sure **Registry** is selected.
+
+1. The **Risks** column appears in the table in the **All Agents** page. If the **Risks** column doesn't appear, the tenant might not have either an E7 license or an A365 license.
+
+When an administrator selects the count in the **Risks** column for an agent, they're taken directly to the **Security** tab in the agent's flyout details pane. This flyout provides a focused and actionable view of all risks associated with the specific agent across the respective security products. A **Block** option is available that allows an admin to block the agent if needed. The **Enabled policies and protection** sections displays all the default protections provided by Microsoft Entra and Purview for these agents.
 
 If the agent has multiple instances under it, the flyout first shows a breakdown of the number of aggregated risks per instance. This view then leads into the same experience when an agent only has one instance.
 
-To support further investigation, admins can select on the **Review** link. The **Review** link redirects to the respective security portals where further action can be taken.
+To support further investigation, admins can select the **Review** link. The **Review** link redirects to the respective security portals where further action can be taken.
 
 > [!IMPORTANT]
 >
