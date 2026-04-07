@@ -83,12 +83,12 @@ The following customer data is stored at rest in the _Local Region Geography_:
   - Microsoft 365 Groups
   - Exchange public folders
   - Microsoft Teams chats and channel messages
-  - Yammer user and community messages
+  - Viva Engage user and community messages
 - Customer Data copied and stored in Exchange Online hidden mailboxes
   - Teams channel messages
   - Teams chats
   - Teams private channel messages
-  - Yammer user and community messages
+  - Viva Engage user and community messages
   - SharePoint, OneDrive, Exchange Online and Microsoft Teams follow the data residency commitments for those services. Refer to [Exchange Online](m365-dr-service-exo.md), [SharePoint](m365-dr-service-spo.md), and [Microsoft Teams](m365-dr-service-teams.md) workload data residency pages for more details.
 - Training classifiers
 - Disposition data

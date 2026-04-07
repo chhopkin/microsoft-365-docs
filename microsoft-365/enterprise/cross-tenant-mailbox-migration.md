@@ -8,20 +8,20 @@ ms.service: microsoft-365-enterprise
 ms.subservice: multi-tenant
 ms.topic: upgrade-and-migration-article
 f1.keywords:
-  - NOCSH
-ms.date: 02/28/2025
+- NOCSH
+ms.date: 09/28/2025
 ms.reviewer: georgiah
 ms.custom:
-  - it-pro
-  - admindeeplinkMAC
-  - admindeeplinkEXCHANGE
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
+- it-pro
+- admindeeplinkMAC
+- admindeeplinkEXCHANGE
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 ms.localizationpriority: high
 ms.collection:
-  - scotvorg
-  - M365-subscription-management
-  - must-keep
+- scotvorg
+- M365-subscription-management
+- must-keep
 ---
 
 # Cross-tenant mailbox migration
@@ -179,8 +179,8 @@ Now that the migration application and secret is successfully created, the next 
    New-MigrationEndpoint -RemoteServer outlook.office.com -RemoteTenant $remote -Credentials $Credential -ExchangeRemoteMove:$true -Name $name -ApplicationId $AppId
    ```
 
-> [!NOTE]
-> If the previous command fails, check with the source tenant administrator to confirm if the application was granted admin consent.
+   > [!NOTE]
+   > If the previous command fails, check with the source tenant administrator to confirm if the application was granted admin consent.
 
 3. Create a new organization relationship object or edit your existing organization relationship object to your source tenant.
 
@@ -571,9 +571,9 @@ TestUser_8@northwindtraders.onmicrosoft.com      {FullAccess}                   
 > [!NOTE]
 > Cross-tenant mailbox and calendar permissions aren't supported. You must organize principals and delegates into consolidated move batches so that these connected mailboxes are transitioned at the same time from the source tenant.
 
-### What X500 proxy should be added to the target MailUser proxy addresses to enable migration?
+### What X.500 proxy should be added to the target MailUser proxy addresses to enable migration?
 
-The cross-tenant mailbox migration requires that the LegacyExchangeDN value of the source mailbox object is stamped as an x500 email address on the target MailUser object.
+The cross-tenant mailbox migration requires that the LegacyExchangeDN value of the source mailbox object is stamped as an X.500 email address on the target MailUser object.
 
 Example:
 
@@ -581,14 +581,14 @@ Example:
 LegacyExchangeDN value on source mailbox is:
 /o=First Organization/ou=Exchange Administrative Group(FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9Lara
 
-so, the x500 email address to be added to target MailUser object would be:
+so, the X.500 email address to be added to target MailUser object would be:
 x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9-Lara
 ```
 
 > [!NOTE]
-> In addition to this X500 proxy, you need to copy all X500 proxies from the mailbox in the source to the mailbox in the target.
+> In addition to this X.500 proxy, you need to copy all X.500 proxies from the mailbox in the source to the mailbox in the target.
 > 
-> While rare, you could also run across an X400 proxy address on a mailbox. While it's not a requirement for the move to complete, we recommend you also stamp this address on the target mail user object.
+> While rare, you could also run across an X.400 proxy address on a mailbox. While it's not a requirement for the move to complete, we recommend you also stamp this address on the target MailUser object.
 
 ### Can the source and target tenants utilize the same domain name?
 
