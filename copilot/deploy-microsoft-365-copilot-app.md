@@ -1,12 +1,12 @@
 ---
 title: Deployment overview for the Microsoft 365 Copilot app
 description: Enterprise and company IT Admins can use this guide to manage the deployment of the Microsoft 365 Copilot app to devices in their organization.
-author:      efrene
-ms.author:   efrene
+author:      frankroj
+ms.author:   frankroj
 ms.service: microsoft-365-copilot
 ms.subservice: admin
 ms.topic: how-to
-ms.date:     03/26/2026
+ms.date:     04/06/2026
 manager: scotv
 ---
 
@@ -18,21 +18,21 @@ The Microsoft 365 Copilot app helps Microsoft 365 users be more productive by pr
 
 The app is available as a [web app](https://m365.cloud.microsoft/), as a desktop app that can be installed on [Windows and Mac Devices](https://www.microsoft.com/microsoft-365/copilot/download-copilot-app), and an Android app for [Android](https://support.microsoft.com/office/microsoft-365-copilot-app-for-android-0383d031-a1c6-46c9-b734-53cd1d22765b) and [iOS](https://support.microsoft.com/office/microsoft-365-copilot-app-for-ios-c8880c05-883a-46b6-ad32-9bffa31228d0) devices.
 
-For organizations that disable access to the Windows Store, the installer can be directly accessed from [this link](https://get.microsoft.com/installer/download/9WZDNCRD29V9). 
+For organizations that disable access to the Windows Store, the installer can be directly accessed from [this link](https://get.microsoft.com/installer/download/9WZDNCRD29V9).
 
 To install for a single user, follow these steps:
 
 1. Download the [.exe installer](https://get.microsoft.com/installer/download/9WZDNCRD29V9).
 1. Navigate to where the exe file is located.
-1. Run the downloaded installer manually to install the app. 
+1. Run the downloaded installer manually to install the app.
 
    ```powershell
    .\Microsoft 365 Copilot Installer.exe
    ```
 
-## Deploy the app across your organization using Intune 
+## Deploy the app across your organization using Intune
 
-To deploy the Microsoft 365 Copilot app to a group of computers, or your entire organization, follow the steps mentioned here to deploy the app using [Intune](/intune/intune-service/apps/store-apps-microsoft). 
+To deploy the Microsoft 365 Copilot app to a group of computers, or your entire organization, follow the steps mentioned here to deploy the app using [Intune](/intune/intune-service/apps/store-apps-microsoft).
 
 > [!NOTE]
 > This method works regardless of whether the Microsoft Store is enabled or disabled for the user.
