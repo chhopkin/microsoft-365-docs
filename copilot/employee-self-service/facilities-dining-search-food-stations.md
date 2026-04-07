@@ -13,7 +13,7 @@ ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about creating a Dining related topic in Employee Self-Service agent
+description: Learn about extending the Employee Self-Service tailored to your organization. This article describes the steps to steps to search food by category (Dining) via ESS. Example - "Where can I find Chinese food?".
 appliesto:
   - ✅ Microsoft 365 Copilot
 ---
