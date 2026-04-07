@@ -401,8 +401,8 @@ items:
         items:
         - name: Understand Copilot licensing
           items:
-          - name: Microsoft 365 Copilot license options
-            href: microsoft-365-copilot-licensing
+          - name: Microsoft 365 Copilot license options 
+            href: microsoft-365-copilot-licensing.md
           - name: Copilot Studio license options
             href: /microsoft-copilot-studio/billing-licensing?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
         - name: Understand Microsoft 365 Copilot pay-as-you-go plan
