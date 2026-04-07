@@ -88,7 +88,7 @@ This section outlines the options available to block insecure authentication met
 >
 > Customers who accessed Baseline Security Mode in Microsoft 365 between November 2025 and early February 2026 might see two draft Microsoft Entra ID Conditional Access policies created in their tenant in a **Disabled** state. These policies are associated with Baseline Security Mode and might appear as created by the administrator who signed in to the Microsoft Baseline Security Mode page.
 >
-> This behavior doesn't represent a security incident and has no effect on tenant security. The policies are in a disabled draft state. A fix is in progress to ensure policies are created only through explicit administrator action. Microsoft will remove any unintentionally created policy drafts and will notify customers in advance.
+> This behavior doesn't represent a security incident and has no effect on tenant security. The policies are in a disabled draft state. A fix is in progress to ensure policies are created only through explicit administrator action. Microsoft removes any unintentionally created policy drafts and notifies customers in advance.
 
 |Setting|More information|
 |---|---|
