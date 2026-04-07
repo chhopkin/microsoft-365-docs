@@ -12,6 +12,7 @@ ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
   - scotvorg
@@ -45,13 +46,13 @@ To use Copilot in Microsoft 365 admin centers, follow these steps:
 
 2. Select the Copilot button in the upper right shell to launch Copilot in Microsoft 365 admin centers.
 
-    :::image type="content" source="media/admin-center-copilot.png" alt-text="Screenshot of the Copilot control system dashboard page showing a selection of the Copilot button in the top right.":::
+    :::image type="content" source="media/copilot-admins-mac.png" alt-text="Screenshot of the Copilot control system dashboard page showing a selection of the Copilot button in the top right.":::
 
 ## Use Copilot for admins in Microsoft 365 Copilot Chat
 
 1. Sign in to [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat/) and select **Microsoft 365 Admin** agent in the left navigation pane.
 
-    :::image type="content" source="media/microsoft-365-admin-agent.png" alt-text="Screenshot of the Microsoft 365 admin agent page showing a selection of the Microsoft 365 admin agent.":::
+    :::image type="content" source="media/copilot-admins-mac-2.png" alt-text="Screenshot of the Microsoft 365 admin agent page showing a selection of the Microsoft 365 admin agent.":::
 
 1. If you don't find the agent in the left navigation pane, select **All agents**, search for **Microsoft 365 Admin**, and select **Add**.
 1. You can also use the agent in any apps you use such as Word, Excel, and PowerPoint.

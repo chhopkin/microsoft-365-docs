@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Manage SharePoint Embedded containers for Copilot Notebooks, Copilot Pages, or Loop workspaces"
 ms.reviewer: dancost, tonchan
@@ -40,7 +40,7 @@ IT admins can manage SharePoint Embedded containers like they manage SharePoint 
 
 - Loop Web Application ID: `a187e399-0c36-4b98-8f04-1edc167a0996`
 - Loop Mobile Application ID: `0922ef46-e1b9-4f7e-9134-9ad00547eb41`
-- Copilot Pages and Copilot Notebooks containers are created using the Loop Application IDs.
+- Copilot Pages and Copilot Notebooks use the same user-owned container as Loop My workspace. In admin tools, that container is identified using the Loop Application IDs.
 
 ## Ownerless workspaces
 
@@ -63,7 +63,7 @@ Tenant-owned Loop workspaces created before April 2025: A legacy roster still co
 
 ## Listing all the user-owned containers
 
-To get a list of all of user-owned containers in your organization, regardless of the container name, update the following sample PowerShell to your needs:
+To get a list of all user-owned containers in your organization, regardless of the container name, update the following sample PowerShell to your needs. This list includes the personal user-owned containers shared by Copilot Pages, Copilot Notebooks, and Loop My workspace:
 
 ```PowerShell
 Get-SPOContainer -OwningApplicationId 'a187e399-0c36-4b98-8f04-1edc167a0996' | WHERE OwnershipType -EQ 'UserOwned' | FT

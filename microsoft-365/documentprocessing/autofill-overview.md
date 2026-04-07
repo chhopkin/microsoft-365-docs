@@ -52,6 +52,8 @@ Autofill columns can work alongside other document models. You can link various 
 
 - Autofill columns use the same classification status fields as document processing models.
 
+- Text column limits: Single-line and multi-line text columns in SharePoint default to a 255-character limit. To allow longer values, edit the column settings, select **More options** and set **Allow unlimited length** to **Yes**, which increases the limit to 64K characters. For more information on column types and options click [here](https://support.microsoft.com/office/list-and-library-column-types-and-options-0d8ddb7b-7dc7-414d-a283-ee9dca891df7).
+
 - This service is available only for SharePoint sites — including hub sites, sites associated to a hub site, and the primary site of a site collection. Subsites aren’t supported.
 
 > [!NOTE] 

@@ -8,7 +8,7 @@ author: denisebmsft
 manager: dansimp
 audience: Admin
 ms.topic: article
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.custom: m365-groups
 ms.collection:

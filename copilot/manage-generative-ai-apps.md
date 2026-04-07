@@ -4,12 +4,13 @@ f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.reviewer: 
-ms.date: 12/23/2025
+ms.reviewer: wimcilha
+ms.date: 01/27/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
-ms.service: microsoft-365-security
+ms.service: microsoft-365-copilot
+ms.subservice: security
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot
@@ -21,18 +22,19 @@ appliesto:
 
 # Manage generative AI apps for your organization
 
-As people embrace and incorporate [generative AI apps](/ai/playbook/technology-guidance/generative-ai/), such as Microsoft 365 Copilot and non-Microsoft AI apps into daily work, it's important for your organization's security team to be able to manage those apps. Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level (see [What Microsoft does to secure Microsoft 365 Copilot](microsoft-365-copilot-ai-security.md#what-microsoft-does-to-secure-microsoft-365-copilot)). 
+As people embrace and incorporate [generative AI apps](/ai/playbook/technology-guidance/generative-ai/), such as Microsoft 365 Copilot and non-Microsoft AI apps into daily work, it's important for your organization's security team to be able to manage those apps. Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level (see [Security for Microsoft 365 Copilot](security-microsoft-365-copilot.md)). 
 
 But what about non-Microsoft AI apps? 
 
-Using capabilities in [Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) (part of Microsoft Purview) and/or [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) (part of Microsoft Defender), your security team can empower people in your organization to use generative AI apps more securely, including both Microsoft and non-Microsoft AI apps.
+Using capabilities in [Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) (part of Microsoft Purview), [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) (part of Microsoft Defender), and [Cloud Security Posture Management (CSPM)](/azure/defender-for-cloud/concept-cloud-security-posture-management) for [AI security posture management](/azure/defender-for-cloud/ai-security-posture) in [Microsoft Defender for Cloud](/azure/defender-for-cloud/defender-for-cloud-introduction), your security team can empower people in your organization to use generative AI apps more securely, including both Microsoft and non-Microsoft AI apps.
 
 This article describes how to:
 
 - [Use DSPM for AI to discover and manage AI app usage](#use-dspm-for-ai-to-discover-and-manage-ai-app-usage); and 
-- [Use Defender for Cloud Apps to discover, monitor, or block generative AI apps](#use-defender-for-cloud-apps-to-discover-monitor-or-block-generative-ai-apps)
+- [Use Defender for Cloud Apps to discover, monitor, or block generative AI apps](#use-defender-for-cloud-apps-to-discover-monitor-or-block-generative-ai-apps); and
+- [Use Defender for Cloud's CSPM to assess and manage AI security posture](/azure/defender-for-cloud/ai-security-posture).
 
-Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption. This article describes how to perform these tasks using DSPM for AI and Defender for Cloud Apps.
+Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption. This article describes how to perform these tasks using DSPM for AI, Defender for Cloud Apps, and CSPM for AI security posture management.
 
 ## Before you begin
 
@@ -108,16 +110,125 @@ Make sure to review the articles [Control cloud apps with policies](/defender-cl
 
 4. In the navigation pane, select **Cloud apps** > **App governance**.
 
-5. Select the **Policies** tab, and then create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
+1. Select the **Policies** tab, and then create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
 
    - For **Policy template**, choose **No template**.
    - For **Policy name**, type a name, like *Unsanctioned AI Apps*.
    - Provide a description, like *Block unsanctioned AI apps*.
    - In the **Apps matching all of the following** section, specify a condition, such as **Category equals Generative AI** and **Tag equals Unsanctioned**.
-   - In the **Apply to** list, select **All continuous reports**.
+   - In the **Apply to** list, select **All continuous reports**. 
 
+## Use Defender for Cloud's CSPM for AI Security Posture Management
+
+[Cloud Security Posture Management (CSPM)](/azure/defender-for-cloud/concept-cloud-security-posture-management) for [AI security posture management](/azure/defender-for-cloud/ai-security-posture) in Microsoft Defender for Cloud helps you discover, assess, and improve the security posture of your generative AI applications. Defender for Cloud provides visibility into your AI workloads, identifies vulnerabilities and misconfigurations, and helps you prioritize and remediate risks across your environment.
+
+### Discover AI workloads and models
+
+Use the cloud security explorer to identify generative AI workloads and models running in your environment.
+
+1. Go to the [Azure portal](https://portal.azure.com/) and sign in.
+
+2. Search for and select **Microsoft Defender for Cloud** > **Cloud Security Explorer**.
+
+3. Select the **AI workloads and models in use** query template.
+
+4. Select **Search**.
+
+5. Select a result to review its details, including deployed models and specific model metadata regarding those deployments.
+
+6. Select a node to review the findings.
+
+### Identify vulnerable generative AI container images
+
+Use the cloud security explorer to identify containers running generative AI container images with known vulnerabilities.
+
+1. Go to the [Azure portal](https://portal.azure.com/) and sign in.
+
+2. Search for and select **Microsoft Defender for Cloud** > **Cloud Security Explorer**.
+
+3. Select the **Container running container images with known Generative AI vulnerabilities** query template.
+
+4. Select **Search**.
+
+5. Select a result to review its details.
+
+6. Select a node to review the findings.
+
+7. In the insights section, select a CVE ID from the drop-down menu.
+
+8. Select **Open the vulnerability page**.
+
+9. [Remediate the recommendation](/azure/defender-for-cloud/implement-security-recommendations).
+
+### Identify vulnerable generative AI code repositories
+
+Use the cloud security explorer to identify vulnerable generative AI code repositories that provision Azure OpenAI.
+
+1. Go to the [Azure portal](https://portal.azure.com/) and sign in.
+
+2. Search for and select **Microsoft Defender for Cloud** > **Cloud Security Explorer**.
+
+3. Select the **Generative AI vulnerable code repositories that provision Azure OpenAI** query template.
+
+4. Select **Search**.
+
+5. Select a result to review its details.
+
+6. Select a node to review the findings.
+
+7. In the insights section, select a CVE ID from the drop-down menu.
+
+8. Select **Open the vulnerability page**.
+
+9. [Remediate the recommendation](/azure/defender-for-cloud/implement-security-recommendations).
+
+### Review and remediate IaC misconfigurations
+
+DevOps security detects Infrastructure as Code (IaC) misconfigurations that can expose generative AI applications to security vulnerabilities, such as overexposed access controls or inadvertently publicly exposed services. To prevent complex problems later, remediate detected misconfigurations early in the development cycle.
+
+Defender for Cloud assesses your generative AI apps configuration and provides security recommendations. Review and remediate the following IaC AI security checks:
+
+- Use Azure AI Service Private Endpoints
+- Restrict Azure AI Service Endpoints
+- Use Managed Identity for Azure AI Service Accounts
+- Use identity-based authentication for Azure AI Service Accounts
+
+To review and remediate recommendations:
+
+1. Go to the [Azure portal](https://portal.azure.com/) and sign in.
+
+2. Search for and select **Microsoft Defender for Cloud** > **Recommendations**.
+
+3. Filter recommendations by **Resource type** to find generative AI-related resources (such as Azure OpenAI Service).
+
+4. Review each recommendation and select it to understand the security posture issue.
+
+5. Follow the remediation steps provided in each recommendation to address the misconfiguration.
+
+### Explore risks with attack path analysis
+
+Attack path analysis detects and mitigates risks to AI workloads by identifying weaknesses and potential vulnerabilities. Data might be exposed during the grounding of AI models to specific data and the fine-tuning of a pretrained model on a specific dataset to improve its performance on a related task.
+
+By continuously monitoring AI workloads, attack path analysis can identify potential attack paths and follow up with recommendations. This extends to cases where the data and compute resources are distributed across Azure, AWS, and GCP.
+
+To explore attack paths:
+
+1. Go to the [Azure portal](https://portal.azure.com/) and sign in.
+
+2. Search for and select **Microsoft Defender for Cloud** > **Attack path analysis**.
+
+3. Review identified attack paths that could expose your AI workloads and data.
+
+4. Select an attack path to review the details and recommended remediations.
+
+5. Follow the recommendations to remediate the identified risks.
+
+ 
 ## See also
 
+- [AI Security Posture Management](/azure/defender-for-cloud/ai-security-posture)
+- [Identify AI Workload Model](/azure/defender-for-cloud/identify-ai-workload-model)
+- [Explore AI Risk](/azure/defender-for-cloud/explore-ai-risk)
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
 - [App governance in Microsoft Defender for Cloud Apps](/defender-cloud-apps/app-governance-manage-app-governance)
 - [Tech Community blog: Discover, monitor, and protect the use of Generative AI apps](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/discover-monitor-and-protect-the-use-of-generative-ai-apps/3999228)

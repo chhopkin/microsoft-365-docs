@@ -5,10 +5,10 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/01/2025
+ms.date: 01/02/2026
 audience: Admin
 ms.topic: article
-ms.service: microsoft-365-business
+ms.service: microsoft-365-admin
 ms.localizationpriority: high
 ms.collection:
 - Tier1
@@ -31,8 +31,10 @@ description: "Make your organization more secure against password attacks, and b
 As a Microsoft 365 administrator, you're responsible for setting the password policy for users in your organization. Setting the password policy can be complicated and confusing, and this article provides recommendations to make your organization more secure against password attacks.
 
 Microsoft cloud-only accounts have a predefined password policy that can't be changed. The only items you can change are the number of days until a password expires and whether or not passwords expire at all.
-  
-To determine how often Microsoft 365 passwords expire in your organization, see [Set password expiration policy for Microsoft 365](../manage/set-password-expiration-policy.md).
+
+Microsoft's latest guidance discourages password expiration policies for cloud-only accounts. The recommended setting is for passwords to never expire.
+
+For more information on using Entra ID for help with passwords, see [Eliminate bad passwords using Microsoft Entra Password Protection.](/entra/identity/authentication/concept-password-ban-bad)
   
 ## Understanding password recommendations
 
@@ -52,7 +54,8 @@ The primary goal of a more secure password system is password diversity. You wan
 - Don't use easy-to-guess passwords like `abcdefg` or `password`
 - Educate users to not reuse their organization passwords for nonwork purposes
 - Enforce registration for [multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)
-- Enable risk-based multifactor authentication challenges
+- Enable identity protection risk policies
+- Configure password resets paired with an authentication app.
 
 ## Password guidance for users
 
@@ -64,7 +67,7 @@ Here's some password guidance for users in your organization. Make sure to let y
   
 ### Ban easy-to-guess passwords
 
-The most important password requirement you should put on your users when creating passwords is to ban the use of easy-to-guess passwords that make your organization vulnerable to brute-force password attacks. Examples include: 
+The most important password requirement you should put on your users when creating passwords is to ban the use of easy-to-guess passwords that make your organization vulnerable to brute-force password attacks. Examples include:
 
 - `abcdefg`
 - `password`
@@ -77,7 +80,7 @@ One of the most important messages to get across to users in your organization i
   
 ### Enforce multifactor authentication registration
 
-Make sure your users update contact and security information, like an alternate email address, phone number, or a device registered for push notifications, so they can respond to security challenges and be notified of security events. Updated contact and security information helps users verify their identity if they ever forget their password, or if someone else tries to take over their account. It also provides an out of band notification channel for security events such as sign-in attempts or changed passwords. 
+Make sure your users update contact and security information, like an alternate email address, phone number, or a device registered for push notifications, so they can respond to security challenges and be notified of security events. Updated contact and security information helps users verify their identity if they ever forget their password, or if someone else tries to take over their account. It also provides an out of band notification channel for security events such as sign-in attempts or changed passwords.
   
 To learn more, see [Set up multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md).
 
@@ -87,8 +90,8 @@ Risk-based multifactor authentication ensures that when our system detects suspi
 
 ## Related content
 
+- [Set password expiration policy for Microsoft 365](../manage/set-password-expiration-policy.md)
 - [Reset passwords](../add-users/reset-passwords.md)
 - [Let users reset their own passwords](../add-users/let-users-reset-passwords.md)
 - [Resend a user's password - Admin Help](../add-users/resend-user-password.md)
 - [Small business help & learning](https://go.microsoft.com/fwlink/?linkid=2224585)
-

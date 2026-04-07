@@ -11,6 +11,7 @@ ms.update-cycle: 180-days
 audience: Admin
 ms.topic: get-started
 ms.service: microsoft-365-copilot
+ms.subservice: commerce	
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
@@ -52,7 +53,7 @@ For more information, see the following resources:
 
 ## Microsoft 365 Copilot licenses
 
-To add Microsoft 365 Copilot to your Microsoft 365 subscription, you need one of the following Microsoft 365 subscription plans. You can get the Copilot license as an add-on.
+To add Microsoft 365 Copilot to your Microsoft 365 subscription, you need one of the following Microsoft 365 subscription plans. You can get the Copilot license as an add-on. To learn how to assign Copilot licenses to your users, see [Assign or unassign licenses for users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Microsoft 365 Copilot Business
 

@@ -46,7 +46,7 @@ You must be a [SharePoint Administrator](/entra/identity/role-based-access-contr
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
 > [!NOTE]
-> If you're requesting signatures from external recipients who are not existing guests on your tenant, you need to enable [Microsoft Entra B2B integration for SharePoint and OneDrive](/sharepoint/sharepoint-azureb2b-integration) and [guest sharing](/microsoft-365/solutions/collaborate-in-site). External recipients are people outside your organization and would be onboarded as guests into your tenant. Microsoft Entra B2B provides authentication and management of guests. For more information, see [External recipients](#external-recipients) later in this article.
+> If you're requesting signatures from external recipients who are not existing guests on your tenant, you need to enable [Microsoft Entra B2B integration for SharePoint and OneDrive](/sharepoint/sharepoint-azureb2b-integration) and [guest sharing](/previous-versions/microsoft-365/solutions/collaborate-in-site). External recipients are people outside your organization and would be onboarded as guests into your tenant. Microsoft Entra B2B provides authentication and management of guests. For more information, see [External recipients](#external-recipients) later in this article.
 
 ## Set up eSignature
 
@@ -80,7 +80,7 @@ To select which signature providers to use, follow these steps.
 ### Allow signature requests in Microsoft Word
 
 > [!NOTE]
-> This feature begins rolling out to users on the Microsoft 365 Beta and Current channels in June.
+> This feature is available to users on the Microsoft 365 Beta, Current, and Monthly Enterprise Channels.
 
 To let users use eSignature in Word, you need to [turn on the Word feature](#turn-on-the-word-feature) and [apply the Office group policy](#apply-the-office-group-policy).
 
@@ -150,7 +150,7 @@ If a guest is deleted from the tenant while the request is ongoing, they can no 
 If the Word or PDF documents to be signed reside in a site with a sensitivity label, the label may prevent users from sending requests to external users. To remedy, enable the label setting **Let people who use this label share the site with people outside your organization** or move the documents to a site that has a label with that setting enabled. 
 ### Authentication
 
-External recipients might need to authenticate before they're able to access a document for signing. The type of authentication required by the external recipients depends on the configuration for guests at the SharePoint level or at the tenant level. Additionally, if the guest belongs to an organization with a Microsoft 365 tenant, it's possible for their organization's setup to affect their authentication experience when attempting to sign the document. For more information, see [Collaboration with guests in a site](/microsoft-365/solutions/collaborate-in-site).
+External recipients might need to authenticate before they're able to access a document for signing. The type of authentication required by the external recipients depends on the configuration for guests at the SharePoint level or at the tenant level. Additionally, if the guest belongs to an organization with a Microsoft 365 tenant, it's possible for their organization's setup to affect their authentication experience when attempting to sign the document. For more information, see [Collaboration with guests in a site](/previous-versions/microsoft-365/solutions/collaborate-in-site).
 
 ### Conditional access
 
