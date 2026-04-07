@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 03/26/2026
+ms.date: 04/07/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -149,20 +149,11 @@ For more information, see [Get started with SharePoint agents](/sharepoint/get-s
 
 ### Agent Builder in Microsoft 365 Copilot​
 
-Using Agent Builder in the Microsoft 365 Copilot app, members of your organization (end users) can create declarative agents. This out-of-the-box solution works with your existing data and can be made available to end users at your organization. End users can query organization knowledge contained in SharePoint sites, folders, and files, as well as search general web content. Data can also be made available using Microsoft Graph connectors.
+Users in your organization can use the Agent Builder feature in Microsoft 365 Copilot to create [declarative agents](/microsoft-365/copilot/extensibility/overview-declarative-agent). Users can build agents to tailor Copilot and add [knowledge sources](/microsoft-365/copilot/extensibility/agent-builder-add-knowledge) from enterprise data such as SharePoint, Teams, and Outlook; public websites; and external data indexed via Microsoft 365 Copilot connectors. Agent Builder also provides [templates](/microsoft-365-copilot/extensibility/agent-builder-templates) to help users get started quickly. Users can share agents created with Agent Builder with other users in the organization. 
 
-Agent Builder is available through Microsoft 365 Copilot Chat if your organization’s tenant has enabled pay-as-you-go for Copilot Studio, or if your organization has a Microsoft 365 Copilot license.
+Agent Builder is available to users with a Microsoft 365 Copilot license or in tenants with pay-as-you-go enabled for Copilot Studio. Agent capabilities vary depending on the organization's billing model. For information about network requirements for Agent Builder, see [Network requirements](/microsoft-365/copilot/extensibility/agent-builder#network-requirements).
 
-In addition, agents created with Agent Builder are shareable across your organizations by end users. The capabilities of agents vary depending on your billing model. Your consumption model might allow agents available at no additional cost, pay-as-you-go agents, or agents licensed with Microsoft 365 Copilot.
-
-To get started quickly, view the following step-by-step walkthrough video:
-
-[Create and publish your first agent](https://youtu.be/_aJAOTOvWxI)
-
-> [!TIP]
-> End users can get started quickly using templates included with Agent Builder. These templates apply design guidelines and industry best practices. For more information, see [Copilot Studio agent templates](/microsoft-365-copilot/extensibility/agent-builder-templates).
-
-For more information, see [Build agents with Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+For more information, see [Agent Builder](/microsoft-365-copilot/extensibility/agent-builder).
 
 ### Copilot Studio
 
@@ -170,6 +161,8 @@ Copilot Studio empowers low-code developers ("makers") to build declarative agen
 
 > [!NOTE]
 > Microsoft Copilot Studio is part of the Power Platform product set. Using the [Power Platform admin center](/power-platform/admin/admin-documentation?tabs=new), admins can manage agent development settings and agent governance controls for Custom Engine Agents for your organization. For related information, see [Track, manage, and scale Copilot adoption in the Power Platform](/power-platform/admin/copilot/copilot-hub?tabs=new) and [Key Copilot configuration settings](/microsoft-copilot-studio/guidance/sec-gov-config-settings).
+
+To get started quickly, see the [Create and publish your first agent](https://youtu.be/_aJAOTOvWxI) walkthrough video.
 
 For more information, see [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio), [Copilot Studio documentation](/microsoft-copilot-studio/), and [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio).
 
