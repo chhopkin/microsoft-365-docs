@@ -774,9 +774,9 @@ To access the **All Agents** page in the Microsoft 365 admin center and view the
 
 1. The **Risks** column appears in the table in the **All Agents** page. If the **Risks** column doesn't appear, the tenant might not have either an E7 license or an A365 license.
 
-When an administrator selects the count in the **Risks** column for an agent, they're taken directly to the **Security** tab in the agent's flyout details pane. This flyout provides a focused and actionable view of all risks associated with the specific agent across the respective security products. A **Block** option is available that allows an admin to block the agent if needed. The **Enabled policies and protection** sections displays all the default protections provided by Microsoft Entra and Purview for these agents.
+When an administrator selects the risk count for an agent from the **Risks** column, they're taken directly to the Security tab within the agent's flyout details pane. This flyout provides a focused and actionable view of the total aggregated risk counts across all supported detection platforms for the selected agent. From this view, the administrator can further investigate risks and take mitigation actions, such as using the **Block** option to prevent the agent from operating if necessary. Additionally, the **Enabled policies and protection** sections display the default security protections applied to the agent by Microsoft Entra and Microsoft Purview.
 
-If the agent has multiple instances under it, the flyout first shows a breakdown of the number of aggregated risks per instance. This view then leads into the same experience when an agent only has one instance.
+If the agent has multiple instances associated with it, the flyout initially displays a breakdown of aggregated risks by instance. From here, the admin can proceed to view the total aggregated risk counts across all detection platforms for the selected agent.
 
 To support further investigation, admins can select the **Review** link. The **Review** link redirects to the respective security portals where further action can be taken.
 
@@ -797,9 +797,7 @@ The following table shows what each role has access to when they select the **Re
 
 > [!IMPORTANT]
 >
-> - To access alerts, all roles require to have a separate **Insider Risk Management** (IRM) role in Purview. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
->
-> - There could be a delay in the risks counts found in the Microsoft 365 admin center when compared to the security portals.
+> To access alerts, all roles require to have a separate **Insider Risk Management** (IRM) role in Purview. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
 
 <!--
 
