@@ -18,6 +18,9 @@ ms.localizationpriority: medium
 
 The Microsoft Frontier program gives organizations early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability (GA). By opting in to Frontier, IT administrators can evaluate new Copilot agents and AI-powered experiences, determine readiness for broader deployment across their tenant, and provide feedback about Frontier feature capabilities to Microsoft.
 
+> [!IMPORTANT]
+> Frontier is managed at the tenant level. Production tenants can safely be enrolled into the Frontier program to allow your organization access to Frontier features. IT admins have explicit control which users have access to which Frontier features.  
+
 Access to Frontier experiences vary depending on your organization’s subscription and user roles. Frontier is managed at the tenant level.
 
 > [!IMPORTANT]
@@ -34,14 +37,11 @@ Review the following requirements and recommendations:
 - Verify your admin role. You need an account that includes one of the following roles: **AI Admin**, **Security Admin**, **Office Apps Admin**.
 - Verify that Microsoft 365 Copilot licenses are assigned to users who you want to access Frontier features. From the admin center, go to **Billing** > **Licenses** > **Microsoft 365 Copilot** and confirm the assignments. Users without a Microsoft 365 Copilot license aren't presented with Frontier features.
 - Verify that your own admin account has a Microsoft 365 Copilot license. Some Frontier settings and agents in the admin center might not appear.
-- Create an Entra ID security group for your Frontier pilot users before you start. Consider how you want to scope access to Frontier features across your organization.
+- Create an Entra ID security group for your Frontier agents users before you start. Consider how you want to scope access to Frontier agents across your organization.
 
-## Set up Frontier experiences
+## Set up Frontier features
 
 Manage Frontier settings in the Microsoft 365 Admin Center.
-
-> [!IMPORTANT]
-> Frontier is managed at the tenant level. 
 
 To enable Frontier preview experiences:
 
@@ -52,9 +52,7 @@ To enable Frontier preview experiences:
 
    - **No access** (default)
    - **All users**
-   - **Specific users or security groups**
-
-Use an Entra ID security group to target specific users who can access Frontier features. This approach helps you validate experiences with a small group before broad rollout. 
+   - **Specific users**
 
 After you enable Frontier, eligible users can access supported preview features as they're released. It might take an hour or more for Frontier features and agents to be available to users.
 
@@ -83,6 +81,7 @@ You can install and pin specific agents to select users or groups directly rathe
 1. Go to **Agents** > **All agents**.
 1. Select the agent you want to install.
 1. In the **Users** tab, add the specific users or security groups that you want to use this agent.
+  - Use an Entra ID security group to target specific users who can access Frontier agents. This approach helps you validate experiences with a small group before broad rollout. 
 1. In the agent flyout, select **Install**. To help with discovery, you can select **Pin for users**. The agent appears in the Microsoft 365 Copilot app.
 
 ### Manage AI provider large language models
