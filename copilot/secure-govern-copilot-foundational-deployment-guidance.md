@@ -42,7 +42,9 @@ This blueprint is organized into three pillars:
 - Set up guardrails
 - Meet regulations
 
-[:::image type="content" source="media/secure-govern-copilot-foundational-deployment-guidance/secure-govern-copilot-blueprint.png" alt-text="Screenshot depicting the three pillars covered in the blueprint.":::](https://aka.ms/Copilot/SecureGovernBlueprintPDF)
+:::image type="content" source="media/secure-govern-copilot-foundational-deployment-guidance/secure-govern-copilot-blueprint.png" alt-text="Screenshot depicting the three pillars covered in the blueprint." lightbox="media/secure-govern-copilot-foundational-deployment-guidance/secure-govern-copilot-blueprint.png":::
+
+[https://aka.ms/Copilot/SecureGovernBlueprintPDF](https://aka.ms/Copilot/SecureGovernBlueprintPDF)
 
 ### What the blueprint covers
 
