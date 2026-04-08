@@ -1,6 +1,6 @@
 ---
-title: Manage Connected Agents for Researcher in the Microsoft 365 admin center
-description: Manage Connected Agents for Researcher in the Microsoft 365 admin center.
+title: Manage connected agents for Researcher in Microsoft 365 admin center
+description: Manage connected agents for Researcher in Microsoft 365 admin center.
 #customer intent:
 f1.keywords:
 - NOCSH
@@ -32,7 +32,7 @@ search.appverid:
 - MOE150
 ---
 
-# Manage Connected Agents for Researcher in the Microsoft 365 admin center
+# Manage connected agents for Researcher in Microsoft 365 admin center
 
 > [!IMPORTANT]
 >

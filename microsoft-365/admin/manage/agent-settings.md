@@ -1,13 +1,13 @@
 ---
-title: Agent Settings in Microsoft 365 admin center
-description: Agent Settings in Microsoft 365 admin center.
+title: Agent settings in Microsoft 365 admin center
+description: Agent settings in Microsoft 365 admin center.
 #customer intent:
 f1.keywords:
 - NOCSH
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 02/23/2026
+ms.date: 04/07/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
