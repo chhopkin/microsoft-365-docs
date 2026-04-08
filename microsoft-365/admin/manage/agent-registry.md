@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 04/07/2026
+ms.date: 04/08/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -770,7 +770,7 @@ For more information, see [Agent and app Package Management API overview (previe
 
 ## Risks column in the Microsoft 365 admin center All agents page
 
-The **Risks** column on the Microsoft 365 admin center **All agents** page provides a unified view of aggregated high severity risks across Microsoft security platforms such as Entra, Microsoft Defender, and Purview. It closes a critical visibility gap for IT administrators responsible for governing AI agents. The **Risks** column is only available when a tenant has either an [Microsoft 365 E7](https://microsoftpartners.microsoft.com/abs/Blog/?title=Introducing%20Microsoft%20365%20E7:%20The%20Frontier%20Suite) license or a Microsoft 365 A365 license.
+The **Risks** column on the Microsoft 365 admin center **All agents** page provides a unified view of aggregated high severity risks across Microsoft security platforms such as Entra, Microsoft Defender, and Purview. It closes a critical visibility gap for IT administrators responsible for governing AI agents. The **Risks** column is only available when a tenant has a [Microsoft 365 E7](https://microsoftpartners.microsoft.com/abs/Blog/?title=Introducing%20Microsoft%20365%20E7:%20The%20Frontier%20Suite) license.
 
 :::image type="content" source="../../media/agents/all-agents-page.png" alt-text="Screenshot of the All agents page in the Microsoft 365 admin center." lightbox="../../media/agents/all-agents-page.png":::
 
@@ -784,7 +784,7 @@ To access the **All agents** page in the Microsoft 365 admin center and view the
 
 1. In the **All agents** page, make sure **Registry** is selected.
 
-1. The **Risks** column appears in the table in the **All agents** page. If the **Risks** column doesn't appear, the tenant might not have either an Microsoft 365 E7 license or a Microsoft 365 A365 license.
+1. The **Risks** column appears in the table in the **All agents** page. If the **Risks** column doesn't appear, the tenant might not have a Microsoft 365 E7 license.
 
 When an administrator selects the risk count for an agent from the **Risks** column, they're taken directly to the Security tab within the agent's flyout details pane. This flyout provides a focused and actionable view of the total aggregated risk counts across all supported detection platforms for the selected agent. From this view, the administrator can further investigate risks and take mitigation actions, such as using the **Block** option to prevent the agent from operating if necessary. Additionally, the **Enabled policies and protection** sections display the default security protections applied to the agent by Microsoft Entra and Microsoft Purview.
 
@@ -813,4 +813,4 @@ The following table shows what each role can access when they select the **Revie
 
 > [!IMPORTANT]
 >
-> In order for a role to access Purview alerts, the role needs a **Insider Risk Management** (IRM) role in Purview so that it can log into Purview. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
+> To access Purview alerts, users must be assigned an **Insider Risk Management** (IRM) role within Purview. This role is required to sign in to Purview to view Insider Risk Management alerts. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
