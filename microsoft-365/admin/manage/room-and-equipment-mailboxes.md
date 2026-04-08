@@ -111,4 +111,4 @@ To set up a room or equipment mailbox, follow these steps:
 
 ## Frequently asked questions (FAQs) about room and equipment mailboxes
 
-For answers to common questions about managing room and equipment mailboxes, see [Room and Equipment Mailboxes FAQ](room-and-equipment-mailboxes-faq.yml).
+For answers to common questions about managing room and equipment mailboxes, see [Room and Equipment Mailboxes FAQ](room-equipment-mailboxes-faq.yml).
