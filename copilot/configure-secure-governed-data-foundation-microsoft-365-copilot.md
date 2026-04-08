@@ -32,7 +32,11 @@ appliesto:
 
 [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) uses Work IQ to enhance responses to user prompts using data that the user already has permission to access. When your organization's data is well governed, current, and appropriately shared, Copilot can deliver accurate, relevant, and secure responses. 
 
-This article guides you through preparing, securing, and managing Microsoft 365 Copilot. By following these steps, you can help Copilot deliver accurate and relevant results while supporting your organization's security, compliance, and regulatory requirements.
+This article guides you through preparing, securing, and managing Microsoft 365 Copilot using the process depicted in the following diagram: 
+
+:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/remediate-guardrails-regulations.png" alt-text="Diagram depicting the three main steps to configuring a secure foundation for Copilot.":::
+
+By following these steps, you can help Copilot deliver accurate and relevant results while supporting your organization's security, compliance, and regulatory requirements. 
 
 This guidance is intended for IT administrators and security administrators who are either preparing their organization for Microsoft 365 Copilot or making necessary adjustments to security and governance controls after Copilot is enabled.
 
