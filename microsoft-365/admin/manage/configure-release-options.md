@@ -1,5 +1,5 @@
 ---
-title: "Configure release options for Microsoft 365"
+title: "Configure modern release options for Microsoft 365"
 f1.keywords:
 - CSH
 ms.author: mabond
@@ -24,7 +24,7 @@ appliesto:
 - Microsoft 365 admin center
 ---
 
-# Configure release options for Microsoft 365 features
+# Configure modern release options for Microsoft 365 features
 
 Microsoft 365 delivers updates continuously, enabling organizations to adopt new capabilities without large, infrequent upgrades. To help IT admins manage this pace of change, Microsoft 365 introduces a new three-tier release model—**Frontier, Standard, and Deferred**—that balances broad adoption and organizational readiness.
 
