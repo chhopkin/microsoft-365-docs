@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 03/31/2026
+ms.date: 04/08/2026
 ms.update-cycle: 180-days
 ms.reviewer:
 audience: Admin
@@ -42,8 +42,9 @@ This blueprint is organized into three pillars:
 - Set up guardrails
 - Meet regulations
 
-:::image type="content" source="media/secure-govern-copilot-foundational-deployment-guidance/blueprint.png" alt-text="Screenshot depicting the three pillars covered in the blueprint." lightbox="media/secure-govern-copilot-foundational-deployment-guidance/blueprint.png":::
+:::image type="content" source="media/secure-govern-copilot-foundational-deployment-guidance/secure-govern-copilot-blueprint.png" alt-text="Screenshot depicting the three pillars covered in the blueprint." lightbox="media/secure-govern-copilot-foundational-deployment-guidance/secure-govern-copilot-blueprint.png":::
 
+[https://aka.ms/Copilot/SecureGovernBlueprintPDF](https://aka.ms/Copilot/SecureGovernBlueprintPDF)
 
 ### What the blueprint covers
 
@@ -63,7 +64,7 @@ The blueprint covers the following areas:
 
 | Deployment model | Description |
 |---|---|
-| [![Secure and govern data for Microsoft 365 Copilot](media/secure-govern-copilot-foundational-deployment-guidance/blueprint.png)](https://aka.ms/Copilot/SecureGovernBlueprintPDF) | Use this blueprint to remediate oversharing, enforce guardrails, and meet AI regulations for a Microsoft 365 Copilot deployment.<br/><br/>**Includes:**<br/>- Blueprint overview and activities: [PDF](https://aka.ms/Copilot/SecureGovernBlueprintPDF)<br/>- [PowerPoint](https://aka.ms/Copilot/SecureGovernBlueprintPPT) |
+| [![Secure and govern data for Microsoft 365 Copilot](media/secure-govern-copilot-foundational-deployment-guidance/secure-govern-copilot-blueprint.png)](https://aka.ms/Copilot/SecureGovernBlueprintPDF) | Use this blueprint to remediate oversharing, enforce guardrails, and meet AI regulations for a Microsoft 365 Copilot deployment.<br/><br/>**Includes:**<br/>- Blueprint overview and activities: [PDF](https://aka.ms/Copilot/SecureGovernBlueprintPDF)<br/>- [PowerPoint](https://aka.ms/Copilot/SecureGovernBlueprintPPT) |
 
 ## Related guidance
 
