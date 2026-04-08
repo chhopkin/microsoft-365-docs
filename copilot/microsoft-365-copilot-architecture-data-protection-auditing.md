@@ -56,8 +56,8 @@ In this flow:
 - When Copilot generates new content based on labeled sources, the highest‑priority sensitivity label is inherited when supported.
 - Protection settings remain enforced even when labeled files are stored outside the Microsoft 365 tenant.
 
-[!NOTE]
-User-defined sensitivity label permissions can block Copilot from extracting and interacting with the file content. For example, Copilot agents can't read files that have user-defined sensitivity label permissions.
+> [!NOTE]
+> User-defined sensitivity label permissions can block Copilot from extracting and interacting with the file content. For example, Copilot agents can't read files that have user-defined sensitivity label permissions.
 
 To learn more, see the following articles:
 
