@@ -101,6 +101,8 @@ Create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-cr
 
 ### Create a policy to block specific AI apps
 
+:::image type="content" source="media/manage-generative-ai-apps/create-policy-block-specific-ai-apps.png" alt-text="Diagram depicting the steps to create a policy to block specific AI apps.":::
+
 Make sure to review the articles [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies) and [Create app governance policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies).
 
 1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**. 
