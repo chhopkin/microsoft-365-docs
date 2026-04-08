@@ -23,12 +23,12 @@ The Microsoft Frontier program gives organizations early access to innovative an
 
 Access to Frontier experiences vary depending on your organization’s subscription and user roles. Frontier is managed at the tenant level.
 
-> [!IMPORTANT]
-> Use of Microsoft Frontier requires a Microsoft 365 Copilot license.
+Use of Microsoft Frontier requires a Microsoft 365 Copilot license.
+
+> [!NOTE]
+> Learn more about the Microsoft Frontier program, what's new, and how to try what's next in AI:  [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program). 
 >
-> Not all preview features are available in Frontier. For more detailed information, see [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program). 
->
-> Frontier features are experimental and subject to change without notice.
+> Frontier features are preview and subject to change.
 
 ## Prerequisites
 
@@ -47,8 +47,10 @@ To enable Frontier preview experiences:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com)   
 1. Go to **Copilot** > **Settings**.
-3. Select **Copilot Frontier**.
-4. Choose how Frontier access is assigned in your organization:
+1. Select the **View all** tab
+1. In the **Search all Copilot settings** search bar, type "Frontier". 
+1. Select **Copilot Frontier**.
+1. Choose how Frontier access is assigned in your organization:
 
    - **No access** (default)
    - **All users**
