@@ -65,15 +65,9 @@ The capabilities described in this article require:
 For more information, see the following articles:
 
 - [Overview of the Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview)
+- [About administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles)
 - [About the SharePoint Administrator role in Microsoft 365](/sharepoint/sharepoint-admin-role)
-
-You need access to the following admin portals and permissions:
-
-| Admin portal | Required role |
-|---|---|
-| [Microsoft 365 admin center](https://admin.microsoft.com/) | Global Administrator or Privileged Role Administrator |
-| [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) | SharePoint Administrator |
-| [Microsoft Purview portal](https://purview.microsoft.com/) | Varies by task. See [Permissions in the Microsoft Purview portal](/purview/purview-permissions) |
+- [Permissions in the Microsoft Purview portal](/purview/purview-permissions)
    
 ## Step 1: Remediate oversharing
 
