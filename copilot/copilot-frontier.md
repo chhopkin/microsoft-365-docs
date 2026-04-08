@@ -25,18 +25,20 @@ Access to Frontier experiences vary depending on your organization’s subscript
 >
 > Not all preview features are available in Frontier. For more detailed information, see [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program). 
 >
-> Frontier features are experimental and subject to change without notice
+> Frontier features are experimental and subject to change without notice.
 
 ## Prerequisites
 
-- Verify your admin role. You'll need an account that includes one of the following roles: **AI Admin**, **Security Admin**, **Office Apps Admin**.
-- Verify Microsoft 365 Copilot licenses are assigned. From the admin center, navigate to Billing > Licenses > Microsoft 365 Copilot and confirm the assignments. Users without a Microsoft 365 Copilot license will not be presented with Frontier features.
-- Verify your own admin account has a Microsoft 365 Copilot license. Some Fontier settings and agent visibility in the admin center might not appear. 
-- Create an Entra ID security group for your Frontier pilot users before you start. Consider how you'll want to scope access to Frontier features across your organization. 
+Review the following requirements and recommendations:
+
+- Verify your admin role. You need an account that includes one of the following roles: **AI Admin**, **Security Admin**, **Office Apps Admin**.
+- Verify that Microsoft 365 Copilot licenses are assigned to users who you want to access Frontier features. From the admin center, go to **Billing** > **Licenses** > **Microsoft 365 Copilot** and confirm the assignments. Users without a Microsoft 365 Copilot license aren't presented with Frontier features.
+- Verify that your own admin account has a Microsoft 365 Copilot license. Some Frontier settings and agents in the admin center might not appear.
+- Create an Entra ID security group for your Frontier pilot users before you start. Consider how you want to scope access to Frontier features across your organization.
 
 ## Set up Frontier experiences
 
-Frontier settings are managed in the Microsoft 365 Admin Center.
+Manage Frontier settings in the Microsoft 365 Admin Center.
 
 > [!IMPORTANT]
 > Frontier is managed at the tenant level. 
@@ -44,7 +46,7 @@ Frontier settings are managed in the Microsoft 365 Admin Center.
 To enable Frontier preview experiences:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com)   
-2. Navigate to **Copilot** > **Settings**.
+1. Go to **Copilot** > **Settings**.
 3. Select **Copilot Frontier**.
 4. Choose how Frontier access is assigned in your organization:
 
@@ -52,45 +54,45 @@ To enable Frontier preview experiences:
    - **All users**
    - **Specific users or security groups**
 
-Microsoft recommends using an Entra ID security group to target specific users who can access Frontier features. This will help you validate experiences with a small group before broad rollout. 
+Use an Entra ID security group to target specific users who can access Frontier features. This approach helps you validate experiences with a small group before broad rollout. 
 
-After Frontier is enabled, supported preview features become available to eligible users as they're released. Note that it might take an hour or more for Frontier features and agents to be available to users.
+After you enable Frontier, eligible users can access supported preview features as they're released. It might take an hour or more for Frontier features and agents to be available to users.
 
 > [!NOTE]
 > Some AI features in Microsoft 365 Desktop and mobile apps are currently released as a part of the Microsoft 365 Insider program. Learn more about the [Microsoft 365 Insider Program for Business](https://aka.ms/msft365insiderbusiness).
 
 ### Enable Frontier agents
-Before your users can access Frontier agents, you'll need to make sure that Agent types are approved.
+Before your users can access Frontier agents, make sure that agent types are approved.
 
-1. In to the [Microsoft 365 admin center](https://admin.microsoft.com), navigate to **Agent** > **Settings** > **Allowed agent types**.
-1. Verify that "Allow apps and agents built by Microsoft" is checked. This allows use of Microsoft Frontier agents. 
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Agent** > **Settings** > **Allowed agent types**.
+1. Verify that **Allow apps and agents built by Microsoft** is checked. This setting allows use of Microsoft Frontier agents. 
 
-You can optionally allow other agent types by using this control. This allows users to be able to search and discover your own organization agents and allows users to build and use their own agents. 
+You can optionally allow other agent types by using this control. This setting enables users to search and discover your own organization agents and allows users to build and use their own agents. 
 
 > [!NOTE]
 > You can manage access for specific agents for specific users or groups. For more information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings).
 >
-> You can also manage the agents that show up in the Agent Store. For more information, see [Set up Agent Store in Microsoft 365 Copilot](/microsoft-365/copilot/copilot-agent-store)
+> You can also manage the agents that show up in the Agent Store. For more information, see [Set up Agent Store in Microsoft 365 Copilot](/microsoft-365/copilot/copilot-agent-store).
 
 > [!IMPORTANT]
-> After the Frontier program is enabled, **Frontier agents** are available from the Agent store in Microsoft 365 Copilot. Search for "Built my Microsoft", and Frontier program agents will be displayed with **(Frontier)** in the name. It might take up to an hour for Frontier agents to appear in the store. 
+> After the Frontier program is enabled, **Frontier agents** are available from the Agent store in Microsoft 365 Copilot. Search for "Built my Microsoft", and Frontier program agents are displayed with **(Frontier)** in the name. It might take up to an hour for Frontier agents to appear in the store. 
 
 ### Deploy agents to your users directly
-You can install and pin specific agents to select users or groups directly rather than users searching in the Agent store. 
+You can install and pin specific agents to select users or groups directly rather than users needing to search the Agent store. This method helps users start using Frontier agents more quickly.
 
-1. Navigate to **Agents** > **All agents**.
+1. Go to **Agents** > **All agents**.
 1. Select the agent you want to install.
-1. In the Users tab, add the specific users or security groups that you want to use this agent.
-1. In the agent flyout, click **Install**. To help with discovery, you can click **Pin for users**. The agent will appear in the Microsof 365 Copilot app.
+1. In the **Users** tab, add the specific users or security groups that you want to use this agent.
+1. In the agent flyout, select **Install**. To help with discovery, you can select **Pin for users**. The agent appears in the Microsoft 365 Copilot app.
 
 ### Manage AI provider large language models
-Some Frontier features and agents might require access to other AI provider large language models, such as Anthropic. Review the requirements and understand the implications for each large language model you want to use.
+Some Frontier features and agents require access to other AI provider large language models, such as Anthropic. Review the requirements and understand the implications for each large language model you want to use.
 
 To allow access to other models, use the Microsoft 365 Admin Center to explicitly approve each model. For more information, see [Manage AI provider settings in the Microsoft 365 admin center](/microsoft-365/copilot/copilot-anthropic-apps#manage-the-setting-in-the-microsoft-365-admin-center).
 
 #### Researcher and analyst in Microsoft 365 Copilot
 
-Researcher and Analyst are considered features of Microsoft 365 Copilot. Both Researcher and Analyst are automatically deployed to Microsoft 365 Copilot licensed users and are pinned to the Microsoft 365 Copilot app user interface. While you can block access to these capabilities, you cannot unpin them.  
+Researcher and Analyst are considered features of Microsoft 365 Copilot. Both Researcher and Analyst are automatically deployed to Microsoft 365 Copilot licensed users and are pinned to the Microsoft 365 Copilot app user interface. While you can block access to these capabilities, you can't unpin them.  
 
 ### Configure AI-enabled Cloud PCs
 
