@@ -86,6 +86,8 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 
 ### Create a policy to monitor AI apps
 
+:::image type="content" source="media/manage-generative-ai-apps/create-policy-monitor-ai-apps.png" alt-text="Diagram depicting how to create a policy to monitor AI apps.":::
+
 Make sure to review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites). Also see [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies).
 
 Create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
