@@ -1,8 +1,8 @@
 ### YamlMime:FAQ
 metadata:
   title: Room and Equipment Mailboxes FAQ
-  description: Find answers to common questions about room and equipment mailboxes in Microsoft 365.
-  ms.date: 03/13/2026
+  description: Find answers to common questions about room and equipment mailboxes in Microsoft 365, including booking, availability, and licensing. Read the FAQ.
+  ms.date: 04/08/2026
   f1.keywords:
   - NOCSH
   ms.author: twerner
@@ -26,18 +26,18 @@ metadata:
 title: Room and equipment mailboxes FAQ
 summary: |
 
-  This article provides answers to frequently asked questions that administrator might have about room and equipment mailboxes in Microsoft 365. For more information about room and equipment mailboxes in Microsoft 365, see [Room and equipment mailboxes](room-and-equipment-mailboxes.md).
+  Use this FAQ to find quick answers to common questions about room and equipment mailboxes in Microsoft 365, including availability, booking, and licensing. For more information, see [Room and equipment mailboxes](room-and-equipment-mailboxes.md).
 
 sections:
 - name: Room and equipment mailboxes FAQ
   questions:
   - question: |
-      How can you tell when the room or equipment is available?
+      How can I tell when the room or equipment is available?
     answer: |
       Open Outlook and create a new meeting. Add the room or equipment to the meeting as if it were a person and select **Scheduling Assistant** to see a live calendar view of the room or equipment's availability. If the hour slot is clear, the slot is available. If the hour slot is blue, the slot is reserved.
 
   - question: |
-      How do you cancel a room or equipment request?
+      How do I cancel a room or equipment request?
     answer: |
       Open the meeting you scheduled in Outlook and then remove the room or equipment from the meeting like you would an attendee. Removing the room or equipment frees up the room for others to reserve.
 
