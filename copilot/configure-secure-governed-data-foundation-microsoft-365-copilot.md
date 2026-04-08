@@ -66,7 +66,9 @@ The capabilities described in this article require:
 
 :::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png" alt-text="Table depicting required admin roles for portals." lightbox="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png":::
 
-You must have an appropriate role assigned to perform the tasks described in this article. For more information, see the following resources:
+You must have an appropriate role assigned to perform the tasks described in this article. 
+
+For more information, see the following resources:
 
 - [Overview of the Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview)
 - [About administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles)
