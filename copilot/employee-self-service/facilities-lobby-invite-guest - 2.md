@@ -55,10 +55,10 @@ To extend the Employee Self-Service Copilot Agent with a custom *Invite a guest*
 
 - Employee Self-Service agent is installed in Copilot Studio.
 - Access to Copilot Samples in GitHub:  
-  https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest
+  <https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest>
 - Maker access to a sandbox or pre-production environment in Copilot Studio.
 - Access to the Guest Management APIs that will be used to fetch the list of buildings and create guest invitations.
-    - For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on the Azure platform.
+  - For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on the Azure platform.
 
 ## Fundamentals
 
@@ -85,16 +85,16 @@ Connectors enable you to connect the agent with other apps, data, and devices in
 For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for creating a guest invitation.
 
 Available connectors:  
-https://learn.microsoft.com/connectors/connector-reference/
+<https://learn.microsoft.com/connectors/connector-reference/>
 
 HTTP request action reference:  
-https://learn.microsoft.com/microsoft-copilot-studio/authoring-http-node
+<https://learn.microsoft.com/microsoft-copilot-studio/authoring-http-node>
 
 ## Example: Invite a Guest
 
 In the **Invite a Guest** scenario, an employee can pre-register a visitor such as a business partner, vendor, interview candidate, or personal guest.
 
-Through the Employee Self-Service (ESS) platform, the employee can initiate a guest invitation by providing essential details like the guest’s name, contact information, visit date, time, and purpose. The system validates the request and registers the guest with visitor management system, sends an invitation mail with arrival instructions to the guest, and notifies the reception team about their arrival. This ensures a smooth check-in experience for the guest while maintaining workplace security and operational efficiency. 
+Through the Employee Self-Service (ESS) platform, the employee can initiate a guest invitation by providing essential details like the guest’s name, contact information, visit date, time, and purpose. The system validates the request and registers the guest with visitor management system, sends an invitation mail with arrival instructions to the guest, and notifies the reception team about their arrival. This ensures a smooth check-in experience for the guest while maintaining workplace security and operational efficiency.
 
 This process involves only one step:
 
@@ -106,54 +106,48 @@ This process involves only one step:
 
 - Create a topic named **Invite a guest**
   - In Copilot Studio, select **Add a topic > From blank**.
-        :::image type="content" source="media/facilities-lobby-invite-guest-create-topic.png" alt-text="Screenshot showing how to create a topic in Copilot Studio.":::
-
-  - Once inside the topic select **Open code editor**
+  - Once inside the topic select **Open code editor**.
   - Use the code from the Copilot Samples repository and paste in the code editor:  
       <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest/topic.yaml>
   - Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction” and update the URL property as per your backend system.
   - Save the topic
+
 - Validate
   - Open the visual representation of the topic definition and validate the workflow of the topic.
   - Click on Topic Checker for any static issues with the definition.
   - Optionally, follow the below section "Validate the Topic" to understand and validate the steps.
+
 - Now, let's test the newly added topic
   - Using the **Test** button in Copilot studio, open the test chat window.
   - Invite guest using the prompt “Invite my guest to the office”. This will open an adative card where you can fill the required details like Guest Name, Purpose of visit, date and time of visit, etc.
-    :::image type="content" source="media/facilities-lobby-invite-guest-form.png" alt-text="Screenshot showing the guest invitation form in the Employee Self-Service agent.":::
   - Upon successful submission, the Employee Self-Service system will display a confirmation that the guest has been invited.
 
 ### Validate the Topic
 
 - The Trigger node will capture the topic description, which is visible from the user interface. You can use M365 copilot to fine-tune as per your requirements.
-
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-trigger.png" alt-text="Screenshot showing the trigger node configuration for the Invite a guest topic.":::
+    :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-trigger.png" alt-text="Diagram that shows the trigger node configuration where you can change the trigger description.":::
 
 - In the subsequent nodes, we enforce certain limitations - like supporting only single guest visits and supporting only new visits and not edit/cancellation of existing visits.
-  - This is optional step and to implement this, few variables are maintained based on the user query and then used in a group of conditional statements as shown in screenshot below. 
+  - This is optional step and to implement this, few variables are maintained based on the user query and then used in a group of conditional statements as shown in screenshot below.
   - If these restrictions are not required, remove them by deleting the corresponding variables and condition nodes (shown in the pictures below).
 
 - The subsequent node makes an HTTP call to the backend API to fetch all buildings; these buildings are prepopulated in the guest registration form that gets rendered in the upcoming steps. We have used HttpRequestAction component for making the HTTP call. This can be alternatively configured in several other ways described in the connectors section above.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-building.png" alt-text="Screenshot showing the HTTP request node that fetches all buildings.":::
+- In the next node, we use a Customize Response node to determine the guest visit purpose and location from the user query to auto-populate in the guest invite form. This is added for an enriched user experience; however, this is optional and the corresponding nodes can be omitted as per requirements.
 
-- In the next node, we use a bunch of Customize Response nodes to determine the guest visit purpose and location from the user query to auto-populate in the guest invite form. This is added for an enriched user experience; however, this is optional and the corresponding nodes can be omitted as per requirements.
-
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-response-instructions.png" alt-text="Screenshot showing the Customize Response nodes for visit purpose and location.":::
+    :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-response-instructions.png" alt-text="Diagram that shows the Customize Response nodes for determining visit purpose and location.":::
 
 - Verify the guest invite adaptive card with action buttons. Currently the required input parameters for creating a guest visit are - guest first name, last name, email, meeting purpose and meeting location (name of the building). Users can add or modify input fields as needed.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-adative-card.png" alt-text="Screenshot showing the adaptive card fields for the guest invitation form.":::
+    :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-adative-card.png" alt-text="Diagram that shows the adaptive card fields for the guest invitation form. Adjust the fields as required.":::
 
 - In the next step, an HTTP call is made to the backend create invite API with all the collected information forwarded with the request.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-httpnode-create.png" alt-text="Screenshot showing the HTTP request node that creates the guest invite.":::
-
-- The following steps determine if the visit creation was successful and display a message to the user accordingly. 
+- The following steps determine if the visit creation was successful and display a message to the user accordingly.
   - Upon successful submission, the Employee Self-Service (ESS) system will display a confirmation of the visit creation for the user’s guest.
   - In case the request failed due to any reason, a failure message is sent to the user. These messages can be customized by modifying the corresponding SendActivity components.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-error-handling.png" alt-text="Screenshot showing the success and failure handling nodes in the topic.":::
+    :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-error-handling.png" alt-text="Diagram that shows the handling of success and failure conditions in the topic.":::
 
 ## FAQs
 
@@ -163,25 +157,21 @@ We have used *HttpRequestAction* component for making the HTTP calls. As a start
 
 - Expand the *HttpRequestAction* node, and in the URL section click on Select variable -> Formula to update your backend API URL. Click Insert to save the URL.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest.png" alt-text="Screenshot showing the HttpRequestAction component configuration.":::
+    :::image type="content" source="media/facilities-lobby-invite-guest-httprequest.png" alt-text="Diagram that shows the HttpRequestAction component configuration for updating URL.":::
 
-- Select the appropriate http request method from the method dropdown
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-method.png" alt-text="Screenshot showing the HTTP method configuration in HttpRequestAction.":::
+- Select the appropriate http request method from the method dropdown.
 
-- Now, add the required headers, request body and error handling as per your backend API definition
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-headers-body.png" alt-text="Screenshot showing the headers and body configuration in HttpRequestAction.":::
+- Now, add the required headers, request body and error handling as per your backend API definition.
+    :::image type="content" source="media/facilities-lobby-invite-guest-httprequest-headers-body.png" alt-text="Diagram that shows the headers and body configuration in HttpRequestAction.":::
 
-- Set the appropriate Response type as per your backend contracts
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-contract.png" alt-text="Screenshot showing the response data type configuration in HttpRequestAction.":::
-
-- Save the response in a state variable to access it in the later steps
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-variable.png" alt-text="Screenshot showing how to save the API response to a state variable.":::
+- Set the appropriate Response type as per your backend contracts.
+- Save the response in a state variable to access it in the later steps.
 
 ### How are error conditions handled?
 
 Towards the end of the topic, you will see conditional branching as shown in the image below, which is used to handle errors and send the appropriate messages to the user. These can be customized, and any additional conditions can be added to the same condition group.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-conditional-branching.png" alt-text="Screenshot showing conditional branching for error handling in the topic.":::
+:::image type="content" source="media/facilities-lobby-invite-guest-conditional-branching.png" alt-text="Diagram that shows conditional branching for error handling in the topic.":::
 
 ### What should I do if I get an error message?
 
