@@ -38,9 +38,9 @@ Once you create a room or equipment mailbox, everyone in the company can reserve
 
 ## Use room and equipment mailboxes
 
-To use room or equipment mailboxes, open Outlook from your computer or sign in to Outlook on the web. Schedule a new meeting and add the room or equipment to the meeting like you would when inviting other employees or customers. You've now reserved it.
+To use room or equipment mailboxes, follow these steps to reserve the resource for a meeting or event:
 
-1. Open **Outlook** on your computer.
+1. Open **Outlook** or **Outlook on the web** on your computer.
 
 1. On the **Home** tab, choose **New items**, and then select **Meeting** from the drop-down list.
 
@@ -60,7 +60,7 @@ To use room or equipment mailboxes, open Outlook from your computer or sign in t
 
 1. Change the **Start time** and **End time**. Or, select **All day**. To make the meeting or reservation repeat, select **Recurrence** at the top.
 
-   ![Reserve meeting time.](../../media/4b72a0a6-4da2-449e-909e-85ea79f78e2c.png)
+   :::image type="content" source="../../media/4b72a0a6-4da2-449e-909e-85ea79f78e2c.png" alt-text="Screenshot of reserving a meeting time in Outlook." lightbox="../../media/4b72a0a6-4da2-449e-909e-85ea79f78e2c.png":::
 
 1. Type a message describing the purpose and attach any files if needed.
 
@@ -68,59 +68,64 @@ To use room or equipment mailboxes, open Outlook from your computer or sign in t
 
 1. To make sure the room, equipment, and people you invited are available, select **Scheduling Assistant** from the menu bar. Then select an available time in the calendar.
 
-   ![Check if room equipment available.](../../media/eb0097c6-4263-4b63-bfca-f7c03ad99b4f.png)
+   :::image type="content" source="../../media/eb0097c6-4263-4b63-bfca-f7c03ad99b4f.png" alt-text="Screenshot of checking if room or equipment is available in Outlook." lightbox="../../media/eb0097c6-4263-4b63-bfca-f7c03ad99b4f.png":::
 
    > [!TIP]
    > In the scheduling calendar, blue means the room or equipment is reserved, or busy. Select the white, or free, area on the calendar.
 
-10. When finished, select **Send**.
+1. When finished, select **Send**.
 
 ## Set up room and equipment mailboxes
 
-To set up a room or equipment mailbox, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. (You'll need to have admin permission to do this.) Create the mailbox and let everyone know they can start reserving it for meetings and events.
+To set up a room or equipment mailbox, follow these steps:
 
-1. In the admin center, go to the **Resources** \> [Rooms &amp; equipment](https://go.microsoft.com/fwlink/p/?linkid=2067334) page.
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) with an account that has appropriate permissions.
 
-2. Select **+ Add resource**.
+1. From the left navigation bar, select **… Show all**, and then select **Resources** to expand it.
 
-3. Fill out the room or equipment fields:
+1. Under **Resources**, select [**Rooms & equipment**](https://go.microsoft.com/fwlink/p/?linkid=2067334).
 
-   ![Add a room mailbox in Microsoft 365.](../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png)
+1. In the **Rooms & equipment** page, select **+ Add resource**.
 
-   - **Room** or **Equipment**: the type of mailbox you'd like to create.
+1. In the **Add resource** pane, fill out the room or equipment fields:
 
-   - **Name**: a friendly name or even short description.
+   - **Room** or **Equipment**: The type of mailbox you'd like to create.
 
-   - **Email**: the email alias of the room or equipment. This is necessary to send a meeting request to the room or equipment.
+   - **Name**: A friendly name or short description.
 
-   - **Capacity**: the number of people who can fit in the room or use the equipment at the same time.
+   - **Email**: The email alias of the room or equipment. An email address is necessary to send a meeting request to the room or equipment.
 
-   - **Location**: the room number or location of the room in a building or region.
+   - **Capacity**: The number of people who can fit in the room or use the equipment at the same time.
 
-   - **Phone number**: the number of the room itself. This is different from the meeting phone number generated when using Microsoft Teams.
+   - **Location**: The room number or location of the room in a building or region.
 
-4. Select **Save**.
+   - **Phone number**: The phone number of the room itself. This phone number is different from the meeting phone number generated when using Microsoft Teams.
 
-> [!NOTE]
+   :::image type="content" source="../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png" alt-text="Screenshot of adding a room mailbox in Microsoft 365 admin center." lightbox="../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png":::
+
+1. Select **Save**.
+
+> [!TIP]
+>
 > To keep your room and equipment mailboxes secure, block sign-in to these mailboxes. For more information, see [Block sign-in for the shared mailbox account](/office365/admin/email/create-a-shared-mailbox#block-sign-in-for-the-shared-mailbox-account).
 
 ## Common questions about room and equipment mailboxes
 
 ### How can you tell when the room or equipment is available?
 
-Open Outlook and create a new meeting. Add the room or equipment to the meeting as if it were a person and select **Scheduling Assistant** to see a live calendar view of the room or equipment's availability. If the hour slot is clear, it's available; if it's blue, it's reserved.
+Open Outlook and create a new meeting. Add the room or equipment to the meeting as if it were a person and select **Scheduling Assistant** to see a live calendar view of the room or equipment's availability. If the hour slot is clear, the slot is available. If the hour slot is blue, the slot is reserved.
 
 ### How do you cancel a room or equipment request?
 
-Open the meeting you scheduled in Outlook and then remove the room or equipment from the meeting like you would an attendee. This will free up the room for others to reserve.
+Open the meeting you scheduled in Outlook and then remove the room or equipment from the meeting like you would an attendee. Removing the room or equipment frees up the room for others to reserve.
 
 ### Does someone have to accept or decline every room or equipment request?
 
-No, you don't need someone to accept or decline requests. You can decide whether you want to let the room or equipment be automatically booked or managed by someone in your company.
+No, you don't need someone to accept or decline requests. You can decide whether to let someone in your company automatically book or manage the room or equipment.
 
 ### Does a room mailbox or equipment mailbox need a product license?
 
-No. While most people in your organization need a license to use Microsoft 365, you don't need to assign a license to a room mailbox or equipment mailbox, in case the resource mailbox doesn't need to have a size bigger than 50 GB, or, in case some features aren't needed (Retention policies from Security and Compliance, or, Hold from Exchange Online), or, in case the resource mailbox doesn't need an Online Archive attached to it.
+No. Room and equipment mailboxes are considered resource mailboxes. While most users in your organization need a license to use Microsoft 365, you don't need to assign a license for a room mailbox or equipment mailbox. For more information, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits?source=docs).
 
 ### Do I need an owner in charge of booking the rooms or equipment?
 
