@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 04/02/2026
+ms.date: 04/08/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -59,6 +59,13 @@ The capabilities described in this article require:
 - [SharePoint Advanced Management](/sharepoint/advanced-management) (included with Copilot licenses)
     
 ### Admin roles
+
+:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png" alt-text="Table depicting required admin roles for portals.":::
+
+For more information, see the following articles:
+
+- [Overview of the Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview)
+- [About the SharePoint Administrator role in Microsoft 365](/sharepoint/sharepoint-admin-role)
 
 You need access to the following admin portals and permissions:
 
