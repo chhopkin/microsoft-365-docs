@@ -64,7 +64,7 @@ The capabilities described in this article require:
     
 ### Admin roles
 
-:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png" alt-text="Table depicting required admin roles for portals.":::
+:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png" alt-text="Table depicting required admin roles for portals." lightbox="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png":::
 
 For more information, see the following articles:
 
@@ -199,4 +199,3 @@ After completing the steps in this article:
 
 1. Educate site owners and users on labeling, sharing, and responsible Copilot use. (See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).)
 
-:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png" alt-text="":::
