@@ -23,7 +23,7 @@ appliesto:
 
 Security is foundational to Microsoft's approach to Microsoft 365 Copilot. This article explains how Microsoft secures Copilot and how it inherits Microsoft 365 security, compliance, and privacy protections.
 
-:::image type="content" source="media/security-microsoft-365-copilot/microsoft-secures-copilot.png" alt-text="Diagram depicting ways Microsoft secures Microsoft 365 Copilot.":::
+:::image type="content" source="media/security-microsoft-365-copilot/microsoft-secures-copilot.png" alt-text="Diagram depicting ways Microsoft secures Microsoft 365 Copilot." lightbox="media/security-microsoft-365-copilot/microsoft-secures-copilot.png":::
 
 > [!NOTE]
 > This article describes Microsoft's security approach for Microsoft 365 Copilot. It doesn't include deployment or data‑readiness steps.
