@@ -33,7 +33,7 @@ Some scenarios that this extensibility to Employee Self-Service is helping us po
 - Create a Facilities Ticket, for example, "I want to report a water leak"
 - Register a Vehicle, for example, "I want to register my vehicle Tesla Model 3"
 - View food stations or counters by cuisine, for example, "Where can I find Chinese food?"
-- Invite a Guest, e.g. "I want to invite my spouse to Building 32".
+- Invite a Guest, for example "I want to invite my spouse to Building 32".
 
 In the following section, we will see how a maker in Copilot Studio can extend Employee Self-Service to support the above scenarios. But before we dive into the maker experience, let’s understand what real estate and facilities are and how they support employees.
 
@@ -109,7 +109,7 @@ This process involves only one step:
   - Once inside the topic select **Open code editor**.
   - Use the code from the Copilot Samples repository and paste in the code editor:  
       <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest/topic.yaml>
-  - Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction” and update the URL property as per your backend system.
+  - Update the HTTP API URL in the code sample. Search for "kind: HttpRequestAction" and update the URL property as per your backend system.
   - Save the topic
 
 - Validate
@@ -119,7 +119,7 @@ This process involves only one step:
 
 - Now, let's test the newly added topic
   - Using the **Test** button in Copilot studio, open the test chat window.
-  - Invite guest using the prompt “Invite my guest to the office”. This will open an adative card where you can fill the required details like Guest Name, Purpose of visit, date and time of visit, etc.
+  - Invite guest using the prompt "Invite my guest to the office". This will open an adative card where you can fill the required details like Guest Name, Purpose of visit, date and time of visit, etc.
   - Upon successful submission, the Employee Self-Service system will display a confirmation that the guest has been invited.
 
 ### Validate the Topic
@@ -127,21 +127,19 @@ This process involves only one step:
 - The Trigger node will capture the topic description, which is visible from the user interface. You can use M365 copilot to fine-tune as per your requirements.
     :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-trigger.png" alt-text="Diagram that shows the trigger node configuration where you can change the trigger description.":::
 
-- In the subsequent nodes, we enforce certain limitations - like supporting only single guest visits and supporting only new visits and not edit/cancellation of existing visits.
+- In the next few nodes, we enforce certain limitations - like supporting only single guest visits and supporting only new visits and not edit/cancellation of existing visits.
   - This is optional step and to implement this, few variables are maintained based on the user query and then used in a group of conditional statements as shown in screenshot below.
   - If these restrictions are not required, remove them by deleting the corresponding variables and condition nodes (shown in the pictures below).
 
-- The subsequent node makes an HTTP call to the backend API to fetch all buildings; these buildings are prepopulated in the guest registration form that gets rendered in the upcoming steps. We have used HttpRequestAction component for making the HTTP call. This can be alternatively configured in several other ways described in the connectors section above.
+- In the next node, we make an HTTP call to the backend API to fetch all buildings; these buildings are prepopulated in the guest registration form that gets rendered in the upcoming steps. We have used HttpRequestAction component for making the HTTP call. This can be alternatively configured in several other ways described in the connectors section above.
 
 - In the next node, we use a Customize Response node to determine the guest visit purpose and location from the user query to auto-populate in the guest invite form. This is added for an enriched user experience; however, this is optional and the corresponding nodes can be omitted as per requirements.
-
     :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-response-instructions.png" alt-text="Diagram that shows the Customize Response nodes for determining visit purpose and location.":::
 
 - Verify the guest invite adaptive card with action buttons. Currently the required input parameters for creating a guest visit are - guest first name, last name, email, meeting purpose and meeting location (name of the building). Users can add or modify input fields as needed.
-
     :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-adative-card.png" alt-text="Diagram that shows the adaptive card fields for the guest invitation form. Adjust the fields as required.":::
 
-- In the next step, an HTTP call is made to the backend create invite API with all the collected information forwarded with the request.
+- In the next node, an HTTP call is made to the backend create invite API with all the collected information forwarded with the request.
 
 - The following steps determine if the visit creation was successful and display a message to the user accordingly.
   - Upon successful submission, the Employee Self-Service (ESS) system will display a confirmation of the visit creation for the user’s guest.
