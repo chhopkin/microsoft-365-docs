@@ -272,24 +272,22 @@ items:
            items:
             - name: Agent management overview
               href: manage/agent-365-overview.md
-            - name: Agent inventory and actions
+            - name: Manage agent inventory
               items:
-              - name: Manage agent inventory
-                items:
-                - name: Agent registry
-                  href: manage/agent-registry.md
-                - name: Agent map
-                  href: manage/agent-map.md
-                - name: Agent requests
-                  href: manage/agent-requests.md                  
-                - name: Agent details
-                  href: manage/agent-details.md
-              - name: Manage agent actions
-                href: manage/agent-actions.md           
-              - name: Manage agent instances
-                href: manage/manage-agent-instances.md  
-              - name: Manage connected agents
-                href: manage/manage-connected-agents-for-researcher.md
+              - name: Agent registry
+                href: manage/agent-registry.md
+              - name: Agent map
+                href: manage/agent-map.md
+              - name: Agent requests
+                href: manage/agent-requests.md                  
+              - name: Agent details
+                href: manage/agent-details.md
+            - name: Manage agent actions
+              href: manage/agent-actions.md           
+            - name: Manage agent instances
+              href: manage/manage-agent-instances.md  
+            - name: Manage connected agents
+              href: manage/manage-connected-agents-for-researcher.md
             - name: Agent tools 
               href: manage/manage-tools-for-agent.md
             - name: Agent tenant settings
