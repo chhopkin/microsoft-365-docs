@@ -34,7 +34,7 @@ appliesto:
 
 This article guides you through preparing, securing, and managing Microsoft 365 Copilot using the process depicted in the following diagram: 
 
-:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/remediate-guardrails-regulations.png" alt-text="Diagram depicting the three main steps to configuring a secure foundation for Copilot.":::
+:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/remediate-guardrails-regulations.png" alt-text="Diagram depicting the three main steps to configuring a secure foundation for Copilot." lightbox="media/configure-secure-governed-data-foundation-microsoft-365-copilot/remediate-guardrails-regulations.png":::
 
 By following these steps, you can help Copilot deliver accurate and relevant results while supporting your organization's security, compliance, and regulatory requirements. 
 
@@ -199,3 +199,4 @@ After completing the steps in this article:
 
 1. Educate site owners and users on labeling, sharing, and responsible Copilot use. (See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).)
 
+:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png" alt-text="":::
