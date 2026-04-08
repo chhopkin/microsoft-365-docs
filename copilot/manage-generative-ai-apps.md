@@ -52,7 +52,7 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
 
 ## Use DSPM for AI to discover and manage AI app usage
 
-:::image type="content" source="media/manage-generative-ai-apps/use-dspm-for-ai-to-discover-manage-ai-app-usage.png" alt-text="Diagram depicting DSPM for AI capabilities and uses.":::
+:::image type="content" source="media/manage-generative-ai-apps/use-dspm-for-ai-to-discover-manage-ai-app-usage.png" alt-text="Diagram depicting DSPM for AI capabilities and uses." lightbox="media/manage-generative-ai-apps/use-dspm-for-ai-to-discover-manage-ai-app-usage.png":::
 
 DSPM for AI provides your security and compliance team to discover AI activity, protect data in AI prompts, and govern data handling. [Learn more about DSPM for AI](/purview/dspm-for-ai?tabs=m365).
 
@@ -86,7 +86,7 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 
 ### Create a policy to monitor AI apps
 
-:::image type="content" source="media/manage-generative-ai-apps/create-policy-monitor-ai-apps.png" alt-text="Diagram depicting how to create a policy to monitor AI apps.":::
+:::image type="content" source="media/manage-generative-ai-apps/create-policy-monitor-ai-apps.png" alt-text="Diagram depicting how to create a policy to monitor AI apps." lightbox="media/manage-generative-ai-apps/create-policy-monitor-ai-apps.png":::
 
 Make sure to review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites). Also see [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies).
 
@@ -101,7 +101,7 @@ Create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-cr
 
 ### Create a policy to block specific AI apps
 
-:::image type="content" source="media/manage-generative-ai-apps/create-policy-block-specific-ai-apps.png" alt-text="Diagram depicting the steps to create a policy to block specific AI apps.":::
+:::image type="content" source="media/manage-generative-ai-apps/create-policy-block-specific-ai-apps.png" alt-text="Diagram depicting the steps to create a policy to block specific AI apps." lightbox="media/manage-generative-ai-apps/create-policy-block-specific-ai-apps.png":::
 
 Make sure to review the articles [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies) and [Create app governance policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies).
 
