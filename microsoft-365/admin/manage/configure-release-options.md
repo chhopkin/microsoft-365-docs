@@ -72,9 +72,6 @@ You must have one of the following roles in Microsoft 365 admin center to config
 - Security Admin
 - AI Admin
 
-> [!NOTE]
-> Standard and deferred release channels aren’t currently available for GCC, GCC High, and DoD cloud environments. Check this article for updates regarding future support.
-
 ## Release option best practices
 
 We recommend that you use the release options in the following ways to balance early access with organizational readiness:

@@ -31,34 +31,18 @@ With new and modern change management solutions, IT admins can enable their orga
 
 This modern change management model for Microsoft 365 helps your organization stay on top of major updates in the following ways:
 
-- Connect AI tools to the MRC MCP Server to instantly access trusted, up-to-date Microsoft 365 and Azure feature release information using natural language
-- Use AI‑powered access to Message center and Service Health insights to streamline identification of changes and issues and help teams act with clearer context
-- Manage how your org experiences **major** feature updates  
-- Control feature delivery by using audience-based release phases aligned to your organization’s workflows
-- Configure general availability release settings in the Microsoft 365 admin center based on your organizational readiness for new features with Standard or Deferred release options
-- Opt into the release of new features for testing before releasing to the rest of your organization with [Microsoft Frontier Program](https://www.microsoft.com/microsoft-365-copilot/frontier-program)
+- Configure general availability release preferences in the Microsoft 365 admin center by assigning users to:
+  - **Standard release** – users receive fully supported features as they reach GA
+  - **Deferred release** – users receive eligible GA features later to allow additional preparation time
+- Use **audience-based release phases** to control when different users receive new features, helping you align rollout timing with organizational readiness, workflows, and risk tolerance.
+- Opt select users into the **Frontier program** to access and test new experiences before they reach general availability (GA) enabling early experimentation and feedback prior to broader rollout.
 - Easily understand feature updates with new Message center enhancements, such as:
-  - New **Timing of change** column allows you to sort and filter posts by when a rollout is planned
+  - New **Timing of change** column allows you to sort and filter posts by when a rollout is planned.
   - Feature update announcements at the time of availability
   - Bullet point summaries that present key information in a clear, scannable format
   - Embedded links that connect to curated supplemental resources
-  - Purpose-specific post structure to explain impact and actions to take (including for compliance)
-- Track upcoming changes with the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) to understand planned features and expected timing
-
-## Communication channels for Microsoft 365 updates
-
-The following table shows various communication channels we have that you can use to help manage change:
-
-| Communication channel | Description | Documentation |
-| ----- | ----- | ----- |
-| Microsoft 365 Roadmap | - Understand what features are coming, when they’re expected to release, and which environments they apply to.<br/>- Provides early planning signals that complement Message center announcements and supports proactive change management across Microsoft 365. | [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) |
-| Message center | - Learn about official service announcements and feature changes.<br/>- Read these messages in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email.<br/>- Share these messages with others in your organization when you see a message someone else should act on. | [Message center in the Microsoft 365 admin center](message-center.md) |
-
-## Enable AI clients to retrieve product release information with MRC MCP server
-
-AI-enabled organizations use intelligent tooling to accelerate their internal processes. By integrating the MRC MCP Server with your AI tools, you can connect to the latest release information for Microsoft 365 and Azure updates to create the infrastructure for AI-assisted reasoning over upcoming changes, priorities, and business impact.
-
-For information on how to start using MRC MCP server, see [Get started with Release Communications MCP Server](mrc-mcp.md).
+  - Purpose-specific post structure to explain impact and actions to take (including compliance)
+- Connect AI tools to the **Microsoft Release Communications (MRC) Model Context Protocol (MCP) Server** to instantly access trusted, up-to-date Microsoft 365 and Azure feature release information using natural language
 
 ## Customize your organization’s release experience for Microsoft 365
 
@@ -94,6 +78,12 @@ Enhance your organization’s ability to deliver timely, relevant, and actionabl
 
 For more details on the updated layout and information on keeping track of changes using the Microsoft 365 Message center, see [Message center in the Microsoft 365 admin center](message-center.md).
 
+## Enable AI clients to retrieve product release information with MRC MCP server
+
+AI-enabled organizations use intelligent tooling to accelerate their internal processes. By integrating the MRC MCP Server with your AI tools, you can connect to the latest release information for Microsoft 365 and Azure updates to create the infrastructure for AI-assisted reasoning over upcoming changes, priorities, and business impact.
+
+For information on how to start using MRC MCP server, see [Get started with Release Communications MCP Server](mrc-mcp.md).
+
 ## Modern change management development
 
 This is the first step in our modernization change management journey. Not all Microsoft 365 workloads are available in this new model. We’re starting with Microsoft 365 Copilot. Existing and legacy change management tools and methodologies can still be used for these experiences.
@@ -101,6 +91,15 @@ This is the first step in our modernization change management journey. Not all M
 | Modern change management | Legacy change management |
 | ----- | ----- |
 | - [Modern change management - Overview](plan-for-change-management.md) <br/> - [Configure modern release options](configure-release-options.md) <br/> - FAQ – release options <br/> - [Release Communications MCP server](mrc-mcp.md) <br/> - [Message Center](message-center.md) <br/> - [FAQ – Message Center](message-center-faq.md) | - [Set up the Standard or Targeted release options](release-options-in-office-365.md) <br/> - [Microsoft 365 change guide - Microsoft 365 Apps](/microsoft-365-apps/best-practices/microsoft-365-change-guide) <br/> - [Stay on top of changes](stay-on-top-of-updates.md) |
+
+## Communication channels for Microsoft 365 updates
+
+The following table shows various communication channels we have that you can use to help manage change:
+
+| Communication channel | Description | Documentation |
+| ----- | ----- | ----- |
+| Microsoft 365 Roadmap | - Understand what features are coming, when they’re expected to release, and which environments they apply to.<br/>- Provides early planning signals that complement Message center announcements and supports proactive change management across Microsoft 365. | [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) |
+| Message center | - Learn about official service announcements and feature changes.<br/>- Read these messages in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email.<br/>- Share these messages with others in your organization when you see a message someone else should act on. | [Message center in the Microsoft 365 admin center](message-center.md) |
 
 ## Related articles
 
