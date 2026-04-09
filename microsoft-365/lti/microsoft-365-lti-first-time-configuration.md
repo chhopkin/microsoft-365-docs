@@ -2,7 +2,7 @@
 title: Microsoft 365 LTI First Time Configuration
 description: Learn about the first time configuration of Microsoft 365 LTI
 ms.date: 01/14/2026
-last.review.date: 01/14/2026
+last.review.date: 04/09/2026
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
