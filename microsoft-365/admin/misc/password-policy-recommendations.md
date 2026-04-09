@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 01/02/2026
+ms.date: 04/08/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-admin
@@ -40,7 +40,7 @@ For more information on using Entra ID for help with passwords, see [Eliminate b
 
 Good password practices fall into a few broad categories:
   
-- **Resisting common attacks**: This involves the choice of where users enter passwords (known and trusted devices with good malware detection, validated sites), and the choice of what password to choose (length and uniqueness).
+- **Resisting common attacks**: This practice involves choosing where users enter passwords (known and trusted devices with good malware detection, validated sites), and the what passwords to use (length and uniqueness).
 
 - **Containing successful attacks**: Containing successful hacker attacks is about limiting exposure to a specific service, or preventing that damage altogether, if a user's password gets stolen. For example, ensuring that a breach of your social networking credentials doesn't make your bank account vulnerable, or not letting a poorly guarded account accept reset links for an important account.
 
