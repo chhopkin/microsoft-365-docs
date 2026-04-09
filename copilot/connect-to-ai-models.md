@@ -67,6 +67,6 @@ Your organization may decide that it no longer wants users to be able to access 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
 2. On the **Settings** page, select **All**.
 3. Select **AI providers for other large language models**.
-4. Under **Available models for your organization**, choose **xAI**and select **Block provider**.
+4. Under **Available models for your organization**, choose **xAI** and select **Block provider**.
 
 Once you disconnect xAI, users can't use xAI's AI models. After completing the steps to disconnect xAI in Microsoft 365, it may take several hours for the service to be fully disabled for your users.
