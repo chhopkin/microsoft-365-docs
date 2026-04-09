@@ -153,7 +153,7 @@ Users in your organization can use the Agent Builder feature in Microsoft 365 Co
 
 Agent Builder is available to users with a Microsoft 365 Copilot license or in tenants with pay-as-you-go enabled for Copilot Studio. Agent capabilities vary depending on the organization's billing model. For information about network requirements for Agent Builder, see [Network requirements](/microsoft-365/copilot/extensibility/agent-builder#network-requirements).
 
-For more information, see [Agent Builder](/microsoft-365/copilot/extensibility/agent-builder).
+For more information about Agent Builder, see [Agent Builder](/microsoft-365/copilot/extensibility/agent-builder).
 
 ### Copilot Studio
 
