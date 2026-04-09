@@ -37,17 +37,17 @@ search.appverid:
 The agent registry in [Microsoft 365 admin center](https://admin.microsoft.com/) provides a centralized view of all agents available for your organization. This list helps you monitor, manage, and govern agents your inventory of agents available for your organization.
 
 The agent **Registry** lists all agents that are available to your organization, including:
-- **Microsoft agents** - Built and maintained by Microsoft.
-- **External partner-built agents** - Built by trusted non-Microsoft developers.
-- **Shared by creator** - Agents created and shared by individual users or developers in your organization.
-- **Published by your org** - Custom agents approved and published by your organization for broader use.
-
-The agent **Registry** provides quick details about the agents your organization has available:
-- **Total agents** - 
-- **Agents without owners** -
-- **Blocked agents** - 
+- **Microsoft agents** - Built and maintained by Microsoft, such as Researcher and Analyst.
+- **External partner-built agents** - Built by trusted non-Microsoft developers and published for broader or public availability.
+- **Published by your org** - Custom agents approved and published by your organization for broader use. These agents may be referred to as LOB (Line of Business) agents.
+- **Shared by creator** - Agents created and shared by individual users or developers in your organization. These agents are commonly referred to as Shared agents.
 
 :::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing the agent list which provides an inventory of agent in the Microsoft 365 admin center." lightbox="../../media/agents/agent-registry.png":::
+
+The agent **Registry** provides quick details about the agents your organization has available:
+- **Total agents** - The number of agents available in your organization's tenant.
+- **Agents without owners** - The number of agents that no longer have owners at your organization.
+- **Blocked agents** - The number of agents that have been block from members of your organization.
 
 To view the agent registry:
 
@@ -58,9 +58,9 @@ To view the agent registry:
 
 You can filter the agent list based on the following criteria:
 - **Status** - 
-- **Publisher** -
+- **Publisher** - The publisher filter indicates who owns and distributes the agent, rather than where or how it was built. This filter is primarily used to distinguish between Microsoft agents, external partner-built agents, and internally owned agents publish by your organization.
 - **Channel** -
-- **Platform** -
+- **Platform** - The platform filter indicates which platform or product was used to create the agent. 
 - **Data source** -
 
 > [!TIP]

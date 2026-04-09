@@ -36,9 +36,15 @@ search.appverid:
 
 Agents are powerful AI companions that can handle a range of interactions and tasks. An agents can resolve issues that require complex conversations and autonomously determine the best action to take based on its instructions and context. It coordinates language models, along with instructions, context, knowledge sources, topics, tools, inputs, and triggers to accomplish your goals. Your organization can use agents in multiple languages across websites, mobile apps, Facebook, Microsoft Teams, and other any supported channels.
 
-Using [Microsoft 365 admin center](https://admin.microsoft.com/), you can manage your agent inventory, lifecycle, and tools. You can manage agents individually, and you can manage the global agent settings for your organization's tenant.
+The Agent workload within [Microsoft 365 admin center](https://admin.microsoft.com/) allows you to view a summary of agents that you manage, deploy, and monitor at your organization. It provides usage and insights that are to monitor agent adoption and governance. The Agent workload serves as the grounding control plane for all agents managed at your organization.
 
-The **Agent overview** allows you to view a summary of agents that you manage, deploy, and monitor at your organization within [Microsoft 365 admin center](https://admin.microsoft.com/). It provides usage and insights that are to monitor agent adoption and governance. The **Agent overview** serves as the grounding control plane for all agents managed at your organization.
+Additionally, you can use the Agent workload to do the following tasks:
+- Discover and review the agents that exist in your organization's tenant
+- Understand who published and owns each agent
+- Control availability and access to each agent
+- Apply agent governance and policy decisions consistently across channels
+
+:::image type="content" source="../../media/agents/agent-overview.png" alt-text="Screenshot showing the agent workload in Microsoft 365 admin center, which provides management controls and details for agents within your organization's tenant." lightbox="../../media/agents/agent-overview.png":::
 
 > [!IMPORTANT]
 > Certain features are available within [Microsoft 365 admin center](https://admin.cloud.microsoft/) based on your license. If you have a **Microsoft Agent 365** license, you will see the **Agent 365** branding and additional agent related features and details, such as the agent inventory **Map**. To view your licensed subscriptions in the [Microsoft 365 admin center](https://admin.cloud.microsoft/), select **Billing** > **Licenses** > **Subscrptions**.
@@ -58,12 +64,16 @@ You can access the **Agent overview** using the following steps:
 2. Select **Agents** > **Overview**.
    The **Agent overview** pane is displayed.
 
-## Agent management roles
+## Agent management roles and permissions
 
-The following administrator roles can manage agents in the Microsoft 365 admin center:
-- AI Admin
+Access to agent management in Microsoft 365 admin center is controlled by [Microsoft Entra admin roles](/entra/identity/role-based-access-control/permissions-reference). 
+
+The following roles can manage agents in the Microsoft 365 admin center:
+- AI Administrator
 - Global Reader (view-only, no edit)
 - Global Administrator
+
+These **AI Administrator** and **Global Administrator** roles have tenant‑wide visibility and governance authority, where-as by contrast, product-specific admin roles allow governance only within the boundaries of their products (such as Power Platform Administrator and Fabric Administrator).
 
 > [!IMPORTANT]
 >
