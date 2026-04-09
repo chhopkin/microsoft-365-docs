@@ -1,6 +1,6 @@
 ---
-title: Agent Registry in the Microsoft 365 admin center
-description: Learn how to use Agent Registry in the Microsoft 365 admin center to manage, govern, and audit agents across your organization. Get started.
+title: Agent Registry in Microsoft 365 admin center
+description: Learn how to use Agent Registry in the Microsoft 365 admin center to manage, govern, and audit agents across your organization.
 #customer intent: Learn about the Agent Registry in the Microsoft 365 admin center.
 f1.keywords:
 - NOCSH
@@ -49,7 +49,7 @@ The agent **Registry** provides quick details about the agents your organization
 - **Agents without owners** - The number of agents that no longer have owners at your organization.
 - **Blocked agents** - The number of agents that have been block from members of your organization.
 
-To view the agent registry:
+## View the agent registry
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
