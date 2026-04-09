@@ -69,6 +69,8 @@ Before your users can access Frontier agents, make sure that agent types are app
 > [!NOTE]
 > You can manage access for specific agents for specific users or groups. For more information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings).
 >
+> The Frontier admin control does not override the settings configured in the Agent section of the admin center. If an admin has disabled a Frontier agent in the Agent view, that agent won't be available to users, regardless of a user’s Frontier enrollment.
+>
 > You can also manage the agents that show up in the Agent Store. For more information, see [Set up Agent Store in Microsoft 365 Copilot](/microsoft-365/copilot/copilot-agent-store).
 
 > [!IMPORTANT]
