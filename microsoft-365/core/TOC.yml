@@ -957,7 +957,7 @@
         - name: Set up release options
           href: ../admin/manage/release-options-in-office-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Microsoft 365 change guide
-          href: ../microsoft-365-apps/best-practices/microsoft-365-change-guide.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+          href: /microsoft-365-apps/best-practices/microsoft-365-change-guide.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Managing update channels for Microsoft 365 Apps
           href: /microsoft-365-apps/updates/overview-update-channels?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Manage Microsoft 365 with PowerShell
