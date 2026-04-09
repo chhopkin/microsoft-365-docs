@@ -1,7 +1,7 @@
 ---
 title: "Use Copilot Cowork (Frontier)"
 description: "Learn how to have conversations, manage files, approve actions, and organize projects with Copilot Cowork in Microsoft 365 Copilot."
-ms.date: 04/03/2026
+ms.date: 04/07/2026
 ms.topic: how-to
 author: leeclontz
 manager: KumarVivek
@@ -29,7 +29,7 @@ The Cowork home page has a chat input where you can type or speak your request. 
 
 1. Go to the Cowork home page. You see a set of suggested prompts such as **Catch me up**, **Organize my inbox**, **Organize my week**, **Prep for a meeting**, **Plan an event**, **Prepare for my 1:1**, and **Research a company**. Select one to get started quickly, or continue with the steps below.
 1. Select the chat input field.
-1. Type your message or instruction. You can enter up to 16,000 characters.
+1. Type your message or instruction. You can enter up to 250,000 characters.
 1. Submit your message by pressing **Enter** or selecting the **Send** button.
 
 ### Attach files
@@ -147,7 +147,7 @@ When Cowork creates or updates files during a conversation, you can grab them fr
 1. To save the file to your device, select **Download**.
 
 > [!TIP]
-> When Cowork produces multiple output files, select **Download All** at the top of the output file list to download every file as a single zip archive.
+> When Cowork produces multiple output files, select **Download All** at the top of the output file list to download every file as a single zip archive. The archive can include up to 50 files and 500 MB total.
 
 > [!NOTE]
 > You can also access files that Cowork creates directly in your OneDrive **Cowork** folder at any time.
@@ -181,8 +181,10 @@ You can preview many file types directly inside Cowork. You don't need to downlo
 The following file types can be previewed directly:
 
 - **PDF**: Renders inline with page navigation. Use **Ctrl+F** to search within the document.
+- **Office documents**: Word, Excel, and PowerPoint files open in an Office Online preview.
 - **CSV**: Displays as a formatted table.
 - **Markdown**: Renders with full formatting.
+- **Code files**: Displays with syntax highlighting (JSON, JavaScript, TypeScript, Python, Java, C, C++, Go, Rust, Ruby, and others).
 - **Images**: Displays inline (png, jpg, jpeg, gif, webp, bmp, svg, ico).
 - **HTML**: Renders in the preview pane.
 - **Email**: Opens email references in a side-by-side preview panel.
@@ -331,6 +333,8 @@ You can extend Cowork with your own custom skills stored in OneDrive.
 You can schedule a prompt to run automatically on a recurring basis. To create a scheduled prompt, describe what you want and when in your message. For example, "Send me a daily briefing every morning at 9 AM" or "Create a weekly status report every Friday."
 
 Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel. From there, you can edit, pause, resume, or delete any scheduled prompt.
+
+When you activate a draft scheduled prompt, Cowork asks whether to **Activate and run now** (starts immediately so you can watch and approve actions) or **Activate** (the first run happens at the next scheduled time). You can create up to 5 scheduled prompts.
 
 ## Provide feedback
 

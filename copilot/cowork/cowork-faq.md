@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork common questions (Frontier)"
 description: "Frequently asked questions about Copilot Cowork in Microsoft 365 Copilot."
-ms.date: 04/03/2026
+ms.date: 04/07/2026
 ms.topic: faq
 author: leeclontz
 manager: KumarVivek
@@ -49,7 +49,7 @@ Getting started takes just a few steps.
 
 1. Open  [Microsoft 365 Copilot](https://m365.cloud.microsoft).
 2. Select **Cowork**.
-3. Describe the task you want to accomplish. You can type up to 16,000 characters and attach files by dragging them into the chat or using the file picker.
+3. Describe the task you want to accomplish. You can type up to 250,000 characters and attach files by dragging them into the chat or using the file picker.
 4. Send your message. Cowork begins processing your request.
 
 ## Does Cowork work on mobile devices?
@@ -79,10 +79,13 @@ You can attach a wide variety of files to your conversations. Cowork supports th
 Yes. You can preview the following file types directly in the conversation:
 
 - PDF
+- Office documents (Word, Excel, PowerPoint)
 - CSV
 - Markdown
+- Code files (with syntax highlighting)
 - Images
 - HTML
+- Email
 
 Select a file to open an inline preview. You can also go full-screen or open the file in its native app.
 

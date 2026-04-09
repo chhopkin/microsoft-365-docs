@@ -451,6 +451,8 @@ items:
         items:
         - name: Overview of Copilot Cowork
           href: cowork/index.md
+        - name: What's new
+          href: cowork/whats-new.md
         - name: Get started
           href: cowork/get-started.md
         - name: Use Copilot Cowork
