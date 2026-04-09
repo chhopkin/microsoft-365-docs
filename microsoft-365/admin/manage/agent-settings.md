@@ -4,10 +4,10 @@ description: Agent settings in Microsoft 365 admin center.
 #customer intent:
 f1.keywords:
 - NOCSH
-ms.author: frankroj
-author: frankroj
+ms.author: erikre
+author: ErikRe
 manager: scotv
-ms.date: 04/07/2026
+ms.date: 04/09/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -52,9 +52,7 @@ These settings allow you to customize agent behavior, control access, and mainta
 
 :::image type="content" source="../../media/agents/agent-settings.png" alt-text="Screenshot showing the Agent settings page in the Microsoft 365 admin center." lightbox="../../media/knowledge-agent-idea.png":::
 
-## Detailed settings
-
-### Allowed agent types
+## Allowed agent types
 
 **Allowed agent types** allows control of which types of agents users can view and install from the agent catalog. You can select from the following options:
 
@@ -71,23 +69,7 @@ These settings allow you to customize agent behavior, control access, and mainta
 > - If you disable an option, agents of that type don't appear for users in the Agent store.
 > - Agents built by Microsoft are visible to users even if the setting is disabled. Users aren't able to install those agents.
 
-### Sharing
-
-**Sharing** allows defining who can share agents within your organization and how sharing works.
-
-Options include:
-
-- **Allow all users to share with anyone in the organization** - All users can share their agents with others in your tenant.
-
-- **No users can share with anyone in the organization** - Sharing is disabled at the org level, but users can still share directly with specific individuals.
-
-- **Allow specific groups of users to share with anyone in the organization** - Restrict broad sharing permissions to designated groups.
-
-Only agents built with **Agent Builder** are governed by sharing control.
-
-:::image type="content" source="../../media/agents/sharing.png" alt-text="Screenshot of Shared settings." lightbox="../../media/knowledge-agent-idea.png":::
-
-### Templates
+## Security templates
 
 To enhance governance and security for agents, you can apply a template that includes predefined policies:
 
@@ -104,7 +86,7 @@ To enhance governance and security for agents, you can apply a template that inc
 >
 > When an agent is activated or published, a dropdown menu displays both Microsoft default templates. Select the desired template to apply its policies to the agent.
 
-#### Custom templates
+### Custom templates
 
 To create custom template, follow these steps:
 
@@ -127,7 +109,23 @@ To create custom template, follow these steps:
 
 When an agent is being activated or published, a dropdown menu with both your custom templates and Microsoft's default templates is displayed. To apply its policies to the agent, select the desired template from the list.
 
-### User access
+## Sharing
+
+**Sharing** allows defining who can share agents within your organization and how sharing works.
+
+Options include:
+
+- **Allow all users to share with anyone in the organization** - All users can share their agents with others in your tenant.
+
+- **No users can share with anyone in the organization** - Sharing is disabled at the org level, but users can still share directly with specific individuals.
+
+- **Allow specific groups of users to share with anyone in the organization** - Restrict broad sharing permissions to designated groups.
+
+Only agents built with **Agent Builder** are governed by sharing control.
+
+:::image type="content" source="../../media/agents/sharing.png" alt-text="Screenshot of Shared settings." lightbox="../../media/knowledge-agent-idea.png":::
+
+## User access
 
 **User access** allows control of how members of your organization access and install agents.
 

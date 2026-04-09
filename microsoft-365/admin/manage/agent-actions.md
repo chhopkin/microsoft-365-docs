@@ -41,18 +41,18 @@ Administrators in the Microsoft 365 admin center can take several actions to con
 > [!NOTE]
 > Microsoft 365 for government Community Cloud High (GCCH) and Government Community Cloud Moderate (GCCM) environments support publishing agents to the organization.
 
-- **Install**
+- **Install** - Make an agent available for installation to specific users or groups.
 - **Deploy** - Automatically install an agent for users so it's ready to use without manual setup.
-- **Publish** - Make an agent available for installation to specific users or groups.
+- **Publish** - Add the agent to your organizational catalog in the Agent Store so that members of your organization can install it.
+- **Reject** - Prevent an agent from being published or made available to members of your organization.
 - **Approve Updates** - Review and approve new versions or changes to existing agents before they're deployed.
 - **Block and unblock** - Restrict access to an agent across the organization, preventing any user from using it.
 - **Remove** - Remove an agent from the tenant's inventory. You can re-add it later from the store if needed.
 - **Delete** - Delete agents directly from the Microsoft 365 admin center. When you delete an agent, Microsoft 365 removes the agent from the inventory and deletes all associated files.
 - **Manage Ownerless Agents** - Identify agents without an active owner and take action to block or remove them. For more information, see [Manage Ownerless Agents]().
 - **Reassign** - Assign a new owner to agents that are ownerless or active.
-- **Export Inventory** - Download the full list of agents for reporting, audit, or compliance purposes.
-- **Connect agents**
-
+- **Activate** - 
+- **Connect agents** - 
 - **Create instance** - Allow only selected users or groups to install the agent and create instances.
 the tenant.
 
@@ -154,8 +154,7 @@ You can find the details of all types of permissions in the **Permissions** tab 
 
 1. In the agent details pane that opens, select the **Permissions** tab to view all the permissions granted to the agent.
 
-    :::image type="content" source="../../media/manage-agents-permissions/agent-permissions.png" alt-text="Screenshot showing the Permissions tab on the agent details page in the Microsoft 365 admin center." lightbox="../../media/manage-agents-permissions/agent-permissions.png":::
-
+    :::image type="content" source="../../media/agents/agent-permissions.png" alt-text="Screenshot showing the Permissions tab on the agent details page in the Microsoft 365 admin center." lightbox="../../media/agents/agent-permissions.png":::
 
 
 ## Block or unblock agents
