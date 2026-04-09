@@ -28,16 +28,21 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet
-description: "Create distribution groups or lists in the Microsoft 365 admin center so you can send emails to a group without typing each recipient's name."
+description: Create distribution groups or lists in the Microsoft 365 admin center so you can send emails to a group without typing each recipient's name.
 ---
 
 # Create distribution groups in the Microsoft 365 admin center
 
-Check out all of our small business content on [Small business help & learning](https://go.microsoft.com/fwlink/?linkid=2224585).
+Use distribution lists, also known as distribution groups, when you want to send email to a group of people without having to type each individual recipient's name. Distribution lists can be organized by:
 
-Use distribution lists (sometimes called distribution groups) when you want to send email to group of people without having to type each individual recipient's name. Distribution lists can be organized by a particular discussion subject (such as "Marketing") or by users who share common work that requires them to communicate frequently. They also provide a way for you to automatically forward email to multiple email addresses.
+- A particular discussion subject. For example, *Marketing*.
+- Users who share common work that requires them to communicate frequently.
+
+Distribution lists also provide a way for you to automatically forward email to multiple email addresses.
 
 ## Create a distribution list (group)
+
+To create a distribution list in the Microsoft 365 admin center, follow these steps:
 
 ::: moniker range="o365-worldwide"
 
@@ -51,11 +56,11 @@ Use distribution lists (sometimes called distribution groups) when you want to s
 
 ::: moniker-end
 
-1. From the left navigation bar, select **… Show all**, and then select **Teams and groups** to expand it.
+2. From the left navigation bar, select **… Show all**, and then select **Teams and groups** to expand it.
 
 1. Under **Teams and groups**, select [**Active teams and groups**](https://go.microsoft.com/fwlink/p/?linkid=2052855).
 
-1. At the ****Active teams and groups**** page, select **Distribution list**.
+1. At the **Active teams and groups** page, select **Distribution list**.
 
 1. Select **+ Add a distribution list**.
 
@@ -88,3 +93,4 @@ Check out [Distribution list issues](/office365/troubleshoot/groups/distribution
 - [User email settings](../email/office-365-user-email-settings.md).
 - [Create, edit, or delete a security group in the Microsoft 365 admin center](../email/create-edit-or-delete-a-security-group.md).
 - [Create a shared mailbox](../email/create-a-shared-mailbox.md).
+- [Small business help & learning](https://go.microsoft.com/fwlink/?linkid=2224585).
