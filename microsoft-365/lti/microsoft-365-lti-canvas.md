@@ -283,17 +283,6 @@ After deploying the Microsoft 365 LTI, we recommend that you leave the classic T
 
 The classic Teams Assignments LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Teams Assignments** app and toggling off all the placements listed. Once all assignments have been copied into new courses and courses with existing classic Teams Assignments have been archived, the classic Teams Assignments app can be removed.
 
-### Migrating from classic Teams Classes LTI
-
-[The classic Teams Classes app has sunset as of September 15, 2025.](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2) There's no required migration of the Teams created by the Canvas [Microsoft Teams sync](https://community.instructure.com/kb/articles/661147-unknown) integration or for any Team connected to a course by the classic Teams Assignments LTI’s Manage Connected Teams feature. The new Teams app that is included in the Microsoft 365 LTI app (Microsoft Education) is backwards compatible and displays any previously connected Teams, as well as any Teams created by the Canvas Teams Sync or Microsoft 365 LTI Team sync going forward. Review the additional [guidance on choosing a Teams sync option](/microsoft-365/lti/microsoft-365-lti-first-time-configuration?#considerations-for-teams-sync-options).
-We suggest that you uninstall the classic app by locating the app in **Admin > Settings > *`<your root account>`* > Apps > View App Configurations** and use the Gear icon drop-down for the **Microsoft Teams classes** app to delete the app deployment.
-
-### Migrating from classic Teams Meetings LTI
-
-[The classic Teams Meetings has sunset as of September 15, 2025.](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2) All meetings created by the classic Teams Meetings LTI will continue to be displayed in Outlook and Teams calendars, but only the previous six months and upcoming six months of meetings scheduled will display in the new Meetings app that is part of Microsoft 365 LTI. Course meetings should be created in the new Meetings app going forward.
-
-We suggest that you uninstall the classic app by locating the app in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** and use the Gear icon drop-down for the **Microsoft Teams Meetings** app to delete the app deployment.
-
 ### Migrating from Reflect LTI
 
 There's no migration required for reflections created in the legacy LTI 1.3 app. The new Reflect app in Microsoft 365 LTI will continue to work with any existing reflections. We suggest that you uninstall the classic app as soon as you install the new Microsoft Education LTI. To remove the classic app, locate the Microsoft Reflect app in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** and use the Gear icon drop-down to delete the app deployment.
