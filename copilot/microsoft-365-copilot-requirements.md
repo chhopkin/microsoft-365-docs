@@ -10,6 +10,7 @@ ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: reporting
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
