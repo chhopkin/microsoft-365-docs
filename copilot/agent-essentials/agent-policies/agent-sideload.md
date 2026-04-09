@@ -1,10 +1,10 @@
 ---
-title: Sideload Microsoft Copilot agents at your organization
+title: Sideload agents at your organization
 f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 11/12/2025
+ms.date: 03/31/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -14,10 +14,10 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: Learn how to sideload Microsoft Copilot agents at your organization.
+description: Learn how to sideload agents at your organization.
 ---
 
-# Sideload Microsoft Copilot agents at your organization
+# Sideload agents at your organization
 
 Members of your organization can build and share agents within your organization without publishing them to the organizational catalog or marketplace. This approach to deploying agents is called sideloading. You can determine whether your organization allows members of your organization to upload an agent, or custom app package, in the Teams app. Uploading the agent via Teams, will allow the agent to be used within Teams and within the M365 Copilot app.
 
