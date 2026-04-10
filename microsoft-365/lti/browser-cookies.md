@@ -15,6 +15,7 @@ ms.collection:
 - ContentEnagagementFY24
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 description: Learn how to allow cookies for LMS (Learning Management System) URLs in Edge, Chrome, and Firefox, and Safari browsers.
 ---
