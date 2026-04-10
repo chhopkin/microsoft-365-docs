@@ -184,6 +184,10 @@ Yes. Sometimes Cowork needs more information to complete your request. When this
 
 Yes. Cowork uses Anthropic models as a subprocessor to ensure secure and responsible use of Anthropic models within your organization. Details about the integration can be found at [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
 
+## Are there unsupported countries/regions?
+
+Due to Anthropic terms of service, access is prohibited for entities based in China, including Hong Kong, as well as companies worldwide that are more than 50% owned, directly or indirectly, by Chinese firms. You can find a full list and details of unsupported countries/regions on Anthropic's [Updating restrictions of sales to unsupported regions](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions) article.
+
 ## Related content
 
 - [Copilot Cowork overview](index.md)
