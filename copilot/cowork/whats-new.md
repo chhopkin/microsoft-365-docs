@@ -28,12 +28,8 @@ This article lists recent features, improvements, and changes in Copilot Cowork.
 
 | Feature | Description | Learn more |
 |---|---|---|
-| **Expandable task list** | Home page task list is scrollable with search and status filters, replacing the static five-item view. | [Manage your tasks](use-cowork.md#manage-your-tasks) |
-| **File chips on task cards** | Output files display as inline chips on task cards with a **+N** overflow indicator. | [Manage your tasks](use-cowork.md#manage-your-tasks) |
-| **Inline email preview** | Select an email reference to preview sender, recipients, and body in the side panel. | [Supported preview formats](use-cowork.md#supported-preview-formats) |
-| **Office document previews** | Word, Excel, and PowerPoint files render inline through Office Online. | [Supported preview formats](use-cowork.md#supported-preview-formats) |
-| **Code file previews** | JSON, JavaScript, TypeScript, Python, C#, Go, and other languages display with syntax highlighting. | [Supported preview formats](use-cowork.md#supported-preview-formats) |
-| **Reconnect and resume** | If your connection drops, return and pick up where you left off without losing progress. | [What happens if I lose my connection?](cowork-faq.md#what-happens-if-i-lose-my-connection) |
+| **Search task history** | Home page task list is scrollable with search and status filters, replacing the static five-item view. | [Manage your tasks](use-cowork.md#manage-your-tasks) |
+| **Notifications in app** | Users are notified via a pop-up when input is needed or when a task is complete. | [Manage your tasks](use-cowork.md#answer-questions-from-cowork) |
 
 ### Enhancements
 
@@ -42,7 +38,6 @@ This article lists recent features, improvements, and changes in Copilot Cowork.
 | **Longer prompts** | Chat input now supports up to 250,000 characters, up from 16,000. | [Type a message](use-cowork.md#type-a-message) |
 | **Improved paste handling** | Pasting mixed content from Teams, Outlook, or browsers correctly preserves text. | [Attach files](use-cowork.md#attach-files) |
 | **Richer Teams messages** | Messages posted to Teams can include formatted cards with structured data. | [Communication](index.md#communication) |
-| **Smarter calendar management** | Cowork checks for existing events before creating duplicates and includes attendee info in calendar queries. | [Calendar and meetings](index.md#calendar-and-meetings) |
 | **Calendar timezone display** | Event times show in your local timezone with an abbreviation. | [Calendar and meetings](index.md#calendar-and-meetings) |
 
 ## Related content
