@@ -38,7 +38,7 @@ highlightedContent:
 
 # productDirectory section (optional)
 productDirectory:
-  title: Copilot documentation # < 60 chars (optional)
+  title: Microsoft 365 Copilot documentation # < 60 chars (optional)
 #  summary: Use the following documentation resources to plan and manage the foundational aspects of your Microsoft 365 journey. # < 160 chars (optional)
   items:
     # Card
