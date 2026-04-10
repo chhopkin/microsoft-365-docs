@@ -49,10 +49,10 @@ Before your organization can connect to xAI AI models, you must allow access in 
 You have to be a member of the Global administrator role to perform this task. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) .
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
-2. On the **Settings** page, select **All**.
+2. On the **Copilot settings** page, select **View all**.
 3. Select **AI providers for other large language models**.
 4. Under **Available models for your organization**, choose **xAI**.
-5. Agree to the Terms and Conditions and select **Allow provider**.
+5. Agree to the Terms and Conditions and select **Save**.
 
 After you connect, it may take a few hours for the connection to complete.
 
@@ -67,6 +67,6 @@ Your organization may decide that it no longer wants users to be able to access 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
 2. On the **Settings** page, select **All**.
 3. Select **AI providers for other large language models**.
-4. Under **Available models for your organization**, choose **xAI**and select **Block provider**.
+4. Under **Available models for your organization**, choose **xAI** and select **Block provider**.
 
 Once you disconnect xAI, users can't use xAI's AI models. After completing the steps to disconnect xAI in Microsoft 365, it may take several hours for the service to be fully disabled for your users.
