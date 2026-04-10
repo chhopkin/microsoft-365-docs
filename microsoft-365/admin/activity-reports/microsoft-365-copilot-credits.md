@@ -1,35 +1,34 @@
 ---
-title: Microsoft 365 Copilot credits report - Microsoft 365 admin center
+title: "Microsoft 365 Copilot credits report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: marclau
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection:
-- Tier1
-- scotvorg
-- M365-subscription-management
-- Adm_O365
-- Adm_TOC
-- m365copilot
-- magic-ai-copilot
-- operations-pod
+ - M365-subscription-management
+ - Adm_O365
+ - m365copilot
+ - magic-ai-copilot
 ms.custom:
 - GAUpdates
-ROBOTS: NOINDEX, NOFOLLOW
+search.appverid:
+- BCS160
+- MST160
+- MET150
+- MOE150
 ai-usage: ai-assisted
-description: Discover how to use the Copilot credits report in the Microsoft 365 admin center to analyze credit usage, set alerts, and control pay-as-you-go costs.
-ms.date: 03/20/2026
+description: "Learn how to use the Copilot credits report in the Microsoft 365 admin center to analyze credit usage, set alerts, and control pay-as-you-go costs."
+ms.date: 04/03/2026
 ---
 
 # Microsoft 365 Copilot credits report - Microsoft 365 admin center
 
-[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
-
-The Microsoft 365 Copilot credits report helps you manage metered consumption costs for Microsoft 365 Copilot Chat. This report gives you visibility into credits used associated with your Microsoft 365 Copilot pay-as-you-go billing policies and includes key metrics such as:
+The Microsoft 365 Copilot credits report helps you manage metered consumption costs for Microsoft 365 Copilot Chat. This report gives you visibility into credits used for your Microsoft 365 Copilot pay-as-you-go billing policies. It includes key metrics such as:
 
 - Total credits used
 - Cumulative and daily time series
@@ -37,30 +36,33 @@ The Microsoft 365 Copilot credits report helps you manage metered consumption co
 
 To learn more about meters, see [Meters for Microsoft 365 Copilot pay-as-you-go for IT admins](/copilot/microsoft-365/pay-as-you-go/meters).
 
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
+
 ## View the Copilot credits report
 
 For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
-1. Select **Microsoft 365 Copilot**.
-2. Select **Copilot credits** to view the list of reports.
+1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
+1. In the navigation menu, select **Reports**. If you don't see **Reports**, select **Show all**, and then select **Reports**.
+1. Select <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+1. On the **Usage** page, under **Reports**, select **Microsoft 365 Copilot**, and then select **Credits**.
 
-## Interpret the Copilot credits report
+## Interpret the Copilot Credits report
 
-After you [set up pay-as-you-go for Microsoft 365 Copilot Chat](/copilot/microsoft-365/pay-as-you-go/setup), either in the Microsoft 365 admin center or the <a href="https://go.microsoft.com/fwlink/p/?linkid=2160305" target="_blank">Power Platform admin center</a>, and enabled agent usage in your organization, you see a new report that includes metrics for credits used.
+After you [set up pay-as-you-go for Microsoft 365 Copilot Chat](/copilot/microsoft-365/pay-as-you-go/setup), either in the Microsoft 365 admin center or the <a href="https://go.microsoft.com/fwlink/p/?linkid=2160305" target="_blank">Power Platform admin center</a>, and enable agent usage in your organization, you see a new report that includes metrics for credits used.
 
 To help you mitigate overspending, the report includes alerts when users in your organization use more than 2,000 credits. To learn more, see [Using agents in Microsoft 365 Copilot Chat](/copilot/agents) and the [overview on enabling agents](/microsoft-copilot-studio/requirements-messages-management), which explains how agents are billed.  
 
-You can filter the report by different time periods. The Copilot credits report can be viewed over the last 7 or 30 days.
+You can filter the report by different time periods. You can view the Copilot credits report over the last 7 or 30 days.
 
 :::image type="content" source="../../media/copilot-credit/copilot-credit-hero-metric.png" alt-text="Screenshot of the Copilot credits report page in the Microsoft 365 admin center." lightbox="../../media/copilot-credit/copilot-credit-hero-metric.png":::
 
 >[!NOTE]
-> During the preview, the report displays a maximum of 30 days of Copilot credits history. In addition, usage information from before May 3, 2025, isn't available in the report.
+> During preview, the report displays a maximum of 30 days of Copilot credits history. In addition, usage information from before May 3, 2025, isn't available in the report.
 
 ### Credits used
 
-The **Credits used** metric shows the [total credits used](/microsoft-copilot-studio/billing-licensing#billed-messages) from interactions by users in your organization who don't have a Microsoft 365 Copilot license and are interacting with agents in Copilot Chat that spin the [Copilot Studio meter](/microsoft-copilot-studio/billing-licensing#copilot-studio-pay-as-you-go-meter) during the selected time period. You can view usage within an hour from when users interact with a metered agent.  
+The **Credits used** metric shows the [total credits used](/microsoft-copilot-studio/billing-licensing#billed-messages) from interactions by users in your organization who don't have a Microsoft 365 Copilot license and are interacting with agents in Copilot Chat that spin the [Copilot Studio meter](/microsoft-copilot-studio/billing-licensing#copilot-studio-pay-as-you-go-meter) during the selected time period. You can view usage within an hour from when users interact with a metered agent.  
 
 The number of credits used depends on the design of the agent, how often users interact with it, and the features the agent uses. Each interaction with an agent might use multiple message types simultaneously. For example, an agent grounded in a tenant graph could use 12 credits (10 credits for tenant graph-grounding, and two credits for generative answers) to respond to a single complex prompt from a user.
 
@@ -87,7 +89,7 @@ Use the Microsoft 365 Copilot Credits usage report to view user details, agent d
 |-------------------------|------------------------|
 | Username                | The user's principal name. |
 | Display name            | The full name of the user. |
-| Past seven days             | The total credits used over the past seven days, including today. |
+| Past seven days         | The total credits used over the past seven days, including today. |
 | Past 30 days            | The total credits used over the past 30 days, including today. |
 | Last activity date (UTC)| The latest date the user had activity with a metered agent in Copilot chat. |
 
@@ -99,7 +101,7 @@ Use the Microsoft 365 Copilot Credits usage report to view user details, agent d
 |-------------------------|------------------|
 | Agent ID                | An agent is an element of an app. The ID is the app identifier generated by Microsoft. |
 | Agent name              | The name of the app as present in the app manifest. |
-| Past seven days             | The total credits used by users who used the agent over the past seven days, including today. |
+| Past seven days         | The total credits used by users who used the agent over the past seven days, including today. |
 | Past 30 days            | The total credits used by users who used this agent over the past 30 days including today. |
 | Last activity date (UTC)| The date when the agent was last used by users in your org who don't have Microsoft 365 Copilot license. |
 
@@ -110,7 +112,7 @@ Use the Microsoft 365 Copilot Credits usage report to view user details, agent d
 | Item                    | Description          |
 |-------------------------|----------------------|
 | Billing Policy ID       | The ID is a Microsoft-generated identifier linked to the billing policy that you created for specific users in a security group. |
-| Past seven days             | The total credits used by members of the security group linked to the billing policy over the past seven days, including today. |
+| Past seven days         | The total credits used by members of the security group linked to the billing policy over the past seven days, including today. |
 | Past 30 days            | The total credits used by members of the security group linked to the billing policy over the past 30 days, including today. |
 | Last activity date (UTC)| The most recent date on which a member of the security group linked to the billing policy consumed credits. |
 
@@ -143,13 +145,12 @@ Yes. You can set up the pay-as-you-go billing policy in the Microsoft 365 admin 
 
 ### How can I test that pay-as-you-go is correctly configured and working properly?
 
-Have a user who qualifies for pay-as-you-go use one of the following three agents: "Learning Coach", "Writing Coach", or "Career Coach." Have them submit a simple prompt such as "What can you do?" This prompt should consume about 12 credits and be visible in the Copilot Credits Report.
+Have a user who qualifies for pay-as-you-go use one of the following three agents: "Learning Coach", "Writing Coach", or "Career Coach." Have them submit a simple prompt such as "What can you do?" This prompt consumes about 12 credits and is visible in the Copilot Credits Report.
 
 ### How do I find a Billing policy name from the Billing policy ID?
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Copilot** > **Billing & usage**.
-1. On the **Billing policies** tab, select a billing policy, then go to **Details**.
-1. You see the **Policy name** and **Billing Policy ID**.  
+1. On the **Billing policies** tab, select a billing policy, and then select **Details**. You see the **Policy name** and **Billing Policy ID**.  
 
 ### How can I view the billing policy ID if it's hidden?  
 
@@ -157,7 +158,7 @@ By default, the Copilot credits report anonymizes the Billing Policy ID, just li
 
 [!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
-To learn how to change the setting to show the Username and Display name information, see [Show user, group, or site details in the reports](activity-reports.md#show-user-group-or-site-details-in-the-reports).
+To learn how to change the setting to show the Username and Display name information, see [Show user, group, or site details in usage reports](activity-reports.md#show-user-group-or-site-details-in-usage-reports).
 
 > [!NOTE]
 > Changes to this hidden data setting affect the username, display name, and Billing Policy ID.

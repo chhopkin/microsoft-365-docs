@@ -7,11 +7,12 @@ ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 03/03/2026
+ms.date: 03/24/2026
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
@@ -61,7 +62,7 @@ Microsoft 365 Copilot uses your organizational data and the web. It requires an 
 
 ## The technical details
 
-:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.svg" alt-text="Diagram that shows the Microsoft 365 tenant architecture with Microsoft 365 Copilot and your user data." lightbox="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.svg":::
+:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.png" alt-text="Diagram that shows the Microsoft 365 tenant architecture with Microsoft 365 Copilot and your user data." lightbox="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.png":::
 
 Microsoft 365 Copilot:
 
@@ -83,6 +84,8 @@ For more information, see:
 - Video: [How to get ready for Microsoft 365 Copilot](https://aka.ms/M365CopilotAdmin)
 
 ## Copilot works with Microsoft 365 apps and Microsoft Graph
+
+:::image type="content" source="media/copilot-features.png" alt-text="Diagram that shows the Microsoft 365 Copilot component features." lightbox="media/copilot-features.png":::
 
 Copilot has intelligent features, functionality, and prompting. These features help users in the context of their work within their Microsoft 365 apps.
 
@@ -137,6 +140,8 @@ Some of these features include:
 | **Forms** | **Draft**—Use prompts to draft questions and suggestions that help you create surveys, polls, and other forms. |
 
 ## Microsoft 365 services that help support Copilot
+
+:::image type="content" source="media/copilot-services-help.png" alt-text="Diagram that shows services and features that help you get your data and organization ready for Copilot." lightbox="media/copilot-services-help.png":::
 
 Your Microsoft 365 license includes services and features that help you get your data and organization ready for Copilot.
 

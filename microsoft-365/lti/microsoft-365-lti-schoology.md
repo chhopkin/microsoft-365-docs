@@ -14,6 +14,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 ---
 # Deploy the Microsoft 365 LTI&reg; app in PowerSchool Schoology Learning

@@ -3,9 +3,9 @@ title: Moving from multitenant to migration readiness
 author: MicrosoftHeidi
 ms.author: heidip
 manager: dansimp
-ms.reviewer:
+ms.reviewer: rewood
 ms.topic: overview
-ms.date: 12/01/2025
+ms.date: 03/23/2026
 ms.service: microsoft-365-enterprise
 ms.localizationpriority: high
 description: "Preparing a multitenant Microsoft 365 environment for migration."
@@ -142,7 +142,7 @@ After mapping identities, you must write mailbox attributes from the source tena
 - Initiate the write request:
   - `New-CtimWriteRequest -SourceTenantGuid <GUID>`
 
-This command writes attributes (ExchangeGuid, ArchiveGuid, X500 proxy addresses, and so on) from the mapped source mailbox user to the target MailUser object.
+This command writes attributes (ExchangeGuid, ArchiveGuid, X.500 proxy addresses, and so on) from the mapped source mailbox user to the target MailUser object.
 
 ### Validation
 
@@ -152,11 +152,11 @@ This command writes attributes (ExchangeGuid, ArchiveGuid, X500 proxy addresses,
 
 **Before the write process**
 
-MailUser objects have no ExchangeGuid or X500 addresses—only SMTP addresses.
+MailUser objects have no ExchangeGuid or X.500 addresses—only SMTP addresses.
 
 **After the write process**
 
-ExchangeGuid, ArchiveGuid (if applicable), and X500 proxy addresses are populated. All necessary attributes for migration and mail routing are present.
+ExchangeGuid, ArchiveGuid (if applicable), and X.500 proxy addresses are populated. All necessary attributes for migration and mail routing are present.
 
 ## Migration application setup
 

@@ -3,7 +3,7 @@ title: "Microsoft 365 U.S. Government GCC High endpoints"
 ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
-ms.date: 01/30/2026
+ms.date: 03/31/2026
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
@@ -38,7 +38,7 @@ Microsoft 365 requires connectivity to the Internet. The following endpoints sho
 
 |Notes|Download|
 |---|---|
-|**Last updated:** 01/30/2026 - [Change Log subscription](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** the full list in [JSON format](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
+|**Last updated:** 03/31/2026 - [Change Log subscription](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** the full list in [JSON format](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
 
 Start with [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md) to understand our recommendations for managing network connectivity using this data. Endpoints data is updated as needed at the beginning of each month. New IP Addresses and URLs are published 30 days in advance of being active. This lets customers who don't yet have automated updates to complete their processes before new connectivity is required. Endpoints might also be updated during the month if needed to address support escalations, security incidents, or other immediate operational requirements. The data shown on this page is all generated from the REST-based web services. If you're using a script or a network device to access this data, you should go to the [Web service](microsoft-365-ip-web-service.md) directly.
 
@@ -73,3 +73,5 @@ Notes for this table:
 
 - The Security and Compliance Center (SCC) provides support for Azure ExpressRoute for Microsoft 365. The same applies for many features exposed through the SCC such as Reporting, Auditing, eDiscovery (Premium), Unified DLP, and Data Governance. Two specific features, PST Import and eDiscovery Export, currently don't support Azure ExpressRoute with only Microsoft 365 route filters due to their dependency on Azure Blob Storage. To consume those features, you need separate connectivity to Azure Blob Storage using any supportable Azure connectivity options, which include Internet connectivity or Azure ExpressRoute with Azure Public route filters. You have to evaluate establishing such connectivity for both of those features. The Microsoft 365 Information Protection team is aware of this limitation and is actively working to bring support for Azure ExpressRoute for Microsoft 365 as limited to Microsoft 365 route filters for both of those features.
 - There are other optional endpoints for Microsoft 365 Apps for enterprise that aren't listed and aren't required for users to launch Microsoft 365 Apps for enterprise applications and edit documents. Optional endpoints are hosted in Microsoft data centers and don't process, transmit, or store customer data. We recommend that user connections to these endpoints be directed to the default Internet egress perimeter.
+- Media Processors for Microsoft Teams Meeting traffic in GCC High Gov cloud are located/routed in USGov Arizona and USGov Texas region datacenters only.
+
