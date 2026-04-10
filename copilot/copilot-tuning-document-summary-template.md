@@ -32,14 +32,14 @@ By using the Document Summary agent template, you can:
 - Create specialized summarization agents by tuning goals and context.
 - Optionally fine-tune the agent by using your organization’s own data to improve relevance and consistency (coming soon).
 
-:::image type="content" source="media/copilot-tuning-document-summary-template/what-agent-can-do.png" alt-text="Screenshot of starting a new chat with the Document Validation agent template in Microsoft 365 Copilot." lightbox="media/copilot-tuning-document-summary-template/what-agent-can-do.png":::
+:::image type="content" source="media/copilot-tuning-document-summary-template/what-agent-can-do.png" alt-text="The agent can generate summaries, create summarization agents. and fine-tune based on organizational data." lightbox="media/copilot-tuning-document-summary-template/what-agent-can-do.png":::
 
 When you enable fine-tuning, the agent can:
 
 - Learn what information is most important based on high-quality examples.
 - Apply your summarization goals and rubrics consistently across documents.
 
-:::image type="content" source="media/copilot-tuning-document-summary-template/what-agent-can-do-2.png" alt-text="Screenshot of starting a new chat with the Document Validation agent template in Microsoft 365 Copilot." lightbox="media/copilot-tuning-document-summary-template/what-agent-can-do-2.png":::
+:::image type="content" source="media/copilot-tuning-document-summary-template/what-agent-can-do-2.png" alt-text="The agent can learn what's important and apply goals and rubrics." lightbox="media/copilot-tuning-document-summary-template/what-agent-can-do-2.png":::
 
 ## Supported inputs and outputs
 
@@ -51,7 +51,7 @@ The agent supports the following inputs and outputs:
   - A summary generated in the Copilot conversation
   - A draft summary document delivered by email
 
-:::image type="content" source="media/copilot-tuning-document-summary-template/inputs-and-outputs.png" alt-text="Screenshot of starting a new chat with the Document Validation agent template in Microsoft 365 Copilot." lightbox="media/copilot-tuning-document-summary-template/inputs-and-outputs.png":::
+:::image type="content" source="media/copilot-tuning-document-summary-template/inputs-and-outputs.png" alt-text="Supported file types, input scopes, and outputs." lightbox="media/copilot-tuning-document-summary-template/inputs-and-outputs.png":::
 
 ## Use the agent for inference
 
@@ -69,7 +69,7 @@ The Document Summary agent template supports single file and multiple file promp
 
 - **Multiple files:** Summarize project risks based on TeamA_Status.docx, TeamB_Status.docx, and TeamC_Status.docx.
 
-:::image type="content" source="media/copilot-tuning-document-summary-template/supported-prompt-patterns.png" alt-text="Screenshot of starting a new chat with the Document Validation agent template in Microsoft 365 Copilot." lightbox="media/copilot-tuning-document-summary-template/supported-prompt-patterns.png":::
+:::image type="content" source="media/copilot-tuning-document-summary-template/supported-prompt-patterns.png" alt-text="Supported prompt patterns are single file and multiple files." lightbox="media/copilot-tuning-document-summary-template/supported-prompt-patterns.png":::
 
 ## Prerequisites
 
