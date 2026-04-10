@@ -49,7 +49,7 @@ productDirectory:
     # Card
     - title: Microsoft 365 Copilot
       imageSrc: /microsoft-365/media/logos/m365-copilot.png
-      summary: Who this library is for - IT Pros that are responsible for the lifecycle of Microsoft 365 Copilot service delivery. Plan, implement, and manage the Microsoft 365 Copilot service in your organization.
+      summary: Plan, implement, and manage the Microsoft 365 Copilot service in your organization.
       url: microsoft-365-copilot-overview.md
 
 tools:
