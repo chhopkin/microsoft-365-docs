@@ -54,7 +54,7 @@ productDirectory:
 
 tools:
   title: Extending Microsoft 365 Copilot
-  summary: 
+  summary: Who this content is for - Developers that are responsible for customizing Microsoft 365 Copilot capabilities by extending Copilot connectors, plugins, agents, and APIs, and even building AI-driven copilots with Microsoft Copilot Studio. Connect to data beyond Microsoft 365 to enhance Microsoft 365 Copilot, Copilot Search, and Microsoft Search experiences.
   items:
     - title: Microsoft 365 Copilot connectors
       imageSrc: /office/media/icons/connector-blue.png
