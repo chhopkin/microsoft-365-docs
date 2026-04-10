@@ -27,7 +27,7 @@ highlightedContent:
       itemType: overview
       url: enterprise-data-protection.md
     # Card
-    - title: Copilot Control System
+    - title: Secure and govern Microsoft 365 Copilot
       itemType: architecture
       url: secure-govern-copilot-foundational-deployment-guidance.md
     # Card
