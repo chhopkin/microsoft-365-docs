@@ -6,6 +6,9 @@ items:
   - name: Lighthouse
     tocHref: /microsoft-365/lighthouse/
     topicHref: /microsoft-365/lighthouse/m365-lighthouse-overview
+  - name: Microsoft 365 Admin Center
+    tocHref: /microsoft-365/admin/
+    topicHref: /microsoft-365/admin/index    
   - name: Microsoft Syntex
     tocHref: /microsoft-365/contentunderstanding/
     topicHref: /microsoft-365/contentunderstanding/index
