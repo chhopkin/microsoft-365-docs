@@ -1,22 +1,22 @@
 ---
-title: Create distribution lists
+title: Create Distribution Lists for Group Email
 f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
 manager: dansimp
-ms.date: 04/08/2026
+ms.date: 04/10/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- Tier3
-- scotvorg
-- highpri
-- M365-subscription-management
-- Adm_O365
-- operations-pod
+ - Tier3
+ - scotvorg
+ - highpri
+ - M365-subscription-management
+ - Adm_O365
+ - operations-pod
 search.appverid:
 - BCS160
 - MET150
@@ -28,65 +28,56 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet
-description: Create distribution groups or lists in the Microsoft 365 admin center so you can send emails to a group without typing each recipient's name.
+description: Create distribution groups, also known as distribution lists, in the Microsoft 365 admin center to email everyone at once. Follow these steps to set up your list quickly.
+#customer intent: As an admin, I want to create a distribution group in the Microsoft 365 admin center so that I can email a group of people at once.
 ---
 
 # Create distribution groups in the Microsoft 365 admin center
 
-Use distribution lists, also known as distribution groups, when you want to send email to a group of people without having to type each individual recipient's name. Distribution lists can be organized by:
+Use distribution groups, also known as distribution lists, to send email to a group of people without typing each recipient's name. Organize distribution groups by:
 
 - A particular discussion subject. For example, *Marketing*.
 - Users who share common work that requires them to communicate frequently.
 
-Distribution lists also provide a way for you to automatically forward email to multiple email addresses.
+Distribution groups also provide a way to automatically forward email to multiple email addresses.
 
-## Create a distribution list (group)
+## Create a distribution group
 
-To create a distribution list in the Microsoft 365 admin center, follow these steps:
-
-::: moniker range="o365-worldwide"
+To create a distribution group in the Microsoft 365 admin center, follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Sign in to the [Microsoft 365 admin center]( https://go.microsoft.com/fwlink/p/?linkid=513813).
-
-::: moniker-end
-
-2. From the left navigation bar, select **… Show all**, and then select **Teams and groups** to expand it.
+1. From the left navigation bar, select **… Show all**, and then select **Teams and groups** to expand it.
 
 1. Under **Teams and groups**, select [**Active teams and groups**](https://go.microsoft.com/fwlink/p/?linkid=2052855).
 
-1. At the **Active teams and groups** page, select **Distribution list**.
+1. On the **Active teams and groups** page, select **Distribution list**.
 
 1. Select **+ Add a distribution list**.
 
-1. At the **Set up the basics** page, enter a name for the distribution list in the **Name** field and a description for the distribution list in the **Description** field. Once both fields are filled out, select **Next**.
+1. On the **Set up the basics** page, enter a name and description for the distribution group and then select **Next**.
 
-1. At the **Assign owners** page, select **+ Assign owners**
+1. On the **Assign owners** page, select **+ Assign owners**.
 
-1. In the **Assign owners** pane, select owners for the distribution list. Owners of the distribution list can manage the list and its members. Once all of the owners have been selected, select **Add**.
+1. In the **Assign owners** pane, select the owners, and then select **Add**. Owners can manage the group and its members.
 
-1. At the **Assign owners** page, select **Next**.
+1. On the **Assign owners** page, select **Next**.
 
-1. At the **Add members** page, select **+ Add members**.
+1. On the **Add members** page, select **+ Add members**.
 
-1. At the **Add members** pane, select members for the distribution list. Once all of the members have been selected, select **Add**.
+1. On the **Add members** pane, select members for the distribution group and then select **Add**.
 
-1. At the **Add members** page, select **Next**.
+1. On the **Add members** page, select **Next**.
 
-1. At the **Edit settings** page, in the **Group email address** field, enter a group email address for the distribution group. If you want to allow people outside your organization to send email to the group, select option **Allow people outside of my organization to send email to this Distribution group**. Once complete, select **Next**.
+1. On the **Edit settings** page, enter a group email address for the distribution group and then select **Next**. If you want to allow people outside your organization to send email to the group, then also select the option **Allow people outside of my organization to send email to this Distribution group**.
 
-1. At the **Review and finish adding group** page, verify your distribution group information is correct and then select **Create group**.
+1. On the **Review and finish adding group** page, verify the information is correct and then select **Create group**.
 
-To add users to your distribution list after you've created it, see [Add a user or contact to a distribution list](../email/add-user-or-contact-to-distribution-list.md).
+For more information about distribution groups, see the following articles:
 
-Check out how to use group in Outlook 2016 and Outlook on the web in [Use contact groups (formerly distribution lists) in Outlook](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39).
-
-Check out [Distribution list issues](/office365/troubleshoot/groups/distribution-list-issues) for help with distribution list issues.
+- [Add a user or contact to a distribution list](../email/add-user-or-contact-to-distribution-list.md).
+- [Use contact groups (formerly distribution lists) in Outlook](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39).
+- [Distribution list issues](/office365/troubleshoot/groups/distribution-list-issues).
 
 ## Related content
 
