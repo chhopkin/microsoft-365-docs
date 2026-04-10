@@ -3,6 +3,7 @@ title: Microsoft 365 Copilot workflows environment for Workflows agents
 description: Learn how to perform DSRs (data subject requests) for Workflows agents, and admin features like export, delete, and reassign.
 author: kisubedi
 ms.author: kisubedi
+manager: heortaol
 ms.date: 04/10/2026
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
