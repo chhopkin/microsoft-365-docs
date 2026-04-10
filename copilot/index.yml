@@ -27,6 +27,10 @@ highlightedContent:
       itemType: overview
       url: enterprise-data-protection.md
     # Card
+    - title: Decide which Copilot
+      itemType: whats-new
+      url: which-copilot-for-your-organization.md
+    # Card
     - title: Secure and govern Microsoft 365 Copilot
       itemType: architecture
       url: secure-govern-copilot-foundational-deployment-guidance.md
@@ -34,9 +38,7 @@ highlightedContent:
     - title: Manage Microsoft 365 scenarios
       itemType: how-to-guide
       url: microsoft-365-copilot-page.md
-    - title: Release notes
-      itemType: whats-new
-      url: release-notes.md
+
 
 
 # productDirectory section (optional)
