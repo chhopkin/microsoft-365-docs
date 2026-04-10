@@ -8,6 +8,8 @@ items:
       href: /entra/identity/conditional-access/policy-admin-phish-resistant-mfa
     - name: Block legacy authentication with Conditional Access
       href: /entra/identity/conditional-access/policy-block-legacy-authentication
+    - name: Block new password credentials in apps
+      href: /entra/identity/enterprise-apps/block-password-addition
     - name: Restrict end-user consent
       href: /entra/identity/enterprise-apps/configure-user-consent?pivots=portal
     - name: Disable access to Exchange Web Services (EWS)
