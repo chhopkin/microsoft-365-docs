@@ -1,6 +1,6 @@
 ---
-title: Manage Tools for Agent 365 in the Microsoft 365 admin center
-description: Manage Tools for Agent 365 in the Microsoft 365 admin center.
+title: Manage tools for agents in Microsoft 365 admin center
+description: Manage tools for agents in Microsoft 365 admin center.
 #customer intent:
 f1.keywords:
 - NOCSH
@@ -32,7 +32,7 @@ search.appverid:
 - MOE150
 ---
 
-# Manage Tools for Agent 365 in the Microsoft 365 admin center
+# Manage tools for agents in Microsoft 365 admin center
 
 > [!IMPORTANT]
 >
