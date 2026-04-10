@@ -29,8 +29,11 @@ highlightedContent:
     # Card
     - title: Copilot Control System
       itemType: architecture
-      url: copilot-control-system/security-governance.md
+      url: secure-govern-copilot-foundational-deployment-guidance.md
     # Card
+    - title: Manage Microsoft 365 scenarios
+      itemType: how-to-guide
+      url: microsoft-365-copilot-page.md
     - title: Release notes
       itemType: whats-new
       url: release-notes.md
@@ -47,12 +50,12 @@ productDirectory:
       summary: Who this library is for - IT Pros that are responsible for the lifecycle of Microsoft 365 Copilot service delivery. Plan, implement, and manage the Microsoft 365 Copilot service in your organization.
       url: microsoft-365-copilot-overview.md
     # Card
-    - title: Microsoft 365 Copilot Connectors
+    - title: Microsoft 365 Copilot connectors
       imageSrc: /office/media/icons/connector-blue.png
       summary: Who this library is for - Developers that are responsible for customizing Microsoft 365 Copilot capabilities by extending Copilot connectors, agents, and plugins. Connect to data beyond Microsoft 365 to enhance Microsoft 365 Copilot, Copilot Search, and Microsoft Search experiences.
       url: /microsoft-365/copilot/connectors/overview
     # Card
-    - title: Microsoft 365 Extensibility
+    - title: Microsoft 365 Copilot Extensibility
       imageSrc: /office/media/icons/api.png
       summary: Who this library is for - Developers that are responsible for building custom Copilot experiences by using Microsoft 365 extensibility options including agents, connectors, and Copilot APIs.
       url: /microsoft-365/copilot/extensibility/overview
