@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: Microsoft 365 Copilot documentationfor Admins and IT Professionals # < 60 chars
+title: Microsoft 365 Copilot documentation for IT Pros # < 60 chars
 summary: Explore resources for delivering Microsoft 365 Copilot services.
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: m365
@@ -17,23 +17,7 @@ metadata:
   brand: m365
 
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
-  items:
-    # Card
-    - title: Privacy and Responsible AI
-      itemType: overview
-      url: enterprise-data-protection.md
-    # Card
-    - title: Copilot Control System
-      itemType: architecture
-      url: ../microsoft-365/copilot/copilot-control-system/security-governance.md
-    # Card
-    - title: Release notes
-      itemType: whats-new
-      url: release-notes.md
+
 
 
 # productDirectory section (optional)
