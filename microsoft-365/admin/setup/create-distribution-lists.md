@@ -65,7 +65,7 @@ To create a distribution group in the Microsoft 365 admin center, follow these s
 
 1. On the **Add members** page, select **+ Add members**.
 
-1. On the **Add members** pane, select members for the distribution group and then select **Add**.
+1. On the **Add members** pane, select members for the distribution group, and then select **Add**.
 
 1. On the **Add members** page, select **Next**.
 
