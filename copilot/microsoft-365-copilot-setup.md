@@ -161,6 +161,17 @@ To use Copilot, users sign into the app with their work or school account and th
 
 > [!NOTE]
 >
+> Copilot experiences in Word, Excel, PowerPoint, and OneNote may vary depending on your organization's licensing and tenant configuration.
+> In-product labels are displayed in Microsoft 365 apps like Word, Excel, PowerPoint, and OneNote, and in the Microsoft 365 Copilot app, to help users identify their Copilot experience.
+>
+> **M365 Copilot (Premium)** indicates that a user has a Microsoft 365 Copilot add-on license and the full experience and [priority access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) for Copilot chat in Word, Excel, PowerPoint, and OneNote.
+>
+>**M365 Copilot (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license but will have [standard access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) (Standard versus priority access to features in Microsoft 365 Copilot Chat) to Copilot in those apps to ensure a reliable experience.
+>
+> **Copilot chat (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license and does not have access to Copilot chat in Word, Excel, PowerPoint and OneNote.
+
+> [!NOTE]
+>
 > - It's not supported to assign Copilot licenses to cross-tenant users, including guests.
 >
 > - For education customers, the Copilot license is listed under **Microsoft 365 A3 Extra Features for faculty** or **Microsoft 365 A5 Extra Features for faculty**.
