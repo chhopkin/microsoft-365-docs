@@ -17,7 +17,23 @@ metadata:
   brand: m365
 
 
-
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Privacy and Responsible AI
+      itemType: overview
+      url: enterprise-data-protection.md
+    # Card
+    - title: Copilot Control System
+      itemType: architecture
+      url: copilot-control-system/security-governance.md
+    # Card
+    - title: Release notes
+      itemType: whats-new
+      url: release-notes.md
 
 
 # productDirectory section (optional)
