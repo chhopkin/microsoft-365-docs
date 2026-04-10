@@ -16,6 +16,7 @@ ms.collection:
 - M365-modern-desktop
 - tier2
 - m365-education
+- mesg
 - all-education
 ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
