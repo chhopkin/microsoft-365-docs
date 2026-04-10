@@ -33,7 +33,6 @@ This article lists recent features, improvements, and changes in Copilot Cowork.
 | **Inline email preview** | Select an email reference to preview sender, recipients, and body in the side panel. | [Supported preview formats](use-cowork.md#supported-preview-formats) |
 | **Office document previews** | Word, Excel, and PowerPoint files render inline through Office Online. | [Supported preview formats](use-cowork.md#supported-preview-formats) |
 | **Code file previews** | JSON, JavaScript, TypeScript, Python, C#, Go, and other languages display with syntax highlighting. | [Supported preview formats](use-cowork.md#supported-preview-formats) |
-| **Scheduled prompt activation** | Choose **Activate & run now** or **Activate** when resuming a paused scheduled prompt. | [Schedule prompts](use-cowork.md#schedule-prompts) |
 | **Reconnect and resume** | If your connection drops, return and pick up where you left off without losing progress. | [What happens if I lose my connection?](cowork-faq.md#what-happens-if-i-lose-my-connection) |
 
 ### Enhancements
@@ -45,7 +44,6 @@ This article lists recent features, improvements, and changes in Copilot Cowork.
 | **Richer Teams messages** | Messages posted to Teams can include formatted cards with structured data. | [Communication](index.md#communication) |
 | **Smarter calendar management** | Cowork checks for existing events before creating duplicates and includes attendee info in calendar queries. | [Calendar and meetings](index.md#calendar-and-meetings) |
 | **Calendar timezone display** | Event times show in your local timezone with an abbreviation. | [Calendar and meetings](index.md#calendar-and-meetings) |
-| **Bulk download limits** | File downloads are capped at 50 files and 500 MB per batch. | [Download output files](use-cowork.md#download-output-files) |
 
 ## Related content
 
