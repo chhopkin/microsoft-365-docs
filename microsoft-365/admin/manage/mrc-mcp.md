@@ -3,7 +3,7 @@ title: "Get started with the Microsoft Release Communications MCP Server"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/06/2026
+ms.date: 04/10/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -37,16 +37,18 @@ MRC MCP Server is a remote **[MCP](https://modelcontextprotocol.io/docs/getting-
 
 Instead of requiring developers to understand schemas and query APIs, this tool lets anyone ask questions in plain language to get precise, structured answers.
 
-With MRC MCP, you can do the following actions:
+## Use cases
 
-- Enhance **AI clients** such as Visual Studio Code (VS Code), Visual Studio, GitHub Copilot CLI, Claude Code, and other MCP‑compatible clients.
+- Enhance **AI clients** such as Visual Studio Code (VS Code), Visual Studio, GitHub Copilot CLI, Claude Code and other MCP‑compatible clients.
 - Enable IT admins, engineers, and technical users to query release and roadmap information directly from their AI client without relying on the websites.
+
+With MRC MCP, you can do the following actions:
 
 ## Requirements
 
-Although the MRC MCP Server is publicly available and free to use, users are subject to the [Microsoft API Terms of Use](/legal/microsoft-apis/terms-of-use). Read and understand the API Terms of Use before using the MRC MCP Server and before including the output in any production environment.
+Although the MRC MCP Server is publicly available and free to use, users are subject to the [Microsoft API Terms of Use](https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use). Read and understand the API Terms of Use before using the MRC MCP Server and before including the output in any production environment.
 
-There's no authentication required to access the MRC MCP Server. Users can use their preferred MCP client or agentic development environment, such as VS Code and Visual Studio.
+There's no authentication required to access the MRC MCP Server. Users can use their preferred MCP client or agentic development environment, such as VS Code, Visual Studio, and more.
 
 There's no licensing required to use the MCP server.
 
@@ -63,7 +65,7 @@ https://www.microsoft.com/releasecommunications/mcp
 
 ## Installation guide
 
-MCP is an open protocol that supports many clients, including VS Code, Copilot Studio agents, Foundry, and other agentic IDEs. For some other MCP‑compatible clients, the configuration steps are very similar and involve adding the MCP server endpoint to a client‑specific configuration file or settings.
+Although VS Code is a common client for MCP Server, MCP is an open protocol that's supported by many clients including agents in Copilot Studio, in Foundry, and many other agentic IDEs. For some other MCP‑compatible clients, the configuration steps are very similar and involve adding the MCP server endpoint to a client‑specific configuration file or settings.
 
 The high-level process is the following:
 
@@ -85,15 +87,17 @@ The high-level process is the following:
 
 ### Configure your Editor
 
+For detailed instructions on how to configure the MRC MCP Server in specific clients, see the following guides:
+
 | Client | Installation / Configuration | MCP Guide |
-| ------- | --------- | -------- |
-| **VS Code** | 1. Open `~/.vscode/mcp.json`(User level: applies to every VS code session) or `.vscode/mcp.json`(Workspace level: applies only to a specific project)<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client | [VS Code MCP configuration guide](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) |
-| **Visual Studio** | 1. Create `.mcp.json` at solution or user level<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client                 | [Visual Studio MCP configuration guide](/visualstudio/ide/mcp-servers) |
-| **GitHub Copilot CLI** | 1. Run `/mcp add` in interactive mode, opens a configuration form. <br/> 2. Enter a server name and select **HTTP** as the server type, no authentication required <br/> 3. Press **Ctrl+S** to save (server is available immediately) <br/> **or** <br/> edit `~/.copilot/mcp-config.json`<br/> | [Copilot CLI MCP guide](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers) |
-| **Claude Desktop** | Follow "Add custom connector" instructions in official guide. | [Claude Desktop MCP guide](https://modelcontextprotocol.io/docs/develop/connect-remote-servers#connecting-to-a-remote-mcp-server)
-| **Claude Code** | Run `claude mcp add --transport http <name> <endpoint>` <br /> **or** <br/> edit `~/.claude/mcp.json`<br /> | [Claude Code MCP guide ](https://code.claude.com/docs/en/mcp) |
-| **Cursor** | 1. Open Cursor MCP settings<br/>2. Edit the MCP server configuration to `mcp.json` | [Cursor MCP guide](https://cursor.com/docs/mcp) |
-| **Codex** | Run `codex mcp add "<name>" --url "<endpoint>"` | [Codex MCP documentation](https://github.com/openai/codex/blob/main/codex-rs/config.md#mcp_servers) |
+| ---------------------- | ----------------------------------------------- | ------------------------------------- |
+| **VS Code** | 1. Open `mcp.json` at **User level** (applies to every VS Code session) or **Workspace level** (`.vscode/mcp.json` in your project folder).<br/>The user-level file is located in the VS Code user settings directory:<br/>  - **Windows:** `%APPDATA%\Code\User\mcp.json`<br/>  - **macOS:** `~/Library/Application Support/Code/User/mcp.json`<br/>  - **Linux:** `~/.config/Code/User/mcp.json`<br/>2. Add the MCP server entry shown above.<br/>3. Query release data using your AI client. | [VS Code MCP configuration guide](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) |
+| **Visual Studio** | 1. Create `.mcp.json` at solution or user level<br/>2. Add the MCP server entry shown above.<br/>3. Query release data using your AI client. | [Visual Studio MCP configuration guide](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022) |
+| **GitHub Copilot CLI** | 1. Run `/mcp add` in interactive mode, opens a configuration form.<br/> 2. Enter a server name and select **HTTP** as the server type. No authentication is required.<br/> 3. Press **Ctrl+S** to save (server is available immediately) <br/> **or** <br/> edit `~/.copilot/mcp-config.json`.<br/> | [Copilot CLI MCP guide](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers)                 |
+| **Claude Desktop** | Follow **Add custom connector** instructions in official guide. | [Claude Desktop MCP guide](https://modelcontextprotocol.io/docs/develop/connect-remote-servers#connecting-to-a-remote-mcp-server) |
+| **Claude Code** | Run `claude mcp add --transport http mrc-mcp https://www.microsoft.com/releasecommunications/mcp` <br /> **or** <br/> edit `~/.claude/mcp.json`<br /> | [Claude Code MCP guide](https://code.claude.com/docs/en/mcp) |
+| **Cursor** | 1. Open Cursor MCP settings.<br/>2. Edit the MCP server configuration to `mcp.json`. | [Cursor MCP guide](https://cursor.com/docs/mcp) |
+| **Codex** | Run `codex mcp add mrc-mcp --url https://www.microsoft.com/releasecommunications/mcp`. | [Codex MCP documentation](https://github.com/openai/codex/blob/main/codex-rs/config.md#mcp_servers) |
 
 ## Available Tools
 
@@ -161,7 +165,7 @@ You have access to MCP tools provided by the Release Communications MCP Server:
 - `get_recent_azure_updates`
 - `get_azure_update_by_id`
 
-When handling questions about Microsoft 365 Roadmap features or Azure service updates,use these tools to retrieve the most current and authoritative release information
+When handling questions about Microsoft 365 Roadmap features or Azure service updates, use these tools to retrieve the most current and authoritative release information
 before responding. When handling questions about Microsoft 365 product roadmap timelines, upcoming feature releases, Azure service updates, or release status for specific products (Teams, Outlook, SharePoint, Excel, etc).
 ```
 
