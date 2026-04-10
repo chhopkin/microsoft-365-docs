@@ -57,7 +57,7 @@ productDirectory:
       summary: Who this library is for - Developers that are responsible for customizing Microsoft 365 Copilot capabilities by extending Copilot connectors, agents, and plugins. Connect to data beyond Microsoft 365 to enhance Microsoft 365 Copilot, Copilot Search, and Microsoft Search experiences.
       url: /microsoft-365/copilot/connectors/overview
     # Card
-    - title: Microsoft 365 Copilot Extensibility
+    - title: Microsoft 365 Copilot extensibility
       imageSrc: /office/media/icons/api.png
       summary: Who this library is for - Developers that are responsible for building custom Copilot experiences by using Microsoft 365 extensibility options including agents, connectors, and Copilot APIs.
       url: /microsoft-365/copilot/extensibility/overview
