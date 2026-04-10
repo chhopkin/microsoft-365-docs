@@ -15,6 +15,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 ---
 # Microsoft 365 LTI&reg; First-Time Configuration

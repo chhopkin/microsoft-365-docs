@@ -14,6 +14,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 description: Create impactful check-ins to gain wellbeing insights and build a happier, healthier learning community with the Microsoft Reflect Learning Tools Interoperability App for Canvas LMS.
 ---
