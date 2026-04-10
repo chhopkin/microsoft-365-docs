@@ -46,6 +46,17 @@ This article applies to:
 
 - Microsoft 365 Copilot is only supported on primary mailboxes that are hosted on Exchange Online.
 
+> [!NOTE]
+>
+> Copilot experiences in Word, Excel, PowerPoint, and OneNote may vary depending on your organization's licensing and tenant configuration.
+> In-product labels are displayed in Microsoft 365 apps like Word, Excel, PowerPoint, and OneNote, and in the Microsoft 365 Copilot app, to help users identify their Copilot experience.
+>
+> **M365 Copilot (Premium)** indicates that a user has a Microsoft 365 Copilot add-on license and the full experience and [priority access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) for Copilot chat in Word, Excel, PowerPoint, and OneNote.
+>
+>**M365 Copilot (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license but will have [standard access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) (Standard versus priority access to features in Microsoft 365 Copilot Chat) to Copilot in those apps to ensure a reliable experience.
+>
+> **Copilot chat (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license and does not have access to Copilot chat in Word, Excel, PowerPoint and OneNote.
+
 ## App requirements
 
 - **[Microsoft 365 Apps](/deployoffice/about-microsoft-365-apps)** - The apps must be deployed. You can use the [Microsoft 365 Apps setup guide in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?Q=learndocs#/modernonboarding/microsoft365copilotsetupguide) to deploy to your users.

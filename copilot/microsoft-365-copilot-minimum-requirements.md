@@ -49,6 +49,17 @@ Before your users can use Microsoft 365 Copilot, they must have one of the follo
 
 Once your organization has one of these subscriptions or plans, you can purchase a Microsoft 365 Copilot license for your users. For more information, see [License plans for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
 
+> [!NOTE]
+>
+> Copilot experiences in Word, Excel, PowerPoint, and OneNote may vary depending on your organization's licensing and tenant configuration.
+> In-product labels are displayed in Microsoft 365 apps like Word, Excel, PowerPoint, and OneNote, and in the Microsoft 365 Copilot app, to help users identify their Copilot experience.
+>
+> **M365 Copilot (Premium)** indicates that a user has a Microsoft 365 Copilot add-on license and the full experience and [priority access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) for Copilot chat in Word, Excel, PowerPoint, and OneNote.
+>
+>**M365 Copilot (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license but will have [standard access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) (Standard versus priority access to features in Microsoft 365 Copilot Chat) to Copilot in those apps to ensure a reliable experience.
+>
+> **Copilot chat (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license and does not have access to Copilot chat in Word, Excel, PowerPoint and OneNote.
+
 ## Mailbox requirements
 
 User's primary mailbox must be in Exchange Online. Copilot uses mailbox content (mailbox grounding), including emails, calendar events, and metadata to generate summaries, draft replies, and surface relevant responses. This process is only supported when the mailbox resides in Exchange Online. On-premises and hybrid mailboxes do not support this grounding.
