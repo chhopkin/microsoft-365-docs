@@ -41,11 +41,8 @@ The **Agent** settings page in [Microsoft 365 admin center](https://admin.micros
 The **Agent settings** page includes the following configuration options:
 
 - **Allowed agent types** - Specify which categories of AI agents are permitted for use within the organization.
-
+- **Security templates** - Create preset policies, rules, and allow lists for new AI agents to ensure consistency and compliance.
 - **Sharing** - Manage who can share AI agents within your organization and define the methods they can use to share them.
-
-- **Templates** - Create preset policies, rules, and allow lists for new AI agents to ensure consistency and compliance.
-
 - **User access** - Control which users or groups can interact with AI agents, aligning access with organizational roles and permissions.
 
 These settings allow you to customize agent behavior, control access, and maintain compliance with enterprise standards.
