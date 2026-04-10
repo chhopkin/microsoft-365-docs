@@ -47,7 +47,7 @@ Additionally, you can use the Agent workload to do the following tasks:
 :::image type="content" source="../../media/agents/agent-overview.png" alt-text="Screenshot showing the agent workload in Microsoft 365 admin center, which provides management controls and details for agents within your organization's tenant." lightbox="../../media/agents/agent-overview.png":::
 
 > [!IMPORTANT]
-> Certain features are available within [Microsoft 365 admin center](https://admin.cloud.microsoft/) based on your license. If you have a **Microsoft Agent 365** license, you will see the **Agent 365** branding and additional agent related features and details, such as the agent inventory **Map**. To view your licensed subscriptions in the [Microsoft 365 admin center](https://admin.cloud.microsoft/), select **Billing** > **Licenses** > **Subscrptions**.
+> Certain features are available within Microsoft 365 admin center based on services licensed in your subscription. Based on your subscription, you may see Agent 365 branding and additional agent related features and details. To view your licensed subscriptions in the [Microsoft 365 admin center](https://admin.cloud.microsoft/), select **Billing** > **Licenses** > **Subscriptions**.
 
 The **Agent overview** provides you with a centralized dashboard to:
 
