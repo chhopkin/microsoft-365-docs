@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/08/2026
+ms.date: 04/13/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -38,29 +38,39 @@ You can view and manage agent details for each agent listed in the agent registr
 
 :::image type="content" source="../../media/agents/agent-details-02.png" alt-text="Screenshot showing the details for a specific agent." lightbox="../../media/agents/agent-details-02.png":::
 
-When you select an agent from the **Registry**, the details fly-out pane displays common actions available for the agent, such as:
+To access the details available for an agent, use the following steps:
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
+2. Navigate to **Agents** > **All agents**.
+  The agent **Registry** tab will be selected.
+3. Select an agent from the **Registry** list.
+  The agent details will be displayed.
+
+When you select an agent from the **Registry**, the details fly-out pane displays common actions available for the agent directly below the agent's name. Actions, such as:
 - **Install** - Deploys and installs the agent to the selected users.
 - **Block** - Blocks the agent from members of your organization. They will not be able to install or use the agent. Additionally, the agent will be removed from any member of your organization who has already installed it.
 - **Pin for users** - The agent will be pinned in the UI (based on channel) where the agent was deployed, so that the agent can be found more easily. Based on the users or groups where the agent was deployed, you can specify who will have the agent pinned.
 
 For more information about agent actions, see [Agent actions available in Microsoft 365 admin center](agent-actions.md).
 
-Details for each agent may include the following areas based on capability:
-- **[Overview](#agent-overview-details)** - The Overview tab provides a description, instructions, publish status, availability, publisher, deployment, agent type, coannel, platform, last updated, sensitivity, and version.
-- **[Users](#agent-users)** - Allows you to view and select the allowed users that the agent has been publish to.
-- **[Permissions](#agent-permissions)** - 
-- **[Data & Tools](#agent-data--tools)** - Provides details about Microsoft Purview proections, such as capabilities, knowledge sources, and tools available to the agent. Also, provides Microsoft Entry protection details, such as Agent User ID and Agent ID.
-- **[Security](#agent-security)** - Provides details about monitoring agent activity, protecting sensitive data, and evaluating compliance gaps.
-- **[Connect Agents](#agent-with-connected-agents)** - When using the agent, users can get additional information and answers from the selected connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access.
-- **[Custom tools & knowledege](#agent-custom-tools--knowledge)** - Extend the selected agent by copying the skills and knowledge from up to one other agent. When you select an agent to extend from, the skills and knowledge from that agent will be available in the selected agent.
-- **[Computer use](#agent-computer-use)** - You can allow the selected agent to perform action on behalf of the users and also access work data. Additionally, you can choose which websites are allowed for **Computer use**. Note that Web search is required for **Computer Use**.
+The following table provides agent sections (tabs) that are available for agent details based on capability:
 
+| Agent section (tab) | Description |
+|---|---|
+| **[Overview](#agent-overview-details)** | The Overview tab provides a description, instructions, publish status,   availability, publisher, deployment, agent type, coannel, platform, last   updated, sensitivity, and version. |
+| **[Users](#agent-users)** | Allows you to view and select the allowed users that the agent has been   publish to. |
+| **[Permissions](#agent-permissions)** |  |
+| **[Data & Tools](#agent-data--tools)** |  Provides   details about Microsoft Purview proections, such as capabilities, knowledge   sources, and tools available to the agent. Also, provides Microsoft Entry   protection details, such as Agent User ID and Agent ID. |
+| **[Security](#agent-security)** | Provides details about monitoring agent activity, protecting sensitive   data, and evaluating compliance gaps. |
+| **[Connect Agents](#agent-with-connected-agents)** | When using the agent, users can get additional information and answers   from the selected connected agents. You can connect up to 10 agents to the   selected agent, excluding those added by the agent's maker. Depending on how   the agent maker connected the agents, you may be able to remove them as well.   You must make sure the connected agents are available to everyone who needs   access. |
+| **[Custom tools & knowledege](#agent-custom-tools--knowledge)** | Extend   the selected agent by copying the skills and knowledge from up to one other   agent. When you select an agent to extend from, the skills and knowledge from   that agent will be available in the selected agent. |
+| **[Computer use](#agent-computer-use)** | You can allow the selected agent to perform action on behalf of the users   and also access work data. Additionally, you can choose which websites are   allowed for **Computer use**. Note that Web search is required for **Computer use**. |
 
 ## Agent overview details
 
-### Agent users
+## Agent users
 
-### Agent permissions
+## Agent permissions
 
 ## Agent data & tools
 
@@ -74,7 +84,7 @@ You can use this information to understand the data the agent has access to, the
 > [!IMPORTANT]
 > Admins with the **AI Administrator** or **Global Administrator** role have full access to view **Data & tools** for all agents. Use roles with the fewest permissions. Accounts with lower permissions help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-To access the **Data and tools** tab for an agent, use the followin steps:
+To access the **Data and tools** tab for an agent, use the following steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
 2. Navigate to **Agents** > **All agents**.
