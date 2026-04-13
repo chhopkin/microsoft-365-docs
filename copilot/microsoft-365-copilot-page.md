@@ -56,6 +56,9 @@ For more information, see the following articles:
 - [Which Copilot is right for your organization?](which-copilot-for-your-organization.md)
 - [Get started with Microsoft 365 Copilot](microsoft-365-copilot-setup.md)
 
+> [!NOTE]
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+
 ### Role requirements
 
 Role requirements vary depending on your task.

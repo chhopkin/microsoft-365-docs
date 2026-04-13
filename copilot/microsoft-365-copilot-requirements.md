@@ -47,6 +47,9 @@ This article applies to:
 
 - Microsoft 365 Copilot is only supported on primary mailboxes that are hosted on Exchange Online.
 
+> [!NOTE]
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+
 ## App requirements
 
 - **[Microsoft 365 Apps](/deployoffice/about-microsoft-365-apps)** - The apps must be deployed. You can use the [Microsoft 365 Apps setup guide in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?Q=learndocs#/modernonboarding/microsoft365copilotsetupguide) to deploy to your users.

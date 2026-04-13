@@ -51,7 +51,7 @@ Before your users can use Microsoft 365 Copilot, they must have one of the follo
 Once your organization has one of these subscriptions or plans, you can purchase a Microsoft 365 Copilot license for your users. For more information, see [License plans for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
 
 > [!NOTE]
-> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md).
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
 
 ## Mailbox requirements
 
