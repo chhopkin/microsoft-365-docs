@@ -117,7 +117,7 @@ This process involves only one step:
 
 - Now, let's test the newly added topic
   - Using the Test button in **Copilot studio**, open the test chat window.
-  - Invite guest using the prompt "Invite my guest to the office". This prompt opens an adative card where you can fill the required details like Guest Name, Purpose of visit, date, and time of visit, etc.
+  - Invite guest using the prompt "Invite my guest to the office". This prompt opens an Adaptive card where you can fill the required details like Guest Name, Purpose of visit, date, and time of visit, etc.
   - Upon successful submission, the Employee Self-Service system displays a confirmation that the guest invite is created.
 
 ### Validate the Topic
@@ -149,9 +149,9 @@ This process involves only one step:
 
 ### I need to configure the API call as per my requirement. What should I do?
 
-We use *HttpRequestAction* component for making the HTTP calls. As a start, you can use the same and modify it as per your needs. (There are also several other ways to configure the HTTP call as described in the connectors section previously.)
+We use *HttpRequestAction* component for making the HTTP calls. As a start, you can use the same and modify it as per your needs. There are also several other ways to configure the HTTP call as described in the connectors section previously.
 
-- Expand the *HttpRequestAction* node, and in the URL section click on Select variable -> Formula to update your backend API URL. Click Insert to save the URL.
+- To update your backend API URL, expand the *HttpRequestAction* node, and in the URL section click on Select variable -> Formula. Update the URL as reuqired and click Insert to save the URL.
 
     :::image type="content" source="media/facilities-lobby-invite-guest-httprequest.png" alt-text="Diagram that shows the HttpRequestAction component configuration for updating URL.":::
 
@@ -161,7 +161,7 @@ We use *HttpRequestAction* component for making the HTTP calls. As a start, you 
     :::image type="content" source="media/facilities-lobby-invite-guest-httprequest-headers-body.png" alt-text="Diagram that shows the headers and body configuration in HttpRequestAction.":::
 
 - Set the appropriate Response type as per your backend contracts.
-- Save the response in a state variable. Saving the response, allows you to access it in the later steps.
+- Save the response in a state variable. This state variable allows you to access the response in the later steps.
 
 ### How are error conditions handled?
 
@@ -188,8 +188,8 @@ Depending on the error message, check the following nodes:
 ### My API call returns a blank or unexpected response. What could be wrong?
 
 - Validate the request headers and body parameters.
-- Ensure the response data type matches the backend API output.
-- Review the backend API logs for errors or contract mismatches.
+- Validate the response data type and ensure it matches the backend API output.
+- Validate the backend API logs and check for errors or contract mismatches.
 
 ### Additional tips
 
