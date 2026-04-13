@@ -43,7 +43,6 @@ Cowork can:
 - Conduct deep research across multiple sources and compile comprehensive analysis.
 - Generate adaptive card responses with structured layouts and data displays.
 - Run scheduled prompts for recurring tasks (daily briefings, weekly reports).
-- Discover and use custom skills that you or your organization create via OneDrive.
 
 During a conversation, Cowork acquires specialized skills as needed, such as the following: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards.
 
@@ -77,7 +76,6 @@ Current limitations include:
 - Cowork might produce inaccurate information when searching across your organization, particularly when source data is incomplete or outdated.
 - Complex, multi-step tasks with many dependencies might not always complete as expected.
 - Cowork is dependent on your existing Microsoft 365 permissions. It can't access data or services that your account isn't authorized to use.
-- Custom skills authored by users or your organization are not validated by Microsoft. Review custom skill outputs carefully, as their quality depends on how the skill was written.
 
 To minimize these limitations:
 

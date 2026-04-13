@@ -304,30 +304,6 @@ Cowork uses specialized skills as it works. When Cowork loads a new skill during
 
 You can display which skills Cowork loaded during a conversation in the **Skills** section of the side panel. They appear as chips.
 
-### Create custom skills
-
-You can extend Cowork with your own custom skills stored in OneDrive.
-
-1. In your OneDrive, navigate to the `/Documents/Cowork/Skills/` folder. Create it if it doesn't exist.
-2. Create a subfolder with your skill name (for example, `/Documents/Cowork/Skills/weekly-report/`).
-3. Inside the subfolder, create a file named `SKILL.md`.
-4. Add a YAML frontmatter block with a `name` and `description`, followed by the skill instructions in Markdown:
-
-   ```yaml
-   ---
-   name: Weekly Report
-   description: Generates a weekly status report from my recent emails and calendar.
-   ---
-
-   Gather my sent emails and calendar events from the past week, then create
-   a summary document organized by project.
-   ```
-
-5. Save the file. Cowork discovers your custom skills automatically at the start of each conversation.
-
-> [!NOTE]
-> You can create up to 20 custom skills. Each `SKILL.md` file can be up to 1 MB.
-
 ## Schedule prompts
 
 You can schedule a prompt to run automatically on a recurring basis. To create a scheduled prompt, describe what you want and when in your message. For example, "Send me a daily briefing every morning at 9 AM" or "Create a weekly status report every Friday."
