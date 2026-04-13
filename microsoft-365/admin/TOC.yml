@@ -462,6 +462,8 @@ items:
              href: manage/release-options-faq.md
            - name: Prepare for Microsoft 365 updates with Message center
              href: manage/message-center.md
+           - name: What's new in Message center
+             href: manage/message-center-updates.md
            - name: Message center FAQ
              href: manage/message-center-faq.md
          - name: Power BI usage analytics
