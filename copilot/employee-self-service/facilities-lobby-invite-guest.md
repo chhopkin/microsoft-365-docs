@@ -20,49 +20,49 @@ appliesto:
 
 # Extending Employee Self-Service Agent
 
-The Employee Self-Service (ESS) Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM and IT systems, directly within Microsoft 365 Copilot.
+The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
 An organization may seek to enhance Employee Self-Service by integrating additional capabilities that enable employees to maximize the benefits of Employee Self-Service and support their work-related activities.
 
 To support these needs, Employee Self-Service is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
 
-At Microsoft, we have extended Employee Self-Service to bring in Real Estate and Facilities related experiences like allowing employees to register their vehicle (Parking), create a facilities ticket (Facilities), view available food stations by cuisine (Dining), or invite their guest to offices (Lobby) via ESS.
+At Microsoft, we have extended Employee Self-Service to bring in Real Estate and Facilities related experiences like allowing employees to register their vehicle (Parking), create a facilities ticket (Facilities), view available food stations by cuisine (Dining), or invite their guest to offices (Lobby) via Employee Self-Service.
 
 Some scenarios that this extensibility to Employee Self-Service is helping us power:
 
 - Create a Facilities Ticket, for example, "I want to report a water leak"
 - Register a Vehicle, for example, "I want to register my vehicle Tesla Model 3"
 - View food stations or counters by cuisine, for example, "Where can I find Chinese food?"
-- Invite a Guest, e.g. "I want to invite my spouse to Building 32".
+- Invite a Guest, for example "I want to invite my spouse to Building 32".
 
-In the following section, we will see how a maker in Copilot Studio can extend Employee Self-Service to support the above scenarios. But before we dive into the maker experience, let’s understand what real estate and facilities are and how they support employees.
+In the following section, we see how a maker in Copilot Studio can extend Employee Self-Service to support the above scenarios. But before we dive into the maker experience, let’s understand what real estate and facilities are and how they support employees.
 
 ## Real Estate & Facilities
 
-Real Estate and Facilities (RE&F) play a pivotal role in shaping the overall employee experience within an organisation. By integrating RE&F services into Employee Self-Service (ESS) platforms, companies can streamline access to essential workplace amenities and administrative tasks, making daily operations more efficient and user-friendly for employees.
+Real Estate and Facilities (RE&F) play a pivotal role in shaping the overall employee experience within an organization. By integrating RE&F services into Employee Self-Service platforms, companies can streamline access to essential workplace amenities and administrative tasks, making daily operations more efficient and user-friendly for employees.
 
-For instance, features like vehicle registration for parking, facilities ticketing for maintenance requests, access to café menus, and streamlined guest invitation processes empower employees to manage their work environment proactively. These capabilities reduce administrative overhead, minimise wait times, and improve satisfaction by giving employees greater control and visibility over their workplace needs.
+For instance, features like vehicle registration for parking, facilities ticketing for maintenance requests, access to café menus, and streamlined guest invitation processes empower employees to manage their work environment proactively. These capabilities reduce administrative overhead, minimize wait times, and improve satisfaction by giving employees greater control and visibility over their workplace needs.
 
-Moreover, such integrated experiences foster a sense of belonging and engagement, as employees feel supported by systems that anticipate and address their requirements. This not only enhances productivity but also contributes to a positive organisational culture where employees can focus more on their core responsibilities rather than logistical hassles.
+Moreover, such integrated experiences foster a sense of belonging and engagement, as employees feel supported by systems that anticipate and address their requirements. These integrated experiences not only enhances productivity but also contributes to a positive organizational culture where employees can focus more on their core responsibilities rather than logistical hassles.
 
-Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organisations attract, retain, and motivate talent by prioritising their day-to-day comfort and efficiency.
+Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organizations attract, retain, and motivate talent by prioritizing their day-to-day comfort and efficiency.
 
-Now that we have covered the fundamentals, let’s walk through a practical example. In the following sections, we will extend the Employee Self-Service Agent to allow employees to perform various operations through the Employee Self-Service Copilot Agent.
+Now that we have covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Agent to allow employees to perform various operations through the Employee Self-Service Copilot Agent.
 
-## Pre-requisites
+## Prerequisites
 
 To extend the Employee Self-Service Copilot Agent with a custom *Invite a guest* topic, ensure the following prerequisites are met:
 
 - Employee Self-Service agent is installed in Copilot Studio.
 - Access to Copilot Samples in GitHub:  
-  https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest
-- Maker access to a sandbox or pre-production environment in Copilot Studio.
-- Access to the Guest Management APIs that will be used to fetch the list of buildings and create guest invitations.
-    - For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on the Azure platform.
+  <https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest>
+- Maker access to a sandbox or preproduction environment in Copilot Studio.
+- Access to the Guest Management APIs that is used to fetch the list of buildings and create guest invitations.
+  - For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on the Azure platform.
 
 ## Fundamentals
 
-Extending Employee Self-Service for RE&F experiences requires an understanding of a few key building blocks: **topics, adaptive cards, and connectors**. Together, these define how conversational scenarios are designed and how they interact with RE&F services.
+Extending Employee Self-Service for RE&F experiences requires an understanding of a few key building blocks: **topics, adaptive cards, and connectors**. Together, these building blocks define how conversational scenarios are designed and how they interact with RE&F services.
 
 ### Topics
 
@@ -85,16 +85,16 @@ Connectors enable you to connect the agent with other apps, data, and devices in
 For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for creating a guest invitation.
 
 Available connectors:  
-https://learn.microsoft.com/connectors/connector-reference/
+<https://learn.microsoft.com/connectors/connector-reference/>
 
 HTTP request action reference:  
-https://learn.microsoft.com/microsoft-copilot-studio/authoring-http-node
+<https://learn.microsoft.com/microsoft-copilot-studio/authoring-http-node>
 
 ## Example: Invite a Guest
 
-In the **Invite a Guest** scenario, an employee can pre-register a visitor such as a business partner, vendor, interview candidate, or personal guest.
+In the **Invite a Guest** scenario, an employee can preregister a visitor such as a business partner, vendor, interview candidate, or personal guest.
 
-Through the Employee Self-Service (ESS) platform, the employee can initiate a guest invitation by providing essential details like the guest’s name, contact information, visit date, time, and purpose. The system validates the request and registers the guest with visitor management system, sends an invitation mail with arrival instructions to the guest, and notifies the reception team about their arrival. This ensures a smooth check-in experience for the guest while maintaining workplace security and operational efficiency. 
+Through the Employee Self-Service platform, the employee can initiate a guest invitation by providing essential details like the guest’s name, contact information, visit date, time, and purpose. The system validates the request and registers the guest with visitor management system. The system also sends an invitation mail with arrival instructions to the guest, and notifies the reception team about their arrival. All these steps, ensures a smooth check-in experience for the guest while maintaining workplace security and operational efficiency.
 
 This process involves only one step:
 
@@ -106,82 +106,70 @@ This process involves only one step:
 
 - Create a topic named **Invite a guest**
   - In Copilot Studio, select **Add a topic > From blank**.
-        :::image type="content" source="media/facilities-lobby-invite-guest-create-topic.png" alt-text="Screenshot showing how to create a topic in Copilot Studio.":::
-
-  - Once inside the topic select **Open code editor**
+  - Once inside the topic, select **Open code editor**.
   - Use the code from the Copilot Samples repository and paste in the code editor:  
       <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest/topic.yaml>
-  - Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction” and update the URL property as per your backend system.
+  - Update the HTTP API URL in the code sample. Search for "kind: HttpRequestAction" and update the URL property as per your backend system.
   - Save the topic
+
 - Validate
   - Open the visual representation of the topic definition and validate the workflow of the topic.
   - Click on Topic Checker for any static issues with the definition.
-  - Optionally, follow the below section "Validate the Topic" to understand and validate the steps.
+  - Optionally, go through the following section "Validate the Topic", to understand and validate the steps.
+
 - Now, let's test the newly added topic
-  - Using the **Test** button in Copilot studio, open the test chat window.
-  - Invite guest using the prompt “Invite my guest to the office”. This will open an adative card where you can fill the required details like Guest Name, Purpose of visit, date and time of visit, etc.
-    :::image type="content" source="media/facilities-lobby-invite-guest-form.png" alt-text="Screenshot showing the guest invitation form in the Employee Self-Service agent.":::
-  - Upon successful submission, the Employee Self-Service system will display a confirmation that the guest has been invited.
+  - Using the Test button in **Copilot studio**, open the test chat window.
+  - Invite guest using the prompt "Invite my guest to the office". This prompt will open an adative card where you can fill the required details like Guest Name, Purpose of visit, date, and time of visit, etc.
+  - Upon successful submission, the Employee Self-Service system displays a confirmation that the guest invite is created.
 
 ### Validate the Topic
 
-- The Trigger node will capture the topic description, which is visible from the user interface. You can use M365 copilot to fine-tune as per your requirements.
+- The Trigger node will capture the topic description, which is visible from the user interface. You can use Microsoft 365 copilot to fine-tune as per your requirements.
+    :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-trigger.png" alt-text="Diagram that shows the trigger node configuration where you can change the trigger description.":::
 
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-trigger.png" alt-text="Screenshot showing the trigger node configuration for the Invite a guest topic.":::
+- In the next few nodes, we enforce certain limitations - like supporting only single guest visits and supporting only new visits and not edit/cancellation of existing visits.
+  - This is optional step and to implement this, few variables are maintained based on the user query and then used in a group of conditional statements as shown in screenshot below.
+  - If these restrictions aren't required, remove them by deleting the corresponding variables and condition nodes (shown in the pictures below).
 
-- In the subsequent nodes, we enforce certain limitations - like supporting only single guest visits and supporting only new visits and not edit/cancellation of existing visits.
-  - This is optional step and to implement this, few variables are maintained based on the user query and then used in a group of conditional statements as shown in screenshot below. 
-  - If these restrictions are not required, remove them by deleting the corresponding variables and condition nodes (shown in the pictures below).
+- In the next node, we make an HTTP call to the backend API to fetch all buildings; these buildings are prepopulated in the guest registration form that gets rendered in the upcoming steps. We use HttpRequestAction component for making the HTTP call. This can be alternatively configured in several other ways described in the connectors section above.
 
-- The subsequent node makes an HTTP call to the backend API to fetch all buildings; these buildings are prepopulated in the guest registration form that gets rendered in the upcoming steps. We have used HttpRequestAction component for making the HTTP call. This can be alternatively configured in several other ways described in the connectors section above.
+- In the next node, we use a Customize Response node to determine the guest visit purpose and location from the user query to auto-populate in the guest invite form. This is added for an enriched user experience; however, this is optional and the corresponding nodes can be omitted as per requirements.
+    :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-response-instructions.png" alt-text="Diagram that shows the Customize Response nodes for determining visit purpose and location.":::
 
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-building.png" alt-text="Screenshot showing the HTTP request node that fetches all buildings.":::
+- Verify the guest invite adaptive card with action buttons. Currently the required input parameters for creating a guest visit are - guest first name, last name, email, meeting purpose, and meeting location (name of the building). Users can add or modify input fields as needed.
+    :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-adative-card.png" alt-text="Diagram that shows the adaptive card fields for the guest invitation form. Adjust the fields as required.":::
 
-- In the next node, we use a bunch of Customize Response nodes to determine the guest visit purpose and location from the user query to auto-populate in the guest invite form. This is added for an enriched user experience; however, this is optional and the corresponding nodes can be omitted as per requirements.
+- In the next node, an HTTP call is made to the backend create invite API with all the collected information forwarded with the request.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-response-instructions.png" alt-text="Screenshot showing the Customize Response nodes for visit purpose and location.":::
-
-- Verify the guest invite adaptive card with action buttons. Currently the required input parameters for creating a guest visit are - guest first name, last name, email, meeting purpose and meeting location (name of the building). Users can add or modify input fields as needed.
-
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-adative-card.png" alt-text="Screenshot showing the adaptive card fields for the guest invitation form.":::
-
-- In the next step, an HTTP call is made to the backend create invite API with all the collected information forwarded with the request.
-
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-httpnode-create.png" alt-text="Screenshot showing the HTTP request node that creates the guest invite.":::
-
-- The following steps determine if the visit creation was successful and display a message to the user accordingly. 
-  - Upon successful submission, the Employee Self-Service (ESS) system will display a confirmation of the visit creation for the user’s guest.
+- The following steps determine if the visit creation was successful and displays a message to the user accordingly.
+  - Upon successful submission, the Employee Self-Service system displays a confirmation of the visit creation for the user’s guest.
   - In case the request failed due to any reason, a failure message is sent to the user. These messages can be customized by modifying the corresponding SendActivity components.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-error-handling.png" alt-text="Screenshot showing the success and failure handling nodes in the topic.":::
+    :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-error-handling.png" alt-text="Diagram that shows the handling of success and failure conditions in the topic.":::
 
 ## FAQs
 
 ### I need to configure the API call as per my requirement. What should I do?
 
-We have used *HttpRequestAction* component for making the HTTP calls. As a start, you can use the same and modify it as per your needs. (There are also several other ways to configure this as described in the connectors section above)
+We use *HttpRequestAction* component for making the HTTP calls. As a start, you can use the same and modify it as per your needs. (There are also several other ways to configure this as described in the connectors section above)
 
 - Expand the *HttpRequestAction* node, and in the URL section click on Select variable -> Formula to update your backend API URL. Click Insert to save the URL.
 
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest.png" alt-text="Screenshot showing the HttpRequestAction component configuration.":::
+    :::image type="content" source="media/facilities-lobby-invite-guest-httprequest.png" alt-text="Diagram that shows the HttpRequestAction component configuration for updating URL.":::
 
-- Select the appropriate http request method from the method dropdown
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-method.png" alt-text="Screenshot showing the HTTP method configuration in HttpRequestAction.":::
+- Select the appropriate http request method from the method dropdown.
 
-- Now, add the required headers, request body and error handling as per your backend API definition
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-headers-body.png" alt-text="Screenshot showing the headers and body configuration in HttpRequestAction.":::
+- Now, add the required headers, request body, and error handling as per your backend API definition.
+    :::image type="content" source="media/facilities-lobby-invite-guest-httprequest-headers-body.png" alt-text="Diagram that shows the headers and body configuration in HttpRequestAction.":::
 
-- Set the appropriate Response type as per your backend contracts
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-contract.png" alt-text="Screenshot showing the response data type configuration in HttpRequestAction.":::
-
-- Save the response in a state variable to access it in the later steps
-:::image type="content" source="media/facilities-lobby-invite-guest-httprequest-variable.png" alt-text="Screenshot showing how to save the API response to a state variable.":::
+- Set the appropriate Response type as per your backend contracts.
+- Save the response in a state variable to access it in the later steps.
 
 ### How are error conditions handled?
 
-Towards the end of the topic, you will see conditional branching as shown in the image below, which is used to handle errors and send the appropriate messages to the user. These can be customized, and any additional conditions can be added to the same condition group.
+Towards the end of the topic, you see conditional branching as shown in the image below, which is used to handle errors and send the appropriate messages to the user. These conditions can be customized, and any additional conditions can be added to the same condition group as required. 
 
-:::image type="content" source="media/facilities-lobby-invite-guest-conditional-branching.png" alt-text="Screenshot showing conditional branching for error handling in the topic.":::
+:::image type="content" source="media/facilities-lobby-invite-guest-conditional-branching.png" alt-text="Diagram that shows conditional branching for error handling in the topic.":::
 
 ### What should I do if I get an error message?
 
