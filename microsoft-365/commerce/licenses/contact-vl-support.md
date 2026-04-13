@@ -10,8 +10,6 @@ ms.topic: how-to
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-volume-licensing
 ms.collection:
-- Tier1
-- scotvorg
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
@@ -19,7 +17,7 @@ service.tree.id: e6e1ea2a-04a0-4f78-bc75-7d45c90eee39
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to contact Microsoft support for volume licensing products."
-ms.date: 12/02/2025
+ms.date: 04/13/2026
 ---
 
 # Contact volume licensing support
@@ -136,8 +134,8 @@ Use the information in the following tables to find the support number for your 
 |Poland |00 800 112 46 99 (Toll Free) |08:30 - 18:00 Monday to Friday |English|
 |Portugal |800 849101 (Toll Free) |09:00 - 18:00 Monday to Friday |Portuguese |
 |Spain |900 994910 (Toll Free) |09:00 - 18:00 Monday to Friday |Spanish |
-|Switzerland|0800 563564 (Toll Free)|08:00-17:00 Monday to Friday|French|
 |Sweden |020 797079 (Toll Free) |08:30 - 17:00 Monday to Friday |English |
+|Switzerland|0800 563564 (Toll Free)|08:00-17:00 Monday to Friday|French|
 |Türkiye |8503902777 |09:00 - 18:00 Monday to Friday |English|
 |United Kingdom |0800 9179016 (Toll Free) |08:00 - 18:00 Monday to Friday |English |
 
