@@ -160,7 +160,8 @@ When you assign licenses, Copilot shows up in Microsoft 365 apps, like Word and 
 To use Copilot, users sign into the app with their work or school account and the file must be editable, not read-only. In some experiences like Word, a Copilot dialog shows when you create a new document. In other experiences, Copilot is accessible on the ribbon.
 
 > [!NOTE]
-> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+> If you'd like to enable users with priority access to these capabilities, learn how to [upgrade to Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise).
 
 > [!NOTE]
 >
