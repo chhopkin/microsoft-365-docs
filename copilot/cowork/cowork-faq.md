@@ -73,7 +73,7 @@ You can attach a wide variety of files to your conversations. Cowork supports th
 Yes. You can preview the following file types directly in the conversation:
 
 - PDF
-- Office documents (Word, Excel, PowerPoint)
+- Microsoft 365 documents (Word, Excel, PowerPoint)
 - CSV
 - Markdown
 - Code files (with syntax highlighting)
