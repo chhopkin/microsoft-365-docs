@@ -32,14 +32,12 @@ ms.date: 04/13/2026
 1. Go to the [online support request form](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=2afa6f15-b710-db46-909a-8346017c802f).
 1. Under **Product or service you need help with**, select your agreement type from the drop-down list. For example, **Enterprise Agreement**.
 1. Under **Which category best describes the issue**, from the drop-down list, select the category most closely matching your issue.
-
-4. Under **Types of Support**, select **Professional No Charge**.
-5. Enter your location, time zone and whether you prefer that we contact you by phone or by email.
+1. Under **Types of Support**, select **Professional No Charge**.
+1. Enter your location, time zone and whether you prefer that we contact you by phone or by email.
 
 ### Step 2. Describe the issue you're facing
 
 - Enter a summary of the issue, then use the template to provide more details.
-
 - Be sure to include the VL agreement number your issue relates to.
 - To help us understand the problem, attach screenshots of any error message or technical issue.
 
@@ -52,7 +50,6 @@ ms.date: 04/13/2026
 
 - After you provide all the required information, select **Submit**.
 - Your case number will be displayed and you also receive a confirmation email from support@mail.support.microsoft.com. If you don't see the email in your inbox, check your junk folder.
-
 - VL support contacts you during business hours to resolve the issue.
 - You can check your case status online, using the **Manage** tab at [https://support.serviceshub.microsoft.com/supportforbusiness/manage](https://support.serviceshub.microsoft.com/supportforbusiness/manage).
 
