@@ -18,6 +18,9 @@ items:
   - name: Microsoft 365 Business Premium
     tocHref: /microsoft-365/business-premium/
     topicHref: /microsoft-365/business-premium/index
+  - name: Subscriptions and billing
+    tocHref: /microsoft-365/commerce/
+    topicHref: /microsoft-365/commerce/index    
   - name: Document processing for Microsoft 365
     tocHref: /microsoft-365/documentprocessing/
     topicHref: /microsoft-365/documentprocessing/index    
