@@ -35,7 +35,7 @@ For more information about subprocessor data access, see [Microsoft Data Access 
 Microsoft will enable Anthropic models on by default for most customers in commercial cloud (excluding EU/EFTA and UK). This update gives users in your organization the ability to use multiple AI models in their Microsoft offerings, including in Microsoft 365 Copilot, Researcher, Copilot Studio, Power Platform, Agent Mode in Excel, and Word, Excel, and PowerPoint agents. This affirms Microsoft’s commitment to offering choice between leading AI models while maintaining enterprise-grade security and compliance.
 
 > [!NOTE]
-> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md).
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
 
 > [!IMPORTANT]
 > Anthropic models deployed in Microsoft offerings (including Microsoft 365 Copilot, Researcher, Copilot Studio, Power Platform, Agent Mode in Excel, and Word, Excel, and PowerPoint agents) are currently excluded from the EU Data Boundary, and when applicable, in-country processing commitments. Customers within the EU Data Boundary and customers in the UK will have Anthropic models disabled by default. Anthropic models aren't currently available for use in government clouds (GCC, GCC High, DoD) or sovereign clouds.
