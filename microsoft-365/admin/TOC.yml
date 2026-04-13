@@ -208,8 +208,14 @@ items:
               href: email/convert-user-mailbox-to-shared-mailbox.md
         - name: Set up Focused Inbox
           href: setup/configure-focused-inbox.md
+        - name: Create distribution groups
+          href: setup/create-distribution-lists.md
         - name: Add user or contact to distribution group
           href: email/add-user-or-contact-to-distribution-list.md
+        - name: Create room and equipment mailboxes
+          href: manage/room-and-equipment-mailboxes.md
+        - name: Create room and equipment mailboxes FAQ
+          href: manage/room-equipment-mailboxes-faq.yml
         - name: Manage clutter for your organization
           href: email/configure-clutter.md
         - name: Mailbox not found error
@@ -284,7 +290,7 @@ items:
                 href: manage/manage-connected-agents-for-researcher.md
             - name: Agent Map
               href: manage/agent-map.md
-            - name: Manage Tools for agents 
+            - name: Manage Tools for agents
               href: manage/manage-tools-for-agent.md
             - name: Agent Settings
               href: manage/agent-settings.md
