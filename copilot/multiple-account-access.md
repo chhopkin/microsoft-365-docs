@@ -14,7 +14,7 @@ ms.collection:
 - magic-ai-copilot
 - must-keep
 hideEdit: true
-ms.date: 04/01/2026
+ms.date: 04/13/2026
 ms.update-cycle: 180-days
 ---
 
@@ -43,7 +43,7 @@ The setting for [web search in Microsoft 365 Copilot](manage-public-web-access.m
 
 Users using multiple account access to Copilot on work and school documents also have limited access to Copilot as shown in the following table.
 
-| Copilot capability                                                                          | When multiple account access to Microsoft 365 Copilot is enabled | When the user is assigned an internal Microsoft 365 Copilot license |
+| Copilot capability| When multiple account access to Microsoft 365 Copilot is enabled | When the user is assigned an internal Microsoft 365 Copilot license |
 |---------------------------------------------------------------------------------------------|------------------------------------|----------------------------------------|
 | Access the organization’s Microsoft Graph                                                   |No |Yes|
 | Ask Copilot questions about the current open document and make Copilot assisted edits       |Yes|Yes|
@@ -63,12 +63,6 @@ To configure this policy setting, you need to use [Cloud Policy service for Micr
 If you enable or don't configure this policy setting, your users can use Copilot on work and school documents with a Microsoft 365 Copilot license that is from outside your organization.
 
 If you disable this policy setting, your users can't use Copilot on work and school documents with a Microsoft 365 Copilot license that is from outside your organization.
-
-The experience for blocked users viewing work and school documents is as follows:
-
-- All on-canvas Copilot user interfaces (UI) are removed, both on-canvas Copilot entry points and proactive features, such as Word summary.
-
-- If the user is signed in with an account with Copilot, the Copilot button in the ribbon remains active. However, your users can't use any Copilot capabilities; clicking the button displays an error message indicating that multiple account access to Copilot is blocked.
 
 ## Apps where multiple account access to Microsoft 365 Copilot is available
 
