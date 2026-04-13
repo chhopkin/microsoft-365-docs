@@ -30,10 +30,15 @@ This article explains how to set up or disconnect pay-as-you-go billing in the *
 
 ## Before you begin
 
-- To access the Microsoft 365 admin center, you must have either the [SharePoint Administrator](/entra/identity/role-based-access-control/permissions-reference) or [Global Administrator](/entra/identity/role-based-access-control/permissions-reference) role.
+- To access the Microsoft 365 admin center, you must have one of the following roles:
 
-  [!INCLUDE [ga-roles-limitation](../../includes/ga-roles-limitation.md)]
-
+  - [SharePoint Administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator)
+  - [Billing Administrator](/entra/identity/role-based-access-control/permissions-reference?#billing-administrator)
+  - [AI Administrator](/entra/identity/role-based-access-control/permissions-reference?#ai-administrator)
+  - [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)
+  
+    [!INCLUDE [ga-roles-limitation](../../includes/ga-roles-limitation.md)]
+    
 - You must have Owner or Contributor rights to the Azure subscription and resource group.
 - The tenant must have at least one SharePoint license, or a license that includes SharePoint.
 - You must have an Azure subscription in the same tenant as Microsoft 365.
