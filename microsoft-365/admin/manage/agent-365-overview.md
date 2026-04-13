@@ -68,16 +68,50 @@ You can access the **Agent overview** using the following steps:
 
 Access to agent management in Microsoft 365 admin center is controlled by [Microsoft Entra admin roles](/entra/identity/role-based-access-control/permissions-reference). 
 
-The following roles can manage agents in the Microsoft 365 admin center:
-- AI Administrator
-- Global Reader (view-only, no edit)
-- Global Administrator
+While several administrative and security roles can view agent-related information for monitoring and reporting purposes, only select roles are authorized to perform governance actions such as approving agent requests or assigning ownership.
+
+The following table provides agent management capabilities  Microsoft 365 admin center:
+
+| Role | View insights and organization   data | View agent registry information | Install, modify, approve, and manage agent configurations |
+|:---:|:---:|:---:|:---:|
+| Global Administrator | TRUE | TRUE | TRUE |
+| AI Administrator | TRUE | TRUE | TRUE |
+| Global Reader | TRUE | TRUE | FALSE |
+| AI Reader | TRUE | TRUE | FALSE |
+| Security Administrator | TRUE | TRUE | FALSE |
+| Security Reader | TRUE | TRUE | FALSE |
+| Security Operator | TRUE | TRUE | FALSE |
+| Reports Reader | TRUE | FALSE | FALSE |
+| User Experience Success Manager | TRUE | FALSE | FALSE |
 
 These **AI Administrator** and **Global Administrator** roles have tenant‑wide visibility and governance authority, where-as by contrast, product-specific admin roles allow governance only within the boundaries of their products (such as Power Platform Administrator and Fabric Administrator).
 
 > [!IMPORTANT]
 >
 > Use roles with the fewest permissions. Accounts with lower permissions help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+
+View access to the agent **Overview** does not grant permissions to install, modify, or manage agents. Administrative actions continue to be governed by role-based access controls aligned with agent installation and consent workflows.
+
+Viewing agent **Registry** information includes the following capabilities:
+- View the list of registered agents within their organization
+- Access agent-level metadata (Such as **Agent name**, **Publisher**, **Owner** *(where available)*, **Installation status**, **Availability scope**, and **Last updated timestamp**.
+
+### Governance actions for agents 
+
+Administrators can use governance insights in the Microsoft 365 Admin Center to identify and remediate compliance gaps related to agent usage across the organization.
+
+Examples of governance include the actions: 
+- Review and approve pending agent installation requests
+- Assign ownership to agents without a designated owner
+
+These actions can be initiated based on the following agent views:
+- Pending Requests for Agents
+- Ownerless Agents
+
+Selecting these options in Microsoft 365 admin center navigates you to relevant filtered views within the agent **Registry** to take corrective action.
+
+> [!IMPORTANT]
+> Governance actions, such as approving agent requests or assigning agent ownership, can only be performed by admins assigned to the **AI Administrator** or **Global Administrator** Microsoft Entra roles. Other supported roles can monitor governance gaps but cannot take administrative actions. In addition, admins that have been assigned the **AI Administrator** role are not authorized to configure **Conditional Access** policies or **Microsoft Entra** access package policies. These actions require a highly privileged administrator role with appropriate Microsoft Graph permissions.
 
 ## Key features of the Agent overview
 
