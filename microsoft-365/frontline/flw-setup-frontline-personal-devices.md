@@ -25,6 +25,10 @@ manager: viseshag
 
 The frontline Teams onboarding experience helps frontline workers set up Teams on their personal devices. This onboarding experience is available on the web and is intended for use on a desktop kiosk or shared PC at your work site. The steps in the experience update dynamically based on the security policies defined in your organization. If your policies change over time, the experience adapts automatically.
 
+## How it works
+
+> [!VIDEO https://www.youtube.com/embed/Yz52WdwsbBs?si=bfBY3lbQ9vbgI2rs]
+
 ## Scenarios supported
 
 - You want to set up Microsoft Teams on a personal device. Supported devices include Android and iOS.
@@ -48,7 +52,7 @@ Make sure you have:
 > [!NOTE]
 > For best results, use a private browsing session and close it after each setup.
 
-On the desktop kiosk or back-office PC, open a web browser and navigate to [aka.ms/getfrontlineteams](https://aka.ms/getfrontlineteams).
+On the desktop kiosk or back-office PC, open a web browser and navigate to [aka.ms/getfrontlineteams](https://flworchestrator.teams.microsoft.com/frontlinebyod?source=docs).
 
 ![Screenshot shows the user interface for the setup guide landing page.](media/setup-frontline-teams-on-personal-devices/get-started.png)
 
@@ -81,7 +85,7 @@ You could need to download extra apps such as Microsoft Authenticator and/or Com
       ![Screenshot shows a QR code to download the Microsoft Authenticator app.](media/setup-frontline-teams-on-personal-devices/get-authenticator.png)
    
    1. Download Microsoft Teams using the QR code. 
-   
+
 1. You'll open the Microsoft Authenticator app and allow notifications.
    
 1. You'll sign in with your work account and complete setup.
@@ -124,9 +128,9 @@ Next, you'll see a screen to download Microsoft Teams.
 
 - Sign in and click **Done** when finished.
 
-- Sign out when prompted
+- Sign out when prompted.
 
-- Close the browser
+- Close the browser.
 
   ![Screenshot shows a QR code for downloading Microsoft Teams and includes sign-in instructions.](media/setup-frontline-teams-on-personal-devices/get-teams.png)
   

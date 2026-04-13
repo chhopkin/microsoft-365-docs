@@ -36,9 +36,6 @@ When a site is archived, compliance features such as eDiscovery and retention la
 
 1. In the SharePoint admin center, go to [**Active sites**](https://go.microsoft.com/fwlink/?linkid=2185220), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
-   > [!NOTE]
-   > If you have Office 365 operated by 21Vianet (China), sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Active sites** page.
-
 2. In the left column, select one or more sites.
 
 3. Select **Archive**, and to confirm, select **Archive**.
@@ -88,7 +85,7 @@ To control which sites can use file-level archive, admins have three PowerShell 
     Set-SPOTenant -AllowFileArchiveOnNewSitesByDefault $true 
     ```
 
-    Admins can also utilize PowerShell to view usage of file-level archive.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-    reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can see how much total storage is consumed by file-level archiving for a given site.  The '*ArchivedFileDiskUsed*' property of the ***Get-SPOSite*** cmdlet indicates the storage consumed by all archived files on that site in bytes. 
+    Admins can also utilize PowerShell to view usage of file-level archive.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can see how much total storage is consumed by file-level archiving for a given site.  The '*ArchivedFileDiskUsed*' property of the ***Get-SPOSite*** cmdlet indicates the storage consumed by all archived files on that site in bytes. 
 
     ```PowerShell
     Get-SPOSite -Identity <site_url>

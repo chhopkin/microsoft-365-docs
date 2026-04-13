@@ -2349,6 +2349,11 @@
       "source_path": "microsoft-365/admin/misc/set-up-dns-records-vsb.md",
       "redirect_url": "/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md",
+      "redirect_url": "/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider",
+      "redirect_document_id": false
     }
   ]
 }
