@@ -57,7 +57,8 @@ For more information, see the following articles:
 - [Get started with Microsoft 365 Copilot](microsoft-365-copilot-setup.md)
 
 > [!NOTE]
-> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+> If you'd like to enable users with priority access to these capabilities, learn how to [upgrade to Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise).
 
 ### Role requirements
 
