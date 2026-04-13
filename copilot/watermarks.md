@@ -15,7 +15,7 @@ ms.collection:
 - must-keep
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 03/27/2026
+ms.date: 04/13/2026
 ---
 
 # Add watermarks to content generated or altered by using AI in Microsoft 365
@@ -31,7 +31,7 @@ Here are two examples:
 
 > [!NOTE]
 > - Watermarks are currently available only for audio content.
-> - We anticipate that watermarks will be available for video content by the end of March 2026.  
+> - We anticipate that watermarks will be available for video content by the end of April 2026.  
 
 Here’s an example of a video watermark, which will appear throughout the video:
 
