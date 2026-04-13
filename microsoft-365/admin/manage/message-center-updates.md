@@ -22,6 +22,10 @@ description: "See what's new with Microsoft 365 Message center to help you track
 
 # What's new in Message center
 
+
+
+For more information about Message center, see [Prepare for Microsoft 365 updates with Message center](message-center.md).
+
 ## April 2026
 
 The Microsoft 365 Message center is now more timely, relevant, and concise to support actionable communications. To help IT admins quickly understand changes, posts now include bullet-point summaries, direct links to documentation, and launch-day announcements instead of early notifications.
