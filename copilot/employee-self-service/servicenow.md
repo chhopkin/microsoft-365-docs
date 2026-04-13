@@ -4,8 +4,8 @@ f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.reviewer: semani
-ms.date: 11/05/2025
+ms.reviewer: jatonewilson
+ms.date: 4/13/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -50,6 +50,13 @@ The preceding diagram outlines the high-level components comprising overall solu
 - ServiceNow Knowledge instance 
 - Microsoft 365 Tenant 
 
+> [!IMPORTANT]
+> **ServiceNow permissions for User Criteria (required for Employee Self‑Service)**
+>
+> If your ServiceNow knowledge articles use **User Criteria** (common for HR and Employee Self‑Service scenarios), the ServiceNow account configured for the Microsoft 365 Copilot connector **must have read access to the `user_criteria` table**.
+>
+> Without this access, permission evaluation may be incomplete and articles may not appear in Employee Self‑Service even though they are visible in ServiceNow.
+
 For information on subscription requirements required for the Employee Self-Service agent itself, see the Employee Self-Service agent [deployment guide](deploy-overview-alm.md).
 
 ### Limitations
@@ -68,6 +75,23 @@ The current version of ServiceNow Knowledge Microsoft 365 Copilot Connector is a
 |Global Administrator or Search Administrator |User who can configure the Microsoft 365 Copilot Connector for ServiceNow Knowledge. |1. Establish a Microsoft Enterprise Application. <br>2. Configure SAML settings within the Enterprise Application. <br>3. Obtain the Enterprise Application's SAML certificate. <br>4. Establish trust. |Microsoft 365 Admin Center |
 |Global Administrator or Cloud App Administrator |User who can configure OAuth in Microsoft Entra |1. Create App registration. |Microsoft Entra admin center |
 |Environment Maker |User who can customize the Employee Self-Service agent. |Configure knowledge source using ServiceNow Knowledge Microsoft 365 Copilot Connector. |Microsoft Copilot Studio |
+
+### Connector identity permissions
+
+Ensure the ServiceNow account used by the Microsoft 365 Copilot connector can:
+
+- Read knowledge articles
+- **Read User Criteria records (`user_criteria`)**
+- Read groups or roles referenced by those criteria
+
+If the connector cannot read User Criteria, permission evaluation may silently fail and restricted articles may not appear in Employee Self‑Service even though they are visible in ServiceNow.
+
+> [!NOTE]
+> The following tables are **not** required and should not be granted access:
+>
+> - `user_criteria_mtom_user`
+> - `user_criteria_mtom_group`
+> - `user_criteria_mtom_role`
 
 > [!TIP]
 > Microsoft recommends you sign in with the least privileged role that you need to complete your task. Typically, the Global Administrator role is too powerful for most tasks.
@@ -229,6 +253,17 @@ This section covers the tasks required for configuring Microsoft 365 Copilot Con
    |Authentication type |Select **Basic** authentication for **Advanced Scripting** mode to use the service account configured in [Task 2: Configure Access Control for REST endpoint](#task-2-configure-access-control-for-rest-endpoint). Select **OAuth 2.0** authentication if no Advanced Scripting is used in ServiceNow (Simple), and use the Client ID and Client secret created in [Task 1: Create an OAuth Application Registry (recommended)](#task-1-create-an-oauth-application-registry). |
    |API namespace |Enter the API namespace for Scripted REST API created in [Task 3: Create scripted REST API](#task-3-create-scripted-rest-api). |
 
+> [!IMPORTANT]
+> **Advanced flow is required for Employee Self‑Service scenarios**
+>
+> For Employee Self‑Service (including HR and IT help content), **Advanced flow is required** when knowledge articles use:
+>
+> - User Criteria  
+> - Scripted conditions  
+> - HR profile–based access rules
+>
+> Using Simple flow in these scenarios can result in articles being indexed but not visible to users in Copilot Employee Self‑Service.
+
 8. Select **Authorize** once a desired authentication type is chosen based on the guidance provided in the table in [Deployment role requirements](#deployment-role-requirements) and the respective values are given.
 9. Microsoft 365 Copilot Connector connects to the ServiceNow REST API to get authorized and ask for consent to allow the authorization; select **Allow** for it.
   When the authorization is successfully completed, the authorization field has a green check.
@@ -255,6 +290,19 @@ This section outlines the steps to configure the newly created Microsoft 365 Cop
 10. See the [Troubleshooting](#troubleshooting) section for any issues encountered.
 
 ## Troubleshooting
+
+### Articles are visible in ServiceNow but not in Employee Self‑Service
+
+**Symptom**  
+Knowledge articles appear correctly in ServiceNow but do not appear in Microsoft 365 Copilot Employee Self‑Service.
+
+**Cause**  
+The ServiceNow account configured for the connector does not have read access to User Criteria (`user_criteria`). When User Criteria are used to restrict access, the connector must be able to evaluate them.
+
+**Resolution**
+
+1. Grant the connector service account read access to the `user_criteria` table.
+2. Trigger a re‑crawl of the ServiceNow connector.
 
 [ServiceNow Knowledge Microsoft 365 Copilot connector](/microsoftsearch/servicenow-knowledge-connector) – Troubleshooting section.
 
