@@ -39,10 +39,10 @@ Instead of requiring developers to understand schemas and query APIs, this tool 
 
 ## Use cases
 
+With MRC MCP, you can do the following actions:
+
 - Enhance **AI clients** such as Visual Studio Code (VS Code), Visual Studio, GitHub Copilot CLI, Claude Code and other MCP‑compatible clients.
 - Enable IT admins, engineers, and technical users to query release and roadmap information directly from their AI client without relying on the websites.
-
-With MRC MCP, you can do the following actions:
 
 ## Requirements
 
@@ -210,4 +210,4 @@ These clients don't expose explicit tool selection UI. Instead, do the following
 
 [Configure modern release options for Microsoft 365 Copilot](configure-release-options.md)
 
-[Prepare for Microsoft 365 updates with Message center](message-center.md)
+[What's new in Message center](message-center-updates.md)

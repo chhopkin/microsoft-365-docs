@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 03/13/2026
+ms.date: 04/13/2026
 ms.reviewer: brimcg
 audience: Admin
 ms.topic: how-to
@@ -40,67 +40,6 @@ To open Message center from the Microsoft admin center, go to <a href="https://g
 ::: moniker-end
 
 You can also use the [Microsoft 365 Admin app](https://go.microsoft.com/fwlink/p/?linkid=627216) on your mobile device to view Message center, which is a great way to stay current with push notifications.
-
-## Updates to Microsoft 365 Message center
-
-The Microsoft 365 Message center is now more timely, relevant, and concise to support actionable communications. To help IT admins quickly understand changes, posts now include bullet-point summaries, direct links to documentation, and launch-day announcements instead of early notifications.
-
-Message Center posts now include a dedicated section that describes known security and compliance considerations for each feature release. This inclusion helps admins, especially those in highly regulated industries, with security and compliance-specific information necessary to understand potential compliance and regulatory impact for each feature.
-
-Message center includes an improved post structure with the following new sections:
-
-### What and Why
-
-This section briefly describes the change with the reason behind it and includes the following details:
-
-- What is changing (for example, new feature, update, retirement)
-- Why Microsoft is making the change (for example, customer feedback, security, productivity)
-- Alignment with one of three areas:
-  - Personal and Team Productivity
-  - Business Process Automation
-  - Enterprise-ready AI
-
-### Rollout Schedule
-
-This section specifies when the change begins and ends and includes the following details:
-
-- Start and end dates
-- Phased rollout information, if applicable
-- Preview or General Availability (GA) status
-
-### Impact on Your Organization
-
-This section helps you understand who and what is affected and includes the following details:
-
-- Who's affected: Scope of impact (for example, all users, specific roles, tenants)
-- Platforms/Services: Where the change applies (for example, Teams, Outlook, mobile, desktop)
-- What will happen with clear bullet points describing:
-  - UI changes
-  - Feature behavior
-  - Default settings
-  - Policy interactions
-  - End-user experience
-
-### Action Required/Recommendations
-
-This section guides IT admins on what to do and includes the following details:
-
-- Checklist of required actions (for example, update settings, notify helpdesk)
-- Optional recommendations
-- Links to admin guides or documentation
-- Whether the feature is opt-in or enabled by default
-
-### Compliance Considerations
-
-This section identifies any implications for data handling and governance and includes the following details:
-
-- Data storage or processing changes
-- AI/ML interactions with customer data
-- Communication or access changes
-- Impact on Purview capabilities (for example, DLP, eDiscovery)
-- GDPR-related changes
-- Admin control availability and Microsoft Entra ID integration
-- Whether users can self-manage the feature
 
 ## Feature release status for your organization in Message Center
 
