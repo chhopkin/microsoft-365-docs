@@ -22,7 +22,7 @@ appliesto:
 
 The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
-An organization may seek to enhance Employee Self-Service Copilot Agent by integrating additional capabilities that enable employees to maximize the benefits of Employee Self-Service and support their work-related activities.
+An organization may seek to enhance Employee Self-Service Copilot Agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
 
 To support these needs, Employee Self-Service Copilot Agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
 
@@ -98,7 +98,7 @@ This process involves only one step:
 
 - **Creating a topic**: Define the workflow, trigger prompts, and instructions for the guest invite scenario.
   - Design an Adaptive card to capture guest visit details, and to build binding inputs to state variables for API requests.
-  - Validate API responses, handle errors, and provide user feedback.
+  - Validate API responses, handle errors as required, and provide user feedback.
 
 ### Create a Topic
 
@@ -126,15 +126,15 @@ This process involves only one step:
     :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-trigger.png" alt-text="Diagram that shows the trigger node configuration where you can change the trigger description.":::
 
 - The next few nodes enforce certain limitations - like supporting only single guest visits and supporting only new visits and not edit/cancellation of existing visits.
-  - Enforcing these limitations is an optional step. To enforce these limitations, few variables are maintained based on the user query. These variables are then used in a group of conditional statements for enforcing the required limitaitons.
+  - Enforcing these limitations is an optional step. To enforce these limitations, few variables are maintained based on the user query. These variables are then used in a group of conditional statements for enforcing the required limitations.
   - If these limitations aren't required, remove them by deleting the corresponding variables and condition nodes.
 
 - The next node is to make an HTTP call to the backend API to fetch all buildings. These buildings are prepopulated in the guest registration form that gets rendered in the following steps. We use HttpRequestAction component for making the HTTP call. The HTTP call can be alternatively configured in several other ways described in the connectors section previously.
 
-- The next node is a Customize Response node to determine the guest visit purpose and location from the user query to autopopulate in the guest invite form. This node is added for an enriched user experience; however, this is optional and the corresponding nodes can be omitted as per requirements.
+- The next node is a Customize Response node to determine the guest visit purpose and location from the user query to autopopulate in the guest invite form. This node is added for an enriched user experience; however, this node is optional and the corresponding nodes can be omitted as per requirements.
     :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-response-instructions.png" alt-text="Diagram that shows the Customize Response nodes for determining visit purpose and location.":::
 
-- The next node is the guest invite adaptive card with action buttons. Verify the eixsting fields. Currently the required input parameters for creating a guest visit are - guest first name, last name, email, meeting purpose, and meeting location (name of the building). Users can add or modify input fields as needed.
+- The next node is the guest invite adaptive card with action buttons. Verify the existing fields. Currently the required input parameters for creating a guest visit are - guest first name, last name, email, meeting purpose, and meeting location (name of the building). Users can add or modify input fields as needed.
     :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-adative-card.png" alt-text="Diagram that shows the adaptive card fields for the guest invitation form. Adjust the fields as required.":::
 
 - The next node is to make an HTTP call to the backend create invite API with all the collected information forwarded with the request.
@@ -161,7 +161,7 @@ We use *HttpRequestAction* component for making the HTTP calls. As a start, you 
     :::image type="content" source="media/facilities-lobby-invite-guest-httprequest-headers-body.png" alt-text="Diagram that shows the headers and body configuration in HttpRequestAction.":::
 
 - Set the appropriate Response type as per your backend contracts.
-- Save the response in a state variable to access it in the later steps.
+- Save the response in a state variable. Saving the response, allows you to access it in the later steps.
 
 ### How are error conditions handled?
 
