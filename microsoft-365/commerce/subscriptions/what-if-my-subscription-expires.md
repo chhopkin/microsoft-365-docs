@@ -91,15 +91,13 @@ If you bought your subscription through an Enterprise agreement, Volume Licensin
 | Annual term | Default status | 30 days | 90 days | Terminal state |
 | Multi-year term | Default status | 90 days | 90 days | Terminal state |
 
-Your lifecycle durations and renewal options may differ from what is described above. The exact timing depends on the terms of your specific agreement.
+Your lifecycle durations and renewal options might differ from what is described above. The exact timing depends on the terms of your specific agreement.
 
-**Key differences to be aware of:**
+#### Key differences to be aware of
 
-- Your subscription end date may be tied to your agreement end date rather than an individual subscription term.
- - Grace periods after expiration may vary by program and product. Contact your licensing partner or Microsoft account team to confirm the specific durations that apply to your agreement.
- - To renew or restore service, contact your Microsoft volume licensing partner. If you bought through the Open Volume Licensing program, see [Microsoft Open License program changes](https://www.microsoft.com/en-us/licensing/news/microsoft-open-license-program-changes) for your options.
-
-For Cloud Solution Provider (CSP) customers, see [Subscription lifecycle states - Partner Center](/en-us/partner-center/subscription-lifecycle).
+- Your subscription end date might be tied to your agreement end date rather than an individual subscription term.
+- Grace periods after expiration might vary by program and product. Contact your licensing partner or Microsoft account team to confirm the specific durations that apply to your agreement.
+- To renew or restore service, contact your Microsoft volume licensing partner. If you bought through the Open Volume Licensing program, see [Microsoft Open License program changes](https://www.microsoft.com/en-us/licensing/news/microsoft-open-license-program-changes) for your options.
 
 > [!NOTE]
 > Not all VL subscriptions have a 90 day expired period. Some products and services, like some Microsoft 365 Copilot subscriptions, bought through VL only have a 30 day expired period.
