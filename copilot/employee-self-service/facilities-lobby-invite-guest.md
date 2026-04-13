@@ -151,16 +151,16 @@ This process involves only one step:
 
 We use *HttpRequestAction* component for making the HTTP calls. As a start, you can use the same and modify it as per your needs. There are also several other ways to configure the HTTP call as described in the connectors section previously.
 
-- To update your backend API URL, expand the *HttpRequestAction* node, and in the URL section click on Select variable -> Formula. Update the URL as reuqired and click Insert to save the URL.
+- Expand the HttpRequestAction node, and in the URL section click on Select variable -> Formula to update your backend API URL. Click Insert to save the URL.
 
     :::image type="content" source="media/facilities-lobby-invite-guest-httprequest.png" alt-text="Diagram that shows the HttpRequestAction component configuration for updating URL.":::
 
 - Select the appropriate http request method from the method dropdown.
 
-- Now, add the required headers, request body, and error handling as per your backend API definition.
+- Add the required headers, request body, and error handling as per your backend API definition.
     :::image type="content" source="media/facilities-lobby-invite-guest-httprequest-headers-body.png" alt-text="Diagram that shows the headers and body configuration in HttpRequestAction.":::
 
-- Set the appropriate Response type as per your backend contracts.
+- Select the appropriate Response data type as per your backend contracts from the dropdown.
 - Save the response in a state variable. This state variable allows you to access the response in the later steps.
 
 ### How are error conditions handled?
