@@ -5,7 +5,7 @@ author: lauragra
 ms.author: lauragra
 manager: calvind
 ms.reviewer: riyazp
-ms.date: 03/10/2026
+ms.date: 04/13/2026
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
@@ -29,6 +29,8 @@ To fine-tune AI models for your organization by using Copilot Tuning – Tune mo
 - **Fine tuning training** - Each task has its own recipe and fine tuning technique for the best outcome by using organization data. These techniques include, but aren't limited to, Supervised Fine Tuning (SFT), Reinforcement learning (RL), and Reasoning Fine Tuning (RFT). These recipes and techniques also evolve over time.
 
 - **Evaluation** - Each task has its own recipes for how to evaluate the output by using rubrics defined by the organization.
+
+:::image type="content" source="media/copilot-tuning-process/fine-tuning-process.png" alt-text="Image showing fine tuning process." lightbox="media/copilot-tuning-process/fine-tuning-process.png":::
 
 > [!NOTE]
 > The models that you tune are private. Your data isn't used to train general models for other tenants. All processing of your data is done in the tenant that only your authorized users have access to train and use. Specific individuals, typically administrators, have control over the training process.
