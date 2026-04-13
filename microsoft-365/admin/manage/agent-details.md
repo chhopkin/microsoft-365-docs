@@ -36,7 +36,7 @@ search.appverid:
 
 You can view and manage agent details for each agent listed in the agent registry within [Microsoft 365 admin center](https://admin.microsoft.com/). When you select an agent from the list, you can view these details in a fly-out pane. These details are provided based on tabs. Each tab is provided based on the selected agent's capabilities. For example, if an agent is designed to provide information and answers from another agents, the **Connected Agents** tab may be provided. In addition to providing information about an agent in the details fly-out pane, you can also select actions for the agent, such as **Install** or **Block**.
 
-:::image type="content" source="../../media/agent-details-02.png" alt-text="Screenshot showing the details for a specific agent." lightbox="../../media/agent-details-02.png":::
+:::image type="content" source="../../media/agents/agent-details-02.png" alt-text="Screenshot showing the details for a specific agent." lightbox="../../media/agents/agent-details-02.png":::
 
 When you select an agent from the **Registry**, the details fly-out pane displays common actions available for the agent, such as:
 - **Install** - Deploys and installs the agent to the selected users.
