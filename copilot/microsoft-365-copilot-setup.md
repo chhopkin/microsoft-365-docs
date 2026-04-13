@@ -107,8 +107,8 @@ To protect sensitive information during the deployment and use of Microsoft 365 
 
 - **Turn on proactive audit and protection**: Disable **everyone except external users (EEEU)** at the tenant level and enable Purview Audit to monitor Copilot interaction activity. For more information, see [Protect your sensitive data with Microsoft Purview](/purview/information-protection).
 
-- **Implement access controls and labeling**: Start a SharePoint Advanced Management Access Review for all sites that are overshared. Then apply restricted access control on business-critical sites. For more information, see [Get ready for Microsoft 365 Copilot with SharePoint Advanced Management)](/sharepoint/get-ready-copilot-sharepoint-advanced-management).
-
+- **Implement access controls and labeling**: Start a SharePoint Advanced Management Access Review for all sites that are overshared. Then apply restricted access control on business-critical sites. For more information, see [Get ready for Microsoft 365 Copilot with SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management).
+  
 For detailed steps, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](secure-govern-copilot-foundational-deployment-guidance.md).
 
 ## Get started and deploy
