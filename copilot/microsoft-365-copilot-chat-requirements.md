@@ -30,7 +30,7 @@ This document outlines the minimum technical and licensing requirements for usin
 [Microsoft 365 Copilot Chat](/copilot/overview) is an AI chat tool that is included in your Microsoft 365 subscription and is integrated into Microsoft 365 apps such as Outlook, and Teams. It uses the latest AI models and data from the web to answer your questions, generate content and ideas, and find information. Since it's included in your Microsoft 365 subscription, it is the entry point into the Microsoft 365 Copilot experience.
 
 > [!NOTE]
-> Chat experiences in Word, Excel, and PowerPoint vary depending on your tenant configuration and license. Learn more in the [Microsoft 365 Copilot overview](microsoft-365-copilot-overview#copilot-features-in-microsoft-365-apps).
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
 >
 > If you'd like to enable users with priority access to these capabilities, learn how to [upgrade to Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise).
 
