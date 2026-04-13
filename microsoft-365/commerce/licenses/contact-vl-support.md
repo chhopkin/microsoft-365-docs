@@ -121,26 +121,23 @@ Use the information in the following tables to find the support number for your 
 
 |Country/Region |Toll Numbers |Hour of Operation |Languages Supported |
 |---------|---------|---------|---------|
-|All locations |International tolls to Germany might apply.<br/>+49 8924445143 (English)<br/>+49 8924445094 (German)<br/>+49 8924445246 (French) |09:00 - 18:00 Monday to Friday |English, German, French |
-|Austria |438 0006 8810 (Toll Free) |09:00 - 18:00 Monday to Friday |German |
-|Belgium |+3210538001 |08:00-17:00 Monday to Friday |English, French, German |
+|All locations |International tolls to Germany might apply.<br/>+49 8924445143 (English)<br/>+49 8924445246 (French) |09:00 - 18:00 Monday to Friday |English, German, French |
+|Belgium |+3210538001 |08:00-17:00 Monday to Friday |English, French,  |
 |Czech Republic |420800022788 (Toll Free) |09:00 - 18:00 Monday to Friday |English|
 |Denmark |80400067 (Toll Free) |08:30 - 17:00 Monday to Friday |English |
 |Finland |358981710026 (Toll Free) |09:00 - 17:00 Monday to Friday |English |
 |France |800902791 (Toll Free) |09:00 - 18:00 Monday to Friday |French |
-|Germany |+49 8924445094 (Toll)<br/>0800 6270101 (Toll Free) |08:30 - 18:00 Monday to Friday |German |
 |Greece |0800 352021 (Toll Free) |09:00 - 17:00 Monday to Friday |English|
 |Hungary |06800 15829 (Toll Free) |09:30 - 18:00 Monday to Friday |English |
 |Ireland |1800 555035 (Toll Free) |08:00 - 17:00 Monday to Friday |English |
-|Italy |800 785768 (Toll Free) |09:00 - 18:00 Monday to Friday |Italian |
-|Luxembourg |8002 4248 (Toll Free) |08:00-17:00 Monday to Friday |French, German |
+|Luxembourg |8002 4248 (Toll Free) |08:00-17:00 Monday to Friday |French|
 |Netherlands |0800 0221871 (Toll Free) |08:30 - 18:00 Monday to Friday |English |
 |Norway |800 14956 (Toll Free) |08:30 - 17:00 Monday to Friday |English |
 |Poland |00 800 112 46 99 (Toll Free) |08:30 - 18:00 Monday to Friday |English|
 |Portugal |800 849101 (Toll Free) |09:00 - 18:00 Monday to Friday |Portuguese |
 |Spain |900 994910 (Toll Free) |09:00 - 18:00 Monday to Friday |Spanish |
+|Switzerland|0800 563564 (Toll Free)|08:00-17:00 Monday to Friday|French|
 |Sweden |020 797079 (Toll Free) |08:30 - 17:00 Monday to Friday |English |
-|Switzerland |0800 563564 (Toll Free) |08:00-17:00 Monday to Friday |French, German, Italian |
 |Türkiye |8503902777 |09:00 - 18:00 Monday to Friday |English|
 |United Kingdom |0800 9179016 (Toll Free) |08:00 - 18:00 Monday to Friday |English |
 
