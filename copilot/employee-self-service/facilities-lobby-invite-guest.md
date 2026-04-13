@@ -13,7 +13,7 @@ ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about extending the Employee Self-Service tailored to your organization. This article describes the steps to invite a guest to offices (Lobby) via ESS. Example - "I want to invite my spouse to Building 32"
+description: Learn about extending the Employee Self-Service Copilot Agent tailored to your organization. This article describes the steps to invite a guest to offices (Lobby) via ESS. Example - "I want to invite my spouse to Building 32"
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
@@ -33,7 +33,7 @@ At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real E
 - View food stations or counters by cuisine (Dining), for example, "Where can I find Chinese food?"
 - Invite a Guest (Lobby), for example "I want to invite my spouse to Building 32".
 
-In the following section, we see how a maker in Copilot Studio can extend Employee Self-Service to support the above scenarios. But before we dive into the maker experience, let’s understand what real estate and facilities are and how they support employees.
+The following section shows how a maker in Copilot Studio can extend Employee Self-Service to support these scenarios. Before diving into the maker experience, it's important to understand what real estate and facilities are and how they support employees.
 
 ## Real Estate & Facilities
 
@@ -41,11 +41,11 @@ Real Estate and Facilities (RE&F) play a pivotal role in shaping the overall emp
 
 For instance, features like - vehicle registration, facilities tickets for maintenance requests, access to café menus, and streamlined guest invitation processes empower employees to manage their work environment proactively. These capabilities reduce administrative overhead, minimize wait times, and improve satisfaction by giving employees greater control and visibility over their workplace needs.
 
-Moreover, such integrated experiences foster a sense of belonging and engagement, as employees feel supported by systems that anticipate and address their requirements. These integrated experiences not only enhance productivity, but also contributes to a positive organizational culture where employees can focus more on their core responsibilities rather than logistical hassles.
+Moreover, such integrated experiences foster a sense of belonging and engagement, as employees feel supported by systems that anticipate and address their requirements. These integrated experiences not only enhance productivity, but also contribute to a positive organizational culture where employees can focus more on their core responsibilities rather than logistical hassles.
 
 Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organizations attract, retain, and motivate talent by prioritizing their day-to-day comfort and efficiency.
 
-Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot Agent to allow employees to perform various operations through the Employee Self-Service Copilot Agent.
+Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot Agent to allow employees to perform various operations.
 
 ## Prerequisites
 
@@ -92,7 +92,7 @@ HTTP request action reference:
 
 In the **Invite a Guest** scenario, an employee can preregister a visitor such as a business partner, vendor, interview candidate, or personal guest.
 
-Through the Employee Self-Service platform, the employee can initiate a guest invitation by providing essential details like the guest’s name, contact information, visit date, time, and purpose. The system validates the request and registers the guest with visitor management system. The system also sends an invitation mail with arrival instructions to the guest, and notifies the reception team about their arrival. All these steps, ensures a smooth check-in experience for the guest while maintaining workplace security and operational efficiency.
+Through the Employee Self-Service platform, the employee can initiate a guest invitation by providing essential details like the guest’s name, contact information, visit date, time, and purpose. The system validates the request and registers the guest with visitor management system. The system also sends an invitation mail with arrival instructions to the guest, and notifies the reception team about their arrival. All these steps ensure a smooth check-in experience for the guest while maintaining workplace security and operational efficiency.
 
 This process involves only one step:
 
@@ -108,16 +108,16 @@ This process involves only one step:
   - Use the code from the Copilot Samples repository and paste in the code editor:  
       <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest/topic.yaml>
   - Update the HTTP API URL in the code sample. Search for "kind: HttpRequestAction" and update the URL property as per your backend system.
-  - Save the topic
+  - Save the topic.
 
 - Validate
   - Open the visual representation of the topic definition and validate the workflow of the topic.
-  - Click on Topic Checker for any static issues with the definition.
+  - Click on **Topic Checker** for any static issues with the definition.
   - Optionally, go through the following section "Validate the Topic", to understand and validate the steps.
 
 - Now, let's test the newly added topic
-  - Using the Test button in **Copilot studio**, open the test chat window.
-  - Invite guest using the prompt "Invite my guest to the office". This prompt opens an Adaptive card where you can fill the required details like Guest Name, Purpose of visit, date, and time of visit, etc.
+  - Using the Test button in **Copilot Studio**, open the test chat window.
+  - Invite guest using the prompt "Invite my guest to the office". This prompt opens an Adaptive card where you can fill the required details like guest name, purpose of visit, date, and time of visit, etc.
   - Upon successful submission, the Employee Self-Service system displays a confirmation that the guest invite is created.
 
 ### Validate the Topic
@@ -155,7 +155,7 @@ We use *HttpRequestAction* component for making the HTTP calls. As a start, you 
 
     :::image type="content" source="media/facilities-lobby-invite-guest-httprequest.png" alt-text="Diagram that shows the HttpRequestAction component configuration for updating URL.":::
 
-- Select the appropriate http request method from the method dropdown.
+- Select the appropriate HTTP request method from the method dropdown.
 
 - Add the required headers, request body, and error handling as per your backend API definition.
     :::image type="content" source="media/facilities-lobby-invite-guest-httprequest-headers-body.png" alt-text="Diagram that shows the headers and body configuration in HttpRequestAction.":::
