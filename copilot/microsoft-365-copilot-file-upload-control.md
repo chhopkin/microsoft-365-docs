@@ -40,4 +40,4 @@ Changes to the file upload control could take up to 24 hours to be reflected for
 If users are prevented from uploading files in Microsoft 365 Copilot and Microsoft 365 Copilot Chat, the **Files** tab doesn't appear for those users in the Microsoft 365 Copilot app.
 
 > [!NOTE]
-> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md).
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
