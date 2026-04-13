@@ -4,7 +4,7 @@ description: Enterprise and company IT admins can use the Microsoft 365 Copilot 
 author: efrene
 ms.author: efrene
 manager: scotv
-ms.date: 03/03/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: microsoft-365-copilot
@@ -32,7 +32,7 @@ appliesto:
 
 The Microsoft 365 Copilot app is an everyday AI productivity app for work or school. It helps Microsoft 365 users be more productive by providing a single place to access [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) features and capabilities, including search, chat, agents, and more.
 
-You can use the app as a website ([M365Copilot.com](https://www.M365Copilot.com)), as a desktop app that you can install on [Windows](https://apps.microsoft.com/detail/9wzdncrd29v9), and as a mobile app for [Android](https://support.microsoft.com/office/microsoft-365-copilot-app-for-android-0383d031-a1c6-46c9-b734-53cd1d22765b) and [iOS](https://support.microsoft.com/office/microsoft-365-copilot-app-for-ios-c8880c05-883a-46b6-ad32-9bffa31228d0) devices.
+You can use the app as a website ([M365Copilot.com](https://www.M365Copilot.com)), as a desktop app that you can install on [Windows and Mac](https://www.microsoft.com/microsoft-365-copilot/download-copilot-app?msockid=3fbdc68005c06723095dd00004ef664d), and as a mobile app for [Android](https://support.microsoft.com/office/microsoft-365-copilot-app-for-android-0383d031-a1c6-46c9-b734-53cd1d22765b) and [iOS](https://support.microsoft.com/office/microsoft-365-copilot-app-for-ios-c8880c05-883a-46b6-ad32-9bffa31228d0) devices.
 
 This article lists the app's features and benefits, and compares the features available with a Microsoft 365 subscription and a Microsoft 365 Copilot license.
 
