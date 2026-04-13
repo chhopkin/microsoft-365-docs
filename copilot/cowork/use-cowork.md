@@ -181,7 +181,7 @@ You can preview many file types directly inside Cowork. You don't need to downlo
 The following file types can be previewed directly:
 
 - **PDF**: Renders inline with page navigation. Use **Ctrl+F** to search within the document.
-- **Office documents**: Word, Excel, and PowerPoint files open in an Office Online preview.
+- **Microsoft 365 documents**: Word, Excel, and PowerPoint files open in an online preview.
 - **CSV**: Displays as a formatted table.
 - **Markdown**: Renders with full formatting.
 - **Code files**: Displays with syntax highlighting (JSON, JavaScript, TypeScript, Python, Java, C, C++, Go, Rust, Ruby, and others).
@@ -255,7 +255,7 @@ Choose the view that works best for you:
 |---|---|
 | List | Shows tasks in a vertical list with key details. |
 | Board | Organizes tasks into columns by status. Drag and drop tasks between columns to update their status. |
-| Scheduled | Shows your scheduled prompts with options to edit, pause, resume, or delete them. This view only appears when you have at least one scheduled prompt. |
+| Scheduled | Shows your scheduled prompts with options to edit, pause, resume, or delete them. |
 
 ### Track task status
 
@@ -310,7 +310,7 @@ You can schedule a prompt to run automatically on a recurring basis. To create a
 
 Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel. From there, you can edit, pause, resume, or delete any scheduled prompt.
 
-When you activate a draft scheduled prompt, Cowork asks whether to **Activate and run now** (starts immediately so you can watch and approve actions) or **Activate** (the first run happens at the next scheduled time). You can create up to 5 scheduled prompts.
+When you activate a draft scheduled prompt, Cowork asks whether to **Activate and run now** (starts immediately so you can watch and approve actions) or **Activate** (the first run happens at the next scheduled time). You can create up to five scheduled prompts.
 
 ## Provide feedback
 

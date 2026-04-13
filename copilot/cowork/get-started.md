@@ -80,7 +80,7 @@ Sometimes Cowork asks you a question to clarify your request. When this happens,
 When Cowork finishes, any files it created appear in the side panel on the right. From there you can:
 
 - Download individual files to your device, or select **Download All** to download every file as a single zip archive.
-- Preview files directly in the browser. Supported formats include PDF, Office documents (Word, Excel, PowerPoint), Markdown, code files, images, CSV, HTML, and email.
+- Preview files directly in the browser. Supported formats include PDF, Microsoft 365 documents (Word, Excel, PowerPoint), Markdown, code files, images, CSV, HTML, and email.
 - Open files in OneDrive and directly in the online version of PowerPoint. 
 
 The side panel also shows a progress bar with the percentage of tasks complete and the skills Cowork used. You can select **thumbs down** on responses that missed the mark, or **thumbs up** on ones that were helpful.

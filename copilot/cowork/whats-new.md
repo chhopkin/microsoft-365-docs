@@ -28,17 +28,17 @@ This article lists recent features, improvements, and changes in Copilot Cowork.
 
 | Feature | Description | Learn more |
 |---|---|---|
-| **Search task history** | Home page task list is scrollable with search and status filters, replacing the static five-item view. | [Manage your tasks](use-cowork.md#manage-your-tasks) |
-| **Notifications in app** | Users are notified via a pop-up when input is needed or when a task is complete. | [Manage your tasks](use-cowork.md#answer-questions-from-cowork) |
+| Search task history | Home page task list is scrollable with search and status filters, replacing the static five-item view. | [Manage your tasks](use-cowork.md#manage-your-tasks) |
+| Notifications in app | Users are notified via a pop-up when input is needed or when a task is complete. | [Manage your tasks](use-cowork.md#answer-questions-from-cowork) |
 
 ### Enhancements
 
 | Feature | Description | Learn more |
 |---|---|---|
-| **Longer prompts** | Chat input now supports up to 250,000 characters, up from 16,000. | [Type a message](use-cowork.md#type-a-message) |
-| **Improved paste handling** | Pasting mixed content from Teams, Outlook, or browsers correctly preserves text. | [Attach files](use-cowork.md#attach-files) |
-| **Richer Teams messages** | Messages posted to Teams can include formatted cards with structured data. | [Communication](index.md#communication) |
-| **Calendar timezone display** | Event times show in your local timezone with an abbreviation. | [Calendar and meetings](index.md#calendar-and-meetings) |
+| Longer prompts | Chat input now supports up to 250,000 characters, up from 16,000. | [Type a message](use-cowork.md#type-a-message) |
+| Improved paste handling | Pasting mixed content from Teams, Outlook, or browsers correctly preserves text. | [Attach files](use-cowork.md#attach-files) |
+| Richer Teams messages | Messages posted to Teams can include formatted cards with structured data. | [Communication](index.md#communication) |
+| Calendar timezone display | Event times show in your local timezone with an abbreviation. | [Calendar and meetings](index.md#calendar-and-meetings) |
 
 ## Related content
 
