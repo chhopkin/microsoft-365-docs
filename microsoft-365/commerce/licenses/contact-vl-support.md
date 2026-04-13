@@ -117,7 +117,7 @@ Use the information in the following tables to find the support number for your 
 |Country/Region |Toll Numbers |Hour of Operation |Languages Supported |
 |---------|---------|---------|---------|
 |All locations |International tolls to Germany might apply.<br/>+49 8924445143 (English)<br/>+49 8924445246 (French) |09:00 - 18:00 Monday to Friday |English, German, French |
-|Belgium |+3210538001 |08:00-17:00 Monday to Friday |English, French,  |
+|Belgium |+3210538001 |08:00-17:00 Monday to Friday |English, French |
 |Czech Republic |420800022788 (Toll Free) |09:00 - 18:00 Monday to Friday |English|
 |Denmark |80400067 (Toll Free) |08:30 - 17:00 Monday to Friday |English |
 |Finland |358981710026 (Toll Free) |09:00 - 17:00 Monday to Friday |English |
