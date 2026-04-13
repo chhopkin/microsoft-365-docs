@@ -63,7 +63,7 @@ Use Copilot Chat if you want users in your organization to:
 - Access to pay-as-you-go agents
 - Have built-in IT controls, enterprise data protection, and agent management
 - Use features like Copilot Pages, file upload, and image generation
-- - Use AI chat directly in Microsoft 365 apps like Word, Excel, PowerPoint, OneNote, and Outlook
+- Use AI chat directly in Microsoft 365 apps like Word, Excel, PowerPoint, OneNote, and Outlook
 
 To learn more, see:
 
