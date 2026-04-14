@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/13/2026
+ms.date: 04/14/2026
 ms.reviewer: brimcg
 audience: Admin
 ms.topic: how-to
@@ -21,8 +21,6 @@ description: "See what's new with Microsoft 365 Message center to help you track
 ---
 
 # What's new in Message center
-
-
 
 For more information about Message center, see [Prepare for Microsoft 365 updates with Message center](message-center.md).
 
