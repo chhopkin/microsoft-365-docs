@@ -6,83 +6,76 @@ items:
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /microsoft-365/admin/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
-    tocHref: /microsoft-365/admin/
-    topicHref: /microsoft-365/admin/index
-- name: Microsoft 365
-  tocHref: /microsoft-365/
-  topicHref: /microsoft-365/index
-  items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /microsoft-365/commerce/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /microsoft-365/business-premium/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /microsoftteams/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /microsoft-365/copilot/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /microsoftsearch/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /mem/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /mem/analytics/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /autopilot/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /microsoft-365-apps/deploy/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /microsoft-365/enterprise/
     topicHref: /microsoft-365/admin/index
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
   items:
-  - name: Microsoft 365 Admin Center help
+  - name: Microsoft 365 admin center
     tocHref: /troubleshoot/
     topicHref: /microsoft-365/admin/index
