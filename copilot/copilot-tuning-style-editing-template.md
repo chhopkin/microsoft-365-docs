@@ -32,7 +32,7 @@ The Style Editing agent template can:
 - Apply organizational style rules automatically after tuning
 - Support additional refinement through context tuning and model tuning
 
-:::image type="content" source="media/copilot-tuning-style-editing-template/what-style-editing-template-does.png" alt-text="Image showing the capabilities of the style editing template." lightbox="media/copilot-tuning-style-editing-template/what-style-editing-template-does.png":::
+:::image type="content" source="media/copilot-tuning-style-editing-template/what-style-editing-template-does.png" alt-text="Screenshot showing the capabilities of the style editing template." lightbox="media/copilot-tuning-style-editing-template/what-style-editing-template-does.png":::
 
 Use the default agent for ad-hoc rewriting or tune it to create a specialized agent that writes in your organization’s voice by default.
 
@@ -143,7 +143,7 @@ Model tuning lets you select training data, configure access, and start fine-tun
 1. **Start fine-tuning:** Select **Start fine-tuning** in the interface. The system doesn't currently support automatic start.
 1. **Deployment:** After tuning completes, you receive an email to review results and publish the model.
 
-:::image type="content" source="media/copilot-tuning-style-editing-template/tune-model.png" alt-text="Image showing the model tuning steps." lightbox="media/copilot-tuning-style-editing-template/tune-model.png":::
+:::image type="content" source="media/copilot-tuning-style-editing-template/tune-model.png" alt-text="Screenshot showing the model tuning steps." lightbox="media/copilot-tuning-style-editing-template/tune-model.png":::
 
 ## Use your tuned agent 
 
