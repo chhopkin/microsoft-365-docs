@@ -70,7 +70,7 @@ The following table summarizes the Copilot Tuning admin controls.
 | Open-source model option | The toggle is available. Admins can allow or block the use of open-source base models for all users. | The toggle is available. If disabled, open-source base models are blocked even for authorized users. | Not applicable. |
 | Example scenario | Organization enables tuning broadly to support innovation across teams. | Organization runs a pilot or controlled rollout, such as enabling tuning only for research or legal teams, with access granted through approvals. | Organization pauses tuning to mitigate risk or respond to a security or compliance concern. |
 
-:::image type="content" source="media/copilot-tuning-admin-guide/open-source-tuning-control.png" alt-text="Tuning availability scenarios." lightbox="media/copilot-tuning-admin-guide/open-source-tuning-control.png":::
+:::image type="content" source="media/copilot-tuning-admin-guide/open-source-tuning-control.png" alt-text="Copilot Tuning admin controls." lightbox="media/copilot-tuning-admin-guide/open-source-tuning-control.png":::
 
 ## Agent visibility and lifecycle management
 

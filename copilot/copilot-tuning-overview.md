@@ -141,7 +141,7 @@ Apply the following best practices to make the best use of tuned agents:
 - Follow organizational security and compliance policies.
 - Encourage user feedback to improve agent quality over time.
 
-:::image type="content" source="media/copilot-tuning-overview/best-practices.png" alt-text="Screenshot of the model tuning interface showing training data selection and fine-tuning progress." lightbox="media/copilot-tuning-overview/best-practices.png":::
+:::image type="content" source="media/copilot-tuning-overview/best-practices.png" alt-text="Best practices for tuned agents." lightbox="media/copilot-tuning-overview/best-practices.png":::
 
 ## Disclaimer
 

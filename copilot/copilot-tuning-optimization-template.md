@@ -120,7 +120,7 @@ The resulting solution:
 
 Use the Optimization agent template when you need to determine the best possible decision under constraints. Start by identifying the decision you want to optimize.
 
-:::image type="content" source="media/copilot-tuning-optimization-template/use-optimization-template.png" alt-text="Image showing the steps to use the optimization template." lightbox="media/copilot-tuning-optimization-template/use-optimization-template":::
+:::image type="content" source="media/copilot-tuning-optimization-template/use-optimization-template.png" alt-text="Image showing the steps to use the optimization template." lightbox="media/copilot-tuning-optimization-template/use-optimization-template.png":::
 
 ### Identify the decision
 
