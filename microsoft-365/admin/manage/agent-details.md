@@ -333,10 +333,6 @@ For more information, see [Sensitivity labels for agent embedded content](/micro
 
 #### Researcher with Computer Use admin configuration
 
-> [!IMPORTANT]
->
-> **Researcher with Computer Use** is only for Frontier tenants.
-
 For **Researcher with Computer Use** onboarding instructions, see the following short video:
 
 > [!VIDEO https://www.youtube.com/embed/N3vLF9mnd8w?si=XJaYnCQYNy_CeuFc]
