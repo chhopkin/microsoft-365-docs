@@ -36,9 +36,6 @@ When a site is archived, compliance features such as eDiscovery and retention la
 
 1. In the SharePoint admin center, go to [**Active sites**](https://go.microsoft.com/fwlink/?linkid=2185220), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
-   > [!NOTE]
-   > If you have Office 365 operated by 21Vianet (China), sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Active sites** page.
-
 2. In the left column, select one or more sites.
 
 3. Select **Archive**, and to confirm, select **Archive**.
