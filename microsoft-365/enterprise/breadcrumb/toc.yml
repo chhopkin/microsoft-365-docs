@@ -10,7 +10,19 @@ items:
   topicHref: /microsoft-365/index  
 - name: Microsoft 365
   tocHref: /compliance/
-  topicHref: /microsoft-365/index      
+  topicHref: /microsoft-365/index
+- name: Microsoft 365
+  tocHref: /viva/
+  topicHref: /microsoft-365/index
+- name: Microsoft 365
+  tocHref: /windows/
+  topicHref: /microsoft-365/index
+- name: Microsoft 365
+  tocHref: /microsoft-365-apps/
+  topicHref: /microsoft-365/index
+- name: Microsoft 365
+  tocHref: /powershell/
+  topicHref: /microsoft-365/index                       
   items:
   - name: Microsoft 365 for enterprise
     tocHref: /microsoft-365/enterprise/index
@@ -27,6 +39,32 @@ items:
   - name: Microsoft 365 for enterprise
     tocHref: /entra/identity/
     topicHref: /microsoft-365/enterprise/index  
-
+  - name: Microsoft 365 for enterprise
+    tocHref: /exchange/
+    topicHref: /microsoft-365/enterprise/index  
+  - name: Microsoft 365 for enterprise
+    tocHref: /sharepoint/
+    topicHref: /microsoft-365/enterprise/index    
+  - name: Microsoft 365 for enterprise
+    tocHref: /microsoftteams/
+    topicHref: /microsoft-365/enterprise/index    
+  - name: Microsoft 365 for enterprise
+    tocHref: /viva/engage/
+    topicHref: /microsoft-365/enterprise/index 
+  - name: Microsoft 365 for enterprise
+    tocHref: /windows/deployment/
+    topicHref: /microsoft-365/enterprise/index 
+  - name: Microsoft 365 for enterprise
+    tocHref: /microsoft-365-apps/deploy/
+    topicHref: /microsoft-365/enterprise/index 
+  - name: Microsoft 365 for enterprise
+    tocHref: /surface/
+    topicHref: /microsoft-365/enterprise/index 
+  - name: Microsoft 365 for enterprise
+    tocHref: /deployedge/
+    topicHref: /microsoft-365/enterprise/index 
+  - name: Microsoft 365 for enterprise
+    tocHref: /powershell/exchange/
+    topicHref: /microsoft-365/enterprise/index
 
 
