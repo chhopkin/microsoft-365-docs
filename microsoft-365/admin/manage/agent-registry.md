@@ -154,8 +154,6 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 1. Review agent permissions. Then, select **Next**.
 1. Review and finished. Select **Finish deployment**.
 
-To manage, assign, and publish the agent, see [Assign and deploy agents](agent-deploy.md).
-
 ## Manage pinned agents
 
 As an administrator, you can choose to pin a deployed agent to the **Agents** list within Microsoft 365 Copilot. By pinning agents in Microsoft 365 Copilot, you can ensure that those agents are visible and accessible for all members of your organization, or only specific users or groups. You can choose to pin and unpin agents. Also, you can rank the list of pinned agents.
