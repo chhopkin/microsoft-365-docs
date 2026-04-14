@@ -496,7 +496,7 @@ items:
       href: /windows/deployment/?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
 
 - name: Microsoft 365 Apps for enterprise
-  href: microsoft-365-apps/deploy/deployment-guide-microsoft-365-apps?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
+  href: /microsoft-365-apps/deploy/deployment-guide-microsoft-365-apps?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
 
 - name: Surface devices
   href: /surface/surface-autopilot-cookbook?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
