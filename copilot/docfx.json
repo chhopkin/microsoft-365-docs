@@ -48,6 +48,7 @@
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "contributors_to_exclude": [ 
         "aditisrivastava07",
+        "AGuentherinWA",
         "alexbuckgit", 
         "American-Dipper", 
         "beccarobins",
@@ -60,11 +61,10 @@
         "rjagiewich",
         "Ruchika-mittal01",
         "shdyas", 
-        "Stacyrch140",
-        "traya1",
         "Shipra-M09", 
+        "Stacyrch140",
         "techtoons", 
-        "AGuentherinWA"
+        "traya1"
       ]
     },
     "rules": {
