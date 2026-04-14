@@ -64,11 +64,13 @@ For a comparison of release options, see the following table:
 For significant updates, Microsoft first notifies you through the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). Prior to rollout, Microsoft notifies you through the <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">Microsoft 365 Message center</a>.
 
 > [!NOTE]
-> If your organization is using Targeted release, you can continue to do so. However, we recommend transitioning over to our modern release options, Frontier, Standard, and Deferred. For legacy configuration models for change management, see [Configure Standard and Targeted release](release-options-in-office-365.md).
+> If your organization is using targeted release for other Microsoft 365 services, you can continue to do so as we drive towards our converged release strategy. We recommend configuring release preferences for frontier, standard, and deferred audiences to align with the new release model as Microsoft begins delivering an increasing number of major features through it over time. Use the Microsoft Message Center to keep up with new products and services using this audience-based release model.
+>
+> For more information about targeted release for other Microsoft 365 services, see [Configure standard and targeted release](release-options-in-office-365.md).
 
 ## Prerequisites
 
-You must have one of the following roles in Microsoft 365 admin center to configure Standard and Deferred release options:
+You must have one of the following roles in Microsoft 365 admin center to configure standard and deferred release options:
 
 - Office Apps Admin
 - Security Admin
@@ -79,15 +81,14 @@ You must have one of the following roles in Microsoft 365 admin center to config
 We recommend that you use the release options in the following ways to balance early access with organizational readiness:
 
 - If you only want to configure release audiences to access broadly available and fully supported features, assign most users to deferred release and put IT Pros and power users in standard release to evaluate new features for privacy and compliance and to prepare teams to support users.
-- Use deferred release for features that are deferred-capable when you need extra time to do security reviews and compliance checks before releasing to your organization.
+- Use deferred release for features that are deferred-capable when you need extra time for validation before releasing to your organization.
 - Plan release phases around user impact and readiness, not individual feature controls, to help manage risk and set clear expectations for users.
 - Align your release configuration with your change management and support readiness, including documentation, training, and help desk preparation.
 - Review and adjust audience assignments over time as your organization’s readiness and change tolerance evolve.
-- If your organization is already using Targeted release, you can continue doing so. If your organization isn't using Targeted release, we recommend using this three-tier release model, which includes Frontier, Standard, and Deferred release options. For legacy configuration models for change management, see [Configure Standard and Targeted release](release-options-in-office-365.md).
 
 ## Configure release options in Microsoft 365 admin center
 
-By default, use Standard release for Microsoft 365 service updates. This option meets the needs of most customers. To better manage your organization’s readiness and testing needs, you can change the default release selection at any time in the Microsoft 365 admin center. It can take up to 24 hours for the following changes to take effect in Microsoft 365.
+By default, use standard release for Microsoft 365 service updates. This option meets the needs of most customers. To better manage your organization’s readiness and testing needs, you can change the default release selection at any time in the Microsoft 365 admin center. It can take up to 24 hours for the following changes to take effect in Microsoft 365.
 
 > [!NOTE]
 > Currently, Deferred release option only supports Microsoft 365 Copilot-related features. For information on which features are Deferred-capable, check Message Center posts. We'll update this documentation as more features are supported.
@@ -118,6 +119,8 @@ To assign users to the Deferred release audience, follow these steps:
 
 [Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)
 
-[Set up the Standard or Targeted release options for Microsoft 365](release-options-in-office-365.md)
+[Overview of Microsoft MCP Server for Enterprise](/graph/mcp-server/overview)
 
-[Prepare for Microsoft 365 updates with Message center](message-center.md)
+[What's new in Message center](message-center-updates.md)
+
+[Set up the standard or targeted release options for Microsoft 365](release-options-in-office-365.md)
