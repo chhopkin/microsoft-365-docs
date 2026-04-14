@@ -1,7 +1,5 @@
 ---
 title: "Configure modern release options for Microsoft 365"
-f1.keywords:
-- CSH
 ms.author: mabond
 author: mkbond007
 manager: dansimp

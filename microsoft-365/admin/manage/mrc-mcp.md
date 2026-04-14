@@ -3,7 +3,7 @@ title: "Get started with the Microsoft Release Communications MCP Server"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/10/2026
+ms.date: 04/14/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -13,9 +13,6 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom:
-- AdminSurgePortfolio
-- AdminTemplateSet
 search.appverid:
 - MET150
 description: "Learn how to configure the Microsoft Release Communications MCP Server to search, filter, and retrieve the latest feature release information using natural language."
@@ -46,7 +43,7 @@ With MRC MCP, you can do the following actions:
 
 ## Requirements
 
-Although the MRC MCP Server is publicly available and free to use, users are subject to the [Microsoft API Terms of Use](https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use). Read and understand the API Terms of Use before using the MRC MCP Server and before including the output in any production environment.
+Although the MRC MCP Server is publicly available and free to use, users are subject to the [Microsoft API Terms of Use](/legal/microsoft-apis/terms-of-use). Read and understand the API Terms of Use before using the MRC MCP Server and before including the output in any production environment.
 
 There's no authentication required to access the MRC MCP Server. Users can use their preferred MCP client or agentic development environment, such as VS Code, Visual Studio, and more.
 
@@ -92,8 +89,8 @@ For detailed instructions on how to configure the MRC MCP Server in specific cli
 | Client | Installation / Configuration | MCP Guide |
 | ---------------------- | ----------------------------------------------- | ------------------------------------- |
 | **VS Code** | 1. Open `mcp.json` at **User level** (applies to every VS Code session) or **Workspace level** (`.vscode/mcp.json` in your project folder).<br/>The user-level file is located in the VS Code user settings directory:<br/>  - **Windows:** `%APPDATA%\Code\User\mcp.json`<br/>  - **macOS:** `~/Library/Application Support/Code/User/mcp.json`<br/>  - **Linux:** `~/.config/Code/User/mcp.json`<br/>2. Add the MCP server entry shown above.<br/>3. Query release data using your AI client. | [VS Code MCP configuration guide](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) |
-| **Visual Studio** | 1. Create `.mcp.json` at solution or user level<br/>2. Add the MCP server entry shown above.<br/>3. Query release data using your AI client. | [Visual Studio MCP configuration guide](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022) |
-| **GitHub Copilot CLI** | 1. Run `/mcp add` in interactive mode, opens a configuration form.<br/> 2. Enter a server name and select **HTTP** as the server type. No authentication is required.<br/> 3. Press **Ctrl+S** to save (server is available immediately) <br/> **or** <br/> edit `~/.copilot/mcp-config.json`.<br/> | [Copilot CLI MCP guide](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers)                 |
+| **Visual Studio** | 1. Create `.mcp.json` at solution or user level<br/>2. Add the MCP server entry shown above.<br/>3. Query release data using your AI client. | [Visual Studio MCP configuration guide](/visualstudio/ide/mcp-servers) |
+| **GitHub Copilot CLI** | 1. Run `/mcp add` in interactive mode, opens a configuration form.<br/> 2. Enter a server name and select **HTTP** as the server type. No authentication is required.<br/> 3. Press **Ctrl+S** to save (server is available immediately) <br/> **or** <br/> edit `~/.copilot/mcp-config.json`.<br/> | [Copilot CLI MCP guide](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers) |
 | **Claude Desktop** | Follow **Add custom connector** instructions in official guide. | [Claude Desktop MCP guide](https://modelcontextprotocol.io/docs/develop/connect-remote-servers#connecting-to-a-remote-mcp-server) |
 | **Claude Code** | Run `claude mcp add --transport http mrc-mcp https://www.microsoft.com/releasecommunications/mcp` <br /> **or** <br/> edit `~/.claude/mcp.json`<br /> | [Claude Code MCP guide](https://code.claude.com/docs/en/mcp) |
 | **Cursor** | 1. Open Cursor MCP settings.<br/>2. Edit the MCP server configuration to `mcp.json`. | [Cursor MCP guide](https://cursor.com/docs/mcp) |

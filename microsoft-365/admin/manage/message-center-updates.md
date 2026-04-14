@@ -1,7 +1,5 @@
 ---
 title: "Message center updates"
-f1.keywords:
-- CSH
 ms.author: mabond
 author: mkbond007
 manager: dansimp

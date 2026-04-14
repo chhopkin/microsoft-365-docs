@@ -1,7 +1,5 @@
 ---
 title: "Frequently asked questions about Message center"
-f1.keywords:
-- CSH
 ms.author: mabond
 author: mkbond007
 manager: dansimp

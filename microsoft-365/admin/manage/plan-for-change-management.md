@@ -18,7 +18,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 search.appverid: MET150
-description: "IT admins can enable their organizations to proactively plan for change using AI-enabled tools to help teams assess impact, prioritize work, and make informed decisions."
+description: "Proactively plan for change using AI-enabled tools to help your organization assess impact, prioritize work, and make informed decisions."
 appliesto: 
 - Microsoft 365 admin center
 ---
@@ -83,7 +83,7 @@ Use Microsoft MCP Server for Enterprise to:
 - Identify changes that affect your organization and determine actions to take
 - Prioritize work by reasoning over change data without leaving your AI workflow
 
-For more information, see [Overview of Microsoft MCP Server for Enterprise - Microsoft Graph](../graph/mcp-server/overview).
+For more information, see [Overview of Microsoft MCP Server for Enterprise - Microsoft Graph](/graph/mcp-server/overview).
 
 ## Modern change management development
 
@@ -106,7 +106,7 @@ The following table shows various communication channels we have that you can us
 
 [Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)
 
-[Overview of Microsoft MCP Server for Enterprise - Microsoft Graph](../graph/mcp-server/overview)
+[Overview of Microsoft MCP Server for Enterprise - Microsoft Graph](/graph/mcp-server/overview)
 
 [Configure modern release options for Microsoft 365](configure-release-options.md)
 
