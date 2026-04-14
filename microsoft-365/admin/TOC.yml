@@ -55,7 +55,7 @@ items:
         - name: Install Microsoft 365 apps
           href: setup/install-applications.md
         - name: Set up windows devices
-          href: ../business-premium/m365bp-set-up-windows-devices?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
+          href: ../business-premium/m365bp-set-up-windows-devices.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Set up mobile devices
           href: setup/set-up-mobile-devices.md
         - name: Set up Outlook for Microsoft 365 for business email (video)
