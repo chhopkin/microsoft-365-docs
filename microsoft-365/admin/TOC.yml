@@ -67,7 +67,7 @@ items:
         - name: Migrate your email from Gmail to Microsoft 365
           href: https://support.microsoft.com/office/move-your-old-email-calendars-and-contacts-to-microsoft-365-2c37f0b7-2915-423c-b35e-9e03267f23dc
         - name: Roll out Teams
-          href: /microsoftteams/how-to-roll-out-teams?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
+          href: /microsoftteams/deploy-overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: App training for everyone
           href: https://support.microsoft.com/training
         - name: What subscription do I have?
@@ -273,7 +273,7 @@ items:
     - name: Manage your data and services
       items:
          - name: Copilot in Microsoft 365 admin center
-           href: /copilot/microsoft-365/copilot-for-microsoft-365-admin?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
+           href: /microsoft-365/copilot/copilot-for-microsoft-365-admin?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
          - name: Agents in Microsoft 365 admin center
            items:
             - name: Manage agents in the Microsoft 365 admin center
@@ -297,7 +297,7 @@ items:
             - name: Agent Settings
               href: manage/agent-settings.md
          - name: Microsoft Graph connectors for Microsoft Search
-           href: /microsoftsearch/connectors-overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
+           href: /microsoft-365/copilot/connectors/overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
          - name: Monitor Microsoft 365 activity by using reports
            items:
             - name: Microsoft 365 Reports in the admin center - overview
@@ -395,15 +395,15 @@ items:
             - name: Microsoft 365 Apps health
               href: adoption/apps-health.md
             - name: Endpoint Analytics
-              href: /mem/analytics/productivity-score?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
+              href: /mem/analytics/adoption-score?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
          - name: Usage and user sentiment
            href: misc/experience-insights-dashboard.md
          - name: Change your organization contact info
            href: manage/change-address-contact-and-more.md
          - name: Manager people data and experiences
-           href: ./manage/people-settings-in-microsoft-365-admin-center.md
+           href: manage/people-settings-in-microsoft-365-admin-center.md
          - name: Customize your organization profile cards
-           href: ./manage/customize-profile-cards.md
+           href: manage/customize-profile-cards.md
          - name: Update your admin contact info
            href: manage/update-phone-number-and-email-address.md
          - name: Customize the app launcher
@@ -561,7 +561,7 @@ items:
           - name: Use Windows Autopilot to set up or reset devices
             href: /autopilot/overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Manage Microsoft 365 installation options for devices
-            href: /DeployOffice/manage-software-download-settings-office-365?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
+            href: /microsoft-365-apps/deploy/manage-software-download-settings-office-365?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Manage user consent to apps
             href: misc/user-consent.md
           - name: Turn on Idle session timeout
@@ -627,7 +627,7 @@ items:
           - name: Design Change Requests (DCR)
             href: ../enterprise/microsoft-365-admin-design-change-requests.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
     - name: Troubleshoot
-      href: /office/troubleshoot/
+      href: /troubleshoot/microsoft-365-apps/
     - name: Contact support
       items:
         - name: Get support for Microsoft 365 for business
