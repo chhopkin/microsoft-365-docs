@@ -15,7 +15,7 @@ ms.collection:
 - must-keep
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 03/26/2026
+ms.date: 03/30/2026
 ---
 
 # Application card: Microsoft 365 Copilot
@@ -45,6 +45,7 @@ The following table provides a glossary of key terms related to Microsoft 365 Co
 |Enriched prompt|A prompt is enriched when additional instructions are added to the prompt to guide Microsoft 365 Copilot in generating a more specific and relevant response. |
 |Grounding |Grounding refers to the process of providing input sources to the LLM related to the prompt. By enabling Microsoft 365 Copilot to access data to use as input sources, such as data from Microsoft Graph or Bing, Microsoft 365 Copilot may deliver more accurate, contextually relevant responses to users. |
 |Indexing|Microsoft uses both lexical and semantic indexing of Microsoft Graph data to ground responses for Microsoft 365 Copilot in enterprise data. Indexing interprets prompts to produce contextually relevant responses. |
+|Inferencing|Inferencing is the processing step when an AI model executes the prompt to produce an output or response, such as summarizing content or answering a question.|
 |Large language model (LLM)|Large language models (LLMs) in this context are AI models that are trained on large amounts of text data to predict words in sequences. LLMs are capable of performing a variety of tasks, such as text generation, summarization, translation, classification, and more.|
 |Microsoft Graph |Microsoft Graph is the gateway to data and intelligence in Microsoft 365. It includes information about the relationships between users, activities, and an organization’s data. |
 |Post-processing|The processing Microsoft 365 Copilot does after it receives a response from the LLM. This post-processing includes additional grounding calls to Microsoft Graph, responsible AI, security, compliance, and privacy checks.|
