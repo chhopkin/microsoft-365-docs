@@ -243,7 +243,7 @@ Evaluate model-tuned agents by using:
 - **Rule importance**: Mark important rules as Critical when you review extracted rules during the tuning process. This step improves model performance by correctly balancing between critically important rules and other rules.
 - **Validate**: After fine tuning is complete, validate the evaluation rubrics before saving the new model. Test your tuned agent by validating a sample document before publishing it for your organization.
 
-:::image type="content" source="media/copilot-tuning-document-validation-template/best-practices.png" alt-text="Best practices for tuned agents." lightbox="media/copilot-tuning-document-validation-template/best-practices.png":::
+:::image type="content" source="media/copilot-tuning-document-validation-template/best-practices.png" alt-text="Screenshot that shows best practices for tuned agents." lightbox="media/copilot-tuning-document-validation-template/best-practices.png":::
 
 ### Use Tune Model with a Document Validation agent
 
