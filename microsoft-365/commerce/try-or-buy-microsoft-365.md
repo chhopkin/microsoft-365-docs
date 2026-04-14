@@ -30,7 +30,7 @@ ms.custom:
 - campaignIDs-batch1
 search.appverid: GEA150
 description: Learn how to sign up for a free 30-day trial or buy a subscription for Microsoft 365 for business products and services.
-ms.date: 03/19/2026
+ms.date: 04/14/2026
 ---
 
 # Try or buy a Microsoft 365 for business subscription
@@ -77,6 +77,9 @@ Proof of payment is provided in the form of Fapiaos. You can submit your Fapiao 
 ## Storage limitations for Microsoft 365 trial customers
 
 If you have a Microsoft 365 trial, your subscription is limited to 300 GB of pooled storage. Pooled storage provides a single pool of storage for each tenant, and spans OneDrive, SharePoint Online, and Exchange Online. The storage pool represents the maximum amount of collective storage for these three services and is shared across and consumed by all users within the tenant. All SharePoint sites and OneDrives contribute towards pooled storage. In Exchange Online, pooled storage contributions include user mailboxes, shared mailboxes, and group mailboxes. All other mailbox types, including archive mailboxes, don't count towards pooled storage.
+
+> [!IMPORTANT]
+> Trial-only tenants are limited to 30 days and 300 GB.
 
 ## Try a free trial subscription
 
