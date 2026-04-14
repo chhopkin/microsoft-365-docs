@@ -74,15 +74,15 @@ The following table provides agent management capabilities  Microsoft 365 admin 
 
 | Role | View insights and organization   data | View agent registry information | Install, modify, approve, and manage agent configurations |
 |:---:|:---:|:---:|:---:|
-| Global Administrator | TRUE | TRUE | TRUE |
-| AI Administrator | TRUE | TRUE | TRUE |
-| Global Reader | TRUE | TRUE | FALSE |
-| AI Reader | TRUE | TRUE | FALSE |
-| Security Administrator | TRUE | TRUE | FALSE |
-| Security Reader | TRUE | TRUE | FALSE |
-| Security Operator | TRUE | TRUE | FALSE |
-| Reports Reader | TRUE | FALSE | FALSE |
-| User Experience Success Manager | TRUE | FALSE | FALSE |
+| Global Administrator | ✔ | ✔ | ✔ |
+| AI Administrator | ✔ | ✔ | ✔ |
+| Global Reader | ✔ | ✔ | ✖ |
+| AI Reader | ✔ | ✔ | ✖ |
+| Security Administrator | ✔ | ✔ | ✖ |
+| Security Reader | ✔ | ✔ | ✖ |
+| Security Operator | ✔ | ✔ | ✖ |
+| Reports Reader | ✔ | ✖ | ✖ |
+| User Experience Success Manager | ✔ | ✖ | ✖ |
 
 These **AI Administrator** and **Global Administrator** roles have tenant‑wide visibility and governance authority, where-as by contrast, product-specific admin roles allow governance only within the boundaries of their products (such as Power Platform Administrator and Fabric Administrator).
 
