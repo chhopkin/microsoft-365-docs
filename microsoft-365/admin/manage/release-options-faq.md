@@ -5,8 +5,8 @@ f1.keywords:
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/06/2026
-ms.reviewer: pamelaar, gsaini
+ms.date: 04/14/2026
+ms.reviewer: pamelaar
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -24,22 +24,12 @@ appliesto:
 - Microsoft 365 admin center
 ---
 
-# Frequently asked questions about release options for Microsoft 365
+# Frequently asked questions about modernrelease options for Microsoft 365
 
-This article provides answers to frequently asked questions that IT admins might have about release options in Microsoft 365. For more information about release options in Microsoft 365, see [Manage continuous change in Microsoft 365](plan-for-change-management.md) and [Configure release options](configure-release-options.md).
+This article provides answers to frequently asked questions that IT admins might have about release options in Microsoft 365. For more information about modern release options in Microsoft 365, see [Modern change management for Microsoft 365 - Overview](plan-for-change-management.md) and [Configure modern release options](configure-release-options.md).
 
-## What are standard and deferred Release options?
-
-These audience-based release options allow your organization to decide when certain major Microsoft 365 features will become available to your users.
-
-- **Standard release**: Users receive new features as they begin rolling out in General Availability (GA).
-- **Deferred release**: Users receive eligible major features 30 days after rollout begins in standard release.
-
-This helps your organization:
-
-- Start testing early with a small group of users
-- Prepare communications and training
-- Complete readiness or compliance reviews before broader rollout
+> [NOTE!]
+> Deferred release only supports features identified as both major updates *and* that are deferred-capable. For information on which features are deferred-capable, check Message Center posts.
 
 ## Can I choose which users get Microsoft 365 features earlier vs later?
 
@@ -61,7 +51,7 @@ If your tenant is configured for deferred release, all eligible major features f
 
 You can still use existing admin controls (when available) to manage specific features in your tenant.
 
-## When does the 30‑day Deferred period begin?
+## When does the 30‑day deferred period begin?
 
 The 30‑day timer starts when the feature *begins* rolling out in GA to standard release users globally. The deferred period doesn't begin when the standard global rollout completes. Standard users can begin evaluating the feature immediately, but users that are in deferred release receive the feature 30 days later.
 
@@ -69,13 +59,13 @@ The 30‑day timer starts when the feature *begins* rolling out in GA to standar
 
 Microsoft rolls out Microsoft 365 features in stages to help ensure quality.
 
-When we rollout a feature for general availability, standard release users receive the feature before deferred release users. Users assigned to standard release can start evaluating the feature as soon as it reaches your standard release users.
+When we roll out a feature for general availability, standard release users receive the feature before deferred release users. Users assigned to standard release can start evaluating the feature as soon as it reaches your standard release users.
 
-Deferred release users receive the deferred-capable feature 30 days after the rollout to standard release begins. This delay gives IT admins and power users more time to test, validate, and prepare before the feature reaches your deferred release users.
+Deferred release users receive the deferred-capable feature 30 days after the rollout to Standard release begins. This delay gives IT admins and power users more time to test, validate, and prepare before the feature reaches your deferred release users.
 
 ## Will tenant-wide features respect standard and deferred user settings?
 
-Most Microsoft 365 features are delivered at the user level and respect your standard and deferred release assignments. However, some features are deployed at the tenant level. Tenant-wide changes might apply to all users at once, regardless of release audience assignment.
+Most Microsoft 365 features are delivered at the user level and respect your standard and deferred assignments. However, some features are deployed at the tenant level. Tenant-wide changes might apply to all users at once, regardless of release audience assignment.
 
 ## What happens if a feature needs to be rolled back?
 
@@ -89,34 +79,43 @@ Deferred release users won't receive a feature that Microsoft rolls back before 
 
 ## Does deferred release replace admin controls?
 
-No, deferred release provides time to evaluate production-ready (GA) features. It works alongside existing admin controls, feature-level enable/disable settings (when available).
+No, deferred release provides time to evaluate production-ready, generally available features. It works alongside existing admin controls, feature-level enable/disable settings (when available).
+
 You may still request additional controls through your Microsoft account team if needed.
 
-## How does Message center support Deferred release?
+## How does Message center support deferred release?
 
-For Deferred release, we've updated the Message center to do the following actions:
+For deferred release, we've updated the Message center to do the following actions:
 
-- Clearly identify Deferred-eligible features
-- Include rollout timing to help you plan for updates
+- Clearly identify deferred-eligible features
+- Include a **Rollout timing** column to help you plan for updates
 - Send out announcements closer to the start of GA to ensure accuracy
 
-These updates can help reduce shifting timelines, improve readiness planning, and align communications with generally available and fully supported features.
+These updates can help reduce shifting timelines, improve readiness planning, and align communications with generally available and fully supported features. For information about Message center updates, see [What's new in Message center](message-center-updates.md).
 
-## Can I assign specific users to deferred release and others to standard release for testing?
+## Can I assign most of my organization to standard release and specific users to deferred release?
 
-Yes, if your organization needs more time for testing and evaluation of major features, you can leverage the new release model for deferred-capable features.
+Yes, if your organization needs more time for validating deferred-capable features, you can leverage assigning specific users to deferred release in the audience-based release model. For more information about configuring modern release options, see [Configure modern release options for Microsoft 365](configure-release-options.md).
 
-## How does Deferred release affect Frontier features?
+## Does deferred release apply to features that aren't major changes?
 
-Deferred release doesn’t affect Frontier program features. Deferred release allows customers to delay delivery of eligible features at general availability. The Frontier release is pre-GA, providing early adopters to try new experiences and give feedback. Features, agents, and capabilities in the Frontier program are managed separately. For more information about the Frontier program, see [Microsoft Frontier Program](https://www.microsoft.com/microsoft-365-copilot/frontier-program).
+No, even if you have users in deferred release, a feature that isn’t classified as a major change and deferred-eligible via Message center will still release to users when the feature is broadly available.
+
+## How does deferred release affect Frontier features?
+
+Deferred release doesn't apply to Frontier program features. Deferred release enables customers to delay delivery of eligible features at general availability (GA). Frontier provides preview access for early adopters to evaluate new experiences and provide feedback. Frontier access is managed separately from deferred release. Although Frontier features are pre-release, they run within an otherwise generally available (GA) environment. For more information about the Frontier program, see  [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program).
 
 ## Where can I find guidance on these new features and updates?
 
-Check for updates to this document as well as Message Center posts and the Microsoft 365 Roadmap for more information about the modern change communications coming to Microsoft 365.
+Check for updates to this article, [Modern change management for Microsoft 365 - Overview](plan-for-change-management.md), as well as Message Center posts and the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) for more information about the modern change communications coming to Microsoft 365.
 
 ## Do standard release and deferred release options affect Microsoft 365 App release options?
 
 No. For information about release options for Microsoft 365 Apps, see [Overview of update channels for Microsoft 365 Apps](/deployoffice/overview-update-channels).
+
+## How does this impact targeted release?
+
+If your organization is using [targeted release](release-options-in-office-365.md) for other Microsoft 365 services, you can continue to do so as we drive towards our converged release strategy. We recommend configuring release preferences for frontier, standard, and deferred audiences to align with the new release model as Microsoft begins delivering an increasing number of major features through it over time. Use the Microsoft Message Center to keep up with new products and services using this audience-based release model.
 
 ## Related articles
 
@@ -124,6 +123,6 @@ No. For information about release options for Microsoft 365 Apps, see [Overview 
 
 [Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
 
-[Message center in the Microsoft 365 admin center](message-center.md)
-
 [Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)
+
+[What's new in Message center](message-center-updates.md)

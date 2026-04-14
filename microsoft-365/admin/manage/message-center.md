@@ -41,6 +41,10 @@ To open Message center from the Microsoft admin center, go to <a href="https://g
 
 You can also use the [Microsoft 365 Admin app](https://go.microsoft.com/fwlink/p/?linkid=627216) on your mobile device to view Message center, which is a great way to stay current with push notifications.
 
+For the most recent updates to Message center, see [What's new in Message center](message-center-updates.md).
+
+For frequently asked questions about Message center, see [Message center FAQ](message-center-faq.md).
+
 ## Feature release status for your organization in Message Center
 
 > [!NOTE]
@@ -282,6 +286,8 @@ To learn how to set your language preferences to enable machine translation for 
 
 If you'd like to program an alternative way to get real-time service health information and Message center communications, see [Working with service communications API in Microsoft Graph](/graph/api/resources/service-communications-api-overview).
 
+For AI-powered workflows, you can also use Microsoft MCP Server for Enterprise. For more information, see [Overview of Microsoft MCP Server for Enterprise](/graph/mcp-server/overview).
+
 ## Unsubscribe from Message center emails
 
 1. Digest emails are turned on by default and are sent to your primary email address. To stop receiving the weekly digest, select **Preferences** and then **Email**.
@@ -293,10 +299,14 @@ If you'd like to program an alternative way to get real-time service health info
 
 ## Related articles
 
+[What's new in Message center](message-center-updates.md)
+
 [Frequently asked questions about Message center](message-center-faq.md)
 
 [Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
 
 [Configure modern release options](configure-release-options.md)
+
+[Overview of Microsoft MCP Server for Enterprise](/graph/mcp-server/overview)
 
 [Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)

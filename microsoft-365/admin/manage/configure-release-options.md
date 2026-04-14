@@ -107,7 +107,13 @@ To assign users to the Deferred release audience, follow these steps:
 
 1. Add any user exceptions. You can add up to 100 user exceptions to Standard release or Deferred release.
     - If you want to only assign a specific user to deferred release, select **Standard Release**, search for the user, and select their name.
+
+      :::image type="content" source="../../media/audience-release-options-deferred.png" alt-text="Screenshot of standard release in Microsoft 365 admin center.":::
+
     - If you want to only assign a specific user to standard release, select **Deferred Release**, search for the user, and select their name.
+
+      :::image type="content" source="../../media/audience-release-options-deferred.png" alt-text="Screenshot of deferred release in Microsoft 365 admin center.":::
+
 1. Select **Save**.
 
 > [!NOTE]

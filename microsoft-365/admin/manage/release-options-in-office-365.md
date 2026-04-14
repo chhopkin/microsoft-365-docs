@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/06/2026
+ms.date: 04/14/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -32,6 +32,8 @@ appliesto:
 - SharePoint in Microsoft 365
 - Microsoft 365 for the web
 - Microsoft 365 admin center
+- Exchange Online
+- Microsoft Teams
 ---
 
 # Set up the Standard or Targeted release options for Microsoft 365
@@ -50,9 +52,6 @@ Any new release is first tested and validated by the feature team, then by the e
 ![Release management validation rings for Microsoft 365.](../../media/Rings_Of_Progression.png)
 
 For significant updates, customers are initially notified by the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). As an update gets closer to rolling out, it's communicated through your <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">Microsoft 365 Message center</a>.
-
-> [!NOTE]
-> You need a Microsoft 365 or Microsoft Entra account to access your Message center through the [Microsoft admin center](../admin-overview/admin-center-overview.md). Microsoft 365 home plan users don't have an admin center.
 
 ## Standard release
 
@@ -76,7 +75,7 @@ If you [Set up the release option in the admin center](#set-up-the-release-optio
 
 If you [Set up the release option in the admin center](#set-up-the-release-option-in-the-admin-center) for this option, you can define specific users, usually power users, to receive early access to features and functionality.
 
-It's important to ensure that your HelpDesk is opted into Targeted release so that they have access to the Targeted release features needed to support your users.
+It's important to ensure that your help desk is opted into Targeted release so that they have access to the Targeted release features needed to support your users.
 
 > [!IMPORTANT]
 > Some features only roll out on a per-organization basis. This means that the entire organization will receive access to the feature at the same time. For features like this, it’s not possible for selected users in the targeted release program to get the feature early. This means that your organization won't be able to receive these features early if you have configured selected users in targeted release. To make sure that you see all features in targeted release, you'll need to configure targeted release for the entire organization or set up a test organization.

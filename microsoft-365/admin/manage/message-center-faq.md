@@ -76,4 +76,6 @@ To manage the number of messages within Message center, each message expires and
 
 [Configure modern release options](configure-release-options.md)
 
+[Overview of Microsoft MCP Server for Enterprise](/graph/mcp-server/overview)
+
 [Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)
