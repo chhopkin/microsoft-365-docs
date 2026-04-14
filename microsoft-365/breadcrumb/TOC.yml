@@ -11,7 +11,10 @@ items:
     topicHref: /microsoft-365/archive/index
   - name: Microsoft 365 Backup
     tocHref: /microsoft-365/backup/
-    topicHref: /microsoft-365/backup/index                  
+    topicHref: /microsoft-365/backup/index
+  - name: Baseline security mode
+    tocHref: /microsoft-365/baseline-security-mode/
+    topicHref: /microsoft-365/baseline-security-mode/baseline-security-mode-settings
   - name: Microsoft Bookings
     tocHref: /microsoft-365/bookings/
     topicHref: /microsoft-365/bookings/
