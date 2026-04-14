@@ -7,7 +7,7 @@ ms.author: frankroj
 author: cdmm12
 manager: scotv
 ms.reviewer: mherron
-ms.date: 03/05/2026
+ms.date: 04/03/2026
 ms.audience: ITPro
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-enterprise
@@ -32,7 +32,8 @@ The labs include evaluation versions of the following products:
 
 - Windows 11 Enterprise, version 25H2
 
-- Microsoft Configuration Manager, version 2409
+- Microsoft Configuration Manager, version 2509
+
 - Windows Assessment and Deployment Kit for Windows 11
 - Windows Server 2025
 
@@ -100,7 +101,7 @@ The following sections describe the scenarios supported by the lab guides.
 - Windows Hello for Business
 - Credential Guard
 - Microsoft Defender Application Guard
-- Windows Defender Exploit Guard
+- Microsoft Defender Exploit Guard
 - Windows Defender Application Control
 - Microsoft Defender for Endpoint
 

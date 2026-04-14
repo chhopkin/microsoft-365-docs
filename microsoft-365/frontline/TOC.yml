@@ -34,6 +34,9 @@ items:
         href: setupfrontlineagent.md
       - name: Start a pilot for your frontline workers
         href: startafrontlinepilot.md
+      - name: Scale a pilot to your frontline organization
+        href: scale-pilot-to-your-frontline-organization.md
+        displayName: scale, pilot, frontline, team, static, group, location
       - name: Choosing between flexible and static frontline teams
         href: frontline-team-options.md
       - name: Deploy frontline teams with flexible membership

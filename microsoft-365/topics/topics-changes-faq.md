@@ -54,7 +54,7 @@ This change doesn't impact permissions on your content (files, sites, pages, etc
 
 Users with the appropriate level of permissions can delete the page from the Site Pages library of the Topic Center SharePoint site.
 
-## My organization used Topics in Viva Engage (Yammer) prior to acquiring Viva Topics. Will these Topics disappear?
+## My organization used Topics in Viva Engage (formerly Yammer) prior to acquiring Viva Topics. Will these Topics disappear?
 
 In Viva Engage, topics will return to a simplified public topics model. Public topics won't disappear from  Engage threads. Topic pills will continue to link users to Engage topic pages with all conversations that have that topic attached. Core topics experiences such as adding topics to posts, following topics, and feeds of topics you follow will continue to be available. Users can no longer hover over a topic pill to open the topic card or see AI-suggested Viva Topics. A Topic Management experience will continue until retirement.
 

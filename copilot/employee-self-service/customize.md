@@ -9,6 +9,7 @@ ms.date: 03/12/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
+ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
@@ -55,7 +56,7 @@ Solution accelerator packages come with a few components, like connectors, topic
 
 ### Instructions
 
-LLM (Large Language Model) experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses.[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
+LLM (Large Language Model) experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses. [Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
 ## Response quality
 
@@ -225,25 +226,24 @@ The Employee Self-Service agent starter is "Consulting with a professional is th
 
 The triggers are:
 
-**This topic should only trigger ** when users mention **explicitly sensitive, confidential, or legal concerns ** such as **harassment **, **abuse **, **discrimination **, **unethical behavior **, or **retaliation ** in the work place. It activates in situations involving:
+**This topic should only trigger** when users mention **explicitly sensitive, confidential, or legal concerns** such as **harassment**, **abuse**, **discrimination**, **unethical behavior**, or **retaliation** in the work place. It activates in situations involving:
 
-- Requests for **HR consultation ** relating to sensitive matters
-- **Privacy concerns **
-- **Hostile work environments **
-- **Workplace violence **
-- **Legal action **
-- Reporting of **severe misconduct **
+- Requests for **HR consultation** relating to sensitive matters
+- **Privacy concerns**
+- **Hostile work environments**
+- **Workplace violence**
+- **Legal action**
+- Reporting of **severe misconduct**
 
-**Important: **
+> [!IMPORTANT]
+> This topic **must not** trigger for **general HR-related inquiries** such as:
+> 
+> - Accessing **benefits information** such as W2 forms and health benefits
+> - **Routine workplace questions**
+> - **Performance concerns**
+> - Other **non-sensitive** matters
 
-This topic **must not ** trigger for **general HR-related inquiries ** such as:
-
-- Accessing **benefits information ** such as W2 forms and health benefits
-- **Routine workplace questions **
-- **Performance concerns
-- Other **non-sensitive ** matters
-
-**It should only activate ** when explicit terms like **harassment **, **discrimination **, **retaliation **, **workplace violence **, or **legal support ** are mentioned.
+**It should only activate** when explicit terms like **harassment**, **discrimination**, **retaliation**, **workplace violence**, or **legal support** are mentioned.
 
 **Maker - What to customize**
 
@@ -407,11 +407,11 @@ For information on SharePoint knowledge filtering, see [SharePoint Advanced Filt
 
 **Starter prompts** help you roll out the Employee Self-Service agent efficiently to your organization. With starter prompts, users already have a few ready-to-go prompts to use. Creating starter prompts helps your organization decrease the time to value.
 
->[!TIP]
->Identify the most asked questions by your users to form the base of your starter prompts. Identifying the most accurate answers to these questions helps build trust with your users.
+> [!TIP]
+> Identify the most asked questions by your users to form the base of your starter prompts. Identifying the most accurate answers to these questions helps build trust with your users.
 
 1. Open the **Employee Self-Service** agent in Copilot Studio and navigate to the **Overview** page.
-1. Select the **Edit** button in **Starter prompts.**
+1. Select the **Edit** button in **Starter prompts**.
 1. Add prompts categorized by **Title**.
 1. **Save** your changes.
 1. The starter prompts you created display in the **Starter prompts** section.
@@ -420,16 +420,25 @@ For information on SharePoint knowledge filtering, see [SharePoint Advanced Filt
 
 You can optionally customize how the Employee Self‑Service (ESS) agent appears and how users start conversations by configuring tenant‑level settings in the Microsoft 365 admin center. These settings complement Copilot Studio configuration and apply to deployed agents.
 
-### What you can customize in the Microsoft 365 admin center 
-- Categorized starter prompts
-- Accent colors
-- Quick links on the ESS landing page
+## Roles that can access these settings in the Microsoft admin center
 
-> **Note**  
-> If you don’t configure these settings:
-> - Starter prompts fall back to Copilot Studio configuration  
-> - Default Copilot accent colors are used  
-> - No quick links are shown  
+- AI Admin
+- Global Admin
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
+The **Rich landing page** gives you control over how your Employee Self-Service agent looks and feels to employees. On the agent’s landing page, you can:
+
+- Add accent colors to reflect your brand.
+- Organize starter prompts into categories so employees can quickly find what they need.
+- Surface quick links to important resources.
+
+> [!NOTE]
+> If you don't configure these settings:
+>  - Starter prompts fall back to Copilot Studio configuration.
+>  - Default Copilot accent colors are used.  
+>  - No quick links are shown.  
 
 Changes saved for a deployed agent are reflected for users within a few hours.
 
@@ -440,6 +449,7 @@ Changes saved for a deployed agent are reflected for users within a few hours.
 Categorized starter prompts help users understand what the ESS agent can do and guide them into the right scenarios.
 
 **Rules and limits**
+
 - Up to **10 categories**
 - Category name limit: **35 characters**
 - Up to **12 starter prompts per category**
@@ -462,6 +472,7 @@ Categorized starter prompts help users understand what the ESS agent can do and 
 Accent colors control the visual styling used across the ESS experience, including buttons, links, chat bubbles, and loading indicators.
 
 **Accessibility guidance**
+
 - Recommended contrast ratio: **4.5:1**
 - If a color doesn’t meet the ratio, a warning is shown but you can still save it
 

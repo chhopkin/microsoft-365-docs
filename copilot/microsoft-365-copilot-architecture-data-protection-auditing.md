@@ -2,16 +2,17 @@
 title: Microsoft 365 Copilot data protection architecture
 f1.keywords:
 - NOCSH
-ms.author: ruihu
-author: maggierui
+ms.author: deniseb
+author: denisebmsft
 manager: dansimp
-ms.date: 03/03/2026
+ms.date: 04/07/2026
 ms.update-cycle: 180-days
 audience: Admin
 customer-intent: As an IT professional, I want to understand how Microsoft 365 Copilot works with data protection, oversharing controls, and auditing features in Microsoft 365.
 ms.reviewer: mandia, bcarter, ruihu, cabailey
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: security
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
@@ -55,6 +56,9 @@ In this flow:
 - When Copilot generates new content based on labeled sources, the highest‑priority sensitivity label is inherited when supported.
 - Protection settings remain enforced even when labeled files are stored outside the Microsoft 365 tenant.
 
+> [!NOTE]
+> User-defined sensitivity label permissions can block Copilot from extracting and interacting with the file content. For example, Copilot agents can't read files that have user-defined sensitivity label permissions.
+
 To learn more, see the following articles:
 
 - [Get started with sensitivity labels](/purview/get-started-with-sensitivity-labels)
@@ -73,7 +77,7 @@ These controls include:
 - Governance and lifecycle policies that reduce long‑term oversharing risk.
 - Information protection policies that restrict Copilot access based on sensitivity labels and DLP conditions.
 
-For prescriptive remediation guidance, see [Microsoft 365 Copilot blueprint for oversharing](microsoft-365-copilot-blueprint-oversharing.md).
+For prescriptive remediation guidance, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](secure-govern-copilot-foundational-deployment-guidance.md).
 
 ## Where Copilot usage data is stored and how it's audited
 
@@ -95,4 +99,4 @@ Retention and deletion behavior follows configured Microsoft Purview retention p
 
 - [Microsoft 365 Copilot architecture and how it works](/copilot/microsoft-365/microsoft-365-copilot-architecture)
 - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
-- [Microsoft 365 Copilot blueprint for oversharing](microsoft-365-copilot-blueprint-oversharing.md)
+- [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](secure-govern-copilot-foundational-deployment-guidance.md)
