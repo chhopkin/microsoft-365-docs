@@ -22,13 +22,13 @@ description: "See what's new with Microsoft 365 Message center to help you track
 
 # What's new in Message center
 
-For more information about Message center, see [Prepare for Microsoft 365 updates with Message center](message-center.md).
+This article describes the new features and improvements in the Microsoft 365 Message center. For more information about Message center, see [Prepare for Microsoft 365 updates with Message center](message-center.md).
 
 ## April 2026
 
 The Microsoft 365 Message center is now more timely, relevant, and concise to support actionable communications. To help IT admins quickly understand changes, posts now include bullet-point summaries, direct links to documentation, and launch-day announcements instead of early notifications.
 
-A new Timing of change column allows you to sort and filter posts by when a rollout is planned. To view a list of all available columns and their descriptions, see [Message center in the Microsoft 365 admin center](message-center.md).
+A new **Timing of change** column allows you to sort and filter posts by when a rollout is planned. To view a list of all available columns and their descriptions, see [Message center in the Microsoft 365 admin center](message-center.md).
 
 Message Center posts now include a dedicated section that describes known security and compliance considerations for each feature release. This inclusion helps admins, especially those in highly regulated industries, with security and compliance-specific information necessary to understand potential compliance and regulatory impact for each feature.
 
