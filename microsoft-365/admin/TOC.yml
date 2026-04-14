@@ -30,7 +30,7 @@ items:
              href: simplified-signup/admin-invite-business-standard.md
            - name: Accept email invitation to Microsoft 365 for business subscription
              href: simplified-signup/user-invite-business-standard.md
-           - name: Accept an email invitation to a Microsoft 365 for business subscription using an Outlook, Yahoo, Gmail or other account
+           - name: Accept an email invitation to a Microsoft 365 for business subscription using an Outlook, Yahoo, Gmail, or other account
              href: simplified-signup/user-invite-msa-nodomain-join.md
            - name: Migrate data to my Microsoft 365 Business Standard subscription
              href: simplified-signup/migrate-data-business-standard.md
@@ -346,9 +346,9 @@ items:
               href: activity-reports/microsoft365-apps-usage-ww.md
             - name: Microsoft 365 groups
               href: activity-reports/office-365-groups-ww.md
-            - name: OneDrive for Business activity
+            - name: OneDrive activity
               href: activity-reports/onedrive-for-business-activity-ww.md
-            - name: OneDrive for Business usage
+            - name: OneDrive usage
               href: activity-reports/onedrive-for-business-usage-ww.md
             - name: Project activity
               href: activity-reports/project-activity.md
@@ -448,7 +448,7 @@ items:
            href: manage/manage-industry-news.md
          - name: Manage Office Scripts settings
            href: manage/manage-office-scripts-settings.md
-         - name: Find a partner or a re-seller
+         - name: Find a partner or a reseller
            href: manage/find-your-partner-or-reseller.md
          - name: Manage Microsoft feedback for your organization
            href: manage/manage-feedback-ms-org.md
@@ -518,9 +518,9 @@ items:
             href: security-and-compliance/gdpr-compliance.md
         - name: Account security
           items:
-            - name: Multi-factor authentication in Microsoft 365
+            - name: Multifactor authentication in Microsoft 365
               href: security-and-compliance/multi-factor-authentication-microsoft-365.md
-            - name: Set up multi-factor authentication
+            - name: Set up multifactor authentication
               href: security-and-compliance/set-up-multi-factor-authentication.md
             - name: Admin account security in Microsoft 365 for business
               href: security-and-compliance/m365b-account-security-admins.md
@@ -566,7 +566,7 @@ items:
             href: misc/user-consent.md
           - name: Turn on Idle session timeout
             href: manage/idle-session-timeout-web-apps.md
-    - name: Switch from Google Workspace to M365
+    - name: Switch from Google Workspace to Microsoft 365
       items:
         - name: Overview
           href: moveto-microsoft-365/move-from-google-workspace-overview.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
