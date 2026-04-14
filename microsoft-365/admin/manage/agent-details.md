@@ -63,7 +63,7 @@ The following table provides agent sections (tabs) that are available for agent 
 |---|---|
 | **[Overview](#agent-overview-details)** | This tab provides a description, instructions, publish status, availability, publisher, deployment, agent type, coannel, platform, last   updated, sensitivity, and version. |
 | **[Users](#agent-users)** | This tab allows you to view and select the allowed users that the agent has been publish to. |
-| **[Permissions](#agent-permissions)** |  |
+| **[Permissions](#agent-permissions)** | This tab allows you to review and grant permission to data the agent can access and perform actions on. For more information, see [Agent permissions](#agent-permissions). |
 | **[Data & Tools](#agent-data--tools)** |  This tab provides details about Microsoft Purview proections, such as capabilities, knowledge sources, and tools available to the agent. Also, provides Microsoft Entry   protection details, such as Agent User ID and Agent ID. |
 | **[Security](#agent-security)** | This tab provides details about monitoring agent activity, protecting sensitive   data, and evaluating compliance gaps. |
 | **[Connect Agents](#agent-with-connected-agents)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
@@ -75,6 +75,8 @@ The following table provides agent sections (tabs) that are available for agent 
 The **Overview** tab provides a description, instructions, publish status, availability, publisher, deployment, agent type, channel, platform, last updated, sensitivity, and version.
 
 ## Agent users
+
+
 
 ## Agent permissions
 
