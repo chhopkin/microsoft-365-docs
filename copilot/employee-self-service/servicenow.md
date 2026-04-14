@@ -242,7 +242,7 @@ This section covers the tasks required for configuring Microsoft 365 Copilot Con
 3. In the **Search & intelligence** page, select **Data sources**.
 4. Click **+ Add Connection** to add a new Copilot connection.
 5. In the **Connect to data source** page, from the list of connectors, search for **ServiceNow Knowledge**.
-6. Select **ServiceNow Knowledge** connector and select**Next**.
+6. Select **ServiceNow Knowledge** connector and select **Next**.
 7. Fill in the following configuration information:
 
    |Configuration |Description/Value |
@@ -269,7 +269,7 @@ This section covers the tasks required for configuring Microsoft 365 Copilot Con
   When the authorization is successfully completed, the authorization field has a green check.
 10. Choose to enable or disable **_rollout to limited audience_** for staged rollout of this connector so that it can be tested with limited set of users before rolling it out to the whole organization.
 11. Check **Notice** checkbox to authorize Microsoft to create an index of third-party data in Microsoft 365 tenant subject to the configurations.
-12. Create **Create** to create the connector.
+12. Select **Create** to create the connector.
 13. In the status page, it shows the connection status as either a **Success** or **Failure** message. A sync is triggered in the background and its status is also indicated.
 14. Provide a description for the Connector, which serves as an instruction to Copilot and select **Save**.
 15. Select **Done** and wait for the connection state to be **Ready** after the sync is completed.
