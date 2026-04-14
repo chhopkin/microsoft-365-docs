@@ -78,7 +78,7 @@ To use the Document Validation agent template, you need a rulebook or guidelines
 
     :::image type="content" source="media/copilot-tuning-document-validation-template/new-chat.png" alt-text="Screenshot of starting a new chat with the Document Validation agent template in Microsoft 365 Copilot." lightbox="media/copilot-tuning-document-validation-template/new-chat.png":::
 
-1. Use one of the suggested prompts or type your own prompt to provide your guideline or rulebook (.docx or .tst) and a document (.docx or .tst) that you want to validate.
+1. Use one of the suggested prompts or type your own prompt to provide your guideline or rulebook (.docx or .txt) and a document (.docx or .txt) that you want to validate.
 
     :::image type="content" source="media/copilot-tuning-document-validation-template/rulebook.png" alt-text="Screenshot of providing a guideline or rulebook and a document to validate." lightbox="media/copilot-tuning-document-validation-template/rulebook.png":::
 

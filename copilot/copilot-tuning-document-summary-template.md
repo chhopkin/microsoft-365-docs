@@ -32,7 +32,7 @@ By using the Document Summary agent template, you can:
 - Create specialized summarization agents by tuning goals and context.
 - Optionally fine-tune the agent by using your organization’s own data to improve relevance and consistency (coming soon).
 
-:::image type="content" source="media/copilot-tuning-document-summary-template/what-agent-can-do.png" alt-text="The agent can generate summaries, create summarization agents. and fine-tune based on organizational data." lightbox="media/copilot-tuning-document-summary-template/what-agent-can-do.png":::
+:::image type="content" source="media/copilot-tuning-document-summary-template/what-agent-can-do.png" alt-text="The agent can generate summaries, create summarization agents, and fine-tune based on organizational data." lightbox="media/copilot-tuning-document-summary-template/what-agent-can-do.png":::
 
 When you enable fine-tuning, the agent can:
 

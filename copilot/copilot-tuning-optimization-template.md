@@ -28,7 +28,7 @@ By using the Optimization agent template, you can solve decision-based business 
 - **Rules and preferences**, such as keeping existing teams together or staying within budget
 - **Data**, such as lists of employees, projects, or territories
 
-:::image type="content" source="media/copilot-tuning-optimization-template/optimization-template-overview.png" alt-text="The optimization template defines goals, rules and preferences, and data." lightbox="media/copilot-tuning-optimization-template/optimization-template-overview.png":::
+:::image type="content" source="media/copilot-tuning-optimization-template/optimization-template-overview.png" alt-text="The optimization template defines goals, rules/preferences, and data." lightbox="media/copilot-tuning-optimization-template/optimization-template-overview.png":::
 
 After you provide this information, the agent uses solver tools to compute an optimal solution that satisfies all constraints and objectives. It presents the results in an interactive experience, and you can download them as a .csv file.
 
