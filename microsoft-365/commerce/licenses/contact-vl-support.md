@@ -113,8 +113,8 @@ Use the information in the following tables to find the support number for your 
 |Singapore |1800 820 9963 (Toll Free)<br/>+65 3157 1106 |09:00 - 18:00 GMT+8 |English |
 |South Korea |82798142030016 |09:00 - 18:00 GMT+9 |Korean |
 |Taiwan |886 8011 28004 |09:00 - 18:00 GMT+8 |Mandarin, English |
-|Thailand |661800012821 (Toll Free)<br/>+65 6622 1235 |01:00 - 10:00 GMT |English|
-|Vietnam |8412011860 (Toll Free)<br/>+65 6622 1235 |01:00 - 10:00 GMT |English |
+|Thailand |661800012821 (Toll Free)<br/>+65 3157 1106|01:00 - 10:00 GMT |English|
+|Vietnam |8412011860 (Toll Free)<br/>+65 3157 1106|01:00 - 10:00 GMT |English |
 |Southeast Asia |International tolls to Singapore might apply.<br/>+65 3157 1106 |09:00 - 18:00 GMT+8 |English |
 
 ### Europe
