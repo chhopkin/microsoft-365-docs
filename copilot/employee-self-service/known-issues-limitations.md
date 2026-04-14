@@ -26,7 +26,8 @@ As you consider using the Employee Self-Service Agent, we want to provide a clea
 
 | Feature | Update | Customer Action | Documentation | Status | Date |
 |--------|--------|-----------------|---------------|--------|------|
-| Rich Landing Page | New customizable landing experience | Optional configuration in M365 Admin Center || Available | Mar 2026 |
+| Rich Landing Page | New customizable landing experience | Optional configuration in M365 Admin Center |[Customize the Employee Self-Service agent](customize.md)| Available | Mar 2026 |
+| Employee Self-Service on Mobile | Employee Self-Service is now available on mobile devices | No additional set-up required || Available | Mar 2026 |
 
 ## Full list of known issues and limitations
 
