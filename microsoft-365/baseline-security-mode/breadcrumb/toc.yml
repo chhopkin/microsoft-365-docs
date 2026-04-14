@@ -5,28 +5,19 @@ items:
 - name: Microsoft 365
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
+- name: Microsoft 365
+  tocHref: /entra/
+  topicHref: /microsoft-365/index  
   items:
   - name: Baseline security mode
     tocHref: /microsoft-365/baseline-security-mode/
     topicHref: /microsoft-365/baseline-security-mode/baseline-security-mode-settings
-- name: Microsoft 365
-  tocHref: /entra/
-  topicHref: /microsoft-365/index
-  items:
   - name: Baseline security mode
     tocHref: /entra/identity/
     topicHref: /microsoft-365/baseline-security-mode/baseline-security-mode-settings
-- name: Microsoft 365
-  tocHref: /microsoft-365/
-  topicHref: /microsoft-365/index
-  items:
   - name: Baseline security mode
     tocHref: /sharepoint/
     topicHref: /microsoft-365/baseline-security-mode/baseline-security-mode-settings
-- name: Microsoft 365
-  tocHref: /microsoft-365/
-  topicHref: /microsoft-365/index
-  items:
   - name: Baseline security mode
     tocHref: /MicrosoftTeams/
     topicHref: /microsoft-365/baseline-security-mode/baseline-security-mode-settings
