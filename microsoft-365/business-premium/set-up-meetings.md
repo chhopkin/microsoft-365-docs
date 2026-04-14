@@ -1,7 +1,5 @@
 ---
 title: "Set up online meetings in Microsoft Business Premium"
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
@@ -17,10 +15,6 @@ ms.collection:
 - trust-pod
 ms.custom:
 - MiniMaven
-search.appverid:
-- BCS160
-- MET150
-- MOE150
 description: "Set up online meetings with Microsoft Teams in Microsoft Business Premium."
 ---
 

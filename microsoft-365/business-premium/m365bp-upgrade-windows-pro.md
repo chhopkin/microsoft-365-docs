@@ -1,11 +1,8 @@
 ---
 title: "Upgrade Windows devices to Windows 10 or 11 Pro"
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.collection:
@@ -14,9 +11,6 @@ ms.collection:
 - trust-pod
 ms.date: 05/31/2024
 ms.localizationpriority: medium
-search.appverid:
-- MET150
-- MOE150
 description: "Learn how to upgrade your Windows devices to Windows 10 or 11 Pro with Microsoft 365 Business Premium."
 ---
 
