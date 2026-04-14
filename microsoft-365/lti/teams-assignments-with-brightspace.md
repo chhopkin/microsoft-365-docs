@@ -11,6 +11,7 @@ ms.service: microsoft-365-education
 ms.collection:
 - m365-education
 - all-education
+- mesg
 ---
 
 # Use Teams Assignments LTI with Desire2Learn Brightspace

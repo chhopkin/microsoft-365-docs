@@ -1,38 +1,33 @@
 ---
-title: Known issues and limitations for the Employee Self-Service agent
+title: Release notes, known issues and limitations for the Employee Self-Service agent
 f1.keywords: NOCSH
-ms.author: heidip
+ms.author: jatonewilson
 author: MicrosoftHeidi
-manager: dansimp
+manager: swatigulati
 ms.reviewer: semani
-ms.date: 11/13/2025
+ms.date: 03/23/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
-ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about the known issues and limitations affecting the ESS (Employee Self-Service) agent and the workarounds you can employ.
+description: Learn about release notes, known issues and limitations affecting the ESS (Employee Self-Service) agent and the workarounds you can employ.
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Known issues and limitations for the Employee Self-Service agent
+# Release notes, known issues and limitations for the Employee Self-Service agent
 
-As you consider using the Employee Self-Service (ESS) Agent, we want to provide a clear view of known limitations—along with workarounds and roadmap visibility—to help you plan effectively and set the right expectations with your stakeholders.
+As you consider using the Employee Self-Service Agent, we want to provide a clear view of release notes, known issues and limitations—along with workarounds and roadmap visibility—to help you plan effectively and set the right expectations with your stakeholders.
 
-This guide includes:
 
-- Current Platform Constraints: Some features, like mobile readiness and multi-language experiences, are still in-progress and will be addressed in future roadmap releases.
-- Connector Considerations: Third-party integrations require setup effort and technical expertise across stakeholders in your tenant. Details in later sections.
-- Publishing & Deployment Nuances: ESS might not immediately appear in Teams or Copilot after publishing, and extra steps might be needed to make it visible and accessible to users.
-- User Experience Gaps: Customizations like tone configuration, welcome messages ("Hello" topics), and sensitivity label recognition aren't fully supported yet but have guidance or planned support underway.
-- Content Handling Limits: Semantic indexing has limits (~200 pages), and certain content formats (for example, link-only pages or Graph Connector content) might lead to reduced response quality.
+## Full list of release notes
 
-Our goal is to be transparent, help you avoid surprises, and guide you toward quick wins using supported configurations and best practices.
-
-Assess if this agent is a fit for your organization by viewing the whole list of known issues and limitations.
+| Feature | Update | Customer Action | Documentation | Status | Date |
+|--------|--------|-----------------|---------------|--------|------|
+| Rich Landing Page | New customizable landing experience | Optional configuration in M365 Admin Center |[Customize the Employee Self-Service agent](customize.md)| Available | Mar 2026 |
+| Employee Self-Service on Mobile | Employee Self-Service is now available on mobile devices | No additional set-up required || Available | Mar 2026 |
 
 ## Full list of known issues and limitations
 
