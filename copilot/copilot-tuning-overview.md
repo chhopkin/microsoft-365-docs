@@ -41,7 +41,7 @@ Copilot Tuning enables organizations to build AI experiences that align closely 
 
 - **Enterprise-grade security** - All tuning operations occur within the Microsoft 365 trust boundary. Tuned agents honor access control lists (ACLs) from the training data and only return information that users are authorized to access.
 
-:::image type="content" source="media/copilot-tuning-overview/key-capabilities.png" alt-text="Copilot Tuning key capabilities." lightbox="media/copilot-tuning-overview/key-capabilities.png":::
+:::image type="content" source="media/copilot-tuning-overview/key-capabilities.png" alt-text="Screenshot that shows Copilot Tuning key capabilities." lightbox="media/copilot-tuning-overview/key-capabilities.png":::
 
 ## Supported scenarios
 
@@ -87,7 +87,7 @@ For more information, see [Optimization agent](/copilot/microsoft-365/copilot-tu
 
 Agent tuning enables you to refine agents created from tunable templates in Microsoft 365 Copilot Agent Builder. Each tunable template is designed for a specific task and includes a predefined inference workflow that specifies the foundation model, instructions, grounding approach, tool usage, and output generation. This workflow provides an optimized default configuration- a ready-to-use "recipe" that helps agents retrieve relevant context, apply tools effectively, and produce high-quality outputs from the start.
 
-In many scenarios, agents created from these templates meet quality expectations without more customization. When further refinement is required- such as aligning outputs more closely with organizational standards, domain-specific needs, or user expectations- agent tuning provides structured ways to improve behavior and performance.
+In many scenarios, agents created from these templates meet quality expectations without more customizations. When further refinement is required- such as aligning outputs more closely with organizational standards, domain-specific needs, or user expectations- agent tuning provides structured ways to improve behavior and performance.
 
 Tunable templates are available to Copilot-licensed users in eligible tenants and are created in Agent Builder. When you create an agent from a tunable template, users can customize supported properties such as the agent name, instructions, and prompts. Access to tuning capabilities depends on tenant administrator configuration. If tuning options aren't available, users might need to request access from an administrator. Eligible users would be able to view "tune agent" option after creating an agent from a tunable template.
 
@@ -128,7 +128,7 @@ Tuned agents provide the following benefits:
 - Consistent outputs aligned with internal standards
 - Broader access to organizational knowledge across teams
 
-:::image type="content" source="media/copilot-tuning-overview/using-tuned-agents.png" alt-text="Benefits of using tuned agents." lightbox="media/copilot-tuning-overview/using-tuned-agents.png":::
+:::image type="content" source="media/copilot-tuning-overview/using-tuned-agents.png" alt-text="Screenshot that shows benefits of using tuned agents." lightbox="media/copilot-tuning-overview/using-tuned-agents.png":::
 
 ### Best practices
 
@@ -158,7 +158,7 @@ The AI administrator is responsible for ensuring that your use of this product c
 
 ### Data deletion
 
-- If a user whose data is used in training a model submits a valid deletion request under GDPR (or similar regulations), you're be required to retrain the model.
+- If a user whose data is used in training a model submits a valid deletion request under GDPR (or similar regulations), you're required to retrain the model.
 - When you fine-tune a model, the model weights are adjusted based on the training data. You can delete the fine-tuned model at any time.
 
 ## Related content
