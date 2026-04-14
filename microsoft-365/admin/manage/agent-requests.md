@@ -32,7 +32,7 @@ search.appverid:
 - MOE150
 ---
 
-# Manage agent reqeusts in Microsoft 365 admin center
+# Manage agent requests in Microsoft 365 admin center
 
 The **Requests** list of agents provides a view of agents that require your review and action. Members of your organizaton can request specific agents that need your review before they can be made available to members of your organization.
 

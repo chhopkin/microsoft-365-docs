@@ -34,13 +34,13 @@ search.appverid:
 
 # Manage agent registry in Microsoft 365 admin center
 
-The agent registry in [Microsoft 365 admin center](https://admin.microsoft.com/) provides a centralized view of all agents available for your organization. This list helps you monitor, manage, and govern agents your inventory of agents available for your organization.
+The agent registry in [Microsoft 365 admin center](https://admin.microsoft.com/) provides a centralized view of all agents available for your organization. This list helps you monitor, manage, and govern agents for your organization.
 
 The agent **Registry** lists all agents that are available to your organization, including:
-- **Microsoft agents** - Built and maintained by Microsoft, such as Researcher and Analyst.
-- **External partner-built agents** - Built by trusted non-Microsoft developers and published for broader or public availability.
+- **Microsoft agents** - Agents built and maintained by Microsoft.
+- **External partner-built agents** - Agents built by trusted non-Microsoft developers and published for broader or public availability.
 - **Published by your org** - Custom agents approved and published by your organization for broader use. These agents may be referred to as LOB (Line of Business) agents.
-- **Shared by creator** - Agents created and shared by individual users or developers in your organization. These agents are commonly referred to as Shared agents.
+- **Shared by creator** - Agents created and shared by individual users or developers at your organization. These agents are commonly referred to as Shared agents.
 
 :::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing the agent list which provides an inventory of agent in the Microsoft 365 admin center." lightbox="../../media/agents/agent-registry.png":::
 
@@ -57,23 +57,24 @@ The agent **Registry** provides quick details about the agents your organization
 :::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing a list of available agents for a tenant." lightbox="../../media/agents/agent-registry.png":::
 
 You can filter the agent list based on the following criteria:
-- **Status** - 
+- **Status** - You can filter the agent list based on status of the agent. Status values include **Available**, **Deployed**, and **Blocked**.
 - **Publisher** - The publisher filter indicates who owns and distributes the agent, rather than where or how it was built. This filter is primarily used to distinguish between Microsoft agents, external partner-built agents, and internally owned agents publish by your organization.
-- **Channel** -
+- **Channel** - The channel filter is the location where the agent has been deployed. It is the surface through which members of your organization can discover and interact with the agent. Channel values include **Copilot**, **Office**, **Outlook**, **Teams**.
 - **Platform** - The platform filter indicates which platform or product was used to create the agent. 
-- **Data source** -
+- **Data source** - The data source filter allows you to select **Embedded knowledge** and **Fine-tuned models** as data source options. **Embedded knowledge** refers to agents that include files that were uploaded by the agent maker or developer as knowledge sources. **Fine-tuned models** indicates that the agent was created using [Microsoft 365 Copilot Tuning](/microsoft-365/copilot/copilot-tuning-overview), allowing the agent to tune LLMs with their own organization data.
 
 > [!TIP]
 > If you don't see the agents that you expect to see in the agent registry list, check to make sure you don't have an existing filter set.
 
-The agent registry provides the following actions:
-- **Refresh** -
-- **Export to Excel** -
-- **Upload custom agent** -
-- **Manage pinned agents** -
-- **Search** -
+The agent **Registry** provides the following list actions:
+- **Refresh** - Updates to list to provide the most current view of the agent list.
+- **Export to Excel** - Exports agents to a CSV file. This action could take some time depending on the number of agents in the tenant. For more information, see [Export to Excel](#export-to-excel).
+- **Upload custom agent** - Provides a method to upload an agent manifest file (.zip). For more information, see [Updload custom agent](#upload-custom-agent).
+- **Manage pinned agents** - Select which agents are pinned for the user. Pinned agents are more visual in each available channel where the agent has been deployed. You can change the priority of pinned agents by moving them up and down in this list. If a user has more than three pinned agents, users won't see those with lower priority. For more information, see [Managed pinned agents](#manage-pinned-agents).
+- **Search** - Use the search option to quickly find an agent in your agent **Registry**.
 
-In addition, you can change the view of the list from **Normal list** to **Compact list** by selecting the *list* icon next to the **Search** box.
+> [!TIP]
+> In addition to the above actions, you can change the view of the list from **Normal list** to **Compact list** by selecting the *list* icon next to the **Search** box.
 
 ## Agents without owners
 
@@ -86,21 +87,15 @@ To help administrators manage these scenarios, the Microsoft 365 admin center no
 ### Key features
 
 - **Ownerless agent count** - Administrators can view the total number of agents without a valid owner directly from the dashboard. For example, the dashboard shows 20 ownerless agents, which indicates that users who left the organization created these agents.
-
 - **One-click filter** - Selecting the dashboard pane instantly filters the agent inventory to display only shared agents missing an owner. This feature allows for quick triage and action.
-
 - **Real-time updates** - The ownerless agent count automatically updates when you hard delete a user from the organization. This feature ensures that the dashboard reflects the current state without requiring manual refreshes.
 
 ### Steps to view and manage ownerless shared agents
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-
 1. In the left navigation pane, select **Agents** > **All agents**.
-
 1. In the **All agents** page, locate the **Missing an Owner** tab.
-
 1. Select the tab to filter **Agent inventory**.
-
 1. Review the list of ownerless agents and take appropriate actions such as [blocking](agent-actions.md#block-or-unblock-agents) or [deleting](agent-actions.md#delete-agents) the agent.
 
 ## Export to Excel
@@ -125,6 +120,8 @@ With this information, you can efficiently manage and review the shared agents w
 
 ## Upload custom agent
 
+
+## Manage pinned agents
 
 ## Microsoft Graph API for Agent Registry and Agent Details (preview)
 
