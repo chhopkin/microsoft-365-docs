@@ -98,16 +98,16 @@ The map is designed for ease of use, particularly in large environments where li
 When you select an agent icon, you can see more details about the agent, including:
  
 - Details:
-  - Description.
-  - Publisher.
-  - Agent type.
-  - Platform.
-  - Last updated.
-  - Version.
-- Users.
-- Data and tools.
-- Security and compliance.
-- Agent activity.
+  - Description
+  - Publisher
+  - Agent type
+  - Platform
+  - Last updated
+  - Version
+- Users
+- Data and tools
+- Security and compliance
+- Agent activity
  
 ## Taking action on agents
  

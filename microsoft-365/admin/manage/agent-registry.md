@@ -36,32 +36,40 @@ search.appverid:
 
 The agent registry in [Microsoft 365 admin center](https://admin.microsoft.com/) provides a centralized view of all agents available for your organization. This list helps you monitor, manage, and govern agents for your organization.
 
+:::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing a list of available agents for a tenant." lightbox="../../media/agents/agent-registry.png":::
+
+## Agent types
+
 The agent **Registry** lists all agents that are available to your organization. Agent are divided into four main types, as shown in the following table:
 
 | Agent type | Description |
 |---|---|
-| Microsoft agents | Agents built and maintained by Microsoft. |
-| External partner-built agents | Agents built by trusted non-Microsoft developers and published for broader or public availability. |
-| Published by your org | Custom agents approved and published by your organization for broader use. These agents may be referred to as LOB (Line of Business) agents. |
-| Shared by creator | Agents created and shared by individual users or developers at your organization. These agents are commonly referred to as Shared agents. |
-
-The agent **Registry** provides quick details about the agents your organization has available, as shown in the following table:
-
-| Tenant-wide agent details | Description |
-|---|---|
-| Total agents | The number of agents available in your organization's tenant. |
-| Agents without owners | The number of agents that no longer have owners at your organization. |
-| Blocked agents | The number of agents that have been block from members of your organization. |
+| **Microsoft agents** | Agents built and maintained by Microsoft. |
+| **External partner-built agents** | Agents built by trusted non-Microsoft developers and published for broader or public availability. |
+| **Published by your org** | Custom agents approved and published by your organization for broader use. These agents may be referred to as LOB (Line of Business) agents. |
+| **Shared by creator** | Agents created and shared by individual users or developers at your organization. These agents are commonly referred to as Shared agents. |
 
 ## View the agent registry
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
 
-:::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing a list of available agents for a tenant." lightbox="../../media/agents/agent-registry.png":::
+## Agent summary
+
+The agent **Registry** provides quick details about the agents your organization has available, as shown in the following table:
+
+| Tenant-wide agent details | Description |
+|---|---|
+| **Total agents** | The number of agents available in your organization's tenant. |
+| **Agents without owners** | The number of agents that no longer have owners at your organization. |
+| **Blocked agents** | The number of agents that have been block from members of your organization. |
+
+### Agent registry filters
+
+The agent **Registry** can contain a large and deverse inventory of agents. As your organization's agent adoption increases, management of all your agents can be more involved and complex. Filtering this list will help you narrow the view to the agents that you wnat to focus on at the moment, which will allow you to be more efficient, make focused decisions, and better apply your agent governance processes.
 
 You can filter the agent list based on the following criteria:
-- **Status** - You can filter the agent list based on status of the agent. Status values include **Available**, **Deployed**, and **Blocked**.
+- **Status** - You can filter the agent list based on status of the agent. 
 - **Publisher** - The publisher filter indicates who owns and distributes the agent, rather than where or how it was built. This filter is primarily used to distinguish between Microsoft agents, external partner-built agents, and internally owned agents publish by your organization.
 - **Channel** - The channel filter is the location where the agent has been deployed. It is the surface through which members of your organization can discover and interact with the agent. Channel values include **Copilot**, **Office**, **Outlook**, **Teams**.
 - **Platform** - The platform filter indicates which platform or product was used to create the agent. 
@@ -70,15 +78,15 @@ You can filter the agent list based on the following criteria:
 > [!TIP]
 > If you don't see the agents that you expect to see in the agent registry list, check to make sure you don't have an existing filter set.
 
-The agent **Registry** provides agent actions, as shown in the following table:
+The agent **Registry** provides agent actions that relate specifically to your tenant's list of agents, as shown in the following table:
 
 | Action | Description |
 |---|---|
-| Refresh | Updates to list to provide the most current view of the agent list. |
-| Export to Excel | Exports agents to a CSV file. This action could take some time depending on the number of agents in the tenant. For more information, see [Export to Excel](#export-to-excel).  |
-| Upload custom agent | Provides a method to upload an agent manifest file (.zip). For more information, see [Updload custom agent](#upload-custom-agent). |
-| Manage pinned agents | Select which agents are pinned for the user. Pinned agents are more prominently displayed in each available channel where the agent has been deployed. You can change the priority of pinned agents by moving them up and down in this list. If a user has more than three pinned agents, users won't see those with lower priority. For more information, see [Managed pinned agents](#manage-pinned-agents). |
-| Search | Use the search option to quickly find an agent in your agent **Registry**. |
+| **Refresh** | Updates to list to provide the most current view of the agent list. |
+| **Export to Excel** | Exports agents to a CSV file. This action could take some time depending on the number of agents in the tenant. For more information, see [Export to Excel](#export-to-excel).  |
+| **Upload custom agent** | Provides a method to upload an agent manifest file (.zip). For more information, see [Updload custom agent](#upload-custom-agent). |
+| **Manage pinned agents** | Select which agents are pinned for the user. Pinned agents are more prominently displayed in each available channel where the agent has been deployed. You can change the priority of pinned agents by moving them up and down in this list. If a user has more than three pinned agents, users won't see those with lower priority. For more information, see [Managed pinned agents](#manage-pinned-agents). |
+| **Search** | Use the search option to quickly find an agent in your agent **Registry**. |
 
 > [!TIP]
 > In addition to the above actions, you can change the view of the list from **Normal list** to **Compact list** by selecting the *list* icon next to the **Search** box.
