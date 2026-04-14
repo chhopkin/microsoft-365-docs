@@ -32,9 +32,28 @@ search.appverid:
 - MOE150
 ---
 
-# Agent management overview in Microsoft 365 admin center
+# Agent management in Microsoft 365 admin center
 
-Agents are powerful AI companions that can handle a range of interactions and tasks. An agents can resolve issues that require complex conversations and autonomously determine the best action to take based on its instructions and context. It coordinates language models, along with instructions, context, knowledge sources, topics, tools, inputs, and triggers to accomplish your goals. Your organization can use agents in multiple languages across websites, mobile apps, Facebook, Microsoft Teams, and other any supported channels.
+Agents are powerful AI companions that can handle a range of interactions and tasks. An agents can resolve issues that require complex conversations and autonomously determine the best action to take based on its instructions and context. It coordinates language models, along with instructions, context, knowledge sources, topics, tools, inputs, and triggers to accomplish goals that members of your organization need to accomplish. Your organization can use agents in multiple languages across websites, mobile apps, Facebook, Microsoft Teams, and other any supported channels.
+
+Agent governance involves using policies, settings, and admin actions to control how agents at your organization are accessed, published, deployed, and managed across your organization. When you apply an agent governance approach to managing agents, you ensure agents and the data they use remain secure and compliant.
+
+By using governance across your agent lifecycle, you help ensure agent adoptions is consistent and safe. Governance ensures agents are onboarded intentionally, operate within guardrails, and are managed consistently from build through retirement.
+
+Organizations face significant challenges for agent governance, such as
+- Apply consistent governance policies across all agents, regardless of how or where they’re built.
+- Balance developer freedom and experimentation with centralized oversight.
+- Identify and retire low value or ownerless agents before they create risk or cost.
+
+By managing agents within Microsoft 365 admin center, organizations can establish guardrails for agents and people, onboard agents with IT oversight, and govern agent access to resources and data. Organizations can be audit ready with built-in compliance and data retention.
+
+The following capabilities helps your organization confidently manage and govern your agent ecosystem:
+
+- **Bring agents under control from day one** - Onboard and approve agents through one IT controlled flow, applying policy templates to every agent for governance and compliance.
+- **Control what agents can access and do** - Enforce least-privilege access by controlling which users, data, and tools agents can use and limit access to only the resources and other agents they need.
+- **Automate ongoing agent governance** - Leverage rules-based agent management to automatically enforce lifecycle policies, such as expiring inactive agents, flagging ownerless agents, or blocking risky agents.
+- **Be audit-ready from the start** - Strengthen visibility and traceability of agent actions and interactions, including who approved an agent, what it accessed, and how it behaved.
+- **Reduce compliance and safety risks** - Establish data safety and compliance controls to detect, retain, and investigate unethical agent interactions.
 
 The Agent workload within [Microsoft 365 admin center](https://admin.microsoft.com/) allows you to view a summary of agents that you manage, deploy, and monitor at your organization. It provides usage and insights that are to monitor agent adoption and governance. The Agent workload serves as the grounding control plane for all agents managed at your organization.
 
