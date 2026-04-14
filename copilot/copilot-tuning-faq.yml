@@ -6,18 +6,17 @@ metadata:
   ms.author: mstewart
   manager: scotv
   ms.service: microsoft-365-copilot
+  ms.subservice: admin
   ms.topic: faq
-  ms.date: 02/24/2026
+  ms.date: 03/10/2026
 
 title: Microsoft 365 Copilot Tuning FAQ
 summary: |
   Copilot Tuning is a service that enhances the customization of Microsoft 365 Copilot agents by tuning content, tools, and models on tenant-specific data. With the capabilities provided by Copilot Tuning, organizations can use their proprietary data to improve the relevance and accuracy of AI agent-generated outputs. This tuning helps agents understand and adhere to the unique terminology, workflows, and business processes of the organization. 
 
-  Copilot Tuning introduces tunable templates in Agent Builder that provide custom task-specific inference recipes. With various tuning options (tune context, tune model, tune tools), the templates utilizes other task-specific recipes. These agents can perform high-value tasks such as document writing, expert answering, summarization, validation, style editing and optimization. These tasks are performed within the security and compliance boundaries of Microsoft 365. 
+  Copilot Tuning introduces tunable templates in Agent Builder that provide custom task-specific inference recipes. With various tuning options (tune context, tune model, tune tools), the templates utilize other task-specific recipes. These agents can perform high-value tasks such as document writing, expert answering, summarization, validation, style editing and optimization. These tasks are performed within the security and compliance boundaries of Microsoft 365. 
 
-    > [!IMPORTANT]
-    > Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
-
+  [!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 sections:
 - name: Copilot Tuning capabilities

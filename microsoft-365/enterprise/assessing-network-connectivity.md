@@ -30,7 +30,7 @@ description: "Microsoft 365 is designed to enable customers all over the world t
 
 *This article applies to Enterprise customers connecting to Microsoft 365 services.*
 
-![Diagram showing enterprise network last mile](media/assessing-network-connectivity/enterprisenetworklastmile3.jpg)
+:::image type="content" source="media/assessing-network-connectivity/enterprisenetworklastmile3.jpg" alt-text="Diagram showing enterprise network last mile.":::
 
 Microsoft 365 is designed to enable customers all over the world to connect to the service using an internet connection. As the service evolves, the security, performance, and reliability of Microsoft 365 are improved based on customers using the internet to establish a connection to the service.
 
@@ -53,7 +53,7 @@ Some resources to help you assess your network:
 > [!NOTE]
 > Microsoft authorization is required to use ExpressRoute for Microsoft 365. Microsoft reviews every customer request and only authorizes ExpressRoute for Microsoft 365 usage when a customer's regulatory requirement mandates direct connectivity. If you have such requirements, please provide the text excerpt and web link to the regulation which you interpret to mean that direct connectivity is required in the [ExpressRoute for Microsoft 365 Request Form](https://aka.ms/O365ERReview) to begin a Microsoft review. Unauthorized subscriptions trying to create route filters for Microsoft 365 will receive an error message:
 >
-> The customer subscription ID \<Azure subscription ID\> is not authorized for creating route filters for Office 365.
+> The customer subscription ID \<Azure subscription ID\> is not authorized for creating route filters for Office 365.
 
 Key points to consider when planning your network assessment for Microsoft 365:
 
@@ -110,11 +110,12 @@ You can read about the Microsoft 365 connectivity test and provide feedback at t
 Information about future updates to this tool and other Microsoft 365 networking updates will be posted to the [Microsoft 365 Networking](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking) blog.
 Here's a short link you can use to come back: [https://aka.ms/pnc](https://aka.ms/pnc)
 
-## Related articles
-[Microsoft 365 Network Connectivity Overview](microsoft-365-networking-overview.md)
-[Microsoft 365 Network Connectivity Principles](./microsoft-365-network-connectivity-principles.md)
-[Managing Microsoft 365 endpoints](managing-office-365-endpoints.md)
-[Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
-[Microsoft 365 IP Address and URL Web service](microsoft-365-ip-web-service.md)
-[Microsoft 365 network and performance tuning](network-planning-and-performance.md)
-[Microsoft 365 Enterprise overview](microsoft-365-overview.md)
+## Related content
+
+- [Microsoft 365 Network Connectivity Overview](microsoft-365-networking-overview.md)
+- [Microsoft 365 Network Connectivity Principles](./microsoft-365-network-connectivity-principles.md)
+- [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md)
+- [Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
+- [Microsoft 365 IP Address and URL Web service](microsoft-365-ip-web-service.md)
+- [Microsoft 365 network and performance tuning](network-planning-and-performance.md)
+- [Microsoft 365 Enterprise overview](microsoft-365-overview.md)

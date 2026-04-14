@@ -1,11 +1,11 @@
 ---
-title: Copilot Tuning Document Validation agent template
+title: Copilot Tuning Document Validation agent template (early access preview)
 description: Learn how to use and tune the Document Validation agent template in Microsoft 365 Copilot to review documents for compliance with organizational guidelines, policies, branding, and regulatory requirements.
 author: david-salas
 ms.author: dsalasbarran
 manager: calvind
 ms.reviewer: riyazp
-ms.date: 02/24/2026
+ms.date: 03/10/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
@@ -16,14 +16,13 @@ ms.collection:
 - magic-ai-copilot
 ---
 
-# Copilot Tuning Document Validation agent template
+# Copilot Tuning Document Validation agent template (early access preview)
 
 The **Document Validation** agent template for Microsoft 365 Copilot helps organizations review documents for compliance with internal guidelines, policies, branding standards, and regulatory requirements. It automates manual review workflows by identifying noncompliant content, categorizing violations by risk, and providing actionable remediation guidance directly within documents.
 
 This agent is designed for high-stakes and repeatable review scenarios where accuracy, consistency, and auditability are critical.
 
-> [!IMPORTANT]
-> Copilot Tuning is currently available in the [**Frontier early access program**](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [**What is Frontier?**](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## What the Document Validation agent template does
 
@@ -79,9 +78,9 @@ To use the Document Validation agent template, you need a rulebook or guidelines
 
     :::image type="content" source="media/copilot-tuning-document-validation-template/new-chat.png" alt-text="Screenshot of starting a new chat with the Document Validation agent template in Microsoft 365 Copilot." lightbox="media/copilot-tuning-document-validation-template/new-chat.png":::
 
-1. Use one of the suggested prompts or type your own prompt to provide your guideline or rulebook (.docx or .tst) and a document (.docx or .tst) that you want to validate.
+1. Use one of the suggested prompts or type your own prompt to provide your guideline or rulebook (.docx or .txt) and a document (.docx or .txt) that you want to validate.
 
-    :::image type="content" source="media/copilot-tuning-document-validation-template/rulebook.jpg" alt-text="Screenshot of providing a guideline or rulebook and a document to validate." lightbox="media/copilot-tuning-document-validation-template/rulebook.jpg":::
+    :::image type="content" source="media/copilot-tuning-document-validation-template/rulebook.png" alt-text="Screenshot of providing a guideline or rulebook and a document to validate." lightbox="media/copilot-tuning-document-validation-template/rulebook.png":::
 
 1. The agent does the rest. It systematically extracts rules from the rulebook and validates your document against each rule to identify noncompliance and suggest a fix.
 
@@ -89,7 +88,7 @@ To use the Document Validation agent template, you need a rulebook or guidelines
 
 1. The agent responds with a document containing comments inserted highlighting violations with an explanation, a risk (Critical/Advisory) level for each violation, and a suggested fix.
 
-    :::image type="content" source="media/copilot-tuning-document-validation-template/agent-response.jpg" alt-text="Screenshot of the agent's response with comments highlighting violations and suggested fixes." lightbox="media/copilot-tuning-document-validation-template/agent-response.jpg":::
+    :::image type="content" source="media/copilot-tuning-document-validation-template/agent-response.png" alt-text="Screenshot of the agent's response with comments highlighting violations and suggested fixes." lightbox="media/copilot-tuning-document-validation-template/agent-response.png":::
 
 ## Tuneable agent overview
 
@@ -162,7 +161,7 @@ To use Tune Context with a Document Validation agent template:
    - Capture any unique rules or guidelines your organization follows for this use case.
    - Add, edit, or remove any goal or subgoals as needed. Select **Save** when you're done.
 
-    :::image type="content" source="media/copilot-tuning-document-validation-template/reviewing-goals.jpg" alt-text="Screenshot of reviewing goals and subgoals for the agent." lightbox="media/copilot-tuning-document-validation-template/reviewing-goals.jpg":::
+    :::image type="content" source="media/copilot-tuning-document-validation-template/reviewing-goals.png" alt-text="Screenshot of reviewing goals and subgoals for the agent." lightbox="media/copilot-tuning-document-validation-template/reviewing-goals.png":::
 
 1. **Review evaluation criteria**: The agent generates evaluation metrics that define what good performance means for your agent. The agent's performance is measured on these metrics.
    - These metrics are customized based on the goals and subgoals you define. Review them to ensure they define what success looks like for you.
@@ -185,7 +184,7 @@ To use Tune Context with a Document Validation agent template:
 
 9. **Evaluation results**: You receive an email notification when evaluation results are available. You see scores for all the evaluation metrics you defined along with explanatory insights. You can review detailed evaluation results by selecting **View Evaluation File** at the bottom of the results page.
 
-    :::image type="content" source="media/copilot-tuning-document-validation-template/evaluation-results.jpg" alt-text="Screenshot of evaluation results with scores and insights." lightbox="media/copilot-tuning-document-validation-template/evaluation-results.jpg":::
+    :::image type="content" source="media/copilot-tuning-document-validation-template/evaluation-results.png" alt-text="Screenshot of evaluation results with scores and insights." lightbox="media/copilot-tuning-document-validation-template/evaluation-results.png":::
 
 10. **Share agent**: You can share your newly tuned agent with users in your organization. They can use your tuned agent to validate any documents by using the guidelines you tuned with.
 
@@ -243,6 +242,8 @@ Evaluate model-tuned agents by using:
 - **Example documents**: A larger number of example documents improves model training. Ensure that examples are representative of the scenario and include different nuances. For example, if you're building a model to evaluate compliance for different types of contracts, include sufficient examples of all types of contract documents for training.
 - **Rule importance**: Mark important rules as Critical when you review extracted rules during the tuning process. This step improves model performance by correctly balancing between critically important rules and other rules.
 - **Validate**: After fine tuning is complete, validate the evaluation rubrics before saving the new model. Test your tuned agent by validating a sample document before publishing it for your organization.
+
+:::image type="content" source="media/copilot-tuning-document-validation-template/best-practices.png" alt-text="Screenshot that shows best practices for tuned agents." lightbox="media/copilot-tuning-document-validation-template/best-practices.png":::
 
 ### Use Tune Model with a Document Validation agent
 

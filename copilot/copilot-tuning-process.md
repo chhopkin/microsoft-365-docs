@@ -1,16 +1,16 @@
 ---
-title: Customize Microsoft 365 Copilot with Copilot Tuning (preview)
+title: Customize Microsoft 365 Copilot with Copilot Tuning (early access preview)
 description: Get an overview of the process to create a fine-tuned model with Copilot Tuning to customize Microsoft 365 Copilot for your organization.
 author: lauragra
 ms.author: lauragra
 manager: calvind
 ms.reviewer: riyazp
-ms.date: 02/24/2026
+ms.date: 04/13/2026
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ---
-# Customize Microsoft 365 Copilot with Copilot Tuning (preview)
+# Customize Microsoft 365 Copilot with Copilot Tuning (early access preview)
 
 By using Microsoft 365 Copilot Tuning, organizations can tailor AI models to reflect their unique terminology, communication style, and business processes. When you fine-tune large language models (LLMs) with your own data, you can improve the accuracy, tone, and relevance of Copilot responses across your tenant.
 
@@ -18,18 +18,19 @@ Copilot Tuning goes beyond retention and retrieval to train tenant-specific LLMs
 
 This article describes the process of tuning task-specific agents in Microsoft 365 Copilot for your organization.
 
-> [!IMPORTANT]
-> Copilot Tuning is currently available in the [**Frontier early access program**](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [**What is Frontier?**](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
-## Fine tuning process overview
+## Fine-tuning process overview
 
 To fine-tune AI models for your organization by using Copilot Tuning – Tune model, follow these training and tuning steps:
 
 - **Task specific adaptation** - Prepare data for training. Each task has its own recipe for preparing the right organization data for the fine tuning.
 
-- **Fine tuning training** - Each task has its own recipe and fine tuning technique for the best outcome by using organization data. These techniques include, but aren't limited to, Supervised Fine Tuning (SFT), Reinforcement learning (RL), and Reasoning Fine Tuning (RFT). These recipes and techniques also evolve over time.
+- **Fine-tuning training** - Each task has its own recipe and fine tuning technique for the best outcome by using organization data. These techniques include, but aren't limited to, Supervised Fine Tuning (SFT), Reinforcement learning (RL), and Reasoning Fine Tuning (RFT). These recipes and techniques also evolve over time.
 
 - **Evaluation** - Each task has its own recipes for how to evaluate the output by using rubrics defined by the organization.
+
+:::image type="content" source="media/copilot-tuning-process/fine-tuning-process.png" alt-text="Screenshot showing fine-tuning process." lightbox="media/copilot-tuning-process/fine-tuning-process.png":::
 
 > [!NOTE]
 > The models that you tune are private. Your data isn't used to train general models for other tenants. All processing of your data is done in the tenant that only your authorized users have access to train and use. Specific individuals, typically administrators, have control over the training process.

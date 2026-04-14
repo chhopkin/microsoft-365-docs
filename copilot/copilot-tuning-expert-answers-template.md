@@ -1,25 +1,24 @@
 ---
-title: Copilot Tuning Expert Answers agent template
+title: Copilot Tuning Expert Answers agent template (early access preview)
 author: lauragra
 ms.author: lauragra
 manager: calvind
 ms.collection: operations-pod
 ms.reviewer: riyazp
-ms.date: 02/19/2026
+ms.date: 04/10/2026
 ms.service: microsoft-365-copilot
 ms.topic: how-to
 ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for expert answers.
 ---
 
-# Copilot Tuning Expert Answers agent template
+# Copilot Tuning Expert Answers agent template (early access preview)
 
 The **Expert Answers** agent template is a tunable Microsoft 365 Copilot agent template designed to answer complex, domain-specific questions grounded in your organization's content. You can further tune the agent by using enterprise data to improve answer quality, relevance, and consistency.
 
 This article describes common scenarios, tuning options, requirements, and limitations to help you implement the Expert Answers agent template effectively.
 
-> [!IMPORTANT]
-> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## Expert Answers agent template overview
 
@@ -52,6 +51,8 @@ Tuning flow helps you evaluate and improve agent responses. You can tune an Expe
 | **Model** | Improve how the agent searches and retrieves relevant files |
 | **Tools** | Add sub-agents to enforce guardrails, apply tone, or generate deeper responses by using Researcher |
 
+:::image type="content" source="media/copilot-tuning-expert-answer-template/tuning-flow.png" alt-text="Screenshot that shows tuning flow includes context, model, and tools." lightbox="media/copilot-tuning-expert-answer-template/tuning-flow.png":::
+
 ## Use the non-customized agent
 
 Before customizing the agent, test the default experience.
@@ -64,7 +65,7 @@ You must select a SharePoint site before asking a question. The agent answers qu
 
 Start by selecting the **Expert Answers agent template** in Agent Builder. 
 
-:::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png" alt-text="Screenshot showing the Expert Answers agent template template selection in Agent Builder." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png":::
+:::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png" alt-text="Screenshot showing the Expert Answers agent template selection in Agent Builder." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png":::
 
 Provide the following information:
 
@@ -95,6 +96,8 @@ Provide the following information during this step:
 | Subgoals | Review clarifying questions | Guides search behavior and evaluation |
 | Metrics | Review metrics | Evaluates agent responses |
 | Grounding information | Agent context | Defines search behavior |
+
+:::image type="content" source="media/copilot-tuning-expert-answer-template/context-tuning.png" alt-text="Screenshot that shows context tuning involves setting the agent's goals, creating evaluation data, and enhancing the Expert Answers search information retrieval." lightbox="media/copilot-tuning-expert-answer-template/context-tuning.png":::
 
 ### Define tuning goals
 

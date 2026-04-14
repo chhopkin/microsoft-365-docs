@@ -1,22 +1,23 @@
 ---
-title: Submit Microsoft 365 Copilot agents to the Microsoft Commercial Marketplace
+title: Submit agents to the Microsoft Commercial Marketplace
 f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 11/12/2025
+ms.date: 03/31/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
+ms.subservice: agent-management
 ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: Learn how to submit Microsoft 365 Copilot agents to the Microsoft Commercial Marketplace.
+description: Learn how to submit agents to the Microsoft Commercial Marketplace.
 ---
 
-# Submit Microsoft 365 Copilot agents to the Microsoft Commercial Marketplace
+# Submit agents to the Microsoft Commercial Marketplace
 
 The Microsoft commercial marketplace is a platform that enables customers to discover, purchase, and deploy cutting-edge cloud solutions and services tailored to drive their business outcomes.
 

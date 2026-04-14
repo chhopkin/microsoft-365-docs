@@ -1,10 +1,10 @@
 ---
-title: Copilot Tuning Style Editing agent template
+title: Copilot Tuning Style Editing agent template (early access preview)
 description: Learn how to use and tune the Style Editing agent template in Microsoft 365 Copilot to rewrite content so it aligns with your organization’s brand tone, voice, and writing standards.
 author: david-salas
 ms.author: dsalasbarran
 manager: calvind
-ms.date: 02/24/2026
+ms.date: 04/13/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
@@ -15,14 +15,13 @@ ms.collection:
 - magic-ai-copilot
 ---
 
-# Copilot Tuning Style Editing agent template
+# Copilot Tuning Style Editing agent template (early access preview)
 
 The **Style Editing** agent template helps organizations standardize how content is rewritten so it consistently reflects their brand tone, voice, and writing standards. By using Copilot Tuning, you can configure the agent to apply style rules automatically while preserving the original meaning and intent of the content.
 
 This agent is designed for teams that produce large volumes of written content and want consistent, high‑quality results without repeated manual editing.
 
-> [!IMPORTANT]
-> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## What the Style Editing agent template does
 
@@ -32,6 +31,8 @@ The Style Editing agent template can:
 - Preserve meaning and intent while improving clarity and consistency
 - Apply organizational style rules automatically after tuning
 - Support additional refinement through context tuning and model tuning
+
+:::image type="content" source="media/copilot-tuning-style-editing-template/what-style-editing-template-does.png" alt-text="Screenshot showing the capabilities of the style editing template." lightbox="media/copilot-tuning-style-editing-template/what-style-editing-template-does.png":::
 
 Use the default agent for ad-hoc rewriting or tune it to create a specialized agent that writes in your organization’s voice by default.
 
@@ -141,6 +142,8 @@ Model tuning lets you select training data, configure access, and start fine-tun
 1. **Review access:** Choose one or more Microsoft Entra security groups or restrict access to yourself.
 1. **Start fine-tuning:** Select **Start fine-tuning** in the interface. The system doesn't currently support automatic start.
 1. **Deployment:** After tuning completes, you receive an email to review results and publish the model.
+
+:::image type="content" source="media/copilot-tuning-style-editing-template/tune-model.png" alt-text="Screenshot showing the model tuning steps." lightbox="media/copilot-tuning-style-editing-template/tune-model.png":::
 
 ## Use your tuned agent 
 

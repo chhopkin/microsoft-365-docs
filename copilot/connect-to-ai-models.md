@@ -8,6 +8,7 @@ ms.date: 02/11/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
@@ -32,10 +33,10 @@ xAI models can help people in your organization with some of the following:
 - Synthesize across multiple sources
 - Idea generation, drafting and editing
 
-When your organization chooses to use an xAI model, your organization is choosing to share your data with xAI to power Copilot Studio features. This data is processed outside all Microsoft managed environments and audit controls, therefore Microsoft’s customer agreements, including the [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Data Processing Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) don't apply. In addition, Microsoft’s data residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment don't apply to your use of xAI services. Instead, use of xAI's services is governed by xAI’s [Terms of service](https://x.ai/legal/terms-of-service-enterprise) and [Data processing addendum](https://x.ai/legal/data-processing-addendum).
+When your organization chooses to use an xAI model, your organization is choosing to share your data with xAI to power Copilot Studio features. This data is processed outside all Microsoft managed environments and audit controls, therefore Microsoft’s customer agreements, including the [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Data Processing Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) don't apply. In addition, Microsoft’s data residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment don't apply to your use of xAI services. Instead, use of xAI's services is governed by xAI’s [Terms of service](https://go.microsoft.com/fwlink/?linkid=2356101) and [Data processing addendum](https://go.microsoft.com/fwlink/?linkid=2356200).
 
 > [!IMPORTANT]
-> Microsoft's safety and responsible AI evaluations found Grok-4.1 Fast (Non-Reasoning) to be less aligned than other models evaluated resulting in (i) higher risks that the model will produce potentially harmful content and (ii) lower scores on safety and jailbreak benchmarks. Grok-4.1 Fast (Non-Reasoning) may be capable of producing explicit content, and may do so with a higher propensity than other models. Customers must comply with both the [Microsoft Enterprise AI Services Code of Conduct](https://aka.ms/AI-CoC) and [xAI’s Enterprise Terms of Service](https://x.ai/legal/terms-of-service-enterprise), including its [Acceptable Use Policy](https://x.ai/legal/acceptable-use-policy). Additionally, there may be categories of harm this model can produce that are not covered by Microsoft’s content safety systems. Accordingly, as with all Experimental models, Grok-4.1 Fast (Non-Reasoning) is not recommended for production use and customers should review [Limitations of experimental and preview models](/microsoft-copilot-studio/authoring-select-agent-model) and conduct their own evaluations before choosing Grok-4.1 Fast (Non-Reasoning).
+> Microsoft's safety and responsible AI evaluations found Grok-4.1 Fast (Non-Reasoning) to be less aligned than other models evaluated resulting in (i) higher risks that the model will produce potentially harmful content and (ii) lower scores on safety and jailbreak benchmarks. Grok-4.1 Fast (Non-Reasoning) may be capable of producing explicit content, and may do so with a higher propensity than other models. Customers must comply with both the [Microsoft Enterprise AI Services Code of Conduct](https://aka.ms/AI-CoC) and [xAI’s Enterprise Terms of Service](https://go.microsoft.com/fwlink/?linkid=2356101), including its [Acceptable Use Policy](https://go.microsoft.com/fwlink/?linkid=2356201). Additionally, there may be categories of harm this model can produce that are not covered by Microsoft’s content safety systems. Accordingly, as with all Experimental models, Grok-4.1 Fast (Non-Reasoning) is not recommended for production use and customers should review [Limitations of experimental and preview models](/microsoft-copilot-studio/authoring-select-agent-model) and conduct their own evaluations before choosing Grok-4.1 Fast (Non-Reasoning).
 
 ## Before you begin
 
@@ -48,10 +49,10 @@ Before your organization can connect to xAI AI models, you must allow access in 
 You have to be a member of the Global administrator role to perform this task. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) .
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
-2. On the **Settings** page, select **All**.
+2. On the **Copilot settings** page, select **View all**.
 3. Select **AI providers for other large language models**.
 4. Under **Available models for your organization**, choose **xAI**.
-5. Agree to the Terms and Conditions and select **Allow provider**.
+5. Agree to the Terms and Conditions and select **Save**.
 
 After you connect, it may take a few hours for the connection to complete.
 
@@ -66,6 +67,6 @@ Your organization may decide that it no longer wants users to be able to access 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
 2. On the **Settings** page, select **All**.
 3. Select **AI providers for other large language models**.
-4. Under **Available models for your organization**, choose **xAI**and select **Block provider**.
+4. Under **Available models for your organization**, choose **xAI** and select **Block provider**.
 
 Once you disconnect xAI, users can't use xAI's AI models. After completing the steps to disconnect xAI in Microsoft 365, it may take several hours for the service to be fully disabled for your users.

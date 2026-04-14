@@ -6,11 +6,12 @@ f1.keywords:
 ms.author: efrene
 author: Efrene
 manager: scotv
-ms.date: 05/20/2025
+ms.date: 03/24/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
@@ -27,7 +28,7 @@ appliesto:
 
 This article provides an overview of the steps and resources that can help you enable and start using Microsoft 365 Copilot in your organization.
 
-:::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-all-steps.svg" alt-text="Diagram that shows the steps to adopt and enable Microsoft 365 Copilot, including getting your organization ready, licensing, enabling Microsoft 365 apps, setup, and sending a welcome email." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-all-steps.svg":::
+:::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-all-steps.png" alt-text="Diagram that shows the steps to adopt and enable Microsoft 365 Copilot, including getting your organization ready, licensing, enabling Microsoft 365 apps, setup, and sending a welcome email." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-all-steps.png":::
 
 This article applies to:
 
@@ -35,7 +36,7 @@ This article applies to:
 
 ## Step 1 - Get your organization ready and use the Microsoft Adoption site
 
-:::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-get-organization-ready.svg" alt-text="Diagram that shows the get your organization ready step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-get-organization-ready.svg":::
+:::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-get-organization-ready.png" alt-text="Diagram that shows the get your organization ready step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-get-organization-ready.png":::
 
 ✅ **Use the Microsoft 365 Copilot Optimization Assessment**
 
@@ -47,7 +48,7 @@ Microsoft recommends you complete the assessment before deploying Microsoft 365 
 
 Use the features in your Microsoft 365 subscription and SharePoint Advanced Management (SAM) licenses to help get your data ready for Copilot.
 
-See [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md).
+See [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md).
 
 ✅ **Use the Microsoft Adoption site**
 
@@ -90,5 +91,5 @@ You can also enable feedback for Microsoft 365 Copilot users. To learn more, see
 ## Related articles
 
 - [Copilot Prompt Gallery](copilot-prompt-gallery.md)
-- [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md)
+- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
 - [Microsoft 365 Copilot reports](microsoft-365-copilot-reports-for-admins.md)

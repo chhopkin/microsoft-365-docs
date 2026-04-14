@@ -203,7 +203,7 @@ Acceptable date and time formats are available on [Standard date and time format
 
 ### Cancel a batch
 
-This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover. A batch can only be canceled before the Complete After Date has passed. After this point, the migration  continues without cancellation.
+This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover. A batch can only be canceled before the Complete After Date is reached. After this point, the migration continues without cancellation.
 
 ```powershell
 Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
@@ -211,7 +211,7 @@ Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display nam
 
 ### Remove a user from a batch and cancel that user's migration
 
-This feature allows you to cancel a single user's migration by removing them from that batch. It needs to be run multiple times if multiple users need to be removed. The remaining users in the batch are unaffected. This state is only possible before the user's mailbox has cutover, at which point the user can't be removed.
+This feature allows you to cancel a single user's migration by removing them from that batch. It needs to be run multiple times if multiple users need to be removed. The remaining users in the batch are unaffected. This state is only possible before the cutover of the user's mailbox, at which point the user can't be removed.
 
 ```powershell
 Stop-MgBetaCrossTenantMigrationJobUser -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target user> 
@@ -227,35 +227,22 @@ If the removal is unsuccessful, here are the possible responses:
 
 1. The User ID provided in the request doesn't exist within the batch provided. This message likely means the admin provided an incorrect User ID and should check it again.
 
-    >Cancellation not possible as no task found for given ID `<User ID>` TraceId: `<Trace ID>`
+   > Cancellation not possible as no task found for given ID `<User ID>` TraceId: `<Trace ID>`
+   
+1. The batch ID or batch name can't be found in the tenant. This message likely means the admin provided an incorrect batch ID or batch name in the cancellation request and should check it again.
 
-2. The batch ID or batch name can't be found in the tenant. This likely means the admin provided an incorrect batch ID or batch name in the cancellation request and should check it again.
+   > UserRequest not found with `<target tenant ID>`, `<batch ID or batch name>` TraceId: `<Trace ID>`
+   
+1. If the cancellation request comes in after the specified completeAfterDate passed, the user's migration can't be canceled and they can't be removed from the batch.
 
-    >UserRequest not found with `<target tenant ID>`, `<batch ID or batch name>` TraceId: `<Trace ID>`
+   > Cancellation is not possible as migration passed completeAfter date TraceId: `<Trace ID>`
+   
+1. The User Task is invalid, so the user's migration can't be canceled. This means there's a fundamental issue with the user's setup to the point that it wouldn't run within the batch anyway. An issue like this potentially comes from the user not being Identity Mapped. The impact is that the user can't be migrated, even though they technically belong to the batch.
 
-3. If the cancellation request comes in after the specified completeAfterDate passed, the user's migration can't be canceled and they can't be removed from the batch.
-
-    >Cancellation is not possible as migration passed completeAfter date TraceId: `<Trace ID>`
-
-4. The User Task is invalid, so the user's migration can't be canceled. This means there's a fundamental issue with the user's setup to the point that it wouldn't run within the batch anyway. An issue like this potentially comes from the user not being Identity Mapped. The impact is that the user can't be migrated, even though they technically belong to the batch.
-
-    >Cancellation is not possible as task is invalid TraceId: `<Trace ID>`
-
+   > Cancellation is not possible as task is invalid TraceId: `<Trace ID>`
+   
     If a removal is unsuccessful (other than in an invalid user state), the user continues belonging to the batch and is migrated.
-
-### Delete batch data
-
-This feature allows you to delete the data associated with a batch from the migration system. It deletes the data within 30 days of the request.
-
-```powershell
-Remove-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
-```
-
-Only batches in a terminal state can be canceled. Either cancel the batch, or wait for all users to reach a terminal state of Canceled, Failed, or Completed.
-
-> [!NOTE]
-> Deleting batch data affects future migrations the batch would inform. We don't recommend deleting batch data until the entire migration completes.
-
+   
 ## Common parameters
 
 There are many parameters that must be provided in a specific format for the migration input:
@@ -296,7 +283,7 @@ See the full list of prerequisites that are checked during validation: [Prevalid
 
 See [Validate the batch](#submit-a-batch-for-validation) for an available list of validation commands to run.
 
-Get the detailed report of failures and mitigate those failures before retrying at the batch level (see [Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level (see [Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
+Get the detailed report of failures and fix any issues before retrying at the batch level ([Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level ([Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
 
 Review the batch status. If it's ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it's ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
 
@@ -316,14 +303,70 @@ When the migration is completed, you can monitor the results of the batch and us
 
 #### Make any required changes
 
-If changes need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration), or [canceling a migration](#cancel-a-batch), this can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
+You may need to make changes to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration), or [canceling a migration](#cancel-a-batch). These changes can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
+
+## Understanding Teams chat migration status
+
+Teams chat migration status reflects the overall quality of a user's migration based on defined success thresholds. Because Teams has a rich history of content types, including some that have been deprecated or are unsupported by downstream services, it is expected that a small number of messages or threads may not migrate successfully. The status values described here help you distinguish between expected minor failures and issues that require your attention.
+
+#### Statuses
+
+- inProgress: The user's Teams chat migration is currently running.
+
+- completed: The user's Teams chat migration finished and met the success thresholds. Some messages or threads may not have migrated, but the number of failures was within acceptable limits. Review the migration message for your success and failure counts.
+
+- failed: The user's Teams chat migration finished but did not meet the success thresholds, or a validation failure occurred that prevented the migration from completing. Review the error message for details and recommended actions.
+
+#### Success thresholds
+
+A user's migration concludes with a status of failed if either of the following thresholds is exceeded:
+
+- More than 20% of attempted messages failed to import
+
+- More than 10% of attempted threads failed
+
+If both failure rates are below these thresholds, the migration concludes with a status of completed. These thresholds apply to content that the migration service attempted to process. [Content that was skipped because it is explicitly known to be unsupported](/microsoft-365/enterprise/migration-orchestrator-7-end-user-exp?view=o365-worldwide) is not counted toward these thresholds.
+
+#### Reading the migration message
+
+When a user's Teams chat migration concludes, the message field in the user status contains a summary in this format:
+
+- Teams migration for user {0} **completed**. {1}/{2} ({3}%) messages imported successfully (>= {4}% threshold). {5}/{6} ({7}%) threads imported successfully (>= {8}% threshold). Request Id: {9}. Batch Id: {10}. To understand these figures, refer to migration documentation.
+
+- Teams migration for user {0} **failed a quality threshold**. {1}/{2} ({3}%) messages imported successfully (< {4}% threshold). {5}/{6} ({7}%) threads imported successfully (<{8}% threshold). Request Id: {9}. Batch Id: {10}. To understand these figures, refer to migration documentation.
+
+- {0}: user ID
+
+- {1}: successfully migrated messages
+
+- {2}: attempted messages
+
+- {3}: percentage of successfully migrated messages/attempted messages
+
+- {4}: threshold for message success (80%)
+
+- {5}: successfully migrated threads
+
+- {6}: attempted threads
+
+- {7}: percentage of successfully migrated threads/attempted threads
+
+- {8}: threshold for thread success (90%)
+
+- {9}: request ID
+
+- {10}: batch ID
+
+#### Implication
+
+If a user's migration status is completed, the migration was largely successful according to the thresholds of expected success. If the user's status is failed, there were more failures of messages and threads than expected. This can be due to a specific user's frequent use of now-deprecated Teams content historically. If there are concerns about high failure rates, reach out to Microsoft Support.
 
 ## Batch migration description values
 
 Use the following table to understand the validation and migration flows and status values:
 
 > [!NOTE]
-> For more information about troubleshooting, see See **[Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors)**.
+> For more information about troubleshooting, see **[Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors)**.
 
 ### Migration batch
 
@@ -331,9 +374,9 @@ Use the following table to understand the validation and migration flows and sta
 | --- | --- | --- |
 | Submitted/Approved/Processing  | The batch is submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
 | InProgress | The batch is in progress, which includes checking for prerequisites for all workloads and processing the sync for the mailboxes. Batches and user migrations can be canceled throughout this phase. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/> [Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress <BR/> |
-| CuttingOver | The batch is cutting over, which means that the mailbox is cutting over or has cut over, and the chats, meetings, and OneDrive are migrating.  <BR/> No cancellations can happen at this point. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/>[Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress<BR/>|
-| Completed |  The batch completed without any errors. | [Exchange] Completed <BR/> [Teams Chats] Completed <BR/> [Teams Meetings] Completed <BR/> [OneDrive] Completed <BR/> |
-| CompletedWithErrors  | The batch completed, but with errors. | [Exchange] Completed/Failed <BR/> [Teams Chats] Completed/Failed <BR/> [Teams Meetings] Completed/Failed <BR/> [OneDrive] Completed/Failed <BR/> |
+| CuttingOver | The batch is cutting over, which means that the mailbox is cutting over or finished cutting over, and the chats, meetings, and OneDrive are migrating. <BR/>No cancellations can happen at this point. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/>[Teams Meetings] Synced/InProgress <BR/>[OneDrive] Synced/InProgress<BR/>|
+| Completed |  The batch completed without any errors. | [Exchange] Completed <BR/>[Teams Chats] Completed <BR/>[Teams Meetings] Completed <BR/>[OneDrive] Completed |
+| CompletedWithErrors  | The batch completed, but with errors. |[Exchange] Completed/Failed <BR/> Teams Chats] Completed/Failed <BR/>[Teams Meetings] Completed/Failed <BR/>[OneDrive] Completed/Failed |
 | Canceled | The batch is canceled. |  |
 | Failed | The batch failed.  |  |
 | PendingCancel | The batch is pending cancellation. |  |
@@ -344,9 +387,9 @@ Use the following table to understand the validation and migration flows and sta
 
 | Status | Description | Workloads |
 | --- | --- | --- |
-|ValidationSubmitted/ValidationProcessing | The validation batch has been submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
-| ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Completed <BR/> [Teams Meetings] InProgress/Completed <BR/> [OneDrive] InProgress/Completed <BR/> |
-|ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Completed/Failed<BR/> [Teams Chats] Completed/Failed<BR/> [Teams Meetings] Completed/Failed<BR/> [OneDrive] Completed/Failed<BR/> |
+|ValidationSubmitted/ValidationProcessing | The validation batch is submitted. |[Exchange] NotStarted <BR/>[Teams Chats] NotStarted <BR/>[Teams Meetings]NotStarted <BR/>[OneDrive] NotStarted |
+| ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. |[Exchange] InProgress <BR/>[Teams Chats] InProgress/Completed <BR/>[Teams Meetings] InProgress/Completed <BR/>[OneDrive] InProgress/Completed |
+|ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Completed/Failed <BR/>[Teams Chats] Completed/Failed <BR/>[Teams Meetings] Completed/Failed <BR/>[OneDrive] Completed/Failed |
 
 ## Next steps
 

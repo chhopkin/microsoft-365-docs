@@ -1,11 +1,11 @@
 ---
-title: Sign Up for Microsoft 365 Business Standard
+title: Sign up for Microsoft 365 Business Standard
 f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
 manager: dansimp
-ms.date: 03/04/2026
+ms.date: 03/27/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -45,9 +45,9 @@ To sign up and purchase Microsoft 365 Business Standard, complete the following 
 
 > [!NOTE]
 >
-> As Microsoft 365 evolves, changes, and new features are introduced, the sign-up experience and available options can change. If you don't see the same options described in this article when you sign up, follow the prompts you see on screen. If you have questions or need help, contact support at [Get support](../get-help-support.md).
+> As Microsoft 365 evolves, changes, and new features are introduced, the sign-up experience and available options can change. Additionally, the sign-up experience might vary depending on your region and the type of subscription you choose. If you don't see the same options described in this article when you sign up, follow the prompts you see on screen. If you have questions or need help, contact support at [Get support](../get-help-support.md).
 
-1. On the [Microsoft 365 for business page](https://go.microsoft.com/fwlink/?linkid=2109654), select **Compare plans & pricing**.
+1. Navigate to the [Microsoft 365 for business](https://go.microsoft.com/fwlink/?linkid=2109654) page and then select **Compare plans & pricing**.
 
 1. On the **Find the best Microsoft 365 plan for your business** section of the page, select between **Business plans** and **Plans with Copilot**, and between **With Teams** and **Without Teams** depending on the type of plan you're interested in.
 
@@ -57,13 +57,22 @@ To sign up and purchase Microsoft 365 Business Standard, complete the following 
     >
     > Comparison charts and tables are available in the [Choose the right Microsoft 365 business subscription](#choose-the-right-microsoft-365-business-subscription) section of this article to help you choose the right plan for your business.
 
-1. At the **Let's get you started** page, enter an email address that Microsoft can use to communicate with you during setup. This address also receives billing and renewal notifications.
+1. After selecting **Buy now**, you're taken to the sign-up wizard. The first few pages that the sign-up wizard displays depends on the plan you selected. For example, you might initially see one of the following pages:
 
-    After entering the email address, select **Next**, and then select **Set up account**.
+    - **Let's get you started**.
+    - **Enter your email**.
+    - **Set up your subscription**.
 
-    > [!IMPORTANT]
-    >
-    > The person that signs up for Microsoft 365 for business automatically becomes the technical administrator of the organization. You can add other administrators later to help manage your Microsoft 365 services. For more information, see [Assign admin roles](../add-users/assign-admin-roles.md).
+    Follow the first few pages to complete the initial steps of the sign-up process. These pages ask questions such as:
+
+    - An email address that Microsoft can use to communicate with you during setup.
+    - How many people the subscription is for.
+    - The length of the subscription.
+    - How often you want to be billed.
+
+        > [!IMPORTANT]
+        >
+        > The person that signs up for Microsoft 365 for business automatically becomes the technical administrator of the organization. You can add other administrators later to help manage your Microsoft 365 services. For more information, see [Assign admin roles](../add-users/assign-admin-roles.md).
 
 1. At the **Tell us about yourself** page, enter your information, and then select **Next**.
 
@@ -77,7 +86,18 @@ To sign up and purchase Microsoft 365 Business Standard, complete the following 
 
 1. At the **Add payment method** page, enter your payment information, and then select **Save**.
 
-1. Continue stepping through the wizard. On the **Confirmation details** page, you see information about your subscription. You go to the [Microsoft 365 admin center](https://admin.cloud.microsoft/) to add users, install Microsoft 365 productivity apps, invite your team to use Microsoft 365, and if applicable, add your custom domain. Microsoft also sends you an email with set-up steps for Microsoft 365 Business Standard.
+1. At the **Review and place order** page, review your order details, select the box to agree to the billing terms, and then select **Place order**.
+
+1. Information about your subscription is displayed on the **Confirmation details** page. You might want print or save this page for your records.
+
+1. Use the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) to set up and configure your Microsoft 365 environment. With the Microsoft 365 admin center, you can perform the following tasks:
+
+    - Add users.
+    - Install Microsoft 365 productivity apps.
+    - Invite your team to use Microsoft 365.
+    - If applicable, add your custom domain.
+
+    Microsoft also sends you an email with set-up steps for Microsoft 365 Business Standard.
 
 ## Choose the right Microsoft 365 business subscription
 
@@ -89,14 +109,14 @@ When you sign up for Microsoft 365 Business Standard, you can choose from two op
 
 Use the following table to compare the two sign-up options and decide which best fits your organization:
 
-| &nbsp;                    | **Option 1**: [Simplified Sign-up](#option-1-simplified-sign-up) | **Option 2**: [Use a custom business domain](#option-2-use-a-custom-business-domain) |
-| ------------------------- | --- | --- |
-| Sign up process            | <ul><li>Simplified sign-up process with an existing non-branded email address and fewer steps to get started.</ul></li> | <ul><li>Sign up process with more steps to get started including attaching a custom domain.</ul></li>|
-| Available apps            | <ul><li>Word</li><li>Excel</li><li>PowerPoint</li><li>OneDrive</li><li>Teams</li><li>Access</li></ul> | <ul><li>Word</li><li>Excel</li><li>PowerPoint</li><li>OneDrive</li><li>Teams</li><li>Access</li></ul> |
-| Available services        | <ul><li>No additional services beyond core apps.</li></ul> | <ul><li>Branded business email accounts with Outlook.</li><li>Shared calendars within your business.</li><li>Bookings appointment scheduling.</li><li>Meeting recordings.</li><li>Shared document storage and SharePoint sites.</li><li>Microsoft Planner.</li><li>Microsoft Lists.</li><li>Easier document sharing within your business.</li><li>Support for the compliance needs for your industry.</li><li>Access and control over your users' use of services.</li><li>Wide range of integrations with non-Microsoft apps that work within Teams and Microsoft 365, such as Salesforce and Adobe.</li></ul> |
-| Recommended organizations | <ul><li>Small businesses that don't immediately need branded email</li><li>Organizations that already use branded email from a different email provider and don't intend to switch their email to Microsoft 365.</li></ul> | <ul><li>Organizations that want to use branded email accounts with a custom domain.</li><li>Organizations that have a custom domain to attach to Microsoft 365.</li></ul> |
-| Required knowledge        | <ul><li>Let's you get started without technical know-how. </li></ul> | <ul><li>Requires you buy a domain or currently own a domain.</li><li>Technical knowledge might be needed for domain management.</li></ul> |
-| Data handling             | <ul><li>Available under the Supplement to the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/p/?linkid=2180702).</li><li>Best for businesses that want some remote work and collaboration tools and are comfortable with Microsoft acting as controller for your data under the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).</li><li>Subscribers to services using this option don't have access to an individual's user content or data until a domain is attached.</li><li>Subscribers should evaluate data ownership and intellectual property rights considerations based on their needs. For example, if you're working collaboratively with other users on a document stored in their account, they might choose to make those documents inaccessible to you. As such, you should evaluate accordingly.</li><li>Users might choose not to transfer documents in their Simplified Sign-up account to your Domain Account subscription, even after you invite them to do so. In this case, their documents might not be accessible to you even if you add a domain account later.</li></ul> | <ul><li>Available under the [Microsoft Online Subscription Agreement](https://go.microsoft.com/fwlink/?linkid=2180430).</li><li>Best for businesses that need Microsoft to act as a processor for their data under Microsoft's [Data Protection Addendum](https://go.microsoft.com/fwlink/?linkid=2180314).</li><li>Microsoft's full suite of remote work and collaboration tools is needed.</li><li>Subscribers that are in regulated industries or seek more control. You can control both the use of the services by your users and the processing of related data by Microsoft. Attaching a domain and signing up under the Domain Account enterprise-level agreement is recommended for this scenario.</li></ul> |
+| &nbsp;                        | **Option 1**: [Simplified Sign-up](#option-1-simplified-sign-up) | **Option 2**: [Use a custom business domain](#option-2-use-a-custom-business-domain) |
+| ----------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Sign up process**           | <ul><li>Simplified sign-up process using an existing non-branded email address.</li><li>Fewer steps to get started.</li></ul> | <ul><li>Sign-up process with additional steps.</li><li>Includes attaching a custom domain.</li></ul> |
+| **Available apps**            | <ul><li>Word</li><li>Excel</li><li>PowerPoint</li><li>OneDrive</li><li>Teams</li><li>Access</li></ul> | <ul><li>Word</li><li>Excel</li><li>PowerPoint</li><li>OneDrive</li><li>Teams</li><li>Access</li></ul> |
+| **Available services**        | <ul><li>No additional services beyond core apps.</li></ul> | <ul><li>Branded business email with Outlook.</li><li>Shared calendars.</li><li>Bookings appointment scheduling.</li><li>Meeting recordings.</li><li>Shared document storage and SharePoint sites.</li><li>Microsoft Planner.</li><li>Microsoft Lists.</li><li>Easier document sharing.</li><li>Compliance support for regulated industries.</li><li>Administrative control over user services.</li><li>Integrations with non-Microsoft apps such as Salesforce and Adobe.</li></ul> |
+| **Recommended organizations** | <ul><li>Small businesses that do not immediately need branded email.</li><li>Organizations that already use a third-party email provider.</li></ul> | <ul><li>Organizations that want branded email accounts.</li><li>Organizations with a custom domain to attach to Microsoft 365.</li></ul> |
+| **Required knowledge**        | <ul><li>Designed for getting started without technical expertise.</li></ul> | <ul><li>Requires purchasing or owning a domain.</li><li>May require technical knowledge for domain management.</li></ul> |
+| **Data handling**             | <ul><li>Available under the Supplement to the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/p/?linkid=2180702).</li><li>Microsoft acts as the data controller under the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).</li><li>Administrators do not have access to user content until a domain is attached.</li><li>Users may choose not to transfer documents to a domain-based subscription.</li><li>Organizations should evaluate data ownership and intellectual property considerations.</li></ul> | <ul><li>Available under the [Microsoft Online Subscription Agreement](https://go.microsoft.com/fwlink/?linkid=2180430).</li><li>Microsoft acts as a data processor under the [Data Protection Addendum](https://go.microsoft.com/fwlink/?linkid=2180314).</li><li>Includes the full Microsoft 365 collaboration and compliance feature set.</li><li>Recommended for regulated industries or organizations requiring greater control.</li></ul> |
 
 Use these factors to determine which of the two options is best for your business needs.
 
@@ -130,9 +150,9 @@ If you purchased a business subscription using **Simplified sign-up** before Oct
 
 The **Simplified Sign-up** terms of use were updated to clarify licensing and data ownership for multi-user business subscriptions. For continued service of your business subscription, select one of the following options:
 
-- Visit the [Microsoft 365 admin center](https://admin.cloud.microsoft/) and agree to use the Microsoft **Services Agreement Supplemental** to continue using your subscription in **Simplified Sign-up** mode.
+- Visit the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and agree to use the Microsoft **Services Agreement Supplemental** to continue using your subscription in **Simplified Sign-up** mode.
 
-- Visit the [Microsoft 365 admin center](https://admin.cloud.microsoft/?#/homepage) and add a **custom domain**, also known as a **business domain**. When you add a custom domain, you need to agree to the **Microsoft Online Services Agreement**.
+- Visit the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and add a **custom domain**, also known as a **business domain**. When you add a custom domain, you need to agree to the **Microsoft Online Services Agreement**.
 
 To help you choose which of these two options best suits your needs, consult the table in the [Choose the right Microsoft 365 business subscription](#choose-the-right-microsoft-365-business-subscription) section of this article.
 
@@ -152,7 +172,6 @@ To add a domain and create a business email account, see the following articles:
 
 - [Set up Microsoft 365 Business Standard](../setup/setup-business-standard.md).
 - [Add a domain to Microsoft 365](../setup/add-domain.md).
-- [Finish setting up](../setup/setup-business-standard.md#finish-setting-up).
 
 ## Microsoft 365 Business Standard Frequently asked questions (FAQ)
 

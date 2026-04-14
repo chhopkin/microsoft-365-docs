@@ -8,11 +8,12 @@ author: kwekuako
 ms.author: kwekua
 manager: scotv
 ms.reviewer: elvaf
-ms.date: 11/18/2025
+ms.date: 03/16/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
   - scotvorg
@@ -252,9 +253,9 @@ Agents are AI assistants in Microsoft 365 Copilot that focus on a specific task.
 
 This setting lets you configure who can access agents, and what types of agents they can install.
 
-To see more configurations on the **Copilot** > **Agents** page, select the link to **Manage all agents**.
+To see more configurations on the **Agents** > **All agents** page, select the link to **Manage all agents**.
 
-For more information, see [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+For more information, see [Manage agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
 
 > [!NOTE]
 > For more information for users, see [Introducing Copilot agents](https://support.microsoft.com/topic/introducing-copilot-agents-943e563d-602d-40fa-bdd1-dbc83f582466).
@@ -305,7 +306,7 @@ Microsoft Purview has many features to help get your data ready for Copilot, suc
 For more information, see the following articles:
 
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
-- [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md)
+- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
 
 ### People Skills in Microsoft 365 Copilot
 
