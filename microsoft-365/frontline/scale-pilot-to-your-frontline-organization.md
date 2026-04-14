@@ -7,7 +7,7 @@ title: Scale a pilot to your frontline organization
 description: Scale a pilot to your frontline organization
 author:      arnavgupta49 # GitHub alias
 ms.author: arnavgupta
-ms.manager: viseshag
+manager: viseshag
 ms.service: microsoft-365-frontline
 ms.topic: install-set-up-deploy
 ms.date:     04/13/2026
