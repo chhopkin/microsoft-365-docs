@@ -52,7 +52,7 @@ Once your organization has one of these subscriptions or plans, you can purchase
 
 > [!NOTE]
 > Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
-> If you'd like to enable users with priority access to these capabilities, learn how to [upgrade to Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise).
+> If you'd like to enable users with priority access to these capabilities, learn more about [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise).
 
 ## Mailbox requirements
 
