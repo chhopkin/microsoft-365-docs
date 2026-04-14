@@ -69,12 +69,12 @@ Use the following steps to view pending agent requests and act on those requests
 
 To ensure governance for new agents, when a user requests an agent, it requires your approval before becoming available to members of your tenant. You can review the agent's details, such as the description, owner, data, and tools, and then publish or reject it. On publishing, administrators can also scope its audience to specific users or groups, or everyone, ensuring a controlled rollout.
 
-For more information about publishing requested agents, see [Publish agents](/agent-actions.md).
+For more information about publishing requested agents, see [Publish agents](agent-actions.md).
 
 ## Reject agents
 
 
-For more information about rejecting requested agents, see [Reject agents](/agent-actions.md).
+For more information about rejecting requested agents, see [Reject agents](agent-actions.md).
 
 ## Activate agents
 
@@ -82,4 +82,4 @@ A governance step for new agents: when a user requests an agent to activate to c
 
 The Microsoft 365 admin center activation process for agents ensures governance, security, and quality of custom applications.
 
-For more information about activating requested agents, see [Activate agents](/agent-actions.md).
+For more information about activating requested agents, see [Activate agents](agent-actions.md).
