@@ -7,6 +7,7 @@ title: Scale a pilot to your frontline organization
 description: Scale a pilot to your frontline organization
 author:      arnavgupta49 # GitHub alias
 ms.author: arnavgupta
+ms.manager: viseshag
 ms.service: microsoft-365-frontline
 ms.topic: install-set-up-deploy
 ms.date:     04/13/2026
@@ -19,13 +20,13 @@ ms.date:     04/13/2026
 
 ## Overview
 
-Confidently deploy and manage a standardized Microsoft Teams experience to your entire frontline organization from the Teams admin center. You can start a new deployment or expand an existing [frontline pilot](https://learn.microsoft.com/microsoft-365/frontline/startafrontlinepilot?view=o365-worldwide) to your broader organization in a single, guided wizard in the **Frontline** section of the Teams admin center. Use the wizard to select capabilities, add your frontline workers, organize your frontline workforce into static teams, and set a standardized pinned app configuration for all your frontline workers.
+Confidently deploy and manage a standardized Microsoft Teams experience to your entire frontline organization from the Teams admin center. You can start a new deployment or expand an existing [frontline pilot](startafrontlinepilot.md) to your broader organization in a single, guided wizard in the **Frontline** section of the Teams admin center. Use the wizard to select capabilities, add your frontline workers, organize your frontline workforce into static teams, and set a standardized pinned app configuration for all your frontline workers.
 
 [![Screenshot of the Frontline hub in the Teams admin center showing the Scale fast with teams and groups card.](media/deployteamsatscale/frontline-hub-entry.jpg)](media/deployteamsatscale/frontline-hub-entry.jpg#lightbox)
 
 Use this feature to:
 
-- **Extend a pilot to your frontline workforce.** If you have already validated a [frontline pilot](https://learn.microsoft.com/microsoft-365/frontline/startafrontlinepilot?view=o365-worldwide), extend it directly to your broader organization. Your capability configurations carry forward automatically so you can build on what you have already tested.
+- **Extend a pilot to your frontline workforce.** If you have already validated a [frontline pilot](startafrontlinepilot.md), extend it directly to your broader organization. Your capability configurations carry forward automatically so you can build on what you have already tested.
 - **Create and manage a single pinned app configuration.** Define one standardized pinned app configuration that applies uniformly to all frontline workers across every team and group in your deployment. When you update your pinned apps, the change takes effect for everyone automatically.
 - **Organize your frontline workforce into teams.** Create static frontline teams organized by location or business unit, either by uploading a CSV file with your workforce data or by adding teams one at a time.
 - **Manage your deployment from one place.** After deployment, use the **Manage organization** section under **Frontline** in the Teams admin center to add more teams or groups, update pinned apps organization-wide, and manage team membership.
@@ -34,7 +35,7 @@ Use this feature to:
 ## Before you begin
 
 1. Confirm you have the Teams admin role.
-2. (Optional) [Launch a pilot](https://learn.microsoft.com/microsoft-365/frontline/startafrontlinepilot?view=o365-worldwide) to a subset of your frontline workers to validate Microsoft Teams capabilities and measure readiness for a successful organization-wide rollout. Once you are ready, you can extend your pilot configurations to your entire frontline workforce.
+2. (Optional) [Launch a pilot](startafrontlinepilot.md) to a subset of your frontline workers to validate Microsoft Teams capabilities and measure readiness for a successful organization-wide rollout. Once you are ready, you can extend your pilot configurations to your entire frontline workforce.
 3. Decide if you want to organize your frontline workers into teams.
    - If you want to create frontline teams, identify which teams you want to deploy and their members and owners. If you would like to create teams in bulk, prepare to upload a CSV file with a list of usernames, team names, and user types (Member or Owner).
    - If you are not ready to create frontline teams, you will need to add a Microsoft 365 group that includes all the frontline workers in your organization who should receive a standardized pinned app configuration.
@@ -87,7 +88,7 @@ On the **Add teams** page, use the **Choose how you'd like to add teams** dropdo
 
 1. Select **Download CSV template** from the panel, which includes column headers for **Username**, **Team name**, and **Type**.
 
-   [![Screenshot of the Add teams page showing the CSV upload option with a Download CSV template link.](media/deployteamsatscale/add-teams-with-CSV.png)](media/deployteamsatscale/add-teams-with-CSV.png#lightbox)
+   [![Screenshot of the Add teams page showing the CSV upload option with a Download CSV template link.](media/deployteamsatscale/add-teams-with-csv.png)](media/deployteamsatscale/add-teams-with-csv.png#lightbox)
 
 2. Fill in the template with the user's email address under **Username**, a name for your team under **Team name**, and the user's membership type of either **Owner** or **Member** under **Type**.
 3. Select **Add** to process the CSV. No teams are created until you submit the entire wizard at the end.
@@ -154,7 +155,7 @@ Share the download link or QR code with your frontline workers so they can downl
 
 ### Extend a frontline pilot
 
-If you have already run a [frontline pilot](https://learn.microsoft.com/microsoft-365/frontline/startafrontlinepilot?view=o365-worldwide) and are ready to expand it to your broader organization, extend it from the **Pilots** page.
+If you have already run a [frontline pilot](startafrontlinepilot.md) and are ready to expand it to your broader organization, extend it from the **Pilots** page.
 
 1. In the Teams admin center, go to **Frontline** > **Manage organization**.
 2. Select the **Pilots** tab.
@@ -298,3 +299,4 @@ After the merge, the pilot's members retain access to all teams, channels, and c
 **Q: What happens if I delete a team?**
 
 **A:** Deleting a team removes it from the deployment and from Microsoft Teams. Members lose access to the team and its content. This action cannot be undone. The users are not deleted from your organization.
+
