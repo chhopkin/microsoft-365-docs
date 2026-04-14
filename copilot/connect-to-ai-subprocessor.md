@@ -55,10 +55,14 @@ If your organization is in a region that has Anthropic as a subprocessor set to 
 
 1. Go to the Microsoft 365 admin center and select **Copilot** -\> **Settings** -\> **View all**.
 2. Select **AI providers operating as Microsoft subprocessors**.
-3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Anthropic** and **Enable**.
+3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Anthropic** and **Save**.
+4. Under **Choose who can access Anthropic models for Copilot and generative AI experiences**, select your users or groups and **Save**.
 
 > [!NOTE]
-> If your organization is in the European Union (EU), the European Free Trade Association (EFTA), or the United Kingdom and you previously opted in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement, you’ll need to opt in again. The toggle will be set to **Off** by default.
+> You can now restrict user access to AI provider subprocessors by assigning permissions to specific users or >Microsoft Entra ID security groups in the Microsoft 365 admin center. These assignments are applied at the >provider level and enforced across Microsoft 365 Copilot and Copilot Studio experiences. When access is >limited by user or group membership, only the assigned users can use Copilot features or agents that rely on >that AI provider. Review existing user or group assignments and update policies or configurations as needed. For more information on managing groups, see [Create a group and add members](/entra/fundamentals/%3Ehow-to-manage-groups).
+
+
+If your organization is in the European Union (EU), the European Free Trade Association (EFTA), or the United Kingdom and you previously opted in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement, you’ll need to opt in again. The toggle will be set to **Off** by default.
 
 Some features are only available when Anthropic models are enabled. If you turn off Anthropic as a subprocessor, certain features may no longer be accessible.
 
