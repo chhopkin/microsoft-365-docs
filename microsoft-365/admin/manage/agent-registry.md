@@ -42,8 +42,6 @@ The agent **Registry** lists all agents that are available to your organization,
 - **Published by your org** - Custom agents approved and published by your organization for broader use. These agents may be referred to as LOB (Line of Business) agents.
 - **Shared by creator** - Agents created and shared by individual users or developers at your organization. These agents are commonly referred to as Shared agents.
 
-:::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing the agent list which provides an inventory of agent in the Microsoft 365 admin center." lightbox="../../media/agents/agent-registry.png":::
-
 The agent **Registry** provides quick details about the agents your organization has available:
 - **Total agents** - The number of agents available in your organization's tenant.
 - **Agents without owners** - The number of agents that no longer have owners at your organization.
@@ -108,20 +106,200 @@ Export the list of shared agents to an Excel file. This feature is essential for
 
 The exported file includes comprehensive information about each shared agent, such as:
 
-- Name.
-- Host products.
-- Created date.
-- Developer user ID.
-- Description.
-- Status.
-- Version.
+- Name
+- Host products
+- Created date
+- Developer user ID
+- Description
+- Status
+- Version
 
 With this information, you can efficiently manage and review the shared agents within your organization, ensuring compliance and optimizing resource allocation.
 
 ## Upload custom agent
 
+The agent **Registry** within Microsoft 365 admin center provides a method to upload a custom agent, so that you can manage those agents for your organization.
+
+To upload an agent, the agent must be contained in a ZIP packet file. The ZIP file contains resources, such as manifest files, configuration files, icons, branding, and embedded knowledge files.
+
+> [!NOTE]
+> Your agent ZIP file can be downloaded from Copilot Studio or from Agent Builder in Copilot. 
+> 
+> To download your agent ZIP file from Copilot Studio, select **Agents** > *the name of your agent* > **Channels**. Select the channel you use to publish, such as **Teams and Microsoft 365 Copilot**. Select **Availability options** > **Download .zip**.
+>
+> To downoad your declarative agent ZIP file from Agent Builder in Copilot, select **All agents** > *click the ellipses next to your agent* > **Edit** > *click the ellipses on the right* > **Download .zip file**.
+
+To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
+
+1. In [Microsoft 365 admin center](https://admin.microsoft.com/), select **Agents** > **All agents** > **Upload custom agent**.
+1. Select **Choose file** to find and select the agent ZIP file.
+  The ZIP file is validated.
+  Then, select **Next**.
+1. Verify the agent’s name, icon, and host products. 
+1. Under **Publish**, select the users or groups who can install the agent.
+
+  :::image type="content" source="../../media/agents/agent-upload-01.png" alt-text="Screenshot of 'Publish to users' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-01.png":::
+
+1. Under **Deploy** (optional), select the users or groups who will have the agent pre-installed.
+  Then, select **Next**.
+
+  > [!NOTE]
+  > You can select a small audience for testing purposes. For instance, select **Just me**, or a single test group to narrow the availability of the agent.
+
+1. Choose to apply either an existing policy template, a custom policy, or the default policy. For more existing policy template information, see [Secuirty templates](/microsoft-365/admin/manage/agent-settings#security-templates). Agent 365 users can apply selected custom policies and protections. Default policies and protections are managed through their security platform. Check the status of each in the platform. Note policies and protections may not be enabled.
+  Then, select **Next**.
+
+:::image type="content" source="../../media/agents/agent-upload-02.png" alt-text="Screenshot of 'Apply Security Template' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-02.png":::
+
+1. Review agent permissions. Then, select **Next**.
+1. Review and finished. Select **Finish deployment**.
+
+To manage, assign, and publish the agent, see [Assign and deploy agents](agent-deploy.md).
 
 ## Manage pinned agents
+
+As an administrator, you can choose to pin a deployed agent to the **Agents** list within Microsoft 365 Copilot. By pinning agents in Microsoft 365 Copilot, you can ensure that those agents are visible and accessible for all members of your organization, or only specific users or groups. You can choose to pin and unpin agents. Also, you can rank the list of pinned agents.
+
+✅ **Task: Review and confirm your organization’s pinned agents that are displayed in Microsoft 365 admin center.**
+
+Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Microsoft pinned agents are specific agents that are pinned by default for all users. Admin pinned agents are pinned by you or your organization by using the Copilot Control System in Microsoft 365 admin center. User pinned agents are pinned by individual users in their own Microsoft 365 Copilot Chat or Microsoft 365 Copilot experience.
+
+:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
+
+To set, view, or manage pinned agents for your organization, see [Manage Pinning of Agents](/microsoft-365/admin/manage/manage-pinning-agents).
+
+> [!NOTE]
+>
+> After an administrator pins an agent, it might take up to six hours for end-users to see the agent pinned.
+
+This section explains how administrators can pin, unpin, or manage agents for everyone or specific groups by using the Microsoft 365 admin center. It also covers related actions like ranking the list of pinned agents and editing the scope of pinned agents.
+
+Pinning agents is a feature that enables administrators to preselect and pin agents for end-users by using Microsoft 365 Copilot. The administrator pins the agent to ensure that the agent automatically appears in the end user's Copilot interface without requiring any user action. The agent is now readily accessible to the user in the Copilot interface.
+
+### Prerequisites
+
+#### For end users
+
+- Microsoft 365 work account.
+- Access to Microsoft 365 Copilot Chat, for example, via Teams, web, or the Microsoft 365 Copilot app.
+- The agent you want to pin must be discoverable to you.
+
+#### For administrators
+
+- AI Administrator.
+- Access to the Microsoft 365 admin center.
+- (Optional) Power Platform admin center access if you use Pay-as-you-go for agents.
+
+### Pinned agents
+
+:::image type="content" source="../../media/agents/copilot-chat-pinned-agents.png" alt-text="Screenshot of pinned agents in Microsoft 365 Copilot Chat." lightbox="../../media/agents/copilot-chat-pinned-agents.png":::
+
+### Microsoft-pinned agents
+
+- These agents are agents that Microsoft pins by default for all users.
+- Ensures essential or high-value agents, like core Copilot features, are always visible.
+- End users can't unpin these agents. They're fixed in the pinned list.
+
+### Administrator-pinned agents
+
+- Pinned by your organization's administrator through the Microsoft 365 admin center.
+- Can be pinned for:
+  - **All users**.
+  - **Specific groups**.
+  - **Specific users**.
+- End users usually can't unpin these agents. They're fixed in the pinned list.
+
+### User-pinned agents
+
+- Pinned by individual users in their own Microsoft 365 Copilot Chat experience.
+- Users can:
+  - Pin agents they frequently use.
+  - Unpin them anytime.
+- This list is fully under the user's control, except for Microsoft-pinned or administrator-pinned agents, which remain locked.
+
+### Features
+
+- Administrator-pinned agents appear by default for end-users, making them easier to discover and helping highlight new or important agents.
+- Administrators can view the Microsoft-pinned agents in Microsoft 365 admin center.
+- Administrators can pin up to three agents in Microsoft 365 admin center for end-users using Microsoft 365 Copilot in the organization.
+- Administrators can choose to pin an agent for all users in the tenant or for specific users or groups. For example:
+  - Pin **Sales Coach** agent only for the sales department.
+  - Pin **HR Q&A** agent for all users.
+- The end-user can't unpin the Administrator-pinned and Microsoft-pinned agents.
+
+### How to pin agents
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+
+1. In the left navigation pane, select **Agents** > **All agents**.
+
+1. In the **All agents** page, select the **Manage pinned agents** icon.
+
+    :::image type="content" source="../../media/agents/manage-pinned-agents.png" alt-text="Screenshot of the Manage pinned agents setting in the Microsoft 365 admin center." lightbox="../../media/agents/manage-pinned-agents.png":::
+
+1. In the **Pinned agents** pane, view the agents pinned by Microsoft under the **Pinned by Microsoft** list. Initially, the **Pinned by your org** section has no agents.
+
+1. Select **Pin agent** to pin new agents.
+
+1. In the **Select an agent to pin** pane, find the agent you want to pin from the list of agents. You can search the list to find a specific agent by name.
+
+    :::image type="content" source="../../media/agents/select-an-agent.png" alt-text="Screenshot of the agent selection list in the Microsoft 365 admin center." lightbox="../../media/agents/select-an-agent.png":::
+
+1. When you find the desired agent, select it and then select **Next**.
+
+1. In the **Choose who will have this agent pinned** pane, choose the scope for the agent that you want to pin.
+
+    - **All users the agent is deployed to** - Pin the agent for all users that the agent is deployed to in the tenant.
+
+        >[!NOTE]
+        >
+        > If you don't see this option, the selected agent probably isn't deployed.
+
+    - **Specific users or groups the agent is deployed to** - Pin for one or more groups or individual accounts.
+
+    :::image type="content" source="../../media/agents/scope-agent.png" alt-text="Screenshot of the scope selection pane for pinning agents in the Microsoft 365 admin center." lightbox="../../media/agents/scope-agent.png":::
+
+1. If you select **Specific users or groups the agent is deployed to**, select the specific users or groups to pin the agent.
+
+    :::image type="content" source="../../media/agents/choose-specific-users-groups.png" alt-text="Screenshot of the user and group selection list for pinning an agent." lightbox="../../media/agents/choose-specific-users-groups.png":::
+
+1. Select **Save**.
+
+1. After you save the configuration, the system records which agent is pinned for the selected audience.
+
+    :::image type="content" source="../../media/agents/pinned-agents.png" alt-text="Screenshot of the pinned agents list in the Microsoft 365 admin center." lightbox="../../media/agents/pinned-agents.png":::
+
+### Can any agent be pinned
+
+You can only pin deployed agents. If the agent isn't deployed, you see a banner with a message to first deploy the agent.
+
+:::image type="content" source="../../media/agents/deploy-agents.png" alt-text="Screenshot of the message that asks you to deploy the agent first." lightbox="../../media/agents/deploy-agents.png":::
+
+If the agent is blocked, unblock the agent before you pin it.
+
+:::image type="content" source="../../media/agents/unblock-agent.png" alt-text="Screenshot of the message that asks you to unblock the agent first." lightbox="../../media/agents/unblock-agent.png":::
+
+### Rank the list of pinned agents
+
+- The administrator has three slots reserved for the pinned agents for each user.
+
+- The administrator can use the **Move up** and **Move down** buttons to reorder the list of pinned agents by priority to control what is shown to the user.
+
+### How to unpin an agent
+
+From the list of pinned agents, find the agent that you want to unpin and select **Unpin**. When you remove the pin, the agent is no longer available under the **Pinned by your org** section.
+
+### How to edit the pinning scope of an agent
+
+Select the agent and choose **Edit users** to modify the scope of users for which an agent is pinned.
+
+:::image type="content" source="../../media/agents/edit-user.png" alt-text="Screenshot of the Edit users option for pinning agents in the Microsoft 365 admin center." lightbox="../../media/agents/edit-user.png":::
+
+### Alternate entry point for pinning
+
+You can also pin an agent from the agent details pane. Select the pin for the user icon. The icon is only enabled if the agent is deployed.
+
+:::image type="content" source="../../media/agents/agent-details.png" alt-text="Screenshot of the agent details pane in the Microsoft 365 admin center." lightbox="../../media/agents/agent-details.png":::
 
 ## Microsoft Graph API for Agent Registry and Agent Details (preview)
 
