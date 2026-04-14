@@ -4,7 +4,7 @@ description: Learn how to use and tune the Style Editing agent template in Micro
 author: david-salas
 ms.author: dsalasbarran
 manager: calvind
-ms.date: 03/10/2026
+ms.date: 04/13/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
@@ -31,6 +31,8 @@ The Style Editing agent template can:
 - Preserve meaning and intent while improving clarity and consistency
 - Apply organizational style rules automatically after tuning
 - Support additional refinement through context tuning and model tuning
+
+:::image type="content" source="media/copilot-tuning-style-editing-template/what-style-editing-template-does.png" alt-text="Screenshot showing the capabilities of the style editing template." lightbox="media/copilot-tuning-style-editing-template/what-style-editing-template-does.png":::
 
 Use the default agent for ad-hoc rewriting or tune it to create a specialized agent that writes in your organization’s voice by default.
 
@@ -140,6 +142,8 @@ Model tuning lets you select training data, configure access, and start fine-tun
 1. **Review access:** Choose one or more Microsoft Entra security groups or restrict access to yourself.
 1. **Start fine-tuning:** Select **Start fine-tuning** in the interface. The system doesn't currently support automatic start.
 1. **Deployment:** After tuning completes, you receive an email to review results and publish the model.
+
+:::image type="content" source="media/copilot-tuning-style-editing-template/tune-model.png" alt-text="Screenshot showing the model tuning steps." lightbox="media/copilot-tuning-style-editing-template/tune-model.png":::
 
 ## Use your tuned agent 
 
