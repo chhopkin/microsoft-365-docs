@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork common questions (Frontier)"
 description: "Frequently asked questions about Copilot Cowork in Microsoft 365 Copilot."
-ms.date: 04/03/2026
+ms.date: 04/15/2026
 ms.topic: faq
 author: leeclontz
 manager: KumarVivek
@@ -31,6 +31,21 @@ Cowork can send emails, schedule meetings, create documents (Word, Excel, PowerP
 
 For a full breakdown by category, see [What can Copilot Cowork do for you?](index.md#what-can-copilot-cowork-do-for-you)
 
+## How is Copilot Cowork different from Copilot Chat?
+
+Copilot Cowork completes multi‑step work across Microsoft 365 by taking action on your behalf, while Copilot Chat helps you generate content and insights within a single conversation.
+
+|Feature  |Copilot Chat  |Copilot Cowork  |
+|---------|---------|---------|
+|What it is     | Always‑on AI for drafting, summarizing, answering questions         |  Agentic AI that completes multi‑step work across Microsoft 365       |
+|Best for     |  Fast, focused, single‑task support     | End‑to‑end work across multiple apps    |
+|Speed     | Seconds to minutes    |  Minutes to hours (autonomous execution)   |
+|Task complexity   |  Single-step, single-session    | Multi‑step workflows across tasks and sources  |
+|Use when…      | You need a quick draft, answer, or insight   |  You need Copilot to take action across apps, files, or systems    |
+|Top scenarios  | Quick daily catch-up, project status, Q&A, or drafting content    | Inbox and calendar clean-up, project launches, or meeting preparation.    |
+
+Copilot Chat helps you think through your work, supports fast, single-step inputs, and generates output for you to act on. Copilot Cowork helps you get work done by completing complex, coordinated actions across your apps, files, and data.
+
 ## What skills does Cowork have?
 
 Cowork has 13 built-in skills: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. You can also create your own custom skills by placing a `SKILL.md` file in a subfolder of your OneDrive `/Documents/Cowork/Skills/` folder (for example, `/Documents/Cowork/Skills/weekly-report/SKILL.md`).
@@ -54,7 +69,7 @@ Getting started takes just a few steps.
 
 ## Does Cowork work on mobile devices?
 
-Cowork is currently available in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft) and in the Microsoft 365 Copilot desktop app for Windows and Mac. Mobile support is not yet available.
+Cowork is currently available in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft) and in the Microsoft 365 Copilot desktop app for Windows and Mac. Mobile support isn't yet available.
 
 ## What file types does Cowork support?
 
@@ -130,7 +145,7 @@ Select any task to jump back into its conversation.
 
 ## Can I schedule recurring prompts?
 
-Yes. Describe what you want and when in your message — for example, "Send me a daily briefing every morning at 9 AM." Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel.
+Yes. Describe what you want and when in your message&mdash;for example, "Send me a daily briefing every morning at 9 AM." Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel.
 
 ## Where are my files saved?
 
@@ -156,7 +171,7 @@ Yes. The following limitations are by design:
 
 - Cowork can't access or edit files stored locally on your device. It works with files in OneDrive and SharePoint.
 - Cowork can't delete files or folders in OneDrive or SharePoint.
-- Custom skills created by users are not validated by Microsoft. Review custom skill outputs carefully.
+- Custom skills created by users aren't validated by Microsoft. Review custom skill outputs carefully.
 - Attached files must be less than 200 MB.
 - Cowork can't read encrypted files, even if the user has access.
 
