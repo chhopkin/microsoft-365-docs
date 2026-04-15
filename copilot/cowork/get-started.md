@@ -87,7 +87,7 @@ The side panel also shows a progress bar with the percentage of tasks complete a
 
 ## View your created tasks
 
-The task view lets you select any task to open it and resume the conversation. You can filter tasks by those that need input, those are still in progress, completed tasks, and scheduled tasks.
+The task view lets you select any task to open it and resume the conversation. You can filter tasks by those that need input, those that are still in progress, completed tasks, and scheduled tasks.
 
 ## Related content
 
