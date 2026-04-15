@@ -93,7 +93,7 @@ To assign users to the Deferred release audience, follow these steps:
 1. Sign in to the Microsoft 365 admin center.
 1. In the left navigation, expand **Copilot** and select **Settings**.
 
-    :::image type="content" source="../../media/copilot-settings-admin-center.png" alt-text="Screenshot of Copilot settings in Microsoft 365 admin center":::
+    :::image type="content" source="../../media/copilot-settings-admin-center.png" alt-text="Screenshot of Copilot settings in Microsoft 365 admin center.":::
 
 1. Under the **All Settings** tab, select **Copilot release preferences: General Availability**.
 1. Choose either **Standard Release** or **Deferred Release**.
