@@ -36,6 +36,11 @@ search.appverid:
 
 The agent registry in [Microsoft 365 admin center](https://admin.microsoft.com/) provides a centralized view of all agents available for your organization. This list helps you monitor, manage, and govern agents for your organization.
 
+## View agent registry
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
+
 :::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing a list of available agents for a tenant." lightbox="../../media/agents/agent-registry.png":::
 
 ## Agent types
@@ -49,12 +54,7 @@ The agent **Registry** lists all agents that are available to your organization.
 | **Published by your org** | Custom agents approved and published by your organization for broader use. These agents may be referred to as LOB (Line of Business) agents. |
 | **Shared by creator** | Agents created and shared by individual users or developers at your organization. These agents are commonly referred to as Shared agents. |
 
-## View the agent registry
-
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
-
-## Agent summary
+## Agent registry summary
 
 The agent **Registry** provides quick details about the agents your organization has available, as shown in the following table:
 
@@ -77,6 +77,8 @@ You can filter the agent list based on the following criteria:
 
 > [!TIP]
 > If you don't see the agents that you expect to see in the agent registry list, check to make sure you don't have an existing filter set.
+
+## Agent registry actions
 
 The agent **Registry** provides agent actions that relate specifically to your tenant's list of agents, as shown in the following table:
 
