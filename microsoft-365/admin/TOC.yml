@@ -454,8 +454,6 @@ items:
            items: 
            - name: Overview of modern change management
              href: manage/plan-for-change-management.md
-           - name: Connect Release Communications MCP Server
-             href: manage/mrc-mcp.md
            - name: Configure modern release options
              href: manage/configure-release-options.md
            - name: Release options FAQ
@@ -466,6 +464,8 @@ items:
              href: manage/message-center-updates.md
            - name: Message center FAQ
              href: manage/message-center-faq.md
+           - name: Connect Release Communications MCP Server
+             href: manage/mrc-mcp.md
            - name: Overview of MCP Server for Enterprise
              href: /graph/mcp-server/overview
          - name: Power BI usage analytics
