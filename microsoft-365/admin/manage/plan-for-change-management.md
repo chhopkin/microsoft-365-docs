@@ -89,7 +89,7 @@ This is the first step in our modernization change management journey. We're sta
 
 | Modern change management | Traditional change management |
 | ----- | ----- |
-| - [Modern change management - Overview](plan-for-change-management.md) <br/> - [Configure modern release options](configure-release-options.md) <br/> - FAQ – release options <br/> - [Release Communications MCP server](mrc-mcp.md) <br/> - [What's new in Message Center](message-center-updates.md) | - [Set up the Standard or Targeted release options](release-options-in-office-365.md) <br/> - [Microsoft 365 change guide - Microsoft 365 Apps](/microsoft-365-apps/best-practices/microsoft-365-change-guide) <br/> - [Stay on top of changes](stay-on-top-of-updates.md) |
+| - [Modern change management - Overview](plan-for-change-management.md) <br/> - [Configure modern release options](configure-release-options.md) <br/> - [Modern release options FAQ](release-options-faq.md) <br/> - [Release Communications MCP server](mrc-mcp.md) <br/> - [What's new in Message Center](message-center-updates.md) | - [Set up the Standard or Targeted release options](release-options-in-office-365.md) <br/> - [Microsoft 365 change guide - Microsoft 365 Apps](/microsoft-365-apps/best-practices/microsoft-365-change-guide) <br/> - [Stay on top of changes](stay-on-top-of-updates.md) |
 
 ## Communication channels for Microsoft 365 updates
 

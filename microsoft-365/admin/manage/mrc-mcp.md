@@ -105,9 +105,9 @@ The MCP server exposes four tools:
 | Tool | Description |
 | --- | --- |
 | **`get_recent_azure_updates`** | Retrieves Azure update posts from Microsoft Release Communications with optional filtering and search capabilities. Returns up to 50 updates per request with truncated descriptions. Supports OData filtering by products, product categories, tags (Features, Retirements, Security, etc.), status, availability dates, and publication dates. Includes text search on titles and pagination |
-| **`get_azure_update_by_id`** | Retrieves a specific Azure update post by its unique identifier. Returns full details of products, tags, and availability dates. Use this after listing to get full information about a specific post. |
+| **`get_azure_update_by_id`** | Retrieves a specific Azure update post by its unique identifier. Returns full details of products, tags, and availability dates. Use the unique Azure Updates ID to get more information about a specific post. |
 | **`get_recent_roadmaps`** | Retrieves Microsoft 365 roadmap posts from Microsoft Release Communications with optional filtering and search capabilities. Returns up to 50 roadmap items per request with truncated descriptions. Supports OData filtering by products, platforms, release rings, cloud instances, status, availability dates, and publication dates. Includes text search on titles and pagination. |
-| **`get_roadmap_by_id`** | Retrieves a specific Microsoft 365 roadmap post by its unique ID. Returns full details of products, and availability dates. Use this ID after listing to get full information about a specific post. |
+| **`get_roadmap_by_id`** | Retrieves a specific Microsoft 365 roadmap post by its unique identifier. Returns full details of products and availability dates. Use the unique Microsoft 365 roadmap ID to get more information about a specific post. |
 
 > [!TIP]
 > The list tools (`get_recent_azure_updates`, `get_recent_roadmaps`) return truncated descriptions to fit within AI context windows.
