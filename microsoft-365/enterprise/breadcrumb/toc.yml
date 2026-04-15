@@ -15,9 +15,6 @@ items:
   tocHref: /viva/
   topicHref: /microsoft-365/index
 - name: Microsoft 365
-  tocHref: /windows/
-  topicHref: /microsoft-365/index
-- name: Microsoft 365
   tocHref: /microsoft-365-apps/
   topicHref: /microsoft-365/index
 - name: Microsoft 365
