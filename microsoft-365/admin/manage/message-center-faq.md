@@ -3,7 +3,7 @@ title: "Frequently asked questions about Message center"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 03/13/2026
+ms.date: 04/15/2026
 ms.reviewer: brimcg
 audience: Admin
 ms.topic: how-to
@@ -58,11 +58,11 @@ Yes, you can select to have a weekly digest emailed to you and up to two other e
 1. Go to Message center in the Microsoft admin center and select **Preferences**.
 1. In the **Email** tab, turn off the option to **Send me email notifications from message center**.
 
-### How can I ensure data privacy notifications are received by the right contacts in my organization?
+## How can I ensure data privacy notifications are received by the right contacts in my organization?
 
 As a global admin, you receive data privacy messages for your organization. Additionally, you can assign the Message Center Privacy reader role to people who should see data privacy messages. Other admin roles with access to Message Center can't view data privacy messages. For more information, see [Preferences in Message center](message-center.md).
 
-### Why can’t I see a message that was previously in Message center?
+## Why can’t I see a message that was previously in Message center?
 
 To manage the number of messages within Message center, each message expires and is removed after a period of time. Generally, messages expire 30 days after the time period outlined in the message body.
 
@@ -70,9 +70,9 @@ To manage the number of messages within Message center, each message expires and
 
 [Track new and changed features in the Microsoft 365 Message center](message-center.md)
 
-[Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
+[What's new in Message center](message-center-updates.md)
 
-[Configure modern release options](configure-release-options.md)
+[Modern change management for Microsoft 365 - Overview](plan-for-change-management.md)
 
 [Overview of Microsoft MCP Server for Enterprise](/graph/mcp-server/overview)
 

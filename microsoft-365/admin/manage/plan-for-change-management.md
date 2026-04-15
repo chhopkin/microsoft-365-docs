@@ -1,11 +1,9 @@
 ---
 title: "Modern change management for Microsoft 365 - Overview"
-f1.keywords:
-- CSH
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/14/2026
+ms.date: 04/15/2026
 ms.reviewer: pamelaar
 audience: Admin
 ms.topic: how-to
@@ -29,24 +27,24 @@ Organizations now operate in an environment of continuous change. Managing conti
 
 Microsoft is building modern change management solutions, so that IT admins can enable their organizations to proactively plan for change. By using AI enabled tools, admins can assess impact, prioritize work, and make informed decisions. Modern change management capabilities help IT admins manage risk, meet compliance requirements, and adopt Microsoft 365 features with confidence.
 
-This model gives IT admins configurable release options to control rollout timing, an enhanced Message center for clearer and more actionable communications, and integration with the Microsoft Release Communications (MRC) MCP Server for AI-assisted change planning.
+This model gives IT admins [configurable release options](#customize-your-organizations-release-experience-for-microsoft-365) to control rollout timing, an [enhanced Message center](#updated-message-center-interface) for clearer and more actionable communications, and two MCP (Model Context Protocol) Servers&mdash;[Microsoft Release Communications MCP Server](#microsoft-release-communications-mcp-server) and [Microsoft MCP for Enterprise](#microsoft-mcp-server-for-enterprise)&mdash;for AI-assisted change planning.
 
-## Customize your organization’s release experience for Microsoft 365
+## Customize your organization's release experience for Microsoft 365
 
 From the Microsoft admin center, you can choose between various release options for Microsoft 365 updates, either during general availability or before general availability.
 
 ### General availability
 
-Microsoft thoroughly tests and validates all features and services prior to release.
+Microsoft thoroughly tests and validates all features and services before release.
 
-**Standard release** delivers fully supported features to your organization at general availability (GA). This is the default release option, and Microsoft recommends it for most organizations.If you need to delay features for some users, you can choose standard release for your organization and assign specific users to deferred release.
+**Standard release** delivers fully supported features to your organization at general availability (GA). Standard is the default release option, and Microsoft recommends it for most organizations. If you need to delay features for some users, you can choose standard release for your organization and assign specific users to deferred release.
 
 **Deferred release** delays deferred-capable GA features for up to 30 days, giving admins additional preparation time. After 30 days, the features appear to your deferred release users. If your organization has additional validation requirements, you can assign some or all users to deferred release. You can identify deferred-capable features in the Message center. To test and validate changes before they reach your deferred release users, add select users to standard release so they receive deferred-capable feature updates earlier.
 
 For more information about modern release options and how to configure them, see [Configure Standard and Deferred release options for Microsoft 365](configure-release-options.md).
 
 > [!NOTE]
-> Deferred release isn't currently available for GCC, GCC High, and DoD cloud environments. Check this article for updates regarding future support.
+> Currently, the modern release options of standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments. Check this article for updates regarding future support.
 
 ### Before general availability
 
@@ -54,11 +52,11 @@ As an IT admin, you can opt in to use features *before* general availability by 
 
 The **Microsoft Frontier program** gives organizations early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability. By opting in to Frontier program, IT administrators can evaluate new Copilot agents and AI-powered experiences, determine readiness for broader deployment across their tenant, and provide feedback about Frontier feature capabilities to Microsoft.
 
-The Frontier program supports early experimentation, but the features aren't fully supported, may change, and might not reach GA. They’re intended for evaluation and readiness, not production use.
+The Frontier program supports early experimentation, but the features aren't fully supported, might change, and might not reach GA. They’re intended for evaluation and readiness, not production use.
 
 For more information on the Frontier program, see [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program).
 
-## Use the updated Message center interface
+## Updated Message center interface
 
 The updated Message center experience helps you deliver timely, relevant, and actionable change communications. It provides:
 
@@ -85,7 +83,7 @@ Use Microsoft MCP Server for Enterprise to:
 
 For more information, see [Overview of Microsoft MCP Server for Enterprise - Microsoft Graph](/graph/mcp-server/overview).
 
-## Modern change management development
+## Available workloads for modern change management
 
 This is the first step in our modernization change management journey. We're starting the modern change management experience with Microsoft 365 Copilot. Not all Microsoft 365 workloads are available in this new model. Existing and traditional change management tools and methodologies can still be used for these experiences.
 

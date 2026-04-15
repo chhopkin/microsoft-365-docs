@@ -460,12 +460,14 @@ items:
              href: manage/configure-release-options.md
            - name: Release options FAQ
              href: manage/release-options-faq.md
-           - name: Prepare for Microsoft 365 updates with Message center
+           - name: Message center
              href: manage/message-center.md
            - name: What's new in Message center
              href: manage/message-center-updates.md
            - name: Message center FAQ
              href: manage/message-center-faq.md
+           - name: Overview of MCP Server for Enterprise
+             href: /graph/mcp-server/overview
          - name: Power BI usage analytics
            items:
            - name: About usage analytics

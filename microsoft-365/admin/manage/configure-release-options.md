@@ -3,8 +3,8 @@ title: "Configure modern release options for Microsoft 365"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/14/2026
-ms.reviewer: pamelaar, gsaini
+ms.date: 04/15/2026
+ms.reviewer: pamelaar
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -16,7 +16,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 search.appverid: MET150
-description: "Learn how to set up the standard and deferred release options for new features for Microsoft 365 Copilot."
+description: "Learn how to set up frontier, standard, and deferred for new features in Microsoft 365."
 appliesto: 
 - Microsoft 365 Copilot
 - Microsoft 365 admin center
@@ -31,7 +31,7 @@ Microsoft 365 delivers updates continuously, enabling organizations to adopt new
 
 With **Standard release**, your organization receives new features as soon as they’re generally available (GA). Standard release is the default option and should be the primary release channel for most customers. Microsoft thoroughly tests and validates all features and services before we release them. Your organization is configured as standard release by default.
 
-If you have additional validation requirements, your organization might want to consider **Deferred release** for all or some users. Features available in deferred release are major Microsoft 365 releases and are considered "deferred-capable," meaning admins will have 30 days to prepare for the release. After 30 days, generally available Microsoft 365 features appear to your users. You can see which features are deferred-capable in the Message center.
+If you have additional validation requirements, your organization might want to consider **Deferred release** for all or some users. Features available in deferred release are major Microsoft 365 releases and are considered "deferred-capable," meaning admins will have 30 days to prepare for the release after broad release in standard begins. After 30 days, generally available Microsoft 365 features appear to your users. You can see which features are deferred-capable in the Message center.
 
 For pre-release availability, the [Microsoft Frontier program](https://www.microsoft.com/microsoft-365-copilot/frontier-program) provides early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability.
 
@@ -44,12 +44,9 @@ You can use these new release options so you can align feature delivery with you
 
 Microsoft feature teams validate each new release first, followed by the Microsoft 365 feature team, and then that feature rolls out to all of Microsoft. At each release phase, Microsoft collects feedback and further validates quality by monitoring key usage metrics before it goes to the public. This series of progressive validations helps make sure the worldwide rollout to general availability (standard release) is as robust as possible.
 
-As shown in the figure below, you can now use a modern, audience-based release model that includes the Frontier program, Standard release, and Deferred release as release options.
+As shown in the following figure, you can now use a modern, audience-based release model that includes the Frontier program, Standard release, and Deferred release as release options.
 
-:::image type="content" source="../../media/microsoft365-release-options.png" alt-text="Release audiences for Microsoft 365.":::
-
-<sup>*</sup>Experimental features only<br/>
-<sup>**</sup>Deferred-enabled features only
+:::image type="content" source="../../media/audience-based-release-model.png" alt-text="Figure displaying audience-based release audiences for Microsoft 365.":::
 
 For a comparison of release options, see the following table:
 
@@ -59,7 +56,7 @@ For a comparison of release options, see the following table:
 | Standard release<br/>(default) | Default GA rollout | Fully supported GA features | Features are supported, communicated through Message Center and release notes, and expected to remain available under standard lifecycle policies. Recommended for most organizations. |
 | Deferred release | Delayed GA for additional preparation | Fully supported GA features (delayed) | Same functionality as standard release, with timing delayed for 30 days after standard GA for major features to organizations with additional validation requirements. |
 
-For significant updates, Microsoft first notifies you through the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). Prior to rollout, Microsoft notifies you through the <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">Microsoft 365 Message center</a>.
+For significant updates, Microsoft first notifies you through the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). Before rollout, Microsoft notifies you through the <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">Microsoft 365 Message center</a>.
 
 > [!NOTE]
 > If your organization is using targeted release for other Microsoft 365 services, you can continue to do so as we drive towards our converged release strategy. We recommend configuring release preferences for frontier, standard, and deferred audiences to align with the new release model as Microsoft begins delivering an increasing number of major features through it over time. Use the Microsoft Message Center to keep up with new products and services using this audience-based release model.
@@ -78,8 +75,8 @@ You must have one of the following roles in Microsoft 365 admin center to config
 
 We recommend that you use the release options in the following ways to balance early access with organizational readiness:
 
-- If you only want to configure release audiences to access broadly available and fully supported features, assign most users to deferred release and put IT Pros and power users in standard release to evaluate new features for privacy and compliance and to prepare teams to support users.
-- Use deferred release for features that are deferred-capable when you need extra time for validation before releasing to your organization.
+- To get the latest Microsoft 365 improvements as soon as they reach general availability, enroll your organization in standard release. Optionally, assign business-critical users to deferred release to give them more time to prepare for major changes.
+- If you need extra time to validate deferred-capable features before broad rollout, use deferred release. Assign a subset of IT pros or power users to standard release to evaluate new features for privacy and compliance readiness.
 - Plan release phases around user impact and readiness, not individual feature controls, to help manage risk and set clear expectations for users.
 - Align your release configuration with your change management and support readiness, including documentation, training, and help desk preparation.
 - Review and adjust audience assignments over time as your organization’s readiness and change tolerance evolve.
