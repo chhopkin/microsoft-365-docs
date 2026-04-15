@@ -254,7 +254,6 @@ Choose the view that works best for you:
 | View | Description |
 |---|---|
 | List | Shows tasks in a vertical list with key details. |
-| Board | Organizes tasks into columns by status. Drag and drop tasks between columns to update their status. |
 | Scheduled | Shows your scheduled prompts with options to edit, pause, resume, or delete them. |
 
 ### Track task status
