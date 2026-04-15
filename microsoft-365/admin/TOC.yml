@@ -285,7 +285,9 @@ items:
             - name: Manage agent actions
               href: manage/agent-actions.md           
             - name: Manage agent instances
-              href: manage/manage-agent-instances.md  
+              href: manage/manage-agent-instances.md
+            - name: Manage digital workers
+              href: manage/manage-digital-workers.md               
             - name: Manage connected agents
               href: manage/manage-connected-agents-for-researcher.md
             - name: Agent tools 
