@@ -6,7 +6,7 @@ manager: dansimp
 ms.date: 04/15/2026
 ms.reviewer: pamelaar
 audience: Admin
-ms.topic: how-to
+ms.topic: overview
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:

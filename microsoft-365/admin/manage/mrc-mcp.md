@@ -3,9 +3,9 @@ title: "Get started with the Microsoft Release Communications MCP Server"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/14/2026
+ms.date: 04/15/2026
 audience: Admin
-ms.topic: how-to
+ms.topic: get-started
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:

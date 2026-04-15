@@ -3,10 +3,10 @@ title: "Message center updates"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/14/2026
+ms.date: 04/15/2026
 ms.reviewer: brimcg
 audience: Admin
-ms.topic: how-to
+ms.topic: release-notes
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -28,7 +28,7 @@ The Microsoft 365 Message center is now more timely, relevant, and concise to su
 
 A new **Timing of change** column allows you to sort and filter posts by when a rollout is planned. To view a list of all available columns and their descriptions, see [Message center in the Microsoft 365 admin center](message-center.md).
 
-For AI-powered workflows, you can use Microsoft MCP Server for Enterprise. For more information, see [Overview of Microsoft MCP Server for Enterprise](/graph/mcp-server/overview).
+For AI-powered workflows, you can use Microsoft Model Context Protocol (MCP) Server for Enterprise. For more information, see [Overview of Microsoft MCP Server for Enterprise](/graph/mcp-server/overview).
 
 Message Center posts now include a dedicated section that describes known security and compliance considerations for each feature release. This inclusion helps admins, especially those in highly regulated industries, with security and compliance-specific information necessary to understand potential compliance and regulatory impact for each feature.
 
@@ -59,7 +59,7 @@ This section helps you understand who and what is affected and includes the foll
 
 - Who's affected: Scope of impact (for example, all users, specific roles, tenants)
 - Platforms/Services: Where the change applies (for example, Teams, Outlook, mobile, desktop)
-- What will happen with clear bullet points describing:
+- What will happen describes the following information::
   - UI changes
   - Feature behavior
   - Default settings
@@ -83,7 +83,6 @@ This section identifies any implications for data handling and governance and in
 - AI/ML interactions with customer data
 - Communication or access changes
 - Impact on Purview capabilities (for example, DLP, eDiscovery)
-- GDPR-related changes
 - Admin control availability and Microsoft Entra ID integration
 - Whether users can self-manage the feature
 

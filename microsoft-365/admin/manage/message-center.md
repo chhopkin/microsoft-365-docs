@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/14/2026
+ms.date: 04/15/2026
 ms.reviewer: brimcg
 audience: Admin
 ms.topic: how-to
@@ -165,7 +165,7 @@ We use machine translation to automatically display messages in your preferred l
 
 ## Service & monthly active users
 
-When you open a message center post, we'll tell you the number of users who have been using that Microsoft 365 app or service in the **Service & monthly active users** section. The numbers are for the last 28 days. This info can help you prioritize which changes you should work on.
+When you open a message center post, we tell you the number of users who have been using that Microsoft 365 app or service in the **Service & monthly active users** section. The numbers are for the last 28 days. This info can help you prioritize which changes you should work on.
 
 :::image type="content" source="../../media/msgctr-mau-teams.png" alt-text="Screenshot: Showing the Microsoft Teams Chat density page in the message center post with monthly active user data":::
 
@@ -185,23 +185,23 @@ Here's a quick overview of the information in each column.
 |Column|Description|
 |---|---|
 |Check mark|Selecting the check mark in the column heading row selects all messages currently displayed. Selecting the check mark next to one or more messages lets you take action on those messages.|
-|Message title|Message titles are brief descriptions of upcoming changes. If the full title doesn't display, hover your cursor over it and the entire title will appear in a pop-up box.|
+|Message title|Message titles are brief descriptions of upcoming changes. If the full title doesn't display, hover your cursor over it and the entire title appears in a pop-up box.|
 |More options|More options let you dismiss a message, mark it as read or unread, or share it with another admin. To restore an archived message, select the **Archive** tab, select the check mark next to the message, and select **Restore**.|
-|Favorite|You can select the star to mark a message as a favorite. Once you have marked messages as favorite, you can also sort and filter them.|
+|Favorite|You can select the star to mark a message as a favorite. Once you mark messages as favorite, you can also sort and filter them.|
 |Service|Icons indicate the application to which the message applies.|
 |Last updated|Date that the message was published or last updated.|
 |Timing of change|Allows you to sort and filter posts by when a rollout is planned.|
-|Act by|We'll only have dates here if we're making a change that requires you to take an action by a certain deadline. Since we rarely use the **Act by** column, if you see something here, you should pay extra attention to it.|
+|Act by|We only have dates here if we're making a change that requires you to take an action by a certain deadline. Since we rarely use the **Act by** column, if you see something here, you should pay extra attention to it.|
 |Relevance|Relevance is our recommendation based on the potential impact to your organization and the usage of affected services.|
 |Status for your org|This column only shows a status if the service is supported or if it's applicable.|
 |Tag|You can choose tags from the Tag drop-down to filter messages. <br> <p> **Data Privacy**: Data privacy notification (limited to global administrator and Message center Privacy reader roles). <p> **Major update**: Changes communicated at least 30 days in advance ([Major updates](#major-updates)). <p> **Retirement**: Retirement of a service or feature. <p> **New feature**: New feature or service. <p> **Feature update**: Update to an existing feature. <p> **Admin impact**: When the change clearly impacts the admin in the following ways - UI change, workflow change, control available, and Specific/Potential Action. <p> **User impact**: When the change to the service clearly impacts the user - UI Change and workflow change. <p> **Updated message**: When a message is updated.|
 |Platform|The platform that’s affected by the Message center post.|
-|Category|This isn't shown by default, but can be specified in the **Choose columns** panel. Messages are identified by one of the following three categories: <p> **Prevent or fix issues**: Informs you of known issues affecting your organization and might require that you take action to avoid disruptions in service. Prevent or fix issues are different than Service health messages because they prompt you to be proactive to avoid issues. <p> **Plan for change**: Informs you of changes to Microsoft 365 that might require you to act to avoid disruptions in service. For example, we let you know about changes to system requirements or about features that are being removed. We try to provide at least 30 days' notice of any change that requires an admin to act to keep the service running normally. <p> **Stay informed**: Tells you about new or updated features we're turning on in your organization. announced first in the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=2070821). <p> Also lets you know about planned maintenance in accordance with our Service Level Agreement. Planned maintenance might result in down time, where you or your users can't access Microsoft 365, a specific feature, or a service such as email or OneDrive.|
+|Category|This column isn't shown by default, but can be specified in the **Choose columns** panel. Messages are identified by one of the following three categories: <p> **Prevent or fix issues**: Informs you of known issues affecting your organization and might require that you take action to avoid disruptions in service. Prevent or fix issues are different than Service health messages because they prompt you to be proactive to avoid issues. <p> **Plan for change**: Informs you of changes to Microsoft 365 that might require you to act to avoid disruptions in service. For example, we let you know about changes to system requirements or about features that are being removed. We try to provide at least 30 days' notice of any change that requires an admin to act to keep the service running normally. <p> **Stay informed**: Tells you about new or updated features we're turning on in your organization. announced first in the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=2070821). <p> Also lets you know about planned maintenance in accordance with our Service Level Agreement. Planned maintenance might result in down time, where you or your users can't access Microsoft 365, a specific feature, or a service such as email or OneDrive.|
 |Message ID|Microsoft tracks our Message center posts by message ID. You can refer to this ID if you want to give feedback or if you call Support about a particular message.|
 
 ### Admin roles that don't have access to the Message center
 
-Most users assigned any admin role in Microsoft 365 can view Message center posts. You can also assign the** Message center reader role** to users who should be able to read and share Message center posts without having any other admin privileges.
+Most users assigned any admin role in Microsoft 365 can view Message center posts. You can also assign the **Message center reader role** to users who should be able to read and share Message center posts without having any other admin privileges.
 
 The following admin roles don't have access to the Message center:
 

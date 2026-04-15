@@ -46,7 +46,7 @@ Microsoft feature teams validate each new release first, followed by the Microso
 
 As shown in the following figure, you can now use a modern, audience-based release model that includes the Frontier program, Standard release, and Deferred release as release options.
 
-:::image type="content" source="../../media/audience-based-release-model.png" alt-text="Figure displaying audience-based release audiences for Microsoft 365.":::
+:::image type="content" source="../../media/audience-based-release-model.png" lightbox="../../media/audience-based-model-expanded.png" alt-text="Figure displaying audience-based release audiences for Microsoft 365.":::
 
 For a comparison of release options, see the following table:
 
@@ -97,9 +97,6 @@ To assign users to the Deferred release audience, follow these steps:
 
 1. Under the **All Settings** tab, select **Copilot release preferences: General Availability**.
 1. Choose either **Standard Release** or **Deferred Release**.
-
-    :::image type="content" source="../../media/microsoft365-release-options-standard.png" alt-text="Screenshot of standard release and deferred release options in Microsoft 365 admin center.":::
-
 1. Add any user exceptions. You can add up to 100 user exceptions to Standard release or Deferred release.
     - If you want to only assign a specific user to deferred release, select **Standard Release**, search for the user, and select their name.
 
