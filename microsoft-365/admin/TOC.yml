@@ -456,8 +456,10 @@ items:
              href: manage/plan-for-change-management.md
            - name: Configure modern release options
              href: manage/configure-release-options.md
-           - name: Release options FAQ
+           - name: Modern release options FAQ
              href: manage/release-options-faq.md
+           - name: Set up the Standard or Targeted release options
+             href: manage/release-options-in-office-365.md
            - name: Message center
              href: manage/message-center.md
            - name: What's new in Message center
