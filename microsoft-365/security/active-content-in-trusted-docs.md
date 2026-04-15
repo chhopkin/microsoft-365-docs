@@ -1,19 +1,14 @@
 ---
 title: "Manage active content in Office documents for IT admins"
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: Admin
 ms.topic: tutorial
 ms.localizationpriority: medium
 ms.service: microsoft-365-admin
 ms.collection:
 - M365-security-compliance
 - tier3
-search.appverid:
-- MET150
 ROBOTS: NOINDEX,NOFOLOW
 description: "Admins can learn how to create policies to block active content in Office documents"
 ms.date: 07/22/2025
