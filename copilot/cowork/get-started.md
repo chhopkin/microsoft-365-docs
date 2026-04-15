@@ -85,12 +85,9 @@ When Cowork finishes, any files it created appear in the side panel on the right
 
 The side panel also shows a progress bar with the percentage of tasks complete and the skills Cowork used. You can select **thumbs down** on responses that missed the mark, or **thumbs up** on ones that were helpful.
 
-## Find your past work
+## View your created tasks
 
-Select the **Tasks** view to see everything you asked Cowork to do. Here you can:
-
-- Switch between **list view**, **board view**, and the **Scheduled** tab depending on how you like to organize.
-- Select any task to open it and resume the conversation.
+The task view lets you select any task to open it and resume the conversation. You can filter tasks by those that need input, those are are still in progress, completed tasks, and scheduled tasks.
 
 ## Related content
 

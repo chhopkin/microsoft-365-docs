@@ -5,7 +5,7 @@ ms.author: lauragra
 manager: calvind
 ms.collection: operations-pod
 ms.reviewer: riyazp
-ms.date: 03/10/2026
+ms.date: 04/10/2026
 ms.service: microsoft-365-copilot
 ms.topic: how-to
 ms.localizationpriority: medium
@@ -51,6 +51,8 @@ Tuning flow helps you evaluate and improve agent responses. You can tune an Expe
 | **Model** | Improve how the agent searches and retrieves relevant files |
 | **Tools** | Add sub-agents to enforce guardrails, apply tone, or generate deeper responses by using Researcher |
 
+:::image type="content" source="media/copilot-tuning-expert-answer-template/tuning-flow.png" alt-text="Screenshot that shows tuning flow includes context, model, and tools." lightbox="media/copilot-tuning-expert-answer-template/tuning-flow.png":::
+
 ## Use the non-customized agent
 
 Before customizing the agent, test the default experience.
@@ -94,6 +96,8 @@ Provide the following information during this step:
 | Subgoals | Review clarifying questions | Guides search behavior and evaluation |
 | Metrics | Review metrics | Evaluates agent responses |
 | Grounding information | Agent context | Defines search behavior |
+
+:::image type="content" source="media/copilot-tuning-expert-answer-template/context-tuning.png" alt-text="Screenshot that shows context tuning involves setting the agent's goals, creating evaluation data, and enhancing the Expert Answers search information retrieval." lightbox="media/copilot-tuning-expert-answer-template/context-tuning.png":::
 
 ### Define tuning goals
 

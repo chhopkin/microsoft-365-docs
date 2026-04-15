@@ -108,7 +108,7 @@ For details on each option, see [Approve actions](use-cowork.md#approve-actions)
 
 Cowork helps you stay organized with built-in project and task management.
 
-- **Task views**: Display your tasks in a sortable **list view**, a visual **board view**, or the **Scheduled** tab to manage your scheduled prompts. Each task shows a status: **In progress**, **Needs user input**, **Done**, or **Failed**.
+- **Task views**: Display all of your tasks or filtered views based on task status or use the **Scheduled** tab to manage your scheduled prompts. 
 
 ## Data protection and privacy
 
