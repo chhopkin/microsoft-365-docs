@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: erikre
 manager: scotv
-ms.date: 04/06/2026
+ms.date: 04/15/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -34,20 +34,20 @@ search.appverid:
 
 # Agent management in Microsoft 365 admin center
 
-Agents are powerful AI companions that can handle a range of interactions and tasks. An agents can resolve issues that require complex conversations and autonomously determine the best action to take based on its instructions and context. It coordinates language models, along with instructions, context, knowledge sources, topics, tools, inputs, and triggers to accomplish goals that members of your organization need to accomplish. Your organization can use agents in multiple languages across websites, mobile apps, Facebook, Microsoft Teams, and other any supported channels.
+Agents are powerful AI companions that can handle a range of interactions and tasks. An agent can resolve issues that require complex conversations and autonomously determine the best action to take based on its instructions and context. It coordinates language models, along with instructions, context, knowledge sources, topics, tools, inputs, and triggers to accomplish goals that members of your organization need to accomplish. Your organization can use agents in multiple languages across websites, mobile apps, Facebook, Microsoft Teams, and any other supported channel.
 
 Agent governance involves using policies, settings, and admin actions to control how agents at your organization are accessed, published, deployed, and managed across your organization. When you apply an agent governance approach to managing agents, you ensure agents and the data they use remain secure and compliant.
 
-By using governance across your agent lifecycle, you help ensure agent adoptions is consistent and safe. Governance ensures agents are onboarded intentionally, operate within guardrails, and are managed consistently from build through retirement.
+By using governance across your agent lifecycle, you help ensure agent adoption is consistent and safe. Governance ensures agents are onboarded intentionally, operate within guardrails, and are managed consistently from build through retirement.
 
-Organizations face significant challenges for agent governance, such as
-- Apply consistent governance policies across all agents, regardless of how or where they’re built.
-- Balance developer freedom and experimentation with centralized oversight.
-- Identify and retire low value or ownerless agents before they create risk or cost.
+Organizations face significant challenges related to agent governance, including the following:
+- How to apply consistent governance policies across all agents, regardless of how or where they’re built.
+- How to balance developer freedom and experimentation with centralized oversight.
+- How to identify and retire low value or ownerless agents before they create risk or cost.
 
-By managing agents within Microsoft 365 admin center, organizations can establish guardrails for agents and people, onboard agents with IT oversight, and govern agent access to resources and data. Organizations can be audit ready with built-in compliance and data retention.
+By managing agents within Microsoft 365 admin center, organizations can establish these guardrails for agents and people, onboard agents with IT oversight, and govern agent access to resources and data, thereby meeting the challenges that organization face. In addition, organizations track their governance approach with built-in compliance and data retention details.
 
-The following capabilities helps your organization confidently manage and govern your agent ecosystem:
+The following capabilities help your organization confidently manage and govern your agent ecosystem:
 
 - **Bring agents under control from day one** - Onboard and approve agents through one IT controlled flow, applying policy templates to every agent for governance and compliance.
 - **Control what agents can access and do** - Enforce least-privilege access by controlling which users, data, and tools agents can use and limit access to only the resources and other agents they need.
@@ -109,7 +109,7 @@ These **AI Administrator** and **Global Administrator** roles have tenant‑wide
 >
 > Use roles with the fewest permissions. Accounts with lower permissions help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-View access to the agent **Overview** does not grant permissions to install, modify, or manage agents. Administrative actions continue to be governed by role-based access controls aligned with agent installation and consent workflows.
+View access to the agent **Overview** doesn't grant permissions to install, modify, or manage agents. Administrative actions continue to be governed by role-based access controls aligned with agent installation and consent workflows.
 
 Viewing agent **Registry** information includes the following capabilities:
 - View the list of registered agents within their organization
@@ -130,7 +130,7 @@ These actions can be initiated based on the following agent views:
 Selecting these options in Microsoft 365 admin center navigates you to relevant filtered views within the agent **Registry** to take corrective action.
 
 > [!IMPORTANT]
-> Governance actions, such as approving agent requests or assigning agent ownership, can only be performed by admins assigned to the **AI Administrator** or **Global Administrator** Microsoft Entra roles. Other supported roles can monitor governance gaps but cannot take administrative actions. In addition, admins that have been assigned the **AI Administrator** role are not authorized to configure **Conditional Access** policies or **Microsoft Entra** access package policies. These actions require a highly privileged administrator role with appropriate Microsoft Graph permissions.
+> Governance actions, such as approving agent requests or assigning agent ownership, can only be performed by admins assigned to the **AI Administrator** or **Global Administrator** Microsoft Entra roles. Other supported roles can monitor governance gaps but can't take administrative actions. In addition, admins that have been assigned the **AI Administrator** role aren't authorized to configure **Conditional Access** policies or **Microsoft Entra** access package policies. These actions require a highly privileged administrator role with appropriate Microsoft Graph permissions.
 
 ## Key features of the Agent overview
 
@@ -144,17 +144,17 @@ Using the **Agent overview**, you can view key agent details for your tenant, in
 
 ## Hero metrics for agent adoption and impact
 
-Hero metrics provides a high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale, engagement, and business value.
+Hero metrics provide a high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale, engagement, and business value.
 
 **Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
-- **Active users in Copilot** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered an active user.
+- **Active users in Copilot** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered as an active user.
 - **Agent Runtime** - Total agent assisted time over the past 30 days, calculated as the sum of each agent session's duration (end time minus start time).
 
 ## Top actions for you
 
 View actionable governance cards that display urgent tasks for you (the administrator) to maintain compliance and improve adoption. These cards help you quickly identify and resolve governance gaps.
 
-- **Pending Requests for Agents** - See the total number of agent requests awaiting admin approval within the last 30 days. The card lists the three oldest pending requests, prioritized by oldest first. It also displays the delta badge next to the key metric to highlight week-over-week change in the total requests.
+- **Pending Requests for Agents** - See the total number of agent requests awaiting admin approvals within the last 30 days. The card lists the three oldest pending requests, prioritized by oldest first. It also displays the delta badge next to the key metric to highlight week-over-week change in the total requests.
 
     To take immediate action, select the **Manage requests** button on the card. This selection navigates to the **Agent Registry** > **Requests** tab. This tab lists all pending agent requests submitted by users within your organization.
 
