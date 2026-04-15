@@ -33,9 +33,15 @@ For a full breakdown by category, see [What can Copilot Cowork do for you?](inde
 
 ## What skills does Cowork have?
 
-Cowork has 13 built-in skills: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards.
+Cowork has 13 built-in skills: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. You can also create your own custom skills by placing a `SKILL.md` file in a subfolder of your OneDrive `/Documents/Cowork/Skills/` folder (for example, `/Documents/Cowork/Skills/weekly-report/SKILL.md`).
 
 For a detailed description of each skill, see [Copilot Cowork skills](use-cowork.md#cowork-skills).
+
+## Can I create my own custom skills?
+
+Yes. You can create up to 20 custom skills by placing `SKILL.md` files in your OneDrive `/Documents/Cowork/Skills/` folder. Each file contains a YAML frontmatter block with a name and description, followed by the skill instructions. Copilot Cowork discovers your custom skills automatically at the start of each conversation.
+
+For step-by-step instructions, see [Create custom skills](use-cowork.md#create-custom-skills).
 
 ## How do I start using Copilot Cowork?
 
@@ -153,6 +159,7 @@ Yes. The following limitations are by design:
 
 - Cowork can't access or edit files stored locally on your device. It works with files in OneDrive and SharePoint.
 - Cowork can't delete files or folders in OneDrive or SharePoint.
+- Custom skills created by users are not validated by Microsoft. Review custom skill outputs carefully.
 - Attached files must be less than 200 MB.
 - Cowork can't read encrypted files, even if the user has access.
 
