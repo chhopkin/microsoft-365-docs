@@ -13,7 +13,7 @@ ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about extending the Employee Self-Service Copilot Agent tailored to your organization. This article describes the steps to invite a guest to offices (Lobby) via ESS. Example - "I want to invite my spouse to Building 32"
+description: Learn about extending the Employee Self-Service Copilot Agent tailored to your organization. This article describes the steps to invite a guest to offices (Lobby) via Employee Self-Service. Example - "I want to invite my spouse to Building 32"
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
@@ -123,6 +123,7 @@ This process involves only one step:
 ### Validate the Topic
 
 - The Trigger node captures the topic description, which is visible from the user interface. You can use Microsoft 365 copilot to fine-tune as per your requirements.
+
     :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-trigger.png" alt-text="Diagram that shows the trigger node configuration where you can change the trigger description.":::
 
 - The next few nodes enforce certain limitations - like supporting only single guest visits and supporting only new visits and not edit/cancellation of existing visits.
