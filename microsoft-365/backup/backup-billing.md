@@ -85,7 +85,7 @@ You can also export daily cost information using billing export feature in Azure
 
 ### Billing attribution by tenants, service type, and applications
 
-You can see actual cost breakdown by tags in Azure portal. There are currently two tags available for Microsoft 365 Backup: **tenants** and **servicetype**.
+You can see actual cost breakdown by tags in Azure portal. There are currently three tags available for Microsoft 365 Backup: **tenants**, **servicetype** and **protectionunitid**.
 
 To view tags:
 
@@ -100,6 +100,8 @@ To view tags:
         - **servicetype** is OneDrive, SharePoint, or Exchange.
 
         - **applications** shows a list of app IDs.
+     
+        - **protectionunitid** shows a list of Site IDs.
 
         - Exchange mailbox - Not available.
 
