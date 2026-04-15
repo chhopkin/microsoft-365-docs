@@ -17,6 +17,8 @@ items:
       href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
     - name: Microsoft 365 Copilot Chat FAQ
       href: /copilot/faq?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
+    - name: Microsoft 365 Copilot Chat considerations
+      href: microsoft-365-copilot-chat-considerations.md
   - name: Licensing
     items:
     - name: Which Copilot is right for me?
@@ -487,6 +489,8 @@ items:
         items:
         - name: Overview of Workflows
           href: responsible-ai/flow-builder-responsible-ai-faq.md
+        - name: Microsoft 365 Copilot workflows environment for Workflows agents
+          href: workflows-environment-workflows-agents.md  
         - name: Data subject requests (DSRs)
           items:
             - name: Workflows privacy and data subject request (DSR) FAQ
@@ -497,7 +501,7 @@ items:
         items:
           - name: Overview of Workforce Insights agent
             href: workforce-insights-agent.md
-      - name: Word, Excel, and PowerPoint Agents(Frontier) in Microsoft 365 Copilot
+      - name: Word, Excel, and PowerPoint Agents (Frontier) in Microsoft 365 Copilot
         items:
         - name: Setting up and managing agents
           href: wordexcelppt-agents.md

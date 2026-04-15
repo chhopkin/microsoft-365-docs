@@ -26,7 +26,7 @@ ms.custom:
 service.tree.id: 84a24b9c-ce0c-4b4b-b837-45bc5ee4bef0
 search.appverid: MET150
 description: "Learn how to upgrade or change to a different plan in the Microsoft 365 admin center."
-ms.date: 10/28/2025
+ms.date: 04/08/2026
 ---
 
 # Upgrade or change to a different Microsoft 365 for business plan
