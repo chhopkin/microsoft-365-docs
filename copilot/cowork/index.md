@@ -1,7 +1,7 @@
 ---
 title: "Copilot Cowork overview (Frontier)"
 description: "Learn about Copilot Cowork in Microsoft 365 Copilot, which takes action on your behalf."
-ms.date: 04/03/2026
+ms.date: 04/07/2026
 ms.topic: overview
 author: leeclontz
 manager: KumarVivek
@@ -108,7 +108,7 @@ For details on each option, see [Approve actions](use-cowork.md#approve-actions)
 
 Cowork helps you stay organized with built-in project and task management.
 
-- **Task views**: Display your tasks in a sortable **list view**, a visual **kanban board**, or the **Scheduled** tab to manage your scheduled prompts. Each task shows a status: **In progress**, **Needs user input**, **Done**, or **Failed**.
+- **Task views**: Display all of your tasks or filtered views based on task status or use the **Scheduled** tab to manage your scheduled prompts. 
 
 ## Data protection and privacy
 
