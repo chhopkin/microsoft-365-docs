@@ -1,13 +1,13 @@
 ---
-title: Agent Overview Page in Microsoft 365 Admin Center
-description: Learn how to use the Agent overview page in the Microsoft 365 admin center to track agent adoption, manage governance, and control agent availability across your tenant.
+title: Agent overview in Microsoft 365 admin center
+description: Track agent usage across your organization and take steps to improve impact from Microsoft 365 admin center.
 #customer intent: As an IT admin, I want to manage agents for Microsoft 365 Copilot so that I can control their availability and functionality within my organization.
 f1.keywords:
 - NOCSH
-ms.author: frankroj
-author: frankroj
+ms.author: erikre
+author: erikre
 manager: scotv
-ms.date: 03/11/2026
+ms.date: 04/06/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -32,87 +32,149 @@ search.appverid:
 - MOE150
 ---
 
-# Agent overview page in the Microsoft 365 admin center
+# Agent management in Microsoft 365 admin center
 
-This article explains what insights are available on the Agent overview page and how admins use them to monitor adoption and governance. The **Agent overview** page in the [Microsoft 365 admin center](https://admin.microsoft.com/) serves as the control plane for all agents. It provides IT administrators with a centralized dashboard to:
+Agents are powerful AI companions that can handle a range of interactions and tasks. An agents can resolve issues that require complex conversations and autonomously determine the best action to take based on its instructions and context. It coordinates language models, along with instructions, context, knowledge sources, topics, tools, inputs, and triggers to accomplish goals that members of your organization need to accomplish. Your organization can use agents in multiple languages across websites, mobile apps, Facebook, Microsoft Teams, and other any supported channels.
 
-- Track agent adoption and usage trends.
-- Identify alerts and governance gaps.
-- Enable visibility and control across all agents in the tenant.
+Agent governance involves using policies, settings, and admin actions to control how agents at your organization are accessed, published, deployed, and managed across your organization. When you apply an agent governance approach to managing agents, you ensure agents and the data they use remain secure and compliant.
 
-You can access the **Agent overview** page using the following steps:
+By using governance across your agent lifecycle, you help ensure agent adoptions is consistent and safe. Governance ensures agents are onboarded intentionally, operate within guardrails, and are managed consistently from build through retirement.
+
+Organizations face significant challenges for agent governance, such as
+- Apply consistent governance policies across all agents, regardless of how or where they’re built.
+- Balance developer freedom and experimentation with centralized oversight.
+- Identify and retire low value or ownerless agents before they create risk or cost.
+
+By managing agents within Microsoft 365 admin center, organizations can establish guardrails for agents and people, onboard agents with IT oversight, and govern agent access to resources and data. Organizations can be audit ready with built-in compliance and data retention.
+
+The following capabilities helps your organization confidently manage and govern your agent ecosystem:
+
+- **Bring agents under control from day one** - Onboard and approve agents through one IT controlled flow, applying policy templates to every agent for governance and compliance.
+- **Control what agents can access and do** - Enforce least-privilege access by controlling which users, data, and tools agents can use and limit access to only the resources and other agents they need.
+- **Automate ongoing agent governance** - Leverage rules-based agent management to automatically enforce lifecycle policies, such as expiring inactive agents, flagging ownerless agents, or blocking risky agents.
+- **Be audit-ready from the start** - Strengthen visibility and traceability of agent actions and interactions, including who approved an agent, what it accessed, and how it behaved.
+- **Reduce compliance and safety risks** - Establish data safety and compliance controls to detect, retain, and investigate unethical agent interactions.
+
+The Agent workload within [Microsoft 365 admin center](https://admin.microsoft.com/) allows you to view a summary of agents that you manage, deploy, and monitor at your organization. It provides usage and insights that are to monitor agent adoption and governance. The Agent workload serves as the grounding control plane for all agents managed at your organization.
+
+Additionally, you can use the Agent workload to do the following tasks:
+- Discover and review the agents that exist in your organization's tenant
+- Understand who published and owns each agent
+- Control availability and access to each agent
+- Apply agent governance and policy decisions consistently across channels
+
+:::image type="content" source="../../media/agents/agent-overview.png" alt-text="Screenshot showing the agent workload in Microsoft 365 admin center, which provides management controls and details for agents within your organization's tenant." lightbox="../../media/agents/agent-overview.png":::
+
+> [!IMPORTANT]
+> Certain features are available within Microsoft 365 admin center based on services licensed in your subscription. Based on your subscription, you may see Agent 365 branding and additional agent related features and details. To view your licensed subscriptions in the [Microsoft 365 admin center](https://admin.cloud.microsoft/), select **Billing** > **Licenses** > **Subscriptions**.
+
+The **Agent overview** provides you with a centralized dashboard to:
+
+- Track agent adoption and usage trends
+- Identify alerts and governance gaps
+- Enable visibility and control across all agents in your tenant
+
+> [!TIP]
+> A tenant is an instance of Microsoft Entra ID. Your subscription to Copilot or Agent 365 is hosted by a Microsoft Entra tenant. For more information about creating and understanding tenants, see [Set up a new Microsoft Entra tenant](/entra/identity-platform/quickstart-create-new-tenant) in the Microsoft Entra documentation.
+
+You can access the **Agent overview** using the following steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+2. Select **Agents** > **Overview**.
+   The **Agent overview** pane is displayed.
 
-1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
+## Agent management roles and permissions
 
-1. Under **Agents**, select [**Overview**](https://admin.cloud.microsoft/?#/agents/overview).
+Access to agent management in Microsoft 365 admin center is controlled by [Microsoft Entra admin roles](/entra/identity/role-based-access-control/permissions-reference). 
 
-You can also access the **Agent overview** page by using **AI home page** > **View in Agent overview**.
+While several administrative and security roles can view agent-related information for monitoring and reporting purposes, only select roles are authorized to perform governance actions such as approving agent requests or assigning ownership.
 
-## Key features of the Agent overview page
+The following table provides agent management capabilities  Microsoft 365 admin center:
 
-- Provides a snapshot of agent health and actionable insights for the last 30 days.
+| Role | View insights and organization   data | View agent registry information | Install, modify, approve, and manage agent configurations |
+|:---:|:---:|:---:|:---:|
+| Global Administrator | ✔ | ✔ | ✔ |
+| AI Administrator | ✔ | ✔ | ✔ |
+| Global Reader | ✔ | ✔ | ✖ |
+| AI Reader | ✔ | ✔ | ✖ |
+| Security Administrator | ✔ | ✔ | ✖ |
+| Security Reader | ✔ | ✔ | ✖ |
+| Security Operator | ✔ | ✔ | ✖ |
+| Reports Reader | ✔ | ✖ | ✖ |
+| User Experience Success Manager | ✔ | ✖ | ✖ |
 
-- Highlights critical actions for administrators, such as:
+These **AI Administrator** and **Global Administrator** roles have tenant‑wide visibility and governance authority, where-as by contrast, product-specific admin roles allow governance only within the boundaries of their products (such as Power Platform Administrator and Fabric Administrator).
 
-  - Approve pending requests.
-  - Manage agents with alerts.
-  - Exceptions.
+> [!IMPORTANT]
+>
+> Use roles with the fewest permissions. Accounts with lower permissions help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-- Surfaces governance signals to maintain compliance and reduce risk.
+View access to the agent **Overview** does not grant permissions to install, modify, or manage agents. Administrative actions continue to be governed by role-based access controls aligned with agent installation and consent workflows.
 
-- Enables quick navigation to the **All agent** page.
+Viewing agent **Registry** information includes the following capabilities:
+- View the list of registered agents within their organization
+- Access agent-level metadata (Such as **Agent name**, **Publisher**, **Owner** *(where available)*, **Installation status**, **Availability scope**, and **Last updated timestamp**.
+
+### Governance actions for agents 
+
+Administrators can use governance insights in the Microsoft 365 Admin Center to identify and remediate compliance gaps related to agent usage across the organization.
+
+Examples of governance include the actions: 
+- Review and approve pending agent installation requests
+- Assign ownership to agents without a designated owner
+
+These actions can be initiated based on the following agent views:
+- Pending Requests for Agents
+- Ownerless Agents
+
+Selecting these options in Microsoft 365 admin center navigates you to relevant filtered views within the agent **Registry** to take corrective action.
+
+> [!IMPORTANT]
+> Governance actions, such as approving agent requests or assigning agent ownership, can only be performed by admins assigned to the **AI Administrator** or **Global Administrator** Microsoft Entra roles. Other supported roles can monitor governance gaps but cannot take administrative actions. In addition, admins that have been assigned the **AI Administrator** role are not authorized to configure **Conditional Access** policies or **Microsoft Entra** access package policies. These actions require a highly privileged administrator role with appropriate Microsoft Graph permissions.
+
+## Key features of the Agent overview
+
+Using the **Agent overview**, you can view key agent details for your tenant, including the following items:
+
+- A snapshot of agent health and actionable insights for the last 30 days
+- Critical actions for administrators to review, such as:
+  - Approve pending requests
+  - Manage agents without owners
+- Total agents in your organization
 
 ## Hero metrics for agent adoption and impact
 
 Hero metrics provides a high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale, engagement, and business value.
 
-**Agent Registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent Registry reflects the breadth of automation capabilities deployed across your tenant. In the **Agent overview** page, you can select **Explore All agents** > **Registry** to view your inventory in detail.
-
-- **Active users** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered an active user.
-
-- **Total sessions** - The count of complete agent invocations in which the agent performed a task, answered a query, or completed an interaction during the past 30 days.
-
-- **Exception rate** - Percentage of agent sessions in the last 30 days that completed without errors, meaning the agent finished the intended task.
-
+**Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
+- **Active users in Copilot** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered an active user.
 - **Agent Runtime** - Total agent assisted time over the past 30 days, calculated as the sum of each agent session's duration (end time minus start time).
 
-**Active users**, **Total sessions**, **Exception rate**, and **Agent Runtime** currently support the following agent types:
+## Top actions for you
 
-- Microsoft 365 Copilot Agent Builder.
-- SharePoint.
-- Microsoft 365 Agents Toolkit.
-- Agents integrated with the [Agent 365 Observability SDK](/microsoft-agent-365/admin/monitor-agents).
-
-Customers enrolled in the [Agent 365 Frontier preview program](https://adoption.microsoft.com/copilot/frontier-program/) can access these metrics.
-
-## Agent Analytics
-
-Get detailed insights into how agents are distributed and used. This information helps administrators understand adoption patterns and optimize resources.
-
-- **Agents by Publishers** - View a breakdown of all agents in your inventory by their source of publisher, such as who created and shared the agent. There are two categories:
-
-  - **Created by your organization** - Agents that your organization created and published. These agents can be shared by the creator or used only by the creator.
-
-  - **Created by external partners** - Agents created by external partners.
-
-- **Agents by Platforms** - See which creation platforms are most used for building agents. For example:
-
-  - Copilot Studio (Full/Lite).
-  - Azure AI Foundry.
-  - Any external partner platforms.
-
-- **Active Users Over Time** - View a trend chart that shows daily active user engagement with agents over the past 30 days. This chart reveals adoption momentum and helps you spot usage spikes or declines.
-
-## Top governance actions for administrators
-
-View actionable governance cards that display urgent tasks for administrators to maintain compliance and improve adoption. These cards help administrators quickly identify and resolve governance gaps.
+View actionable governance cards that display urgent tasks for you (the administrator) to maintain compliance and improve adoption. These cards help you quickly identify and resolve governance gaps.
 
 - **Pending Requests for Agents** - See the total number of agent requests awaiting admin approval within the last 30 days. The card lists the three oldest pending requests, prioritized by oldest first. It also displays the delta badge next to the key metric to highlight week-over-week change in the total requests.
 
     To take immediate action, select the **Manage requests** button on the card. This selection navigates to the **Agent Registry** > **Requests** tab. This tab lists all pending agent requests submitted by users within your organization.
 
-- **Ownerless Agents** - View the total number of agents without an assigned owner and still pending owner assignment.
+- **Agents without owners** - View the total number of agents without an assigned owner and still pending owner assignment.
 
     You can directly select the **Assign Owner** button. The **Assign Owner** button goes to the **Agent Registry** > **Ownerless Agents** filter, showing agents without an assigned owner.
+
+## Agent Analytics
+
+Get detailed insights into how agents are distributed and used. This information helps administrators understand adoption patterns and optimize resources.
+
+- **Agents by creators** - View a breakdown of all agents in your inventory by their source of publisher, such as who created and shared the agent. There are two categories:
+  - **Created by your organization** - Agents that your organization created and published. These agents can be shared by the creator or used only by the creator.
+  - **Created by external partners** - Agents created by external partners.
+
+- **Top platforms used to build agents** - See which creation platforms are most used for building agents. For example:
+  - Copilot Studio
+  - Azure AI Foundry
+  - Any external partner platforms
+
+- **Active users in Copilot over time** - View a trend chart that shows daily active user engagement with agents over the past 30 days. This chart reveals adoption momentum and helps you spot usage spikes or declines.
+
+- **Trending agents by active users in Copilot** - You can view the agents that are most used by users in your organization.

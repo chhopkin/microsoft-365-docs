@@ -276,25 +276,29 @@ items:
            href: /copilot/microsoft-365/copilot-for-microsoft-365-admin
          - name: Agents in Microsoft 365 admin center
            items:
-            - name: Manage agents in the Microsoft 365 admin center
-              href: manage/manage-copilot-agents-integrated-apps.md
-            - name: Agent Overview page
+            - name: Agent management overview
               href: manage/agent-365-overview.md
-            - name: Agent Store in Microsoft 365 Copilot
-              href: /microsoft-365/copilot/copilot-agent-store?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
-            - name: Agent Registry
+            - name: Manage agent inventory
               items:
-              - name: Agent Registry
+              - name: Agent registry
                 href: manage/agent-registry.md
-              - name: Manage agent instances
-                href: manage/manage-agent-instances.md
-              - name: Manage Connected Agents for researcher
-                href: manage/manage-connected-agents-for-researcher.md
-            - name: Agent Map
-              href: manage/agent-map.md
-            - name: Manage Tools for agents
+              - name: Agent map
+                href: manage/agent-map.md
+              - name: Agent requests
+                href: manage/agent-requests.md
+              - name: Agent details
+                href: manage/agent-details.md
+            - name: Manage agent actions
+              href: manage/agent-actions.md
+            - name: Manage agent instances
+              href: manage/manage-agent-instances.md
+            - name: Manage digital workers
+              href: manage/manage-digital-workers.md
+            - name: Manage connected agents
+              href: manage/manage-connected-agents-for-researcher.md
+            - name: Agent tools
               href: manage/manage-tools-for-agent.md
-            - name: Agent Settings
+            - name: Agent tenant settings
               href: manage/agent-settings.md
          - name: Microsoft Graph connectors for Microsoft Search
            href: /microsoftsearch/connectors-overview
