@@ -64,7 +64,7 @@ Getting started takes just a few steps.
 
 1. Open  [Microsoft 365 Copilot](https://m365.cloud.microsoft).
 2. Select **Cowork**.
-3. Describe the task you want to accomplish. You can type up to 16,000 characters and attach files by dragging them into the chat or using the file picker.
+3. Describe the task you want to accomplish. You can type up to 250,000 characters and attach files by dragging them into the chat or using the file picker.
 4. Send your message. Cowork begins processing your request.
 
 ## Does Cowork work on mobile devices?
@@ -94,10 +94,13 @@ You can attach a wide variety of files to your conversations. Cowork supports th
 Yes. You can preview the following file types directly in the conversation:
 
 - PDF
+- Microsoft 365 documents (Word, Excel, PowerPoint)
 - CSV
 - Markdown
+- Code files (with syntax highlighting)
 - Images
 - HTML
+- Email
 
 Select a file to open an inline preview. You can also go full-screen or open the file in its native app.
 
@@ -195,6 +198,10 @@ Yes. Sometimes Cowork needs more information to complete your request. When this
 ## Does Cowork connect to external models for processing?
 
 Yes. Cowork uses Anthropic models as a subprocessor to ensure secure and responsible use of Anthropic models within your organization. Details about the integration can be found at [Anthropic as a subprocessor for Microsoft Online Services](/microsoft-365/copilot/connect-to-ai-subprocessor).
+
+## Are there unsupported countries/regions?
+
+Due to Anthropic terms of service, access is prohibited for entities based in China, including Hong Kong, as well as companies worldwide that are more than 50% owned, directly or indirectly, by Chinese firms. You can find a full list and details of unsupported countries/regions on Anthropic's [Updating restrictions of sales to unsupported regions](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions) article.
 
 ## Related content
 
