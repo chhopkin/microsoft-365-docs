@@ -53,12 +53,7 @@ AI provider assignments are:
   - Power Platform admin center (PPAC)
   - Copilot Studio
 
-Applicable to providers acting as:
-
-- AI model subprocessors
-- Independent model processors
-
-These assignments apply to all supported AI providers that are currently available.
+User and security group access will apply to AI subprocessors and AI independent processors for all current and future third‑party model providers.
 
 ## Enforcement across Copilot experiences
 
