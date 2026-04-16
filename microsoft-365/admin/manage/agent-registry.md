@@ -45,13 +45,13 @@ The agent registry in [Microsoft 365 admin center](https://admin.microsoft.com/)
 
 ## Agent types
 
-The agent **Registry** lists all agents that are available to your organization. Agent are divided into four main types, as shown in the following table:
+The agent **Registry** lists all agents that are available to your organization. Agents are divided into four main types, as shown in the following table:
 
 | Agent type | Description |
 |---|---|
 | **Microsoft agents** | Agents built and maintained by Microsoft. |
 | **External partner-built agents** | Agents built by trusted non-Microsoft developers and published for broader or public availability. |
-| **Published by your org** | Custom agents approved and published by your organization for broader use. These agents may be referred to as LOB (Line of Business) agents. |
+| **Published by your org** | Custom agents approved and published by your organization for broader use. These agents might be referred to as LOB (Line of Business) agents. |
 | **Shared by creator** | Agents created and shared by individual users or developers at your organization. These agents are commonly referred to as Shared agents. |
 
 ## Agent registry summary
@@ -62,16 +62,21 @@ The agent **Registry** provides quick details about the agents your organization
 |---|---|
 | **Total agents** | The number of agents available in your organization's tenant. |
 | **Agents without owners** | The number of agents that no longer have owners at your organization. |
-| **Blocked agents** | The number of agents that have been block from members of your organization. |
+| **Blocked agents** | The number of agents that are blocked from members of your organization. |
 
 ### Agent registry filters
 
-The agent **Registry** can contain a large and deverse inventory of agents. As your organization's agent adoption increases, management of all your agents can be more involved and complex. Filtering this list will help you narrow the view to the agents that you wnat to focus on at the moment, which will allow you to be more efficient, make focused decisions, and better apply your agent governance processes.
+The agent **Registry** can contain a large and diverse inventory of agents. As your organization's agent adoption increases, management of all your agents can be more involved and complex. Filtering this list helps you narrow the view to the agents that you want to focus on at the moment that allows you to:
+
+- Be more efficient.
+- Make focused decisions.
+- Better apply your agent governance processes.
 
 You can filter the agent list based on the following criteria:
+
 - **Status** - You can filter the agent list based on status of the agent.
 - **Publisher** - The publisher filter indicates who owns and distributes the agent, rather than where or how it was built. This filter is primarily used to distinguish between Microsoft agents, external partner-built agents, and internally owned agents publish by your organization.
-- **Channel** - The channel filter is the location where the agent has been deployed. It is the surface through which members of your organization can discover and interact with the agent. Channel values include **Copilot**, **Office**, **Outlook**, **Teams**.
+- **Channel** - The channel filter is the location where the agent is deployed. It's the surface through which members of your organization can discover and interact with the agent. Channel values include **Copilot**, **Office**, **Outlook**, **Teams**.
 - **Platform** - The platform filter indicates which platform or product was used to create the agent.
 - **Data source** - The data source filter allows you to select **Embedded knowledge** and **Fine-tuned models** as data source options. **Embedded knowledge** refers to agents that include files that were uploaded by the agent maker or developer as knowledge sources. **Fine-tuned models** indicates that the agent was created using [Microsoft 365 Copilot Tuning](/microsoft-365/copilot/copilot-tuning-overview), allowing the agent to tune LLMs with their own organization data.
 
@@ -86,8 +91,8 @@ The agent **Registry** provides agent actions that relate specifically to your t
 |---|---|
 | **Refresh** | Updates to list to provide the most current view of the agent list. |
 | **Export to Excel** | Exports agents to a CSV file. This action could take some time depending on the number of agents in the tenant. For more information, see [Export to Excel](#export-to-excel).  |
-| **Upload custom agent** | Provides a method to upload an agent manifest file (.zip). For more information, see [Updload custom agent](#upload-custom-agent). |
-| **Manage pinned agents** | Select which agents are pinned for the user. Pinned agents are more prominently displayed in each available channel where the agent has been deployed. You can change the priority of pinned agents by moving them up and down in this list. If a user has more than three pinned agents, users won't see those with lower priority. For more information, see [Managed pinned agents](#manage-pinned-agents). |
+| **Upload custom agent** | Provides a method to upload an agent manifest file (.zip). For more information, see [Upload custom agent](#upload-custom-agent). |
+| **Manage pinned agents** | Select which agents are pinned for the user. Pinned agents are more prominently displayed in each available channel where the agent is deployed. You can change the priority of pinned agents by moving them up and down in this list. If a user has more than three pinned agents, users don't see agents with lower priority. For more information, see [Managed pinned agents](#manage-pinned-agents). |
 | **Search** | Use the search option to quickly find an agent in your agent **Registry**. |
 
 > [!TIP]
@@ -146,7 +151,7 @@ To upload an agent, the agent must be contained in a ZIP packet file. The ZIP fi
 >
 > To download your agent ZIP file from Copilot Studio, select **Agents** > *the name of your agent* > **Channels**. Select the channel you use to publish, such as **Teams and Microsoft 365 Copilot**. Select **Availability options** > **Download .zip**.
 >
-> To downoad your declarative agent ZIP file from Agent Builder in Copilot, select **All agents** > *click the ellipses next to your agent* > **Edit** > *click the ellipses on the right* > **Download .zip file**.
+> To download your declarative agent ZIP file from Agent Builder in Copilot, select **All agents** > *select the ellipses next to your agent* > **Edit** > *select the ellipses on the right* > **Download .zip file**.
 
 To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
@@ -154,7 +159,7 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 1. Select **Choose file** to find and select the agent ZIP file.
   The ZIP file is validated.
   Then, select **Next**.
-1. Verify the agent’s name, icon, and host products.
+1. Verify the agent's name, icon, and host products.
 1. Under **Publish**, select the users or groups who can install the agent.
 
   :::image type="content" source="../../media/agents/agent-upload-01.png" alt-text="Screenshot of 'Publish to users' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-01.png":::
@@ -165,7 +170,7 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
   > [!NOTE]
   > You can select a small audience for testing purposes. For instance, select **Just me**, or a single test group to narrow the availability of the agent.
 
-1. Choose to apply either an existing policy template, a custom policy, or the default policy. For more existing policy template information, see [Secuirty templates](/microsoft-365/admin/manage/agent-settings#security-templates). Agent 365 users can apply selected custom policies and protections. Default policies and protections are managed through their security platform. Check the status of each in the platform. Note policies and protections may not be enabled.
+1. Choose to apply either an existing policy template, a custom policy, or the default policy. For more existing policy template information, see [Security templates](/microsoft-365/admin/manage/agent-settings#security-templates). Agent 365 users can apply selected custom policies and protections. Default policies and protections are managed through their security platform. Check the status of each in the platform. Note policies and protections might not be enabled.
   Then, select **Next**.
 
 :::image type="content" source="../../media/agents/agent-upload-02.png" alt-text="Screenshot of 'Apply Security Template' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-02.png":::
@@ -179,9 +184,9 @@ As an administrator, you can choose to pin a deployed agent to the **Agents** li
 
 ✅ **Task: Review and confirm your organization’s pinned agents that are displayed in Microsoft 365 admin center.**
 
-Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Microsoft pinned agents are specific agents that are pinned by default for all users. Admin pinned agents are pinned by you or your organization by using the Copilot Control System in Microsoft 365 admin center. User pinned agents are pinned by individual users in their own Microsoft 365 Copilot Chat or Microsoft 365 Copilot experience.
+Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Microsoft pinned agents are specific agents that are pinned by default for all users. Your organization pins admin pinned agents by using the Copilot Control System in Microsoft 365 admin center. Individual users pin user pinned agents in their own Microsoft 365 Copilot Chat or Microsoft 365 Copilot experience.
 
-:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
+:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot." lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
 
 To set, view, or manage pinned agents for your organization, see [Manage Pinning of Agents](/microsoft-365/admin/manage/manage-pinning-agents).
 
@@ -338,7 +343,7 @@ For more information, see [Agent and app Package Management API overview (previe
 
 ## Risks column in the All agents page
 
-The **Risks** column on the Microsoft 365 admin center **All agents** page provides a unified view of aggregated high severity risks across Microsoft security platforms such as Entra, Microsoft Defender, and Purview. It closes a critical visibility gap for IT administrators responsible for governing AI agents. The **Risks** column is only available when a tenant has a [Microsoft 365 E7](https://microsoftpartners.microsoft.com/abs/Blog/?title=Introducing%20Microsoft%20365%20E7:%20The%20Frontier%20Suite) license.
+The **Risks** column on the Microsoft 365 admin center **All agents** page provides a unified view of aggregated high severity risks across Microsoft security platforms such as Microsoft Entra, Microsoft Defender, and Purview. It closes a critical visibility gap for IT administrators responsible for governing AI agents. The **Risks** column is only available when a tenant has a [Microsoft 365 E7](https://microsoftpartners.microsoft.com/abs/Blog/?title=Introducing%20Microsoft%20365%20E7:%20The%20Frontier%20Suite) license.
 
 :::image type="content" source="../../media/agents/all-agents-page.png" alt-text="Screenshot of the All agents page in the Microsoft 365 admin center." lightbox="../../media/agents/all-agents-page.png":::
 
