@@ -1,6 +1,6 @@
 ---
-title: "Use Copilot Cowork (Frontier)"
-description: "Learn how to have conversations, manage files, approve actions, and organize projects with Copilot Cowork in Microsoft 365 Copilot."
+title: "Use Cowork (Frontier)"
+description: "Learn how to have conversations, manage files, approve actions, and organize projects with Microsoft 365 Copilot Cowork."
 ms.date: 04/07/2026
 ms.topic: how-to
 author: leeclontz
@@ -15,11 +15,11 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Use Copilot Cowork (Frontier)
+# Use Cowork (Frontier)
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Cowork in Microsoft 365 Copilot carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
+Microsoft 365 Copilot Cowork carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
 
 ## Start a conversation
 
@@ -372,6 +372,6 @@ Cowork supports keyboard shortcuts to help you work faster.
 
 ## Related content
 
-- [Copilot Cowork overview](index.md)
-- [Get started with Copilot Cowork](get-started.md)
-- [Copilot Cowork common questions](cowork-faq.md)
+- [Cowork overview](index.md)
+- [Get started with Cowork](get-started.md)
+- [Cowork common questions](cowork-faq.md)
