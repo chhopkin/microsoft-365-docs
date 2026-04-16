@@ -1,6 +1,6 @@
 ---
-title: "Responsible AI FAQ for Copilot Cowork"
-description: "Get answers to frequently asked questions about responsible AI and Copilot Cowork in Microsoft 365 Copilot."
+title: "Responsible AI FAQ for Cowork"
+description: "Get answers to frequently asked questions about responsible AI and Microsoft 365 Copilot Cowork."
 ms.date: 04/03/2026
 ms.topic: faq
 ms.custom:
@@ -17,15 +17,15 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Responsible AI FAQ for Copilot Cowork
+# Responsible AI FAQ for Cowork
 
 [!INCLUDE [preview](../includes/preview.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Copilot Cowork in Microsoft 365 Copilot.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft 365 Copilot Cowork.
 
 ## What is Cowork?
 
-Copilot Cowork in Microsoft 365 Copilot helps you carry out tasks across Microsoft 365 using natural language instructions. For example, it can send emails, schedule meetings, create documents, post in Teams, and manage files. Each action that Cowork takes is visible in the conversation. Sensitive actions require your explicit approval before they're executed.
+Cowork helps you carry out tasks across Microsoft 365 using natural language instructions. For example, it can send emails, schedule meetings, create documents, post in Teams, and manage files. Each action that Cowork takes is visible in the conversation. Sensitive actions require your explicit approval before they're executed.
 
 ## What are Cowork's capabilities?
 
@@ -127,10 +127,10 @@ Your feedback is used to evaluate and improve Cowork's quality and safety.
 
 ## Related content
 
-- [Responsible AI overview for Copilot Cowork](cowork-responsible-ai-overview.md)
-- [Copilot Cowork overview](../cowork/index.md)
-- [Get started with Copilot Cowork](../cowork/get-started.md)
-- [Use Copilot Cowork](../cowork/use-cowork.md)
-- [Copilot Cowork common questions](../cowork/cowork-faq.md)
+- [Responsible AI overview for Cowork](cowork-responsible-ai-overview.md)
+- [Cowork overview](../cowork/index.md)
+- [Get started with Cowork](../cowork/get-started.md)
+- [Use Cowork](../cowork/use-cowork.md)
+- [Cowork common questions](../cowork/cowork-faq.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
 
