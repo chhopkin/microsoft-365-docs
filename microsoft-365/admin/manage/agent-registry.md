@@ -375,6 +375,30 @@ To support further investigation, admins can select the **Review** link. The **R
 >
 > - There might be a delay of up to an hour for the risks count in the Microsoft 365 admin center when compared to what is shown in the security portals.
 
+### Agents at risk card
+
+The **Agents at risk** card on the Microsoft 365 admin center **Overview** page provides administrators with a tenant‑level summary of agents that are identified with high‑severity risks across Microsoft security platforms including:
+
+- Microsoft Entra.
+- Microsoft Purview.
+- Microsoft Defender.
+
+To access the **Agents at risk** card in the Microsoft 365 admin center follow these steps:
+
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+
+1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
+
+1. Under **Agents**, select [**Overview**](https://admin.cloud.microsoft/?#/agents/overview).
+
+1. In the **Agent 365 overview** page, you can find the **Agents at risk** card under **Top actions for you**.
+
+1. In the **Agents at risk** card, select **Manage agent risks** to be taken to the **All agents** > **Registry** page.
+
+The **Agents at risk** card offers immediate visibility into the agents with the highest aggregated risks in the organization by surfacing the top three most at‑risk agents, enabling administrators to quickly prioritize investigation and response efforts.
+
+Selecting **View agents** from the card takes administrators directly to the **All agents** > **Registry** page, where agents are pre‑filtered and sorted based on risk level. This filtering allows for streamlined investigation and remediation workflows without requiring manual filtering across the full agent inventory.
+
 ### Role-based access for the Review link
 
 The following table shows what each role can access when they select the **Review** link:
