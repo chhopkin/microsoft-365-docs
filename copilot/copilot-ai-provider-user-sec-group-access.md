@@ -28,7 +28,12 @@ Organizations that use third-party AI providers with Microsoft 365 Copilot or Co
 
 ## AI provider user and group access
 
-You can assign AI providers to selected users or groups in the Microsoft 365 admin center. This allows your organization to control which users can access specific AI providers that are enabled for use with Microsoft 365 Copilot experiences, agents, or Copilot Studio.
+You can assign AI providers to selected users or groups in the Microsoft 365 admin center. For more information, see:
+
+- [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md)
+- [Connect to xAI's models](connect-to-ai-models.md)
+
+This allows your organization to control which users can access specific AI providers that are enabled for use with Microsoft 365 Copilot experiences, agents, or Copilot Studio.
 
 Administrators can assign access to:
 
