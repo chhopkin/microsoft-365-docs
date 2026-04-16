@@ -393,7 +393,11 @@ To access the **Agents at risk** card in the Microsoft 365 admin center follow t
 
 1. In the **Agent 365 overview** page, you can find the **Agents at risk** card under **Top actions for you**.
 
-1. In the **Agents at risk** card, select **Manage agent risks** to be taken to the **All agents** > **Registry** page.
+    > [!NOTE]
+    >
+    > If you don't see the **Agents at risk** card, you might not have any agents currently at risk.
+
+1. In the **Agents at risk** card, select **View agents** to be taken to the **All agents** > **Registry** page.
 
 The **Agents at risk** card offers immediate visibility into the agents with the highest aggregated risks in the organization by surfacing the top three most at‑risk agents, enabling administrators to quickly prioritize investigation and response efforts.
 
