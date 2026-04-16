@@ -101,7 +101,7 @@ To pin Cowork for your users:
 3. Choose whether to pin it for the entire organization or specific groups.
 4. Save your changes.
 
-You'll see Copilot Cowork in the Copilot rail the next time you open Copilot. If you prefer, you can unpin admin-pinned agents from your own view.
+You'll see **Cowork** in the Copilot rail the next time you open Copilot. If you prefer, you can unpin admin-pinned agents from your own view.
 
 Learn more in [Manage pinned agents for Microsoft 365 Copilot](/admin/manage/agent-registry).
 
