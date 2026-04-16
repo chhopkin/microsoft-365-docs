@@ -55,33 +55,44 @@ The following capabilities help your organization confidently manage and govern 
 - **Be audit-ready from the start** - Strengthen visibility and traceability of agent actions and interactions, including who approved an agent, what it accessed, and how it behaved.
 - **Reduce compliance and safety risks** - Establish data safety and compliance controls to detect, retain, and investigate unethical agent interactions.
 
-The Agent workload within [Microsoft 365 admin center](https://admin.microsoft.com/) allows you to view a summary of agents that you manage, deploy, and monitor at your organization. It provides usage and insights that are to monitor agent adoption and governance. The Agent workload serves as the grounding control plane for all agents managed at your organization.
+The Agent workload within [Microsoft 365 admin center](https://admin.microsoft.com/) allows you to view a summary of agents that you manage, deploy, and monitor at your organization. It provides usage and insights that help monitor agent adoption and governance. The Agent workload serves as the grounding control plane for all agents managed at your organization.
 
-Additionally, you can use the Agent workload to do the following tasks:
+The Agent workload will help you accomplish the following tasks:
 - Discover and review the agents that exist in your organization's tenant
 - Understand who published and owns each agent
 - Control availability and access to each agent
 - Apply agent governance and policy decisions consistently across channels
 
-:::image type="content" source="../../media/agents/agent-overview.png" alt-text="Screenshot showing the agent workload in Microsoft 365 admin center, which provides management controls and details for agents within your organization's tenant." lightbox="../../media/agents/agent-overview.png":::
-
 > [!IMPORTANT]
 > Certain features are available within Microsoft 365 admin center based on services licensed in your subscription. Based on your subscription, you may see Agent 365 branding and additional agent related features and details. To view your licensed subscriptions in the [Microsoft 365 admin center](https://admin.cloud.microsoft/), select **Billing** > **Licenses** > **Subscriptions**.
 
-The **Agent overview** provides you with a centralized dashboard to:
+## View the Agent overview
 
-- Track agent adoption and usage trends
-- Identify alerts and governance gaps
-- Enable visibility and control across all agents in your tenant
-
-> [!TIP]
-> A tenant is an instance of Microsoft Entra ID. Your subscription to Copilot or Agent 365 is hosted by a Microsoft Entra tenant. For more information about creating and understanding tenants, see [Set up a new Microsoft Entra tenant](/entra/identity-platform/quickstart-create-new-tenant) in the Microsoft Entra documentation.
-
-You can access the **Agent overview** using the following steps:
+You can access and view the **Agent overview** using the following steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 2. Select **Agents** > **Overview**.
    The **Agent overview** pane is displayed.
+
+## Agent overview summary
+
+Using the **Agent overview**, you can view key agent details for your tenant, including the following items:
+
+- A snapshot of agent health and actionable insights for the last 30 days
+- Track agent adoption and usage trends
+- Identify alerts and governance gaps
+- Critical actions for administrators to review, such as:
+  - Approve pending requests
+  - Manage agents without owners
+- Total agents in your organization
+- Enable visibility and control across all agents in your tenant
+ 
+> [!TIP]
+> A tenant is an instance of Microsoft Entra ID. Your subscription to Copilot or Agent 365 is hosted by a Microsoft Entra tenant. For more information about creating and understanding tenants, see [Set up a new Microsoft Entra tenant](/entra/identity-platform/quickstart-create-new-tenant) in the Microsoft Entra documentation.
+
+:::image type="content" source="../../media/agents/agent-overview.png" alt-text="Screenshot showing the agent workload in Microsoft 365 admin center, which provides management controls and details for agents within your organization's tenant." lightbox="../../media/agents/agent-overview.png":::
+
+View access to the agent **Overview** doesn't grant permissions to install, modify, or manage agents. Administrative actions continue to be governed by role-based access controls aligned with agent installation and consent workflows.
 
 ## Agent management roles and permissions
 
@@ -103,44 +114,28 @@ The following table provides agent management capabilities  Microsoft 365 admin 
 | Reports Reader | ✔ | ✖ | ✖ |
 | User Experience Success Manager | ✔ | ✖ | ✖ |
 
-These **AI Administrator** and **Global Administrator** roles have tenant‑wide visibility and governance authority, where-as by contrast, product-specific admin roles allow governance only within the boundaries of their products (such as Power Platform Administrator and Fabric Administrator).
+The **AI Administrator** and **Global Administrator** roles have tenant‑wide visibility and governance authority, where-as by contrast, product-specific admin roles allow governance only within the boundaries of their products (such as Power Platform Administrator and Fabric Administrator).
 
 > [!IMPORTANT]
 >
-> Use roles with the fewest permissions. Accounts with lower permissions help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+> Use and assign roles with the fewest permissions to accomplish tasks. Accounts with lower permission roles help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-View access to the agent **Overview** doesn't grant permissions to install, modify, or manage agents. Administrative actions continue to be governed by role-based access controls aligned with agent installation and consent workflows.
+## Governance actions for agents
 
-Viewing agent **Registry** information includes the following capabilities:
-- View the list of registered agents within their organization
-- Access agent-level metadata (Such as **Agent name**, **Publisher**, **Owner** *(where available)*, **Installation status**, **Availability scope**, and **Last updated timestamp**.
+Administrators can use governance insights in the Microsoft 365 admin center to identify and remediate compliance gaps related to agent usage across the organization.
 
-### Governance actions for agents 
-
-Administrators can use governance insights in the Microsoft 365 Admin Center to identify and remediate compliance gaps related to agent usage across the organization.
-
-Examples of governance include the actions: 
+Examples of governance include the actions:
 - Review and approve pending agent installation requests
 - Assign ownership to agents without a designated owner
 
 These actions can be initiated based on the following agent views:
-- Pending Requests for Agents
-- Ownerless Agents
+- Pending Requests for agents
+- Ownerless agents
 
 Selecting these options in Microsoft 365 admin center navigates you to relevant filtered views within the agent **Registry** to take corrective action.
 
 > [!IMPORTANT]
 > Governance actions, such as approving agent requests or assigning agent ownership, can only be performed by admins assigned to the **AI Administrator** or **Global Administrator** Microsoft Entra roles. Other supported roles can monitor governance gaps but can't take administrative actions. In addition, admins that have been assigned the **AI Administrator** role aren't authorized to configure **Conditional Access** policies or **Microsoft Entra** access package policies. These actions require a highly privileged administrator role with appropriate Microsoft Graph permissions.
-
-## Key features of the Agent overview
-
-Using the **Agent overview**, you can view key agent details for your tenant, including the following items:
-
-- A snapshot of agent health and actionable insights for the last 30 days
-- Critical actions for administrators to review, such as:
-  - Approve pending requests
-  - Manage agents without owners
-- Total agents in your organization
 
 ## Hero metrics for agent adoption and impact
 
