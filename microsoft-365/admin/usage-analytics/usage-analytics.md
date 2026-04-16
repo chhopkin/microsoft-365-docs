@@ -28,7 +28,7 @@ description: Learn how to use Microsoft 365 usage analytics in Power BI to track
 # Microsoft 365 usage analytics overview
 
 > [!IMPORTANT]
-> Starting in March 2026, the **Company**, **City**, and **ProxyAddresses** **field filters** in the User Activity tab will no longer be supported.. 
+> Starting in March 2026, the **Company**, **City**, and **ProxyAddresses** **field filters** in the User Activity tab will no longer be supported.
 >
 >To continue filtering activity data by **company**, **city** and **proxy addresses attributes**, you can join metrics from the Microsoft 365 usage report Graph API with your own data sources and build a custom dashboard in Power BI or another data visualization tool of your choice. The following Graph API reports include user-level detail: 
 >
