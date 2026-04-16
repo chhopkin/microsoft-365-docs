@@ -69,10 +69,10 @@ The agent **Registry** provides quick details about the agents your organization
 The agent **Registry** can contain a large and deverse inventory of agents. As your organization's agent adoption increases, management of all your agents can be more involved and complex. Filtering this list will help you narrow the view to the agents that you wnat to focus on at the moment, which will allow you to be more efficient, make focused decisions, and better apply your agent governance processes.
 
 You can filter the agent list based on the following criteria:
-- **Status** - You can filter the agent list based on status of the agent. 
+- **Status** - You can filter the agent list based on status of the agent.
 - **Publisher** - The publisher filter indicates who owns and distributes the agent, rather than where or how it was built. This filter is primarily used to distinguish between Microsoft agents, external partner-built agents, and internally owned agents publish by your organization.
 - **Channel** - The channel filter is the location where the agent has been deployed. It is the surface through which members of your organization can discover and interact with the agent. Channel values include **Copilot**, **Office**, **Outlook**, **Teams**.
-- **Platform** - The platform filter indicates which platform or product was used to create the agent. 
+- **Platform** - The platform filter indicates which platform or product was used to create the agent.
 - **Data source** - The data source filter allows you to select **Embedded knowledge** and **Fine-tuned models** as data source options. **Embedded knowledge** refers to agents that include files that were uploaded by the agent maker or developer as knowledge sources. **Fine-tuned models** indicates that the agent was created using [Microsoft 365 Copilot Tuning](/microsoft-365/copilot/copilot-tuning-overview), allowing the agent to tune LLMs with their own organization data.
 
 > [!TIP]
@@ -142,8 +142,8 @@ The agent **Registry** within Microsoft 365 admin center provides a method to up
 To upload an agent, the agent must be contained in a ZIP packet file. The ZIP file contains resources, such as manifest files, configuration files, icons, branding, and embedded knowledge files.
 
 > [!NOTE]
-> Your agent ZIP file can be downloaded from Copilot Studio or from Agent Builder in Copilot. 
-> 
+> Your agent ZIP file can be downloaded from Copilot Studio or from Agent Builder in Copilot.
+>
 > To download your agent ZIP file from Copilot Studio, select **Agents** > *the name of your agent* > **Channels**. Select the channel you use to publish, such as **Teams and Microsoft 365 Copilot**. Select **Availability options** > **Download .zip**.
 >
 > To downoad your declarative agent ZIP file from Agent Builder in Copilot, select **All agents** > *click the ellipses next to your agent* > **Edit** > *click the ellipses on the right* > **Download .zip file**.
@@ -154,7 +154,7 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 1. Select **Choose file** to find and select the agent ZIP file.
   The ZIP file is validated.
   Then, select **Next**.
-1. Verify the agent’s name, icon, and host products. 
+1. Verify the agent’s name, icon, and host products.
 1. Under **Publish**, select the users or groups who can install the agent.
 
   :::image type="content" source="../../media/agents/agent-upload-01.png" alt-text="Screenshot of 'Publish to users' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-01.png":::
@@ -336,12 +336,9 @@ The API works with the **AI Admin Role**.
 
 For more information, see [Agent and app Package Management API overview (preview)](/microsoft-365-copilot/extensibility/api/admin-settings/package/overview).
 
-## Agents with potential risks
+## Risks column in the All agents page
 
-The **High Risks** column, displayed in the agent registry within Microsoft 365 admin center, provides a unified view of aggregated high severity risks across Microsoft security platforms such as Entra, Microsoft Defender, and Purview. It closes a critical visibility gap for IT administrators responsible for governing AI agents. 
-
-> [!NOTE]
-> The **High Risks** column is only available when a tenant has a [Microsoft 365 E7](https://microsoftpartners.microsoft.com/abs/Blog/?title=Introducing%20Microsoft%20365%20E7:%20The%20Frontier%20Suite) or Microsoft Agent 365 license.
+The **Risks** column on the Microsoft 365 admin center **All agents** page provides a unified view of aggregated high severity risks across Microsoft security platforms such as Entra, Microsoft Defender, and Purview. It closes a critical visibility gap for IT administrators responsible for governing AI agents. The **Risks** column is only available when a tenant has a [Microsoft 365 E7](https://microsoftpartners.microsoft.com/abs/Blog/?title=Introducing%20Microsoft%20365%20E7:%20The%20Frontier%20Suite) license.
 
 :::image type="content" source="../../media/agents/all-agents-page.png" alt-text="Screenshot of the All agents page in the Microsoft 365 admin center." lightbox="../../media/agents/all-agents-page.png":::
 
@@ -349,11 +346,15 @@ To access the **All agents** page in the Microsoft 365 admin center and view the
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-1. From the left navigation bar, select **Agents** > **All agents** > **Registry**.
+1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
 
-1. The **High Risks** column appears in the table in the **All agents** page. If the **High Risks** column doesn't appear, the tenant might not have a Microsoft 365 E7 license.
+1. Under **Agents**, select [**All agents**](https://admin.cloud.microsoft/?#/agents/all).
 
-When an administrator selects the risk count for an agent from the **High Risks** column, they're taken directly to the Security tab within the agent's flyout details pane. This flyout provides a focused and actionable view of the total aggregated risk counts across all supported detection platforms for the selected agent. From this view, the administrator can further investigate risks and take mitigation actions, such as using the **Block** option to prevent the agent from operating if necessary. Additionally, the **Enabled policies and protection** sections display the default security protections applied to the agent by Microsoft Entra and Microsoft Purview.
+1. In the **All agents** page, make sure **Registry** is selected.
+
+1. The **Risks** column appears in the table in the **All agents** page. If the **Risks** column doesn't appear, the tenant might not have a Microsoft 365 E7 license.
+
+When an administrator selects the risk count for an agent from the **Risks** column, they're taken directly to the Security tab within the agent's flyout details pane. This flyout provides a focused and actionable view of the total aggregated risk counts across all supported detection platforms for the selected agent. From this view, the administrator can further investigate risks and take mitigation actions, such as using the **Block** option to prevent the agent from operating if necessary. Additionally, the **Enabled policies and protection** sections display the default security protections applied to the agent by Microsoft Entra and Microsoft Purview.
 
 :::image type="content" source="../../media/agents/agent-risks-flyout.png" alt-text="Screenshot of the agent risks flyout pane in the Microsoft 365 admin center." lightbox="../../media/agents/agent-risks-flyout.png":::
 
@@ -365,7 +366,19 @@ To support further investigation, admins can select the **Review** link. The **R
 
 > [!IMPORTANT]
 >
-> - The **High Risks** column only shows high severity risks flagged by the respective platforms. Zero risks is an indication that there are no high risks presently for the agent. However, there could be other types of risks, such as low or medium, in the respective security platforms.
+> - The **Risks** column only shows high severity risks flagged by the respective platforms. Zero risks is an indication that there are no high risks presently for the agent. However, there could be other types of risks, such as low or medium, in the respective security platforms.
 >
-> The **High Risks** column shows Microsoft Entra alerts from the past 90 days, following Microsoft Entra's retention policy. If agents no longer return active alerts because the underlying alerts are older than 90 days, the column appears as blank. As a result, some agents might continue to be marked **at risk** within Microsoft Entra even if no corresponding alert appears in Microsoft 365 admin center's **High Risks** column. The column supports all blueprint IDs and their associated instances. Any other agent types appear as blank in the **High Risks** column.
+> - There might be a delay of up to an hour for the risks count in the Microsoft 365 admin center when compared to what is shown in the security portals.
 
+### Role-based access for the Review link
+
+The following table shows what each role can access when they select the **Review** link:
+
+| **Role**          | **Microsoft Entra** | **Purview**         | **Defender**        |
+| ----------------- | ------------------- | ------------------- | ------------------- |
+| **Global Reader** | Can view            | Can view            | Can view            |
+| **AI Admin role** | Can view            | No view permissions | No view permissions |
+
+> [!IMPORTANT]
+>
+> To access Purview alerts, users must be assigned an **Insider Risk Management** (IRM) role within Purview. This role is required to sign in to Purview to view Insider Risk Management alerts. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
