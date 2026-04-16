@@ -96,8 +96,6 @@ items:
           href: whats-new-in-preview.md
         - name: Search in the Microsoft 365 admin center
           href: manage/search-in-the-mac.md
-        - name: Stay on top of changes
-          href: manage/stay-on-top-of-updates.md
         - name: Manage multiple tenants
           href: multi-tenant/manage.md
     - name: Manage users, groups, and passwords
@@ -456,8 +454,26 @@ items:
            href: manage/find-your-partner-or-reseller.md
          - name: Manage Microsoft feedback for your organization
            href: manage/manage-feedback-ms-org.md
-         - name: Set up release options
-           href: manage/release-options-in-office-365.md
+         - name: Change management
+           items: 
+           - name: Overview of modern change management
+             href: manage/plan-for-change-management.md
+           - name: Configure modern release options
+             href: manage/configure-release-options.md
+           - name: Modern release options FAQ
+             href: manage/release-options-faq.md
+           - name: Set up the Standard or Targeted release options
+             href: manage/release-options-in-office-365.md
+           - name: Message center
+             href: manage/message-center.md
+           - name: What's new in Message center
+             href: manage/message-center-updates.md
+           - name: Message center FAQ
+             href: manage/message-center-faq.md
+           - name: Connect Release Communications MCP Server
+             href: manage/mrc-mcp.md
+           - name: Overview of MCP Server for Enterprise
+             href: /graph/mcp-server/overview
          - name: Power BI usage analytics
            items:
            - name: About usage analytics
