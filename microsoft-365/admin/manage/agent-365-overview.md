@@ -34,7 +34,7 @@ search.appverid:
 
 # Agent management in Microsoft 365 admin center
 
-Agents are powerful AI companions that can handle a range of interactions and tasks. An agent can resolve issues that require complex conversations and autonomously determine the best action to take based on its instructions and context. It coordinates language models, along with instructions, context, knowledge sources, topics, tools, inputs, and triggers to accomplish goals that members of your organization need to accomplish. Your organization can use agents in multiple languages across websites, mobile apps, Facebook, Microsoft Teams, and any other supported channel.
+Agents are powerful AI companions that can handle a range of interactions and tasks. An agent can resolve issues that require complex conversations and autonomously determine the best action to take based on its instructions and context. It coordinates language models, along with instructions, context, knowledge sources, articles, tools, inputs, and triggers to accomplish goals that members of your organization need to accomplish. Your organization can use agents in multiple languages across websites, mobile apps, Facebook, Microsoft Teams, and any other supported channel.
 
 Agent governance involves using policies, settings, and admin actions to control how agents at your organization are accessed, published, deployed, and managed across your organization. When you apply an agent governance approach to managing agents, you ensure agents and the data they use remain secure and compliant.
 
@@ -63,9 +63,6 @@ The Agent workload will help you accomplish the following tasks:
 - Control availability and access to each agent
 - Apply agent governance and policy decisions consistently across channels
 
-> [!IMPORTANT]
-> Certain features are available within Microsoft 365 admin center based on services licensed in your subscription. Based on your subscription, you may see Agent 365 branding and additional agent related features and details. To view your licensed subscriptions in the [Microsoft 365 admin center](https://admin.cloud.microsoft/), select **Billing** > **Licenses** > **Subscriptions**.
-
 ## View the Agent overview
 
 You can access and view the **Agent overview** using the following steps:
@@ -73,6 +70,9 @@ You can access and view the **Agent overview** using the following steps:
 1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 2. Select **Agents** > **Overview**.
    The **Agent overview** pane is displayed.
+
+> [!IMPORTANT]
+> Certain features are available within Microsoft 365 admin center based on services licensed in your subscription. Based on your subscription, you may see Agent 365 branding and additional agent related features and details. To view your licensed subscriptions in the [Microsoft 365 admin center](https://admin.cloud.microsoft/), select **Billing** > **Licenses** > **Subscriptions**.
 
 ## Agent overview summary
 
@@ -142,34 +142,33 @@ Selecting these options in Microsoft 365 admin center navigates you to relevant 
 Hero metrics provide a high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale, engagement, and business value.
 
 **Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
-- **Active users in Copilot** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered as an active user.
-- **Agent Runtime** - Total agent assisted time over the past 30 days, calculated as the sum of each agent session's duration (end time minus start time).
+- **Active users** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered as an active user.
+- **Agent run-time** - Total hours worked by agents during the last 30 days, calculated as the sum of each agent session's duration (end time minus start time).
+- **Agent detector** - The external connected platforms that were scanned. You can connect to external platforms to find and monitor agents used in your organization. Your use of external non-Microsoft products is subject to the third-party service provider's terms of use. You're responsible for complying with each provider's terms of use.
 
 ## Top actions for you
 
 View actionable governance cards that display urgent tasks for you (the administrator) to maintain compliance and improve adoption. These cards help you quickly identify and resolve governance gaps.
 
-- **Pending Requests for Agents** - See the total number of agent requests awaiting admin approvals within the last 30 days. The card lists the three oldest pending requests, prioritized by oldest first. It also displays the delta badge next to the key metric to highlight week-over-week change in the total requests.
-
-    To take immediate action, select the **Manage requests** button on the card. This selection navigates to the **Agent Registry** > **Requests** tab. This tab lists all pending agent requests submitted by users within your organization.
-
-- **Agents without owners** - View the total number of agents without an assigned owner and still pending owner assignment.
-
-    You can directly select the **Assign Owner** button. The **Assign Owner** button goes to the **Agent Registry** > **Ownerless Agents** filter, showing agents without an assigned owner.
-
-## Agent Analytics
+- **Pending Requests for Agents** - See the total number of agent requests awaiting admin approvals within the last 30 days. The card lists the three oldest pending requests, prioritized by oldest first. It also displays the delta badge next to the key metric to highlight week-over-week change in the total requests. To take immediate action, select **Manage requests**. This selection navigates to the **Agent Registry** > **Requests** tab. This tab lists all pending agent requests submitted by users within your organization.
+- **Agents at risk** - View the total number of agents with security risks. Select **Manage agent risks** to view agents filter by risk in the **Agent Registry**. 
+- **Agents without owners** - View the total number of agents without an assigned owner and still pending owner assignment. Select **Assign Owner** to view a list of agents filtered by **Agents without owners**.
+- **Agent with exceptions** - View the total number of agents with errors in their conversations. Select **View details** to view a list of agents filtered by agents with errors.
+ 
+## Agent analytics
 
 Get detailed insights into how agents are distributed and used. This information helps administrators understand adoption patterns and optimize resources.
 
 - **Agents by creators** - View a breakdown of all agents in your inventory by their source of publisher, such as who created and shared the agent. There are two categories:
-  - **Created by your organization** - Agents that your organization created and published. These agents can be shared by the creator or used only by the creator.
-  - **Created by external partners** - Agents created by external partners.
-
+  - **Your organization** - Agents that your organization created and published. These agents can be shared by the creator or used only by the creator.
+  - **External partners** - Agents created by external partners.
+  - **Microsoft** - Agent created by Microsoft.
 - **Top platforms used to build agents** - See which creation platforms are most used for building agents. For example:
+  - Microsoft 365 Copilot Agent Builder
   - Copilot Studio
-  - Azure AI Foundry
-  - Any external partner platforms
+  - Agents Toolkit
+  - SharePoint
+  - Other
+- **Active users in Copilot over time** - View a trend chart that shows daily active user engagement with agents over the last 30 days. This chart reveals adoption momentum and helps you spot usage spikes or declines.
+- **Trending agents by active users** - You can view the agents with the most active users in your organization over the last 30 days.
 
-- **Active users in Copilot over time** - View a trend chart that shows daily active user engagement with agents over the past 30 days. This chart reveals adoption momentum and helps you spot usage spikes or declines.
-
-- **Trending agents by active users in Copilot** - You can view the agents that are most used by users in your organization.
