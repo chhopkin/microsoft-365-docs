@@ -17,6 +17,8 @@ items:
       href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
     - name: Microsoft 365 Copilot Chat FAQ
       href: /copilot/faq?toc=/microsoft-365/copilot/toc.json&bc=/microsoft-365/copilot/agent-framework/bread/toc.json
+    - name: Microsoft 365 Copilot Chat considerations
+      href: microsoft-365-copilot-chat-considerations.md
   - name: Licensing
     items:
     - name: Which Copilot is right for me?
@@ -453,6 +455,8 @@ items:
         items:
         - name: Overview of Copilot Cowork
           href: cowork/index.md
+        - name: What's new
+          href: cowork/whats-new.md
         - name: Get started
           href: cowork/get-started.md
         - name: Use Copilot Cowork

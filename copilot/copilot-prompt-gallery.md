@@ -46,7 +46,7 @@ For more information about how your users can use Copilot Prompt Gallery, see [L
 
 Prompt Gallery processes and manages data in a structured manner to ensure compliance and security. The following are key data compliance considerations:
 
-1. Authenticated users can access Prompt Gallery from Microsoft 365 Copilot or Copilot Chat (including within Microsoft Word). Unauthenticated users can only see Microsoft-authored prompts online at [Copilot Prompts](https://m365.cloud.microsoft/copilot-prompts), however, users must authenticate to try any of them in Copilot.
+1. Authenticated users can access Prompt Gallery from Microsoft 365 Copilot. Unauthenticated users can only see Microsoft-authored prompts online at [Copilot Prompts](https://m365.cloud.microsoft/copilot-prompts), however, users must authenticate to try any of them in Copilot.
 1. Prompt Gallery accesses Microsoft-authored Copilot prompts from the public catalog.
 1. Prompt Gallery also accesses user-created Copilot prompts from user and group collections in the Microsoft 365 Substrate data store.
 

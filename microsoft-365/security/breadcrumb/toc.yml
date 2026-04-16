@@ -6,13 +6,12 @@ items:
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
 - name: Microsoft 365
-  tocHref: /graph/
+  tocHref: /security/
   topicHref: /microsoft-365/index  
   items:
-  - name: Microsoft Bookings
-    tocHref: /bookings/
-    topicHref: /microsoft-365/bookings/
-  - name: Microsoft Bookings
-    tocHref: /graph/api/
-    topicHref: /microsoft-365/bookings/
-
+  - name: Security
+    tocHref: /microsoft-365/security/
+    topicHref: /microsoft-365/security/index
+  - name: Security
+    tocHref: /security/zero-trust/
+    topicHref: /microsoft-365/security/index   
