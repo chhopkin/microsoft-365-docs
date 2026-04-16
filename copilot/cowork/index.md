@@ -25,7 +25,7 @@ Microsoft 365 Copilot Cowork can carry out tasks on your behalf. You describe wh
 
 ## What is Cowork?
 
-Cowork is available in Microsoft 365 Copilot. It carries out tasks across your Microsoft 365 environment. Rather than describing what you could do, it does the work.
+Cowork carries out tasks across your Microsoft 365 environment. Rather than describing what you could do, it does the work.
 
 - **Sends emails**: Drafts, replies, forwards, and sends messages through Outlook.
 - **Schedules meetings**: Creates calendar events, adds attendees, and helps you organize your day.
