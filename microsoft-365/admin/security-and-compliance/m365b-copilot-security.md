@@ -49,7 +49,7 @@ How can companies enable new levels of user productivity with tools like Microso
 
   The following capabilities in **Business Premium** lead to results in those scenarios:
 
-  - Use biometrics to sign in to your Microsoft 365 account using Windows Hello for Business (enabled in Windows 11 Pro, which is [available in Business Premium](/microsoft-365/business-premium/m365bp-upgrade-windows-pro)).
+  - Use biometrics to sign in to your Microsoft 365 account using Windows Hello for Business (enabled in Windows 11 Pro).
   - Grant access to Microsoft 365 resources only when specific conditions are met (identity, device, and location) using user-based Conditional Access.
   - Require users or guests to accept the terms of use policy before gaining access to resources.
   - Restrict the use of Microsoft 365 apps, Microsoft Teams, and Copilot in these apps on personal devices.

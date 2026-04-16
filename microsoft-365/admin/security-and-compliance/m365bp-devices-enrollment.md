@@ -70,13 +70,6 @@ For the device types that you intend to enroll in MDM, you need to take care of 
 
   - Windows Autopilot uses a supported version of Windows Semi-Annual Enterprise Channel to set up PCs with business critical apps, policies, and features (for example, BitLocker) before you give the PCs to users. Autopilot can also reset, repurpose, and recover Windows devices. For more information, see [Overview of Windows Autopilot](/autopilot/overview).
 
-  - Business Premium includes free upgrades to Windows 10 Pro or Windows 11 Pro from the following versions of Windows:
-    - Windows 7 Pro
-    - Windows 8 Pro
-    - Windows 8.1 Pro
-
-    For more information, see [Upgrade Windows devices to Windows 10 or 11 Pro](/microsoft-365/business-premium/m365bp-upgrade-windows-pro).
-
 ### Step 3: Configure compliance policy settings in Intune
 
 Compliance policy settings are organization-wide and determine how Intune treats devices with no device compliance policies (also known as compliance policies) assigned. Possible values are:

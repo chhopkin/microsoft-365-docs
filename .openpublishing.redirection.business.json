@@ -1087,7 +1087,7 @@
     },
         {
       "source_path":"m365bp-upgrade-windows-pro.md",
-      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment.md",
       "redirect_document_id": false
     },
     {
