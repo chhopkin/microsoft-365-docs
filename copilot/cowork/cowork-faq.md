@@ -201,7 +201,7 @@ Yes. Cowork uses Anthropic models as a subprocessor to ensure secure and respons
 
 ## Are there unsupported countries/regions?
 
-Due to Anthropic terms of service, access is prohibited for entities based in China, including Hong Kong, as well as companies worldwide that are more than 50% owned, directly or indirectly, by Chinese firms. You can find a full list and details of unsupported countries/regions on Anthropic's [Updating restrictions of sales to unsupported regions](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions) article.
+Access to use Anthropic models via Microsoft services is limited to the [countries that Anthropic currently supports](https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions). There are limited exceptions to these regional restrictions for features in worldwide products and services that constrain access and use of Anthropic models. Copilot Cowork is not an exception, and use and access is currently limited to Anthropic supported regions.
 
 ## Related content
 
