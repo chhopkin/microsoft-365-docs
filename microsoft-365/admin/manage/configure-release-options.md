@@ -71,7 +71,7 @@ You must have one of the following roles in Microsoft 365 admin center to config
 - Security Admin
 - AI Admin
 
-For more information, see [About administrator roles in the Microsoft 365 admin center](/add-users/about-admin-roles).
+For more information, see [About administrator roles in the Microsoft 365 admin center](../add-users/about-admin-roles.md).
 
 ## Release option best practices
 
