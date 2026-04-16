@@ -29,7 +29,7 @@ Cowork is available in Microsoft 365 Copilot. It carries out tasks on your behal
 
 Cowork can send emails, schedule meetings, create documents (Word, Excel, PowerPoint, PDF), post in Teams, manage your calendar, prepare daily briefings, search across your organization, conduct deep research, and draft stakeholder communications. You can also schedule prompts to run automatically.
 
-For a full breakdown by category, see [What can Cowork do for you?](index.md#what-can-copilot-cowork-do-for-you)
+For a full breakdown by category, see [What can Cowork do for you?](index.md#what-can-cowork-do-for-you)
 
 ## How is Cowork different from Copilot Chat?
 
