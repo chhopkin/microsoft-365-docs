@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/08/2026
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -394,10 +394,6 @@ To access the **Agents at risk** card in the Microsoft 365 admin center follow t
 1. Under **Agents**, select [**Overview**](https://admin.cloud.microsoft/?#/agents/overview).
 
 1. In the **Agent 365 overview** page, you can find the **Agents at risk** card under **Top actions for you**.
-
-    > [!NOTE]
-    >
-    > If you don't see the **Agents at risk** card, you might not have any agents currently at risk.
 
 1. In the **Agents at risk** card, select **View agents** to be taken to the **All agents** > **Registry** page.
 
