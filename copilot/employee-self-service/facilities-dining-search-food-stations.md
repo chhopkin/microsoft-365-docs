@@ -13,7 +13,7 @@ ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about extending the Employee Self-Service tailored to your organization. This article describes the steps to steps to search food by category (Dining) via ESS. Example - "Where can I find Chinese food?".
+description: Learn about extending the Employee Self-Service tailored to your organization. This article describes the steps to steps to search food by category (Dining) via Employee Self-Service. Example - "Where can I find Chinese food?".
 appliesto:
   - ✅ Microsoft 365 Copilot
 ---
@@ -94,7 +94,7 @@ HTTP request action reference:
 
 Every café is comprised of multiple stations, and each station is a dedicated area serving a specific type of food or beverage (e.g., Espresso, Deli, Dim Sum). These stations give employees a variety of choices within the same café.
 
-With the **“Search stations by category”** feature in the Employee Self-Service (ESS) Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine in their prompt (e.g., _“Where can I find Chinese food?”_) and get stations serving that cuisine.
+With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine in their prompt (e.g., _“Where can I find Chinese food?”_) and get stations serving that cuisine.
 
 The employees save time, skip the hassle, and make every meal a choice they will love.
 
@@ -110,7 +110,7 @@ This process involves only one step: define and implement the topic end-to-end, 
   :::image type="content" source="media/facilities-dining-add-topic-trigger.png" alt-text="Screenshot showing how add a topic trigger.":::
 
 - Use the code from the Copilot Samples repo file:  
-  https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml
+  <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml>
 
 - Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction”. You will see a code that sets a value to a topic variable named SearchStationsApiUrl, as in the screenshot below. Update the variable value as per your backend system.
 
@@ -122,7 +122,7 @@ This process involves only one step: define and implement the topic end-to-end, 
 - Optionally, follow the section Validate the Topic to understand and validate the steps
 - Using the “Test” button in Copilot studio, open the test chat window.
 - Ask using the prompt “Where can I find Chinese food?”
-- The Employee Self-Service (ESS) system will display Chinese food options.
+- The Employee Self-Service Copilot Agent will display Chinese food options.
 
   :::image type="content" source="media/facilities-dining-where-is-food.png" alt-text="Screenshot showing results of the topic that searches for food.":::
 
