@@ -66,7 +66,7 @@ Extending Employee Self-Service for RE&F experiences requires an understanding o
 
 In Copilot Studio, a topic is defined as a workflow of a conversation. Microsoft 365 Copilot topics are used to:
 
-- Define trigger prompts that determine when the _Invite a guest_ topic should be activated based on user’s natural language input.
+- Define trigger phrases that determine when the _Invite a guest_ topic should be activated based on user’s natural language input.
 - Ask questions and capture necessary inputs from the user, such as building information and guest details like name, email, and purpose of visit.
 - Present a guest registration form where users can fill in required details.
 - Trigger an HTTP API call to the backend Guest Management APIs.
@@ -94,7 +94,7 @@ HTTP request action reference:
 
 Every café is comprised of multiple stations, and each station is a dedicated area serving a specific type of food or beverage (e.g., Espresso, Deli, Dim Sum). These stations give employees choices within the same café.
 
-With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine in their prompt (e.g., _“Where can I find Chinese food?”_) and get stations serving that cuisine.
+With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine (e.g., _“Where can I find Chinese food?”_) and get stations serving that cuisine.
 
 The employees save time, skip the hassle, and make every meal a choice they love.
 
@@ -119,10 +119,10 @@ The employees save time, skip the hassle, and make every meal a choice they love
 - Click on Topic Checker for any static issues with the definition.
 - Optionally, follow the section Validate the Topic to understand and validate the steps
 - Using the “Test” button in Copilot studio, open the test chat window.
-- Ask using the prompt “Where can I find Chinese food?”
+- Ask “Where can I find Chinese food?”
 - The Employee Self-Service Copilot Agent displays Chinese food options.
 
-  :::image type="content" source="media/facilities-dining-where-is-food.png" alt-text="Screenshot showing results of the prompt that searches for food.":::
+  :::image type="content" source="media/facilities-dining-where-is-food.png" alt-text="Screenshot showing results.":::
 
 ### Validate the Topic
 
@@ -146,7 +146,7 @@ Validate the following in the topic definition:
 
   :::image type="content" source="media/facilities-dining-validate-condition-block-category.png" alt-text="Screenshot showing the conditional block section of the topic details.":::
 
-- Next node assigns the station category value, cuisine in our case, if the user has entered value in your input variable through their prompt. For example, if the user mentions “Where can I find Italian food?”. The value “Italian” gets assigned to the input variable.
+- Next node assigns the station category value, cuisine in our case, if the user has entered value in your input variable. For example, if the user mentions “Where can I find Italian food?”. The value “Italian” gets assigned to the input variable.
 
   :::image type="content" source="media/facilities-dining-validate-set-variable-value.png" alt-text="Screenshot showing the set variable value.":::
 
