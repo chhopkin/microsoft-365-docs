@@ -375,6 +375,25 @@ To support further investigation, admins can select the **Review** link. The **R
 >
 > - There might be a delay of up to an hour for the risks count in the Microsoft 365 admin center when compared to what is shown in the security portals.
 
+### Agents at risk tile
+
+The **Agents at risk tile** on the **All agents** page displays the total number of agents in the tenant that have one or more high‑severity risks. Selecting the tile opens a pre-filtered view that shows only agents with detected risks, allowing administrators to prioritize investigation and remediation.
+
+:::image type="content" source="../../media/agents/agents-at-risk-tile.png" alt-text="Screenshot of the agent at risk tile in the Microsoft 365 admin center." lightbox="../../media/agents/agents-at-risk-tile.png":::
+
+### Role-based access for the Review link
+
+The following table shows what each role can access when they select the **Review** link:
+
+| **Role**          | **Microsoft Entra** | **Purview**         | **Defender**        |
+| ----------------- | ------------------- | ------------------- | ------------------- |
+| **Global Reader** | Can view            | Can view            | Can view            |
+| **AI Admin role** | Can view            | No view permissions | No view permissions |
+
+> [!IMPORTANT]
+>
+> To access Purview alerts, users must be assigned an **Insider Risk Management** (IRM) role within Purview. This role is required to sign in to Purview to view Insider Risk Management alerts. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
+
 ### Agents at risk card
 
 The **Agents at risk** card on the Microsoft 365 admin center **Overview** page provides administrators with a tenant‑level summary of agents that are identified with high‑severity risks across Microsoft security platforms including:
@@ -385,7 +404,7 @@ The **Agents at risk** card on the Microsoft 365 admin center **Overview** page 
 
 :::image type="content" source="../../media/agents/risks-card.png" alt-text="Screenshot of the agent risks card in the Microsoft 365 admin center." lightbox="../../media/agents/risks-card.png":::
 
-To access the **Agents at risk** card in the Microsoft 365 admin center follow these steps:
+To access the **Agents at risk** card in the Microsoft 365 admin center, follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
@@ -401,15 +420,5 @@ The **Agents at risk** card offers immediate visibility into the agents with the
 
 Selecting **View agents** from the card takes administrators directly to the **All agents** > **Registry** page, where agents are pre‑filtered and sorted based on risk level. This filtering allows for streamlined investigation and remediation workflows without requiring manual filtering across the full agent inventory.
 
-### Role-based access for the Review link
 
-The following table shows what each role can access when they select the **Review** link:
 
-| **Role**          | **Microsoft Entra** | **Purview**         | **Defender**        |
-| ----------------- | ------------------- | ------------------- | ------------------- |
-| **Global Reader** | Can view            | Can view            | Can view            |
-| **AI Admin role** | Can view            | No view permissions | No view permissions |
-
-> [!IMPORTANT]
->
-> To access Purview alerts, users must be assigned an **Insider Risk Management** (IRM) role within Purview. This role is required to sign in to Purview to view Insider Risk Management alerts. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
