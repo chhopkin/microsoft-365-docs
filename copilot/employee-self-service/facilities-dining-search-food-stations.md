@@ -146,7 +146,7 @@ Validate the following in the topic definition:
 
   :::image type="content" source="media/facilities-dining-validate-condition-block-category.png" alt-text="Screenshot showing the conditional block section of the topic details.":::
 
-- Next node assigns the station category value, cuisine in our case, if the user has entered value in your input variable. For example, if the user mentions “Where can I find Italian food?”. The value “Italian” gets assigned to the input variable.
+- Next node assigns the station category value, cuisine in our case, if the user enters value in your input variable. For example, if the user mentions “Where can I find Italian food?”. The value “Italian” gets assigned to the input variable.
 
   :::image type="content" source="media/facilities-dining-validate-set-variable-value.png" alt-text="Screenshot showing the set variable value.":::
 
@@ -158,7 +158,7 @@ Validate the following in the topic definition:
 
   :::image type="content" source="media/facilities-dining-validate-condition-block-response.png" alt-text="Screenshot showing conditional block.":::
 
-- Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we have mentioned to extract information from SearchStationApiResponse output variable. LLM follows those instructions and displays well formatted output.
+- Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we mention extracting information from SearchStationApiResponse output variable. LLM follows those instructions and displays well formatted output.
 
   :::image type="content" source="media/facilities-dining-validate-display-results-description.png" alt-text="Screenshot showing topic trigger description block.":::
 
