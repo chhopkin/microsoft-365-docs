@@ -88,7 +88,7 @@ items:
   href: feedback.md
 - name: Auditing and Logging
   href: auditing-logging.md
-- name: Known issues and limitations
+- name: Release Notes, known issues and limitations 
   href: known-issues-limitations.md
 - name: Responsible AI FAQ
   href: rai-faq.md

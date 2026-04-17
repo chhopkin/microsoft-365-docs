@@ -4,20 +4,13 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
 ms.date: 08/15/2023
-audience: Admin
 ms.topic: article
 ms.service: microsoft-365-enterprise
 ms.subservice: administration
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
 ms.custom: 
  - Adm_O365
  - seo-marvel-apr2020
-search.appverid:
-- MET150
-- MOE150
-- BCS160
 ms.assetid: 1492cb94-bd62-43e6-b8d0-2a61ed88ebae
 ms.collection:
 - scotvorg
