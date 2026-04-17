@@ -112,7 +112,7 @@ This process involves only one step: define and implement the topic end-to-end, 
 - Use the code from the Copilot Samples repo file:  
   <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml>
 
-- Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction”. You see a code that sets a value to a topic variable named SearchStationsApiUrl, as in the screenshot below. Update the variable value as per your backend system.
+- Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction”. You see a code that sets a value to a topic variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
 
   :::image type="content" source="media/facilities-dining-update-api-url.png" alt-text="Screenshot showing how to update api url in the topic.":::
 
@@ -136,7 +136,7 @@ Validate the following in the topic definition:
 
   :::image type="content" source="media/facilities-dining-validate-topic-file-start.png" alt-text="Screenshot showing the model description in the file.":::
 
-- Input variable named `StationCategory` is created. Click on the Details -> Input to check that your topic has input variable named StationCategory as per the screenshot below.
+- Input variable named `StationCategory` is created. Click on the Details -> Input to check that your topic has input variable named StationCategory as per the screenshot.
 
   :::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the topic details.":::
 
@@ -178,6 +178,6 @@ Go to the **Variables** tab and verify all variables (topic and environment) are
 
 ### How are error conditions handled?
 
-Conditional branching like the one shown below is used to handle errors and send the appropriate messages to the user.
+Conditional branching is used to handle errors and send the appropriate messages to the user.
 
 :::image type="content" source="media/facilities-dining-faq-error-conditions.png" alt-text="Screenshot showing the way to check error conditions.":::
