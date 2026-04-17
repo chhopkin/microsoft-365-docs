@@ -82,9 +82,9 @@ Instead of waiting for users to install Cowork themselves, admins can deploy it 
 To deploy Cowork:
 
 1. In the admin center, select **Copilot** > **Agents** > **All agents**.
-2. Select **Cowork**.
-3. Under **Deploy to**, select **Entire organization** or **Specific users/groups**.
-4. Select **Deploy**.
+1. Select **Cowork**.
+1. Under **Deploy to**, select **Entire organization** or **Specific users/groups**.
+1. Select **Deploy**.
 
 When you deploy Cowork, it's installed for the target users and appears in their list. The deployment process accepts users' permissions on their behalf.
 
@@ -97,9 +97,9 @@ Pinning makes Cowork persistently visible in the Copilot rail (the right-side pa
 To pin Cowork for your users:
 
 1. In the admin center, select **Copilot** > **Agents** > **Manage pinned agents**.
-2. Select **Add a pinned agent** > **Cowork**.
-3. Choose whether to pin it for the entire organization or specific groups.
-4. Save your changes.
+1. Select **Add a pinned agent** > **Cowork**.
+1. Choose whether to pin it for the entire organization or specific groups.
+1. Save your changes.
 
 You'll see **Cowork** in the Copilot rail the next time you open Copilot. If you prefer, you can unpin admin-pinned agents from your own view.
 

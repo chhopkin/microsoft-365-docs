@@ -20,7 +20,7 @@ appliesto:
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-This article lists recent features, improvements, and changes in Cowork. For a full guide to Cowork's capabilities, see [Use Cowork](use-cowork.md).
+This article lists recent features, improvements, and changes in Microsoft 365 Copilot Cowork. For a full guide to Cowork's capabilities, see [Use Cowork](use-cowork.md).
 
 ## April 2026
 

@@ -63,9 +63,9 @@ For step-by-step instructions, see [Create custom skills](use-cowork.md#create-c
 Getting started takes just a few steps.
 
 1. Open  [Microsoft 365 Copilot](https://m365.cloud.microsoft).
-2. Select **Cowork**.
-3. Describe the task you want to accomplish. You can type up to 250,000 characters and attach files by dragging them into the chat or using the file picker.
-4. Send your message. Cowork begins processing your request.
+1. Select **Cowork**.
+1. Describe the task you want to accomplish. You can type up to 250,000 characters and attach files by dragging them into the chat or using the file picker.
+1. Send your message. Cowork begins processing your request.
 
 ## Does Cowork work on mobile devices?
 
