@@ -1,13 +1,13 @@
 ---
-title: Manage digital workers in Microsoft 365 admin center
-description: Manage digital workers in Microsoft 365 admin center.
-#customer intent: As an IT admin, I want to manage digital workers so that I can control their availability and functionality within my organization.
+title: Manage AI teammate instances in Microsoft 365 admin center
+description: Manage AI teammate instances in Microsoft 365 admin center.
+#customer intent: As an IT admin, I want to manage AI teammate instances so that I can control their availability and functionality within my organization.
 f1.keywords:
 - NOCSH
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/14/2026
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
