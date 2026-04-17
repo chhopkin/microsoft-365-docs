@@ -3,7 +3,7 @@ title: "Configure modern release options for Microsoft 365"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/15/2026
+ms.date: 04/16/2026
 ms.reviewer: pamelaar
 audience: Admin
 ms.topic: how-to
@@ -71,6 +71,8 @@ You must have one of the following roles in Microsoft 365 admin center to config
 - Security Admin
 - AI Admin
 
+For more information, see [About administrator roles in the Microsoft 365 admin center](../add-users/about-admin-roles.md).
+
 ## Release option best practices
 
 We recommend that you use the release options in the following ways to balance early access with organizational readiness:
@@ -109,7 +111,7 @@ To assign users to the Deferred release audience, follow these steps:
 1. Select **Save**.
 
 > [!NOTE]
-> If you move users from standard release to deferred release, they might lose access to features that aren't available yet in standard release.
+> If you move users from standard release to deferred release, they might lose access to features that aren't available yet in deferred release.
 
 ## Related articles
 

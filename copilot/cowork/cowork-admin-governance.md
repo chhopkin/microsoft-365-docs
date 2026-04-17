@@ -1,6 +1,6 @@
 ---
-title: "Manage Copilot Cowork for your organization"
-description: "Details on managing Copilot Cowork in Microsoft 365 Copilot for organizations"
+title: "Manage Cowork for your organization"
+description: "Details on managing Microsoft 365 Copilot Cowork for organizations."
 ms.date: 03/30/2026
 ms.topic: overview
 author: leeclontz
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Manage Copilot Cowork for your organization
+# Manage Cowork for your organization
 
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Cowork is available to all Microsoft 365 Copilot tenants. IT administrators can control who has access to it, deploy it on behalf of users, and pin it in the Copilot experience using the same governance tools in Microsoft 365 Copilot.
+Microsoft 365 Copilot Cowork is available to all Microsoft 365 Copilot tenants. IT administrators can control who has access to it, deploy it on behalf of users, and pin it in the Copilot experience using the same governance tools in Microsoft 365 Copilot.
 
 ## Default availability
 
@@ -32,7 +32,7 @@ By default, Cowork is *available to all licensed users* in your tenant. This mea
 
 Admins can change this default at any time.
 
-## How to find and install Copilot Cowork
+## How to find and install Cowork
 
 You can discover Cowork through the **Agent Store**, the built-in marketplace within Microsoft 365 Copilot.
 
@@ -101,7 +101,7 @@ To pin Cowork for your users:
 3. Choose whether to pin it for the entire organization or specific groups.
 4. Save your changes.
 
-You'll see Copilot Cowork in the Copilot rail the next time you open Copilot. If you prefer, you can unpin admin-pinned agents from your own view.
+You'll see **Cowork** in the Copilot rail the next time you open Copilot. If you prefer, you can unpin admin-pinned agents from your own view.
 
 Learn more in [Manage pinned agents for Microsoft 365 Copilot](/admin/manage/agent-registry).
 
