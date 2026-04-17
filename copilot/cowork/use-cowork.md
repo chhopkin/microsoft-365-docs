@@ -1,6 +1,6 @@
 ---
-title: "Use Copilot Cowork (Frontier)"
-description: "Learn how to have conversations, manage files, approve actions, and organize projects with Copilot Cowork in Microsoft 365 Copilot."
+title: "Use Cowork (Frontier)"
+description: "Learn how to have conversations, manage files, approve actions, and organize projects with Microsoft 365 Copilot Cowork."
 ms.date: 04/07/2026
 ms.topic: how-to
 author: leeclontz
@@ -15,11 +15,11 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Use Copilot Cowork (Frontier)
+# Use Cowork (Frontier)
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Cowork in Microsoft 365 Copilot carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
+Microsoft 365 Copilot Cowork carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
 
 ## Start a conversation
 
@@ -121,10 +121,9 @@ When you need an approval, a dialog appears with the details of the action Cowor
 > [!NOTE]
 > For certain actions like Outlook mail rules, Cowork presents a detailed approval card that shows exactly what the rule will do before you approve.
 
-
 1. From the previous table, select the action button (for example, **Send** or **Post**), expand the dropdown for the **don't ask again** option, or select **Cancel** to stop the action.
 
-2. To see the technical details of the action, select **Show parameters**.
+1. To see the technical details of the action, select **Show parameters**.
 
     To collapse the view, select **Hide parameters**.
 
@@ -308,9 +307,9 @@ You can display which skills Cowork loaded during a conversation in the **Skills
 You can extend Cowork with your own custom skills stored in OneDrive.
 
 1. In your OneDrive, navigate to the `/Documents/Cowork/Skills/` folder. Create it if it doesn't exist.
-2. Create a subfolder with your skill name (for example, `/Documents/Cowork/Skills/weekly-report/`).
-3. Inside the subfolder, create a file named `SKILL.md`.
-4. Add a YAML frontmatter block with a `name` and `description`, followed by the skill instructions in Markdown:
+1. Create a subfolder with your skill name (for example, `/Documents/Cowork/Skills/weekly-report/`).
+1. Inside the subfolder, create a file named `SKILL.md`.
+1. Add a YAML frontmatter block with a `name` and `description`, followed by the skill instructions in Markdown:
 
    ```yaml
    ---
@@ -322,7 +321,7 @@ You can extend Cowork with your own custom skills stored in OneDrive.
    a summary document organized by project.
    ```
 
-5. Save the file. Cowork discovers your custom skills automatically at the start of each conversation.
+1. Save the file. Cowork discovers your custom skills automatically at the start of each conversation.
 
 > [!NOTE]
 > You can create up to 20 custom skills. Each `SKILL.md` file can be up to 1 MB.
@@ -372,6 +371,6 @@ Cowork supports keyboard shortcuts to help you work faster.
 
 ## Related content
 
-- [Copilot Cowork overview](index.md)
-- [Get started with Copilot Cowork](get-started.md)
-- [Copilot Cowork common questions](cowork-faq.md)
+- [Cowork overview](index.md)
+- [Get started with Cowork](get-started.md)
+- [Cowork common questions](cowork-faq.md)
