@@ -11,18 +11,15 @@ ms.service: microsoft-365-business
 ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
 ms.collection:
-- Tier1
-- scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_licensing
 - admindeeplinkMAC
 - m365-groups
 search.appverid: MET150
 description: "Learn how to assign or unassign licenses to groups in the Microsoft 365 admin center."
-ms.date: 04/15/2026
+ms.date: 04/17/2026
 ---
 
 # Assign or unassign licenses to a group in the Microsoft 365 admin center
@@ -50,28 +47,28 @@ If you have security groups, mail enabled groups, or Microsoft 365 groups, you c
 1. Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a> as at least a License Administrator.
 1. Go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
 1. On the **Licenses** page, select **Assign licenses**.
-1. In the panel, search for the group that you want to assign licenses to, then select the name from the dropdown list.
+1. In the side panel, search for the group that you want to assign licenses to, then select the name from the dropdown list.
 1. Select the subscription that the assigned licenses should come from.
 1. To assign or remove access to specific items, select **Turn apps and services on or off**.
 1. When you're finished, select **Assign licenses**.
 
 ## Manage group-based licensing errors
 
-If errors occur during license assignment, you can view them on the product details page.
+If receive any errors during license assignment, you can view them on the product details page.
 
-1. In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
 2. Select the product that you want to view licenses for.
 3. Select the **Errors & issues** tab to see a list of users who have license assignment problems.
 4. Select a user to inspect what type of error they encountered.
 
-For a full description of each error type — including insufficient licenses, conflicting service plans, missing dependencies, proxy address issues, and usage location problems — along with steps for how to resolve them, see [Identify and resolve license assignment problems for a group](/entra/fundamentals/licensing-groups-resolve-problems).
+For a full description of each error type, including insufficient licenses, conflicting service plans, missing dependencies, proxy address issues, and usage location problems, along with steps for how to resolve them, see [Identify and resolve license assignment problems for a group](/entra/fundamentals/licensing-groups-resolve-problems).
 
 ## Unassign licenses from a group
 
-1. In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
 2. Select the product that you want to unassign licenses for.
-3. Find the group in the list on the product details page.
-4. Select the ellipsis (**...**) on the group's row, then select **Unassign**.
+3. On the product details page, find the group in the list.
+4. Select the three dots (more actions) on the group's row, then select **Unassign**.
 5. In the confirmation dialog, select **Unassign**.
 
 ## Related content
