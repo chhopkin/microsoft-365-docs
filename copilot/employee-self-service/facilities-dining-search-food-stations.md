@@ -49,67 +49,46 @@ Now that we covered the fundamentals, let’s walk through a practical example. 
 
 ## Prerequisites
 
-Before extending the Employee Self-Service (ESS) Copilot Agent with custom topics for your Real Estate integration, ensure:
+To extend the Employee Self-Service Copilot Agent with a custom topics for your Real Estate integration, ensure the following prerequisites are met:
 
-- ESS agent is installed in Copilot Studio.
-- Maker access to a sandbox or pre-production environment in Copilot Studio.
-- Access to Copilot Samples in GitHub:  
-  https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml
+- Employee Self-Service Copilot agent is installed in Copilot Studio.
+- Maker access to a sandbox or preproduction environment in Copilot Studio.
+- Access to Copilot Samples in GitHub:
+- <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml>
 - Need access to the Dining API that will be used to view food stations by cuisine.
 - For this example, assume Dining service is built as an independent service on Azure platform.
 
 ## Fundamentals
 
-Extending ESS for RE&S experiences requires an understanding of a few key building blocks: **topics, adaptive cards and connectors**. Together, these define how conversational scenarios are designed and how they interact with RE&S services.
+Extending Employee Self-Service for RE&F experiences requires an understanding of a few key building blocks: **topics, adaptive cards, and connectors**. Together, these building blocks define how conversational scenarios are designed and how they interact with RE&F services.
 
 ### Topics
 
-In Copilot Studio, a topic represents the workflow of a conversation. M365 Copilot Topics are used to:
+In Copilot Studio, a topic is defined as a workflow of a conversation. Microsoft 365 Copilot topics are used to:
 
-- Define trigger prompts that determine when a topic should be activated based on an employee’s natural language input.
-- Ask questions and capture necessary inputs from the employee.
-- Process user input through power function formulas to extract relevant parameters for upcoming steps in the workflow.
-- Trigger HTTP API calls to backend APIs to complete the workflow action.
-- Interpret backend API responses and return outcomes to the employee in natural language.
+- Define trigger prompts that determine when the _Invite a guest_ topic should be activated based on user’s natural language input.
+- Ask questions and capture necessary inputs from the user, such as building information and guest details like name, email, and purpose of visit.
+- Present a guest registration form where users can fill in required details.
+- Trigger an HTTP API call to the backend Guest Management APIs.
+- Interpret the backend API response and return the relevant outcome to the user in natural language.
 
-Some scenarios that this extensibility to ESS is helping us power:
-
-- Create a Facilities Ticket, e.g. “I want to report a water leak”
-- Register a Vehicle, e.g. “I want to register my vehicle Tesla Model 3”
-- View food stations or counters by cuisine, e.g. “Where can I find Chinese food?” 【1-f2c7ff|5】
-- Invite a Guest, e.g. “I want to invite my spouse to Building 32”
-
-In the following section, we will see how a maker in Copilot Studio can extend ESS to support Dining related scenarios.
-
-## Fundamentals
-
-Extending ESS for RE&S experiences requires an understanding of a few key building blocks: **topics, adaptive cards and connectors**. Together, these define how conversational scenarios are designed and how they interact with RE&S services.
-
-### Topics
-
-In Copilot Studio, a topic represents the workflow of a conversation. M365 Copilot Topics are used to:
-
-- Define trigger prompts that determine when a topic should be activated based on an employee’s natural language input.
-- Ask questions and capture necessary inputs from the employee.
-- Process user input through power function formulas to extract relevant parameters for upcoming steps in the workflow.
-- Trigger HTTP API calls to backend APIs to complete the workflow action.
-- Interpret backend API responses and return outcomes to the employee in natural language.
+In the following section, we will see how a maker in Copilot Studio can extend the Employee Self-Service Copilot Agent to support Dining related scenarios.
 
 ### Adaptive Cards
 
-Adaptive cards are platform-agnostic UI snippets authored in JSON and help create interactive cards to capture user inputs while maintaining the conversational flavour of the workflow.
+Adaptive cards are platform-agnostic UI snippets authored in JSON. They help create interactive and visually appealing cards to capture user inputs while maintaining the conversational flow.
 
 ### Connectors
 
-Connectors enable you to connect your agent with your data in the cloud.
+Connectors enable you to connect the agent with other apps, data, and devices in the cloud.
 
-For this example of viewing food stations by cuisines, we assume Dining service is built as an independent service on Azure platform. We use the HTTP connector to connect to the backend API for viewing food stations.
+For this example of viewing food stations by cuisines, we assume the Dining service is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for viewing food stations.
 
-Check out the list of available connectors:  
-https://learn.microsoft.com/en-us/connectors/connector-reference/
+Available connectors:  
+<https://learn.microsoft.com/connectors/connector-reference/>
 
-Refer to HTTP request action:  
-https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-http-node
+HTTP request action reference:  
+<https://learn.microsoft.com/microsoft-copilot-studio/authoring-http-node>
 
 ## Example: Search Food Stations by Category
 
