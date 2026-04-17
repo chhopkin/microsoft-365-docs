@@ -74,9 +74,9 @@ The following sections describe what you can ask Cowork to do.
 
 ## Skills
 
- Cowork uses specialized skills as it works. When Cowork loads a new skill during your conversation, the skill shows up in the side panel. Each skill corresponds to a specific type of task.
+Cowork uses specialized skills as it works. When Cowork loads a new skill during your conversation, the skill shows up in the side panel. Each skill corresponds to a specific type of task.
 
- Cowork has 13 built-in skills, including Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. You can also create your own custom skills.
+Cowork has 13 built-in skills, including Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. You can also create your own custom skills.
 
 For a detailed description of each skill, see [Cowork skills](use-cowork.md#cowork-skills).
 
