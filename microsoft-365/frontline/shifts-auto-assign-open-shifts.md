@@ -25,9 +25,13 @@ Build a schedule in seconds by automatically assigning open shifts to available 
 ## How it works
 1. Make sure all of the shifts you need to assign are entered into the Open Shifts area at the top of your schedule. Add an open shift like you would any other Shift block, or use copy and paste.
 2. Click "Assign open shifts" in the top right corner of the Shifts app.
+:::image type="content" alt-text="Screenshot indicates Assign open shifts button." source="media/shifts/shifts-assign-open-1.png" lightbox="media/shifts/shifts-assign-open-1.png":::
 3. Select a schedule group. Only schedule groups with open shifts will appear.
+:::image type="content" alt-text="Screenshot indicates Assign open shifts button." source="media/shifts/shifts-assign-open-2.png" lightbox="media/shifts/shifts-assign-open-2.png":::
 4. If desired, review the rules you'd like to use for scheduling, like maximum weekly and daily hours, maximum consecutive days worked, and minimum rest periods, by clicking "Auto assignment rules."
+:::image type="content" alt-text="Screenshot indicates Assign open shifts button." source="media/shifts/shifts-assign-open-2.png" lightbox="media/shifts/shifts-assign-open-3.png":::
 5. Make modifications to your rules as necessary, then hit "Back." Rule changes will apply to all members of your Team and will take effect the next time open shifts are assigned.
 6. Click "Assign open shifts." The app will automatically find and apply a schedule that fits everyone's time off as well as the rules you provided. If it's impossible to build a schedule that works, shifts that couldn't be filled will remain as open shifts for you to deal with manually. 
+:::image type="content" alt-text="Screenshot indicates Assign open shifts button." source="media/shifts/shifts-assign-open-2.png" lightbox="media/shifts/shifts-assign-open-4.png":::
 7. Your schedule is now present as a draft, which you can review and edit as needed before publishing. Use "Undo" to revert to the state before you hit assign.
 8. Click the "Share with team" button and follow steps to publish.
