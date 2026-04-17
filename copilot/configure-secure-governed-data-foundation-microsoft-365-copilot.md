@@ -79,9 +79,9 @@ For more information, see the following resources:
 
 In this step, you identify and prioritize high-risk sites and sensitive content, apply interim protections to reduce Copilot exposure, and then remediate access and permissions.
 
-### Video: Preventing oversharing with SharePoint Advanced Management and Microsoft Purview
+### Video: Preventing oversharing in Copilot
 
-The following video provides a high-level overview of oversharing and how to prevent it by configuring capabilities in SharePoint Advanced Management and Microsoft Purview:
+The following video provides a high-level overview of how to prevent oversharing in Copilot by configuring capabilities in SharePoint Advanced Management and Microsoft Purview:
 
 > [!VIDEO b45581fd-8711-47fa-9946-c5067735f4d1]
 
