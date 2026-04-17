@@ -383,6 +383,8 @@ The **Agents at risk** card on the Microsoft 365 admin center **Overview** page 
 - Microsoft Purview.
 - Microsoft Defender.
 
+:::image type="content" source="../../media/agents/risks-card.png" alt-text="Screenshot of the agent risks card in the Microsoft 365 admin center." lightbox="../../media/agents/risks-card.png":::
+
 To access the **Agents at risk** card in the Microsoft 365 admin center follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
