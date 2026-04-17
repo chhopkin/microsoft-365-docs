@@ -6,12 +6,13 @@ f1.keywords:
 ms.author: efrene
 author: Efrene
 manager: scotv
-ms.date: 02/10/2026
+ms.date: 03/24/2026
 ms.update-cycle: 180-days
 ms.reviewer: 
 audience: Admin
 ms.topic: get-started
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
@@ -60,14 +61,18 @@ Use Copilot Chat if you want users in your organization to:
 
 - Use secure AI chat grounded on the web and powered by the latest models
 - Access to pay-as-you-go agents
-- Use AI chat directly in Microsoft 365 apps like Word, Excel, PowerPoint, OneNote, and Outlook
 - Have built-in IT controls, enterprise data protection, and agent management
 - Use features like Copilot Pages, file upload, and image generation
+- Use AI chat directly in Microsoft 365 apps like Word, Excel, PowerPoint, OneNote, and Outlook
 
 To learn more, see:
 
 - [Learn more about Copilot Chat](/copilot/overview)
 - [Read about Copilot for all: Introducing Microsoft 365 Copilot Chat - blog](https://www.microsoft.com/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat)
+
+> [!NOTE]
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+> If you'd like to enable users with priority access to these capabilities, learn more about [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise).
 
 ## Microsoft 365 Copilot license
 Added Copilot license: AI chat grounded in organizational data and the web
@@ -235,4 +240,4 @@ To learn more, see:
 - [Microsoft 365 Copilot overview](microsoft-365-copilot-overview.md)
 - [Microsoft 365 Copilot adoption](https://adoption.microsoft.com/copilot/)
 - [Unified cloud.microsoft domain for Microsoft 365 apps](/microsoft-365/enterprise/cloud-microsoft-domain)
-- [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md)
+- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)

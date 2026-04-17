@@ -13,6 +13,7 @@ audience: Admin
 ms.reviewer: emilyblundo, sophieke
 ms.topic: get-started
 ms.service: microsoft-365-copilot
+ms.subservice: commerce	
 ms.localizationpriority: medium
 ms.collection:
   - scotvorg
@@ -106,7 +107,7 @@ For more information, see the following articles:
 
 ## Next step
 
-The next step is to start using the features in your license. See [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md).
+The next step is to start using the features in your license. See [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md).
 
 ## Related content
 

@@ -9,8 +9,7 @@ ms.date: 03/17/2025
 audience: ITPro
 ms.topic: concept-article
 ms.service: microsoft-365-enterprise
-ms.subservice: administration
-ms.localizationpriority: high
+ms.subservice: m365-privacy
 ms.collection: 
 - must-keep
 - essentials-privacy

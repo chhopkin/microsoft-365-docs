@@ -5,7 +5,7 @@ author: lauragra
 ms.author: lauragra
 manager: calvind
 ms.reviewer: riyazp
-ms.date: 03/10/2026
+ms.date: 04/10/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
@@ -40,6 +40,8 @@ Copilot Tuning enables organizations to build AI experiences that align closely 
 - **Integration with Microsoft 365 data** - Tuned agents can use selected organizational content and reason over live enterprise data through Microsoft Graph, helping ensure responses are grounded in up-to-date information.
 
 - **Enterprise-grade security** - All tuning operations occur within the Microsoft 365 trust boundary. Tuned agents honor access control lists (ACLs) from the training data and only return information that users are authorized to access.
+
+:::image type="content" source="media/copilot-tuning-overview/key-capabilities.png" alt-text="Screenshot that shows Copilot Tuning key capabilities." lightbox="media/copilot-tuning-overview/key-capabilities.png":::
 
 ## Supported scenarios
 
@@ -85,13 +87,13 @@ For more information, see [Optimization agent](/copilot/microsoft-365/copilot-tu
 
 Agent tuning enables you to refine agents created from tunable templates in Microsoft 365 Copilot Agent Builder. Each tunable template is designed for a specific task and includes a predefined inference workflow that specifies the foundation model, instructions, grounding approach, tool usage, and output generation. This workflow provides an optimized default configuration- a ready-to-use "recipe" that helps agents retrieve relevant context, apply tools effectively, and produce high-quality outputs from the start.
 
-In many scenarios, agents created from these templates meet quality expectations without more customization. When further refinement is required- such as aligning outputs more closely with organizational standards, domain-specific needs, or user expectations- agent tuning provides structured ways to improve behavior and performance.
+In many scenarios, agents created from these templates meet quality expectations without more customizations. When further refinement is required- such as aligning outputs more closely with organizational standards, domain-specific needs, or user expectations- agent tuning provides structured ways to improve behavior and performance.
 
 Tunable templates are available to Copilot-licensed users in eligible tenants and are created in Agent Builder. When you create an agent from a tunable template, users can customize supported properties such as the agent name, instructions, and prompts. Access to tuning capabilities depends on tenant administrator configuration. If tuning options aren't available, users might need to request access from an administrator. Eligible users would be able to view "tune agent" option after creating an agent from a tunable template.
 
-:::image type="content" source="media/copilot-tuning-overview/agent-builder.jpg" alt-text="Screenshot of the Agent Builder interface showing the tune agent option after creating an agent from a tunable template." lightbox="media/copilot-tuning-overview/agent-builder.jpg":::
+:::image type="content" source="media/copilot-tuning-overview/agent-builder.png" alt-text="Screenshot of the Agent Builder interface showing the tune agent option after creating an agent from a tunable template." lightbox="media/copilot-tuning-overview/agent-builder.png":::
 
-:::image type="content" source="media/copilot-tuning-overview/tuning-options.jpg" alt-text="Screenshot of the tuning options interface displaying available tuning dimensions for the agent." lightbox="media/copilot-tuning-overview/tuning-options.jpg":::
+:::image type="content" source="media/copilot-tuning-overview/tuning-options.png" alt-text="Screenshot of the tuning options interface displaying available tuning dimensions for the agent." lightbox="media/copilot-tuning-overview/tuning-options.png":::
 
 Three types of tuning are supported: tuning context, tuning tools, and tuning model. These dimensions are designed to work together and are evaluated using consistent user-goal driven rubric to ensure tuning leads to measurable improvements.
 
@@ -99,13 +101,13 @@ Three types of tuning are supported: tuning context, tuning tools, and tuning mo
 
 **Context tuning** defines the agent's goals and success criteria by specifying the primary task, domain, and representative examples. Context requirements vary by template. For example, document writing templates use examples of the types of documents the agent should produce, document summary templates require inputs such as purpose, audience, length, tone, and focus areas, and expert answers templates rely on sample files to generate evaluation questions and answers. Based on this input, the system proposes subgoals and evaluation rubrics, which establish a measurable baseline for assessing agent performance.
 
-:::image type="content" source="media/copilot-tuning-overview/success-criteria.png" alt-text="Screenshot of the context tuning interface showing goal definition and success criteria configuration." lightbox="media/copilot-tuning-overview/success-criteria.png":::
+:::image type="content" source="media/copilot-tuning-overview/tune-context.png" alt-text="Screenshot of the context tuning interface showing goal definition and success criteria configuration." lightbox="media/copilot-tuning-overview/tune-context.png":::
 
 ### Tune Tool
 
 **Tool tuning** extends agent capabilities by integrating additional agents or tools into the workflow. These tools can be used to perform tasks such as research, validation, or writing style alignment. Custom orchestration instructions define how tools are applied, and agent performance is re-evaluated against the established rubrics after changes are made.
 
-:::image type="content" source="media/copilot-tuning-overview/tool-orchestration-options.jpg" alt-text="Screenshot of the tool tuning interface displaying available tools and orchestration configuration options." lightbox="media/copilot-tuning-overview/tool-orchestration-options.jpg":::
+:::image type="content" source="media/copilot-tuning-overview/tune-tools.png" alt-text="Screenshot of the tool tuning interface displaying available tools and orchestration configuration options." lightbox="media/copilot-tuning-overview/tune-tools.png":::
 
 ### Tune Model
 
@@ -113,7 +115,7 @@ Three types of tuning are supported: tuning context, tuning tools, and tuning mo
 
 Agent tuning is an iterative process rather than a one-time configuration. Organizations are encouraged to monitor real-world usage, gather feedback, and refine context, tools, data, or rules as requirements evolve over time. This ongoing lifecycle helps ensure agents remain accurate, relevant, and aligned with changing needs.
 
-:::image type="content" source="media/copilot-tuning-overview/training-data.jpg" alt-text="Screenshot of the model tuning interface showing training data selection and fine-tuning progress." lightbox="media/copilot-tuning-overview/training-data.jpg":::
+:::image type="content" source="media/copilot-tuning-overview/tune-model.png" alt-text="Screenshot of the model tuning interface showing training data selection and fine-tuning progress." lightbox="media/copilot-tuning-overview/tune-model.png":::
 
 ## Using tuned agents
 
@@ -125,6 +127,8 @@ Tuned agents provide the following benefits:
 - Improved accuracy by grounding responses in organizational data
 - Consistent outputs aligned with internal standards
 - Broader access to organizational knowledge across teams
+
+:::image type="content" source="media/copilot-tuning-overview/using-tuned-agents.png" alt-text="Screenshot that shows benefits of using tuned agents." lightbox="media/copilot-tuning-overview/using-tuned-agents.png":::
 
 ### Best practices
 
@@ -154,7 +158,7 @@ The AI administrator is responsible for ensuring that your use of this product c
 
 ### Data deletion
 
-- If a user whose data is used in training a model submits a valid deletion request under GDPR (or similar regulations), you're be required to retrain the model.
+- If a user whose data is used in training a model submits a valid deletion request under GDPR (or similar regulations), you're required to retrain the model.
 - When you fine-tune a model, the model weights are adjusted based on the training data. You can delete the fine-tuned model at any time.
 
 ## Related content

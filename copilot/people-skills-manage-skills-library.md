@@ -5,6 +5,7 @@ author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
 ms.service: microsoft-365-copilot
+ms.subservice: people-skills
 manager: scotv
 ms.topic: how-to
 ms.date: 05/29/2025
@@ -48,10 +49,10 @@ To view, add, or delete the skills that you selected from the out-of-the-box lib
 1. Select **Done**.
 ### Expand AI Skill Inferencing to Microsoft 365 E3 and E5 licensed users
 
-Admins can turn on AI-powered skill inferencing for Microsoft 365 Enterprise E3 and E5 licensed users directly in the Microsoft 365 admin center. AI-powered skill inferencing is turned on by default for Copilot and Viva users and turned off by default for Microsoft 365 E3/E5 licensed users. When an Admin turns on AI-powered skill inferencing for Microsoft 365 E3/E5 licensed users, it turns on inferencing for all Microsoft 365 E3/E5 licensed users in the organization.
+Admins can turn on AI-powered skill inferencing for Microsoft 365 Enterprise E3 and E5 licensed users directly in the Microsoft 365 admin center. AI-powered skill inferencing is turned on by default for Copilot and Viva users and turned off by default for Microsoft 365 E3/E5 licensed users. Please note that Microsoft 365 E3 and E5 is not the same as Office 365 E3 and E5. Only Microsoft 365 E3 and E5 licenses are eligible for inferencing. [Learn more about the difference between Microsoft 365 and Office 365](https://www.microsoft.com/microsoft-365/enterprise/compare-microsoft-365-and-office-365). When an Admin turns on AI-powered skill inferencing for Microsoft 365 E3/E5 licensed users, it turns on inferencing for all Microsoft 365 E3/E5 licensed users in the organization.
 
 > [!NOTE]
-> This control is only available to tenants with at least one M365 Copilot license
+> This control is only available to tenants with at least one M365 Copilot license. 
 > People Skills must be set up in your tenant before you can turn on this control. [Learn about People skills initial setup](/copilot/microsoft-365/people-skills-setup) 
 
 Once AI-powered inferencing is turned on for Microsoft 365 E3/E5 licensed users, it may take up to 15 days for inferred skills to be added to their profiles. After the initial set of inferred Skills are added to Microsoft 365 E3/E5 licensed user’s profiles, new inferred skills will be refreshed periodically, typically every 180 days.

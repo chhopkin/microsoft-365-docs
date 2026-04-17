@@ -7,11 +7,12 @@ ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 03/03/2026
+ms.date: 03/24/2026
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
@@ -61,7 +62,7 @@ Microsoft 365 Copilot uses your organizational data and the web. It requires an 
 
 ## The technical details
 
-:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.svg" alt-text="Diagram that shows the Microsoft 365 tenant architecture with Microsoft 365 Copilot and your user data." lightbox="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.svg":::
+:::image type="content" source="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.png" alt-text="Diagram that shows the Microsoft 365 tenant architecture with Microsoft 365 Copilot and your user data." lightbox="media/microsoft-365-copilot-architecture/copilot-tenant-architecture.png":::
 
 Microsoft 365 Copilot:
 
@@ -83,6 +84,8 @@ For more information, see:
 - Video: [How to get ready for Microsoft 365 Copilot](https://aka.ms/M365CopilotAdmin)
 
 ## Copilot works with Microsoft 365 apps and Microsoft Graph
+
+:::image type="content" source="media/copilot-features.png" alt-text="Diagram that shows the Microsoft 365 Copilot component features." lightbox="media/copilot-features.png":::
 
 Copilot has intelligent features, functionality, and prompting. These features help users in the context of their work within their Microsoft 365 apps.
 
@@ -136,7 +139,21 @@ Some of these features include:
 | **OneNote** | **Draft**—Use prompts to draft plans, generate ideas, create lists, and organize information to help you find what you need. |
 | **Forms** | **Draft**—Use prompts to draft questions and suggestions that help you create surveys, polls, and other forms. |
 
+> [!NOTE]
+>
+> Copilot experiences in Word, Excel, PowerPoint, and OneNote may vary depending on your organization's licensing and tenant configuration.
+> In-product labels are displayed in Microsoft 365 apps like Word, Excel, PowerPoint, and OneNote, and in the Microsoft 365 Copilot app, to help users identify their Copilot experience. 
+>
+> **M365 Copilot (Premium)** indicates that a user has a Microsoft 365 Copilot add-on license and the full experience and [priority access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) for Copilot chat in Word, Excel, PowerPoint, and OneNote. 
+>
+>**M365 Copilot (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license but will have [standard access](https://support.microsoft.com/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f) to Copilot in those apps to ensure a reliable experience.
+>
+> **Copilot chat (Basic)** indicates that a user does not have the Microsoft 365 Copilot add-on license and does not have access to Copilot chat in Word, Excel, PowerPoint and OneNote.
+
+
 ## Microsoft 365 services that help support Copilot
+
+:::image type="content" source="media/copilot-services-help.png" alt-text="Diagram that shows services and features that help you get your data and organization ready for Copilot." lightbox="media/copilot-services-help.png":::
 
 Your Microsoft 365 license includes services and features that help you get your data and organization ready for Copilot.
 
@@ -167,7 +184,7 @@ Your Microsoft 365 license includes services and features that help you get your
 More resources:
 
 - [Compare features in the Microsoft 365 licenses that affect Copilot](microsoft-365-copilot-license-feature-overview.md)
-- [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md)
+- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
 
 ## Related content
 

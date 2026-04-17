@@ -4,18 +4,17 @@ f1.keywords:
 - NOCSH
 ms.author: danbrown
 author: DHB-MSFT
-manager: scotv
+manager: dansimp
 ms.date: 11/01/2024
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
-ms.localizationpriority: medium
+ms.subservice: m365-privacy
 ms.collection:
 - feedback-content
 - m365copilot
 - magic-ai-copilot
-- trust-pod
 description: "Learn how to provide Microsoft 365 Copilot feedback to Microsoft on behalf of your users who encounter issues"
 hideEdit: true
 appliesto:

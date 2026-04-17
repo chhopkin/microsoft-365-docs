@@ -19,8 +19,8 @@ description: Learn how to turn on Microsoft 365 Backup, set up pay-as-you-go bil
 # Set up Microsoft 365 Backup
 
 > [!TIP]
-> **Already have an Azure subscription and are a SharePoint Administrator or Global Administrator?** Follow these three steps to quickly set up Microsoft 365 Backup in the admin center.<br><br>
-> [1. Set up pay-as-you-go billing](https://admin.microsoft.com/#/orgsettings/payasyougo)<br>
+> **Already have an Azure subscription and are a SharePoint Administrator or Global Administrator?** Follow these steps to quickly set up Microsoft 365 Backup in the admin center.<br><br>
+> [1. Set up pay-as-you-go billing](https://admin.microsoft.com/#/PaygPlatform)<br>
 > [2. Create backup policies to protect your data](https://admin.microsoft.com/#/Settings/enhancedRestore)<br>
 
 
@@ -66,8 +66,9 @@ Once you have the information on this list, you're ready to begin. As a first st
 **Multiple Billing Experience**
 
 Now you can connect multiple billing policies to Backup and segment backup costs into different Azure subscriptions. You can connect more than one billing policies to Microsoft 365 Backup in the **Billing Policies** tab in Pay-as-you-go page. This will be ideal for organizations that prefer to breakdown their cost to different Azure subscriptions. 
-If you prefer to manage Backup by departments, we recommend you enable <a href="/microsoft-365/backup/backup-billing?view=o365-worldwide" target="_blank">**Departmental Billing feature**</a>.
+If you prefer to manage Backup by departments, we recommend you enable <a href="/microsoft-365/backup/backup-billing?view=o365-worldwide" target="_blank">**Departmental Billing feature**</a> that is rolling out.
 
+**Note to GCC customers: Multiple billing and departmental billing experiences will be available in GCC soon. Currently GCC customers can only connect single billing policy to Microsoft 365 Backup.**
 
 ## 2. Create backup policies to protect your data
 
