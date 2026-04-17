@@ -4,7 +4,7 @@
 # For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
 
 title: Auto-assign open shifts
-description: Scale a pilot to your frontline organization
+description: Automatically assign open shifts using past schedules, employee availability, and scheduling rules. 
 author:      sjs334 # GitHub alias
 ms.author: sasincla
 manager: viseshag
