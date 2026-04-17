@@ -15,24 +15,24 @@ ms.service: microsoft-365-copilot
  
 # Use Agent Map in the Microsoft 365 admin center 
 
-The Agent Map is a feature within the Microsoft 365 admin center that provides you with an intuitive visualization of agents available for your organization.
+Agent Map in the Microsoft 365 admin center gives IT and AI admins a visual way to understand and manage the agents running in their tenant. Instead of relying only on list-based views, Agent Map groups agents by the platform they were created on, making it easier to interpret large agent estates and spot adoption patterns at a glance.
 
-The Agent Map serves as an interactive interface for viewing, organizing, and managing agents registered within your tenant. It presents agents spatially that provides a view for an overall understanding of your agents within your tenant. The map is designed for ease of use, particularly in large environments where list-based views might be overwhelming.
+Use Agent Map to explore your organization’s agent landscape, filter to specific subsets (such as ownerless agents), and drill into individual agents to review key details like ownership, configuration, and activity. You can also view how agents relate to each other, helping you understand dependencies and interactions as your agent footprint grows.
 
 :::image type="content" source="../../media/agents/agent-map.png" alt-text="Screenshot showing the Agent Map, which provides an inventory of agents in the Microsoft 365 admin center." lightbox="../../media/agents/agent-map.png":::
 
-You can use the Agent Map you can do the following actions:
+You can use the Agent Map to address what need your attention, rather than agent inventory details. Use the Agent Map accomplish the following actions:
 
-- Identify clusters of agent
-- Review agent metrics
-- Access information for each agent, such as the following details:
-  - Publisher
-  - Type
-  - Platform
-  - Version
-  - Connectivity
+- Spot patterns fast by identifying clusters of agents across your tenant.
+- Slice the map with built-in filters to focus on the agents that matter right now. Filter by Status, Publisher type, Platform, Channel, Data source, or Usage.
 
-The Map complements the Registry by offering a more visual and scalable solution for environments with large numbers of agents. The data reflected in Agent Map is the same data available in the Registry tab.
+  > [!NOTE]
+  > Usage is supported via Agent365 observability data for tenants with below 4,000 agents.
+
+- Track key signals at a glance with high-level metrics and agent-level indicators.
+- Drill into any agent to review important details such as publisher, type, platform, version, and connectivity.
+
+The Map complements the Registry by offering a more visual and scalable solution for environments with large numbers of agents. 
  
 ## View Agent Map
 
@@ -65,24 +65,28 @@ By default, Agent Map clusters agents by the platform or by the builder the grou
  
 ### Searching and filtering agents
  
-You can search agents by name using the search bar at the top of the Agent Map. You can also apply filters to narrow the visualization. Available filters include the following:
+You can find specific agents quickly by name, using the **search bar** at the top of Agent Map. You can also refine what you’re looking at with **filters** that reshape the map around what matters.
 
-- **Agents at risk** – Show only agents with one or more active security risks. The count shown reflects high-severity alerts sourced from Microsoft Entra.
-- **Agents without owners** – Show shared agents that no longer have an active owner, such as agents whose creator has left the organization.
-- **Blocked agents** – Show only agents that are currently blocked across your organization.
-- **Publisher** – Filter agents by the publisher or developer who created them.
-- **Availability** – Filter by the agent's current availability status in your tenant.
-- **Channel** – Filter agents by the channel or host product they're deployed to.
-- **Platform** – Filter agents by the platform on which they were built. Options include:
-  - Copilot Studio
-  - Foundry
-  - Microsoft 365 Copilot Agent Builder
-  - Microsoft 365 Agents Toolkit
-  - SharePoint
-  - Service Now
-  - Azure AI Foundry
-  - Other
- 
+Available filters include the following:
+
+- **Agents at risk** – Focus on agents with one or more active security risks. The count reflects high-severity alerts from security platforms.
+- **Agents without owners** – Identify shared agents that no longer have an active owner (for example, when the creator has left the organization).
+- **Unmanaged agents** – Agents created or managed outside of Agent 365 without its risk protection and observability. 
+
+The following table provides filter details:
+
+| Filter group | Filters | Description |
+|:---:|:---:|:---:|
+| Status | <ul><li>Available</li><li>Blocked</li></ul> | Narrows the view by how widely an agent is currently available in your tenant. This view can show a limited rollout to a fully blocked or unavailable view. |
+| Publisher | <ul><li>Microsoft</li><li>External partners</li><li>Published by your org</li><li>Shared by creator</li></ul> | Lets you slice the map by who published or distributed the agent, allowing you to separate first-party, third-party, and internally produced agents (including creator-shared agents). |
+| Availability | <ul><li>Some users</li><li>Blocked</li><li>All users</li><li>Not available</li></ul> | Narrows the view by how widely an agent is currently available in your tenant. This view can show a limited rollout to fully blocked or unavailable view. |
+| Channel | <ul><li>Copilot</li><li>Outlook</li><li>Teams</li><li>Office</li><li>SharePoint</li></ul> | Filters agents by where users encounter them, so you can investigate exposure and adoption   by host product. |
+| Platform | <ul><li>Copilot Studio</li><li>Microsoft 365 Copilot Agent Builder</li><li>SharePoint</li><li>Foundry</li><li>Azure AI Foundry</li><li>Amazon Bedrock</li><li>Google Vertex AI</li><li>Other</li></ul> | Groups agents by the platform they were built on to help you understand build provenance, tooling trends, and governance coverage across your estate. |
+| Usage | Active users:   Top 100 by users, Inactive<br>Total sessions: Top 100 by sessions, No sessions<br>Exception rate: Has exceptions (>0%), No exceptions</br>Assisted hours: Has assisted hours, No assisted hours | Highlights agents by recent usage and reliability signals so you can prioritize high-impact agents, find unused ones, and spot agents that may need attention. |
+
+> [!NOTE]
+> For performance reasons, the Usage/Observability filters are currently available only for tenants with fewer than 4,000 users. Usage is based on agents reporting activity via Agent 365.
+
 ### Exporting agents
  
 You can export the full list of agents displayed in the Agent Map to an Excel file. Select **Export** to download agent details for reporting, auditing, or compliance purposes.
@@ -92,10 +96,8 @@ You can export the full list of agents displayed in the Agent Map to an Excel fi
 The Agent Map provides controls to help you navigate the map.
 
 - **Zoom In/Out**: Adjust the map view for closer inspection or broader visualization.
-- **Fit to View**: Automatically scales the map to display all agents present in your environment.
 - **Keyboard shortcuts**: Provides a key to **Keyboard shortcuts**. You can select this option to see navigation, zoom, selection and general keyboard shortcuts.
 - **Settings**: Provides a slider to control the **Max agents per platform** in the Agent Map. 
-
  
 ## Agent details
  
