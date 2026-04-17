@@ -24,7 +24,7 @@ The Employee Self-Service Copilot Agent allows employees to get their queries an
 
 An organization may seek to enhance Employee Self-Service Copilot Agent by integrating extra capabilities. These capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
 
-To support these needs, Employee Self-Service Copilot Agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
+To support these needs, Employee Self-Service Copilot Agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new one tailored to your organization.
 
 At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
 
@@ -98,8 +98,6 @@ With the **“Search stations by category”** feature in the Employee Self-Serv
 
 The employees save time, skip the hassle, and make every meal a choice they love.
 
-This process involves only one step: define and implement the topic end-to-end, including variables, API call, validation, and user feedback.
-
 ### Create a Topic
 
 - Create a new Topic as **“Dining Search Stations”**.
@@ -107,24 +105,24 @@ This process involves only one step: define and implement the topic end-to-end, 
 
   :::image type="content" source="media/facilities-dining-create-new-topic.png" alt-text="Screenshot showing how create a new topic in Copilot Studio.":::
 
-  :::image type="content" source="media/facilities-dining-add-topic-trigger.png" alt-text="Screenshot showing how add a topic trigger.":::
+  :::image type="content" source="media/facilities-dining-add-topic-trigger.png" alt-text="Screenshot showing how add a trigger.":::
 
 - Use the code from the Copilot Samples repo file:  
   <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml>
 
-- Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction”. You see a code that sets a value to a topic variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
+- Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction”. You see a code that sets a value to a variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
 
   :::image type="content" source="media/facilities-dining-update-api-url.png" alt-text="Screenshot showing how to update api url in the topic.":::
 
 - Save.
-- Open the visual representation of the topic definition and validate the workflow of the topic.
+- Open the visual representation of the topic definition and validate the workflow.
 - Click on Topic Checker for any static issues with the definition.
 - Optionally, follow the section Validate the Topic to understand and validate the steps
 - Using the “Test” button in Copilot studio, open the test chat window.
 - Ask using the prompt “Where can I find Chinese food?”
 - The Employee Self-Service Copilot Agent displays Chinese food options.
 
-  :::image type="content" source="media/facilities-dining-where-is-food.png" alt-text="Screenshot showing results of the topic that searches for food.":::
+  :::image type="content" source="media/facilities-dining-where-is-food.png" alt-text="Screenshot showing results of the prompt that searches for food.":::
 
 ### Validate the Topic
 
@@ -132,17 +130,17 @@ Validate the following in the topic definition:
 
 - Trigger node contains the topic description used by the UI.
 
-  :::image type="content" source="media/facilities-dining-validate-trigger-node.png" alt-text="Screenshot showing validation that the trigger node exists in the topic.":::
+  :::image type="content" source="media/facilities-dining-validate-trigger-node.png" alt-text="Screenshot showing validation that the trigger node exists.":::
 
   :::image type="content" source="media/facilities-dining-validate-topic-file-start.png" alt-text="Screenshot showing the model description in the file.":::
 
 - Input variable named `StationCategory` is created. Click on the Details -> Input to check that your topic has input variable named StationCategory as per the screenshot.
 
-  :::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the topic details.":::
+  :::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
 
 - Validate that the output variable named ‘SearchStationsApiResponse’ is created. Click on the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot below.
 
-  :::image type="content" source="media/facilities-dining-validate-topic-details-output.png" alt-text="Screenshot showing the output section of the topic details.":::
+  :::image type="content" source="media/facilities-dining-validate-topic-details-output.png" alt-text="Screenshot showing the output section of the details.":::
 
 - Post this, Validate the conditional block exists that checks user’s input in the input variable..
 
