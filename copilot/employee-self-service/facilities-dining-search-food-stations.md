@@ -55,7 +55,7 @@ To extend the Employee Self-Service Copilot Agent with a custom topics for your 
 - Maker access to a sandbox or preproduction environment in Copilot Studio.
 - Access to Copilot Samples in GitHub:
 - <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml>
-- Need access to the Dining API that will be used to view food stations by cuisine.
+- Need access to the Dining API that is used to view food stations by cuisine.
 - For this example, assume Dining service is built as an independent service on Azure platform.
 
 ## Fundamentals
@@ -72,7 +72,7 @@ In Copilot Studio, a topic is defined as a workflow of a conversation. Microsoft
 - Trigger an HTTP API call to the backend Guest Management APIs.
 - Interpret the backend API response and return the relevant outcome to the user in natural language.
 
-In the following section, we will see how a maker in Copilot Studio can extend the Employee Self-Service Copilot Agent to support Dining related scenarios.
+In the following section, we demonstrate how a maker in Copilot Studio can extend the Employee Self-Service Copilot Agent to support Dining related scenarios.
 
 ### Adaptive Cards
 
@@ -96,7 +96,7 @@ Every café is comprised of multiple stations, and each station is a dedicated a
 
 With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine in their prompt (e.g., _“Where can I find Chinese food?”_) and get stations serving that cuisine.
 
-The employees save time, skip the hassle, and make every meal a choice they will love.
+The employees save time, skip the hassle, and make every meal a choice they love.
 
 This process involves only one step: define and implement the topic end-to-end, including variables, API call, validation, and user feedback.
 
@@ -112,7 +112,7 @@ This process involves only one step: define and implement the topic end-to-end, 
 - Use the code from the Copilot Samples repo file:  
   <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml>
 
-- Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction”. You will see a code that sets a value to a topic variable named SearchStationsApiUrl, as in the screenshot below. Update the variable value as per your backend system.
+- Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction”. You see a code that sets a value to a topic variable named SearchStationsApiUrl, as in the screenshot below. Update the variable value as per your backend system.
 
   :::image type="content" source="media/facilities-dining-update-api-url.png" alt-text="Screenshot showing how to update api url in the topic.":::
 
@@ -122,7 +122,7 @@ This process involves only one step: define and implement the topic end-to-end, 
 - Optionally, follow the section Validate the Topic to understand and validate the steps
 - Using the “Test” button in Copilot studio, open the test chat window.
 - Ask using the prompt “Where can I find Chinese food?”
-- The Employee Self-Service Copilot Agent will display Chinese food options.
+- The Employee Self-Service Copilot Agent displays Chinese food options.
 
   :::image type="content" source="media/facilities-dining-where-is-food.png" alt-text="Screenshot showing results of the topic that searches for food.":::
 
@@ -148,7 +148,7 @@ Validate the following in the topic definition:
 
   :::image type="content" source="media/facilities-dining-validate-condition-block-category.png" alt-text="Screenshot showing the conditional block section of the topic details.":::
 
-- Next node assigns the station category value, cuisine in our case, if the user has entered value in your input variable through their prompt. For example, if the user mentions “Where can I find Italian food?”. The value “Italian” will get assigned to the input variable.
+- Next node assigns the station category value, cuisine in our case, if the user has entered value in your input variable through their prompt. For example, if the user mentions “Where can I find Italian food?”. The value “Italian” gets assigned to the input variable.
 
   :::image type="content" source="media/facilities-dining-validate-set-variable-value.png" alt-text="Screenshot showing the set variable value.":::
 
@@ -178,6 +178,6 @@ Go to the **Variables** tab and verify all variables (topic and environment) are
 
 ### How are error conditions handled?
 
-You will see conditional branching like the one shown below.Those are used to handle errors and send the appropriate messages to the user..
+Conditional branching like the one shown below is used to handle errors and send the appropriate messages to the user.
 
 :::image type="content" source="media/facilities-dining-faq-error-conditions.png" alt-text="Screenshot showing the way to check error conditions.":::
