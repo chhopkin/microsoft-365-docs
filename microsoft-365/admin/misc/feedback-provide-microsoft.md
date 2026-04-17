@@ -9,10 +9,8 @@ ms.date: 01/06/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
-ms.localizationpriority: medium
-ms.collection:
-- trust-pod
-- feedback-content
+ms.subservice: m365-privacy
+ms.collection: feedback-content
 hideEdit: true
 description: "Learn about the different ways you can provide feedback to Microsoft about Microsoft products and services."
 ---
