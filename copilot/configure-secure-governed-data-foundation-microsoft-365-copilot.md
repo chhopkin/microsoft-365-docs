@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 04/08/2026
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -78,6 +78,12 @@ For more information, see the following resources:
 ## Step 1: Remediate oversharing
 
 In this step, you identify and prioritize high-risk sites and sensitive content, apply interim protections to reduce Copilot exposure, and then remediate access and permissions.
+
+### Video: Preventing oversharing with SharePoint Advanced Management and Microsoft Purview
+
+The following video provides a high-level overview of oversharing and how to prevent it by configuring capabilities in SharePoint Advanced Management and Microsoft Purview:
+
+> [!VIDEO e42cf90c-23c1-436d-a546-368ad1cac0c3]
 
 ### Identify high-risk sites and content
 
