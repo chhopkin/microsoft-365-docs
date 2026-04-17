@@ -20,30 +20,32 @@ appliesto:
 
 # Extending Employee Self-Service Agent
 
-An organization may seek to enhance ESS by integrating additional capabilities that enable employees to maximize the benefits of ESS and support their work-related activities.
+The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
-To support these needs, ESS is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend ESS by adding new topics tailored to your organization.
+An organization may seek to enhance Employee Self-Service Copilot Agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
 
-At Microsoft, we have extended ESS to bring in Real Estate and Facilities related experiences like allowing employees to register their vehicle (Parking), create a facilities ticket (Facilities), view available food stations by cuisine (Dining), or invite guests to offices (Lobby) via ESS.
+To support these needs, Employee Self-Service Copilot Agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
 
-Some scenarios that this extensibility to ESS is helping us power:
+At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
 
-- Create a Facilities Ticket, e.g. “I want to report a water leak”
-- Register a Vehicle, e.g. “I want to register my vehicle Tesla Model 3”
-- View food stations or counters by cuisine, e.g. “Where can I find Chinese food?”
-- Invite a Guest, e.g. “I want to invite my spouse to Building 32”
+- Create a Facilities Ticket (Facilities), for example, "I want to report a water leak"
+- Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3"
+- View food stations or counters by cuisine (Dining), for example, "Where can I find Chinese food?"
+- Invite a Guest (Lobby), for example "I want to invite my spouse to Building 32".
 
-In the following section, we will see how a maker in Copilot Studio can extend ESS to support Dining related scenarios.
+The following section shows how a maker in Copilot Studio can extend Employee Self-Service to support Dining related scenarios.
 
 ## Real Estate & Facilities
 
-Real Estate and Facilities (RE&F) play a pivotal role in shaping the overall employee experience within an organisation. By integrating RE&F services into Employee Self-Service (ESS) platforms, companies can streamline access to essential workplace amenities and administrative tasks, making daily operations more efficient and user-friendly for employees.
+Real Estate and Facilities (RE&F) play a pivotal role in shaping the overall employee experience within an organization. By integrating RE&F services into Employee Self-Service platforms, companies can streamline access to essential workplace amenities and administrative tasks, making daily operations more efficient and user-friendly for employees.
 
-For instance, features like vehicle registration for parking, facilities ticketing for maintenance requests, access to café menus, and streamlined guest invitation processes empower employees to manage their work environment proactively. These capabilities reduce administrative overhead, minimise wait times, and improve satisfaction by giving employees greater control and visibility over their workplace needs.
+For instance, features like - vehicle registration, facilities tickets for maintenance requests, access to café menus, and streamlined guest invitation processes empower employees to manage their work environment proactively. These capabilities reduce administrative overhead, minimize wait times, and improve satisfaction by giving employees greater control and visibility over their workplace needs.
 
-Moreover, such integrated experiences foster a sense of belonging and engagement, as employees feel supported by systems that anticipate and address their requirements. This not only enhances productivity but also contributes to a positive organisational culture. Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organisations attract, retain, and motivate talent.
+Moreover, such integrated experiences foster a sense of belonging and engagement, as employees feel supported by systems that anticipate and address their requirements. These integrated experiences not only enhance productivity, but also contribute to a positive organizational culture where employees can focus more on their core responsibilities rather than logistical hassles.
 
-Now that we have covered the fundamentals, let’s walk through a practical example. In the following sections, we will extend the ESS Agent to allow employees to view food stations or counter by cuisine through the ESS Copilot Agent.
+Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organizations attract, retain, and motivate talent by prioritizing their day-to-day comfort and efficiency.
+
+Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot Agent to allow employees to view food stations or counter by cuisine through the Employee Self-Service Copilot Agent.
 
 ## Prerequisites
 
