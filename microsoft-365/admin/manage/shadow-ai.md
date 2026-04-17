@@ -4,8 +4,8 @@ description: Understand Shadow AI in Microsoft 365 admin center.
 #customer intent: Learn about Shadow AI in Microsoft 365 admin center.
 f1.keywords:
 - NOCSH
-ms.author: erikre
-author: ErikRe
+ms.author: frankroj
+author: frankroj
 manager: scotv
 ms.date: 04/17/2026
 ms.update-cycle: 180-days
