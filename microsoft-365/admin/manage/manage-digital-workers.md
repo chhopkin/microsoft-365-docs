@@ -98,7 +98,7 @@ The Hire Wizard guides you through four stages to configure and provision the ag
 
 ### Step 2: Confirm license validation
 
-1. Confirm that the requiredlicense is avable to provision the agent **Instance**.
+1. Confirm that the required license is available to provision the agent **Instance**.
 
    The system automatically checks whether the required licenses are available to provision this Instance. If a valid license is found, you can proceed. If licenses are insufficient, you'll see a warning and must resolve the licensing gap before continuing. This step ensures compliance with your organization's subscription and governance policies.
 
@@ -124,7 +124,7 @@ Once you confirm in the **Hire Wizard**, the system performs the following actio
 - The Hiring Manager can access and interact with their Instance via Microsoft Teams. 
 - All provisioning actions are recorded in the audit log for compliance and traceability. 
 
-After the you complete the hire flow, the **Hiring Manager(()) will find their new Instance available in Microsoft Teams. From there, they can begin working with the agent, delegating tasks, and managing its activity from Microsoft Teams. 
+After you complete the hire flow, the **Hiring Manager(()) will find their new Instance available in Microsoft Teams. From there, they can begin working with the agent, delegating tasks, and managing its activity from Microsoft Teams. 
 
 ## Governance, Compliance, and Auditing
 
