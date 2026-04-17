@@ -54,7 +54,7 @@ If you have security groups, mail enabled groups, or Microsoft 365 groups, you c
 
 ## Manage group-based licensing errors
 
-If receive any errors during license assignment, you can view them on the product details page.
+If you receive any errors during license assignment, you can view them on the product details page.
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
 2. Select the product that you want to view licenses for.
