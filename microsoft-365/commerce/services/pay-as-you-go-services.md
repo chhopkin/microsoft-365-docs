@@ -26,7 +26,7 @@ Microsoft 365 offers a flexible pay-as-you-go model that you can use to access p
 
 ## Microsoft 365 Copilot
 
-- **M365 Copilot Chat**. Copilot Chat is AI chat grounded in data from the web and powered by the latest large language models (LLMs). Copilot Chat lets users access agents and create them in the Microsoft 365 Copilot app.
+- **Microsoft 365 Copilot Chat**. Copilot Chat is an AI chat grounded in data from the web and powered by the latest large language models (LLMs). Copilot Chat lets users access agents and create them in the Microsoft 365 Copilot app.
 
 - **SharePoint agents.** AI-powered SharePoint agents help users interact with SharePoint sites and document libraries. They can answer questions, summarize content, and perform tasks based on user permissions. By using pay-as-you-go billing, organizations can enable these features without purchasing full Copilot licenses.
 
@@ -34,9 +34,10 @@ To learn more about business plans for Microsoft 365 Copilot, including features
 
 ## High volume email
 
-- A pay‑as‑you‑go Exchange Online service for line‑of‑business applications and devices that send large volumes of automated, transactional, or operational internal email. HVE uses dedicated service accounts to keep system email separate from user mailboxes and protect service health. With pay‑as‑you‑go billing, you pay only for the number of expanded recipients in emails sent through HVE. 
+- A pay‑as‑you‑go Exchange Online service for line‑of‑business applications and devices that send large volumes of automated, transactional, or operational internal email. High volume email (HVE) uses dedicated service accounts to keep system email separate from user mailboxes and protect service health. With pay‑as‑you‑go billing, you pay only for the number of expanded recipients in emails sent through HVE. 
 
-To learn more about HVE, see: [Manage High Volume Email for Microsoft 365](/exchange/mail-flow-best-practices/high-volume-mails-m365"https://learn.microsoft.com/en-us/exchange/mail-flow-best-practices/high-volume-mails-m365").
+To learn more about HVE, see: [Manage High Volume Email for Microsoft 365](/exchange/mail-flow-best-practices/high-volume-mails-m365).
+
 ## Document processing
 
 - **Autofill columns.** Automatically populate metadata fields in documents based on their content. This feature improves organization and searchability. Pay only for the documents processed.
