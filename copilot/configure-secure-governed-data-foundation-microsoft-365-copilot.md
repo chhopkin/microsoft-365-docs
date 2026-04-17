@@ -83,7 +83,7 @@ In this step, you identify and prioritize high-risk sites and sensitive content,
 
 The following video provides a high-level overview of oversharing and how to prevent it by configuring capabilities in SharePoint Advanced Management and Microsoft Purview:
 
-> [!VIDEO e42cf90c-23c1-436d-a546-368ad1cac0c3]
+> [!VIDEO b45581fd-8711-47fa-9946-c5067735f4d1]
 
 ### Identify high-risk sites and content
 
