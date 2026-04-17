@@ -22,7 +22,7 @@ appliesto:
 
 The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
-An organization may seek to enhance Employee Self-Service Copilot Agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
+An organization may seek to enhance Employee Self-Service Copilot Agent by integrating extra capabilities. These capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
 
 To support these needs, Employee Self-Service Copilot Agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
 
@@ -92,7 +92,7 @@ HTTP request action reference:
 
 ## Example: Search Food Stations by Category
 
-Every café is comprised of multiple stations, and each station is a dedicated area serving a specific type of food or beverage (e.g., Espresso, Deli, Dim Sum). These stations give employees a variety of choices within the same café.
+Every café is comprised of multiple stations, and each station is a dedicated area serving a specific type of food or beverage (e.g., Espresso, Deli, Dim Sum). These stations give employees choices within the same café.
 
 With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine in their prompt (e.g., _“Where can I find Chinese food?”_) and get stations serving that cuisine.
 
