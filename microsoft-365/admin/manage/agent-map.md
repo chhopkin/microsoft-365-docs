@@ -78,11 +78,13 @@ The following table provides filter details:
 | Filter group | Filters | Description |
 |---|---|---|
 | Status | <ul><li>Available</li><li>Blocked</li></ul> | Narrows the view by how widely an agent is currently available in your tenant. This view can show a limited rollout to a fully blocked or unavailable view. |
-| Publisher | <ul><li>Microsoft</li><li>External partners</li><li>Published by your org</li><li>Shared by creator</li></ul> | Lets you slice the map by who published or distributed the agent, allowing you to separate first-party, third-party, and internally produced agents (including creator-shared agents). |
-| Availability | <ul><li>Some users</li><li>Blocked</li><li>All users</li><li>Not available</li></ul> | Narrows the view by how widely an agent is currently available in your tenant. This view can show a limited rollout to fully blocked or unavailable view. |
-| Channel | <ul><li>Copilot</li><li>Outlook</li><li>Teams</li><li>Office</li><li>SharePoint</li></ul> | Filters agents by where users encounter them, so you can investigate exposure and adoption   by host product. |
+| Publisher type | <ul><li>Microsoft</li><li>External partners</li><li>Published by your org</li><li>Shared by creator</li></ul> | Lets you slice the map by who published or distributed the agent, allowing you to separate first-party, third-party, and internally produced agents (including creator-shared agents). |
 | Platform | <ul><li>Copilot Studio</li><li>Microsoft 365 Copilot Agent Builder</li><li>SharePoint</li><li>Foundry</li><li>Azure AI Foundry</li><li>Amazon Bedrock</li><li>Google Vertex AI</li><li>Other</li></ul> | Groups agents by the platform they were built on to help you understand build provenance, tooling trends, and governance coverage across your estate. |
+| Channel | <ul><li>Copilot</li><li>Outlook</li><li>Teams</li><li>Office</li><li>SharePoint</li></ul> | Filters agents by where users encounter them, so you can investigate exposure and adoption   by host product. |
+| Data source | <ul><li>Embedded knowledge</li><li>Fine-tuned models</li></ul> | Distinguishes whether an agent relies on embedded content for grounding responses or on a fine‑tuned model that has been trained on organizational data. |
 | Usage | **Active users**: Top 100 by users, Inactive<br><br>**Total sessions**: Top 100 by sessions, No sessions<br><br>**Exception rate**: Has exceptions (>0%), No exceptions<br></br>**Assisted hours**: Has assisted hours, No assisted hours | Highlights agents by recent usage and reliability signals so you can prioritize high-impact agents, find unused ones, and spot agents that may need attention. |
+
+
 
 > [!NOTE]
 > For performance reasons, the Usage/Observability filters are currently available only for tenants with fewer than 4,000 users. Usage is based on agents reporting activity via Agent 365.
