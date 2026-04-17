@@ -150,7 +150,7 @@ Validate the following in the topic definition:
 
   :::image type="content" source="media/facilities-dining-validate-set-variable-value.png" alt-text="Screenshot showing the set variable value.":::
 
-- Post this, the next node makes the API call. Validate that the HttpConnector is calling appropriate API that belongs to your platform.Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We are collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline etc. You should create a schema per your API response for this topic variable. Your API response may have a completely different structure, and you should make sure that structure is taken into consideration.
+- Post this, the next node makes the API call. Validate that the HttpConnector is calling appropriate API that belongs to your platform.Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We're collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline etc. You should create a schema per your API response for this topic variable. Your API response may have a completely different structure, and you should make sure that structure is taken into consideration.
 
   :::image type="content" source="media/facilities-dining-validate-http-request.png" alt-text="Screenshot showing http request block.":::
 
@@ -158,7 +158,7 @@ Validate the following in the topic definition:
 
   :::image type="content" source="media/facilities-dining-validate-condition-block-response.png" alt-text="Screenshot showing conditional block.":::
 
-- Final step is to display the result. You do not need to add any adaptive card here. In the topic description, we have mentioned to extract information from SearchStationApiResponse output variable. LLM follows those instructions and displays well formatted output.
+- Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we have mentioned to extract information from SearchStationApiResponse output variable. LLM follows those instructions and displays well formatted output.
 
   :::image type="content" source="media/facilities-dining-validate-display-results-description.png" alt-text="Screenshot showing topic trigger description block.":::
 
@@ -168,7 +168,7 @@ Validate the following in the topic definition:
 
 If the API fails, it returns an empty response. In this case, the conditional block shows an error message telling the user it was unable to find dining information for the cuisine entered, and points them to a link. You should tailor error responses based on your system.
 
-### When I save my topic, it shows errors saying it cannot find certain variables. What do I do?
+### When I save my topic, it shows errors saying it can't find certain variables. What do I do?
 
 Go to the **Variables** tab and verify all variables (topic and environment) are declared.
 
