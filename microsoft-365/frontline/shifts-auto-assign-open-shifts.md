@@ -28,21 +28,21 @@ Build a schedule in seconds by automatically assigning open shifts to available 
 
 2. Select **Assign open shifts** in the top right corner of the Shifts app.
 
-   :::image type="content" alt-text="Screenshot indicates Assign open shifts button." source="media/shifts/shifts-assign-open-1.png" lightbox="media/shifts/shifts-assign-open-1.png":::
+   :::image type="content" alt-text="Screenshot indicates Assign open shifts button." source="media/shifts/shifts-assign-1.png" lightbox="media/shifts/shifts-assign-1.png":::
 
 3. Select a schedule group. Only schedule groups with open shifts will appear.
 
-   :::image type="content" alt-text="Screenshot shows Assign open shifts dialog." source="media/shifts/shifts-assign-open-2.png" lightbox="media/shifts/shifts-assign-open-2.png":::
+   :::image type="content" alt-text="Screenshot shows Assign open shifts dialog." source="media/shifts/shifts-assign-2.png" lightbox="media/shifts/shifts-assign-2.png":::
 
 4. If desired, review the rules you'd like to use for scheduling, like maximum weekly and daily hours, maximum consecutive days worked, and minimum rest periods, by selecting **Auto assignment rules**.
 
-   :::image type="content" alt-text="Screenshot indicates Assign open shifts rules dialog." source="media/shifts/shifts-assign-open-3.png" lightbox="media/shifts/shifts-assign-open-3.png":::
+   :::image type="content" alt-text="Screenshot indicates Assign open shifts rules dialog." source="media/shifts/shifts-assign-3.png" lightbox="media/shifts/shifts-assign-3.png":::
 
 5. Make modifications to your rules as necessary, then hit **Back**. Rule changes apply to all members of your Team and take effect the next time open shifts are assigned.
 
 6. Select **Assign open shifts**. The app automatically finds and applies a schedule that fits everyone's time off as well as the rules you provided. If it's impossible to build a schedule that works, shifts that couldn't be filled will remain as open shifts for you to deal with manually. 
 
-   :::image type="content" alt-text="Screenshot indicates successful shift assignment." source="media/shifts/shifts-assign-open-4.png" lightbox="media/shifts/shifts-assign-open-4.png":::
+   :::image type="content" alt-text="Screenshot indicates successful shift assignment." source="media/shifts/shifts-assign-4.png" lightbox="media/shifts/shifts-assign-4.png":::
 
 7. Your schedule is now present as a draft, which you can review and edit as needed before publishing. Use **Undo** to revert to the state before you hit assign.
 
