@@ -19,7 +19,7 @@ jobs:
     outputs:
       ExcludedUserList: ${{ steps.read.outputs.ExcludedUserList }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           sparse-checkout: .github/workflow-config.json
           sparse-checkout-cone-mode: false
