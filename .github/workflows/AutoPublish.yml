@@ -21,7 +21,7 @@ jobs:
       EnableAutoPublish: ${{ steps.read.outputs.EnableAutoPublish }}
       EnableAutoMerge: ${{ steps.read.outputs.EnableAutoMerge }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           sparse-checkout: .github/workflow-config.json
           sparse-checkout-cone-mode: false
