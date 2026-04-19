@@ -29,8 +29,8 @@ jobs:
         shell: pwsh
         run: |
           $Config = (Get-Content '.github/workflow-config.json' | ConvertFrom-Json).AutoPublish
-          "EnableAutoPublish=$($Config.EnableAutoPublish)" >> $Env:GITHUB_OUTPUT
-          "EnableAutoMerge=$($Config.EnableAutoMerge)" >> $Env:GITHUB_OUTPUT
+          "EnableAutoPublish=$("$($Config.EnableAutoPublish)".ToLower())" >> $Env:GITHUB_OUTPUT
+          "EnableAutoMerge=$("$($Config.EnableAutoMerge)".ToLower())" >> $Env:GITHUB_OUTPUT
 
   auto-publish:
     if: github.repository_owner == 'MicrosoftDocs' && contains(github.event.repository.topics, 'build')
