@@ -1,6 +1,7 @@
 name: (Scheduled) Auto issue assign
 
 permissions:
+  contents: read
   issues: write
       
 on:
