@@ -10,7 +10,7 @@
     "ExcludedBranchList": ["branch1", "branch2"]
   },
   "AutoPublish": {
-    "EnableAutoPublish": false,
+    "EnableAutoPublish": true,
     "EnableAutoMerge": true
   },
   "Stale": {
