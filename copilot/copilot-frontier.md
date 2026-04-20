@@ -4,7 +4,7 @@ description: Learn how IT administrators can enable the Microsoft Frontier progr
 author: dansimp
 ms.author: dansimp
 manager: dansimp
-ms.date: 04/07/2026
+ms.date: 04/20/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.subservice: admin
@@ -21,6 +21,14 @@ The Microsoft Frontier program gives organizations early access to innovative an
 
 > [!IMPORTANT]
 > Frontier is managed at the tenant level. Production tenants can safely enroll users into the Frontier program to allow your organization access to Frontier features. IT admins have explicit control which users have access to which Frontier features.  
+
+Microsoft's audience-based release model Microsoft’s audience-based release model helps IT admins control how features are delivered to different user groups
+
+- **Frontier** (opt-in) is designed for early adopters who want pre-release access to evaluate and prepare.
+- **Standard release** Users receive new features as soon as they are generally available.
+- **Deferred release** is for audiences in more complex environments needing additional time to validate changes before deployment.
+
+Learn more about the new audience-based release model [Configure modern release options for Microsoft 365 features](/microsoft-365/admin/manage/configure-release-options)
 
 Access to Frontier experiences vary depending on your organization’s subscription and user roles.
 
