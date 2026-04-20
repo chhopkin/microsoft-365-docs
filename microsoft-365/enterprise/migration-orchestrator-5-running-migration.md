@@ -305,12 +305,68 @@ When the migration is completed, you can monitor the results of the batch and us
 
 You may need to make changes to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration), or [canceling a migration](#cancel-a-batch). These changes can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
 
+## Understanding Teams chat migration status
+
+Teams chat migration status reflects the overall quality of a user's migration based on defined success thresholds. Because Teams has a rich history of content types, including some that have been deprecated or are unsupported by downstream services, it is expected that a small number of messages or threads may not migrate successfully. The status values described here help you distinguish between expected minor failures and issues that require your attention.
+
+#### Statuses
+
+- inProgress: The user's Teams chat migration is currently running.
+
+- completed: The user's Teams chat migration finished and met the success thresholds. Some messages or threads may not have migrated, but the number of failures was within acceptable limits. Review the migration message for your success and failure counts.
+
+- failed: The user's Teams chat migration finished but did not meet the success thresholds, or a validation failure occurred that prevented the migration from completing. Review the error message for details and recommended actions.
+
+#### Success thresholds
+
+A user's migration concludes with a status of failed if either of the following thresholds is exceeded:
+
+- More than 20% of attempted messages failed to import
+
+- More than 10% of attempted threads failed
+
+If both failure rates are below these thresholds, the migration concludes with a status of completed. These thresholds apply to content that the migration service attempted to process. [Content that was skipped because it is explicitly known to be unsupported](/microsoft-365/enterprise/migration-orchestrator-7-end-user-exp?view=o365-worldwide) is not counted toward these thresholds.
+
+#### Reading the migration message
+
+When a user's Teams chat migration concludes, the message field in the user status contains a summary in this format:
+
+- Teams migration for user {0} **completed**. {1}/{2} ({3}%) messages imported successfully (>= {4}% threshold). {5}/{6} ({7}%) threads imported successfully (>= {8}% threshold). Request Id: {9}. Batch Id: {10}. To understand these figures, refer to migration documentation.
+
+- Teams migration for user {0} **failed a quality threshold**. {1}/{2} ({3}%) messages imported successfully (< {4}% threshold). {5}/{6} ({7}%) threads imported successfully (<{8}% threshold). Request Id: {9}. Batch Id: {10}. To understand these figures, refer to migration documentation.
+
+- {0}: user ID
+
+- {1}: successfully migrated messages
+
+- {2}: attempted messages
+
+- {3}: percentage of successfully migrated messages/attempted messages
+
+- {4}: threshold for message success (80%)
+
+- {5}: successfully migrated threads
+
+- {6}: attempted threads
+
+- {7}: percentage of successfully migrated threads/attempted threads
+
+- {8}: threshold for thread success (90%)
+
+- {9}: request ID
+
+- {10}: batch ID
+
+#### Implication
+
+If a user's migration status is completed, the migration was largely successful according to the thresholds of expected success. If the user's status is failed, there were more failures of messages and threads than expected. This can be due to a specific user's frequent use of now-deprecated Teams content historically. If there are concerns about high failure rates, reach out to Microsoft Support.
+
 ## Batch migration description values
 
 Use the following table to understand the validation and migration flows and status values:
 
 > [!NOTE]
-> For more information about troubleshooting, see See **[Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors)**.
+> For more information about troubleshooting, see **[Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors)**.
 
 ### Migration batch
 
