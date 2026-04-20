@@ -87,12 +87,12 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 ::: moniker range="o365-worldwide"
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to the **Users** > **Active users** page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Users** > **Active users** page.
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to the **Users** > **Active users** page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Microsoft 365 admin center</a>, go to the **Users** > **Active users** page.
 
 ::: moniker-end
 
@@ -135,9 +135,8 @@ Update-MgUser -UserId anne.wallace@contoso.com -UserPrincipalName anne.jones@con
 
 ## Related content
 
-[Add a domain](../setup/add-domain.md)
-[Admins: Reset a password for one or more users](reset-passwords.md)
-[Add another email address to a user](../email/add-another-email-alias-for-a-user.md)
-[Create a shared mailbox](../email/create-a-shared-mailbox.md)
+[Add a domain](../setup/add-domain.md) (article)\
+[Admins: Reset a password for one or more users](reset-passwords.md) (article)\
+[Add another email address to a user](../email/add-another-email-alias-for-a-user.md) (article)\
+[Create a shared mailbox](../email/create-a-shared-mailbox.md) (article)\
 [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) (YouTube)
-
