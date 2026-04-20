@@ -4,7 +4,7 @@ description: Use the Microsoft 365 admin center, Office Group policies or regist
 author: kwekuako
 ms.author: kwekua  
 manager: dansimp
-ms.date: 12/10/2025  
+ms.date: 04/06/2026
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
@@ -25,6 +25,12 @@ ActiveX controls are small programs used to add interactive features to Microsof
 When this setting is turned on, users in your environment won’t be able to override the default configuration using **Trust Center**.
 
 If you have turned on this setting but need to return to the default behavior (allow users to override ActiveX blocking using Trust Center), you can turn this setting off directly in the Microsoft 365 admin center.
+
+## ActiveX settings behavior
+
+- If no configuration is set by the user or administrator, ActiveX defaults to **Disable all controls without notification**. Users can change this setting in Trust Center.
+
+- In baseline security mode, the setting is enforced by policy as **Disable all controls without notification**. In this case, the option is locked in Trust Center and appears greyed out.
 
 ## Turn off setting in the Microsoft 365 admin center
 

@@ -1,6 +1,6 @@
 ---
-title: "Responsible AI overview for Copilot Cowork"
-description: "Learn about how Copilot Cowork in Microsoft 365 Copilot uses AI responsibly, including links to feature-specific FAQs and the Application Card."
+title: "Responsible AI overview for Cowork"
+description: "Learn about how Microsoft 365 Copilot Cowork uses AI responsibly, including links to feature-specific FAQs and the Application Card."
 ms.date: 03/30/2026
 ms.topic: overview
 ms.custom:
@@ -10,10 +10,12 @@ author: leeclontz
 manager: KumarVivek
 ms.author: leeclontz
 ms.service: microsoft-365-copilot
+ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 ms.subservice: cowork
 ---
 
-# Responsible AI overview for Copilot Cowork
+# Responsible AI overview for Cowork
 
 [!INCLUDE [preview](../includes/preview.md)]
 
@@ -23,7 +25,7 @@ Responsible AI FAQs are part of a broader effort to put Microsoft's AI principle
 
 ## AI-driven features
 
-Copilot Cowork contains a growing list of AI-driven features. To learn about the capabilities and impact of specific features, select an article in the list.
+Microsoft 365 Copilot Cowork contains a growing list of AI-driven features. To learn about the capabilities and impact of specific features, select an article in the list.
 
 - **Task execution across Microsoft 365** — Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages files based on your natural language instructions.
 - **Work context integration** — You can attach emails, files, and calendar events to your conversation so Cowork has the context it needs to complete your request.
@@ -32,11 +34,11 @@ Copilot Cowork contains a growing list of AI-driven features. To learn about the
 - **Deep research** — Synthesizes information from multiple sources to provide comprehensive research reports.
 - **Adaptive card generation** — Creates structured, interactive card-based responses.
 
-For detailed information about how these features use AI responsibly, see [Responsible AI FAQ for Copilot Cowork](cowork-responsible-ai-faq.md).
+For detailed information about how these features use AI responsibly, see [Responsible AI FAQ for Cowork](cowork-responsible-ai-faq.md).
 
-## About Copilot Cowork
+## About Cowork
 
-Cowork is available in Microsoft 365 Copilot and carries out tasks on your behalf across Microsoft 365. You describe what you need in natural language, and Cowork does the work — sending emails, scheduling meetings, creating documents, posting in Teams, browsing the web, and managing files.
+Cowork carries out tasks on your behalf across Microsoft 365. You describe what you need in natural language, and Cowork does the work — sending emails, scheduling meetings, creating documents, posting in Teams, browsing the web, and managing files.
 
 Cowork connects to your Outlook, Calendar, Teams, Work IQ, Microsoft 365, and Microsoft Learn services. It shows each step as it works, asks for your approval before sensitive actions, and lets you pause, resume, or cancel at any time.
 
@@ -44,9 +46,9 @@ Cowork is available through the [Frontier program](https://adoption.microsoft.co
 
 ## Related content
 
-- [Copilot Cowork overview](../cowork/index.md)
-- [Get started with Copilot Cowork](../cowork/get-started.md)
-- [Use Copilot Cowork](../cowork/use-cowork.md)
-- [Copilot Cowork common questions](../cowork/cowork-faq.md)
-- [Responsible AI FAQ for Copilot Cowork agent](cowork-responsible-ai-faq.md)
+- [Cowork overview](../cowork/index.md)
+- [Get started with Cowork](../cowork/get-started.md)
+- [Use Cowork](../cowork/use-cowork.md)
+- [Cowork common questions](../cowork/cowork-faq.md)
+- [Responsible AI FAQ for Cowork](cowork-responsible-ai-faq.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)

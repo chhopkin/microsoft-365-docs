@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 03/03/2026
+ms.date: 04/07/2026
 ms.update-cycle: 180-days
 audience: Admin
 customer-intent: As an IT professional, I want to understand how Microsoft 365 Copilot works with data protection, oversharing controls, and auditing features in Microsoft 365.
@@ -55,6 +55,9 @@ In this flow:
 - In Copilot Chat interactions, sensitivity labels can be displayed for returned data. The response reflects the highest‑priority label.
 - When Copilot generates new content based on labeled sources, the highest‑priority sensitivity label is inherited when supported.
 - Protection settings remain enforced even when labeled files are stored outside the Microsoft 365 tenant.
+
+> [!NOTE]
+> User-defined sensitivity label permissions can block Copilot from extracting and interacting with the file content. For example, Copilot agents can't read files that have user-defined sensitivity label permissions.
 
 To learn more, see the following articles:
 

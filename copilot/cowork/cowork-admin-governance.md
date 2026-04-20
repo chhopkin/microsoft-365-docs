@@ -1,6 +1,6 @@
 ---
-title: "Manage Copilot Cowork for your organization"
-description: "Details on managing Copilot Cowork in Microsoft 365 Copilot for organizations"
+title: "Manage Cowork for your organization"
+description: "Details on managing Microsoft 365 Copilot Cowork for organizations."
 ms.date: 03/30/2026
 ms.topic: overview
 author: leeclontz
@@ -9,16 +9,18 @@ ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
+ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Manage Copilot Cowork for your organization
+# Manage Cowork for your organization
 
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Cowork is available to all Microsoft 365 Copilot tenants. IT administrators can control who has access to it, deploy it on behalf of users, and pin it in the Copilot experience using the same governance tools in Microsoft 365 Copilot.
+Microsoft 365 Copilot Cowork is available to all Microsoft 365 Copilot tenants. IT administrators can control who has access to it, deploy it on behalf of users, and pin it in the Copilot experience using the same governance tools in Microsoft 365 Copilot.
 
 ## Default availability
 
@@ -30,7 +32,7 @@ By default, Cowork is *available to all licensed users* in your tenant. This mea
 
 Admins can change this default at any time.
 
-## How to find and install Copilot Cowork
+## How to find and install Cowork
 
 You can discover Cowork through the **Agent Store**, the built-in marketplace within Microsoft 365 Copilot.
 
@@ -80,9 +82,9 @@ Instead of waiting for users to install Cowork themselves, admins can deploy it 
 To deploy Cowork:
 
 1. In the admin center, select **Copilot** > **Agents** > **All agents**.
-2. Select **Cowork**.
-3. Under **Deploy to**, select **Entire organization** or **Specific users/groups**.
-4. Select **Deploy**.
+1. Select **Cowork**.
+1. Under **Deploy to**, select **Entire organization** or **Specific users/groups**.
+1. Select **Deploy**.
 
 When you deploy Cowork, it's installed for the target users and appears in their list. The deployment process accepts users' permissions on their behalf.
 
@@ -95,11 +97,11 @@ Pinning makes Cowork persistently visible in the Copilot rail (the right-side pa
 To pin Cowork for your users:
 
 1. In the admin center, select **Copilot** > **Agents** > **Manage pinned agents**.
-2. Select **Add a pinned agent** > **Cowork**.
-3. Choose whether to pin it for the entire organization or specific groups.
-4. Save your changes.
+1. Select **Add a pinned agent** > **Cowork**.
+1. Choose whether to pin it for the entire organization or specific groups.
+1. Save your changes.
 
-You'll see Copilot Cowork in the Copilot rail the next time you open Copilot. If you prefer, you can unpin admin-pinned agents from your own view.
+You'll see **Cowork** in the Copilot rail the next time you open Copilot. If you prefer, you can unpin admin-pinned agents from your own view.
 
 Learn more in [Manage pinned agents for Microsoft 365 Copilot](/admin/manage/agent-registry).
 

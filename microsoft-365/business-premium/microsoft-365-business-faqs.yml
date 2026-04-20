@@ -77,22 +77,7 @@ sections:
 
           - Windows 11 Pro
           - Windows 11 Pro for Workstations
-          - Windows 10 Pro
-          - Windows 10 Pro for Workstations
-
-          These operating systems include cloud services and device management capabilities that enable the centralized management and security controls of Business Premium.
-
-          Business Premium includes free upgrades to Windows 10 Pro or Windows 11 Pro from the following versions of Windows:
-
-          - Windows 7 Pro
-          - Windows 8 Pro
-          - Windows 8.1 Pro
-
-          For more information, see [Upgrade Windows devices to Windows 10 or 11 Pro](m365bp-upgrade-windows-pro.md).
-
-          > [!IMPORTANT]
-          > You must supply the original product key when you upgrade; otherwise, the upgrade doesn't work.
-
+         
       - question: What's the difference between Microsoft 365 Business Standard, Microsoft 365 Business Premium, and Microsoft 365 Enterprise?
         answer: |
           Microsoft has productivity and security management offerings that bring increasingly powerful features and functionality to small to medium-sized businesses:
@@ -170,14 +155,6 @@ sections:
           No.
 
           Business Premium doesn't make an otherwise non-genuine version of Windows genuine.
-          
-          Business Premium includes free upgrades to Windows 10 Pro or Windows 11 Pro from the following genuine versions of Windows:
-
-          - Windows 7 Pro
-          - Windows 8 Pro
-          - Windows 8.1 Pro
-
-          For more information, see [Upgrade Windows devices to Windows 10 or 11 Pro](m365bp-upgrade-windows-pro.md).
 
       - question: What is the GDPR and how does Microsoft 365 Business Premium help customers with their compliance obligations?
         answer: |
