@@ -102,7 +102,7 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 1. Select **Save changes**.
 
-   If you get the error message "**We're sorry, the user couldn't be edited. Review the user information and try again**, see [Resolve error messages](#resolve-error-messages).
+   If you get the error message "**We're sorry, the user couldn't be edited. Review the user information and again**," see [Resolve error messages](#resolve-error-messages).
 
 ## Add an email alias
 
