@@ -53,7 +53,8 @@ Updates released between April 7, 2026, April 21, 2026
      
     **Try this:**
   
-    
+
+
     -	Review the new Copilot video generation setting in the Microsoft 365 admin center.
     -	Decide whether video generation should be allowed for your organization.
     -	Communicate policy changes to users if access is modified.
@@ -79,6 +80,7 @@ Updates released between April 7, 2026, April 21, 2026
     **Why:** Organizations want more control over how employees first interact with the Employee Self‑Service agent while keeping the default experience unchanged when customization is not needed.
         
     **Try this:**
+ 	
         
         
     -	Review the new landing page customization options for the Employee Self‑Service agent.
@@ -114,6 +116,7 @@ Updates released between April 7, 2026, April 21, 2026
     **Why:** This change helps users get clearer, more actionable information at a glance, reducing the need to leave Copilot Chat to check external sources.
     
     **Try this:**
+   
     
     -	Ask Copilot for the current weather in your city.
     -	Request stock information for a company your team follows.
@@ -143,6 +146,8 @@ Updates released between April 7, 2026, April 21, 2026
     **Why:** This change helps teams collaborate more easily by making shared agents discoverable and accessible within the Teams environment they already use.
       
     **Try this:**
+
+  
     
     
     - Open the agent sharing dialog and search for a Microsoft Teams team.
@@ -176,6 +181,7 @@ Updates released between March 24, 2026, April 7, 2026
   **Why:** The goal is to make Microsoft 365 Copilot Chat available wherever users collaborate, improving consistency and access.
   
   **Try this:**
+
   
   -	Open a Teams chat or channel and launch Copilot.
   -	Use Microsoft 365 Copilot Chat to ask questions or generate insights.
@@ -201,6 +207,8 @@ Updates released between March 24, 2026, April 7, 2026
   **Why:** This change was made to give users more control over their workflows and reduce friction when managing recurring prompts.
   
   **Try this:**
+
+  
   
   -	Open your list of scheduled prompts.
   
@@ -241,6 +249,7 @@ Updates released between March 24, 2026, April 7, 2026
     **Why:** This change reduces friction and improves usability by allowing users to analyze relevant files without needing to manually attach them.
     
     **Try this:**
+
     
     -	Search for a spreadsheet in Copilot Chat and ask the code interpreter to summarize trends.
     
