@@ -47,7 +47,7 @@ All tenant administrators are encouraged to check their tenant's flex routing se
 **Enable flex routing**
 
 1. Sign in to the Microsoft 365 admin center as an administrator assigned the [AI Administrator role](/entra/identity/role-based-access-control/permissions-reference).
-2. Go to **Copilot** -> **Settings** -> **Flexible inferencing during peak load periods**.
+2. Go to **Copilot** -> **Settings** -> **View all** -> **Flex routing during peak load periods**.
 3. Select **Allow flex routing during periods of peak load**.
     1. This setting allows LLM inferencing and the storage of associated pseudonymized data to occur outside the EU data boundary during periods of peak demand. Typically, these periods are limited in duration and do not run continuously.
 4. If you don’t want to allow flex routing, select **Do not allow flex routing**.
