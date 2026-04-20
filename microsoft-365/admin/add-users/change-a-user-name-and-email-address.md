@@ -46,7 +46,7 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=7b58656a-67db-457a-aa90-5c93334d4d28]
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Active users**.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, select **Users** > **Active users**.
 
 1. Select the user from the list of active users.
 
@@ -62,13 +62,13 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 ::: moniker range="o365-worldwide"
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to the **Users** > **Active users** page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Users** > **Active users** page.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to the **Users** > **Active users** page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Microsoft 365 admin center</a>, go to the **Users** > **Active users** page.
 
 ::: moniker-end
 
