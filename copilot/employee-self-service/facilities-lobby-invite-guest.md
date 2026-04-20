@@ -1,5 +1,5 @@
 ---
-title: Invite a Guest to Campus
+title: "Extend Employee Self-Service Agent: Invite a Guest"
 f1.keywords: NOCSH
 ms.author: heidip
 author: apoorvg
@@ -18,7 +18,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Extending Employee Self-Service Agent
+# Extend Employee Self-Service Agent: Invite a Guest
 
 The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
@@ -120,7 +120,7 @@ This process involves only one step:
   - Invite guest using the prompt "Invite my guest to the office". This prompt opens an Adaptive card where you can fill the required details like guest name, purpose of visit, date, and time of visit, etc.
   - Upon successful submission, the Employee Self-Service system displays a confirmation that the guest invite is created.
 
-### Validate the Topic
+### Review the topic workflow
 
 - The Trigger node captures the topic description, which is visible from the user interface. You can use Microsoft 365 copilot to fine-tune as per your requirements.
 
