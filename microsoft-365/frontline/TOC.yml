@@ -89,6 +89,8 @@ items:
       href: shifts-frontline-manager-worker-roles.md
     - name: Manage Shifts permissions for frontline managers
       href: manage-shifts-permissions-frontline-managers.md
+    - name: Auto-assign open shifts
+      href: shifts-auto-assign-open-shifts.md
     - name: Shifts data FAQ
       href: /microsoftteams/expand-teams-across-your-org/shifts/shifts-data-faq?bc=/microsoft-365/frontline/breadcrumb/toc.json&toc=/microsoft-365/frontline/toc.json
     - name: Workforce management integrations
