@@ -6685,7 +6685,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Windows](#tab/win)
 
- ## April 7, 2026
+ ## April 21, 2026
 Updates released between April 7, 2026, April 21, 2026
 
 ### Microsoft 365 Copilot chat
