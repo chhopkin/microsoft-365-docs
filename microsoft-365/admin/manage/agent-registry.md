@@ -75,7 +75,7 @@ The agent **Registry** can contain a large and diverse inventory of agents. As y
 You can filter the agent list based on the following criteria:
 
 - **Status** - You can filter the agent list based on status of the agent.
-- **Publisher** - The publisher filter indicates who owns and distributes the agent, rather than where or how it was built. This filter is primarily used to distinguish between Microsoft agents, external partner-built agents, and internally owned agents publish by your organization.
+- **Publisher** - The publisher filter indicates who owns and distributes the agent, rather than where or how it was built. This filter is primarily used to distinguish between Microsoft agents, external partner-built agents, and internally owned agents published by your organization.
 - **Channel** - The channel filter is the location where the agent is deployed. It's the surface through which members of your organization can discover and interact with the agent. Channel values include **Copilot**, **Office**, **Outlook**, **Teams**.
 - **Platform** - The platform filter indicates which platform or product was used to create the agent.
 - **Data source** - The data source filter allows you to select **Embedded knowledge** and **Fine-tuned models** as data source options. **Embedded knowledge** refers to agents that include files that were uploaded by the agent maker or developer as knowledge sources. **Fine-tuned models** indicates that the agent was created using [Microsoft 365 Copilot Tuning](/microsoft-365/copilot/copilot-tuning-overview), allowing the agent to tune LLMs with their own organization data.
@@ -89,7 +89,7 @@ The agent **Registry** provides agent actions that relate specifically to your t
 
 | Action | Description |
 |---|---|
-| **Refresh** | Updates to list to provide the most current view of the agent list. |
+| **Refresh** | Updates the list to provide the most current view of the agent list. |
 | **Export to Excel** | Exports agents to a CSV file. This action could take some time depending on the number of agents in the tenant. For more information, see [Export to Excel](#export-to-excel).  |
 | **Upload custom agent** | Provides a method to upload an agent manifest file (.zip). For more information, see [Upload custom agent](#upload-custom-agent). |
 | **Manage pinned agents** | Select which agents are pinned for the user. Pinned agents are more prominently displayed in each available channel where the agent is deployed. You can change the priority of pinned agents by moving them up and down in this list. If a user has more than three pinned agents, users don't see agents with lower priority. For more information, see [Managed pinned agents](#manage-pinned-agents). |
