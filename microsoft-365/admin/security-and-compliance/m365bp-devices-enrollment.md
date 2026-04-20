@@ -34,7 +34,7 @@ Intune provides two basic strategies for managing devices that access company da
 
 - **Mobile device management (MDM)**: The organization controls all aspects of the device. After the device is enrolled in Intune, admins can install apps, allow or block enrollment by platform, block personal devices, and more. If the device is ever lost or stolen, you can remotely wipe the device. The enrolled device is said to be *managed*.
 
-  We always recommend MDM for company-owned devices. For instructions in this article, see [Mobile device management in Intune for device protection](#mobile-device-management-using-intune-for-device-protection)
+  We always recommend MDM for company-owned devices. For instructions in this article, see [Mobile device management in Intune for device protection.](#mobile-device-management-using-intune-for-device-protection)
 
 - **Mobile application management (MAM)**: The user controls the device, but the organization controls access to company data on the device. You need to create policies that block users from enrolling their personal devices in MDM. Application management policies prevent users from copying business data from Microsoft 365 Apps to personal apps. If a device is ever lost or stolen, you can remotely remove all *organization data* from managed apps. The device is said to be *unmanaged*.
 
