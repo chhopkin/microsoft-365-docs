@@ -28,6 +28,8 @@ appliesto:
 
 This page lists the latest features and improvements for Microsoft 365 Copilot. It includes changes that are generally available (Current Channel for Microsoft 365 apps) and specific to each platform.
 
+Copilot features are introduced using a safe deployment model, gradually rolling out to a subset of users within a tenant before expanding across the organization.
+
 ## [All features](#tab/all)
 
 <!--- All features regardless of platform go here  -->
@@ -50,6 +52,7 @@ Updates released between April 7, 2026, April 21, 2026
     Organizations need clearer administrative controls to manage who can create AI-generated videos and align usage with internal policies.
      
     **Try this:**
+  
     
     -	Review the new Copilot video generation setting in the Microsoft 365 admin center.
     -	Decide whether video generation should be allowed for your organization.
@@ -102,21 +105,21 @@ Updates released between April 7, 2026, April 21, 2026
     Microsoft 365 Copilot now displays rich, interactive Bing web answer cards—such as Weather and Stocks—directly in chat responses to help users quickly access relevant, real‑time information.
     
     **Roadmap ID:** [500865](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500865)
+    
 
-   **Details**
+   **Details:**
+   
+   **What changed:** Copilot Chat will now show Bing’s rich and interactive answer cards—such as Weather, Stocks, and other structured information—when users ask related questions. Previously, Copilot provided only text‑based responses without these enhanced visual cards.
     
-    **What changed:** Copilot Chat will now show Bing’s rich and interactive answer cards—such as Weather, Stocks, and other structured information—when users ask related questions. Previously, Copilot provided only text‑based responses without these enhanced visual cards.
-    
-     **Why:** This change helps users get clearer, more actionable information at a glance, reducing the need to leave Copilot Chat to check external sources.
+    **Why:** This change helps users get clearer, more actionable information at a glance, reducing the need to leave Copilot Chat to check external sources.
     
     **Try this:**
     
     -	Ask Copilot for the current weather in your city.
-    
     -	Request stock information for a company your team follows.
-    
     -	Check sunrise and sunset times by asking Copilot directly.
     
+
     **Why this matters:**  
     
     **Business impact:** Provides faster access to real‑time data, improving decision‑making and reducing context switching.
@@ -125,7 +128,7 @@ Updates released between April 7, 2026, April 21, 2026
 
  ### Microsoft 365 Copilot extensibility
 
-- **Share agents to Teams**
+- **Share agents to Teams** [Web}
   
   This feature allows users to share their agent directly with a Microsoft Teams team, making it easier for teams to discover, install, and start using agents together.
  
@@ -175,9 +178,7 @@ Updates released between March 24, 2026, April 7, 2026
   **Try this:**
   
   -	Open a Teams chat or channel and launch Copilot.
-  
   -	Use Microsoft 365 Copilot Chat to ask questions or generate insights.
-  
   -	Try Microsoft 365 Copilot Chat during a meeting to support real time collaboration.
   
   **Why this matters:**
@@ -230,9 +231,13 @@ Updates released between March 24, 2026, April 7, 2026
     **Roadmap ID:** [519570]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=519570)
     
     **Details:**
-    
-    **What changed:** Previously, code interpreter only worked on files explicitly uploaded or attached. Now, it can also analyze files surfaced through enterprise search in Copilot Chat.
-    
+
+
+
+    **What changed:**
+   
+    Previously, code interpreter only worked on files explicitly uploaded or attached. Now, it can also analyze files surfaced through enterprise search in Copilot Chat.
+
     **Why:** This change reduces friction and improves usability by allowing users to analyze relevant files without needing to manually attach them.
     
     **Try this:**
@@ -6671,6 +6676,37 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Windows](#tab/win)
 
+ ## April 7, 2026
+Updates released between April 7, 2026, April 21, 2026
+
+### Microsoft 365 Copilot chat
+ 
+ - **Rich Bing web answer cards in Copilot Chat** [Windows, Web]
+   
+    Microsoft 365 Copilot now displays rich, interactive Bing web answer cards—such as Weather and Stocks—directly in chat responses to help users quickly access relevant, real‑time information.
+    
+    **Roadmap ID:** [500865](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500865)
+    
+
+   **Details:**
+   
+   **What changed:** Copilot Chat will now show Bing’s rich and interactive answer cards—such as Weather, Stocks, and other structured information—when users ask related questions. Previously, Copilot provided only text‑based responses without these enhanced visual cards.
+    
+    **Why:** This change helps users get clearer, more actionable information at a glance, reducing the need to leave Copilot Chat to check external sources.
+    
+    **Try this:**
+    
+    -	Ask Copilot for the current weather in your city.
+    -	Request stock information for a company your team follows.
+    -	Check sunrise and sunset times by asking Copilot directly.
+    
+
+    **Why this matters:**  
+    
+    **Business impact:** Provides faster access to real‑time data, improving decision‑making and reducing context switching.
+    
+    **Personal impact:** Helps individuals quickly get the information they need without opening additional tabs or apps.
+
 ## April 7, 2026
 Updates released between March 24, 2026, April 7, 2026
 
@@ -9502,6 +9538,70 @@ Updates released between December 18, 2024, and January 7, 2025.
 <!-- 100671,100312,96561,96560,96300,104967,104073,102626,101108,97855 -->
 
 ## [Web](#tab/Web)
+
+## April 21, 2026
+Updates released between April 7, 2026, April 21, 2026
+
+### Microsoft 365 Copilot chat
+ 
+ - **Rich Bing web answer cards in Copilot Chat** [Windows, Web]
+   
+    Microsoft 365 Copilot now displays rich, interactive Bing web answer cards—such as Weather and Stocks—directly in chat responses to help users quickly access relevant, real‑time information.
+
+    **Roadmap ID:** [500865](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500865)
+    
+
+   **Details:**
+   
+   **What changed:** Copilot Chat will now show Bing’s rich and interactive answer cards—such as Weather, Stocks, and other structured information—when users ask related questions. Previously, Copilot provided only text‑based responses without these enhanced visual cards.
+    
+    **Why:** This change helps users get clearer, more actionable information at a glance, reducing the need to leave Copilot Chat to check external sources.
+    
+    **Try this:**
+    
+    -	Ask Copilot for the current weather in your city.
+    -	Request stock information for a company your team follows.
+    -	Check sunrise and sunset times by asking Copilot directly.
+    
+
+    **Why this matters:**  
+    
+    **Business impact:** Provides faster access to real‑time data, improving decision‑making and reducing context switching.
+    
+    **Personal impact:** Helps individuals quickly get the information they need without opening additional tabs or apps.
+
+
+ ### Microsoft 365 Copilot extensibility
+
+- **Share agents to Teams** [Web}
+  
+  This feature allows users to share their agent directly with a Microsoft Teams team, making it easier for teams to discover, install, and start using agents together.
+ 
+  **Roadmap ID:** [557947](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=557947)
+  
+   **Details:**
+  
+
+
+    **What changed** Users can now share an agent with a Microsoft Teams team by selecting a team in the sharing dialog. Users can also notify the team’s main channel so team members are aware of the agent and can install it.
+  
+    **Why:** This change helps teams collaborate more easily by making shared agents discoverable and accessible within the Teams environment they already use.
+      
+    **Try this:**
+    
+    
+    - Open the agent sharing dialog and search for a Microsoft Teams team.
+    - Select a team to share your agent with.
+    - Send a notification to the team’s main channel.
+    - Encourage team members to install and start using the agent.
+    
+    **Why this matters:**
+    
+    **Business impact:** Improves team collaboration by making agents easier to deploy within existing Teams workflows.  
+    
+    **Personal impact:** Simplifies access to shared agents without needing individual setup steps.
+
+
 
 ## April 7, 2026
 Updates released between March 24, 2026, April 7, 2026
