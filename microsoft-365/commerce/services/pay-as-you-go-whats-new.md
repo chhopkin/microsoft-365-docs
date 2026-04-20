@@ -19,7 +19,7 @@ ms.date: 04/20/2026
 ---
 
 # What's new with pay-as-you-go services in Microsoft 365
-  
+
 Microsoft 365 continues to expand its pay-as-you-go offerings, giving your organization more flexibility and control over how you use and pay for services. This article highlights the latest updates, including improvements to the admin experience and newly available services.
 
 ## April 2026
