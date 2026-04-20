@@ -26,7 +26,7 @@ Microsoft 365 continues to expand its pay-as-you-go offerings, giving your organ
 
 ### Edit Billing Policy
 
-- **Security Group Editing for PAYG Billing Policies.** Admins can now update the security group associated with an existing PAYG billing policy, allowing changes to user-level scoping without recreating the policy. This capability enables more flexible management of PAYG billing policies as organizational access requirements evolve.
+- **Security group editing for pay-as-you-go billing policies.** Admins can now update the security group associated with an existing pay-as-you-go billing policy, allowing changes to user-level scoping without recreating the policy. This capability enables more flexible management of pay-as-you-go billing policies as organizational access requirements evolve.
 
 ### Copilot capacity pack without pay-as-you-go
 
