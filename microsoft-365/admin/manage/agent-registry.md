@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/17/2026
+ms.date: 04/20/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -419,6 +419,3 @@ To access the **Agents at risk** card in the Microsoft 365 admin center, follow 
 The **Agents at risk** card offers immediate visibility into the agents with the highest aggregated risks in the organization by surfacing the top three most at‑risk agents, enabling administrators to quickly prioritize investigation and response efforts.
 
 Selecting **View agents** from the card takes administrators directly to the **All agents** > **Registry** page, where agents are pre‑filtered and sorted based on risk level. This filtering allows for streamlined investigation and remediation workflows without requiring manual filtering across the full agent inventory.
-
-
-
