@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/13/2026
+ms.date: 04/20/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -76,7 +76,41 @@ The **Overview** tab provides a description, instructions, publish status, avail
 
 ## Agent users
 
+You can control how agents created in the organization are made available across your organization. You can configure the following agent availablity options: 
 
+- Who can discover and install an agent  
+- Which users have the agent pre‑installed  
+- Whether the agent is available organization‑wide or to specific groups
+
+These options help organizations publish and install agents in a governed manner aligned with internal compliance and rollout policies.
+
+### Agent availability and Installation
+
+Each agent includes availability and installation settings. The following table describes these settings: 
+
+|         Setting  |            Description        |
+|---|---|
+|  |  |
+|         Installed to  |            Controls which users automatically have the agent   pre‑installed.        |
+| Published to | Controls which users can install and use an agent. |
+
+### Set agent availability and installation
+
+To set an individual agent's availability and installation settings, use the following steps:
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
+1. Select an agent from the list to manage.
+1. Select the **Users** tab.
+1. Select **Installed to** to assign users that will have the agent pre-install. Choose from the following options:
+  - Just me
+  - Entire organization
+  - Specific users/groups
+1. Select **Published to** to select users that can install and use the agent. Choose from the following options:
+  - No users in the organization can install
+  - All users in the organization can install
+  - Specific users/groups can install
+1. Select **Update** to save these settings.
 
 ## Agent permissions
 
