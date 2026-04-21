@@ -55,7 +55,7 @@ To extend the Employee Self-Service Copilot Agent with a custom *Register a Vehi
   <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle>
 
 - Maker access to a sandbox or preproduction environment in Copilot Studio.
-- Access to the Vehicle Registration API and Config APIs which are used to fetch the config data for different regions.
+- Access to the Vehicle Registration API and Config APIs, which are used to fetch the config data for different regions.
   - For this example of registering a vehicle for parking on campus, we assume the vehicle registration system is a custom solution built on the Azure platform.
 
 ## Fundamentals
@@ -89,7 +89,7 @@ HTTP request action reference:
 
 ## Example: Register Your Vehicle for Parking
 
-In the **Register Your Vehicle for Parking** scenario, an employee can register their vehicle for parking on campus by providing necessary details such as vehicle make, model, license plate number, and parking duration. The Employee Self-Service Copilot Agent will then process this information, interact with the backend parking management system, and confirm the registration status to the employee.
+In the **Register Your Vehicle for Parking** scenario, an employee can register their vehicle for parking on campus by providing necessary details such as vehicle make, model, license plate number, and parking duration. The Employee Self-Service Copilot Agent processes this information, interacts with the backend parking management system, and confirms the registration status to the employee.
 
 This process involves only one step:
 
@@ -114,7 +114,7 @@ This process involves only one step:
 - Now, let's test the newly added topic
   - Using the Test button in **Copilot Studio**, open the test chat window.
   - Register a vehicle using the prompt "I want to register my vehicle for parking". This prompt opens an Adaptive card where you can fill the required details like vehicle type, vehicle make and model, license plate number etc.
-  - Upon successful submission, the Employee Self-Service (ESS) system will display a confirmation that the vehicle has been successfully registered.
+  - Upon successful submission, the Employee Self-Service (ESS) system displays a confirmation that the vehicle is registered.
   
 ### Review the topic workflow
 
@@ -124,12 +124,13 @@ This process involves only one step:
 
 - The next few nodes take care of extracting and assigning correct CountryCode to each request.
   - This configuration is an optional step. To correctly extract and validate the CountryCode, few variables are maintained. These variables are then used in a group of conditional statements to make the required configuration.
-  - If CountryCode configuration is not required, remove these nodes by deleting the corresponding variables and condition nodes.
+  - If CountryCode configuration isn't required, remove these nodes by deleting the corresponding variables and condition nodes.
 
 - The next node is to make an HTTP call to the backend Config API to fetch all Country Specific configuration. We use HttpRequestAction component for making the HTTP call. The HTTP call can be alternatively configured in several other ways described in the connectors section previously.
-  - The next set of nodes are conditional statements which parse the data received from config API call into different set of properties like registration type options, vehicle type options, vehicle color options etc. These options are prepopulated in the vehicle registration form that gets rendered in the following steps.
-- The next node is the vehicle registration adaptive card with action buttons. Verify the existing fields. Currently the required input parameters for creating a vehicle registration are vehicle type, vehicle make, vehicle model, year of manufacturing, vehicle color, license plate number, state, parking location and registration type. Users can add or modify fields as needed.
+  - The next set of nodes are conditional statements, which parse the data received from config API call. This parsed config data is stored into different set of properties like registration type options, vehicle type options, vehicle color options, etc. These options are prepopulated in the vehicle registration form that gets rendered in the following steps.
+- The next node is the vehicle registration adaptive card with action buttons. Verify the existing fields. Currently the required input parameters for creating a vehicle registration are - vehicle type,  make, del, year of manufacturing, color, license plate number, state, parking location, and registration type. Users can add or modify fields as needed.
   - Different adaptive cards are configured to capture different set of required inputs based on the CountryCode value.
+
     :::image type="content" source="media/facilities-parking-register-vehicle-validate-topic-adaptive-card.png" alt-text="Diagram that shows the adaptive card fields for the vehicle registration form. Adjust the fields as required.":::
 
 - The next node is to make an HTTP call to the backend vehicle registration API with all the collected information forwarded with the request.
@@ -152,6 +153,7 @@ We use *HttpRequestAction* component for making the HTTP calls. As a start, you 
 - Select the appropriate HTTP request method from the method dropdown.
 
 - Add the required headers, request body, and error handling as per your backend API definition.
+
     :::image type="content" source="media/facilities-parking-register-vehicle-httprequest-headers-body.png" alt-text="Diagram that shows the headers and body configuration in HttpRequestAction.":::
 
 - Select the appropriate Response data type as per your backend contracts from the dropdown.
