@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: erikre
 manager: scotv
-ms.date: 04/15/2026
+ms.date: 04/21/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -78,9 +78,9 @@ You can access and view the **Agent overview** using the following steps:
 
 Using the **Agent overview**, you can view key agent details for your tenant, including the following items:
 
-- A snapshot of agent health and actionable insights for the last 30 days
+- A snapshot of agent activity and actionable insights for the last 30 days
 - Track agent adoption and usage trends
-- Identify alerts and governance gaps
+- Identify risks and governance gaps
 - Critical actions for administrators to review, such as:
   - Approve pending requests
   - Manage agents without owners
@@ -142,7 +142,7 @@ Selecting these options in Microsoft 365 admin center navigates you to relevant 
 
 Hero metrics provide a high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale, engagement, and business value.
 
-**Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
+- **Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
 - **Active users** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered an active user.
 - **Agent run-time** - Total hours worked by agents during the last 30 days, calculated as the sum of each agent session's duration (end time minus start time).
 - **Agent detector** - The external connected platforms that were scanned. You can connect to external platforms to find and monitor agents used in your organization. Your use of external non-Microsoft products is subject to the third-party service provider's terms of use. You're responsible for complying with each provider's terms of use.
@@ -165,13 +165,14 @@ Get detailed insights into how agents are distributed and used. This information
   - **Third Party** - Agents created by external partners.
   - **Microsoft** - Agent created by Microsoft.
   - **Your users** – Agents created by members of your organization. These agents can be shared by those members of your organization, or used only by them.
-- **Top platforms used to build agents** - See which creation platforms are most used for building agents. For example:
+- **Top platforms used to build agents** - See which creation platforms are most used for building agents. The following MSFT platforms are covered in A365:
   - Microsoft 365 Copilot Agent Builder
   - Copilot Studio
   - Agents Toolkit
   - SharePoint
   - Microsoft Foundry
-  - Other
+  - Other - **NOTE**: 'Other' is used to indicate an unknown platform.
+  - Third party platforms will also display in this card if there are third party agents in your registry.
 - **Active users in Copilot over time** - View a trend chart that shows daily active user engagement with agents over the last 30 days. This chart reveals adoption momentum and helps you spot usage spikes or declines.
 - **Trending agents by active users** - You can view the agents with the most active users in your organization over the last 30 days.
 
