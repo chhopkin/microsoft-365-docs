@@ -21,18 +21,6 @@ items:
           href: /security/zero-trust/zero-trust-identity-device-access-policies-guest-access?toc=/microsoft-365/security/toc.json&bc=/microsoft-365/security/breadcrumb/toc.json
         - name: Recommended policies and settings for Microsoft 365 workloads
           href: /security/zero-trust/zero-trust-identity-device-access-policies-workloads?toc=/microsoft-365/security/toc.json&bc=/microsoft-365/security/breadcrumb/toc.json
-    - name: Strengthen your security posture with Microsoft Defender XDR
-      items:
-        - name: Overview
-          href: security-posture-solution-overview.md
-        - name: Phase 1 - Configure capabilities
-          href: strengthen-security-posture-configure-capabilities.md
-        - name: Phase 2 - Assess and protect your assets
-          href: strengthen-security-posture-assess-protect.md
-        - name: Phase 3 - Improve your security posture
-          href: strengthen-security-posture-investigate-improve.md
-        - name: Phase 4 - Maintain a secure posture
-          href: strengthen-security-posture-track-maintain.md
     - name: Microsoft Defender XDR docs
       items:
        - name: Microsoft Defender XDR
