@@ -19,7 +19,7 @@ ms.collection:
 - OtherAILLMs
 appliesto:
 - ✅ Microsoft 365 Copilot
-description: "Learn about Anthropic as a subprocessor for Microsoft."
+description: "Learn about Anthropic as a subprocessor for Microsoft Online Services."
 ---
 
 # Anthropic as a subprocessor for Microsoft Online Services
