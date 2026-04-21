@@ -49,13 +49,8 @@ productDirectory:
     # Card
     - title: Microsoft 365 Copilot
       imageSrc: /microsoft-365/media/logos/m365-copilot.png
-      summary: Plan, implement, and manage the Microsoft 365 Copilot service in your organization.
+      summary: Plan, implement, and manage Microsoft 365 Copilot Chat and Microsoft 365 Copilot service in your organization.
       url: microsoft-365-copilot-overview.md
-    # Card
-    - title: Microsoft 365 Copilot Chat
-      imageSrc: /microsoft-365/media/logos/m365-copilot.png
-      summary: Plan, implement, and manage the Microsoft 365 Copilot Chat service in your organization.
-      url: /copilot/overview
 
 tools:
   title: Extending Microsoft 365 Copilot
