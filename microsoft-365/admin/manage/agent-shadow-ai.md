@@ -73,26 +73,26 @@ Shadow AI refers to AI-powered tools and agents used by users without IT awarene
 Common examples of Shadow AI tools include:
 
 - Unauthorized AI coding assistants. For example, OpenClaw.
-- Third-party AI productivity applications
+- Non-Microsoft AI productivity applications
 - Browser extensions with AI capabilities
 
 The Shadow AI experience helps administrators identify and manage these risks without disrupting legitimate business workflows.
 
-## What's included in public preview
+## Features available in public preview
 
 During public preview, the Shadow AI experience is split into two distinct capabilities:
 
-1. Unapproved/Unregistered locally run AI Agents (Shadow AI)
+- **[Unapproved/Unregistered locally run AI Agents (Shadow AI)](#shadow-ai-governance-for-unapprovedunregistered-locally-run-ai-agents)**
 
-    These are unmanaged or unregistered agents that can introduce governance and security risk. These agents include:
+    These agents are unmanaged or unregistered agents that can introduce governance and security risk. These agents include:
 
     | Agent    | Detection | Blocking  |
     | -------- | --------- | --------- |
     | OpenClaw | Available | Available |
 
-1. Developer Tool Detection
+- **[Developer Tool Detection](#developer-tool-detection)**
 
-    These are legitimate developer tools that can be detected on managed devices for IT visibility and inventory purposes. Blocking is not applicable; this capability is understanding which developer tools are running in your environment, not governing them as Shadow AI.
+    These developer tools are legitimate developer tools that can be detected on managed devices for IT visibility and inventory purposes. Developer tool detection isn't for blocking or governing as Shadow AI. Instead, this capability helps you understand which developer tools are running in your environment, not governing them as Shadow AI.
 
     | Agent | Detection | Blocking |
     | ----- | --------- | -------- |
@@ -102,9 +102,13 @@ During public preview, the Shadow AI experience is split into two distinct capab
 >
 > Shadow AI detection and blocking currently apply only to managed Windows devices enrolled with Microsoft Intune.
 
-## Access the Shadow AI (Frontier) page
+## Shadow AI: Governance for unapproved/unregistered locally run AI agents
 
-The Shadow AI (Frontier) page is a dedicated experience in the Microsoft 365 admin center, separate from **All agents**. It focuses exclusively on unmanaged AI agents that require detection and governance as well as gaining visibility into developer tool usage.
+This section covers governance scenarios for unapproved AI agents like OpenClaw that can be both detected and blocked.
+
+### Access the Shadow AI (Frontier) page and agent details
+
+The Shadow AI (Frontier) page in the Microsoft 365 admin center is a dedicated experience separate from the **All agents** page. It focuses exclusively on unmanaged AI agents that require detection and governance. It also provides visibility into developer tool usage.
 
 To access the **Shadow AI (Frontier)** page in the Microsoft 365 admin center, follow these steps:
 
@@ -114,25 +118,21 @@ To access the **Shadow AI (Frontier)** page in the Microsoft 365 admin center, f
 
 1. Under **Agents**, select **Shadow AI (Frontier)**
 
-The **Shadow AI (Frontier)** page displays a list of known Shadow AI agents and developer tools that can be detected in your environment.
+1. The **Shadow AI (Frontier)** page displays a list of known Shadow AI agents and developer tools that can be detected in your environment.
 
-## Shadow AI: Governance for unapproved/unregistered locally run AI agents
+1. To view Shadow AI agent details, such as OpenClaw details, select the Shadow AI agent name
 
-This section covers governance scenarios for unapproved AI agents like OpenClaw that can be both detected and blocked.
+1. The details pane opens for the selected Shadow AI agent. In the details pane, you can view information regarding the type of agent. For example:
 
-### Viewing Shadow AI agent details
-
-To view Shadow AI agent details, such as OpenClaw details, select the Shadow AI agent name to open the details pane. In the details pane, you can view information regarding the type of agent. For example:
-
-- When it was last scanned.
-- If there are any security policies currently applied.
-- A count of detected devices. This count will only be populated if a detection policy has been applied.
+   - When it was last scanned.
+   - If there are any security policies currently applied.
+   - A count of detected devices. This count is only populated if a detection policy is applied.
 
 ### Enabling detection for a Shadow AI agent
 
 To proactively configure detection for a Shadow AI agent before broad adoption, follow these steps:
 
-1. Use the steps in the [Access the Shadow AI (Frontier) page](#access-the-shadow-ai-frontier-page) section to access the **Shadow AI (Frontier)** page.
+1. Use the steps in the [Access the Shadow AI (Frontier) page and agent details](#access-the-shadow-ai-frontier-page-and-agent-details) section to access the **Shadow AI (Frontier)** page.
 
 1. In the **Shadow AI (Frontier)** page, select the desired Shadow AI agent. For example, OpenClaw.
 
@@ -140,16 +140,16 @@ To proactively configure detection for a Shadow AI agent before broad adoption, 
 
 1. Under **Security policies**, select **Continuously detect managed devices**.
 
-This will create a new Microsoft Intune policy that automatically propagates to all managed Windows devices enrolled in Intune. A device receives the updated Intune policy when the next Intune sync cycle occurs. Depending on how your organization has configured Intune, this Intune policy update could take anywhere from 15 minutes up to 8 hours. Full policy details, including when this policy has been applied, can be found in Intune. For more information, see [Assign policies in Microsoft Intune](/intune/device-configuration/assign-device-profile).
+These steps create a new Microsoft Intune policy that automatically propagates to all managed Windows devices enrolled in Intune. A device receives the updated Intune policy when the next Intune sync cycle occurs. Depending on how Intune is configured in your organization, this Intune policy update could take anywhere from 15 minutes up to 8 hours to apply. Full policy details, including when Intune policy applies, can be found in Intune. For more information, see [Assign policies in Microsoft Intune](/intune/device-configuration/assign-device-profile).
 
 ### Detected Devices
 
 After a detect security policy is applied on devices, **Detected devices** of the Shadow AI agent details pane populates. In **Detected devices**, you can search for a specific device name. You can also see the following device data:
 
-- **Device name**: Name of this device
+- **Device name**: Name of this device.
 - **Device type**: Type of device (Desktop, Virtual Machine, Server, Laptop, etc.)
-- **Operating system**: Operating system installed on device
-- **Last Intune scan**: The last time this device was scanned by Intune
+- **Operating system**: Operating system installed on device.
+- **Last Intune scan**: The last time Intune scanned the device.
 
 ### Blocking a Shadow AI agent
 
@@ -157,7 +157,7 @@ After detection is enabled and the Shadow AI agent is identified in your environ
 
 To block a Shadow AI agent:
 
-1. Use the steps in the [Access the Shadow AI (Frontier) page](#access-the-shadow-ai-frontier-page) section to access the **Shadow AI (Frontier)** page.
+1. Use the steps in the [Access the Shadow AI (Frontier) page and agent details](#access-the-shadow-ai-frontier-page-and-agent-details) section to access the **Shadow AI (Frontier)** page.
 
 1. In the **Shadow AI (Frontier)** page, select the desired Shadow AI agent. For example, OpenClaw.
 
@@ -165,11 +165,9 @@ To block a Shadow AI agent:
 
 1. Under **Security policies**, select **Block AI agents from *<Shadow AI agent name>***. For example, select **Block AI agents from OpenClaw**.
 
-Blocking a Shadow AI agent creates a new Intune policy that automatically propagates to all managed Windows devices enrolled in Intune. Depending on how your organization has configured Intune, this Intune policy update could take anywhere from 15 minutes up to 8 hours. Full policy details, including when this policy has been applied, can be found in Intune. For more information, see [Assign policies in Microsoft Intune](/intune/device-configuration/assign-device-profile).
+Blocking a Shadow AI agent creates a new Intune policy that automatically propagates to all managed Windows devices enrolled in Intune. Depending on how Intune is configured in your organization, this Intune policy update could take anywhere from 15 minutes up to 8 hours to apply. Full policy details, including when Intune policy applies, can be found in Intune. For more information, see [Assign policies in Microsoft Intune](/intune/device-configuration/assign-device-profile).
 
-### What happens when a Shadow AI agent is blocked?
-
-When a Shadow AI agent is blocked:
+When a Shadow AI agent is blocked, the following occurs:
 
 - The Shadow AI agent can no longer run on managed devices.
 - Devices receive compliance indicators.
