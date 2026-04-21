@@ -451,19 +451,21 @@ items:
         items:
         - name: Overview of App Builder
           href: responsible-ai/faq-app-builder.md
-      - name: Copilot Cowork (Frontier)
+      - name: Cowork (Frontier)
         items:
-        - name: Overview of Copilot Cowork
+        - name: Overview of Cowork
           href: cowork/index.md
         - name: What's new
           href: cowork/whats-new.md
         - name: Get started
           href: cowork/get-started.md
-        - name: Use Copilot Cowork
+        - name: Use Cowork
           href: cowork/use-cowork.md
+        - name: Best practices
+          href: cowork/best-practices.md
         - name: Common questions
           href: cowork/cowork-faq.md
-        - name: Manage Copilot Cowork
+        - name: Manage Cowork
           href: cowork/cowork-admin-governance.md
         - name: Responsible AI
           items:
