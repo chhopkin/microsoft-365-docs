@@ -9,12 +9,11 @@ ms.date: 03/05/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
-ms.localizationpriority: medium
+ms.subservice: m365-privacy
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 - must-keep
-- trust-pod
 - feedback-content
 ms.custom: campaignIDs-batch1
 hideEdit: true
