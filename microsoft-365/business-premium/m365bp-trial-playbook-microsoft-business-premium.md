@@ -1,11 +1,8 @@
 ---
 title: "Trial user guide: Microsoft 365 Business Premium"
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: Admin
 ms.topic: article
 ms.collection:
 - m365-security
@@ -15,9 +12,6 @@ ms.service: microsoft-365-admin
 ms.date: 05/31/2024
 ms.reviewer: nehabha
 ms.localizationpriority: medium
-search.appverid:
-- MOE150
-- MET150
 description: "Make the most of your Microsoft 365 Business Premium trial. Try out some of the key productivity and security capabilities."
 ---
 

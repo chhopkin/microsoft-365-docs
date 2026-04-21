@@ -28,6 +28,8 @@ By using the Optimization agent template, you can solve decision-based business 
 - **Rules and preferences**, such as keeping existing teams together or staying within budget
 - **Data**, such as lists of employees, projects, or territories
 
+:::image type="content" source="media/copilot-tuning-optimization-template/optimization-template-overview.png" alt-text="Screenshot that shows the optimization template defines goals, rules/preferences, and data." lightbox="media/copilot-tuning-optimization-template/optimization-template-overview.png":::
+
 After you provide this information, the agent uses solver tools to compute an optimal solution that satisfies all constraints and objectives. It presents the results in an interactive experience, and you can download them as a .csv file.
 
 Common use cases include:
@@ -82,6 +84,9 @@ As you interact with the agent, a side panel shows how your problem is interpret
 
 You can ask the agent to edit or remove any part of the setup.
 
+:::image type="content" source="media/copilot-tuning-optimization-template/review-setup.png" alt-text="Screenshot that shows review the goals, decision variables, constraints, objectives, and data for your agent." lightbox="media/copilot-tuning-optimization-template/review-setup.png":::
+
+
 ### Clarify as needed
 
 If the agent detects ambiguity or missing information, it prompts you to clarify constraints or objectives to ensure the problem is feasible and solvable.
@@ -114,6 +119,8 @@ The resulting solution:
 ## When to use the Optimization agent template
 
 Use the Optimization agent template when you need to determine the best possible decision under constraints. Start by identifying the decision you want to optimize.
+
+:::image type="content" source="media/copilot-tuning-optimization-template/use-optimization-template.png" alt-text="Screenshot showing the steps to use the optimization template." lightbox="media/copilot-tuning-optimization-template/use-optimization-template.png":::
 
 ### Identify the decision
 

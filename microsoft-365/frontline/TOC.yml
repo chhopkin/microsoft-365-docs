@@ -34,6 +34,9 @@ items:
         href: setupfrontlineagent.md
       - name: Start a pilot for your frontline workers
         href: startafrontlinepilot.md
+      - name: Scale a pilot to your frontline organization
+        href: scale-pilot-to-your-frontline-organization.md
+        displayName: scale, pilot, frontline, team, static, group, location
       - name: Choosing between flexible and static frontline teams
         href: frontline-team-options.md
       - name: Deploy frontline teams with flexible membership
@@ -86,6 +89,8 @@ items:
       href: shifts-frontline-manager-worker-roles.md
     - name: Manage Shifts permissions for frontline managers
       href: manage-shifts-permissions-frontline-managers.md
+    - name: Auto-assign open shifts
+      href: shifts-auto-assign-open-shifts.md
     - name: Shifts data FAQ
       href: /microsoftteams/expand-teams-across-your-org/shifts/shifts-data-faq?bc=/microsoft-365/frontline/breadcrumb/toc.json&toc=/microsoft-365/frontline/toc.json
     - name: Workforce management integrations

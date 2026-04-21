@@ -4,7 +4,7 @@ description: Learn how to configure and tune the Document Summary agent template
 author: david-salas
 ms.author: dsalasbarran
 manager: calvind
-ms.date: 03/10/2026
+ms.date: 04/10/2026
 ms.update-cycle: 180-days
 ms.reviewer: riyazp
 audience: Admin
@@ -32,10 +32,14 @@ By using the Document Summary agent template, you can:
 - Create specialized summarization agents by tuning goals and context.
 - Optionally fine-tune the agent by using your organization’s own data to improve relevance and consistency (coming soon).
 
+:::image type="content" source="media/copilot-tuning-document-summary-template/what-agent-can-do.png" alt-text="Screenshot that shows the agent can generate summaries, create summarization agents, and fine-tune based on organizational data." lightbox="media/copilot-tuning-document-summary-template/what-agent-can-do.png":::
+
 When you enable fine-tuning, the agent can:
 
 - Learn what information is most important based on high-quality examples.
 - Apply your summarization goals and rubrics consistently across documents.
+
+:::image type="content" source="media/copilot-tuning-document-summary-template/what-agent-can-do-2.png" alt-text="Screenshot that shows the agent can learn what's important and apply goals and rubrics." lightbox="media/copilot-tuning-document-summary-template/what-agent-can-do-2.png":::
 
 ## Supported inputs and outputs
 
@@ -46,6 +50,8 @@ The agent supports the following inputs and outputs:
 - **Outputs**:
   - A summary generated in the Copilot conversation
   - A draft summary document delivered by email
+
+:::image type="content" source="media/copilot-tuning-document-summary-template/inputs-and-outputs.png" alt-text="Screenshot that shows supported file types, input scopes, and outputs." lightbox="media/copilot-tuning-document-summary-template/inputs-and-outputs.png":::
 
 ## Use the agent for inference
 
@@ -62,6 +68,8 @@ The Document Summary agent template supports single file and multiple file promp
 - **Single file:** Summarize the key highlights and lowlights for a leadership review based on ProjectStatus.docx.
 
 - **Multiple files:** Summarize project risks based on TeamA_Status.docx, TeamB_Status.docx, and TeamC_Status.docx.
+
+:::image type="content" source="media/copilot-tuning-document-summary-template/supported-prompt-patterns.png" alt-text="Screenshot that shows supported prompt patterns are single file and multiple files." lightbox="media/copilot-tuning-document-summary-template/supported-prompt-patterns.png":::
 
 ## Prerequisites
 
