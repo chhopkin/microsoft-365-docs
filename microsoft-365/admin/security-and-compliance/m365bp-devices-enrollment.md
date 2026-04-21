@@ -34,7 +34,7 @@ Intune provides two basic strategies for managing devices that access company da
 
 - **Mobile device management (MDM)**: The organization controls all aspects of the device. After the device is enrolled in Intune, admins can install apps, allow or block enrollment by platform, block personal devices, and more. If the device is ever lost or stolen, you can remotely wipe the device. The enrolled device is said to be *managed*.
 
-  We always recommend MDM for company-owned devices. For instructions in this article, see [Mobile device management in Intune for device protection](#mobile-device-management-using-intune-for-device-protection)
+  We always recommend MDM for company-owned devices. For instructions in this article, see [Mobile device management in Intune for device protection.](#mobile-device-management-using-intune-for-device-protection)
 
 - **Mobile application management (MAM)**: The user controls the device, but the organization controls access to company data on the device. You need to create policies that block users from enrolling their personal devices in MDM. Application management policies prevent users from copying business data from Microsoft 365 Apps to personal apps. If a device is ever lost or stolen, you can remotely remove all *organization data* from managed apps. The device is said to be *unmanaged*.
 
@@ -69,13 +69,6 @@ For the device types that you intend to enroll in MDM, you need to take care of 
   - Configure Intune to automatically install Microsoft 365 Apps on Windows devices. For instructions, see [Add Microsoft 365 Apps to Windows 10/11 devices with Microsoft Intune](/intune/intune-service/apps/apps-add-office365).
 
   - Windows Autopilot uses a supported version of Windows Semi-Annual Enterprise Channel to set up PCs with business critical apps, policies, and features (for example, BitLocker) before you give the PCs to users. Autopilot can also reset, repurpose, and recover Windows devices. For more information, see [Overview of Windows Autopilot](/autopilot/overview).
-
-  - Business Premium includes free upgrades to Windows 10 Pro or Windows 11 Pro from the following versions of Windows:
-    - Windows 7 Pro
-    - Windows 8 Pro
-    - Windows 8.1 Pro
-
-    For more information, see [Upgrade Windows devices to Windows 10 or 11 Pro](/microsoft-365/business-premium/m365bp-upgrade-windows-pro).
 
 ### Step 3: Configure compliance policy settings in Intune
 
