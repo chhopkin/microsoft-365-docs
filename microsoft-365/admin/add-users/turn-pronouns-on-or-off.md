@@ -32,7 +32,7 @@ Pronouns are stored together with a user's other profile data in Microsoft 365 a
 
 Pronouns are stored with other data in the user's Exchange mailbox. For more information, see [Data Residency for Exchange Online](../../enterprise/m365-dr-service-exo.md#how-can-i-determine-customer-data-location).
 
-For example, if Alice changes her pronouns in the profile card, the cached data in Bob's mailbox is updated with the new pronouns. Alices pronouns in Bob's mailbox can't be edited or accessed directly by Bob, he can only see the pronouns through experiences that has are allowed to read the pronouns. An example of an experience that has access to pronouns from Bob's mailbox is Microsoft 365 Copilot.
+For example, if a user changes their pronouns in the profile card, the cached data in another user's mailbox is updated with the new pronouns. Other users can't edit someone else's pronouns. Users can only see the pronouns through experiences that show pronouns. Microsoft 365 Copilot is an example of an experience that has access to pronouns.
 
 > [!IMPORTANT]
 >
@@ -50,7 +50,6 @@ Before you decide to turn the pronouns feature on or off, consider the following
 - When you turn the pronouns feature on or off, it can take up to seven hours for users to see changes. For example, if you turn on the pronouns feature, users can't see the option to add pronouns on their profile for up to seven hours. If you turn off the pronouns feature, any previously set pronouns might stay visible in Microsoft 365 (for example, on profiles) for up to seven hours.
 - When you turn the pronouns feature off, all the pronouns data created by users is deleted. The data deletion process could take up to 30 days to complete. If you turn the pronouns feature back on within that period, any hidden pronouns that haven't yet been deleted from Microsoft servers become visible in Microsoft 365 experiences, such as profiles.
 - After a user adds pronouns to their profile, the pronouns are visible to everyone in your organization. Users can't control who can see their pronouns in Microsoft 365 in your organization. However, pronouns aren't visible to people outside the organization.
-
 - Copilot has access to pronouns from a user's profile and uses what's available at the time of writing when generating text about the user. If the user changes or deletes the pronouns from their profile, pronouns in previously generated text aren't updated retroactively. For example, if Copilot is used to produce a meeting summary, the summary uses the pronouns available at the time and they won't be changed if the user referred to changes to their pronouns after the summary is produced.
 
 ## Turn the pronouns feature on or off
@@ -58,8 +57,11 @@ Before you decide to turn the pronouns feature on or off, consider the following
 Use the following steps to turn the pronouns feature on or off in the Microsoft 365 admin center.
 
 1. In the admin center, go to the **Settings** > **Org settings** page, and select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Security & privacy</a> tab.
+
 2. Select **Pronouns**.
+
 3. To turn on the pronouns feature, in the **Pronouns** pane, select the **Turn on and allow pronouns** checkbox. To turn off the pronouns feature, clear the checkbox.
+
 4. Select **Save**.
 
 To turn the pronouns feature on or off for your organization using Microsoft Graph, see [Manage pronouns settings for an organization using the Microsoft Graph API](/graph/pronouns-configure-pronouns-availability).
