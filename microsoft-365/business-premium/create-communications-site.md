@@ -1,7 +1,5 @@
 ---
 title: "Create a SharePoint communications site in Teams with Microsoft 365 for business"
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
@@ -22,10 +20,6 @@ ms.custom:
 - MiniMaven
 - MSB365
 - admindeeplinkSPO
-search.appverid:
-- BCS160
-- MET150
-- MOE150
 description: "Create a SharePoint communications site for your campaign or business and protect your team from cyberattacks and incursions from malware and other threats due to improper file sharing."
 ---
 
