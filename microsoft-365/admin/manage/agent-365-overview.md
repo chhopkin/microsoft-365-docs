@@ -100,7 +100,7 @@ Access to agent management in Microsoft 365 admin center is controlled by [Micro
 
 While several administrative and security roles can view agent-related information for monitoring and reporting purposes, only select roles are authorized to perform governance actions such as approving agent requests or assigning ownership.
 
-The following table provides agent management capabilities  Microsoft 365 admin center:
+The following table provides agent management capabilities in the Microsoft 365 admin center:
 
 | Role | View insights and organization   data | View agent registry information | Install, modify, approve, and manage agent configurations |
 |:---:|:---:|:---:|:---:|
