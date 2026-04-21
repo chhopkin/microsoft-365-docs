@@ -127,7 +127,7 @@ This process involves only one step:
   - If CountryCode configuration isn't required, remove these nodes by deleting the corresponding variables and condition nodes.
 
 - The next node is to make an HTTP call to the backend Config API to fetch all Country Specific configuration. We use HttpRequestAction component for making the HTTP call. The HTTP call can be alternatively configured in several other ways described in the connectors section previously.
-  - The next set of nodes are conditional statements, which parse the data received from config API call. This parsed config data is stored into different set of properties like registration type options, vehicle type options, vehicle color options, etc. These options are prepopulated in the vehicle registration form that gets rendered in the following steps.
+  - The next set of nodes are conditional statements, which parse the data received from config API call. This parsed config data is stored into different set of properties. We store informationlike registration type options, vehicle type options, vehicle color options, etc. These options are prepopulated in the vehicle registration form that gets rendered in the following steps.
 - The next node is the vehicle registration adaptive card with action buttons. Verify the existing fields. Currently the required input parameters for creating a vehicle registration are - vehicle type,  make, del, year of manufacturing, color, license plate number, state, parking location, and registration type. Users can add or modify fields as needed.
   - Different adaptive cards are configured to capture different set of required inputs based on the CountryCode value.
 
