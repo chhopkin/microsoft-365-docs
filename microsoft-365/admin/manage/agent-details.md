@@ -61,13 +61,13 @@ The following table provides agent sections (tabs) that are available for agent 
 
 | Agent section (tab) | Description |
 |---|---|
-| **[Overview](#agent-overview-details)** | This tab provides a description, instructions, publish status, availability, publisher, deployment, agent type, coannel, platform, last   updated, sensitivity, and version. |
-| **[Users](#agent-users)** | This tab allows you to view and select the allowed users that the agent has been publish to. |
+| **[Overview](#agent-overview-details)** | This tab provides a description, instructions, publish status, availability, publisher, deployment, agent type, channel, platform, last   updated, sensitivity, and version. |
+| **[Users](#agent-users)** | This tab allows you to view and select the allowed users that the agent has been published to. |
 | **[Permissions](#agent-permissions)** | This tab allows you to review and grant permission to data the agent can access and perform actions on. For more information, see [Agent permissions](#agent-permissions). |
-| **[Data & Tools](#agent-data--tools)** |  This tab provides details about Microsoft Purview proections, such as capabilities, knowledge sources, and tools available to the agent. Also, provides Microsoft Entry   protection details, such as Agent User ID and Agent ID. |
+| **[Data & Tools](#agent-data--tools)** |  This tab provides details about Microsoft Purview protections, such as capabilities, knowledge sources, and tools available to the agent. Also, provides Microsoft Entry   protection details, such as Agent User ID and Agent ID. |
 | **[Security](#agent-security)** | This tab provides details about monitoring agent activity, protecting sensitive   data, and evaluating compliance gaps. |
 | **[Connect Agents](#agent-with-connected-agents)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
-| **[Custom tools & knowledege](#agent-custom-tools--knowledge)** | This tab helps you extend the selected agent by copying the skills and knowledge from up to one other agent. When you select an agent to extend from, the skills and knowledge from   that agent will be available in the selected agent. |
+| **[Custom tools & knowledge](#agent-custom-tools--knowledge)** | This tab helps you extend the selected agent by copying the skills and knowledge from up to one other agent. When you select an agent to extend from, the skills and knowledge from   that agent will be available in the selected agent. |
 | **[Computer use](#agent-computer-use)** | This tab is used to allow the selected agent to perform action on behalf of the users and also access work data. Additionally, you can choose which websites are   allowed for **Computer use**. Note that Web search is required for **Computer use**. |
 
 ## Agent overview details
@@ -76,7 +76,7 @@ The **Overview** tab provides a description, instructions, publish status, avail
 
 ## Agent users
 
-You can control how agents created in the organization are made available across your organization. You can configure the following agent availablity options: 
+You can control how agents created in the organization are made available across your organization. You can configure the following agent availability options: 
 
 - Who can discover and install an agent  
 - Which users have the agent pre‑installed  
@@ -90,7 +90,6 @@ Each agent includes availability and installation settings. The following table 
 
 |         Setting  |            Description        |
 |---|---|
-|  |  |
 |         Installed to  |            Controls which users automatically have the agent   pre‑installed.        |
 | Published to | Controls which users can install and use an agent. |
 
@@ -103,13 +102,13 @@ To set an individual agent's availability and installation settings, use the fol
 1. Select an agent from the list to manage.
 1. Select the **Users** tab.
 1. Select **Installed to** to assign users that will have the agent pre-install. Choose from the following options:
-  - Just me
-  - Entire organization
-  - Specific users/groups
+   - Just me
+   - Entire organization
+   - Specific users/groups
 1. Select **Published to** to select users that can install and use the agent. Choose from the following options:
-  - No users in the organization can install
-  - All users in the organization can install
-  - Specific users/groups can install
+   - No users in the organization can install
+   - All users in the organization can install
+   - Specific users/groups can install
 1. Select **Update** to save these settings.
 
 ## Agent permissions
@@ -223,7 +222,7 @@ The **Can read** section indicates the categories of content the agent has been 
 
 The **Knowledge sources** section provides data sources and URLs that the agent uses to answer questions accurately. These knowledge sources are the external or internal references the agent draws from when responding to user queries. 
 
-The following table provides knowledge sources and examples that can included with the agent: 
+The following table provides knowledge sources and examples that can be included with the agent: 
 
 | Source type | Examples | 
 |---|---| 
@@ -239,7 +238,7 @@ The following table provides knowledge sources and examples that can included wi
 
 The **Tools** section provides the processes, connectors, and actions that the agent uses to handle requests. Tools represent what the agent can do, not just what it can read.
 
-The following table provides tool types and examples that can included with the agent: 
+The following table provides tool types and examples that can be included with the agent: 
 
 | Tool type | Examples | 
 |---|---| 
