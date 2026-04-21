@@ -52,8 +52,7 @@ Now that we covered the fundamentals, let's walk through a practical example. In
 To extend the Employee Self-Service Copilot Agent with a custom *Invite a guest* topic, ensure the following prerequisites are met:
 
 - Employee Self-Service agent is installed in Copilot Studio.
-- Access to Copilot Samples in GitHub:  
-  <https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest>
+- Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest) in GitHub.
 - Maker access to a sandbox or preproduction environment in Copilot Studio.
 - Access to the Guest Management APIs that is used to fetch the list of buildings and create guest invitations.
   - For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on the Azure platform.
