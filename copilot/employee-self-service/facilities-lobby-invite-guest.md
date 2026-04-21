@@ -5,7 +5,7 @@ ms.author: heidip
 author: apoorvg
 manager: sudhakarms
 ms.reviewer: MicrosoftHeidi
-ms.date: 11/05/2025
+ms.date: 04/21/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -82,11 +82,9 @@ Connectors enable you to connect the agent with other apps, data, and devices in
 
 For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for creating a guest invitation.
 
-Available connectors:  
-<https://learn.microsoft.com/connectors/connector-reference/>
+[Available connectors](/connectors/connector-reference/)
 
-HTTP request action reference:  
-<https://learn.microsoft.com/microsoft-copilot-studio/authoring-http-node>
+[HTTP request action reference](/microsoft-copilot-studio/authoring-http-node)
 
 ## Example: Invite a Guest
 
