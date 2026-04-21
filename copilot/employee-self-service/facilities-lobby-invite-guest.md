@@ -133,9 +133,11 @@ This process involves only one step:
 - The next node is to make an HTTP call to the backend API to fetch all buildings. These buildings are prepopulated in the guest registration form that gets rendered in the following steps. We use HttpRequestAction component for making the HTTP call. The HTTP call can be alternatively configured in several other ways described in the connectors section previously.
 
 - The next node is a Customize Response node to determine the guest visit purpose and location from the user query to autopopulate in the guest invite form. This node is added for an enriched user experience; however, this node is optional and the corresponding nodes can be omitted as per requirements.
+
     :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-response-instructions.png" alt-text="Diagram that shows the Customize Response nodes for determining visit purpose and location.":::
 
 - The next node is the guest invite adaptive card with action buttons. Verify the existing fields. Currently the required input parameters for creating a guest visit are - guest first name, last name, email, meeting purpose, and meeting location (name of the building). Users can add or modify input fields as needed.
+
     :::image type="content" source="media/facilities-lobby-invite-guest-validate-topic-adative-card.png" alt-text="Diagram that shows the adaptive card fields for the guest invitation form. Adjust the fields as required.":::
 
 - The next node is to make an HTTP call to the backend create invite API with all the collected information forwarded with the request.
