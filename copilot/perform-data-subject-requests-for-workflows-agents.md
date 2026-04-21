@@ -1,9 +1,10 @@
 ---
 title: Perform data subject requests (DSRs) for Workflows agents
 description: Learn how to perform DSRs for Workflows agents, and admin features like export, delete, and reassign.
-author: sbasi19
+author: kisubedi
+manager: HeatherOrt
 ms.author: kisubedi
-ms.date: 04/07/2026
+ms.date: 04/21/2026
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.reviewer: v-aangie
@@ -21,15 +22,15 @@ Before performing a DSR, you must identify where the user's *Workflows* data res
 1. Check two locations. Workflows artifacts are typically in one of two places:
 
     - The default environment of the tenant or user's Personal Development Environment (PDE).
-    - [_M365 Copilot Workflows environment_](https://learn.microsoft.com/en-us/microsoft-365/copilot/workflows-environment-workflows-agents) (for new flows created after April 2026)
+    - [_M365 Copilot Workflows_ environment](workflows-environment-workflows-agents.md) (for new flows created after April 2026).
 
 1. Go to **Inventory**, filter by the user's email, and make a note of the **Environment ID** where their Workflows agents are listed.
-   You will either see an environmentID value in the Environment ID column which corresponds to ID of PDE/Default environment.
-   OR, a URL link containing  the environmentID of _M365 Copilot Workflows_ environment in your tenant.
+   You'll either see an environmentID value in the Environment ID column, which corresponds to ID of PDE/Default environment.
+   OR, a URL link containing the environmentID of _M365 Copilot Workflows_ environment in your tenant.
 
 ## DSR on _M365 Copilot Workflows_ environment
 
-DSR on _M365 Copilot Workflows_ environment is strictly API-based. Once you have necessary roles mentioned below, you can reference the following [table](https://learn.microsoft.com/en-us/rest/api/power-platform/workflowsagent/dsr-compliance) to perform DSR operation on _M365 Copilot Workflows_ environment. 
+DSR on _M365 Copilot Workflows_ environment is strictly API-based. Once you have necessary roles mentioned in the following table, you can reference the  [DSR Compliance table](/rest/api/power-platform/workflowsagent/dsr-compliance) to perform DSR operation on _M365 Copilot Workflows_ environment.
 
 ### API permissions setup
 
