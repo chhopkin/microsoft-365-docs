@@ -36,7 +36,7 @@ For example, if a user changes their pronouns in the profile card, the cached da
 
 > [!IMPORTANT]
 >
->- Knowing someone's pronouns doesn't always equate to knowing their gender identity. We encourage you to understand any applicable local laws, regulations, and cultural norms that might pose extra risk to employees should their pronouns be publicly displayed and take this into consideration when you decide whether to turn on this feature.
+>- Knowing someone's pronouns doesn't always equate to knowing their gender identity. We encourage you to understand any applicable local laws, regulations, and cultural norms that might pose extra risk to employees should their pronouns be publicly displayed, and take this information into consideration when you decide whether to turn on this feature.
 >- If you decide to use the pronouns feature, we recommend that you engage with internal and/or external subject matter experts in transgender inclusion to consider how pronoun display can complement, not substitute, more comprehensive efforts to support transgender communities in your organization.
 
 ## Before you begin
