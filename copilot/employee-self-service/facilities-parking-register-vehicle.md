@@ -17,7 +17,7 @@ description: Learn about extending the Employee Self-Service Copilot Agent tailo
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
-# Extending Employee Self-Service Agent: Register a Vehicle
+# Extend Employee Self-Service Agent: Register a Vehicle
 
 The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
@@ -113,7 +113,7 @@ This process involves only one step:
 
 - Now, let's test the newly added topic
   - Using the Test button in **Copilot Studio**, open the test chat window.
-  - Register a vehicle using the prompt “I want to register my vehicle for parking”. This prompt opens an Adaptive card where you can fill the required details like vehicle type, vehicle make and model, license plate number etc.
+  - Register a vehicle using the prompt "I want to register my vehicle for parking". This prompt opens an Adaptive card where you can fill the required details like vehicle type, vehicle make and model, license plate number etc.
   - Upon successful submission, the Employee Self-Service (ESS) system will display a confirmation that the vehicle has been successfully registered.
   
 ### Review the topic workflow
@@ -128,13 +128,13 @@ This process involves only one step:
 
 - The next node is to make an HTTP call to the backend Config API to fetch all Country Specific configuration. We use HttpRequestAction component for making the HTTP call. The HTTP call can be alternatively configured in several other ways described in the connectors section previously.
   - The next set of nodes are conditional statements which parse the data received from config API call into different set of properties like registration type options, vehicle type options, vehicle color options etc. These options are prepopulated in the vehicle registration form that gets rendered in the following steps.
-- The next node is the vehicle registration adaptive card with action buttons. verify the existing fields. Currently the required input parameters for creating a vehicle registration are vehicle type, vehicle make, vehicle model, year of manufacturing, vehicle color, license plate number, state, parking location and registration type. Users can add or modify fields as needed.
+- The next node is the vehicle registration adaptive card with action buttons. Verify the existing fields. Currently the required input parameters for creating a vehicle registration are vehicle type, vehicle make, vehicle model, year of manufacturing, vehicle color, license plate number, state, parking location and registration type. Users can add or modify fields as needed.
   - Different adaptive cards are configured to capture different set of required inputs based on the CountryCode value.
     :::image type="content" source="media/facilities-parking-register-vehicle-validate-topic-adaptive-card.png" alt-text="Diagram that shows the adaptive card fields for the vehicle registration form. Adjust the fields as required.":::
 
 - The next node is to make an HTTP call to the backend vehicle registration API with all the collected information forwarded with the request.
 - The following steps determine if the vehicle registration was successful and displays a message to the user accordingly.
-  - Upon successful submission, the Employee Self-Service system displays a confirmation of the registeration for the user’s vehicle.
+  - Upon successful submission, the Employee Self-Service system displays a confirmation of the registration for the user’s vehicle.
   - In case the request failed due to any reason, a failure message is sent to the user. These messages can be customized by modifying the corresponding SendActivity components.
 
     :::image type="content" source="media/facilities-parking-register-vehicle-validate-topic-error-handling.png" alt-text="Diagram that shows the handling of success and failure conditions in the topic.":::
