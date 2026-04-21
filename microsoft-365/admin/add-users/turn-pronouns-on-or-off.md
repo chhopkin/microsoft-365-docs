@@ -26,7 +26,10 @@ ms.date: 04/21/2026
 
 # Turn pronouns on or off for your organization in the Microsoft 365 admin center
 
-As a Microsoft 365 administrator, you can turn on a feature that lets all users in your organization add their pronouns on their profile cards in Microsoft 365. The pronouns feature is off by default and requires configuration to turn on. Before you decide to turn the feature on or off, see [Pronouns on your profile in Microsoft 365](https://support.microsoft.com/topic/232c3bfb-a947-4310-86db-b22d63663d85), [Frequently asked questions about pronouns in Microsoft 365](https://support.microsoft.com/topic/48135f04-e822-49b5-ba6b-e9bae2ce503a), and [Pronouns best practices](https://support.microsoft.com/topic/ef1701ad-711d-4c6e-b664-64c3ee188d68).
+As a Microsoft 365 administrator, you can turn on a feature that lets all users in your organization add their pronouns on their profile cards in Microsoft 365. The pronouns feature is off by default and requires configuration to turn on. Before you decide to turn the feature on or off, see the following resources:
+- [Pronouns on your profile in Microsoft 365](https://support.microsoft.com/topic/232c3bfb-a947-4310-86db-b22d63663d85)
+- [Frequently asked questions about pronouns in Microsoft 365](https://support.microsoft.com/topic/48135f04-e822-49b5-ba6b-e9bae2ce503a)
+- [Pronouns best practices](https://support.microsoft.com/topic/ef1701ad-711d-4c6e-b664-64c3ee188d68)
 
 Pronouns are stored together with a user's other profile data in Microsoft 365 and can be temporarily cached in other Exchange mailboxes (within the same tenant) for faster access by Copilot experiences. The cached data is updated when profile data is updated, and can't be accessed or edited by the user who owns the mailbox where the data is cached. 
 
