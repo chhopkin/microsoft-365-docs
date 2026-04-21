@@ -26,7 +26,10 @@ ms.date: 04/21/2026
 
 # Turn pronouns on or off for your organization in the Microsoft 365 admin center
 
-As a Microsoft 365 administrator, you can turn on a feature that lets all users in your organization add their pronouns on their profile cards in Microsoft 365. The pronouns feature is off by default and requires configuration to turn on. Before you decide to turn the feature on or off, see the following resources:
+As a Microsoft 365 administrator, you can turn on a feature that lets all users in your organization add their pronouns on their profile cards in Microsoft 365. The pronouns feature is off by default and requires configuration to turn on. 
+
+Before you decide to turn the feature on or off, see the following resources:
+
 - [Pronouns on your profile in Microsoft 365](https://support.microsoft.com/topic/232c3bfb-a947-4310-86db-b22d63663d85)
 - [Frequently asked questions about pronouns in Microsoft 365](https://support.microsoft.com/topic/48135f04-e822-49b5-ba6b-e9bae2ce503a)
 - [Pronouns best practices](https://support.microsoft.com/topic/ef1701ad-711d-4c6e-b664-64c3ee188d68)
@@ -35,7 +38,7 @@ Pronouns are stored together with a user's other profile data in Microsoft 365 a
 
 Pronouns are stored with other data in the user's Exchange mailbox. For more information, see [Data Residency for Exchange Online](../../enterprise/m365-dr-service-exo.md#how-can-i-determine-customer-data-location).
 
-For example, if a user changes their pronouns in the profile card, the cached data in another user's mailbox is updated with the new pronouns. Other users can't edit someone else's pronouns. Users can only see the pronouns through experiences that show pronouns. Microsoft 365 Copilot is an example of an experience that has access to pronouns.
+For example, if a user changes their pronouns in the profile card, the cached data in another user's mailbox is updated with the new pronouns. Users can't edit someone else's pronouns; they can only see pronouns through experiences that show pronouns. Microsoft 365 Copilot is an example of an experience that has access to pronouns.
 
 > [!IMPORTANT]
 >
@@ -57,9 +60,7 @@ Before you decide to turn the pronouns feature on or off, consider the following
 
 ## Turn the pronouns feature on or off
 
-Use the following steps to turn the pronouns feature on or off in the Microsoft 365 admin center.
-
-1. In the admin center, go to the **Settings** > **Org settings** page, and select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Security & privacy</a> tab.
+1. In the Microsoft 365 admin center, go to the **Settings** > **Org settings** page, and select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Security & privacy</a> tab.
 
 2. Select **Pronouns**.
 
