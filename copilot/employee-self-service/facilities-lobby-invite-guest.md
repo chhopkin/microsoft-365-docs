@@ -1,10 +1,10 @@
 ---
 title: "Extend Employee Self-Service Agent: Invite a Guest"
 f1.keywords: NOCSH
-ms.author: heidip
+ms.author: apoorvg
 author: apoorvg
 manager: sudhakarms
-ms.reviewer: MicrosoftHeidi
+ms.reviewer: heidip
 ms.date: 04/21/2026
 audience: Admin
 ms.topic: article
@@ -28,10 +28,10 @@ To support these needs, Employee Self-Service Copilot Agent is designed to be ex
 
 At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
 
-- Create a Facilities Ticket (Facilities), for example, "I want to report a water leak"
-- Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3"
+- Create a Facilities Ticket (Facilities), for example, "I want to report a water leak.".
+- Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3."
 - View food stations or counters by cuisine (Dining), for example, "Where can I find Chinese food?"
-- Invite a Guest (Lobby), for example "I want to invite my spouse to Building 32".
+- Invite a Guest (Lobby), for example, "I want to invite my spouse to Building 32."
 
 The following section shows how a maker in Copilot Studio can extend Employee Self-Service to support these scenarios. Before diving into the maker experience, it's important to understand what real estate and facilities are and how they support employees.
 
@@ -81,9 +81,9 @@ Connectors enable you to connect the agent with other apps, data, and devices in
 
 For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for creating a guest invitation.
 
-Follow the link for the list of [Available connectors](/connectors/connector-reference/).
+Learn more about [Available connectors](/connectors/connector-reference/).
 
-Follow the link for more details on [HTTP request node](/microsoft-copilot-studio/authoring-http-node).
+Learn more about [HTTP request node](/microsoft-copilot-studio/authoring-http-node).
 
 ## Example: Invite a Guest
 
@@ -108,7 +108,7 @@ This process involves only one step:
 
 - Validate
   - Open the visual representation of the topic definition and validate the workflow of the topic.
-  - Click on **Topic Checker** for any static issues with the definition.
+  - Select **Topic Checker** for any static issues with the definition.
   - Optionally, go through the following section "Validate the Topic", to understand and validate the steps.
 
 - Now, let's test the newly added topic
@@ -150,7 +150,7 @@ This process involves only one step:
 
 We use *HttpRequestAction* component for making the HTTP calls. As a start, you can use the same and modify it as per your needs. There are also several other ways to configure the HTTP call as described in the connectors section previously.
 
-- Expand the HttpRequestAction node, and in the URL section click on Select variable -> Formula to update your backend API URL. Click Insert to save the URL.
+- Expand the HttpRequestAction node, and in the URL section select **Select variable** > **Formula** to update your backend API URL. Select **Insert** to save the URL.
 
     :::image type="content" source="media/facilities-lobby-invite-guest-httprequest.png" alt-text="Diagram that shows the HttpRequestAction component configuration for updating URL.":::
 
