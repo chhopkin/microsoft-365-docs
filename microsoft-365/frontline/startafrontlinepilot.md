@@ -4,7 +4,7 @@
 # For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
 
 title:       Start a pilot for your frontline workers
-description: Start simple and explore the value Microsoft Teams can offer your frontline workers by quickly launching a pilot from the Teams admin center.
+description: Start simple and explore the value Microsoft Teams can offer your frontline workers by quickly launching a pilot from the Teams admin center.
 author:      arnavgupta49
 manager:     tulsik
 ms.author:   arnavgupta
@@ -13,14 +13,14 @@ ms.topic:    install-set-up-deploy
 ms.date:     10/26/2025
 ---
 
-# Start a pilot for your frontline workers 
+# Start a pilot for your frontline workers 
 
-## Overview 
+## Overview 
 
 > [!Note]
 > This feature is in public preview. For the latest updates please refer to the [Microsoft 365 roadmap](https://www.microsoft.com/Microsoft-365/roadmap?id=498226).
 
-Start simple and validate the value Microsoft Teams can offer your frontline workers by quickly launching a pilot from the Teams admin center. Pilots allow you to pin and configure Teams capabilities for a subset of users before rolling out to your broader frontline workforce. Capabilities include Chat, Channels, Shifts, Tasks (Planner), Walkie Talkie, Connections – Home and Engage Communities.
+Start simple and validate the value Microsoft Teams can offer your frontline workers by quickly launching a pilot from the Teams admin center. Pilots allow you to pin and configure Teams capabilities for a subset of users before rolling out to your broader frontline workforce. Capabilities include Chat, Channels, Shifts, Tasks (Planner), Walkie Talkie, Connections - Home and Engage Communities.
 
 Over time, pin more apps, configure and reorder pinned apps, and standardize channels to create a tailored experience you can extend to the rest of your frontline workforce. Use the usage dashboard to measure adoption and refine the pilot experience.
 
@@ -30,7 +30,7 @@ Before you roll out Teams broadly, validate it with a small group. A pilot can h
 - Validate feature fit for your scenarios.
 - Measure readiness and adoption.
 - Identify and mitigate issues.
-- Prepare for a successful organization‑wide rollout.
+- Prepare for a successful organization-wide rollout.
 
 For example, a pilot can help you determine:
 - Whether your scenarios match business needs.
@@ -45,13 +45,13 @@ For example, a pilot can help you determine:
 
 3. Select a pilot group of frontline workers and managers who work on the same team to accurately assess collaboration capabilities.
 
-## How it works 
+## How it works 
 
 1. Go to the Teams admin center > Frontline management > **Frontline hub**, then select **Start a pilot** under Suggested actions.  Alternatively, choose __Start a new deployment__ on the top right corner and select __Start a pilot__.
 
    :::image type="content" alt-text="Screenshot of the Frontline hub in the Teams admin center with the Start a Pilot card outlined." source="media/startafrontlinepilot/frontline-hub.jpg" lightbox="media/startafrontlinepilot/frontline-hub.jpg":::
 
-2. Select the capabilities to include in your pilot. Apps under “You will get” are pinned to the Teams app bar; apps under “Available apps” are not pinned unless selected. Click on an app under either list to learn more about what the capability offers. After you complete the wizard, you can configure and pin additional apps.
+2. Select the capabilities to include in your pilot. Apps under "You will get" are pinned to the Teams app bar; apps under "Available apps" are not pinned unless selected. Click on an app under either list to learn more about what the capability offers. After you complete the wizard, you can configure and pin additional apps.
 
    > [!IMPORTANT]
    > All members of a pilot have access to Chat and are added to a team. You can add channels to the pilot team after you complete the wizard.
@@ -79,10 +79,10 @@ For example, a pilot can help you determine:
 
 ## Manage your pilot
 
-Go to Manage frontline teams to view, manage, or start pilots. Now that you have initiated the pilot, managing your pilot allows you to add purpose-built channels to your pilot team, set up your preferred app pinning policy, configure apps like Connections - Home or Engage Communities, and more.
+Go to Manage frontline teams to view, manage, or start pilots. Now that you have initiated the pilot, managing your pilot allows you to add purpose-built channels to your pilot team, set up your preferred app pinning policy, configure apps like Connections - Home or Engage Communities, and more.
 
 > [!IMPORTANT]
-> You can start up to 5 pilots. To start a new pilot after you reach this limit, delete an existing pilot.
+> You can start up to 5 pilots. To start a new pilot after you reach this limit, delete an existing pilot.
 
 :::image type="content" alt-text="Screenshot of Manage frontline teams page to view all pilots." source="media/startafrontlinepilot/manage-frontline-teams-pilots.jpg" lightbox="media/startafrontlinepilot/manage-frontline-teams-pilots.jpg":::
 
@@ -126,9 +126,9 @@ The Members tab lists all pilot members and owners.
 
   :::image type="content" alt-text="Screenshot of page to manage membership in the pilot." source="media/startafrontlinepilot/manage-membership.jpg" lightbox="media/startafrontlinepilot/manage-membership.jpg":::
 
-#### Manage channels 
+#### Manage channels 
 
-By default, frontline workers see a General channel that can’t be deleted.
+By default, frontline workers see a General channel that can't be deleted.
 
 - Add standard channels from the **Channels** tab by selecting **Add**.
 
@@ -157,7 +157,7 @@ Select **Set up and manage Viva Engage** to set up Communities for pilot members
 
 Reorder pinned apps by dragging the **= icon**, or by selecting an app and choosing **Move up** or **Move down**.
 
-- Add more apps via **Add** (top left of the table), including third‑party apps.
+- Add more apps via **Add** (top left of the table), including third-party apps.
 
 - Unpin an app by selecting it and choosing **Remove**.
 
@@ -167,7 +167,7 @@ Reorder pinned apps by dragging the **= icon**, or by selecting an app and choos
 
 Tips for a successful pilot:
 
-- Set start and end dates and define clear goals for measuring success. These goals help you plan the post‑pilot rollout.
+- Set start and end dates and define clear goals for measuring success. These goals help you plan the post-pilot rollout.
 
 - Allow enough time to run the pilot; we recommend a minimum of 30 days.
 
@@ -177,7 +177,7 @@ Tips for a successful pilot:
 
   - Understand their challenges.
   
-  - Verify the implementation’s impact.
+  - Verify the implementation's impact.
   
 - Pause, measure adoption, and adjust as needed.
 
@@ -200,21 +200,21 @@ __Q: What is the difference between owners and members?__
 
 __A:__ Learn more about [owner and member privileges](https://support.microsoft.com/office/team-owner-member-and-guest-capabilities-in-microsoft-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b). We recommend adding frontline workers as members and frontline managers or senior staff as owners.
 
-__Q: How are app policies assigned to users in a pilot?__ 
+__Q: How are app policies assigned to users in a pilot?__ 
 
 __A:__ When you create a pilot, members and owners are added to a group that receives an app setup policy based on selected capabilities. The group policy rank is set to **1**, overriding previous policy assignments.
 
-__Q: What happens if a user is in two pilots with two different app policies?__ 
+__Q: What happens if a user is in two pilots with two different app policies?__ 
 
-__A:__ We don’t recommend adding a user to multiple pilots. A user receives the app configuration from the most recently created pilot.
+__A:__ We don't recommend adding a user to multiple pilots. A user receives the app configuration from the most recently created pilot.
 
 __Q: What happens if the team owner adds a member or owner to the team from the Teams client?__
 
 __A:__ The added users adopt the pilot configuration. Admins can view added members and owners on the **Members** tab.
 
-__Q:__ **Why doesn’t a pilot user or owner see the capabilities I selected?**
+__Q:__ **Why doesn't a pilot user or owner see the capabilities I selected?**
 
-__A:__ Possible causes and fixes: 
+__A:__ Possible causes and fixes: 
 
 1. Direct user app setup policy assignment takes precedence over a group policy. **Fix:** Remove the direct user assignment. 
 
@@ -226,4 +226,4 @@ __A:__ Users can unpin an app temporarily. When they sign in again, pinned apps 
 
 __Q: What happens if I delete a pilot?__
 
-__A:__ Deleting a pilot does not delete the team or channels. Pilot members’ and owners’ app bar reverts to the previous app policy. If no prior policy existed, the app bar returns to the default Teams experience.
+__A:__ Deleting a pilot does not delete the team or channels. Pilot members' and owners' app bar reverts to the previous app policy. If no prior policy existed, the app bar returns to the default Teams experience.

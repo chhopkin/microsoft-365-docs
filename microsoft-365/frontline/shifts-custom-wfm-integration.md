@@ -215,7 +215,7 @@ This example shows the response returned if the endpoint approved the request. I
 
 Failure: Return HTTP `200 OK`
 
-This example shows the response returned if the endpoint denied the request. In this scenario, the user receives a “Could not add the shift” error message in Shifts.
+This example shows the response returned if the endpoint denied the request. In this scenario, the user receives a "Could not add the shift" error message in Shifts.
 
 ```http
 {
@@ -226,7 +226,7 @@ This example shows the response returned if the endpoint denied the request. In 
             "body": {
                 "error": {
                     "code": "500",
-                    "message": “Could not add the shift”
+                    "message": "Could not add the shift"
                 },
                 "data": null
             }
@@ -399,7 +399,7 @@ After the first sync, you can choose to:
 - **Synchronously update Shifts with changes in your WFM system**: Send an update to Shifts for every change made in your WFM system.
 - **Asynchronously update Shifts with changes in your WFM system**: Perform a periodic sync by writing all changes that occurred in your WFM system within a certain timeframe (for example, 10 minutes) to Shifts.
 
-    All write operations to Shifts, including write operations initiated by the connector, trigger a call to the connector’s /update endpoint. We recommend you include the `X-MS-WFMPassthrough: workforceIntegratonId` header to all write calls so the connector can identify and handle them appropriately. For example, if your WFM system initiated the change, approve it without applying an update to your WFM system.
+    All write operations to Shifts, including write operations initiated by the connector, trigger a call to the connector's /update endpoint. We recommend you include the `X-MS-WFMPassthrough: workforceIntegratonId` header to all write calls so the connector can identify and handle them appropriately. For example, if your WFM system initiated the change, approve it without applying an update to your WFM system.
 
   > [!NOTE]
   > If you're setting up your connector for a two-way sync of data between your WFM system and Shifts, exclude changes initiated from Shifts in the periodic sync. These changes are already written in Shifts.
@@ -462,7 +462,7 @@ POST https://graph.microsoft.com/v1.0/teamwork/workforceIntegrations/
   }, 
   "isActive": true, 
   "url": "https://contosoconnector.com/wfi", 
-  "supportedEntities": "Shift,SwapRequest,UserShiftPreferences,Openshift,OpenShiftRequest,OfferShiftRequest”,
+  "supportedEntities": "Shift,SwapRequest,UserShiftPreferences,Openshift,OpenShiftRequest,OfferShiftRequest",
 }
 ```
 
@@ -486,8 +486,8 @@ Here's an example of a request.
 POST https://graph.microsoft.com/v1.0/teams/{teamId}/schedule
 {
   enabled: true,
-  timezone: “America/New_York”,
-  workforceIntegrationIds: [ “workforceIntegrationId”]
+  timezone: "America/New_York",
+  workforceIntegrationIds: [ "workforceIntegrationId"]
 }
 ```
 
@@ -503,7 +503,7 @@ POST https://graph.microsoft.com/v1.0/teams/{teamId}/schedule
 There's a difference between these two scenarios.
 
 - If the connector returns a response code other than 200, Shifts attempts to retry the /read and /update endpoints multiple times. Eventually, Shifts displays a "Something went wrong. The workforce integration setup on your team has responded with invalid data." error message.
-- If the connector returns a status other than 200 in the response body, Shifts displays a "Something went wrong. Sorry, your change couldn’t be completed," error message and stops retrying the endpoints.
+- If the connector returns a status other than 200 in the response body, Shifts displays a "Something went wrong. Sorry, your change couldn't be completed," error message and stops retrying the endpoints.
 
 #### What happens if the connector returns invalid data in the response body?
 

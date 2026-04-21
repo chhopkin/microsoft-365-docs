@@ -85,7 +85,7 @@ Use this table to validate your HR-driven user provisioning.
 |Test scenario |Expected results |
 |--------------|-----------------|
 |New employee is created in the cloud HR app |The user account is provisioned in Microsoft Entra ID and can access assigned cloud resources. <br> If Microsoft Entra Connect Sync is configured, the user account also gets created in Active Directory. <br> The user can sign into Active Directory domain apps and perform their desired actions.|
-|User is terminated in the cloud HR app |The user account is disabled in Microsoft Entra ID, and, if applicable, Active Directory. <br>The user can’t sign into cloud or on-premises apps and resources assigned to them. |
+|User is terminated in the cloud HR app |The user account is disabled in Microsoft Entra ID, and, if applicable, Active Directory. <br>The user can't sign into cloud or on-premises apps and resources assigned to them. |
 |Supervisor is updated in the cloud HR app |User remains active with the new mapping. |
 |HR rehires an employee into a new role. |The results depend on how the cloud HR app is configured to generate employee IDs. <br>If the old employee ID is reused for a rehire, the connector enables the existing Active Directory account for the user. <br>If the rehire gets a new employee ID, the connector creates a new Active Directory account for the user. |
 |HR converts the employee to a contract worker or vice-versa |A new Active Directory account is created for the new persona and the old account is disabled on the effective date of the conversion. |
@@ -105,7 +105,7 @@ The following table includes recommendations for applying groups in frontline im
 
 |Use case |Group type |
 |---------|-----------|
-|Assign licenses, policies, and permissions automatically. If a member’s attributes change, the system looks at dynamic group rules for the directory to see if the member meets the rule requirements (is added), or no longer meets the rule requirements (is removed). |Security group (limit 5,000 groups) <br> dynamic user |
+|Assign licenses, policies, and permissions automatically. If a member's attributes change, the system looks at dynamic group rules for the directory to see if the member meets the rule requirements (is added), or no longer meets the rule requirements (is removed). |Security group (limit 5,000 groups) <br> dynamic user |
 |Manage access for users without automatic assignment to groups. |Security groups or distribution list (no limit applies) |
 |Create an email alias to distribute groups messages to groups of users without automatic user management. |Distribution list or assigned Microsoft 365 group |
 |Create an email alias or team in Microsoft Teams and manage membership automatically. |Microsoft 365 groups, dynamic user |
@@ -148,7 +148,7 @@ If you want your frontline managers and workers to have access to email, you nee
 
 Your users can also install the Outlook app to use for their email, so make sure to share information about where to download the Outlook app.
 
-For Outlook, using dynamic group backed shared mailboxes based on attributes such as Location, Department, and Role enables your organization to send targeted communications to dynamic groups that don’t require administrator intervention.
+For Outlook, using dynamic group backed shared mailboxes based on attributes such as Location, Department, and Role enables your organization to send targeted communications to dynamic groups that don't require administrator intervention.
 
 ### Set up sites with SharePoint in Microsoft 365
 

@@ -57,7 +57,7 @@ Here are options for integrating Shifts with external WFM systems.
 
 ## Deployment overview
 
-Here’s a quick overview for deploying Shifts in your organization.
+Here's a quick overview for deploying Shifts in your organization.
 
 1. **Create teams for your frontline locations**. You can choose to create your teams using the [deploy frontline dynamic teams at scale](deploy-dynamic-teams-at-scale.md) experience in the Teams admin center.
 
@@ -70,11 +70,11 @@ Here’s a quick overview for deploying Shifts in your organization.
     Alternatively, you can use the [Create or replace schedule](/graph/api/team-put-schedule?view=graph-rest-1.0&tabs=http) Graph API to define Shifts settings for your frontline teams and the [shiftsRoleDefinition](/graph/api/resources/shiftsroledefinition?view=graph-rest-beta) Graph API to [manage permissions to Shifts capabilities for your frontline managers](manage-shifts-permissions-frontline-managers.md).
 
 > [!NOTE]
-> Optionally, [set up a frontline operational hierarchy](deploy-frontline-operational-hierarchy.md) to map your organization’s structure of frontline teams and locations to a hierarchy in the Teams admin center. Creating a frontline operational hierarchy will enable [location scenarios](set-up-open-shifts-across-locations.md) and other capabilities for your frontline.
+> Optionally, [set up a frontline operational hierarchy](deploy-frontline-operational-hierarchy.md) to map your organization's structure of frontline teams and locations to a hierarchy in the Teams admin center. Creating a frontline operational hierarchy will enable [location scenarios](set-up-open-shifts-across-locations.md) and other capabilities for your frontline.
 
 ## Shifts capabilities
 
-Here’s an overview of what frontline managers and workers can do in Shifts.
+Here's an overview of what frontline managers and workers can do in Shifts.
 
 |Frontline manager capabilities |Standalone |Microsoft managed Shifts connector|
 |---------|---------|---------|
@@ -114,7 +114,7 @@ Use the following resources to extend Shifts capabilities for your frontline wor
 |Resource  |Example scenario |Target apps  |
 |---------|---------|---------|
 |[shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)|Your organization wants to create reports based on Shifts scheduling data. |Apps that want to read/write Shifts data.|
-|[Graph API change notifications](/graph/api/resources/change-notifications-api-overview?view=graph-rest-1.0)|Your organization doesn't require frontline managers' approval for open shift requests. You can use Shifts webhooks notifications to trigger the approval automation process for open shift requests.|Apps that read Shifts data and want to be notified about changes made in Shifts. Additionally, these apps aren’t data owners and don’t have additional validation to run. |
+|[Graph API change notifications](/graph/api/resources/change-notifications-api-overview?view=graph-rest-1.0)|Your organization doesn't require frontline managers' approval for open shift requests. You can use Shifts webhooks notifications to trigger the approval automation process for open shift requests.|Apps that read Shifts data and want to be notified about changes made in Shifts. Additionally, these apps aren't data owners and don't have additional validation to run. |
 |[Shifts + Power Automate](https://make.powerautomate.com/connectors/shared_shifts/shifts-for-microsoft-teams/)|Your organization wants to take information from Shifts and create custom workflows with other apps and services. For example, create a flow to automatically approve swap shift requests and receive email notifications.|[Learn more](/connectors/shifts).|
 
 ## Shifts resources

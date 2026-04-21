@@ -55,11 +55,11 @@ You must be a Global Administrator to turn on this setting.
 
 ### Run the report
 
-1. On the **Usage** tab, under **Teams**, select which teams you want in your usage report. Currently, the only option is **All frontline teams**, which represents all teams deployed through the [deploy frontline dynamic teams](deploy-dynamic-teams-at-scale.md) experience in the Teams admin center. We’ll be adding more options in the future.  
+1. On the **Usage** tab, under **Teams**, select which teams you want in your usage report. Currently, the only option is **All frontline teams**, which represents all teams deployed through the [deploy frontline dynamic teams](deploy-dynamic-teams-at-scale.md) experience in the Teams admin center. We'll be adding more options in the future.  
 1. Under **Date range**, select the date range for which you want to see data. You can choose from the last 7 days, 30 days, 90 days, or 180 days. Then, choose **Run report**.
 
     > [!IMPORTANT]
-    > It might take several minutes to load the first report of the day. After the report is loaded, it’s available to view for the next 24 hours. Usage data may take up to 72 hours to update.
+    > It might take several minutes to load the first report of the day. After the report is loaded, it's available to view for the next 24 hours. Usage data may take up to 72 hours to update.
 1. Under **Aggregation level**, select the operational hierarchy level at which you want to view the aggregated data.
 
 ### Interpret the report

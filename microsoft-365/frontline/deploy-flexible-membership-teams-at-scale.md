@@ -24,7 +24,7 @@ ms.date: 04/24/2025
 
 ## Overview
 
-Create and manage frontline teams in bulk to drive collaboration for every location in your frontline workforce. Team membership of your frontline teams is automatically synced with your frontline workers’ Microsoft Entra attributes. As team owners, frontline managers at each of your locations, like department heads, store leads, and warehouse managers, can manually add or remove members. 
+Create and manage frontline teams in bulk to drive collaboration for every location in your frontline workforce. Team membership of your frontline teams is automatically synced with your frontline workers' Microsoft Entra attributes. As team owners, frontline managers at each of your locations, like department heads, store leads, and warehouse managers, can manually add or remove members. 
 
 > [!NOTE]
 > If you would like the opportunity to participate in upcoming private preivew features, fill out this [form](https://forms.office.com/r/Q0xhM3KUBG).
@@ -44,13 +44,13 @@ In the setup process, you:
 4. Select the frontline managers who should be team owners of their respective frontline teams by inputting groups from Microsoft Entra that include your frontline managers. 
 
 After submitting your setup, you can view and select which locations you want to create frontline teams for. You can always go back and edit your frontline settings. 
-Team membership is automatically managed over time based on your frontline workers’ Microsoft Entra attributes provided in setup. As frontline workers enter and leave your organization or change locations, their memberships in these teams are updated accordingly. Additionally, frontline managers who are given the team owner role have the flexibility to add or remove frontline workers. 
+Team membership is automatically managed over time based on your frontline workers' Microsoft Entra attributes provided in setup. As frontline workers enter and leave your organization or change locations, their memberships in these teams are updated accordingly. Additionally, frontline managers who are given the team owner role have the flexibility to add or remove frontline workers. 
 
 > [!IMPORTANT]
 > Changes that frontline managers make override any changes made based on Microsoft Entra attributes. Here are some examples: 
 > - User1 is added to a team based on their Entra attributes. The frontline manager of the team then manually removes user1. In this scenario, user1 won't be added to the team again unless the frontline manager manually adds user1 back to the team. 
 > - A frontline manager adds a user from the Location A team to their Location B team. In this scenario, the user is still a member of the Location A team based on their Entra attributes and now part of the Location B team by the manual addition. This user won't be removed from the Location B team unless the frontline manager manually removes the user. In this way, frontline workers can be part of multiple teams at the same time. 
-> - Owner1 is added to Location A team based on their Entra attributes. Owner1 gets transferred to a new Location B. Owner1 would be added to Location B as an owner. But Owner1 won’t be removed from Location A for business continuity purposes. 
+> - Owner1 is added to Location A team based on their Entra attributes. Owner1 gets transferred to a new Location B. Owner1 would be added to Location B as an owner. But Owner1 won't be removed from Location A for business continuity purposes. 
 
 ## Before you begin
 
@@ -63,8 +63,8 @@ To complete the steps in this article, you must be a Global Administrator or a T
 
 ### Prerequisites
 - Admin using the Frontline Deployment tool must have a Microsoft 365 F1, F3, E3 or E5 license. 
-- Teams owners and users must have a Microsoft 365 F3, F1, E3, or E5 license. If a user doesn't have one of these licenses, they need a Microsoft Entra ID P1 add-on license. [Learn more](flw-licensing-options.md) about frontline licensing.
-- Ensure you can define your frontline workers and managers and their work locations through data available in Microsoft Entra ID. If you don't have this data in Microsoft Entra ID, you can sync it through a human capital management (HCM) connector or use [the PowerShell solution](deploy-teams-at-scale.md) to create static teams at scale. 
+- Teams owners and users must have a Microsoft 365 F3, F1, E3, or E5 license. If a user doesn't have one of these licenses, they need a Microsoft Entra ID P1 add-on license. [Learn more](flw-licensing-options.md) about frontline licensing.
+- Ensure you can define your frontline workers and managers and their work locations through data available in Microsoft Entra ID. If you don't have this data in Microsoft Entra ID, you can sync it through a human capital management (HCM) connector or use [the PowerShell solution](deploy-teams-at-scale.md) to create static teams at scale. 
     - All your frontline workers should be added to up to 32 groups in Microsoft Entra. 
     - All your frontline managers at each of your frontline locations should be added to up to 20 groups on Microsoft Entra. 
     - There must be one attribute consistent across all frontline workers and managers that represents their frontline location. 
@@ -74,8 +74,8 @@ To complete the steps in this article, you must be a Global Administrator or a T
 > [!IMPORTANT]
 > Team owners must have a Teams license. Before you use these steps to deploy your teams, make sure that all teams owners have a license.
 
-1. In the left navigation of the [Teams admin center](https://admin.teams.microsoft.com), choose **Frontline deployment** > **Manage frontline teams**. 
-2. In the table, choose **Set up**.
+1. In the left navigation of the [Teams admin center](https://admin.teams.microsoft.com), choose **Frontline deployment** > **Manage frontline teams**. 
+2. In the table, choose **Set up**.
 
 :::image type="content" source="media/flw-teams-admin-center.png" alt-text="Screenshot showing how to manage frontline teams in Teams admin center." lightbox="media/flw-teams-admin-center.png":::
 
@@ -84,7 +84,7 @@ To complete the steps in this article, you must be a Global Administrator or a T
 
 :::image type="content" source="media/dtas-add-frontline-groups.png" alt-text="Screenshot showing how to add frontline groups to frontline teams settings." lightbox="media/dtas-add-frontline-groups.png":::
 
-5. On the **Location** page, select a Microsoft Entra attribute or a custom user attribute that defines the location your frontline employees work in. You can only choose one location attribute. You can change the attribute, as needed, after you submit your setup. For example, if you would like to create a team for each city, enter the “City” attribute and we will group frontline workers in the same city into teams.
+5. On the **Location** page, select a Microsoft Entra attribute or a custom user attribute that defines the location your frontline employees work in. You can only choose one location attribute. You can change the attribute, as needed, after you submit your setup. For example, if you would like to create a team for each city, enter the "City" attribute and we will group frontline workers in the same city into teams.
 All custom attributes are case sensitive and must start with an "extension_" prefix. Only custom attributes of the String data type are supported.
 
 :::image type="content" source="media/dtas-appoint-attr-for-location.png" alt-text="Screenshot showing how to choose the Microsoft Entra attribute to define location in an organization." lightbox="media/dtas-appoint-attr-for-location.png":::
@@ -161,10 +161,10 @@ The [Teams frontline usage report](frontline-usage-report.md) on the usage dashb
 ### Why are channels missing when I create my teams?
 It can take time for channels to propagate in Teams. The General channel is created first and the remaining channels are added over time. All channels should be available within 24 hours of team creation.
 Why am I seeing 0 users while trying to deploy?
-Seeing zero users next to a location name (ex. “Redmond”) in the deploy teams table indicates that there is a user in the provided owner groups with the specified location value (ex. Manager_A with city attribute equal to “Redmond”) but no users in the provided frontline worker groups has that same location value (i.e. no users with the city attribute equal to “Redmond”). The admin should reexamine their selected frontline groups or investigate if this is a data hygiene issue.
+Seeing zero users next to a location name (ex. "Redmond") in the deploy teams table indicates that there is a user in the provided owner groups with the specified location value (ex. Manager_A with city attribute equal to "Redmond") but no users in the provided frontline worker groups has that same location value (i.e. no users with the city attribute equal to "Redmond"). The admin should reexamine their selected frontline groups or investigate if this is a data hygiene issue.
 
 ### Why am I not seeing some locations?
-The locations displayed in the deploy teams table are the list of unique location values from the users in the selected owner groups. This is to ensure the team deploys successfully as owners are mandatory. This means that an admin can create a team with only owners and no members as well (please see “Why am I seeing 0 users while trying to deploy?” FAQ for more information on this scenario).  
+The locations displayed in the deploy teams table are the list of unique location values from the users in the selected owner groups. This is to ensure the team deploys successfully as owners are mandatory. This means that an admin can create a team with only owners and no members as well (please see "Why am I seeing 0 users while trying to deploy?" FAQ for more information on this scenario).  
 
 ## Related articles
 - [Learn where to start with a frontline deployment](flw-deploy-overview.md)

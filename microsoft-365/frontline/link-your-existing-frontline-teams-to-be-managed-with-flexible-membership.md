@@ -17,7 +17,7 @@ ms.date:     12/19/2025
 
 ## Overview
 
-Save time and enhance the way you manage your existing frontline teams with flexible membership. When you link your existing teams to the frontline workforce management tool on the Manage frontline teams page, membership is automatically synced with your frontline workers’ Microsoft Entra attributes. Additionally, frontline managers can manually add or remove members on their teams.
+Save time and enhance the way you manage your existing frontline teams with flexible membership. When you link your existing teams to the frontline workforce management tool on the Manage frontline teams page, membership is automatically synced with your frontline workers' Microsoft Entra attributes. Additionally, frontline managers can manually add or remove members on their teams.
 
 Existing team members are not removed when you link teams. Monitor usage of Teams and other frontline apps on the **Usage** tab of the **Manage frontline teams** page.
 
@@ -72,6 +72,6 @@ Existing team members are not removed when you link teams. Monitor usage of Team
 
 ## Get analytics on frontline teams usage
 
-The [Teams frontline usage report](/microsoft-365/frontline/frontline-usage-report) on the usage dashboard of the Manage frontline teams page gives you an overview of usage activity in Teams for each of your frontline locations. You can view data, such as the number of active users, last activity date, active users on Walkie Talkie, etc. to quickly see how many users at your frontline locations are using Teams to communicate and collaborate.
+The [Teams frontline usage report](/microsoft-365/frontline/frontline-usage-report) on the usage dashboard of the Manage frontline teams page gives you an overview of usage activity in Teams for each of your frontline locations. You can view data, such as the number of active users, last activity date, active users on Walkie Talkie, etc. to quickly see how many users at your frontline locations are using Teams to communicate and collaborate.
 
- 
+ 
