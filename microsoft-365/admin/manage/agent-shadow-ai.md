@@ -80,7 +80,7 @@ The Shadow AI experience helps administrators identify and manage these risks wi
 
 ## Features available in public preview
 
-During public preview, the Shadow AI experience is split into two distinct capabilities:
+During public preview, the Shadow AI experience has the following feature:
 
 - **[Unapproved/Unregistered locally run AI Agents (Shadow AI)](#shadow-ai-governance-for-unapprovedunregistered-locally-run-ai-agents)**
 
@@ -90,17 +90,9 @@ During public preview, the Shadow AI experience is split into two distinct capab
     | -------- | --------- | --------- |
     | OpenClaw | Available | Available |
 
-- **[Developer Tool Detection](#developer-tool-detection)**
-
-    These developer tools are legitimate developer tools that can be detected on managed devices for IT visibility and inventory purposes. Developer tool detection isn't for blocking or governing as Shadow AI. Instead, this capability helps you understand which developer tools are running in your environment, not governing them as Shadow AI.
-
-    | Agent | Detection | Blocking |
-    | ----- | --------- | -------- |
-    | GitHub Copilot CLI | Available | Not available in preview |
-
-> [!NOTE]
->
-> Shadow AI detection and blocking currently apply only to managed Windows devices enrolled with Microsoft Intune.
+    > [!NOTE]
+    >
+    > Shadow AI detection and blocking currently apply only to managed Windows devices enrolled with Microsoft Intune.
 
 ## Shadow AI: Governance for unapproved/unregistered locally run AI agents
 
@@ -175,28 +167,3 @@ When a Shadow AI agent is blocked, the following occurs:
 - Detection is continuous so attempted usage remains visible.
 - Future downloads of the blocked Shadow AI agent are also prevented.
 
-## Developer tool detection
-
-Detection capabilities are available for legitimate developer tools such as GitHub Copilot CLI. These tools aren't classified as Shadow AI. Detection gives IT administrators visibility into which developer tools are running on managed devices for inventory and awareness.
-
-### Detect developer tool usage on managed devices
-
-To detect a legitimate developer tool usage, follow these steps:
-
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-
-1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
-
-1. Under **Agents**, select [**All agents**](https://admin.cloud.microsoft/?#/agents/all).
-
-1. In the **All agents** page, select **Local Agents (Frontier)**.
-
-1. In the **Shadow AI** page, in the **Agent Registry**, select **GitHub Copilot CLI**.
-
-1. In the agent details pane that opens, select **Configure detection**.
-
-1. Detection begins immediately across all managed Windows devices.
-
-> [!NOTE]
->
-> Detection of legitimate developer tools is provided for IT visibility and device inventory purposes, not for Shadow AI governance.
