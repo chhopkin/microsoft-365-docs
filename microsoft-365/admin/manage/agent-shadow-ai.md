@@ -163,7 +163,7 @@ To block a Shadow AI agent:
 
 1. In the Shadow AI agent details pane that opens, select **Security policies**.
 
-1. Under **Security policies**, select **Block AI agents from *<Shadow AI agent name>***. For example, select **Block AI agents from OpenClaw**.
+1. Under **Security policies**, select **Block AI agents from *\<Shadow AI agent name>***. For example, select **Block AI agents from OpenClaw**.
 
 Blocking a Shadow AI agent creates a new Intune policy that automatically propagates to all managed Windows devices enrolled in Intune. Depending on how Intune is configured in your organization, this Intune policy update could take anywhere from 15 minutes up to 8 hours to apply. Full policy details, including when Intune policy applies, can be found in Intune. For more information, see [Assign policies in Microsoft Intune](/intune/device-configuration/assign-device-profile).
 
