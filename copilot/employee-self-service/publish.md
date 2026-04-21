@@ -210,7 +210,7 @@ To link directly to the agent:
 > **Note**
 >
 > Auto-pinning is recommended:
-> https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#manage-pinning-of-agents
+> https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#manage-pinning-of-agents
 
 ---
 
@@ -222,7 +222,7 @@ To prevent access from Teams:
 - This removes it from discovery and usage in Teams
 
 Reference:
-https://learn.microsoft.com/en-us/microsoftteams/manage-apps#agent-and-app-governance
+https://learn.microsoft.com/microsoftteams/manage-apps#agent-and-app-governance
 
 > **Important**
 >
