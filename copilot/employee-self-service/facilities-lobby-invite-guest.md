@@ -45,7 +45,7 @@ Moreover, such integrated experiences foster a sense of belonging and engagement
 
 Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organizations attract, retain, and motivate talent by prioritizing their day-to-day comfort and efficiency.
 
-Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot Agent to allow employees to perform various operations.
+Now that we covered the fundamentals, let's walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot Agent to allow employees to perform various operations.
 
 ## Prerequisites
 
