@@ -191,9 +191,12 @@ To detect a legitimate developer tool usage, follow these steps:
 
 1. Under **Agents**, select [**All agents**](https://admin.cloud.microsoft/?#/agents/all).
 
-1. Navigate to the Local agents (Frontier)
-1. In the Shadow AI page, in the Agent Registry, select GitHub Copilot CLI.
-1. In the agent details pane that opens, select Configure detection.
+1. In the **All agents** page, select **Local Agents (Frontier)**.
+
+1. In the **Shadow AI** page, in the **Agent Registry**, select **GitHub Copilot CLI**.
+
+1. In the agent details pane that opens, select **Configure detection**.
+
 1. Detection begins immediately across all managed Windows devices.
 
 > [!NOTE]
