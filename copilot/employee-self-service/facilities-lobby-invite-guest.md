@@ -82,9 +82,9 @@ Connectors enable you to connect the agent with other apps, data, and devices in
 
 For this example of inviting a guest to office, we assume the Guest Management system is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for creating a guest invitation.
 
-[Available connectors](/connectors/connector-reference/)
+Refer the link for the list of [Available connectors](/connectors/connector-reference/).
 
-[HTTP request action reference](/microsoft-copilot-studio/authoring-http-node)
+Refer the link for the [HTTP request action reference](/microsoft-copilot-studio/authoring-http-node).
 
 ## Example: Invite a Guest
 
@@ -103,8 +103,7 @@ This process involves only one step:
 - Create a topic named **Invite a guest**
   - In Copilot Studio, select **Add a topic > From blank**.
   - Once inside the topic, select **Open code editor**.
-  - Use the code from the Copilot Samples repository and paste in the code editor:  
-      <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest/topic.yaml>
+  - Use the code from the Copilot Samples repository [Invite a Guest topic YAML](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest/topic.yaml) and paste in the code editor.
   - Update the HTTP API URL in the code sample. Search for "kind: HttpRequestAction" and update the URL property as per your backend system.
   - Save the topic.
 
