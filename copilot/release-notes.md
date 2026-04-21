@@ -131,7 +131,7 @@ Updates released between April 7, 2026, April 21, 2026
 
  ### Microsoft 365 Copilot extensibility
 
-- **Share agents to Teams** [Web}
+- **Share agents to Teams** [Web]
   
   This feature allows users to share their agent directly with a Microsoft Teams team, making it easier for teams to discover, install, and start using agents together.
  
@@ -2209,7 +2209,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 ### Microsoft 365 Copilot Chat
 - **Streamlined Copilot chat navigation with expanded history** [Windows, Web]
 
-  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect great for fast-paced projects and multitasking.
+  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect for fast-paced projects and multitasking.
 
   **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=516570" target="_blank">516570</a>
 
@@ -7484,7 +7484,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 ### Microsoft 365 Copilot Chat
 - **Streamlined Copilot chat navigation with expanded history** [Windows, Web]
 
-  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect great for fast-paced projects and multitasking.
+  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect for fast-paced projects and multitasking.
 
   **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=516570" target="_blank">516570</a>
 
@@ -10767,7 +10767,7 @@ Updates released between January 27, 2026, February 10, 2026.
   [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center](/microsoftsearch/configure-connector)
 
 
-- **Declarative Agents help users stay in their workflow** [Web]]
+- **Declarative Agents help users stay in their workflow** [Web]
 
   URL‑based dialogs in Declarative Agents allow users to open linked experiences without leaving Copilot, helping them stay focused.
 
@@ -11508,7 +11508,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 ### Microsoft 365 Copilot Chat
 - **Streamlined Copilot chat navigation with expanded history** [Windows, Web]
 
-  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect great for fast-paced projects and multitasking.
+  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect for fast-paced projects and multitasking.
 
   **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=516570" target="_blank">516570</a>
 
@@ -16877,7 +16877,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
-  **Detailes:** 
+  **Details:** 
 
   **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
 
