@@ -41,7 +41,7 @@ The following table provides specific permissions for Workflows agent DSR.
 | Role name | Role ID | Description | Assignable scope |
 | :--- | :--- | :--- | :--- |
 | Workflows agent Data Subject Rights Environment Reader | `38a014c1-0485-4e5e-b784-782ea373b34b` | Grants full access to perform read operations for Data Subject Rights requests for Workflows agent flows for a given environment. | `/tenants/{0}/environments/{1}` |
-| Workflows Agent Data Subject Rights Administrator | `363ee124-fdb2-406f-9272-ebf239730ed2` | Grants full access to perform read and delete operations for Data Subject Rights requests on Workflows Agent Flows | `/tenants/{0}}` |
+| Workflows Agent Data Subject Rights Administrator | `363ee124-fdb2-406f-9272-ebf239730ed2` | Grants full access to perform read and delete operations for Data Subject Rights requests on Workflows Agent Flows | `/tenants/{0}` |
 
 Find a tutorial for customers in [Assign roles to service principals](/power-platform/admin/programmability-tutorial-rbac-role-assignment?tabs=PowerShell).
 
