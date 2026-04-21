@@ -142,7 +142,7 @@ For more information about protecting AI agents, see [Detect, block, and investi
 
 ### Create custom templates
 
-To create custom template that can be apply to AI agents used at your organization, follow these steps:
+To create a custom template that can be applied to AI agents used at your organization, follow these steps:
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
 1. Select **Agents** > **Settings** > **Template** > **Add New Template**.
