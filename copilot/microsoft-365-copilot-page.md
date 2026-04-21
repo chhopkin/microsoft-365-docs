@@ -359,7 +359,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copil
 
 When you allow this scenario, users can ask Copilot to create, design, and edit images. Users can add these images to their work in Microsoft 365 apps and Designer.
 
-If you don't allow this scenario, Copilot doesn't generate images. It responds with stock or brand images.
+ If you don't allow this scenario, Copilot doesn't generate images. It responds with stock or brand images (applies only to PowerPoint). Copilot Chat will not generate new images or return stock or brand images.
 
 For more information, see the following resources:
 
