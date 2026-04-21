@@ -114,8 +114,6 @@ Approval is the final step to deploy the Employee Self-Service agent to your use
 
 You need to follow the publishing steps again if any of these steps fail.
 
-
-
 ## Manage Employee Self-Service agent availability
 
 Currently, the Employee Self-Service agent is designed to operate within **Microsoft 365 Copilot**.
