@@ -16,6 +16,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 description: Learn about Learning Tools Interoperability (LTI) Microsoft apps, and how they help educators when integrating Microsoft apps into their Learning Management System (LMS).
 ---

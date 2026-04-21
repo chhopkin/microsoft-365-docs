@@ -49,13 +49,16 @@ In some regions, Anthropic’s models aren't available by default. For these reg
 
 In addition, Anthropic models aren't available in government clouds (GCC, GCC High, DoD) as there's no FedRAMP certification in place yet. They're also not available in other sovereign clouds. No toggle will be present for government or sovereign clouds.
 
+> [!NOTE]
+> On April 3, 2026, Microsoft introduced a new Microsoft 365 admin center setting **Copilot in M365 apps with Anthropic models** in EU/EFTA and UK to enable Anthropic as the default model for Copilot in Microsoft 365 apps. For more information, see [Copilot in Microsoft 365 apps with Anthropic models](copilot-anthropic-apps.md).
+
 ## Opt-in to use Anthropic's models
 
 If your organization is in a region that has Anthropic as a subprocessor set to **Off** by default, you can choose to opt in so Anthropic's models are available for your organization. You must be a member of the global administrator role to perform this task. For more information, see [About admin roles](https://learn.microsoft.com) and [Global administrator](/entra/identity/role-based-access-control/permissions-reference).
 
-1. Go to the Microsoft 365 admin center and select **Copilot** -\> **Settings**.
-2. On the **Data access** page, select **AI providers operating as Microsoft subprocessors**.
-3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Enable Anthropic as a Microsoft subprocessor subject to the above terms**.
+1. Go to the Microsoft 365 admin center and select **Copilot** -\> **Settings** -\> **View all**.
+2. Select **AI providers operating as Microsoft subprocessors**.
+3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Anthropic** and **Enable**.
 
 > [!NOTE]
 > If your organization is in the European Union (EU), the European Free Trade Association (EFTA), or the United Kingdom and you previously opted in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement, you’ll need to opt in again. The toggle will be set to **Off** by default.

@@ -9,12 +9,11 @@ ms.date: 03/12/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
-ms.localizationpriority: medium
+ms.subservice: m365-privacy
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-- trust-pod
 - feedback-content
 ms.custom: admindeeplinkMAC
 hideEdit: true
