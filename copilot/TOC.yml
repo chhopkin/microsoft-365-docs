@@ -461,6 +461,8 @@ items:
           href: cowork/get-started.md
         - name: Use Cowork
           href: cowork/use-cowork.md
+        - name: Best practices
+          href: cowork/best-practices.md
         - name: Common questions
           href: cowork/cowork-faq.md
         - name: Manage Cowork
