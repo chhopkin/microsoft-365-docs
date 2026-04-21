@@ -114,7 +114,120 @@ Approval is the final step to deploy the Employee Self-Service agent to your use
 
 You need to follow the publishing steps again if any of these steps fail.
 
+## Manage Employee Self-Service agent availability
+
+Currently, the Employee Self-Service agent is designed to operate within **Microsoft 365 Copilot**. While the agent might appear as available in the **Microsoft Teams** app after publishing, the Employee Self-Service agent is not supported in the standalone Teams app experience. Users who access the Employee Self-Service agent from Teams might encounter errors or broken experiences.
+
+To provide a better experience for your users, you can take one or both of the following actions:
+
+- **Redirect users from Teams to Copilot** – Create a topic in Copilot Studio that detects when a user opens the agent from Teams and displays a redirect message guiding them to Microsoft 365 Copilot.
+- **Block the agent in Teams** – Use the Teams admin center to block the Employee Self-Service agent so it no longer appears in Teams.
+
+
+
 ## Uninstall the Employee Self-Service agent
+
+## Manage Employee Self-Service agent availability
+
+Currently, the Employee Self-Service agent is designed to operate within **Microsoft 365 Copilot**.
+
+While the agent might appear in the **Microsoft Teams app** after publishing, it is not supported in the standalone Teams experience. Users who access it from Teams might encounter errors or broken functionality.
+
+To provide a better experience for your users, you can:
+
+- **Redirect users from Teams to Copilot**  
+  Create a topic in Copilot Studio that detects Teams access and displays a redirect message.
+
+- **Block the agent in Teams**  
+  Use the Teams admin center to prevent it from appearing in Teams.
+
+---
+
+### Redirect users from Microsoft Teams to Microsoft 365 Copilot
+
+You can create a topic in Copilot Studio that detects when the agent is launched from the Microsoft Teams channel. The topic displays a redirect message guiding users to Microsoft 365 Copilot.
+
+When a user opens the agent from Teams, the message appears as follows:
+
+> **Note**
+>
+> **Looking for the Employee Self-Service Agent? You’re almost there!**
+>
+> 1. Open Copilot Business Chat (BizChat): https://www.microsoft365.com/chat
+> 2. In the left pane, select **Agents**
+> 3. Choose **All agents** if the agent isn’t immediately visible
+>
+> You’ll find **Employee Self-Service** in the list.
+
+---
+
+### To create the redirect topic
+
+- Open the Employee Self-Service agent in Copilot Studio
+- Select **Topics**
+- Select **+ Add a topic** → **From blank**
+- Name the topic (for example, `Redirect from Teams`)
+- Paste the following:
+
+```yaml
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnActivity
+  id: main
+  condition: =System.Activity.ChannelId = "msteams"
+  priority: -1
+  actions:
+    - kind: SendActivity
+      id: sendActivity_dT0g9y
+      activity: |
+        **Looking for the Employee Self-Service Agent? You're almost there!**
+        1. Open https://www.microsoft365.com/chat (BizChat).
+        2. In the left pane, select **Agents**.
+        3. Choose **All agents** if the agent isn't immediately visible.
+        You'll find **Employee Self-Service** in the list.
+    - kind: EndConversation
+      id: aCWPQ6
+    - kind: CancelAllDialogs
+      id: gd9GgV
+```
+
+- Save the topic
+- Test by opening the agent from Teams in the Copilot Studio test pane
+
+> **Note**
+>
+> Update the message if your tenant uses a different agent name.
+
+---
+
+### Optional: Deep link to the agent
+
+To link directly to the agent:
+
+- Copy the link from Copilot (**… → Share**)
+- Replace the URL in the topic message
+
+> **Note**
+>
+> Auto-pinning is recommended:
+> https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#manage-pinning-of-agents
+
+---
+
+### Block the Employee Self-Service agent in Microsoft Teams
+
+To prevent access from Teams:
+
+- Block the agent in the Teams admin center
+- This removes it from discovery and usage in Teams
+
+Reference:
+https://learn.microsoft.com/en-us/microsoftteams/manage-apps#agent-and-app-governance
+
+> **Important**
+>
+> Blocking the agent in Teams does not affect availability in Microsoft 365 Copilot.
+> Users can still access it via Copilot Business Chat.
 
 ### Core Employee Self-Service agent
 
