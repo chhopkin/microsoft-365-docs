@@ -67,6 +67,8 @@ By default, Agent Map clusters agents by the platform or by the builder the grou
  
 You can find specific agents quickly by name, using the **search bar** at the top of Agent Map. You can also refine what you’re looking at with **filters** that reshape the map around what matters.
 
+The agent summary details, which are provided as cards at the top of the pane, can be selected to provide a mutual exclusive summary. However, the dropdown filter selections, below the cards, can be combined independently.  
+
 Available filters include the following:
 
 - **Agents at risk** – Focus on agents with one or more active security risks. The count reflects high-severity alerts from security platforms.
@@ -83,8 +85,6 @@ The following table provides filter details:
 | Channel | <ul><li>Copilot</li><li>Outlook</li><li>Teams</li><li>Office</li><li>SharePoint</li></ul> | Filters agents by where users encounter them, so you can investigate exposure and adoption   by host product. |
 | Data source | <ul><li>Embedded knowledge</li><li>Fine-tuned models</li></ul> | Distinguishes whether an agent relies on embedded content for grounding responses or on a fine‑tuned model that has been trained on organizational data. |
 | Usage | **Active users**: Top 100 by users, Inactive<br><br>**Total sessions**: Top 100 by sessions, No sessions<br><br>**Exception rate**: Has exceptions (>0%), No exceptions<br></br>**Assisted hours**: Has assisted hours, No assisted hours | Highlights agents by recent usage and reliability signals so you can prioritize high-impact agents, find unused ones, and spot agents that may need attention. |
-
-
 
 > [!NOTE]
 > For performance reasons, the Usage/Observability filters are currently available only for tenants with fewer than 4,000 users. Usage is based on agents reporting activity via Agent 365.
