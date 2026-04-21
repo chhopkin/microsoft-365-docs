@@ -72,7 +72,7 @@ Use the following steps to view pending agent requests and act on those requests
 1. Select the users or groups that can install the agent. Publishing makes the agent available for installation to the selected audience.
 1. (Optional) Select the users or groups who will have the agent preinstalled. 
 1. Select **Next** to view template options.
-1. Choose a policy template that apply to the agent.
+1. Choose a policy template that applies to the agent.
 1. Select to apply either an existing template, the default template, or a custom template.
     - **Default template** - The **Template** dropdown list provides a **Default** template that provides an out of the box set of agent policies with essential security and compliance controls from Microsoft Entra, Microsoft Purview, and SharePoint. Complete **Default** details (policy name, description, and platform) are displayed at the bottom of the **Apply template** pane.
     - **Existing template** - The **Template** dropdown list also provides existing templates that have been defined in Microsoft admin center (**Agents** > **Settings** > **Templates**). 
