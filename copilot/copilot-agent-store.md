@@ -47,6 +47,10 @@ The following table summarizes the three common agent deployment methods.
 | [Bring agents from external platforms](#bring-agents-from-external-platforms) | Connect agents built on external platforms or custom code. | Developer/Admin |
 | [Integrate agent with the Agent 365 SDK](#integrate-your-agent-with-the-agent-365-sdk) | Integrate your agent with the Agent 365 SDK. | Developer/Admin |
 
+> [!NOTE]
+> Agents built using  Agent Store.
+
+
 ## Deploy prebuilt agents
 
 Prebuilt agents are available from Microsoft and trusted partners. Use this method to browse and enable agents in [Microsoft 365 admin center](https://admin.microsoft.com/) that are already built and verified. No development work is required.
