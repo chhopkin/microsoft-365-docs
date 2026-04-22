@@ -129,8 +129,8 @@ The following table describes each type of agent:
 
 | Type of agent | Description |
 |---|---|
-| **MCS DA** | A Microsoft Copilot Studio Declarative Agent (MCS DA) is created primarily using written instructions within Copilot Studio. These agents can be publish based on channel and approved by the administrator within Microsoft 365 admin center. |
-| **MCS CEA** | A Microsoft Copilot Studio Custom Engine Agent (MCS CEA) is deisgned using more precise settings and capabilities using Copilot Studio. The agents can be publish based on channel and approved by the administrator within Microsoft 365 admin center. |
+| **MCS DA** | A Microsoft Copilot Studio Declarative Agent (MCS DA) is created primarily using written instructions within Copilot Studio. These agents can be published based on channel and approved by the administrator within Microsoft 365 admin center. |
+| **MCS CEA** | A Microsoft Copilot Studio Custom Engine Agent (MCS CEA) is designed using more precise settings and capabilities using Copilot Studio. The agents can be publish based on channel and approved by the administrator within Microsoft 365 admin center. |
 | **MCS BP** | A business process (BP) agent, created with Microsoft Copilot Studio, is a sequence of tasks, decisions, and interactions often implemented to use automation. |
 | **Foundry LOB** | A Foundry LOB agent is create using Microsoft Foundry. This is a Line-of-Business (LOB) agent that has been created in-house (within your organization) for a specific business scenario.  |
 | **Foundry non-LOB** | A Foundry non-LOB agent is create using Microsoft Foundry, however it is not tied to a specific business workflow. |
@@ -138,7 +138,7 @@ The following table describes each type of agent:
 | **Agent Builder** | An Agent Builder agent is a declarative agent that has been created using Agent Builder within Copilot. |
 | **SharePoint** | A SharePoint agent is a declarative agent has been created using SharePoint. This type of agent typically uses organization knowledge hosted on SharePoint. |
 | **Agent Toolkit** | An Agent Toolkit agent has been created using Microsoft 365 Agents Toolkit. The toolkit provides tooling for building, testing, and managing agents across Microsoft 365. |
-| **Agent instance** | An agent that has been extended using the Microsoft Agent 365 SDK is an agent instance. Once extended, an agent instance has Entra-backed agent identity, enhanced notification capabilities, extended observability, govered MCP tooling, and an IT-approved blueprint system. |
+| **Agent instance** | An agent that has been extended using the Microsoft Agent 365 SDK is an agent instance. Once extended, an agent instance has Entra-backed agent identity, enhanced notification capabilities, extended observability, covered MCP tooling, and an IT-approved blueprint system. |
 
 For more information about agent types, see [Data & tools by agent type](agent-details.md#data--tools-by-agent-type).
 
