@@ -17,7 +17,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 11/18/2024
+ms.date: 04/22/2026
 ---
 
 # Create a custom integration to sync your workforce management system with Shifts
@@ -99,7 +99,212 @@ For example, if **url** is `https://contosoconnector.com/wfi` and **apiVersion**
 
 **Encryption**
 
-All requests are encrypted using AES-256-CBC-HMAC-SHA256. You specify the shared secret key when you [register the workforce integration](#step-4a-register-the-workforce-integration-in-your-tenant). Responses sent back to Shifts shouldn't be encrypted.
+All requests from Shifts to your connector are encrypted using AES-256-CBC with an HMAC-SHA-256 authentication tag. You specify the 64-character shared secret when you [register the workforce integration](#step-4a-register-the-workforce-integration-in-your-tenant). Responses sent back to Shifts shouldn't be encrypted.
+
+Keep these two details in mind as you implement your decryption:
+
+- **The 64-character shared secret is used as 64 raw ASCII bytes** (not Base64-decoded). The first 32 bytes are the HMAC authentication key; the last 32 bytes are the key-encryption key (KEK) that unwraps a per-message data-encryption key.
+- **The HTTP body is a Microsoft Bond CompactBinary envelope**, not a raw `IV || ciphertext || HMAC` concatenation. An outer envelope `{ int32 KeyID; blob Ciphertext; }` wraps an inner struct `{ blob EK; blob IV; blob CT; blob AT; }`, where `AT = HMAC-SHA-256(authKey, "AES-256-CBC-HMAC-SHA256" || int32_le(KeyID) || EK || IV || CT)`.
+
+The following sample decrypts a `/connect` or `/update` request body end to end using only platform crypto primitives.
+
+# [C#](#tab/csharp)
+```csharp
+using System;
+using System.Buffers.Binary;
+using System.Security.Cryptography;
+using System.Text;
+
+public static class ShiftsPayloadDecryptor
+{
+    public static byte[] Decrypt(string sharedSecret, byte[] body)
+    {
+        if (sharedSecret is null || sharedSecret.Length != 64)
+            throw new ArgumentException("sharedSecret must be 64 ASCII characters.", nameof(sharedSecret));
+
+        // Master key: 64 ASCII bytes → 32-byte auth key + 32-byte KEK.
+        var master  = Encoding.ASCII.GetBytes(sharedSecret);
+        var authKey = master[..32];
+        var kek     = master[32..];
+
+        // Parse outer Bond envelope: { int32 KeyID; blob Ciphertext; } + BT_STOP.
+        var p = 0;
+        var keyId = ReadInt32Field(body, ref p, expectedId: 0);
+        var inner = ReadBlobField (body, ref p, expectedId: 1);
+        ReadStopByte(body, ref p);
+        if (keyId != 1) throw new CryptographicException($"Unexpected KeyID {keyId}.");
+
+        // Parse inner: { blob EK; blob IV; blob CT; blob AT; } + BT_STOP.
+        var q = 0;
+        var ek = ReadBlobField(inner, ref q, expectedId: 0);
+        var iv = ReadBlobField(inner, ref q, expectedId: 1);
+        var ct = ReadBlobField(inner, ref q, expectedId: 2);
+        var at = ReadBlobField(inner, ref q, expectedId: 3);
+
+        // AAD = UTF8("AES-256-CBC-HMAC-SHA256") || int32_little_endian(1).
+        var aad = new byte[23 + 4];
+        Encoding.UTF8.GetBytes("AES-256-CBC-HMAC-SHA256").CopyTo(aad, 0);
+        BinaryPrimitives.WriteInt32LittleEndian(aad.AsSpan(23), 1);
+
+        // Verify HMAC-SHA256 over AAD || EK || IV || CT.
+        using var hmac = new HMACSHA256(authKey);
+        hmac.TransformBlock(aad, 0, aad.Length, null, 0);
+        hmac.TransformBlock(ek,  0, ek.Length,  null, 0);
+        hmac.TransformBlock(iv,  0, iv.Length,  null, 0);
+        hmac.TransformFinalBlock(ct, 0, ct.Length);
+        if (!CryptographicOperations.FixedTimeEquals(hmac.Hash!, at))
+            throw new CryptographicException("HMAC verification failed.");
+
+        // Unwrap DEK with KEK using AES-256-ECB (no padding).
+        byte[] dek;
+        using (var aesKek = Aes.Create())
+        {
+            aesKek.Key = kek; aesKek.Mode = CipherMode.ECB; aesKek.Padding = PaddingMode.None;
+            using var unwrap = aesKek.CreateDecryptor();
+            dek = unwrap.TransformFinalBlock(ek, 0, ek.Length);
+        }
+
+        // Decrypt CT with DEK + IV using AES-256-CBC (PKCS#7).
+        using var aes = Aes.Create();
+        aes.Key = dek; aes.IV = iv; aes.Mode = CipherMode.CBC; aes.Padding = PaddingMode.PKCS7;
+        using var dec = aes.CreateDecryptor();
+        return dec.TransformFinalBlock(ct, 0, ct.Length);
+    }
+
+    // --- Bond CompactBinary v1 subset -------------------------------------
+    // Tag byte: high-3-bits = field_id, low-5-bits = wire type (INT32=16, LIST=11).
+    // Blob element type = INT8 (14). Integers use ZigZag varint. Struct body ends with 0x00.
+    private const int BT_STOP = 0, BT_LIST = 11, BT_INT8 = 14, BT_INT32 = 16;
+
+    private static int ReadInt32Field(byte[] buf, ref int p, int expectedId)
+    {
+        var tag = buf[p++];
+        if ((tag & 0x1F) != BT_INT32 || (tag >> 5) != expectedId)
+            throw new FormatException($"Expected int32 field {expectedId}, got tag 0x{tag:X2}.");
+        var z = (uint)ReadVarUInt(buf, ref p);
+        return (int)((z >> 1) ^ (uint)-(int)(z & 1));
+    }
+
+    private static byte[] ReadBlobField(byte[] buf, ref int p, int expectedId)
+    {
+        var tag = buf[p++];
+        if ((tag & 0x1F) != BT_LIST || (tag >> 5) != expectedId)
+            throw new FormatException($"Expected blob field {expectedId}, got tag 0x{tag:X2}.");
+        if (buf[p++] != BT_INT8)
+            throw new FormatException("Blob element type must be int8.");
+        var len = (int)ReadVarUInt(buf, ref p);
+        var result = new byte[len];
+        Buffer.BlockCopy(buf, p, result, 0, len); p += len;
+        return result;
+    }
+
+    private static void ReadStopByte(byte[] buf, ref int p)
+    {
+        if (buf[p++] != BT_STOP) throw new FormatException("Expected BT_STOP (0x00).");
+    }
+
+    private static ulong ReadVarUInt(byte[] buf, ref int p)
+    {
+        ulong result = 0; var shift = 0;
+        while (true)
+        {
+            var b = buf[p++];
+            result |= (ulong)(b & 0x7F) << shift;
+            if ((b & 0x80) == 0) return result;
+            shift += 7;
+        }
+    }
+}
+```
+
+# [Python](#tab/python)
+```python
+import hmac, hashlib, struct
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+from cryptography.hazmat.primitives.padding import PKCS7
+
+# Bond CompactBinary v1 subset: int32 field + blob fields + BT_STOP.
+# Tag byte = (field_id << 5) | wire_type where int32=16, list=11; blob element type = int8 (14).
+BT_STOP, BT_LIST, BT_INT8, BT_INT32 = 0, 11, 14, 16
+
+
+def _read_varuint(buf, pos):
+    result, shift = 0, 0
+    while True:
+        b = buf[pos]; pos += 1
+        result |= (b & 0x7F) << shift
+        if not (b & 0x80):
+            return result, pos
+        shift += 7
+
+
+def _read_int32_field(buf, pos, expected_id):
+    tag = buf[pos]; pos += 1
+    if (tag & 0x1F) != BT_INT32 or (tag >> 5) != expected_id:
+        raise ValueError(f"Expected int32 field {expected_id}, got tag 0x{tag:02X}.")
+    z, pos = _read_varuint(buf, pos)
+    return ((z >> 1) ^ -(z & 1)), pos  # ZigZag decode
+
+
+def _read_blob_field(buf, pos, expected_id):
+    tag = buf[pos]; pos += 1
+    if (tag & 0x1F) != BT_LIST or (tag >> 5) != expected_id:
+        raise ValueError(f"Expected blob field {expected_id}, got tag 0x{tag:02X}.")
+    if buf[pos] != BT_INT8:
+        raise ValueError("Blob element type must be int8.")
+    pos += 1
+    length, pos = _read_varuint(buf, pos)
+    return buf[pos:pos + length], pos + length
+
+
+def decrypt_shifts_payload(shared_secret: str, body: bytes) -> bytes:
+    if len(shared_secret) != 64:
+        raise ValueError("shared_secret must be 64 ASCII characters.")
+
+    # Master key: 64 ASCII bytes → 32-byte auth key + 32-byte KEK.
+    master = shared_secret.encode("ascii")
+    auth_key, kek = master[:32], master[32:]
+
+    # Parse outer Bond envelope: { int32 KeyID; blob Ciphertext; } + BT_STOP.
+    p = 0
+    key_id, p = _read_int32_field(body, p, expected_id=0)
+    inner,  p = _read_blob_field (body, p, expected_id=1)
+    if body[p] != BT_STOP:
+        raise ValueError("Expected BT_STOP in outer envelope.")
+    if key_id != 1:
+        raise ValueError(f"Unexpected KeyID {key_id}.")
+
+    # Parse inner: { blob EK; blob IV; blob CT; blob AT; } + BT_STOP.
+    q = 0
+    ek, q = _read_blob_field(inner, q, expected_id=0)
+    iv, q = _read_blob_field(inner, q, expected_id=1)
+    ct, q = _read_blob_field(inner, q, expected_id=2)
+    at, q = _read_blob_field(inner, q, expected_id=3)
+
+    # AAD = UTF8("AES-256-CBC-HMAC-SHA256") || int32_little_endian(1).
+    aad = b"AES-256-CBC-HMAC-SHA256" + struct.pack("<i", 1)
+
+    # Verify HMAC-SHA-256 over AAD || EK || IV || CT.
+    mac = hmac.new(auth_key, aad + ek + iv + ct, hashlib.sha256).digest()
+    if not hmac.compare_digest(mac, at):
+        raise ValueError("HMAC verification failed.")
+
+    # Unwrap DEK with KEK using AES-256-ECB (no padding).
+    dek_cipher = Cipher(algorithms.AES(kek), modes.ECB())
+    dek_decryptor = dek_cipher.decryptor()
+    dek = dek_decryptor.update(ek) + dek_decryptor.finalize()
+
+    # Decrypt CT with DEK + IV using AES-256-CBC (PKCS#7).
+    content_cipher = Cipher(algorithms.AES(dek), modes.CBC(iv))
+    content_decryptor = content_cipher.decryptor()
+    padded = content_decryptor.update(ct) + content_decryptor.finalize()
+    unpadder = PKCS7(128).unpadder()
+    return unpadder.update(padded) + unpadder.finalize()
+```
+
+Install the required library with `pip install cryptography`.
+
+---
 
 #### Endpoints
 
@@ -215,17 +420,17 @@ This example shows the response returned if the endpoint approved the request. I
 
 Failure: Return HTTP `200 OK`
 
-This example shows the response returned if the endpoint denied the request. In this scenario, the user receives a “Could not add the shift” error message in Shifts.
+This example shows the response returned if the endpoint denied the request. In this scenario, the user receives a “Could not add the shift” error message in Shifts. Every `id` in the incoming `requests` array must have a matching response object with a non-200 `status` — missing or incomplete responses are treated as implicit approval, and the change is written to Shifts. Match the status to the nature of the rejection: use `403` for a permanent, policy-driven denial (for example, read-only mode), or `500` for a transient error your WFM system might recover from.
 
 ```http
 {
     "responses": [
         {
             "id": "SHFT_12345678-1234-1234-1234-1234567890ab",
-            "status": 500,
+            "status": 403,
             "body": {
                 "error": {
-                    "code": "500",
+                    "code": "403",
                     "message": “Could not add the shift”
                 },
                 "data": null
@@ -381,9 +586,6 @@ For example, to add a shift to Shifts, use the [Create shift](/graph/api/schedul
 
 See the [Microsoft Graph API v1.0 reference](/graph/api/resources/shift?view=graph-rest-1.0) for Shifts APIs, which are listed under **Shift management**.
 
-> [!NOTE]
-> The `MS-APP-ACTS-AS` header is required in requests and must contain the ID (GUID) of the user your app is acting on behalf of. We recommend you use the user ID of a team owner when updating the schedule.
-
 The following diagram shows the flow of data.
 
 :::image type="content" source="media/shifts-custom-integration-update-to-shifts.png" alt-text="Diagram that shows the flow for syncing data from your WFM system to Shifts." lightbox="media/shifts-custom-integration-update-to-shifts.png":::
@@ -415,6 +617,7 @@ Follow these steps to register an app for your connector in the Microsoft identi
       For step-by-step guidance, see [Get access without a user](/graph/auth-v2-service?view=graph-rest-1.0).
 
       The access token verifies that your app is authorized to [call Microsoft Graph using its own identity](/graph/auth/auth-concepts#access-scenarios) using the *Schedule.ReadWrite.All* permission. It must be included in the Authorization header of requests.
+1. If you plan to [register or update the workforce integration programmatically](#step-4a-register-the-workforce-integration-in-your-tenant) using app-only access, also assign the *WorkforceIntegration.ReadWrite.All* application permission to the app. A Global Administrator must grant admin consent for this permission.
 
 ## Step 3: Create teams and schedules for syncing
 
@@ -422,9 +625,9 @@ Set up the teams in Teams that you want to sync. You can use existing teams or c
 
 1. Set up teams in Teams to correspond with the teams and locations in your WFM system. Ensure you add the following people to each team:
 
-    - Frontline managers as team owners. Make sure you add the user in the `MS-APP-ACTS-AS` header as a team owner of each respective team.
+    - Frontline managers as team owners.
     - Frontline workers as team members.
-1. Create a schedule in Shifts for each team. To learn more, see [Create or replace schedule](/graph/api/team-put-schedule?view=graph-rest-1.0).
+1. Create a schedule in Shifts for each team. To learn more, see [Create or replace schedule](/graph/api/team-put-schedule?view=graph-rest-1.0). Schedule provisioning is asynchronous — poll the schedule's `provisionStatus` until it's `completed` before creating scheduling groups.
 1. Add schedule groups to the schedule on each team. Schedule groups are used to group employees based on common characteristics within a team. For example, schedule groups can be departments or job types. To learn more, see [schedulingGroup resource type](/graph/api/resources/schedulinggroup?view=graph-rest-1.0).
 1. Add employees to each schedule group. To learn more, see [Replace schedulingGroup](/graph/api/schedulinggroup-put?view=graph-rest-1.0).
 
@@ -445,9 +648,9 @@ To register and enable the workforce integration, complete the following steps:
 
 ### Step 4a: Register the workforce integration in your tenant
 
-You must be a Global Administrator to perform this step.
+Use the [Create workforceIntegration](/graph/api/workforceintegration-post?view=graph-rest-1.0&tabs=http) API to register your workforce integration in your tenant.
 
-Use the [Create workforceIntegration](/graph/api/workforceintegration-post?view=graph-rest-1.0&tabs=http) API to register your workforce integration in your tenant. 
+You can perform this step interactively — for example, from [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) signed in as a Global Administrator — or programmatically using an application token. In the programmatic case, the app must have the *WorkforceIntegration.ReadWrite.All* application permission consented by a Global Administrator (see [Step 2](#step-2-register-an-app-in-the-microsoft-entra-admin-center)).
 
 Here's an example of a request.
 
