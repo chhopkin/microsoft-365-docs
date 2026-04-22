@@ -118,7 +118,7 @@ You need to follow the publishing steps again if any of these steps fail.
 
 Currently, the Employee Self-Service agent is designed to operate within **Microsoft 365 Copilot**.
 
-While the agent might appear in the **Microsoft Teams app** after publishing, it is not supported in the standalone Teams experience. Users who access it from Teams might encounter errors or broken functionality.
+While the agent might appear in the **Microsoft Teams app** after publishing, it isn't supported in the standalone Teams experience. Users who access it from Teams might encounter errors or broken functionality.
 
 To provide a better experience for your users, you can:
 
