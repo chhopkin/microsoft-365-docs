@@ -51,8 +51,7 @@ Now that we covered the fundamentals, let’s walk through a practical example. 
 To extend the Employee Self-Service Copilot Agent with a custom *Register a Vehicle* topic, ensure the following prerequisites are met:
 
 - Employee Self-Service agent is installed in Copilot Studio.
-- Access to Copilot Samples in GitHub:  
-  <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle>
+- Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle)
 
 - Maker access to a sandbox or preproduction environment in Copilot Studio.
 - Access to the Vehicle Registration API and Config APIs, which are used to fetch the config data for different regions.
@@ -81,11 +80,9 @@ Connectors enable you to connect the agent with other apps, data, and devices in
 
 For this example of registering a vehicle for parking on campus, we assume the vehicle registration system is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for registering a vehicle.
 
-Available connectors:  
-<https://learn.microsoft.com/connectors/connector-reference/>
+Learn more about [Available connectors](/connectors/connector-reference/).
 
-HTTP request action reference:  
-<https://learn.microsoft.com/microsoft-copilot-studio/authoring-http-node>
+Learn more about [HTTP request node](/microsoft-copilot-studio/authoring-http-node).
 
 ## Example: Register Your Vehicle for Parking
 
@@ -102,7 +99,7 @@ This process involves only one step:
 - Create a topic named **Register a Vehicle**
   - In Copilot Studio, select **Add a topic > From blank**.
   - Once inside the topic, select **Open code editor**.
-  - Use the code from the Copilot Samples repository and paste in the code editor: <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle/topic.yaml>
+  - Use the code from the Copilot Samples repository [Register your Vehicle topic YAML](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle/topic.yaml) and paste in the code editor.
   - Update the HTTP API URL in the code sample. Search for "kind: HttpRequestAction" and update the URL property as per your backend system.
   - Save the topic.
 
