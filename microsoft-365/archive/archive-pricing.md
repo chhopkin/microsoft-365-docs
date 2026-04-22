@@ -25,9 +25,9 @@ Storage consumption is charged at a per-GB monthly rate. This meter is charged o
 > [!NOTE]
 > The reactivation fee for archived content in SharePoint was eliminated on March 31, 2025. After that date, reactivating archived content became free of charge, but re-archiving any newly reactivated content is restricted for a four-month period. This change doesn't apply to OneDrive accounts. For more information, see the [Microsoft 365 Archive blog](https://techcommunity.microsoft.com/blog/microsoft_365_archive_blog/microsoft-365-archive-eliminates-reactivation-fees-by-march-31-2025/4383215).
 
-Monthly archive storage usage is calculated as the total of two components: (1) the storage used by all archived SharePoint sites, and (2) the storage used by archived files that reside in non‑archived SharePoint sites. Archived files that are contained within an archived site are counted only as part of that site’s archived storage and are not counted again individually.
+Monthly archive storage usage is calculated as the total of two components: (1) the storage used by all archived SharePoint sites, and (2) the storage used by archived files that reside in non-archived SharePoint sites. Archived files that are contained within an archived site are counted only as part of that site's archived storage and are not counted again individually.
 
-For archived sites, the billed storage is equal to the site’s current storage usage, as shown on the site itself or on the **Active sites** page in the SharePoint admin center. The storage usage of an archived site changes only when the site’s content changes, such as when items expire from the recycle bin or when retention policies permanently delete content.
+For archived sites, the billed storage is equal to the site's current storage usage, as shown on the site itself or on the **Active sites** page in the SharePoint admin center. The storage usage of an archived site changes only when the site's content changes, such as when items expire from the recycle bin or when retention policies permanently delete content.
 
 To see the pricing for Microsoft 365 Archive, see [Pay-as-you-go services and pricing](/microsoft-365/documentprocessing/syntex-pay-as-you-go-services#storage-services).
 
@@ -47,7 +47,7 @@ The Microsoft 365 Archive pricing calculator, when calculating the potential cos
 
 - The active tenant storage quota, measured in terabytes (TB)
 
-- The active storage—that is, the volume of standard storage currently in use, in terabytes (TB)
+- The active storage-that is, the volume of standard storage currently in use, in terabytes (TB)
 
 - The average archive storage expected to be consumed annually, in terabytes (TB)
 
@@ -78,7 +78,7 @@ When using the Microsoft 365 Archive pricing calculator, be aware of the followi
 
 ## Billing scenarios
 
-Your charges for Microsoft 365 Archive depend on your tenant’s standard storage quota. The following scenarios and diagram can help you compare charges based on excess storage.
+Your charges for Microsoft 365 Archive depend on your tenant's standard storage quota. The following scenarios and diagram can help you compare charges based on excess storage.
 
 |Scenario  |Description  |Additional costs  |
 |:---------:|---------|---------|
@@ -86,7 +86,7 @@ Your charges for Microsoft 365 Archive depend on your tenant’s standard storag
 |**B**     |Tenant has archived the 200 GB of data that exceeded their standard storage quota.         |Pay at $0.05/GB/month for 200 GB of archive storage.         |
 |**C**     |Tenant has archived more storage than exceeded their standard storage quota.         |Pay only for the 200 GB of archived data that exceeds the standard storage quota.         |
 |**D**     |Tenant has archived some, but not all, of the data that exceeds their standard storage quota.         |Purchase additional standard storage packs and pay $0.05/GB/month for approximately 100 GB of archived data.         |
-|**E**     |Tenant’s total data (standard + archive) is less than their standard storage quota.         |No additional costs.         |
+|**E**     |Tenant's total data (standard + archive) is less than their standard storage quota.         |No additional costs.         |
 
 ![Diagram showing comparisons for five archive billing scenarios.](../media/m365-archive/archive-billing-scenarios-diagram2.png)
 

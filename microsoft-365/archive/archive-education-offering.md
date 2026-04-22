@@ -40,7 +40,7 @@ For customers that are subject to the pooled storage policy, they'll have access
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-If the storage report isn't available, then it’s possible that your tenant isn't subject to the pooled storage policy. To check if your tenant is subject to the pooled storage policy, see whether more than 50% of assigned licenses are EDU, or if more EDU licenses have been purchased than non-EDU licenses.
+If the storage report isn't available, then it's possible that your tenant isn't subject to the pooled storage policy. To check if your tenant is subject to the pooled storage policy, see whether more than 50% of assigned licenses are EDU, or if more EDU licenses have been purchased than non-EDU licenses.
 
 :::image type="content" source="../media/m365-archive/storage.png" alt-text="Screenshot of an example view of a storage report." lightbox="../media/archive/storage.png":::
 
@@ -51,11 +51,11 @@ If the storage report isn't available, then it’s possible that your tenant isn
 
 Microsoft 365 Archive charges you for storage.
 
-- **Storage consumption** is charged at a per-GB monthly rate. For SharePoint sites, this charge applies only when the combined size of archived and active pooled storage exceeds your tenant’s included or licensed storage limit. In other words, there's no additional storage cost for archived sites if the tenant hasn't consumed its already licensed storage quota.
+- **Storage consumption** is charged at a per-GB monthly rate. For SharePoint sites, this charge applies only when the combined size of archived and active pooled storage exceeds your tenant's included or licensed storage limit. In other words, there's no additional storage cost for archived sites if the tenant hasn't consumed its already licensed storage quota.
 
 - **Site reactivation** is available at no cost as of April 2025. Reactivations will still take up to 24 hours to complete but have no fee.
 
-Monthly archive usage is calculated as the sum of the usage of all currently archived sites. Each site’s usage can be seen on the site itself or from the Active sites page in the SharePoint admin center. The size of an archived site, and therefore the storage for which it’s billed, changes only if the content in the site changes. For example, content naturally expiring in the recycle bin or a retention policy deleting content within the site directly from archive to the recycle bin.
+Monthly archive usage is calculated as the sum of the usage of all currently archived sites. Each site's usage can be seen on the site itself or from the Active sites page in the SharePoint admin center. The size of an archived site, and therefore the storage for which it's billed, changes only if the content in the site changes. For example, content naturally expiring in the recycle bin or a retention policy deleting content within the site directly from archive to the recycle bin.
 
 For more information on the pricing for Microsoft 365 Archive, see [Pay-as-you-go services and pricing for Microsoft Syntex.](../syntex/syntex-pay-as-you-go-services.md).
 
@@ -64,7 +64,7 @@ For more information on the pricing for Microsoft 365 Archive, see [Pay-as-you-g
 
 ## Billing scenarios
 
-Your charges for Microsoft 365 Archive depend on your tenant’s pooled storage quota. The following scenarios can help you compare charges based on excess storage:
+Your charges for Microsoft 365 Archive depend on your tenant's pooled storage quota. The following scenarios can help you compare charges based on excess storage:
 
 
 |Scenario  |Description  |Additional costs  |
@@ -73,7 +73,7 @@ Your charges for Microsoft 365 Archive depend on your tenant’s pooled storage 
 |B    |  Tenant has archived 20 TB of data that exceeds their standard storage quota.       | Pay at $0.02/GB/month for 20 TB of archive storage.        |
 |C     |Tenant has archived more storage that exceeds their standard storage quota.         |Pay only for the 20 TB of archived data that exceeds the standard storage quota.         |
 |D     | Tenant has archived some, but not all, of the data that exceeds their standard storage quota.        | Purchase one additional standard storage pack for 10 TB and pay $0.02/GB/month for 10 TB of archived data.        |
-|E     |Tenant’s total data (standard + archive) is less than their standard storage quota.         |  No additional cost.       |
+|E     |Tenant's total data (standard + archive) is less than their standard storage quota.         |  No additional cost.       |
 
 :::image type="content" source="../media/m365-archive/billing-scenarios.png" alt-text="Screenshot of billing scenarios comparing charges for storage.":::
 

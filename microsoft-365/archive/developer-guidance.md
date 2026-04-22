@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 Microsoft 365 Archive provides a lower-cost storage tier for inactive content in SharePoint and OneDrive.
 
-Archived files remain visible in list and library views, but their **file contents can’t be downloaded or opened** until the file is reactivated. Reactivation can take up to 24 hours to complete, or may complete within seconds if the file was archived in the past week.
+Archived files remain visible in list and library views, but their **file contents can't be downloaded or opened** until the file is reactivated. Reactivation can take up to 24 hours to complete, or may complete within seconds if the file was archived in the past week.
 
 This guidance describes how third-party (3P) and independent software vendor (ISV) applications should **detect**, **avoid**, and **gracefully handle** archived files when using Microsoft Graph or SharePoint APIs.
 
@@ -28,14 +28,14 @@ Archived files always appear in enumeration results. Applications should **not**
 
 ### Recommended enumeration APIs
 
-- **Microsoft Graph** – `GET /drives/{drive-id}/root/children`
-- **Microsoft Graph** – `GET /sites/{site-id}/lists/{list-id}/items/driveItem`
-- **Microsoft Graph** – `GET /sites/{site-id}/lists/{list-id}/items?$expand=fields($select=_FileArchiveStatus)`
+- **Microsoft Graph** - `GET /drives/{drive-id}/root/children`
+- **Microsoft Graph** - `GET /sites/{site-id}/lists/{list-id}/items/driveItem`
+- **Microsoft Graph** - `GET /sites/{site-id}/lists/{list-id}/items?$expand=fields($select=_FileArchiveStatus)`
 
 > [!NOTE]
 > For list item enumeration, archive status is not returned by default. To retrieve the archive state, you must explicitly include `$expand=fields($select=_FileArchiveStatus)` in the request.
 
-- **SharePoint REST/CSOM** – Standard list enumeration endpoints continue to function and return archive status by default.
+- **SharePoint REST/CSOM** - Standard list enumeration endpoints continue to function and return archive status by default.
 
 ## Accessing file contents
 
@@ -48,10 +48,10 @@ GET /drives/{drive-id}/items/{item-id}/content
 ### Expected behavior
 
 - The service returns **423 Locked** (or a similar *content unavailable* error).
-- The response indicates that the file can’t be opened because it is archived.
+- The response indicates that the file can't be opened because it is archived.
 - The file must be reactivated before content is available.
 
-**Developer expectation:** Treat these failures as a normal, expected scenario—not as a transient platform outage.
+**Developer expectation:** Treat these failures as a normal, expected scenario-not as a transient platform outage.
 
 ## Reactivating files
 
@@ -67,7 +67,7 @@ Users can reactivate archived files directly from SharePoint or OneDrive through
 
 ### 1. Check metadata before attempting to read file contents
 
-When your workflow requires a file’s contents, evaluate the item’s metadata first. If the file is archived, skip the content read and notify the user.
+When your workflow requires a file's contents, evaluate the item's metadata first. If the file is archived, skip the content read and notify the user.
 
 ### 2. Handle content-access failures cleanly
 
