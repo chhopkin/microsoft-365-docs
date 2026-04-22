@@ -11,8 +11,6 @@ ms.topic: overview
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
-- Tier2
-- scotvorg
 - M365-subscription-management
 - Adm_O365
 - must-keep
@@ -24,7 +22,6 @@ search.appverid:
 - MET150
 - MOE150
 - GEA150
-ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: "Exchange administrators manage your organization's email and mailboxes and, for example, recover deleted items in a user's mailbox."
 ---
 
@@ -32,7 +29,7 @@ description: "Exchange administrators manage your organization's email and mailb
 
 To help you administer Microsoft 365, you can [assign administrator roles](assign-admin-roles.md) to users to grant permissions for them to manage your organization's email and mailboxes. You do this by assigning the [Exchange Administrator role](/entra/identity/role-based-access-control/permissions-reference#exchange-administrator) in the [Exchange admin center](https://go.microsoft.com/fwlink/p/?linkid=2059104).
   
-Here are some of the key tasks users can do when they're assigned to the Exchange Administrator role:
+When users are assigned the Exchange Administrator role, they can perform these key tasks:
   
 - [Recover deleted items in a user mailbox - Admin Help](/Exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages)
 
