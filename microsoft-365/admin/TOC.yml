@@ -290,8 +290,8 @@ items:
               href: manage/agent-actions.md
             - name: Manage agent instances
               href: manage/manage-agent-instances.md
-            - name: Manage digital workers
-              href: manage/manage-digital-workers.md
+            - name: Manage teammate instances
+              href: manage/manage-teammate-instances.md
             - name: Manage connected agents
               href: manage/manage-connected-agents-for-researcher.md
             - name: Agent tools

@@ -40,6 +40,7 @@ The **Agent** settings page in [Microsoft 365 admin center](https://admin.micros
 
 The **Agent settings** page includes the following configuration options:
 
+- **Agent management rules** - Set and run rules to manage or perform actions on agents.
 - **Allowed agent types** - Specify which categories of AI agents are permitted for use within the organization.
 - **Security templates** - Create preset policies, rules, and allow lists for new AI agents to ensure consistency and compliance.
 - **Sharing** - Manage who can share AI agents within your organization and define the methods they can use to share them.
@@ -48,6 +49,60 @@ The **Agent settings** page includes the following configuration options:
 These settings allow you to customize agent behavior, control access, and maintain compliance with enterprise standards.
 
 :::image type="content" source="../../media/agents/agent-settings.png" alt-text="Screenshot showing the Agent settings page in the Microsoft 365 admin center." lightbox="../../media/knowledge-agent-idea.png":::
+
+## Agent management rules
+
+Agent Management Rules in the Microsoft 365 Admin Center (MAC) enable tenant administrators to apply governance and lifecycle controls across AI agents at scale using bulk administrative actions. 
+
+Rather than requiring you to manually review and take action on agents individually, Agent Management Rules allow you to:
+
+- Identify agents that meet defined conditions
+- Review impacted agents prior to run
+- Apply governance actions across affected agents in bulk
+
+This experience helps organizations maintain compliance, ownership accountability, and deployment consistency across agents while keeping administrators in the control loop. 
+
+### Supported Rule‑Based Bulk Actions
+
+Agent Management Rules currently support the following governance scenarios:
+
+- Install Microsoft agents
+- Reassign ownerless agents created with Agent Builder to manager
+- Block agents that are confirmed compromised
+
+#### Install Microsoft agents
+
+Microsoft first‑party (1P) agents are consistently among the most installed and widely used agents. However, administrators currently lack a scalable way to install these agents proactively across their tenant.
+
+Using the Install Microsoft (1P) Agents rule, you can do the following:
+
+- Identify Microsoft‑published agents within the tenant
+- Review eligible agents prior to installation
+- Install selected agents for all users through a single bulk action
+- Microsoft agents appear as installed and are readily available for end-users in the organization  
+
+#### Reassign ownerless agents created with Agent Builder to manager
+
+Agents may become ownerless when their original creator leaves the organization. Administrators must currently identify and transfer ownership manually, which can result in lifecycle governance gaps.
+
+> [!NOTE]
+> This rule is only supported when the agent is created using Microsoft 365 Copilot Agent Builder.
+
+Using the Reassign Ownerless Agents rule, you can do the following:
+
+- Identify agents that no longer have a valid owner
+- Review ownerless agents prior to reassignment
+- Transfer ownership using a bulk reassignment action to the manager of the previous owner based on Microsoft Entra ID hierarchy
+
+#### Block agents that are confirmed compromised
+
+When an agent is flagged by security tooling such as Microsoft Defender, Microsoft Purview, or Microsoft Entra ID, administrators must mitigate potential risks that could result in misuse or data exposure. 
+
+Using the Block Agents with Risk Alert rule, you can do the following:
+
+- Identify agents that meet defined security risk criteria
+- Review affected agents prior to enforcement
+- Apply blocking action across impacted agents in bulk
 
 ## Allowed agent types
 
@@ -68,11 +123,11 @@ These settings allow you to customize agent behavior, control access, and mainta
 
 ## Security templates
 
-To enhance governance and security for agents, you can apply a template that includes predefined policies:
+To enhance governance and security for agents, you can apply a template that includes predefined security policies:
 
-- **Default Template**: Microsoft offers out-of-the-box default templates that include essential security and compliance controls from Microsoft Entra, Purview, and SharePoint. For customers enrolled in the Frontier program with an active Agent 365 license, these default templates automatically assign the Agent 365 license, helping reduce manual license management.
+- **Default Templates**: Microsoft offers out-of-the-box default templates that include essential security and compliance controls from Microsoft Entra, Purview, and SharePoint. For customers enrolled in the Frontier program with an active Agent 365 license, these default templates automatically assign the Agent 365 license, helping reduce manual license management.
 
-- **Custom Template**: If you need additional governance beyond the default, create a custom template and apply extra policies such as Restrict External Content sharing to meet your organization's requirements.
+- **Custom Templates**: If you need additional governance beyond the default, create a custom template and apply extra policies such as Restrict External Content sharing to meet your organization's requirements.
 
 > [!NOTE]
 >
@@ -83,14 +138,14 @@ To enhance governance and security for agents, you can apply a template that inc
 >
 > When an agent is activated or published, a dropdown menu displays both Microsoft default templates. Select the desired template to apply its policies to the agent.
 
-### Custom templates
+For more information about protecting AI agents, see [Detect, block, and investigate threats to AI agents using Microsoft Defender](/defender-xdr/security-for-ai/ai-agent-detection-protection).
 
-To create custom template, follow these steps:
+### Create custom templates
+
+To create a custom template that can be applied to AI agents used at your organization, follow these steps:
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-
 1. Select **Agents** > **Settings** > **Template** > **Add New Template**.
-
 1. Select the agent that will use the template:
 
    - Agent that allows instances.
@@ -101,7 +156,6 @@ To create custom template, follow these steps:
     :::image type="content" source="../../media/agents/details-page.png" alt-text="Screenshot of Details page." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Select the **Next** button and then choose any custom policies you want to add to the template. Microsoft's built-in default policies appears preselected and locked. Since the default policies are locked, they can't be edited. You can add additional policies as needed to meet your organization's requirements.
-
 1. You can review and finish adding the template.
 
 When an agent is being activated or published, a dropdown menu with both your custom templates and Microsoft's default templates is displayed. To apply its policies to the agent, select the desired template from the list.
