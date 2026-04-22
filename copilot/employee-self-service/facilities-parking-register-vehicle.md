@@ -27,10 +27,10 @@ To support these needs, Employee Self-Service Copilot Agent is designed to be ex
 
 At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
 
-- Create a Facilities Ticket (Facilities), for example, "I want to report a water leak"
-- Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3"
+- Create a Facilities Ticket (Facilities), for example, "I want to report a water leak."
+- Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3."
 - View food stations or counters by cuisine (Dining), for example, "Where can I find Chinese food?"
-- Invite a Guest (Lobby), for example "I want to invite my spouse to Building 32".
+- Invite a Guest (Lobby), for example, "I want to invite my spouse to Building 32."
 
 The following section shows how a maker in Copilot Studio can extend Employee Self-Service to support these scenarios. Before diving into the maker experience, it's important to understand what real estate and facilities are and how they support employees.
 
@@ -51,8 +51,7 @@ Now that we covered the fundamentals, let’s walk through a practical example. 
 To extend the Employee Self-Service Copilot Agent with a custom *Register a Vehicle* topic, ensure the following prerequisites are met:
 
 - Employee Self-Service agent is installed in Copilot Studio.
-- Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle)
-
+- Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle) in Github.
 - Maker access to a sandbox or preproduction environment in Copilot Studio.
 - Access to the Vehicle Registration API and Config APIs, which are used to fetch the config data for different regions.
   - For this example of registering a vehicle for parking on campus, we assume the vehicle registration system is a custom solution built on the Azure platform.
@@ -105,13 +104,13 @@ This process involves only one step:
 
 - Validate
   - Open the visual representation of the topic definition and validate the workflow of the topic.
-  - Click on **Topic Checker** for any static issues with the definition.
+  - Select **Topic Checker** for any static issues with the definition.
   - Optionally, go through the following section "Validate the Topic", to understand and validate the steps.
 
 - Now, let's test the newly added topic
   - Using the Test button in **Copilot Studio**, open the test chat window.
-  - Register a vehicle using the prompt "I want to register my vehicle for parking". This prompt opens an Adaptive card where you can fill the required details like vehicle type, vehicle make and model, license plate number etc.
-  - Upon successful submission, the Employee Self-Service (ESS) system displays a confirmation that the vehicle is registered.
+  - Register a vehicle using the prompt "I want to register my vehicle for parking". This prompt opens an Adaptive card where you can fill the required details like vehicle type, vehicle make and model, license plate number, etc.
+  - Upon successful submission, the Employee Self-Service system displays a confirmation that the vehicle is registered.
   
 ### Review the topic workflow
 
@@ -124,8 +123,8 @@ This process involves only one step:
   - If CountryCode configuration isn't required, remove these nodes by deleting the corresponding variables and condition nodes.
 
 - The next node is to make an HTTP call to the backend Config API to fetch all Country Specific configuration. We use HttpRequestAction component for making the HTTP call. The HTTP call can be alternatively configured in several other ways described in the connectors section previously.
-  - The next set of nodes are conditional statements, which parse the data received from config API call. This parsed config data is stored into different set of properties. We store informationlike registration type options, vehicle type options, vehicle color options, etc. These options are prepopulated in the vehicle registration form that gets rendered in the following steps.
-- The next node is the vehicle registration adaptive card with action buttons. Verify the existing fields. Currently the required input parameters for creating a vehicle registration are - vehicle type,  make, del, year of manufacturing, color, license plate number, state, parking location, and registration type. Users can add or modify fields as needed.
+  - The next set of nodes are conditional statements, which parse the data received from config API call. This parsed config data is stored into different set of properties. We store information like registration type options, vehicle type options, vehicle color options, etc. These options are prepopulated in the vehicle registration form that gets rendered in the following steps.
+- The next node is the vehicle registration adaptive card with action buttons. Verify the existing fields. Currently the required input parameters for creating a vehicle registration are - vehicle type,  make, model, year of manufacturing, color, license plate number, state, parking location, and registration type. Users can add or modify fields as needed.
   - Different adaptive cards are configured to capture different set of required inputs based on the CountryCode value.
 
     :::image type="content" source="media/facilities-parking-register-vehicle-validate-topic-adaptive-card.png" alt-text="Diagram that shows the adaptive card fields for the vehicle registration form. Adjust the fields as required.":::
@@ -143,7 +142,7 @@ This process involves only one step:
 
 We use *HttpRequestAction* component for making the HTTP calls. As a start, you can use the same and modify it as per your needs. There are also several other ways to configure the HTTP call as described in the connectors section previously.
 
-- Expand the HttpRequestAction node, and in the URL section click on Select variable -> Formula to update your backend API URL. Click Insert to save the URL.
+- Expand the HttpRequestAction node, and in the URL section select **Select variable** > **Formula** to update your backend API URL. Select **Insert** to save the URL.
 
     :::image type="content" source="media/facilities-parking-register-vehicle-httprequest.png" alt-text="Diagram that shows the HttpRequestAction component configuration for updating URL.":::
 
