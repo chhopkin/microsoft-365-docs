@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/20/2026
+ms.date: 04/21/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -34,7 +34,7 @@ search.appverid:
 
 # Understand agent details in Microsoft 365 admin center
 
-You can view and manage agent details for each agent listed in the agent registry within [Microsoft 365 admin center](https://admin.microsoft.com/). When you select an agent from the list, you can view these details in a fly-out pane. These details are provided based on tabs. Each tab is provided based on the selected agent's capabilities. For example, if an agent is designed to provide information and answers from another agents, the **Connected Agents** tab may be provided. In addition to providing information about an agent in the details fly-out pane, you can also select actions for the agent, such as **Install** or **Block**.
+You can view and manage agent details for each agent listed in the agent registry within [Microsoft 365 admin center](https://admin.microsoft.com/). When you select an agent from the list, you can view these details in a fly-out pane. These **Details** pane provides information and actions, as well as additional information provided within tabs. Each tab provides capabilities and details specifically for the selected agent. Many of the tabs are standard to all agents, but some tabs are provided based on an agent capabilities. For example, if an agent is designed to provide information and answers from another agents, the **Connected Agents** tab is provided. In addition to providing information about an agent in the details fly-out pane, you can also select specific actions for the agent, such as **Install**, **Block**, **Uninstall**, and **Pin for users**.
 
 :::image type="content" source="../../media/agents/agent-details-02.png" alt-text="Screenshot showing the details for a specific agent." lightbox="../../media/agents/agent-details-02.png":::
 
@@ -48,35 +48,41 @@ To access the details available for an agent, use the following steps:
 3. Select an agent from the **Registry** list.
   The agent details will be displayed.
 
-When you select an agent from the **Registry**, the details fly-out pane displays common actions available for the agent directly below the agent's name. Actions, such as:
-- **Install** - Deploys and installs the agent to the selected users.
-- **Block** - Blocks the agent from members of your organization. They will not be able to install or use the agent. Additionally, the agent will be removed from any member of your organization who has already installed it.
-- **Pin for users** - The agent will be pinned in the UI (based on channel) where the agent was deployed, so that the agent can be found more easily. Based on the users or groups where the agent was deployed, you can specify who will have the agent pinned.
+When you select an agent from the **Registry**, the details fly-out pane displays common actions available for the agent. Actions for the agent are described in the following table:
+
+| Agent action | Description |
+|---|---|
+| **Install** | Deploys and installs the agent for the selected users at your   organizations. |
+| **Uninstall** | Removes the agent. Memebers of your organization can't install or use use   the agent. |
+| **Block** | Blocks the agent from members of your organization. They will not be able   to install or use the agent. Additionally, the agent will be removed from any   member of your organization who has already installed it. |
+| **Pin for users** | The agent will be pinned in the UI (based on channel) where the agent was   deployed, so that the agent can be found more easily. Based on the users or   groups where the agent was deployed, you can specify who will have the agent   pinned. |
 
 For more information about agent actions, see [Agent actions available in Microsoft 365 admin center](agent-actions.md).
 
-### Sections provided within agent details
+### Tabs provided within agent details
 
-The following table provides agent sections (tabs) that are available for agent details based on capability:
+The information, actions, and tabs provided in the agent details fly-out pane is based on agent capabilities.
 
-| Agent section (tab) | Description |
+The following table provides agent tabs based on agent capability:
+
+| Agent tab | Description |
 |---|---|
-| **[Overview](#agent-overview-details)** | This tab provides a description, instructions, publish status, availability, publisher, deployment, agent type, channel, platform, last   updated, sensitivity, and version. |
+| **[Overview](#agent-overview)** | This tab provides a description, instructions, status, and other general details about the agent. |
 | **[Users](#agent-users)** | This tab allows you to view and select the allowed users that the agent has been published to. |
-| **[Permissions](#agent-permissions)** | This tab allows you to review and grant permission to data the agent can access and perform actions on. For more information, see [Agent permissions](#agent-permissions). |
 | **[Data & Tools](#agent-data--tools)** |  This tab provides details about Microsoft Purview protections, such as capabilities, knowledge sources, and tools available to the agent. Also, provides Microsoft Entry   protection details, such as Agent User ID and Agent ID. |
 | **[Security](#agent-security)** | This tab provides details about monitoring agent activity, protecting sensitive   data, and evaluating compliance gaps. |
+| **[Permissions](#agent-permissions)** | This tab allows you to review and grant permission to data the agent can access and perform actions on. For more information, see [Agent permissions](#agent-permissions). |
 | **[Connect Agents](#agent-with-connected-agents)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
 | **[Custom tools & knowledge](#agent-custom-tools--knowledge)** | This tab helps you extend the selected agent by copying the skills and knowledge from up to one other agent. When you select an agent to extend from, the skills and knowledge from   that agent will be available in the selected agent. |
 | **[Computer use](#agent-computer-use)** | This tab is used to allow the selected agent to perform action on behalf of the users and also access work data. Additionally, you can choose which websites are   allowed for **Computer use**. Note that Web search is required for **Computer use**. |
 
-## Agent overview details
+## Agent overview tab
 
-The **Overview** tab provides a description, instructions, publish status, availability, publisher, deployment, agent type, channel, platform, last updated, sensitivity, and version.
+The **Overview** tab provides details about the agent's intended purpose. This tab contains the agent's description, instructions, publish status, availability, publisher, deployment, agent type, channel, platform, last updated, sensitivity, and version. Use this tab to assess the agents general capabilities and state.
 
-## Agent users
+## Agent users tab
 
-You can control how agents created in the organization are made available across your organization. You can configure the following agent availability options: 
+You can control how agents created in your organization are made available across your organization. You can configure the following agent availability options: 
 
 - Who can discover and install an agent  
 - Which users have the agent pre‑installed  
@@ -84,7 +90,7 @@ You can control how agents created in the organization are made available across
 
 These options help organizations publish and install agents in a governed manner aligned with internal compliance and rollout policies.
 
-### Agent availability and Installation
+### Agent availability and installation
 
 Each agent includes availability and installation settings. The following table describes these settings: 
 
@@ -162,12 +168,12 @@ Use delegated permissions for applications where the agent interacts directly wi
 | **User.Read.All** | Read all users' full profiles. |
 | **Team.ReadBasic.All** | Get a list of all teams. |
 
-### Where can administrators see all permissions of an agent
+### View permissions of an agent
 
 You can find the details of all types of permissions in the **Permissions** tab on the agent details page.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-1. In the left navigation pane, select **Agents** > **All Agents**.
+1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
 1. Select a deployed agent from the list.
 1. In the agent details pane that opens, select the **Permissions** tab to view all the permissions granted to the agent.
 
@@ -185,13 +191,14 @@ You can use this information to understand the data the agent has access to, the
 > [!IMPORTANT]
 > Admins with the **AI Administrator** or **Global Administrator** role have full access to view **Data & tools** for all agents. Use roles with the fewest permissions. Accounts with lower permissions help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
+### View data and tools of an agent
+
 To access the **Data and tools** tab for an agent, use the following steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
-2. Navigate to **Agents** > **All agents**.
-  The agent **Registry** tab will be selected.
+2. Navigate to **Agents** > **All agents** > **Registry**.
 3. Select an agent from the **Registry** list.
-4. In the agent details panel, select the **Data & tools** tab.
+4. In the agent details pane, select the **Data & tools** tab.
 
 The **Data & tools** tab is read-only and shows metadata reported by the agent platform. To change an agent's data sources or tools, the agent developer must update the agent configuration in the authoring platform, such as Copilot Studio, or Foundry. 
 
@@ -200,7 +207,7 @@ Some agents may have an empty **Data & tools** tab. This occurs based on the fol
 - The agent type does not support these metadata fields. 
 - The agent's metadata has not yet synced to Microsoft 365 admin center.
 
-### Capabilities
+### Agent capabilities
 
 The **Capabilities** section of the **Data & tools** tab shows the types of content and data sources the agent can access to provide accurate, contextual responses. 
 
@@ -218,7 +225,7 @@ The **Can read** section indicates the categories of content the agent has been 
 > 
 > **Public sites** means the agent can access publicly available web content. This does not mean the agent has unrestricted internet access — it can read public web pages as a knowledge source to inform its responses.
 
-### Knowledge sources
+### Agent knowledge sources
 
 The **Knowledge sources** section provides data sources and URLs that the agent uses to answer questions accurately. These knowledge sources are the external or internal references the agent draws from when responding to user queries. 
 
@@ -234,9 +241,9 @@ The following table provides knowledge sources and examples that can be included
 > [!NOTE]
 > Review knowledge source URLs to verify the agent is only referencing approved, trusted sources. Unfamiliar or external URLs may indicate the agent has access to data outside your organization's boundaries.
 
-### Tools
+### Agnet tools
 
-The **Tools** section provides the processes, connectors, and actions that the agent uses to handle requests. Tools represent what the agent can do, not just what it can read.
+The **Tools** section, within the **Data & Tools** tab, provides the processes, connectors, and actions that the agent uses to handle requests. Tools represent what the agent can do, not just what it can read.
 
 The following table provides tool types and examples that can be included with the agent: 
 
@@ -252,7 +259,9 @@ The following table provides tool types and examples that can be included with t
 
 ### Data & tools by agent type
 
-The metadata surfaced in the **Data & tools** tab varies depending on the agent type and platform. The table below summarizes the capabilities for each type of agent.
+The metadata surfaced in the **Data & tools** tab varies depending on the agent type and platform. Agent type is largely based on the tool and method of creating the agent. 
+
+The table below summarizes the capabilities for each type of agent.
 
 | Agent type | Can read | Typical knowledge sources | Typical tools | 
 |---|---|---|---| 
@@ -269,11 +278,48 @@ The metadata surfaced in the **Data & tools** tab varies depending on the agent 
 
 ## Agent security
 
-## Agent with connected agents
+The **Security** tab helps you monitor agent activity, protect sensitive data, and evaluate compliance gaps based on Microsoft Purview protections.
 
-## Agent custom tools & knowledge
+> [!NOTE]
+> A Microsoft E7 or Agent 365 license is required to see the **Risks** column in the Agent Registry and to see the **Security** tab details of an agent.
 
-## Agent computer use
+### View agent security details
+
+To access the **Security** tab for an agent, use the following steps:
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
+2. Navigate to **Agents** > **All agents** > **Registry**.
+3. Select an agent from the **Registry** list.
+4. In the agent details pane, select the **Security** tab.
+
+The *Security** tab provide the following actions relatede to Microsoft Purview protections:
+- Monitor agent activity
+- Protect sensitive data
+- Evaluate compliance gaps
+
+#### Monitor agent activity
+
+Interactions with a selected agent are monitored for security and observability. You can view agent activtity using the **Activity explorer** in Microsoft Purview. Activity explorer allows you to review activity related to content that contains sensitive information, including label activity. Label activity is monitored across Exchange, SharePoint, OneDrive, and endpoint devices. For more inforamtion, see [Get started with activity explorer](/purview/data-classification-activity-explorer).
+
+#### Protect sensitive data
+
+Protection for sensitive data helps prevent leaks and oversharing. You can view sensitive interactions using **AI observability** in Microsoft Purview. AI observability provides a centralized view of agent activity across your organization. For more information, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
+
+#### Evaluate compliance gaps
+
+If the selected agent has an AI baseline assessment available, you can evaluate compliance gaps for your agent. For more information, see [Microsoft Purview Compliance Manager](/purview/compliance-manager).
+
+## Connected agents tab
+
+The **Connected Agents** tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access.
+
+### Add connected agents to an existing agent
+
+
+
+## Custom tools & knowledge tab
+
+## Computer use tab
 
 ## Manage agents with embedded file content as a knowledge source
 
