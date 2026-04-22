@@ -166,4 +166,3 @@ When a Shadow AI agent is blocked, the following occurs:
 - Users are notified that the Shadow AI agent is blocked.
 - Detection is continuous so attempted usage remains visible.
 - Future downloads of the blocked Shadow AI agent are also prevented.
-
