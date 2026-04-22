@@ -61,6 +61,8 @@ If your organization is in a region that has Anthropic as a subprocessor set to 
 3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Anthropic** and **Save**.
 4. Under **Choose who can access Anthropic models for Copilot and generative AI experiences**, select your users or groups and **Save**.
 
+    :::image type="content" source="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png" alt-text="Screenshot  of the AI providers operating as Microsoft subprocessors page with user and security group options" lightbox="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png":::
+
 > [!NOTE]
 > You can restrict user access to AI provider subprocessors by assigning permissions to specific users or Microsoft Entra ID security groups in the Microsoft 365 admin center. These assignments are applied at the provider level and enforced across Microsoft 365 Copilot and Copilot Studio experiences. When access is limited by user or group membership, only the assigned users can use Copilot features or agents that rely on that AI provider. Review existing user or group assignments and update policies or configurations as needed. For more information on user and security group access, see [Assign AI provider access to users and groups](copilot-ai-provider-user-sec-group-access.md). For more information on creating security groups, see [Create a security group](../microsoft-365/admin/email/create-edit-or-delete-a-security-group.md).
 
@@ -79,8 +81,6 @@ If your organization is in a region that has Anthropic as a subprocessor set to 
 1. Go to the Microsoft 365 admin center and select **Copilot** -\> **Settings**.
 2. On the **User access** page, select **AI providers operating as Microsoft subprocessors**.
 3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Disable Anthropic as a Microsoft subprocessor**.
-
-    :::image type="content" source="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png" alt-text="Screenshot  of the AI providers operating as Microsoft subprocessors page with user and security group options" lightbox="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png":::
 
 Once you disable Anthropic as an AI subprocessor, users won't have the option to use Anthropic's AI models. You can choose to enable Anthropic models at a later date if desired.
 
