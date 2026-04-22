@@ -85,7 +85,7 @@ The Agent Details pane provides a full overview of the agent, including its desc
 
 1. Review these details to confirm that this is the correct **AI teammate** agent for your intended use case.
 
-The panel includes several tabs you can review before creating an instance. For more information about agent details, see [Sections provided within agent details](agent-details.md#sections-provided-within-agent-details).
+The panel includes several tabs you can review before creating an instance. For more information about agent details, see [Tabs provided within agent details](agent-details.md#tabs-provided-within-agent-details).
 
 ### Step 3: Initiate the creation flow
 
