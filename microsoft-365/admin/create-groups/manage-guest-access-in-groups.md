@@ -36,7 +36,7 @@ Once approved, the guest is added to the directory and the group.
 
 > [!NOTE]
 > Viva Engage Enterprise networks that are in Native Mode or within the [EU Geo](/viva/engage/manage-security-and-compliance/manage-data-compliance) don't support network guests.
-> Microsoft 365 Connected Viva Engage groups don't currently support guest access, but you can create non-connected, external groups in your Viva Engage network. See [Create and manage external groups in Viva Engage](/viva/engage/work-with-external-users/create-and-manage-external-groups) for instructions.
+> Microsoft 365 Connected Viva Engage groups don't currently support guest access, but you can create nonconnected, external groups in your Viva Engage network. See [Create and manage external groups in Viva Engage](/viva/engage/work-with-external-users/create-and-manage-external-groups) for instructions.
 
 Guest access in groups is often used as part of a broader scenario that includes SharePoint or Teams. These services have their own guest sharing settings. For complete instructions for setting up guest sharing across groups, SharePoint, and Teams, see:
 
@@ -51,7 +51,7 @@ To enable or disable guest access in groups, use the [Groups](https://go.microso
   
 1. On **Microsoft 365 Groups**, choose whether you want to let people outside your organization access group resources or let group owners add people outside your organization to groups.
 
-## Add guests to a Microsoft 365 group from the admin center
+## Add guests to a Microsoft 365 group in the admin center
 
 If the guest already exists in your directory, you can add them to your groups from the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2052855). You must [manage groups with dynamic membership in Microsoft Entra ID](/azure/active-directory/enterprise-users/groups-create-rule).
   
@@ -69,13 +69,13 @@ To edit any of a guest's information, you can [Add or update a user's profile in
 
 ## Remove a guest
 
-When you're done collaborating with a guest user, remove them so they no longer have access to your organization.
+When you're done collaborating with a guest, remove them so they no longer have access to your organization.
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), expand **Users** and select [Guest users](https://go.microsoft.com/fwlink/p/?linkid=2074830).
 
 1. On the **Guest users** page, choose the user you want to remove and then choose **Delete a user**.
 
-To remove users in the Microsoft Entra admin center, see [remove a guest user and resources](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources).
+To remove users in the Microsoft Entra admin center, see [remove a guest and resources](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources).
 
 
 ## Related content
