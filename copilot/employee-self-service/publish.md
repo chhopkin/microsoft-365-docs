@@ -128,8 +128,6 @@ To provide a better experience for your users, you can:
 - **Block the agent in Teams**  
   Use the Teams admin center to prevent it from appearing in Teams.
 
----
-
 ### Redirect users from Microsoft Teams to Microsoft 365 Copilot
 
 You can create a topic in Copilot Studio that detects when the agent is launched from the Microsoft Teams channel. The topic displays a redirect message guiding users to Microsoft 365 Copilot.
@@ -145,8 +143,6 @@ When a user opens the agent from Teams, the message appears as follows:
 > 3. Choose **All agents** if the agent isn’t immediately visible
 >
 > You’ll find **Employee Self-Service** in the list.
-
----
 
 ### To create the redirect topic
 
@@ -171,7 +167,7 @@ beginDialog:
         1. Open https://www.microsoft365.com/chat (BizChat).
         2. In the left pane, select **Agents**.
         3. Choose **All agents** if the agent isn't immediately visible.
-        You'll find **Employee Self-Service** in the list.
+        4. You'll find **Employee Self-Service** in the list.
     - kind: EndConversation
       id: aCWPQ6
     - kind: CancelAllDialogs
@@ -181,11 +177,8 @@ beginDialog:
 - Save the topic
 - Test by opening the agent from Teams in the Copilot Studio test pane
 
-> **Note**
->
+>[!NOTE]
 > Update the message if your tenant uses a different agent name.
-
----
 
 ### Optional: Deep link to the agent
 
@@ -194,12 +187,8 @@ To link directly to the agent:
 - Copy the link from Copilot (**… → Share**)
 - Replace the URL in the topic message
 
-> **Note**
->
-> Auto-pinning is recommended:
-> /microsoft-365/admin/manage/agent-registry#manage-pinning-of-agents
-
----
+>[!NOTE]>
+> [Auto-pinning](/microsoft-365/admin/manage/agent-registry#manage-pinning-of-agents) is recommended.
 
 ### Block the Employee Self-Service agent in Microsoft Teams
 
@@ -208,8 +197,7 @@ To prevent access from Teams:
 - Block the agent in the Teams admin center
 - This removes it from discovery and usage in Teams
 
-Reference:
-/microsoftteams/manage-apps#agent-and-app-governance
+To learn more, see [Agent and app governance](/microsoftteams/manage-apps#agent-and-app-governance).
 
 > **Important**
 >
