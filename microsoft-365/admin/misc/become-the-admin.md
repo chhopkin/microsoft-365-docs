@@ -38,37 +38,37 @@ If you're an admin and want to take over an unmanaged account created by a self-
   
 ## Before you begin
 
-When a user signs up for Microsoft 365 services using an email address, an account is automatically created for them. If an admin wants to manage the users on the account or purchase additional Microsoft 365 services, they must become an admin on the account by following these steps to perform an admin takeover.
+When a user signs up for Microsoft 365 services by using an email address, the process automatically creates an account for them. If an admin wants to manage the users on the account or purchase other Microsoft 365 services, they must become an admin on the account by following these steps to perform an admin takeover.
 
 ## Step 1: Verify your email address
 
 [!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
-If self-service is enabled in your account, users can subscribe to free services such as Power BI, on their own. These services are specifically for use in cases where a self-service user subscription has created the unmanaged account you want to take over as admin. In Step 1 you create a user account for the domain you want to remove by using Power BI to launch the admin takeover wizard so you can become the admin for the unmanaged domain account.
+If self-service is enabled in your account, users can subscribe to free services such as Power BI, on their own. These services are specifically for use in cases where a self-service user subscription created the unmanaged account you want to take over as admin. In Step 1, you create a user account for the domain you want to remove by using Power BI to launch the admin takeover wizard so you can become the admin for the unmanaged domain account.
 
 1. To sign up for Power BI, go to the [Power BI site](https://powerbi.com) and select **Start Free** > **Start free trial** (in Share with Power BI Pro box). 
 
-2. Sign up with a user account that uses the domain name of your organization (like `powerbiadmin@contoso.com`). If your account is already in use, sign in using your current password.
+1. Sign up with a user account that uses the domain name of your organization (like `powerbiadmin@contoso.com`). If your account is already in use, sign in by using your current password.
 
-3. Check your email for the **verification code** and enter the code to validate your email address.
+1. Check your email for the **verification code** and enter the code to validate your email address.
 
 ## Step 2: Create a new account for admin access
 
-1. When you enter the verification code, you'll be brought to a page where you can create a new account.
+1. When you enter the verification code, you're taken to a page where you can create a new account.
 
-2. Fill in the user name and password fields with the account that you want to use, and then complete the steps to create the account.
+1. Fill in the user name and password fields with the account that you want to use, and then complete the steps to create the account.
 
 ## Step 3: Verify domain ownership and become the admin
 
-1. After you complete Step 2, select the admin center icon in the left navigation pane (alternatively, go to a browser and type in `https://admin.cloud.microsoft`).
+1. After you complete Step 2, select the admin center icon in the left navigation pane. Alternatively, go to a browser and type in `https://admin.cloud.microsoft`.
 
     You're redirected to the admin takeover wizard.
 
-2. Select **Next** and verify that you own the domain you want to take over by adding a TXT record to your domain registrar.
+1. Select **Next** and verify that you own the domain you want to take over by adding a TXT record to your domain registrar.
 
-    The wizard will give you the TXT record to add, as well as provide a link to your registrar's website, and a link to step-by-step instructions.
+    The wizard gives you the TXT record to add, and provides a link to your registrar's website, and a link to step-by-step instructions.
 
-3. On the **You're now the admin** page, select **Go to the admin center**.
+1. On the **You're now the admin** page, select **Go to the admin center**.
 
     You have the admin privileges required to manage the account in the admin center. For example, you can manage account users and groups, purchase new subscriptions and make user assignments, and manage the account domains.
 
@@ -76,7 +76,10 @@ If self-service is enabled in your account, users can subscribe to free services
   
 ## Related content
 
-YouTube: [Three steps to do an IT Admin Takeover for Power BI and Microsoft 365](https://www.youtube.com/watch?v=xt5EsrQBZZk) (video)\
-[Admin takeover in Microsoft Entra ID](/azure/active-directory/users-groups-roles/domains-admin-takeover) (article)\
-[Using self-service sign up in your organization](self-service-sign-up.md) (article)\
-[Understanding the Power BI service administrator role](/power-bi/service-admin-role) (article)
+- [YouTube: Three steps to do an IT Admin Takeover for Power BI and Microsoft 365](https://www.youtube.com/watch?v=xt5EsrQBZZk) 
+
+- [Admin takeover in Microsoft Entra ID](/azure/active-directory/users-groups-roles/domains-admin-takeover)
+
+- [Using self-service sign up in your organization](self-service-sign-up.md) 
+
+- [Understanding the Power BI service administrator role](/power-bi/service-admin-role)
