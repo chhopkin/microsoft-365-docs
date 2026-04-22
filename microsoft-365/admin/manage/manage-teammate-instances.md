@@ -85,7 +85,7 @@ The Agent Details pane provides a full overview of the agent, including its desc
 
 1. Review these details to confirm that this is the correct **AI teammate** agent for your intended use case.
 
-The panel includes several tabs you can review before creating an instance. For more information about agent details, see [Sections provided within agent details](agent-details.md#sections-provided-within-agent-details).
+The panel includes several tabs you can review before creating an instance. For more information about agent details, see [Tabs provided within agent details](agent-details.md#tabs-provided-within-agent-details).
 
 ### Step 3: Initiate the creation flow
 
@@ -129,7 +129,7 @@ Once you confirm the configuration summary in the **Instance Creation Wizard**, 
 - The owner can access and interact with their Instance via Microsoft Teams and other productivity surfaces like Word, Excel, PowerPoint, and Outlook.
 - All provisioning actions are recorded in the audit log for compliance and traceability. The owner can also see their interactions and the agent activities on Teams and in Microsoft 365
 
-After you have complete the instance creation flow, the owner will find their new Instance available in Microsoft Teams. From there, they can begin working with the agent, delegating tasks, and managing its activity.
+After you have completed the instance creation flow, the owner will find their new Instance available in Microsoft Teams. From there, they can begin working with the agent, delegating tasks, and managing its activity.
 
 ## Governance, Compliance, and Auditing
 
