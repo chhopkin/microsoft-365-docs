@@ -28,10 +28,140 @@ appliesto:
 
 This page lists the latest features and improvements for Microsoft 365 Copilot. It includes changes that are generally available (Current Channel for Microsoft 365 apps) and specific to each platform.
 
+Copilot features are introduced using a safe deployment model, gradually rolling out to a subset of users within a tenant before expanding across the organization.
+
 ## [All features](#tab/all)
 
 <!--- All features regardless of platform go here  -->
 <!-- 101270,100818,110355,80610,109718,101645,100669,100610,100361,100356,100354,98694 -->
+
+ ## April 21, 2026
+Updates released between April 7, 2026, April 21, 2026
+
+ ### Microsoft 365 Copilot admin center 
+ 
+- **Copilot setting for video generation**
+  
+  A new setting in the Microsoft 365 admin center allows admins to control access to AI video generation features in Microsoft 365 Copilot and supported apps.
+   
+    **Details:**
+    
+    **What changed:** Admins can now use a dedicated setting in the Microsoft 365 admin center to control whether users can access AI video generation features available in Microsoft 365 Copilot and Microsoft 365 apps.
+     
+     **Why:**
+    Organizations need clearer administrative controls to manage who can create AI-generated videos and align usage with internal policies.
+     
+    **Try this:**
+  
+
+
+    -	Review the new Copilot video generation setting in the Microsoft 365 admin center.
+    -	Decide whether video generation should be allowed for your organization.
+    -	Communicate policy changes to users if access is modified.
+    -	Update internal guidance or documentation if needed.
+    
+    **Why this matters:**
+    
+    **Business impact:** Provides centralized control over AI video generation to support governance and compliance needs.
+    
+    **Personal impact:** Clarifies when and where users can access video generation features.
+
+ ### Microsoft 365 Copilot app
+ 
+-	**Employee Self‑Service agent: New rich landing page**
+
+    This update introduces an optional, customizable landing page for the Employee Self‑Service agent that lets organizations highlight key HR and IT resources and align the experience with their branding.
+    
+    **Details:**
+      
+   	
+    **What changed:** Organizations can now optionally customize the Employee Self‑Service agent landing page with branding and commonly used resources. If no customization is applied, there is no change to the existing experience, and the agent continues to use Copilot’s default appearance and starter prompts.
+        
+    **Why:** Organizations want more control over how employees first interact with the Employee Self‑Service agent while keeping the default experience unchanged when customization is not needed.
+        
+    **Try this:**
+ 	
+        
+        
+    -	Review the new landing page customization options for the Employee Self‑Service agent.
+    -	Decide whether to align the landing page with your organization’s branding.
+    -	Highlight commonly used HR or IT resources on the landing page.
+    -	Keep the default experience if customization is not required.
+        
+    **Why this matters:**
+        
+    **Business impact:** Helps organizations surface key resources while maintaining a consistent employee support experience.
+        
+    **Personal impact:** Makes it easier for employees to find relevant help and information in one place.
+        
+    **Additional resources:**
+        
+    **Learn:**
+        
+    [Customize the Employee Self-Service agent](/microsoft-365/copilot/employee-self-service/customize)
+
+ ### Microsoft 365 Copilot chat
+ 
+ - **Rich Bing web answer cards in Copilot Chat** [Windows, Web]
+   
+    Microsoft 365 Copilot now displays rich, interactive Bing web answer cards—such as Weather and Stocks—directly in chat responses to help users quickly access relevant, real‑time information.
+    
+    **Roadmap ID:** [500865](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500865)
+    
+
+   **Details:**
+   
+   **What changed:** Copilot Chat will now show Bing’s rich and interactive answer cards—such as Weather, Stocks, and other structured information—when users ask related questions. Previously, Copilot provided only text‑based responses without these enhanced visual cards.
+    
+    **Why:** This change helps users get clearer, more actionable information at a glance, reducing the need to leave Copilot Chat to check external sources.
+    
+    **Try this:**
+   
+    
+    -	Ask Copilot for the current weather in your city.
+    -	Request stock information for a company your team follows.
+    -	Check sunrise and sunset times by asking Copilot directly.
+    
+
+    **Why this matters:**  
+    
+    **Business impact:** Provides faster access to real‑time data, improving decision‑making and reducing context switching.
+    
+    **Personal impact:** Helps individuals quickly get the information they need without opening additional tabs or apps.
+
+ ### Microsoft 365 Copilot extensibility
+
+- **Share agents to Teams** [Web]
+  
+  This feature allows users to share their agent directly with a Microsoft Teams team, making it easier for teams to discover, install, and start using agents together.
+ 
+  **Roadmap ID:** [557947](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=557947)
+  
+   **Details:**
+  
+
+
+    **What changed** Users can now share an agent with a Microsoft Teams team by selecting a team in the sharing dialog. Users can also notify the team’s main channel so team members are aware of the agent and can install it.
+  
+    **Why:** This change helps teams collaborate more easily by making shared agents discoverable and accessible within the Teams environment they already use.
+      
+    **Try this:**
+
+  
+    
+    
+    - Open the agent sharing dialog and search for a Microsoft Teams team.
+    - Select a team to share your agent with.
+    - Send a notification to the team’s main channel.
+    - Encourage team members to install and start using the agent.
+    
+    **Why this matters:**
+    
+    **Business impact:** Improves team collaboration by making agents easier to deploy within existing Teams workflows.  
+    
+    **Personal impact:** Simplifies access to shared agents without needing individual setup steps.
+
+
 
 ## April 7, 2026
 Updates released between March 24, 2026, April 7, 2026
@@ -51,11 +181,10 @@ Updates released between March 24, 2026, April 7, 2026
   **Why:** The goal is to make Microsoft 365 Copilot Chat available wherever users collaborate, improving consistency and access.
   
   **Try this:**
+
   
   -	Open a Teams chat or channel and launch Copilot.
-  
   -	Use Microsoft 365 Copilot Chat to ask questions or generate insights.
-  
   -	Try Microsoft 365 Copilot Chat during a meeting to support real time collaboration.
   
   **Why this matters:**
@@ -78,6 +207,8 @@ Updates released between March 24, 2026, April 7, 2026
   **Why:** This change was made to give users more control over their workflows and reduce friction when managing recurring prompts.
   
   **Try this:**
+
+  
   
   -	Open your list of scheduled prompts.
   
@@ -108,12 +239,17 @@ Updates released between March 24, 2026, April 7, 2026
     **Roadmap ID:** [519570]( https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=519570)
     
     **Details:**
-    
-    **What changed:** Previously, code interpreter only worked on files explicitly uploaded or attached. Now, it can also analyze files surfaced through enterprise search in Copilot Chat.
-    
+
+
+
+    **What changed:**
+   
+    Previously, code interpreter only worked on files explicitly uploaded or attached. Now, it can also analyze files surfaced through enterprise search in Copilot Chat.
+
     **Why:** This change reduces friction and improves usability by allowing users to analyze relevant files without needing to manually attach them.
     
     **Try this:**
+
     
     -	Search for a spreadsheet in Copilot Chat and ask the code interpreter to summarize trends.
     
@@ -2073,7 +2209,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 ### Microsoft 365 Copilot Chat
 - **Streamlined Copilot chat navigation with expanded history** [Windows, Web]
 
-  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect great for fast-paced projects and multitasking.
+  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect for fast-paced projects and multitasking.
 
   **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=516570" target="_blank">516570</a>
 
@@ -6549,6 +6685,37 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Windows](#tab/win)
 
+ ## April 21, 2026
+Updates released between April 7, 2026, April 21, 2026
+
+### Microsoft 365 Copilot chat
+ 
+ - **Rich Bing web answer cards in Copilot Chat** [Windows, Web]
+   
+    Microsoft 365 Copilot now displays rich, interactive Bing web answer cards—such as Weather and Stocks—directly in chat responses to help users quickly access relevant, real‑time information.
+    
+    **Roadmap ID:** [500865](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500865)
+    
+
+   **Details:**
+   
+   **What changed:** Copilot Chat will now show Bing’s rich and interactive answer cards—such as Weather, Stocks, and other structured information—when users ask related questions. Previously, Copilot provided only text‑based responses without these enhanced visual cards.
+    
+    **Why:** This change helps users get clearer, more actionable information at a glance, reducing the need to leave Copilot Chat to check external sources.
+    
+    **Try this:**
+    
+    -	Ask Copilot for the current weather in your city.
+    -	Request stock information for a company your team follows.
+    -	Check sunrise and sunset times by asking Copilot directly.
+    
+
+    **Why this matters:**  
+    
+    **Business impact:** Provides faster access to real‑time data, improving decision‑making and reducing context switching.
+    
+    **Personal impact:** Helps individuals quickly get the information they need without opening additional tabs or apps.
+
 ## April 7, 2026
 Updates released between March 24, 2026, April 7, 2026
 
@@ -7317,7 +7484,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 ### Microsoft 365 Copilot Chat
 - **Streamlined Copilot chat navigation with expanded history** [Windows, Web]
 
-  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect great for fast-paced projects and multitasking.
+  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect for fast-paced projects and multitasking.
 
   **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=516570" target="_blank">516570</a>
 
@@ -9381,6 +9548,70 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Web](#tab/Web)
 
+## April 21, 2026
+Updates released between April 7, 2026, April 21, 2026
+
+### Microsoft 365 Copilot chat
+ 
+ - **Rich Bing web answer cards in Copilot Chat** [Windows, Web]
+   
+    Microsoft 365 Copilot now displays rich, interactive Bing web answer cards—such as Weather and Stocks—directly in chat responses to help users quickly access relevant, real‑time information.
+
+    **Roadmap ID:** [500865](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500865)
+    
+
+   **Details:**
+   
+   **What changed:** Copilot Chat will now show Bing’s rich and interactive answer cards—such as Weather, Stocks, and other structured information—when users ask related questions. Previously, Copilot provided only text‑based responses without these enhanced visual cards.
+    
+    **Why:** This change helps users get clearer, more actionable information at a glance, reducing the need to leave Copilot Chat to check external sources.
+    
+    **Try this:**
+    
+    -	Ask Copilot for the current weather in your city.
+    -	Request stock information for a company your team follows.
+    -	Check sunrise and sunset times by asking Copilot directly.
+    
+
+    **Why this matters:**  
+    
+    **Business impact:** Provides faster access to real‑time data, improving decision‑making and reducing context switching.
+    
+    **Personal impact:** Helps individuals quickly get the information they need without opening additional tabs or apps.
+
+
+ ### Microsoft 365 Copilot extensibility
+
+- **Share agents to Teams** [Web}
+  
+  This feature allows users to share their agent directly with a Microsoft Teams team, making it easier for teams to discover, install, and start using agents together.
+ 
+  **Roadmap ID:** [557947](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=557947)
+  
+   **Details:**
+  
+
+
+    **What changed** Users can now share an agent with a Microsoft Teams team by selecting a team in the sharing dialog. Users can also notify the team’s main channel so team members are aware of the agent and can install it.
+  
+    **Why:** This change helps teams collaborate more easily by making shared agents discoverable and accessible within the Teams environment they already use.
+      
+    **Try this:**
+    
+    
+    - Open the agent sharing dialog and search for a Microsoft Teams team.
+    - Select a team to share your agent with.
+    - Send a notification to the team’s main channel.
+    - Encourage team members to install and start using the agent.
+    
+    **Why this matters:**
+    
+    **Business impact:** Improves team collaboration by making agents easier to deploy within existing Teams workflows.  
+    
+    **Personal impact:** Simplifies access to shared agents without needing individual setup steps.
+
+
+
 ## April 7, 2026
 Updates released between March 24, 2026, April 7, 2026
 
@@ -10536,7 +10767,7 @@ Updates released between January 27, 2026, February 10, 2026.
   [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center](/microsoftsearch/configure-connector)
 
 
-- **Declarative Agents help users stay in their workflow** [Web]]
+- **Declarative Agents help users stay in their workflow** [Web]
 
   URL‑based dialogs in Declarative Agents allow users to open linked experiences without leaving Copilot, helping them stay focused.
 
@@ -11277,7 +11508,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 ### Microsoft 365 Copilot Chat
 - **Streamlined Copilot chat navigation with expanded history** [Windows, Web]
 
-  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect great for fast-paced projects and multitasking.
+  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect for fast-paced projects and multitasking.
 
   **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=516570" target="_blank">516570</a>
 
@@ -16646,7 +16877,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   **Roadmap ID:** [499422](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499422)
 
-  **Detailes:** 
+  **Details:** 
 
   **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
 
