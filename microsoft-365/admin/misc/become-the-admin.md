@@ -5,14 +5,12 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 11/27/2023
+ms.date: 04/22/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
-- Tier2
-- scotvorg
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
@@ -23,7 +21,6 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: "Learn how to verify your email and domain ownership to take over an unmanaged account created by a self-service user signup in Microsoft 365."
 ---
 
@@ -31,7 +28,7 @@ description: "Learn how to verify your email and domain ownership to take over a
 
  **[Check the Domains FAQ](../setup/domains-faq.yml)** if you don't find what you're looking for.
 
-If you're an admin and want to take over an unmanaged account created by a self-service user signup, you can perform an internal admin takeover by following the steps in this article.
+If you're an administrator and you want to take over an unmanaged account that was created by a self-service user sign-up process, you can perform an internal administrator takeover by following the steps in this article.
 
 > [!NOTE]
 > A self-service sign up for any cloud service that uses Microsoft Entra ID adds the user to an unmanaged or "shadow" Microsoft Entra directory and creates an unmanaged account. An unmanaged account is a directory without a global administrator. To determine whether an account is managed or unmanaged, see [Determining Tenant Type](/power-platform/admin/powerapps-gdpr-dsr-guide-systemlogs#determining-tenant-type).
@@ -62,17 +59,17 @@ If self-service is enabled in your account, users can subscribe to free services
 
 1. After you complete Step 2, select the admin center icon in the left navigation pane. Alternatively, go to a browser and type in `https://admin.cloud.microsoft`.
 
-    You're redirected to the admin takeover wizard.
+   You're redirected to the admin takeover wizard.
 
 1. Select **Next** and verify that you own the domain you want to take over by adding a TXT record to your domain registrar.
 
-    The wizard gives you the TXT record to add, and provides a link to your registrar's website, and a link to step-by-step instructions.
+   The wizard gives you the TXT record to add, and provides a link to your registrar's website, and a link to step-by-step instructions.
 
 1. On the **You're now the admin** page, select **Go to the admin center**.
 
-    You have the admin privileges required to manage the account in the admin center. For example, you can manage account users and groups, purchase new subscriptions and make user assignments, and manage the account domains.
+   You have the admin privileges required to manage the account in the admin center. For example, you can manage account users and groups, purchase new subscriptions and make user assignments, and manage the account domains.
 
-    If you want to remove your domain from this account so you can add it to another account, see [Remove a domain from another account](remove-a-domain-from-another-account.md).
+   If you want to remove your domain from this account so you can add it to another account, see [Remove a domain from another account](remove-a-domain-from-another-account.md).
   
 ## Related content
 
