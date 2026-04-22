@@ -5,7 +5,7 @@ ms.author: heidip
 author: vibeCoder500
 manager: abmohamm
 ms.reviewer: MicrosoftHeidi
-ms.date: 04/21/2026
+ms.date: 04/22/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -19,13 +19,13 @@ appliesto:
 ---
 # Extend Employee Self-Service Agent: Register a Vehicle
 
-The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
+The Employee Self-Service Copilot agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
-An organization may seek to enhance Employee Self-Service Copilot Agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
+An organization may seek to enhance Employee Self-Service Copilot agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
 
-To support these needs, Employee Self-Service Copilot Agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
+To support these needs, Employee Self-Service Copilot agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
 
-At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
+At Microsoft, we extended Employee Self-Service Copilot agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
 
 - Create a Facilities Ticket (Facilities), for example, "I want to report a water leak."
 - Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3."
@@ -44,11 +44,11 @@ Moreover, such integrated experiences foster a sense of belonging and engagement
 
 Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organizations attract, retain, and motivate talent by prioritizing their day-to-day comfort and efficiency.
 
-Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot Agent to allow employees to perform various operations.
+Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot agent to allow employees to perform various operations.
 
 ## Prerequisites
 
-To extend the Employee Self-Service Copilot Agent with a custom *Register a Vehicle* topic, ensure the following prerequisites are met:
+To extend the Employee Self-Service Copilot agent with a custom *Register a Vehicle* topic, ensure the following prerequisites are met:
 
 - Employee Self-Service agent is installed in Copilot Studio.
 - Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle) in GitHub.
@@ -85,7 +85,7 @@ Learn more about [HTTP request node](/microsoft-copilot-studio/authoring-http-no
 
 ## Example: Register Your Vehicle for Parking
 
-In the **Register Your Vehicle for Parking** scenario, an employee can register their vehicle for parking on campus by providing necessary details such as vehicle make, model, license plate number, and parking duration. The Employee Self-Service Copilot Agent processes this information, interacts with the backend parking management system, and confirms the registration status to the employee.
+In the **Register Your Vehicle for Parking** scenario, an employee can register their vehicle for parking on campus by providing necessary details such as vehicle make, model, license plate number, and parking duration. The Employee Self-Service Copilot agent processes this information, interacts with the backend parking management system, and confirms the registration status to the employee.
 
 This process involves only one step:
 
