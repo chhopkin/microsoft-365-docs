@@ -27,7 +27,7 @@ Follow these steps to create a modern template.
 
    ![Screenshot of document library with the Create modern template option highlighted.](../media/content-understanding/content-assembly-create-template-1.png)
 
-2. Select a Word document to upload from your organization’s SharePoint or OneDrive, or from your local storage.
+2. Select a Word document to upload from your organization's SharePoint or OneDrive, or from your local storage.
 
    ![Screenshot of upload page where you select a document.](../media/content-understanding/content-assembly-pick-a-file.png)
 
@@ -43,7 +43,7 @@ Follow these steps to create a modern template.
 
 When you select a document to create a modern template, you can create a new field and map it to multiple occurrences of the content with the same field.
 
-For example, the name of a contractor can occur multiple times in a consulting agreement document. You can create a field named “Contractor Name” and associate it with all occurrences of the name throughout the document when you generate a modern template.
+For example, the name of a contractor can occur multiple times in a consulting agreement document. You can create a field named "Contractor Name" and associate it with all occurrences of the name throughout the document when you generate a modern template.
 
    ![Screenshot of the document in the template viewer with a field highlighted.](../media/content-understanding/content-assembly-create-and-reuse-fields-1.png)
 
@@ -129,7 +129,7 @@ On the **New field** panel:
 
    ![Screenshot of the Select term sets or terms page.](../media/content-understanding/content-assembly-select-term.png)
 
-4. When you’re done, you’ll see that the selected term set or term has been associated with the field. 
+4. When you're done, you'll see that the selected term set or term has been associated with the field. 
 
    ![Screenshot of the New field panel showing the associated term set or term.](../media/content-understanding/content-assembly-associated-term.png)
 
@@ -182,7 +182,7 @@ On the **New field** panel:
 
 3.	Confirm the selection, and then select **Next**.
 
-4.	You can choose to allow authors who will fill in the field to either upload images from any source—OneDrive or SharePoint or from local storage—or restrict the entries by associating it to an image column in a SharePoint list.
+4.	You can choose to allow authors who will fill in the field to either upload images from any source-OneDrive or SharePoint or from local storage-or restrict the entries by associating it to an image column in a SharePoint list.
 
 5.	You can choose to control how the image selected by the author will be filled in the document. If you select the **Resize** checkbox, then the uploaded image will be scaled to the dimensions of the image selected for templatization. If not selected, then the image dimension of the image uploaded by the author will be persisted.
 

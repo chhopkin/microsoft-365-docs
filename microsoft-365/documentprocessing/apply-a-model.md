@@ -74,7 +74,7 @@ You can apply a model to different places, including the model home page or from
 
 After applying the model to the document library, you can begin uploading documents to the site and see the results.
 
-The model identifies any files and folders with the model’s associated content type and lists them in your view. If your model has any extractors, the view displays columns for the data you're extracting from each file or folder.
+The model identifies any files and folders with the model's associated content type and lists them in your view. If your model has any extractors, the view displays columns for the data you're extracting from each file or folder.
 
 > [!NOTE]
 > If two or more unstructured document processing models are applied to the same library, the uploaded file is classified using the model that has the highest average confidence score. The extracted entities will be from the applied model only. <br><br>If a freeform or structured document processing model model and an unstructured document processing model are applied to the same library, the file is classified using the unstructured document processing model and any trained extractors for that model. If there are any empty columns that match the freeform or structured document processing model, the columns will be populated using those extracted values.

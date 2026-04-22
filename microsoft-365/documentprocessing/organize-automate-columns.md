@@ -22,7 +22,7 @@ description: Learn how to organize and automate columns in a document library in
 
 The Knowledge agent in SharePoint empowers you to build richer, more intelligent document libraries for streamlined content management. By simplifying the configuration process, it ensures consistent and accurate data capture across your organization.
 
-With recommended metadata columns, the agent improves library-scoped chat experiences and enables rule-based automation flows that support efficient business processes. This approach keeps your SharePoint libraries organized, relevant, and continuously up-to-date—making document management smarter and more scalable.
+With recommended metadata columns, the agent improves library-scoped chat experiences and enables rule-based automation flows that support efficient business processes. This approach keeps your SharePoint libraries organized, relevant, and continuously up-to-date-making document management smarter and more scalable.
 
 <!---
 Use the Knowledge agent in SharePoint to create richer, more powerful document libraries to manage your content.
@@ -216,7 +216,7 @@ Follow these steps to use the **Add a summary column** action.
 
 ### Enter a custom action
 
-1. In the chat panel’s text box, enter your own instruction.
+1. In the chat panel's text box, enter your own instruction.
 
    ![Screenshot of the text box showing a custom instruction has been entered.](../media/content-understanding/knowledge-agent-custom-prompt.png)
 
@@ -234,7 +234,7 @@ Follow these steps to use the **Add a summary column** action.
 
 ### Create automations using plain language
 
-With the Knowledge agent, you can automate tasks in your document library simply by describing what you want to happen. No need to learn technical jargon or navigate complex menus—just explain your intent in everyday language. The agent interprets your request, suggests the right workflow, and sets it up for you automatically.
+With the Knowledge agent, you can automate tasks in your document library simply by describing what you want to happen. No need to learn technical jargon or navigate complex menus-just explain your intent in everyday language. The agent interprets your request, suggests the right workflow, and sets it up for you automatically.
 
 #### Supported automation actions
 
@@ -311,12 +311,12 @@ Share your experience with us by filling out this [quick survey](https://forms.o
 <!---
 ## Planned capabilities coming soon
 
-We’re actively working on expanding this feature. Upcoming enhancements include:
+We're actively working on expanding this feature. Upcoming enhancements include:
 
-- Select rule automation support via chat​
+- Select rule automation support via chat
 - Classification support
-- New library flow​
-- Metadata view creation​
+- New library flow
+- Metadata view creation
 - Classification grounding support
 
 ## Help us improve this feature

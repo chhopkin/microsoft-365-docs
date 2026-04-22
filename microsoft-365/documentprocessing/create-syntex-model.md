@@ -45,11 +45,11 @@ If you want to create a local model, see [Create a model on a local SharePoint s
 <!---
 3. Select the type of custom model you want to create. Choose from the following prebuilt model types:
 
-    - **Single class model** – Creates an [unstructured document processing model](document-understanding-overview.md).
+    - **Single class model** - Creates an [unstructured document processing model](document-understanding-overview.md).
 
-    - **Freeform extraction model** – Creates a [freeform document processing model](form-processing-overview.md).
+    - **Freeform extraction model** - Creates a [freeform document processing model](form-processing-overview.md).
 
-    - **Structured extraction model** – Creates a [structured document processing model](form-processing-overview.md).
+    - **Structured extraction model** - Creates a [structured document processing model](form-processing-overview.md).
 --->
 3. Select one of the following tabs to continue with the custom model you want to use.
 
@@ -63,9 +63,9 @@ Use the **Single class model** to create an [unstructured document processing mo
 
 3. On the right panel of the **Create a model using a single class model** page, enter the following information.
 
-    - **Model name** – Enter the name of the model, for example *Service agreements*.
+    - **Model name** - Enter the name of the model, for example *Service agreements*.
 
-    - **Description** – Enter information about how this model will be used.
+    - **Description** - Enter information about how this model will be used.
 
         ![Screenshot of the right panel of the Create a model with the teaching method  page.](../media/content-understanding/create-a-model-panel.png) 
 
@@ -89,9 +89,9 @@ Use the **Freeform extraction model** to create a [freeform document processing 
 
 3. On the right panel of the **Create a model using the freeform extraction model** page, enter the following information.
 
-    - **Model name** – Enter the name of the model, for example *Service agreements*.
+    - **Model name** - Enter the name of the model, for example *Service agreements*.
 
-    - **Description** – Enter information about how this model will be used.
+    - **Description** - Enter information about how this model will be used.
 
         ![Screenshot of the right panel of the Create a model with the Freeform selection method page.](../media/content-understanding/create-a-model-panel.png) 
 
@@ -118,9 +118,9 @@ Use the **Structured extraction model** to create a [structured document process
 
 3. On the right panel of the **Create a model using the structured extraction model** page, enter the following information.
 
-    - **Model name** – Enter the name of the model, for example *Service agreements*.
+    - **Model name** - Enter the name of the model, for example *Service agreements*.
 
-    - **Description** – Enter information about how this model will be used.
+    - **Description** - Enter information about how this model will be used.
 
         ![Screenshot of the right panel of the Create a model with the structured extraction model page.](../media/content-understanding/create-a-model-panel.png) 
 
@@ -169,9 +169,9 @@ Use the **Structured extraction model** to create a [structured document process
 
 3. On the right panel of the **Create a contract processing model** page, enter the following information.
 
-    - **Model name** – Enter the name of the model, for example *Service agreement*.
+    - **Model name** - Enter the name of the model, for example *Service agreement*.
 
-    - **Description** – Enter information about how this model will be used.
+    - **Description** - Enter information about how this model will be used.
 
         ![Screenshot of the right panel of the Create a contract processing model page.](../media/content-understanding/create-a-model-panel.png) 
 
@@ -193,9 +193,9 @@ Use the **Structured extraction model** to create a [structured document process
 
 3. On the right panel of the **Create an invoice processing model** page, enter the following information.
 
-    - **Model name** – Enter the name of the model, for example *Office expenses*.
+    - **Model name** - Enter the name of the model, for example *Office expenses*.
 
-    - **Description** – Enter information about how this model will be used.
+    - **Description** - Enter information about how this model will be used.
 
         ![Screenshot of the right panel of the Create an invoice processing model page.](../media/content-understanding/create-a-model-panel.png) 
 
@@ -217,9 +217,9 @@ Use the **Structured extraction model** to create a [structured document process
 
 3. On the right panel of the **Create a receipt processing model** page, enter the following information.
 
-    - **Model name** – Enter the name of the model, for example *Office expenses*.
+    - **Model name** - Enter the name of the model, for example *Office expenses*.
 
-    - **Description** – Enter information about how this model will be used.
+    - **Description** - Enter information about how this model will be used.
 
         ![Screenshot of the right panel of the Create a model to process receipts page.](../media/content-understanding/create-a-model-panel.png) 
 
@@ -243,9 +243,9 @@ Use the **Structured extraction model** to create a [structured document process
 
 3. On the **Create a sensitive information processing model** page, enter the following information.
 
-    - **Model name** – Enter the name of the model, for example *Contact numbers*.
+    - **Model name** - Enter the name of the model, for example *Contact numbers*.
 
-    - **Description** – Enter information about how this model will be used.
+    - **Description** - Enter information about how this model will be used.
 
     ![Screenshot of the right panel of the Create a sensitive information processing model page.](../media/content-understanding/create-a-model-panel-sensitive-info.png)
 
@@ -264,9 +264,9 @@ Use the **Structured extraction model** to create a [structured document process
 
 3. On the **Create a simple document processing model** page, on right panel, enter the following information.
 
-    - **Model name** – Enter the name of the model, for example *Service agreement*.
+    - **Model name** - Enter the name of the model, for example *Service agreement*.
 
-    - **Description** – Enter information about how this model will be used.
+    - **Description** - Enter information about how this model will be used.
 
     ![Screenshot of the right panel of the Create a simple document processing model page.](../media/content-understanding/create-a-model-panel-simple.png)
 

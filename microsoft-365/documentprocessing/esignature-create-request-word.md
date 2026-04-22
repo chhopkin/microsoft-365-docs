@@ -36,7 +36,7 @@ By bringing eSignatures into the flow of Word, you can create eSignature templat
 
 - Integrated audit trail and notifications: eSignature provides built-in tracking. Both senders and signers get email notifications throughout the signing process, and you can view the activity history (audit trail) in the signed PDF to verify when and by whom it was signed.
 
-- Security and compliance controls: Administrators have control over how eSignature for Word is used in the organization – it can be enabled for specific users via an Office group policy and even limited to certain SharePoint sites. And eSignature enables logging of eSignature activities in the Purview Audit log.
+- Security and compliance controls: Administrators have control over how eSignature for Word is used in the organization - it can be enabled for specific users via an Office group policy and even limited to certain SharePoint sites. And eSignature enables logging of eSignature activities in the Purview Audit log.
 
 When you request electronic signatures from Word, the recipients sign a PDF copy of the Word document.
 

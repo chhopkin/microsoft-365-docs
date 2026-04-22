@@ -29,7 +29,7 @@ description: Learn about custom models and prebuilt models in document processin
 
 Document processing models are powerful tools that help you identify, classify, and extract information from documents stored in SharePoint document libraries.
 
-When you apply a model to a SharePoint library, it’s linked to a content type that defines the structure of the information being extracted. This content type, which includes columns for storing extracted data, is saved in the SharePoint content type gallery. You can create a new content type tailored to your needs or use existing ones to reuse their schema and maintain consistency across your organization.
+When you apply a model to a SharePoint library, it's linked to a content type that defines the structure of the information being extracted. This content type, which includes columns for storing extracted data, is saved in the SharePoint content type gallery. You can create a new content type tailored to your needs or use existing ones to reuse their schema and maintain consistency across your organization.
 
 Document processing uses [custom models](#custom-models) and [prebuilt models](#prebuilt-models).
 
@@ -60,7 +60,7 @@ When you create a custom model, you'll select the training method associated wit
 --->
 ### Unstructured document processing
 
-Use the unstructured document processing model when working with documents like letters or contracts that don’t follow a consistent layout but contain identifiable phrases or patterns. This model automatically classifies documents and extracts relevant information based on text patterns.
+Use the unstructured document processing model when working with documents like letters or contracts that don't follow a consistent layout but contain identifiable phrases or patterns. This model automatically classifies documents and extracts relevant information based on text patterns.
 
 For example, a contract renewal letter might vary in format but consistently include a phrase like "Service start date of" followed by a date. The model uses such patterns to determine both the document type (classification) and the data to extract (extractors).
 
@@ -73,11 +73,11 @@ For more information, see [Overview of unstructured document processing](documen
 
 ### Freeform document processing
 
-The freeform document processing model is ideal for extracting information from documents where data can appear anywhere—such as scanned letters, faxes, or PDFs. Unlike unstructured models, freeform models don’t classify the document type; they focus solely on extracting data.
+The freeform document processing model is ideal for extracting information from documents where data can appear anywhere-such as scanned letters, faxes, or PDFs. Unlike unstructured models, freeform models don't classify the document type; they focus solely on extracting data.
 
 These models are built using Microsoft Power Apps AI Builder and are especially useful when processing large volumes of incoming documents from various sources.
 
-- **Best for**: PDFs or image files where classification isn’t required.
+- **Best for**: PDFs or image files where classification isn't required.
 - **File support**: PDF and image formats.
 - **Language support**: More than [40 languages](/ai-builder/form-processing-model-requirements#model-for-unstructured-and-free-form-documents).
 - **Setup**: Use the **Freeform extraction model** option.
@@ -158,7 +158,7 @@ The sensitive information processing model helps identify and extract personal a
 
 - Social Security numbers
 - Financial account numbers
-- Driver’s license IDs
+- Driver's license IDs
 - Other personally identifiable information (PII)
 
 This model supports compliance and data protection efforts across your organization.
@@ -175,6 +175,6 @@ The simple document processing model offers a flexible, pretrained solution for 
 - Barcodes
 - Language detection
 
-Unlike other prebuilt models with fixed schemas, this model adapts to a wider variety of structured documents and is a great alternative when custom labeling isn’t feasible.
+Unlike other prebuilt models with fixed schemas, this model adapts to a wider variety of structured documents and is a great alternative when custom labeling isn't feasible.
 
 For more information, see [Use a prebuilt model to detect sensitive information from documents](prebuilt-model-simple.md).

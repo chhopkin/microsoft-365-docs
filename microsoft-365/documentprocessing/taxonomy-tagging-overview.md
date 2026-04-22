@@ -23,7 +23,7 @@ description: Learn about taxonomy tagging in SharePoint.
 > [!NOTE]
 > Through June 2026, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of taxonomy tagging and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
 
-Taxonomy tagging in SharePoint uses AI to automatically apply terms from your organization's term store to documents in libraries. These terms are added to a managed metadata column—also known as a taxonomy column—on each item, helping you search, sort, filter, and manage content more effectively.
+Taxonomy tagging in SharePoint uses AI to automatically apply terms from your organization's term store to documents in libraries. These terms are added to a managed metadata column-also known as a taxonomy column-on each item, helping you search, sort, filter, and manage content more effectively.
 
 This feature offers a simple, no-training-required approach to tagging. It removes the need for users to manually apply tags or build and train custom AI models for basic term recognition. Taxonomy tagging is especially helpful when you want to:
 

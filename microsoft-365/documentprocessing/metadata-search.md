@@ -72,7 +72,7 @@ On existing libraries, when you select the content query icon (![Screenshot of t
 
     ![Screenshot of the Add more options menu on the content query pane.](../media/content-understanding/metadata-search-add-more-options.png)
 
-    For numbers, currency, and date columns, you can scope parameters of the query—for example, greater than a specific amount or within a specific period of time. For text columns, you can specify if you want to contain or not contain certain words.
+    For numbers, currency, and date columns, you can scope parameters of the query-for example, greater than a specific amount or within a specific period of time. For text columns, you can specify if you want to contain or not contain certain words.
 
 4. Select **Search**. The documents that match your metadata query are shown on the results page. 
 

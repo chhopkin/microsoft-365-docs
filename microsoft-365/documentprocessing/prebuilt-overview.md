@@ -23,16 +23,16 @@ description: Learn about prebuilt document processing in SharePoint.
 > [!NOTE]
 > Through June 2026, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of prebuilt document processing and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
 
-In addition to using [custom models](model-types-overview.md#custom-models), document processing offers prebuilt models that help automate information extraction from documents—no training required. These models are ready to use and designed to recognize common document types and data patterns, so you can get started quickly and scale efficiently.
+In addition to using [custom models](model-types-overview.md#custom-models), document processing offers prebuilt models that help automate information extraction from documents-no training required. These models are ready to use and designed to recognize common document types and data patterns, so you can get started quickly and scale efficiently.
 
 > [!NOTE]
-> Microsoft respects the privacy and ownership of data you use to train and process models. None of your organization's data is used or transferred by Microsoft to train AI models, large-language models, or any other models. Your data remains securely within your organization’s tenant. For more information, see [Microsoft data protection and privacy](https://www.microsoft.com/en-us/trust-center/privacy).
+> Microsoft respects the privacy and ownership of data you use to train and process models. None of your organization's data is used or transferred by Microsoft to train AI models, large-language models, or any other models. Your data remains securely within your organization's tenant. For more information, see [Microsoft data protection and privacy](https://www.microsoft.com/en-us/trust-center/privacy).
 
 ## Introduction to prebuilt models
 
-Prebuilt document processing uses pretrained models that are already configured to recognize common document types and extract structured information. Instead of building a custom model from scratch, you can start with a prebuilt model and tailor it by adding fields specific to your organization’s needs.
+Prebuilt document processing uses pretrained models that are already configured to recognize common document types and extract structured information. Instead of building a custom model from scratch, you can start with a prebuilt model and tailor it by adding fields specific to your organization's needs.
 
-These models combine optical character recognition (OCR) with deep learning to identify and extract predefined text and data fields. To get started, analyze a sample file using a prebuilt model. Then, select the fields that are relevant to your scenario. If the model doesn’t detect the fields you need, try analyzing a different file.
+These models combine optical character recognition (OCR) with deep learning to identify and extract predefined text and data fields. To get started, analyze a sample file using a prebuilt model. Then, select the fields that are relevant to your scenario. If the model doesn't detect the fields you need, try analyzing a different file.
 
 Like other models, prebuilt models are created and managed in the [content center](create-a-content-center.md). When you apply a model to a SharePoint document library, it links to a content type and includes columns to store the extracted information.
 

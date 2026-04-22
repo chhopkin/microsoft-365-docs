@@ -38,13 +38,13 @@ To create a section in Microsoft Word, follow these steps:
 
 4. On the **Enter section details** panel, enter the required details to create a section and save it in the section library.
 
-    - **Name** – Enter a name for the section.
-    - **Workspace** – Choose the workspace where to save the section. Once published, this section will only be available to be inserted in templates in the workspace you choose. You can't change the workspace after creating the section.
-    - **Description** – Enter a description of the section.
-    - **Category** – Choose a category from the list of categories that are configured for the selected workspace.
-    - **Language** – Choose the language in which the section is or will be written.
-    - **Countries or regions** – Select the country or region where the section is applicable.
-    - **Tags** – Enter keywords to better identify or search sections.
+    - **Name** - Enter a name for the section.
+    - **Workspace** - Choose the workspace where to save the section. Once published, this section will only be available to be inserted in templates in the workspace you choose. You can't change the workspace after creating the section.
+    - **Description** - Enter a description of the section.
+    - **Category** - Choose a category from the list of categories that are configured for the selected workspace.
+    - **Language** - Choose the language in which the section is or will be written.
+    - **Countries or regions** - Select the country or region where the section is applicable.
+    - **Tags** - Enter keywords to better identify or search sections.
 
    These details help in filtering and searching the sections faster during template configuration or section management.
 
@@ -91,9 +91,9 @@ To configure the settings, follow these steps:
 
 4. Under **Settings**, choose the section edit permissions for document authors:
 
-   - **Editable** (selected by default) – Document authors can edit the section in the generated document.
+   - **Editable** (selected by default) - Document authors can edit the section in the generated document.
 
-   - **Read-only** – Document authors can't modify the content of the section in the generated document.
+   - **Read-only** - Document authors can't modify the content of the section in the generated document.
 
 > [!NOTE]
 > These settings don't apply when a section gets inserted into a template. Template authors can modify or format content of any inserted section. The changes will stay only in the scope of the template and will not get updated in the published section.

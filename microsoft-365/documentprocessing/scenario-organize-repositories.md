@@ -37,7 +37,7 @@ description: Learn how to use document processing for Microsoft 365 to manage an
 
 Your organization drafts and stores policies and procedures in a few large documents in SharePoint or several smaller documents, all in a document library that typically has a well-defined folder structure.
 
-Experienced users might know where the policy or procedure is they need to reference to do their job effectively. However, new users or users who don’t regularly focus on a specific policy might not know where to look.
+Experienced users might know where the policy or procedure is they need to reference to do their job effectively. However, new users or users who don't regularly focus on a specific policy might not know where to look.
 
 By using document processing and the SharePoint term store as policies are added to the library and processed, the service can assign the correct term. Users are then able to filter or search using these terms, or their synonyms.
 

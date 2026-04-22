@@ -63,8 +63,8 @@ ex:TermA    a    sharepoint-taxonomy:Term;
     sharepoint-taxonomy:inTermSet    ex:TermSetA;
     sharepoint-taxonomy:topLevelTermOf    ex:TermSetA;
     sharepoint-taxonomy:child    ex:TermA1;
-    sharepoint-taxonomy:isAvailableForTagging    “true”^^xsd:Boolean;
-    sharePoint-taxonomy:defaultLabel    “Term A”@en-us.
+    sharepoint-taxonomy:isAvailableForTagging    "true"^^xsd:Boolean;
+    sharePoint-taxonomy:defaultLabel    "Term A"@en-us.
 ```
 
 A [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) compulsorily exists within a [TermSet](/dotnet/api/microsoft.sharepoint.client.taxonomy.termset). DefaultLabel is the name of the [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) as it appears in the visual representation. The required fields for defining a [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) include:
@@ -91,8 +91,8 @@ The syntax to define a [TermSet](/dotnet/api/microsoft.sharepoint.client.taxonom
 
 ```SKOS
 ex:TermSetA    a    sharepoint-taxonomy:TermSet;
-    sharepoint-taxonomy:termSetName    “TermSet A";
-    sharepoint-taxonomy:isAvailableForTagging    “true”^^xsd:Boolean;
+    sharepoint-taxonomy:termSetName    "TermSet A";
+    sharepoint-taxonomy:isAvailableForTagging    "true"^^xsd:Boolean;
     sharepoint-taxonomy:hasTopLevelTerm    Ex:Term A.
 ```
 
@@ -142,10 +142,10 @@ Use this default lexical label for a [Term](/dotnet/api/microsoft.sharepoint.cli
 The syntax to define a defaultLabel is:
 
 ```SKOS
-ex:TermA    sharepoint-taxonomy:defaultLabel    “Term A”@en-us.
+ex:TermA    sharepoint-taxonomy:defaultLabel    "Term A"@en-us.
 ```
 
-The defaultLabel contains two parts to it – the string and the language tag. The language must be one of the [TermStore](/dotnet/api/microsoft.sharepoint.client.taxonomy.termstore) working languages. The defaultLabel must be unique for all [Terms](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) in the same [TermSet](/dotnet/api/microsoft.sharepoint.client.taxonomy.termset), at the same hierarchical level.
+The defaultLabel contains two parts to it - the string and the language tag. The language must be one of the [TermStore](/dotnet/api/microsoft.sharepoint.client.taxonomy.termstore) working languages. The defaultLabel must be unique for all [Terms](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) in the same [TermSet](/dotnet/api/microsoft.sharepoint.client.taxonomy.termset), at the same hierarchical level.
 
 **sharepoint-taxonomy:termSetName**
 
@@ -156,7 +156,7 @@ This property is the lexical label for a [TermSet](/dotnet/api/microsoft.sharepo
 The syntax to define a termSetName is:
 
 ```SKOS
-ex:TermA    sharepoint-taxonomy:TermSetName    “Term Set A”@en-us.
+ex:TermA    sharepoint-taxonomy:TermSetName    "Term Set A"@en-us.
 ```
 
 **sharepoint-taxonomy:propertyName**
@@ -170,7 +170,7 @@ The sharepoint-taxonomy: propertyName is treated as the key of the CustomPropert
 The syntax to define a propetyName is:
 
 ```SKOS
-ex:SharedCustomProperty1    sharepoint-taxonomy:propertyName    “Shared Custom Property Key 1”@en-us.
+ex:SharedCustomProperty1    sharepoint-taxonomy:propertyName    "Shared Custom Property Key 1"@en-us.
 ```
 
 ## Optional labels
@@ -184,16 +184,16 @@ This property is the alternate lexical label for a [Term](/dotnet/api/microsoft.
 The syntax to define an otherLabel is:
 
 ```SKOS
-ex:TermA    sharepoint-taxonomy:otherLabel    “Term A”@en-us.
+ex:TermA    sharepoint-taxonomy:otherLabel    "Term A"@en-us.
 ```
 
 ## Semantic relationships
 
-Taxonomies have hierarchical and sometimes a simple “related term” associative relationship, but some have "semantic relationships" or custom-created relationships.
+Taxonomies have hierarchical and sometimes a simple "related term" associative relationship, but some have "semantic relationships" or custom-created relationships.
 
 **sharepoint-taxonomy:parent**
 
-This property hierarchically relates a [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) to another [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term). A [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) could be a top level [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) of a [TermSet](/dotnet/api/microsoft.sharepoint.client.taxonomy.termset), but in case it doesn’t it must have a parent [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term).
+This property hierarchically relates a [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) to another [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term). A [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) could be a top level [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term) of a [TermSet](/dotnet/api/microsoft.sharepoint.client.taxonomy.termset), but in case it doesn't it must have a parent [Term](/dotnet/api/microsoft.sharepoint.client.taxonomy.term).
 
 The syntax to define a parent is:
 
@@ -228,7 +228,7 @@ This property is a detailed explanation of any [SharePoint taxonomy](/dotnet/api
 The syntax to add a description is:
 
 ```SKOS
-ex:TermA    sharepoint-taxonomy:description    “Term A is the top level term of TermSetA”@en-us.
+ex:TermA    sharepoint-taxonomy:description    "Term A is the top level term of TermSetA"@en-us.
 ```
 
 ## Custom properties
@@ -243,9 +243,9 @@ The syntax to define this property is:
 
 ```SKOS
 ex:CustomProp1    rdf:type    sharepoint-taxonomy:CustomPropertyForTermSet;
-    sharepoint-taxonomy:propertyName “Colour”.
+    sharepoint-taxonomy:propertyName "Colour".
 
-ex:TermSetA    ex:CustomProp1    “Red”@en-us.
+ex:TermSetA    ex:CustomProp1    "Red"@en-us.
 ```
 
 **sharepoint-taxonomy:SharedCustomPropertyForTerm**
@@ -256,9 +256,9 @@ The syntax to define this property is:
 
 ```SKOS
 ex:CustomProp2    rdf:type sharepoint-taxonomy:SharedCustomPropertyForTerm;
-    sharepoint-taxonomy:propertyName “Length”.
+    sharepoint-taxonomy:propertyName "Length".
 
-ex:TermA    ex:CustomProp2    “5 cm”@en-us.
+ex:TermA    ex:CustomProp2    "5 cm"@en-us.
 ```
 **sharepoint-taxonomy:LocalCustomPropertyForTerm**
 
@@ -268,9 +268,9 @@ The syntax to define this property is:
 
 ```SKOS
 ex:CustomProp3    rdf:type sharepoint-taxonomy:LocalCustomPropertyForTerm;
-    sharepoint-taxonomy:propertyName “width”.
+    sharepoint-taxonomy:propertyName "width".
 
-ex:TermA    ex:CustomProp3    “5 cm”@en-us.
+ex:TermA    ex:CustomProp3    "5 cm"@en-us.
 ```
 
 ## Data properties
@@ -314,5 +314,5 @@ propertyName|Has Property Label|SharedCustomPropertyForTerm, LocalCustomProperty
 - Hierarchical redundancy - A [SKOS](https://www.w3.org/TR/skos-primer/) concept can be attached to several broader concepts at the same time, but a sharepoint-taxonomy:Term can have only one sharepoint-taxonomy:parent, hence cyclic dependency, of Terms are also not allowed.
 - Orphaned terms aren't allowed in SharePoint taxonomy. Every sharepoint-taxonomy: Term should either have a sharepoint-taxonomy: parent or it should be the sharepoint-taxonomy: topLevelTermOf a TermSet.
 - SharePoint taxonomy doesn't support associative relations.
-- SharePoint taxonomy only allows two types of Hierarchical relations – sharepoint-taxonomy: parent and sharepoint-Taxonomy: child.
+- SharePoint taxonomy only allows two types of Hierarchical relations - sharepoint-taxonomy: parent and sharepoint-Taxonomy: child.
 - Unlike [SKOS](https://www.w3.org/TR/skos-primer/) the hierarchical relationship in SharePoint taxonomy vocabulary, can only be established with Terms within the same TermSet.

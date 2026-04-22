@@ -24,7 +24,7 @@ In a document library, you can see the status of any document that is being proc
 
 ![Screenshot of a document library showing the Processing status and Processing details columns.](../media/content-understanding/processing-status-column.png)
 
-The **Processing status** column shows you whether the processing of a file is in progress, completed, or wasn’t done due to an error with the file or the job. The status helps you know whether a file needs to be queued again for processing or if more investigation is required.
+The **Processing status** column shows you whether the processing of a file is in progress, completed, or wasn't done due to an error with the file or the job. The status helps you know whether a file needs to be queued again for processing or if more investigation is required.
 
 | Processing status | Description |
 | ------- | -------

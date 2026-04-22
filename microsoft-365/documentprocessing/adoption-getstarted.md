@@ -26,13 +26,13 @@ By integrating document processing into your workflows, you can streamline opera
 
 - **Expand global reach**. Create translated copies of a selected file or a set of files in all supported languages.
 
-- **Automatically generate routine documents**. Streamline the creation of recurring documents—such as maintenance reports, status updates, or compliance summaries.
+- **Automatically generate routine documents**. Streamline the creation of recurring documents-such as maintenance reports, status updates, or compliance summaries.
 
-- **Generate documents in bulk**. Automate the creation of large volumes of similar documents—such as contract renewals or onboarding packets—using content assembly tools.
+- **Generate documents in bulk**. Automate the creation of large volumes of similar documents-such as contract renewals or onboarding packets-using content assembly tools.
 
 - **Process incoming documents**. Manage and extract data from incoming business documents, including insurance forms, business verifications, and rental agreements.
 
-- **Enhance content discoverability**. Improve how business documents and employee information—such as policies and procedures—are organized and surfaced in document libraries.
+- **Enhance content discoverability**. Improve how business documents and employee information-such as policies and procedures-are organized and surfaced in document libraries.
 
 - **Extract specific content details**. Centralize and retrieve key information, like patent numbers or compliance data, to make it easier to locate and act on.
 
@@ -40,9 +40,9 @@ By integrating document processing into your workflows, you can streamline opera
 
 ## Identify business scenarios
 
-Before implementing document processing services in your organization, it’s important to identify the business scenarios where these capabilities add the most value. Understanding the "why" behind your use cases helps determine which features are most beneficial—and whether document processing is necessary at all. It also guides the selection of the appropriate model type.
+Before implementing document processing services in your organization, it's important to identify the business scenarios where these capabilities add the most value. Understanding the "why" behind your use cases helps determine which features are most beneficial-and whether document processing is necessary at all. It also guides the selection of the appropriate model type.
 
-To achieve your desired business outcomes, you might want to combine multiple features. Use the [example scenarios and use cases](adoption-scenarios.md) to spark ideas for how document processing can support your organization’s goals.
+To achieve your desired business outcomes, you might want to combine multiple features. Use the [example scenarios and use cases](adoption-scenarios.md) to spark ideas for how document processing can support your organization's goals.
 
 ### Why it matters
 
@@ -60,19 +60,19 @@ Content is the lifeblood of your organization. Many business units rely on data 
 
 ### Consider your content lifecycle
 
-Content goes through a typical lifecycle—from creation and re-creation to understanding, processing, discovery, and search. There are many services available to support your business at each of these stages.
+Content goes through a typical lifecycle-from creation and re-creation to understanding, processing, discovery, and search. There are many services available to support your business at each of these stages.
 
 ![Diagram showing the content lifecycle.](../media/content-understanding/content-lifecycle.png)
 
 #### Content creation and reuse
 
-Within the lifecycle of content, there might be use cases for automating content creation, particularly content that is transactional or standardized and [content assembly](content-assembly.md) can be useful for this. Content assembly can automatically create common or repetitive business documents—such as contracts, statements of work, service agreements, letters of consent, sales pitches, and other routine correspondence.
+Within the lifecycle of content, there might be use cases for automating content creation, particularly content that is transactional or standardized and [content assembly](content-assembly.md) can be useful for this. Content assembly can automatically create common or repetitive business documents-such as contracts, statements of work, service agreements, letters of consent, sales pitches, and other routine correspondence.
 
 Once you identify repetitive document types, you want to identify the data source that can be used as a source for the documents. Having a list or data source to populate the documents allows you to do this task faster, more consistently, and with fewer errors by creating modern templates and using those templates to generate documents.
 
 #### Content collaboration
 
-The [annotations](annotations.md) feature is used to add notes and comments to content in document libraries—either for yourself or for collaborating with others. The annotations feature can be used without modifying the original files, so the original records are preserved.
+The [annotations](annotations.md) feature is used to add notes and comments to content in document libraries-either for yourself or for collaborating with others. The annotations feature can be used without modifying the original files, so the original records are preserved.
 
 Annotation tools currently include pen and highlighter, where colors can be selected along with an eraser for removing ink strokes and previous annotations. Once you configure an Azure subscription in your tenant for pay-as-you-go services, this feature is enabled for your users. You might want to consider providing details to end users about the feature, particularly to business groups that might heavily markup or annotate documents.
 
@@ -102,7 +102,7 @@ In addition to classifying and extracting data from content added to a SharePoin
 
 ## Plan for getting started
 
-To get started with document processing services, begin by assessing your organization’s current state and needs around content management, processing, and analysis. Identify key content repositories used by different teams and engage with those groups to understand their business processes and scenarios.
+To get started with document processing services, begin by assessing your organization's current state and needs around content management, processing, and analysis. Identify key content repositories used by different teams and engage with those groups to understand their business processes and scenarios.
 
 Look for opportunities where manual content handling could be automated. These tasks might include:
 
@@ -131,7 +131,7 @@ The [Microsoft 365 Assessment tool](adoption-assessment-tool.md) can also help i
 If you're unsure where to begin, explore the [site templates](site-templates.md) available in your tenant after setting up pay-as-you-go and configuring your Azure subscription. These templates are:
 
 - Prebuilt and ready to deploy.
-- Customizable to fit your organization’s needs.
+- Customizable to fit your organization's needs.
 - Available on all team sites.
 
 Use these templates to quickly launch a professional site that helps manage, process, and track business documents using multiple Microsoft 365 features. These sites are ideal for:
@@ -144,9 +144,9 @@ They provide a strong foundation for building solutions that streamline document
 
 ## Identify roles and responsibilities
 
-As you plan your document processing projects, it’s important to identify who in your organization needs to be involved. Start by mapping the features you plan to use. This process helps clarify which roles are essential.
+As you plan your document processing projects, it's important to identify who in your organization needs to be involved. Start by mapping the features you plan to use. This process helps clarify which roles are essential.
 
-For example, if you're focused on document processing, then the SharePoint administrator role is key in creating and managing content centers needed to manage models at scale. If you’re focused on features like OCR and compliance, then the Purview Compliance administrator is needed. If taxonomy tagging is pursued, it’s important to understand your corporate term store management or to determine if you use a content center.
+For example, if you're focused on document processing, then the SharePoint administrator role is key in creating and managing content centers needed to manage models at scale. If you're focused on features like OCR and compliance, then the Purview Compliance administrator is needed. If taxonomy tagging is pursued, it's important to understand your corporate term store management or to determine if you use a content center.
 
 Mapping roles to features early helps ensure the right people are engaged and your project is set up for success.
 
@@ -161,7 +161,7 @@ Mapping roles to features early helps ensure the right people are engaged and yo
 
 ## Setup and configuration considerations
 
-Planning for using document processing services involves determining which features you plan to enable and planning for costs using the [Microsoft SharePoint cost calculator](https://aka.ms/syntex/calculator) to help predicting costs for pay-as-you-go services. This tool gives you a better understanding of your organization’s usage patterns and estimated costs so you can make more informed decisions. It’s also helpful in conjunction with the [Microsoft 365 Assessment tool](adoption-assessment-tool.md), which analyzes your information architecture and highlights libraries with custom content types and extended columns that can benefit from AI-powered automation.
+Planning for using document processing services involves determining which features you plan to enable and planning for costs using the [Microsoft SharePoint cost calculator](https://aka.ms/syntex/calculator) to help predicting costs for pay-as-you-go services. This tool gives you a better understanding of your organization's usage patterns and estimated costs so you can make more informed decisions. It's also helpful in conjunction with the [Microsoft 365 Assessment tool](adoption-assessment-tool.md), which analyzes your information architecture and highlights libraries with custom content types and extended columns that can benefit from AI-powered automation.
 
 ## Readiness checklist
 

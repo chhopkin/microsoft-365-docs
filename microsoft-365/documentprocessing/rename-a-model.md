@@ -20,9 +20,9 @@ description: Learn how and why to rename a document processing model in SharePoi
 
 <sup>**Applies to:**  &ensp; &#10003; All custom models &ensp; | &ensp; &#10003; All prebuilt models</sup>
 
-At some point, you might want to rename a model. A common example is when you create an initial draft of a model, you might not have given much thought as to the final name (for example, you might have named it “AlexWilburModel1”). As you come closer to finalizing the model and putting it to use, you realize that a more proper name would be "Contract Renewals," and you want to rename it.  
+At some point, you might want to rename a model. A common example is when you create an initial draft of a model, you might not have given much thought as to the final name (for example, you might have named it "AlexWilburModel1"). As you come closer to finalizing the model and putting it to use, you realize that a more proper name would be "Contract Renewals," and you want to rename it.  
 
-Another example is when your organization makes a decision to refer to a process or document type by a different name. For example, after you create your model and are ready to apply it, your organization might mandate that all “Contracts” will now formally be referred to as "Agreements." If needed, you can choose to rename your model from “Contract Renewals” to "Agreement Renewals."
+Another example is when your organization makes a decision to refer to a process or document type by a different name. For example, after you create your model and are ready to apply it, your organization might mandate that all "Contracts" will now formally be referred to as "Agreements." If needed, you can choose to rename your model from "Contract Renewals" to "Agreement Renewals."
 
 > [!IMPORTANT]
 > You can only rename a model if it has not been applied to a document library.
