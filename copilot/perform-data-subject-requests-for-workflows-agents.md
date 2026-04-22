@@ -1,9 +1,10 @@
 ---
 title: Perform data subject requests (DSRs) for Workflows agents
 description: Learn how to perform DSRs for Workflows agents, and admin features like export, delete, and reassign.
-author: sbasi19
+author: kisubedi
+manager: HeatherOrt
 ms.author: kisubedi
-ms.date: 04/07/2026
+ms.date: 04/21/2026
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.reviewer: v-aangie
@@ -20,10 +21,32 @@ Before performing a DSR, you must identify where the user's *Workflows* data res
 
 1. Check two locations. Workflows artifacts are typically in one of two places:
 
-    - The default environment of the tenant.
-    - The user's Personal Development Environment (PDE).
+    - The default environment of the tenant or user's Personal Development Environment (PDE).
+    - [_M365 Copilot Workflows_ environment](workflows-environment-workflows-agents.md) (for new flows created after April 2026).
 
 1. Go to **Inventory**, filter by the user's email, and make a note of the **Environment ID** where their Workflows agents are listed.
+   You'll either see an environmentID value in the Environment ID column, which corresponds to ID of PDE/Default environment.
+   OR, a URL link containing the environmentID of _M365 Copilot Workflows_ environment in your tenant.
+
+## DSR on _M365 Copilot Workflows_ environment
+
+DSR on _M365 Copilot Workflows_ environment is strictly API-based. Once you have necessary roles mentioned in the following table, you can reference the  [DSR Compliance table](/rest/api/power-platform/workflowsagent/dsr-compliance) to perform DSR operation on _M365 Copilot Workflows_ environment.
+
+### API permissions setup
+
+Learn more about permissions needed for API access in [Role-based access control (RBAC) permissions](/power-platform/admin/security/role-based-access-control).
+
+The following table provides specific permissions for Workflows agent DSR.
+
+| Role name | Role ID | Description | Assignable scope |
+| :--- | :--- | :--- | :--- |
+| Workflows agent Data Subject Rights Environment Reader | `38a014c1-0485-4e5e-b784-782ea373b34b` | Grants full access to perform read operations for Data Subject Rights requests for Workflows agent flows for a given environment. | `/tenants/{0}/environments/{1}` |
+| Workflows Agent Data Subject Rights Administrator | `363ee124-fdb2-406f-9272-ebf239730ed2` | Grants full access to perform read and delete operations for Data Subject Rights requests on Workflows Agent Flows | `/tenants/{0}` |
+
+Find a tutorial for customers in [Assign roles to service principals](/power-platform/admin/programmability-tutorial-rbac-role-assignment?tabs=PowerShell).
+
+
+## DSR on PDE/Default environment
 
 Each Workflows agent's workflows are backed by specific Dataverse entities. Because these aren't surfaced in the standard Power Automate UI, you must use the following methods to locate them.
 

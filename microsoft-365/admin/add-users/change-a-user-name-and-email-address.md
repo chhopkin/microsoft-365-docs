@@ -46,7 +46,7 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=7b58656a-67db-457a-aa90-5c93334d4d28]
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Active users**.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, select **Users** > **Active users**.
 
 1. Select the user from the list of active users.
 
@@ -62,13 +62,13 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 ::: moniker range="o365-worldwide"
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to the **Users** > **Active users** page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Users** > **Active users** page.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to the **Users** > **Active users** page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Microsoft 365 admin center</a>, go to the **Users** > **Active users** page.
 
 ::: moniker-end
 
@@ -87,12 +87,12 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 ::: moniker range="o365-worldwide"
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to the **Users** > **Active users** page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Users** > **Active users** page.
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to the **Users** > **Active users** page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Microsoft 365 admin center</a>, go to the **Users** > **Active users** page.
 
 ::: moniker-end
 
@@ -102,7 +102,7 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 1. Select **Save changes**.
 
-   If you get the error message "**We're sorry, the user couldn't be edited. Review the user information and try again**, see [Resolve error messages](#resolve-error-messages).
+   If you get the error message "**We're sorry, the user couldn't be edited. Review the user information and again**," see [Resolve error messages](#resolve-error-messages).
 
 ## Add an email alias
 
@@ -135,9 +135,8 @@ Update-MgUser -UserId anne.wallace@contoso.com -UserPrincipalName anne.jones@con
 
 ## Related content
 
-[Add a domain](../setup/add-domain.md)
-[Admins: Reset a password for one or more users](reset-passwords.md)
-[Add another email address to a user](../email/add-another-email-alias-for-a-user.md)
-[Create a shared mailbox](../email/create-a-shared-mailbox.md)
+[Add a domain](../setup/add-domain.md) (article)\
+[Admins: Reset a password for one or more users](reset-passwords.md) (article)\
+[Add another email address to a user](../email/add-another-email-alias-for-a-user.md) (article)\
+[Create a shared mailbox](../email/create-a-shared-mailbox.md) (article)\
 [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) (YouTube)
-
