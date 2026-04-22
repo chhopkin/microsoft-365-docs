@@ -29,7 +29,7 @@ With the generational shift in AI technology underway, we're now focusing our st
 
 After retirement, here are the changes that will occur:
 
-Topic pages that have been published by users will be standard SharePoint pages. This means that while existing Topic pages will no longer be automatically enhanced by the AI and machine learning algorithms of Viva Topics, users can still edit and publish updates as they would any other SharePoint page. Topic pages that were generated entirely by AI and machine learning algorithms will no longer be available. If you're already using Copilot, your SharePoint pages are already indexed and will be used in responding to users’ questions.
+Topic pages that have been published by users will be standard SharePoint pages. This means that while existing Topic pages will no longer be automatically enhanced by the AI and machine learning algorithms of Viva Topics, users can still edit and publish updates as they would any other SharePoint page. Topic pages that were generated entirely by AI and machine learning algorithms will no longer be available. If you're already using Copilot, your SharePoint pages are already indexed and will be used in responding to users' questions.
 
 The Topic Center site where the published Topics pages were stored will be converted to a standard SharePoint site and can be maintained and governed like any other SharePoint site. The knowledge management and analytics around topics will no longer be available. We recommend you use SharePoint to publish and organize knowledge that can be discovered via Microsoft Search and leveraged via Microsoft Copilot across the Microsoft 365 suite.
 
