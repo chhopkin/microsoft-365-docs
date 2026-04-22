@@ -129,7 +129,7 @@ Once you confirm the configuration summary in the **Instance Creation Wizard**, 
 - The owner can access and interact with their Instance via Microsoft Teams and other productivity surfaces like Word, Excel, PowerPoint, and Outlook.
 - All provisioning actions are recorded in the audit log for compliance and traceability. The owner can also see their interactions and the agent activities on Teams and in Microsoft 365
 
-After you have complete the instance creation flow, the owner will find their new Instance available in Microsoft Teams. From there, they can begin working with the agent, delegating tasks, and managing its activity.
+After you have completed the instance creation flow, the owner will find their new Instance available in Microsoft Teams. From there, they can begin working with the agent, delegating tasks, and managing its activity.
 
 ## Governance, Compliance, and Auditing
 
