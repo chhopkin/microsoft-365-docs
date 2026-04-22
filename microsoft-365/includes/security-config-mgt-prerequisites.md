@@ -118,7 +118,7 @@ The following table can help you understand which policies that can configure MD
 - **Endpoint detection and response** (EDR) policies manage the Defender for Endpoint capabilities that provide advanced attack detections that are near real-time and actionable. Based on EDR configurations, security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take response actions to remediate threats. See [endpoint detection and response](/mem/intune/protect/endpoint-security-edr-policy) policy for endpoint security.
 - **Firewall** policies focus on the Defender firewall on your devices. See [firewall](/mem/intune/protect/endpoint-security-firewall-policy) policy for endpoint security.
 - **Firewall Rules** configure granular rules for Firewalls, including specific ports, protocols, applications, and networks. See [firewall](/mem/intune/protect/endpoint-security-firewall-policy) policy for endpoint security.
-- **Security baselines** include preconfigured security settings that define the Microsoft recommended security posture for different products like Defender for Endpoint, Edge, or Windows. The default recommendations are from the relevant product teams and enable you to quickly deploy that recommended secure configuration to devices. While settings are preconfigured in each baseline, you can create customized instances of them to establish your organization’s security expectations. See [security baselines](/mem/intune/protect/security-baselines) for Intune.
+- **Security baselines** include preconfigured security settings that define the Microsoft recommended security posture for different products like Defender for Endpoint, Edge, or Windows. The default recommendations are from the relevant product teams and enable you to quickly deploy that recommended secure configuration to devices. While settings are preconfigured in each baseline, you can create customized instances of them to establish your organization's security expectations. See [security baselines](/mem/intune/protect/security-baselines) for Intune.
 
 ## Configure your tenant to support Microsoft Defender for Endpoint Security Configuration Management
 
@@ -157,7 +157,7 @@ Microsoft Defender for Endpoint supports several options to onboard devices. For
 
 
 ## Co-existence with Microsoft Endpoint Configuration Manager
-In some environments it might be desired to use Security Management for Microsoft Defender for Endpoint with [Configuration Manager tenant attach](/mem/configmgr/tenant-attach/endpoint-security-get-started). If you use both, you’ll need to control policy through a single channel, as using more than one channel creates the opportunity for conflicts and undesired results.
+In some environments it might be desired to use Security Management for Microsoft Defender for Endpoint with [Configuration Manager tenant attach](/mem/configmgr/tenant-attach/endpoint-security-get-started). If you use both, you'll need to control policy through a single channel, as using more than one channel creates the opportunity for conflicts and undesired results.
 
 To support this, configure the *Manage Security settings using Configuration Manager* toggle to *Off*.  Sign in to the [Microsoft Defender portal](https://security.microsoft.com/) and go to **Settings** > **Endpoints** > **Configuration Management** > **Enforcement Scope**:
 
