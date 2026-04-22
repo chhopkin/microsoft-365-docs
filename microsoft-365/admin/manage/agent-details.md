@@ -34,7 +34,7 @@ search.appverid:
 
 # Understand agent details in Microsoft 365 admin center
 
-You can view and manage agent details for each agent listed in the agent registry within [Microsoft 365 admin center](https://admin.microsoft.com/). When you select an agent from the list, you can view these details in a fly-out pane. These **Details** pane provides information and actions, as well as additional information provided within tabs. Each tab provides capabilities and details specifically for the selected agent. Many of the tabs are standard to all agents, but some tabs are provided based on an agent capabilities. For example, if an agent is designed to provide information and answers from another agents, the **Connected Agents** tab is provided. In addition to providing information about an agent in the details fly-out pane, you can also select specific actions for the agent, such as **Install**, **Block**, **Uninstall**, and **Pin for users**.
+You can view and manage agent details for each agent listed in the agent registry within [Microsoft 365 admin center](https://admin.microsoft.com/). When you select an agent from the list, you can view these details in a fly-out pane. The **Details** pane provides information and actions, as well as additional information provided within tabs. Each tab provides capabilities and details specifically for the selected agent. Many of the tabs are standard to all agents, but some tabs are provided based on an agent's capabilities. For example, if an agent is designed to provide information and answers from another agents, the **Connected Agents** tab is provided. In addition to providing information about an agent in the details fly-out pane, you can also select specific actions for the agent, such as **Install**, **Block**, **Uninstall**, and **Pin for users**.
 
 :::image type="content" source="../../media/agents/agent-details-02.png" alt-text="Screenshot showing the details for a specific agent." lightbox="../../media/agents/agent-details-02.png":::
 
@@ -53,7 +53,7 @@ When you select an agent from the **Registry**, the details fly-out pane display
 | Agent action | Description |
 |---|---|
 | **Install** | Deploys and installs the agent for the selected users at your   organizations. |
-| **Uninstall** | Removes the agent. Memebers of your organization can't install or use use   the agent. |
+| **Uninstall** | Removes the agent. Members of your organization can't install or use use   the agent. |
 | **Block** | Blocks the agent from members of your organization. They will not be able   to install or use the agent. Additionally, the agent will be removed from any   member of your organization who has already installed it. |
 | **Pin for users** | The agent will be pinned in the UI (based on channel) where the agent was   deployed, so that the agent can be found more easily. Based on the users or   groups where the agent was deployed, you can specify who will have the agent   pinned. |
 
@@ -292,14 +292,14 @@ To access the **Security** tab for an agent, use the following steps:
 3. Select an agent from the **Registry** list.
 4. In the agent details pane, select the **Security** tab.
 
-The *Security** tab provide the following actions relatede to Microsoft Purview protections:
+The **Security** tab provide the following actions related to Microsoft Purview protections:
 - Monitor agent activity
 - Protect sensitive data
 - Evaluate compliance gaps
 
 #### Monitor agent activity
 
-Interactions with a selected agent are monitored for security and observability. You can view agent activtity using the **Activity explorer** in Microsoft Purview. Activity explorer allows you to review activity related to content that contains sensitive information, including label activity. Label activity is monitored across Exchange, SharePoint, OneDrive, and endpoint devices. For more inforamtion, see [Get started with activity explorer](/purview/data-classification-activity-explorer).
+Interactions with a selected agent are monitored for security and observability. You can view agent activity using the **Activity explorer** in Microsoft Purview. Activity explorer allows you to review activity related to content that contains sensitive information, including label activity. Label activity is monitored across Exchange, SharePoint, OneDrive, and endpoint devices. For more information, see [Get started with activity explorer](/purview/data-classification-activity-explorer).
 
 #### Protect sensitive data
 
