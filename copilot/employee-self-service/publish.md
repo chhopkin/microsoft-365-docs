@@ -187,7 +187,7 @@ To link directly to the agent:
 - Copy the link from Copilot (**… → Share**)
 - Replace the URL in the topic message
 
->[!NOTE]>
+>[!NOTE]
 > [Auto-pinning](/microsoft-365/admin/manage/agent-registry#manage-pinning-of-agents) is recommended.
 
 ### Block the Employee Self-Service agent in Microsoft Teams
