@@ -23,15 +23,15 @@ description: Read frequently asked questions about protecting your organization'
 
 No, we still have the same point of view, but are now offering more tools to help organizations achieve those goals and responsibilities.
 
-#### Why don’t Disaster Recovery copies suffice for my backup?
+#### Why don't Disaster Recovery copies suffice for my backup?
 
 Disaster Recovery (DR) is the ability to recover from a situation in which the primary data center is unable to continue to operate. A DR copy with Microsoft 365 maintains the current state of content, not any historical versions from prior points in time. Microsoft 365 Backup offers the added advantage of allowing you to restore data to a previous healthy state quickly, with fast RTO (recovery time objectives) and short RPO (recovery point objectives).
 
-#### Why don’t versions already solve this point in time restore problem?
+#### Why don't versions already solve this point in time restore problem?
 
 Versions give individual users a way to restore files or sites to prior points in time, However, that kind of recovery method doesn't scale well for large-scale ransomware attacks where an admin needs to orchestrate the recovery. Versions might also be exhausted depending on the version limit set by the admin.
 
-#### Why don’t legal holds solve the problem of keeping all versions of items for recovery?
+#### Why don't legal holds solve the problem of keeping all versions of items for recovery?
 
 Legal holds retain data, but that feature is optimized for export (for example, via eDiscovery), not for mass restore. Microsoft 365 Backup gives the right enhanced restore tooling for ransomware and accidental/malicious deletions at scale, plus optimized performance for those scenarios.
 
@@ -68,11 +68,11 @@ Example events that aren't versioned or recoverable via backup:
 
 #### What is the service recovery point objective?
 
-The recovery point objective (RPO) is the maximum amount of time between the most recent backup and a data destruction event. Stated another way, it’s the amount data lost due to a data destruction event not recoverable via the backups. For Microsoft 365 Backup, the RPOs are:
+The recovery point objective (RPO) is the maximum amount of time between the most recent backup and a data destruction event. Stated another way, it's the amount data lost due to a data destruction event not recoverable via the backups. For Microsoft 365 Backup, the RPOs are:
 
 - For OneDrive and SharePoint, the RPO for the trailing two weeks is 10 minutes. This means if it's Monday at 8:00 AM, you can go back in time to any 10-minute period up to two weeks in the past. Beyond that, you can go to any one week period of time in past from 2 to 52 weeks in the past.
 
-- For Exchange Online, the RPO is 10 minutes, meaning the most amount of data that can be lost due to a data destruction event is roughly 10 minutes’ worth of data.
+- For Exchange Online, the RPO is 10 minutes, meaning the most amount of data that can be lost due to a data destruction event is roughly 10 minutes' worth of data.
 
 Let's start with what it doesn't mean: We're *not* taking snapshots every 10 minutes.
 

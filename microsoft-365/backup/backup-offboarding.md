@@ -74,7 +74,7 @@ DSRs related to the discovery of data using eDiscovery is possible for Exchange 
 
 ### Retention policies
 
-Retention and deletion policies don't “flow through” to the backups. This means that backup retention is governed solely by the backup policy. That policy currently has a nonvariable one year retention period. Once data is restored from the backups, that now-live data will be governed by applicable retention or deletion policies.
+Retention and deletion policies don't "flow through" to the backups. This means that backup retention is governed solely by the backup policy. That policy currently has a nonvariable one year retention period. Once data is restored from the backups, that now-live data will be governed by applicable retention or deletion policies.
 
 ### Sensitivity labels
 
