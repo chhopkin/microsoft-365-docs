@@ -109,7 +109,7 @@ This process involves only one step:
 - Validate
   - Open the visual representation of the topic definition and validate the workflow of the topic.
   - Select **Topic Checker** for any static issues with the definition.
-  - Optionally, go through the following section "Review the topic workflow", to understand and validate the steps.
+  - Optionally, go through the following section, "Review the topic workflow", to understand and validate the steps.
 
 - Now, let's test the newly added topic
   - Using the Test button in **Copilot Studio**, open the test chat window.
