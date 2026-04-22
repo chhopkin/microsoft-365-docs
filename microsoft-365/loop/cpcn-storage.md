@@ -73,7 +73,7 @@ Copilot Pages and Copilot Notebooks are stored together in the same user-owned S
 - Admins can recover the entire container (including all Copilot Pages and Copilot Notebooks) during the soft delete period using the SharePoint Admin Center or PowerShell.
 
 > [!NOTE]
-> When a user selects the Copilot Pages module in the Microsoft 365 Copilot app, a SharePoint Embedded container is currently created automatically—even if the user doesn't create a Copilot Page. If no files are added, the system deletes it automatically. *This behavior is temporary.* An update is in progress to ensure containers are only created when users actually create content. Until then, IT administrators can safely disregard these system-initiated deletions.
+> When a user selects the Copilot Pages module in the Microsoft 365 Copilot app, a SharePoint Embedded container is currently created automatically-even if the user doesn't create a Copilot Page. If no files are added, the system deletes it automatically. *This behavior is temporary.* An update is in progress to ensure containers are only created when users actually create content. Until then, IT administrators can safely disregard these system-initiated deletions.
 
 > [!IMPORTANT]
 > A workflow for IT admins to assign temporary custodians during the cleanup period isn't yet available. This capability is planned (Microsoft Roadmap ID 421612).

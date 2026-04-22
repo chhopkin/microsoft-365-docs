@@ -59,7 +59,7 @@ Tenant-owned Loop workspaces created on or after April 2025: Manage Owners and E
 Tenant-owned Loop workspaces created before April 2025: A legacy roster still controls membership. The legacy roster is being deprecated. Until fully retired:
 
 - Owners and Editors can manage membership in the Loop application.
-- SharePoint admin center changes apply only to newer (post–April 2025) workspaces.
+- SharePoint admin center changes apply only to newer (post-April 2025) workspaces.
 
 ## Listing all the user-owned containers
 
@@ -71,7 +71,7 @@ Get-SPOContainer -OwningApplicationId 'a187e399-0c36-4b98-8f04-1edc167a0996' | W
 
 ## Migrations
 
-Currently, there's no supported method to transfer an existing SharePoint Embedded container between Microsoft 365 tenants—for example, in scenarios involving mergers or acquisitions.
+Currently, there's no supported method to transfer an existing SharePoint Embedded container between Microsoft 365 tenants-for example, in scenarios involving mergers or acquisitions.
 
 ## Related articles
 
