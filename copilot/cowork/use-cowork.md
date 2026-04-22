@@ -304,7 +304,11 @@ You can display which skills Cowork loaded during a conversation in the **Skills
 
 ### Create custom skills
 
-You can extend Cowork with your own custom skills stored in OneDrive.
+You can extend Cowork by using natural language or by adding custom skills in your OneDrive folder.
+
+To create a skill with natural language, tell Cowork what you want the skill to do or simply tell Cowork that you'd like help creating a skill. Cowork will guide you through the process of creating the skill.
+
+To create skills in OneDrive using Markdown, use the following steps:
 
 1. In your OneDrive, navigate to the `/Documents/Cowork/Skills/` folder. Create it if it doesn't exist.
 1. Create a subfolder with your skill name (for example, `/Documents/Cowork/Skills/weekly-report/`).
@@ -324,7 +328,7 @@ You can extend Cowork with your own custom skills stored in OneDrive.
 1. Save the file. Cowork discovers your custom skills automatically at the start of each conversation.
 
 > [!NOTE]
-> You can create up to 20 custom skills. Each `SKILL.md` file can be up to 1 MB.
+> You can create up to 50 custom skills. Each `SKILL.md` file can be up to 1 MB.
 
 ## Schedule prompts
 
