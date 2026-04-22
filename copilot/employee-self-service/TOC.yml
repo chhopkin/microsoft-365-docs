@@ -82,6 +82,14 @@ items:
           href: servicenow-hrsd-itsm.md
         - name: ServiceNow Live agent
           href: servicenow-live-agent.md
+
+- name: Extend Employee Self-Service agent
+  items:
+    - name: Invite a guest
+      href: facilities-lobby-invite-guest.md
+    - name: Register your vehicle
+      href: facilities-parking-register-vehicle.md
+
 - name: Usage analytics
   href: usage-analytics.md
 - name: Review user feedback

@@ -73,6 +73,10 @@ The following search clients are supported:
 
 -   Custom search applications that use the SharePoint Search API
 
+## SharePoint page analytics for news posts
+
+Usage signals from all _Geography_ locations are moved to the tenant's home _Geography_ location and analytics data is processed there to include the usage from users across all _Geography_ locations.
+
 ## SharePoint Home 
 
 In SharePoint Multi-Geo, your SharePoint home is hosted in the location where the user resides as determined by their OneDrive location. For example: if the user has their OneDrive hosted in a European satellite location, their SharePoint Home is rendered from Europe. SharePoint home includes all content relevant to the user regardless of its _Geography_ location. 
