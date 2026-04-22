@@ -69,7 +69,7 @@ Data controls supported today:
 - Quota
 - Legal hold
 - DLP
-- Basic eDiscovery – The .whiteboard files are stored as files in the creator's OneDrive. They're indexed for keyword and file type search.
+- Basic eDiscovery - The .whiteboard files are stored as files in the creator's OneDrive. They're indexed for keyword and file type search.
 
 Data controls planned for future releases:
 
