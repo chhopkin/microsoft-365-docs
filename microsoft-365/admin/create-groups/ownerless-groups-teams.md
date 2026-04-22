@@ -121,9 +121,13 @@ After the notification period specified in the policy ends, the policy stops sen
 Admins can see which Microsoft 365 groups remain ownerless by searching the [audit log](/purview/audit-search#get-started-with-search) in the Microsoft Purview portal. To search for ownerless groups, follow these steps:
 
 1. Sign in to the [Microsoft Purview portal](https://purview.microsoft.com/).
+
 1. Select the **Audit** solution card.
-    1. If the **Audit** solution card isn't displayed, select **View all solutions**, and then select **Audit** in the **Core** section.
+
+   If the **Audit** solution card isn't displayed, select **View all solutions**, and then select **Audit** in the **Core** section.
+
 1. On the **Search** page, in the **Activities - friendly names** field, select **Unattended ownerless group** from the dropdown list.
+
 1. Select the **Search** button.
 
 ## Auditing changes to ownerless group policy
@@ -132,40 +136,43 @@ To find details about changes to the ownerless group policy, search for the **Up
 
 1. Sign in to the [Microsoft Purview portal](https://sip.purview.microsoft.com/audit/auditsearch) and start a new audit log search.
 
-      > [!NOTE]
-            > For help with Purview authentication, see [Microsoft Purview portal](/purview/purview-portal).
+   > [!NOTE]
+   > For help with Microsoft Purview authentication, see [Microsoft Purview portal](/purview/purview-portal).
 
 1. Under **Activities – friendly names**, type **ownerless group**, and select the **Updated the ownerless group policy** activity. 
+
 1. Specify the start and end dates for the audit log search.
 
-    :::image type="content" source="../../media/audit-ownerless-group1.png" alt-text="Screenshot of audit log." lightbox="../../media/audit-ownerless-group1.png":::
+   :::image type="content" source="../../media/audit-ownerless-group1.png" alt-text="Screenshot of audit log." lightbox="../../media/audit-ownerless-group1.png":::
 
-    When the search finishes, you see the following result. 
+   When the search finishes, you see the following result. 
     
-    :::image type="content" source="../../media/result-audit-ownerless-group1.png" alt-text="Screenshot of result of audit log search." lightbox="../../media/result-audit-ownerless-group1.png":::
+   :::image type="content" source="../../media/result-audit-ownerless-group1.png" alt-text="Screenshot of result of audit log search." lightbox="../../media/result-audit-ownerless-group1.png":::
     
-    The following example shows an audit log entry for changes made:
+   The following example shows an audit log entry for changes made:
     
-    :::image type="content" source="../../media/audit-log1.png" alt-text="Screenshot of an audit log." lightbox="../../media/audit-log1.png":::
+   :::image type="content" source="../../media/audit-log1.png" alt-text="Screenshot of an audit log." lightbox="../../media/audit-log1.png":::
 
 ## Common issues with the ownerless group policy
 
 - **Exchange Online throttles policy notifications.**
-  - Because this policy sends notifications from one mailbox, Exchange Online can throttle the policy's notification emails if there are too many ownerless groups in your organization. Exchange Online mailboxes are limited to 10,000 sent emails per day.
+   - Because this policy sends notifications from one mailbox, Exchange Online can throttle the policy's notification emails if there are too many ownerless groups in your organization. Exchange Online mailboxes are limited to 10,000 sent emails per day.
 
 - **The action buttons *Yes* and *No* aren't available in a forwarded notification email.**
-  - If a member forwards their notification email to a different member, the forward recipient can't accept or decline the invitation.
+   - If a member forwards their notification email to a different member, the forward recipient can't accept or decline the invitation.
 
 - **Member can't see *Yes* and *No* in the notification email.**
-  - Members should open notification emails in a separate window, not a preview pane. If the member views the notification in an email preview pane, they can't see the **Yes** and **No** options.
-  - Make sure that the user principal name (UPN) and primary email address of the sender are the same. For information about how to update the UPN or primary email address of a user, see [Change a user name and email address](/microsoft-365/admin/add-users/change-a-user-name-and-email-address). If they don't match, the recipient can't see the **Yes** and **No** options.
+   - Members should open notification emails in a separate window, not a preview pane. If the member views the notification in an email preview pane, they can't see the **Yes** and **No** options.
+   - Make sure that the user principal name (UPN) and primary email address of the sender are the same. For information about how to update the UPN or primary email address of a user, see [Change a user name and email address](/microsoft-365/admin/add-users/change-a-user-name-and-email-address). If they don't match, the recipient can't see the **Yes** and **No** options.
 
 - **The policy for ownerless groups is configured, but group members don't receive notifications.**
-  - This problem occurs if the specified sender in the policy doesn't have a user or group mailbox provisioned in Exchange Online. If the sender has a user or group mailbox, check the [audit log](/purview/audit-get-started#step-3-search-the-audit-log) in the [Microsoft Purview portal](https://go.microsoft.com/fwlink/p/?linkid=2077149) to trace whether email notifications were sent.
-  - Members who don't have a user mailbox provisioned in Exchange Online don't receive notifications.
+   - This problem occurs if the specified sender in the policy doesn't have a user or group mailbox provisioned in Exchange Online. If the sender has a user or group mailbox, check the [audit log](/purview/audit-get-started#step-3-search-the-audit-log) in the [Microsoft Purview portal](https://go.microsoft.com/fwlink/p/?linkid=2077149) to trace whether email notifications were sent.
+   - Members who don't have a user mailbox provisioned in Exchange Online don't receive notifications.
 
 ## Related articles
 
-- [Overview of Microsoft 365 Groups for administrators](office-365-groups.md).
-- [Compare types of groups in Microsoft 365](compare-groups.md).
+- [Overview of Microsoft 365 Groups for administrators](office-365-groups.md)
+
+- [Compare types of groups in Microsoft 365](compare-groups.md)
+
 - [Search the audit log in the Microsoft Purview portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
