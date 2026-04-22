@@ -52,7 +52,7 @@ When Anthropic models are used in Copilot experiences in Word, Excel, or PowerPo
 1. Sign in to the Microsoft 365 admin center as an administrator assigned the **AI Administrator** role.  
 2. Go to **Copilot** -> **Settings** -> **View All** -> **AI providers operating as Microsoft subprocessors**.
 
-    :::image type="content" source="media/ai-providers-operating-as-subprocessors.png" alt-text="Screenshot  of the AI providers operating as Microsoft subprocessors page with All users selected" lightbox="media/ai-providers-operating-as-subprocessors.png":::
+    :::image type="content" source="media/ai-providers-operating-as-subprocessors-sec-group.png" alt-text="Screenshot  of the AI providers operating as Microsoft subprocessors page with user and security group options." lightbox="media/ai-providers-operating-as-subprocessors-sec-group.png":::
 
 3. Confirm the correct setting for your organization.
 
