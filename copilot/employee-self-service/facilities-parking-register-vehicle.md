@@ -51,7 +51,7 @@ Now that we covered the fundamentals, let’s walk through a practical example. 
 To extend the Employee Self-Service Copilot Agent with a custom *Register a Vehicle* topic, ensure the following prerequisites are met:
 
 - Employee Self-Service agent is installed in Copilot Studio.
-- Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle) in Github.
+- Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeRegisterVehicle) in GitHub.
 - Maker access to a sandbox or preproduction environment in Copilot Studio.
 - Access to the Vehicle Registration API and Config APIs, which are used to fetch the config data for different regions.
   - For this example of registering a vehicle for parking on campus, we assume the vehicle registration system is a custom solution built on the Azure platform.
@@ -105,7 +105,7 @@ This process involves only one step:
 - Validate
   - Open the visual representation of the topic definition and validate the workflow of the topic.
   - Select **Topic Checker** for any static issues with the definition.
-  - Optionally, go through the following section "Validate the Topic", to understand and validate the steps.
+  - Optionally, go through the following section "Review the topic workflow", to understand and validate the steps.
 
 - Now, let's test the newly added topic
   - Using the Test button in **Copilot Studio**, open the test chat window.
