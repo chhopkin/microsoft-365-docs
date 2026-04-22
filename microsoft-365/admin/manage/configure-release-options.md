@@ -1,9 +1,9 @@
 ---
-title: "Configure modern release options for Microsoft 365"
+title: "Configure new Standard and Deferred release options for Microsoft 365"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 04/15/2026
+ms.date: 04/20/2026
 ms.reviewer: pamelaar
 audience: Admin
 ms.topic: how-to
@@ -16,18 +16,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 search.appverid: MET150
-description: "Learn how to set up frontier, standard, and deferred for new features in Microsoft 365."
+description: "Learn how to set up standard, deferred, and frontier release options for new features in Microsoft 365 to better manage your organization."
 appliesto: 
 - Microsoft 365 Copilot
 - Microsoft 365 admin center
 ---
 
-# Configure modern release options for Microsoft 365 features
+# Configure new Standard and Deferred release options for Microsoft 365
 
-Microsoft 365 delivers updates continuously, enabling organizations to adopt new capabilities without large, infrequent upgrades. To help IT admins manage this pace of change, Microsoft 365 introduces a new three-tier audience-based release model—**Frontier, Standard, and Deferred**—that balances broad adoption and organizational readiness.
+Microsoft 365 delivers updates continuously, enabling organizations to adopt new capabilities without large, infrequent upgrades. To help IT admins manage this pace of change, Microsoft 365 offers a new three-tier, audience-based release model—**Frontier, Standard, and Deferred**—so organizations can balance early access with readiness and control.
 
 > [!IMPORTANT]
-> The modern release options of standard and deferred will initially apply to Microsoft 365 Copilot updates that have been identified as a major change and deferred capable in the Message center. We’ll expand this approach across all Microsoft 365 services over time. For release information for Microsoft 365 apps, see [Overview of update channels for Microsoft 365 Apps](/deployoffice/overview-update-channels).
+> The modern release options of standard and deferred initially applies to Microsoft 365 Copilot updates that have been identified as both a major change and deferred capable in the Message center. We’ll expand this approach across all Microsoft 365 services over time. For release information for Microsoft 365 apps, see [Overview of update channels for Microsoft 365 Apps](/deployoffice/overview-update-channels).
 
 With **Standard release**, your organization receives new features as soon as they’re generally available (GA). Standard release is the default option and should be the primary release channel for most customers. Microsoft thoroughly tests and validates all features and services before we release them. Your organization is configured as standard release by default.
 
@@ -71,6 +71,8 @@ You must have one of the following roles in Microsoft 365 admin center to config
 - Security Admin
 - AI Admin
 
+For more information, see [About administrator roles in the Microsoft 365 admin center](../add-users/about-admin-roles.md).
+
 ## Release option best practices
 
 We recommend that you use the release options in the following ways to balance early access with organizational readiness:
@@ -109,7 +111,7 @@ To assign users to the Deferred release audience, follow these steps:
 1. Select **Save**.
 
 > [!NOTE]
-> If you move users from standard release to deferred release, they might lose access to features that aren't available yet in standard release.
+> If you move users from standard release to deferred release, they might lose access to features that aren't available yet in deferred release.
 
 ## Related articles
 
