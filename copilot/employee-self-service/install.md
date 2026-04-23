@@ -76,7 +76,7 @@ Follow the steps provided for setting your preferred solution:
 
 |Tier            |Option        | What it does    | Who sets it up        |Maker Experience        |
 |----------------|--------------|-----------------|-----------------------|------------------------|
-|**Basic**       |[Power Platform Pipelines](/power-platform/alm/pipelines)|Admin-configured Dev > Test > uction stages. Prevalidates dependencies, auto backs up solutions, supports rollback. |Platform Admin (one-time setup)|Select "Deploy" from Copilot Studio. No export/import or DevOps knowledge needed. |
+|**Basic**       |[Power Platform Pipelines](/power-platform/alm/pipelines)|Admin-configured Dev > Test > Production stages. Prevalidates dependencies, auto backs up solutions, supports rollback. |Platform Admin (one-time setup)|Select "Deploy" from Copilot Studio. No export/import or DevOps knowledge needed. |
 |**Intermediate**|[Pipelines + Native Git integration](/power-platform/release-plan/2024wave2/power-apps/connect-environment-source-control)|Adds source control through Azure DevOps Git. Full audit trail, parallel development, YAML-based solution format. |Platform Admin + Azure DevOps Project Owner|Commit and pull changes in Power Platform UI. No command line required. |
 |**Advanced**|[Copilot ALM Starter + CI/CD Pipelines](https://github.com/microsoft/copilot-alm-starter)|Prebuilt GitHub Actions/Azure pipelines with automated export, PR validation, environment-specific settings, and workload identity federation. |DevOps Engineer (initial setup); CI/CD runs automatically thereafter |Makers author in Copilot Studio as usual. All ALM (Application Lifecycle Management) is handled by the pipeline on merge. |
 
