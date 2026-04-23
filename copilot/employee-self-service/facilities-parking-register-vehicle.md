@@ -1,11 +1,11 @@
 ---
-title: Register Your Vehicle for Parking
+title: "Extend Employee Self-Service agent: Register Your Vehicle for Parking"
 f1.keywords: NOCSH
 ms.author: heidip
 author: vibeCoder500
 manager: abmohamm
 ms.reviewer: MicrosoftHeidi
-ms.date: 04/22/2026
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -13,11 +13,11 @@ ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about extending the Employee Self-Service Copilot Agent tailored to your organization. This article describes the steps to register your vehicle for parking on campus via Employee Self-Service. Example - "I want to register my vehicle for parking on campus."
+description: Learn about extending the Employee Self-Service Copilot agent tailored to your organization. This article describes the steps to register your vehicle for parking on campus via Employee Self-Service. Example - "I want to register my vehicle for parking on campus."
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
-# Extend Employee Self-Service Agent: Register a Vehicle
+# Extend Employee Self-Service agent: Register a Vehicle
 
 The Employee Self-Service Copilot agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
@@ -105,7 +105,7 @@ This process involves only one step:
 - Validate
   - Open the visual representation of the topic definition and validate the workflow of the topic.
   - Select **Topic Checker** for any static issues with the definition.
-  - Optionally, go through the following section "Review the topic workflow", to understand and validate the steps.
+  - Optionally, go through the following section, "Review the topic workflow", to understand and validate the steps.
 
 - Now, let's test the newly added topic
   - Using the Test button in **Copilot Studio**, open the test chat window.

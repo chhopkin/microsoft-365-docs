@@ -28,7 +28,7 @@ End users who encounter archived files can reactivate the file by navigating to 
 ![Animated GIF that shows an end user selecting an archived file and choosing Reactivate in SharePoint.](media/archive-end-user/reactivate-file.png)
 
 > [!NOTE]
-> For some Microsoft 365 applications, there is no clear indicator that a file is archived. Navigating to the underlying SharePoint site or OneDrive account is the most reliable way to confirm a file’s archive status and reactivate it if needed.
+> For some Microsoft 365 applications, there is no clear indicator that a file is archived. Navigating to the underlying SharePoint site or OneDrive account is the most reliable way to confirm a file's archive status and reactivate it if needed.
 
 ---
 
@@ -41,7 +41,7 @@ Users with edit permissions can easily archive files on SharePoint sites that ar
 ---
 
 #### Folder-level actions
-Folder-level actions let users **archive or reactivate all files within a folder**, including files in any subfolders, in a single operation. These actions apply recursively to all files within the selected folder. Folders themselves don’t have an archived or active state. Users must have the appropriate permissions on the files to perform these actions.
+Folder-level actions let users **archive or reactivate all files within a folder**, including files in any subfolders, in a single operation. These actions apply recursively to all files within the selected folder. Folders themselves don't have an archived or active state. Users must have the appropriate permissions on the files to perform these actions.
 
 Users with edit permissions can archive all files in a folder by using the '***Archive all files***' action. Likewise, users with read permissions can reactivate all archived files in a folder by using the '***Reactivate all files***' action.
 
