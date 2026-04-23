@@ -84,13 +84,14 @@ You can only delete templates you no longer need and add new ones. To delete a t
 2. Select **Templates**, and then select **Manage templates** from the drop-down list.
 
 3. A list of templates will appear. You can delete a template by doing any of the following:
-    - Select one or more templates, and then select **Delete**.
-    - Select the three dots to the right of the template name, and then select **Delete**.
-    - Select the template name. When the template details appear on the right side of your screen, select **Delete template**.
+
+   - Select one or more templates, and then select **Delete**.
+   - Select the three dots to the right of the template name, and then select **Delete**.
+   - Select the template name. When the template details appear on the right side of your screen, select **Delete template**.
 
 ## Related articles
 
-[Add users and assign licenses at the same time](add-users.md)
+- [Add users and assign licenses at the same time](add-users.md)
 
-[Remove a former employee from Microsoft 365](remove-former-employee.md)
+- [Remove a former employee from Microsoft 365](remove-former-employee.md)
   
