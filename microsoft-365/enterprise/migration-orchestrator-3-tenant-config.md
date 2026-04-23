@@ -169,7 +169,7 @@ The CTTM permissions granted are as follows:
 
 1. Set-CalendarRBACRoles assigns an RBAC role to the MMS App to allow Calendar Read Write Permissions.
 
-### Teams Chat Migration (CTTM) permissions
+### Cross-Tenant Migration Service (CTMS) permissions
 
 The CrossTenantMigration Production Azure Active Directory (AAD) App is added with service principals. The Resource Identity Mapping service app service principals are added. The Identity Mapping service app role is granted to the CTMS app.
 

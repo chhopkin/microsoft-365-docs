@@ -2,17 +2,17 @@ items:
 - name: Microsoft 365 Business Premium
   items:
     - name: Security overview
-      href: /microsoft-365/admin/security-and-compliance/m365bp-security-benefits?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365bp-security-benefits.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: What's new in security
-      href: /microsoft-365/admin/security-and-compliance/m365b-security-whats-new?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365b-security-whats-new.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Why choose Microsoft 365 Business Premium?
-      href: /microsoft-365/admin/security-and-compliance/m365bp-security-benefits
+      href: ../admin/security-and-compliance/m365bp-security-benefits.md
     - name: Top 10 ways to secure your business data
-      href: /microsoft-365/admin/security-and-compliance/m365b-security-best-practices
+      href: ../admin/security-and-compliance/m365b-security-best-practices.md
     - name: Trial user guide - Microsoft 365 Business Premium
       href: m365bp-trial-playbook-microsoft-business-premium.md
     - name: Add Microsoft Defender Suite for Business Premium to your subscription
-      href: /microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/add-defender-suite-business-premium.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Resources for partners
       href: /defender-business/mdb-partners?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
 - name: Step 1- Sign in and set up
@@ -24,35 +24,35 @@ items:
 - name: Step 2 - Configure your security protection
   items:
     - name: Overview
-      href: /microsoft-365/admin/security-and-compliance/m365bp-security-benefits?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365bp-security-benefits.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Verify MFA is turned on or Configure Conditional access policies
-      href: /microsoft-365/admin/security-and-compliance//microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/set-up-multi-factor-authentication.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Protect your admin accounts
-      href: /microsoft-365/admin/security-and-compliance/m365b-account-security-admins?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365b-account-security-admins.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Email and collaboration security
-      href: /microsoft-365/admin/security-and-compliance/m365b-email-collaboration-security?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365b-email-collaboration-security.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Secure managed and unmanaged devices
-      href: /microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365bp-devices-enrollment.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Set up information protection
-      href: /microsoft-365/admin/security-and-compliance/m365bp-information-protection?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365bp-information-protection.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Secure Microsoft 365 Copilot
-      href: /microsoft-365/admin/security-and-compliance/m365b-copilot-security?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365b-copilot-security.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
 - name: Step 3 - Set up unmanaged (BYOD) devices
   items:
     - name: Overview
-      href: /microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment#mobile-app-management-in-intune-for-data-protection?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365bp-devices-enrollment.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json#mobile-app-management-in-intune-for-data-protection
     - name: Set up multifactor authentication
       href: https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14
     - name: Install Microsoft 365 Apps on devices
       href: m365bp-users-install-m365-apps.md
     - name: Protect unmanaged devices
-      href: /microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment#more-options-for-mam?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365bp-devices-enrollment.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json#more-options-for-mam
 - name: Step 4 - Use email securely
   items:
     - name: Overview
-      href: /microsoft-365/admin/security-and-compliance/m365b-users-phishing-spam-malware?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365b-users-phishing-spam-malware.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Send encrypted email
-      href: /microsoft-365/admin/security-and-compliance/m365bp-information-protection
+      href: ../admin/security-and-compliance/m365bp-information-protection.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
 - name: Step 5 - Collaborate and share securely
   items:
     - name: Overview
@@ -68,23 +68,21 @@ items:
 - name: Step 6 - Safeguard managed devices
   items:
     - name: Overview
-      href: /microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment
-    - name: Upgrade to Windows 10 or 11 Pro (if needed)
-      href: m365bp-upgrade-windows-pro.md
+      href: ../admin/security-and-compliance/m365bp-devices-enrollment.md
     - name: Onboard enrolled devices and apply policies
       href: /defender-business/mdb-onboard-devices?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Use Windows Autopilot to set up or reset devices
-      href: /mem/autopilot/windows-autopilot?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: /autopilot/overview?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Manage Microsoft 365 installation options for devices
-      href: /DeployOffice/manage-software-download-settings-office-365?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: /microsoft-365-apps/deploy/manage-software-download-settings-office-365?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
 - name: Monitor onboarded devices
   items:
     - name: View device status
       href: /defender-business/mdb-manage-devices?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Review and edit device policies
-      href: /microsoft-365/admin/security-and-compliance/m365bp-devices-protection?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365bp-devices-protection.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Manage device groups
-      href: /microsoft-365/admin/security-and-compliance/m365bp-devices-groups-categories?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: ../admin/security-and-compliance/m365bp-devices-groups-categories.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
 - name: Security incident management
   items:
     - name: Overview
@@ -112,14 +110,14 @@ items:
     - name: Microsoft 365 admin content
       href: /microsoft-365/admin/
     - name: Microsoft 365 Lighthouse
-      href: ../lighthouse/m365-lighthouse-overview.md
+      href: ../lighthouse/m365-lighthouse-overview.md?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Threat protection by Microsoft Defender Antivirus
       href: /defender-business/mdb-manage-devices?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Endpoint security in Microsoft Intune
-      href: /mem/intune/protect/endpoint-security-policy
+      href: /intune/intune-service/protect/endpoint-security-policy
     - name: Intune admin roles
       href: /intune/intune-service/fundamentals/role-based-access-control?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Windows Autopilot scenarios and capabilities
-      href: /mem/autopilot/windows-autopilot-scenarios
+      href: /autopilot/windows-autopilot-scenarios
     - name: Security, privacy, and compliance
       href: m365bp-security-privacy-compliance.md
