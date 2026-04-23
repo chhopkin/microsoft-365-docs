@@ -31,7 +31,7 @@ For example, you enable the OCR service and then add image files to your documen
 
 ## Requirements and limitations
 
-This service is available only for SharePoint sites — including hub sites, sites associated to a hub site, and the primary site of a site collection. Subsites aren’t supported.
+This service is available only for SharePoint sites - including hub sites, sites associated to a hub site, and the primary site of a site collection. Subsites aren't supported.
 
 ### Supported file types
 

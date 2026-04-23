@@ -28,19 +28,19 @@ Other advantages of using Microsoft 365 Archive include:
 
 - **Copilot optimization** - Copilot is not trained on archived content, maximizing response relevancy. 
 
-- **Cost savings** – A lower list price on storage consumption beyond your license-allocated Microsoft 365 storage quota.
+- **Cost savings** - A lower list price on storage consumption beyond your license-allocated Microsoft 365 storage quota.
 
-- **Lossless metadata** – A site retains all of its metadata and permissions upon reactivation.
+- **Lossless metadata** - A site retains all of its metadata and permissions upon reactivation.
 
-- **Speed** – Ultra-fast archive of sites of any size and any number of sites.
+- **Speed** - Ultra-fast archive of sites of any size and any number of sites.
 
-- **Decluttering** – Explicit separation between active and inactive content to help manage your site's lifecycle.
+- **Decluttering** - Explicit separation between active and inactive content to help manage your site's lifecycle.
 
 Microsoft 365 Archive works with the Microsoft 365 search index and the [Microsoft Purview](/purview/purview) feature set to support long-term data management at a price aligned with the lifecycle of your content. Microsoft 365 Archive is managed in the SharePoint admin center by [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator).
 
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
-When a file or site is archived, it moves into an explicitly colder tier and no longer consumes the tenant’s active storage quota. Instead, it contributes to Microsoft 365 Archive storage consumption. Content in this tier is no longer directly accessible to anyone. Full content search works for Purview Content Search, end-user search, and eDiscovery search experiences. Purview Content Search and eDiscovery can still directly export content but may take longer to export archived content.
+When a file or site is archived, it moves into an explicitly colder tier and no longer consumes the tenant's active storage quota. Instead, it contributes to Microsoft 365 Archive storage consumption. Content in this tier is no longer directly accessible to anyone. Full content search works for Purview Content Search, end-user search, and eDiscovery search experiences. Purview Content Search and eDiscovery can still directly export content but may take longer to export archived content.
 
 When a site is archived, all content within the site is archived, including:
 
@@ -50,11 +50,11 @@ When a site is archived, all content within the site is archived, including:
 
 - Permissions and all metadata
 
-Administrators should notify site owners and end users before archiving a site so they’re aware that the site will no longer be accessible.
+Administrators should notify site owners and end users before archiving a site so they're aware that the site will no longer be accessible.
 
 ## Limitations
 ### Site Archive limitations
-- Publishing sites, channel sites, and some legacy site template types aren’t available to archive with Microsoft 365 Archive. For more information, see [Site templates supported](./archive-manage.md#site-templates-supported).
+- Publishing sites, channel sites, and some legacy site template types aren't available to archive with Microsoft 365 Archive. For more information, see [Site templates supported](./archive-manage.md#site-templates-supported).
 
 - Sites associated with Teams that use only standard channels are supported for archiving. Sites associated with Teams that include private or shared channels are only partially supported:
 
@@ -65,7 +65,7 @@ Administrators should notify site owners and end users before archiving a site s
   
 ### File Archive (preview) limitations
 
-- Some Microsoft 365 applications and services don’t yet support file-level archiving. These applications might display incorrect error messages, fail to load correctly, or fail actions taken with archived content.  Because client support and user awareness for archived files continue to evolve during this preview period, we recommend that you use file-level archive thoughtfully and ensure users understand how to reactivate files at their original location if access is required—especially if they encounter unexpected open or load errors. The list of known limitation includes but isn’t limited to:
+- Some Microsoft 365 applications and services don't yet support file-level archiving. These applications might display incorrect error messages, fail to load correctly, or fail actions taken with archived content.  Because client support and user awareness for archived files continue to evolve during this preview period, we recommend that you use file-level archive thoughtfully and ensure users understand how to reactivate files at their original location if access is required-especially if they encounter unexpected open or load errors. The list of known limitation includes but isn't limited to:
 
      - Word and PowerPoint online.
     
@@ -75,9 +75,9 @@ Administrators should notify site owners and end users before archiving a site s
     
      - Older versions of Windows, such as Windows 10 and earlier, with the OneDrive sync client.
   
-    - This limitation also applies to Windows devices that aren’t configured to receive frequent updates.
+    - This limitation also applies to Windows devices that aren't configured to receive frequent updates.
         
-     - Older versions of Office desktop apps that haven’t had updates since March 1, 2026.
+     - Older versions of Office desktop apps that haven't had updates since March 1, 2026.
     
      - Other apps such as Clipchamp and Power BI fail to load archived content when attempting to import.
     
@@ -85,7 +85,7 @@ Administrators should notify site owners and end users before archiving a site s
 
 - Files that are reactivated cannot be archived again for 30 days.
 
-- Certain file types can’t be archived, including OneNote, SharePoint pages, and SharePoint agents.
+- Certain file types can't be archived, including OneNote, SharePoint pages, and SharePoint agents.
 
 - The Site Assets library on SharePoint sites does not support file-level archive.
 

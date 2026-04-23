@@ -14,6 +14,7 @@ f1.keywords:
 ms.custom: 
 - Adm_O365
 - 'O365E_SetupDirSyncLocalDir'
+- identity-models
 ms.collection:
 - scotvorg
 - Ent_O365
