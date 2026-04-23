@@ -60,7 +60,7 @@ Use the app to:
 - Use **Agents** to get help with tasks, including agents your organization creates.
 - Create **Notebooks** to organize information and get insights.
 - **Create** and edit content, like images, videos, and brand kits.
-- Access your **Apps**, including Microsoft 365 apps like Teams, Excel, and SharePoint.
+- Access your **Apps**, including some Microsoft 365 apps like Teams, Excel, and SharePoint.
 
 End users can learn more about the Copilot app at [Get started with the Microsoft 365 Copilot app](https://support.microsoft.com/topic/get-started-with-the-microsoft-365-copilot-app-092599f1-5917-4bd6-bd59-58af628bbc39).
 

@@ -4,7 +4,7 @@ ms.author: kwekua
 author: kwekuako
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 02/11/2026
+ms.date: 04/22/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-copilot
@@ -52,7 +52,12 @@ You have to be a member of the Global administrator role to perform this task. F
 2. On the **Copilot settings** page, select **View all**.
 3. Select **AI providers for other large language models**.
 4. Under **Available models for your organization**, choose **xAI**.
-5. Agree to the Terms and Conditions and select **Save**.
+5. Under **Choose who can access xAI models for Copilot and generative AI experiences**, select your users or groups and **Save**.
+
+    :::image type="content" source="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png" alt-text="Screenshot  of the AI providers operating as Microsoft subprocessors page with user and security group options." lightbox="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png":::
+
+> [!NOTE]
+> You can restrict user access to AI independent providers by assigning permissions to specific users or Microsoft Entra ID security groups in the Microsoft 365 admin center. These assignments are applied at the provider level and enforced across Microsoft 365 Copilot and Copilot Studio experiences. When access is limited by user or group membership, only the assigned users can use Copilot features or agents that rely on that AI provider. Review existing user or group assignments and update policies or configurations as needed. For more information on user and security group access, see [Assign AI provider access to users and groups](copilot-ai-provider-user-sec-group-access.md). For more information on creating security groups, see [Create a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
 
 After you connect, it may take a few hours for the connection to complete.
 

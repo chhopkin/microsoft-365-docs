@@ -9359,6 +9359,31 @@
           "source_path": "Microsoft-365/security/microsoft-365-zero-trust.md",
           "redirect_url": "/security/zero-trust/microsoft-365-zero-trust",
           "redirect_document_id": false
+        },
+        {
+          "source_path": "Microsoft-365/security/security-posture-solution-overview.md",
+          "redirect_url": "/defender-xdr/microsoft-365-defender",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "Microsoft-365/security/strengthen-security-posture-configure-capabilities.md",
+          "redirect_url": "/defender-xdr/microsoft-365-defender",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "Microsoft-365/security/strengthen-security-posture-assess-protect.md",
+          "redirect_url": "/defender-xdr/microsoft-365-defender",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "Microsoft-365/security/strengthen-security-posture-investigate-improve.md",
+          "redirect_url": "/defender-xdr/microsoft-365-defender",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "Microsoft-365/security/strengthen-security-posture-track-maintain.md",
+          "redirect_url": "/defender-xdr/microsoft-365-defender",
+          "redirect_document_id": false
         }
    ]
  }
