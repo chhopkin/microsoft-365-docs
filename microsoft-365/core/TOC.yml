@@ -4,29 +4,34 @@
       items:
         - name: Service model hierarchy
           href: ../enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Microsoft 365 for business
+        - name: Microsoft 365 plans
           items:
-            - name: What is Microsoft 365 for business?
-              href: ../admin/admin-overview/what-is-microsoft-365-for-business.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Why choose Microsoft 365 for business premium?
-              href: ../admin/security-and-compliance/m365bp-security-benefits.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Plan your setup
-              href: ../admin/setup/plan-your-setup.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: License assignment overview
-              href: ../commerce/licenses/subscriptions-and-licenses.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Microsoft 365 Business Premium security overview
-              href: ../admin/security-and-compliance/m365b-security-overview.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Microsoft 365 Copilot security overview for small business
-              href: ../admin/security-and-compliance/m365b-copilot-security.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Microsoft 365 Business Premium security FAQ
-              href: ../admin/security-and-compliance/m365bp-security-faq.yml?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Microsoft 365 Business Premium security best practices
-              href: ../admin/security-and-compliance/m365b-security-best-practices.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Adding Defender for Business to Microsoft 365 Business Premium
-              href: ../admin/security-and-compliance/add-defender-suite-business-premium.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Find a Microsoft partner or reseller
-              href: ../admin/manage/find-your-partner-or-reseller.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-
+            - name: Microsoft 365 for business
+              items:
+                - name: What is Microsoft 365 for business?
+                  href: ../admin/admin-overview/what-is-microsoft-365-for-business.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+                - name: Why choose Microsoft 365 for business premium?
+                  href: ../admin/security-and-compliance/m365bp-security-benefits.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+                - name: Plan your setup
+                  href: ../admin/setup/plan-your-setup.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+                - name: License assignment overview
+                  href: ../commerce/licenses/subscriptions-and-licenses.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+                - name: Microsoft 365 Business Premium security overview
+                  href: ../admin/security-and-compliance/m365b-security-overview.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+                - name: Microsoft 365 Copilot security overview for small business
+                  href: ../admin/security-and-compliance/m365b-copilot-security.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+                - name: Microsoft 365 Business Premium security FAQ
+                  href: ../admin/security-and-compliance/m365bp-security-faq.yml?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+                - name: Microsoft 365 Business Premium security best practices
+                  href: ../admin/security-and-compliance/m365b-security-best-practices.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+                - name: Adding Defender for Business to Microsoft 365 Business Premium
+                  href: ../admin/security-and-compliance/add-defender-suite-business-premium.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+                - name: Find a Microsoft partner or reseller
+                  href: ../admin/manage/find-your-partner-or-reseller.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: Microsoft 365 for enterprise
+              items:
+                - name: E3 and E5 licenses
+                  href: ../commerce/licenses/e3-extra-features-licenses.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Microsoft 365 admin center
       items:
         - name: Microsoft 365 admin center overview
@@ -47,9 +52,9 @@
               href: ../commerce/services/pay-as-you-go-services.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
             - name: What's new for pay-as-you-go services
               href: ../commerce/services/pay-as-you-go-whats-new.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-    - name: Identity
+    - name: Identity models
       items:
-        - name: Understand your identity infrastructure
+        - name: Identity solution overview
           href: ../enterprise/deploy-identity-solution-overview.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Understand your identity model
           href: ../enterprise/deploy-identity-solution-identity-model.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
@@ -61,13 +66,13 @@
               items:
                 - name: Prepare hybrid-identity for directory synchronization
                   href: ../enterprise/prepare-for-directory-synchronization.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+    - name: User accounts
+      items:
         - name: Plan where and how to manage user accounts
           href: ../enterprise/manage-microsoft-365-accounts.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Understand user account licenses
           href: ../enterprise/assign-licenses-to-user-accounts.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
           items:
-            - name: About admin roles
-              href: ../admin/add-users/about-admin-roles.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
             - name: Password policy recommendations
               href: ../admin/misc/password-policy-recommendations.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
             - name: Explain Microsoft 365 groups to your users
@@ -276,18 +281,11 @@
               href: ../commerce/services/pay-as-you-go-setup.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
             - name: Create a budget for pay-as-you-go services
               href: ../commerce/services/pay-as-you-go-budget.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-    - name: Identity
-      href:
+    - name: Identity models
       items: 
-        - name: Protect your privileged accounts
-          href: ../enterprise/protect-your-global-administrator-accounts.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Protect your user accounts 
-          href: ../enterprise/microsoft-365-secure-sign-in.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Deploy your identity model
-          href:
           items:
             - name: Hybrid-identity
-              href:
               items:
                 - name: Set up directory synchronization
                   href: ../enterprise/set-up-directory-synchronization.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
@@ -305,14 +303,18 @@
                 - name: Other hybrid solutions
                   href: ../enterprise/hybrid-solutions.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
                   items:
-                    - name: Use Microsoft Entra ID for SharePoint Server authentication (entra lib)
-                      href: /entra/identity/saas-apps/sharepoint-on-premises-tutorial?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
                     - name: Connect an on-premise network to an Azure virtual network
                       href: ../enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
                     - name: Deploy a directory synchronization server in Azure IaaS
                       href: ../enterprise/deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Synchronize domain users to Microsoft 365 
           href: ../admin/setup/manage-domain-users.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+    - name: User accounts
+      items:
+        - name: Protect your privileged accounts
+          href: ../enterprise/protect-your-global-administrator-accounts.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Protect your user accounts 
+          href: ../enterprise/microsoft-365-secure-sign-in.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Create user accounts
           href:
           items:
@@ -463,16 +465,20 @@
               href: ../admin/manage/pin-apps-to-app-launcher.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Data residency
       items:
-        - name: Set up Multi-Geo
-          href: ../enterprise/multi-geo-tenant-configuration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Configure Multi-Geo region routing
-          href: ../enterprise/configure-multi-geo-in-region-routing.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Configure preferred data location
-          href: /entra/identity/hybrid/connect/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Configure search
-          href: ../enterprise/configure-search-for-multi-geo.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: User testing in Multi-Geo
-          href: ../enterprise/m365-multi-geo-user-testing.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Advanced Data Residency (ADR)
+          items:
+        - name: Multi-Geo
+          items:
+            - name: Set up Multi-Geo
+              href: ../enterprise/multi-geo-tenant-configuration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: Configure Multi-Geo region routing
+              href: ../enterprise/configure-multi-geo-in-region-routing.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: Configure preferred data location
+              href: /entra/identity/hybrid/connect/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: Configure search
+              href: ../enterprise/configure-search-for-multi-geo.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: User testing in Multi-Geo
+              href: ../enterprise/m365-multi-geo-user-testing.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Security, compliance, & privacy
       items:
         - name: Activate rights management
@@ -546,6 +552,8 @@
           href: ../enterprise/network-requests-in-office-2016-for-mac.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Scenario-based configurations
       items:
+        - name: Use Microsoft Entra ID for SharePoint Server authentication (entra lib)
+          href: /entra/identity/saas-apps/sharepoint-on-premises-tutorial?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
 - name: Adopt
   items:
     - name: Help your users adopt Microsoft 365 services
@@ -659,7 +667,7 @@
           href: ../commerce/licenses/change-of-vl-partner-request.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Contact volume licensing support
           href: ../commerce/licenses/contact-vl-support.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json 
-    - name: Identity
+    - name: User accounts
       href:
       items:
         - name: Manage roles and related experiences 
@@ -957,7 +965,7 @@
         - name: Set up release options
           href: ../admin/manage/release-options-in-office-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Microsoft 365 change guide
-          href: /microsoft-365-apps/best-practices/microsoft-365-change-guide.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+          href: /microsoft-365-apps/best-practices/microsoft-365-change-guide?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Managing update channels for Microsoft 365 Apps
           href: /microsoft-365-apps/updates/overview-update-channels?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Manage Microsoft 365 with PowerShell

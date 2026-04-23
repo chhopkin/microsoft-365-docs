@@ -44,9 +44,9 @@ Terms to know:
 7. You can see the export status on the **Solutions** page. The status banner updates when the export completes.
 8. Select **Download** to download the exported solution and save it in a preferred folder.
 
->[!IMPORTANT]
->[No edits are allowed in the downloaded package, as they cause the upload to fail.]
-
+    > [!IMPORTANT]
+    > [No edits are allowed in the downloaded package, as they cause the upload to fail.]
+    
 9. Choose the desired Power Platform environment to deploy and test this exported solution.
 10. Ensure all the dependencies required for customization are already available in the target environment. If the dependencies aren't available, imports fail. The following dependencies need to be installed in the desired environment:
     1. The Employee Self-Service agent
@@ -59,8 +59,8 @@ Terms to know:
 
 The Employee Self-Service agent is designed to run on Teams channels and Microsoft 365 Copilot channels.
 
->[!IMPORTANT]
->Microsoft 365 Copilot channel isn't available for the Employee Self-Service agent while using options other than **Authenticate with Microsoft**.
+> [!IMPORTANT]
+> Microsoft 365 Copilot channel isn't available for the Employee Self-Service agent while using options other than **Authenticate with Microsoft**.
 
 By default, the Employee Self-Service agent uses Microsoft Entra authentication. Therefore, the default option is **Authenticate with Microsoft**.
 
@@ -74,8 +74,8 @@ If your organization needs to use a different identity provider than Microsoft E
 
 ## Publish the Employee Self-Service agent
 
->[!NOTE]
->If your organization's Teams app deployment has its own application lifecycle management/ DevOps process in place for deploying and testing new apps, you can side-load apps into the Teams app store using the **Download.zip** option. Consult your organization's Teams app deployment policies and work with your Teams administrators.
+> [!NOTE]
+> If your organization's Teams app deployment has its own application lifecycle management/ DevOps process in place for deploying and testing new apps, you can side-load apps into the Teams app store using the **Download.zip** option. Consult your organization's Teams app deployment policies and work with your Teams administrators.
 
 1. Open the **Employee Self-Service** agent in Copilot Studio.
 1. Verify the customizations from the imported solution are in place.
@@ -134,48 +134,47 @@ You can create a topic in Copilot Studio that detects when the agent is launched
 
 When a user opens the agent from Teams, the message appears as follows:
 
-> **Note**
->
+> [!NOTE]
 > **Looking for the Employee Self-Service Agent? You’re almost there!**
 >
-> 1. Open Copilot Business Chat (BizChat): https://www.microsoft365.com/chat
-> 2. In the left pane, select **Agents**
-> 3. Choose **All agents** if the agent isn’t immediately visible
+> 1. Open Copilot Business Chat (BizChat): https://www.microsoft365.com/chat.
+> 1. In the left pane, select **Agents**.
+> 1. Choose **All agents** if the agent isn’t immediately visible.
 >
 > You’ll find **Employee Self-Service** in the list.
 
 ### To create the redirect topic
 
-- Open the Employee Self-Service agent in Copilot Studio
-- Select **Topics**
-- Select **+ Add a topic** → **From blank**
-- Name the topic (for example, `Redirect from Teams`)
-- Paste the following:
+1. Open the Employee Self-Service agent in Copilot Studio.
+1. Select **Topics**.
+1. Select **+ Add a topic** → **From blank**.
+1. Name the topic (for example, `Redirect from Teams`).
+1. Paste the following:
 
-```yaml
-kind: AdaptiveDialog
-beginDialog:
-  kind: OnActivity
-  id: main
-  condition: =System.Activity.ChannelId = "msteams"
-  priority: -1
-  actions:
-    - kind: SendActivity
-      id: sendActivity_dT0g9y
-      activity: |
-        **Looking for the Employee Self-Service Agent? You're almost there!**
-        1. Open https://www.microsoft365.com/chat (BizChat).
-        2. In the left pane, select **Agents**.
-        3. Choose **All agents** if the agent isn't immediately visible.
-        4. You'll find **Employee Self-Service** in the list.
-    - kind: EndConversation
-      id: aCWPQ6
-    - kind: CancelAllDialogs
-      id: gd9GgV
-```
+    ```yaml
+    kind: AdaptiveDialog
+    beginDialog:
+      kind: OnActivity
+      id: main
+      condition: =System.Activity.ChannelId = "msteams"
+      priority: -1
+      actions:
+        - kind: SendActivity
+          id: sendActivity_dT0g9y
+          activity: |
+            **Looking for the Employee Self-Service Agent? You're almost there!**
+            1. Open https://www.microsoft365.com/chat (BizChat).
+            2. In the left pane, select **Agents**.
+            3. Choose **All agents** if the agent isn't immediately visible.
+            4. You'll find **Employee Self-Service** in the list.
+        - kind: EndConversation
+          id: aCWPQ6
+        - kind: CancelAllDialogs
+          id: gd9GgV
+    ```
 
-- Save the topic
-- Test by opening the agent from Teams in the Copilot Studio test pane
+1. Save the topic.
+1. Test by opening the agent from Teams in the Copilot Studio test pane.
 
 >[!NOTE]
 > Update the message if your tenant uses a different agent name.
@@ -184,27 +183,27 @@ beginDialog:
 
 To link directly to the agent:
 
-- Copy the link from Copilot (**… → Share**)
-- Replace the URL in the topic message
+1. Copy the link from Copilot (**… → Share**).
+1. Replace the URL in the topic message.
 
->[!NOTE]
+> [!NOTE]
 > [Auto-pinning](/microsoft-365/admin/manage/agent-registry#manage-pinning-of-agents) is recommended.
 
 ### Block the Employee Self-Service agent in Microsoft Teams
 
 To prevent access from Teams:
 
-- Block the agent in the Teams admin center
-- This removes it from discovery and usage in Teams
+1. Block the agent in the Teams admin center.
+1. This removes it from discovery and usage in Teams.
 
 To learn more, see [Agent and app governance](/microsoftteams/manage-apps#agent-and-app-governance).
 
-> **Important**
->
+> [!IMPORTANT]
 > Blocking the agent in Teams does not affect availability in Microsoft 365 Copilot.
 > Users can still access it via Copilot Business Chat.
 
 ## Uninstall the Employee Self-Service agent
+
 ### Core Employee Self-Service agent
 
 Follow these steps if you need to uninstall and delete the Employee Self-Service agent:
@@ -216,7 +215,7 @@ Follow these steps if you need to uninstall and delete the Employee Self-Service
 1. Delete all the dependencies, such as knowledge source configuration and other customizations applied, before deleting the solution itself. Otherwise the solution can't be deleted. [Learn more](/power-platform/alm/removing-dependencies) about removing dependencies in Power Platform.
 1. In the Employee Self-Service agent page, select the ellipsis (**...**) in the upper right pane next to **Test**.
 1. Select the **Delete** option from the dropdown.
-1. A popup window appears directing you to Power Apps Solutions.
+   A popup window appears directing you to Power Apps Solutions.
 1. Select **Go to Power Apps Solutions**.
 1. Identify the **Preferred solution** that you set up during the [installation](install.md) stage for saving customizations in the agent.
 1. In the solutions page, select the vertical ellipsis in the context menu and choose **Delete**.

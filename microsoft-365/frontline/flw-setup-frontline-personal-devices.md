@@ -19,7 +19,7 @@ manager: viseshag
 > This feature is currently in public preview. For updates, refer to the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?id=523213). 
 
 > [!NOTE]
-> Use a new test user account to evaluate this feature and validate your organization’s first-time setup experience.
+> Use a new test user account to evaluate this feature and validate your organization's first-time setup experience.
 
 ## Overview
 
@@ -68,7 +68,7 @@ Reset your default password if prompted.
 
 ## Step 2: download required apps
 
-You could need to download extra apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. These scenarios are supported by the setup experience:
+You could need to download extra apps such as Microsoft Authenticator and/or Company Portal based on your organization's security policies. These scenarios are supported by the setup experience:
 
 #### Multifactor authentication (MFA)
 
@@ -138,7 +138,7 @@ Next, you'll see a screen to download Microsoft Teams.
   
 ## Troubleshooting
 
-- If the QR code doesn’t work, manually search for each app in your devices app store.
+- If the QR code doesn't work, manually search for each app in your devices app store.
 
 ## FAQ
 
