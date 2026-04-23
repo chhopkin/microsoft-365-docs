@@ -11,8 +11,8 @@ ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- M365-subscription-management
-- Adm_O365
+ - M365-subscription-management
+ - Adm_O365
 ms.custom:
 - AdminTemplateSet
 search.appverid:
@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ai-usage: ai-assisted
-description: "Get the SharePoint site usage report to know how many files users store in SharePoint sites, how many are actively used, and the total storage consumed."
-ms.date: 04/17/2026
+description: "The SharePoint site usage report provides key metrics on file activity, storage, and sharing in Microsoft 365. Explore trends and manage your SharePoint sites efficiently."
+ms.date: 04/24/2026
 ---
 
 # SharePoint site usage report - Microsoft 365 admin center 
 
-The SharePoint site usage report provides a high-level view of the value you get from SharePoint. The report includes details about the total number of files that users store in SharePoint sites, how many files are actively being used, and the storage consumed across all these sites. You can drill into the SharePoint site usage report to understand the trends and per-site level details for all sites.
+The SharePoint site usage report provides a high-level view of the value you get from SharePoint. The report includes details about the total number of files that users store in SharePoint sites, how many files are actively used, and the storage consumed across all these sites. You can drill into the SharePoint site usage report to understand the trends and per-site level details for all sites.
 
 [!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
@@ -47,28 +47,26 @@ For information about the roles needed to view usage reports, see [Microsoft 365
 
 To add or remove columns from the report, select **Choose columns**.
 
-:::image type="content" source="../../media/71ac3195-c494-40c1-9346-a858125ef6df.png" alt-text="SharePoint site usage report - choose columns." lightbox="../../media/71ac3195-c494-40c1-9346-a858125ef6df.png":::
+:::image type="content" source="../../media/71ac3195-c494-40c1-9346-a858125ef6df.png" alt-text="Screenshot of the columns available for the SharePoint site usage report." lightbox="../../media/71ac3195-c494-40c1-9346-a858125ef6df.png":::
 
-To export the report data into an Excel .csv file, select the **Export** link. This exports data of all users and lets you do simple sorting and filtering for further analysis.
+To export the report data into an Excel .csv file, select the **Export** link. This action exports data for all users and lets you do simple sorting and filtering for further analysis.
 
 The SharePoint site usage report displays trends over the last 7, 30, 90, or 180 days. However, if you select a particular day in the report, the table shows data for up to 28 days from the current date (not the date the report was generated).
-
-[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]
 
 |Metric|Description|
 |:-----|:-----|
 |Site URL  |The full URL of the site. |
-|Deleted  |The deletion status of the site. It takes at least 7 days for sites to be marked as deleted.  |
+|Deleted  |The deletion status of the site. The site is marked as deleted after at least 7 days.  |
 |Site owner  |The username of the primary owner of the site.   |
 |Site owner principal name  |The email address of the owner of the site. |
 |Last activity date (UTC)  | The date of the last time file activity was detected or a page was viewed on the site.  |
 |Site sensitivity label ID  | The sensitivity label on the site.  |
-|External sharing  | The value of the external sharing setting for the site. This value does not reflect changes to the effective setting made by site sensitivity labels. If you use sensitivity labels, use the [data access governance reports](/sharepoint/data-access-governance-reports) to get the correct values.|
+|External sharing  | The value of the external sharing setting for the site. This value doesn't reflect changes to the effective setting made by site sensitivity labels. If you use sensitivity labels, use the [data access governance reports](/sharepoint/data-access-governance-reports) to get the correct values.|
 |Unmanaged device policy  | The site access policy for unmanaged devices.  |
 |Geo location  | The Geo location of the site.  |
 |Files  |The number of files on the site. |
-|Active files  | The number of active files on the site. A file is considered active if it has been saved, synced, modified, or shared within the specified time period.<br/> NOTE: If files were removed during the specified time period for the report, the number of active files shown in the report may be larger than the current number of files on the site.  |
-|Storage used (MB)  |The amount of storage currently being used on the site.  |
+|Active files  | The number of active files on the site. A file is active if it's saved, synced, modified, or shared within the specified time period.<br/> **NOTE:** If files were removed during the specified time period for the report, the number of active files shown in the report might be larger than the current number of files on the site.  |
+|Storage used (MB)  |The amount of storage currently used on the site.  |
 |Storage allocated (MB)  |The maximum amount of storage allocated for the site.  |
 |Page views  |The number of times pages were viewed on the site.  |
 |Pages visited  |The number of unique pages that were visited on the site.  |
@@ -76,10 +74,12 @@ The SharePoint site usage report displays trends over the last 7, 30, 90, or 180
 |Company link count  |The number of times documents or folders are shared using "People in org with the link" on the site.  |
 |Secure link for guest count  |The number of times documents or folders are shared using "specific people" on the site.  |
 |Secure link for member count  |The number of times documents or folders are shared using "specific people" on the site.  |
-|Root Web Template  |The template used for creating the site.<br/><br/>**NOTE**: If you want to filter the data by different site types, then export the data and use the Root Web Template column. |
+|Root Web Template  |The template used for creating the site.<br/><br/>**NOTE**: To filter the data by different site types, export the data and use the Root Web Template column. |
 |Site ID | The site ID of the site. |
 
->[!NOTE]
->The SharePoint site URL won't be displayed if [BYOK](/azure/information-protection/byok-price-restrictions) or [Customer Lockbox](/azure/security/fundamentals/customer-lockbox-overview) is enabled. If you meet the requirement, submit a request via [ODSP Site URLs Displaying Request](https://forms.office.com/r/16hLY6na5W). The site URL is visible within one week. If the requirement isn't met, you can use PowerShell. To follow the steps, see [Use PowerShell to resolve site URLs](resolve-site-urls.md).
+[!INCLUDE [display-user-specific-data](../../includes/display-user-specific-data.md)]
 
-You might see differences between the sites listed above and those listed on the [Active sites page](https://go.microsoft.com/fwlink/?linkid=2185220) in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219), from **Sites** > **Active sites** because the certain site templates and URLs aren't included as Active Sites. For more information, see [Manage sites in the SharePoint admin center](/sharepoint/manage-sites-in-new-admin-center).
+>[!NOTE]
+>The SharePoint site URL doesn't display if [BYOK](/azure/information-protection/byok-price-restrictions) or [Customer Lockbox](/azure/security/fundamentals/customer-lockbox-overview) is enabled. If you meet the requirement, submit a request via [ODSP Site URLs Displaying Request](https://forms.office.com/r/16hLY6na5W). The site URL is visible within one week. If the requirement isn't met, you can use PowerShell. To follow the steps, see [Use PowerShell to resolve site URLs](resolve-site-urls.md).
+
+You might see differences between the sites listed in the Site udage report and those listed on the **Sites** > <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">Active sites</a> page in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> because certain site templates and URLs aren't included as Active sites. For more information, see [Manage sites in the SharePoint admin center](/sharepoint/manage-sites-in-new-admin-center).
