@@ -1,31 +1,32 @@
 ---
-title: "Set up Microsoft 365 for business"
+title: Set up Microsoft 365 for business
 f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 04/20/2026
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- Tier1
-- scotvorg
-- highpri
-- M365-subscription-management
-- Adm_O365
-- Adm_O365_Setup
-- TRN_SMB
-- operations-pod
+  - Tier1
+  - scotvorg
+  - highpri
+  - M365-subscription-management
+  - Adm_O365
+  - Adm_O365_Setup
+  - TRN_SMB
+  - operations-pod
 ms.custom:
 - VSBFY23
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - AdminTemplateSet
-description: "Learn how to set up your Microsoft Business Premium, Microsoft 365 Business Standard, Microsoft 365 Business Basic, Microsoft 365 Apps for business, or Office 365 Education subscription."
+description: Learn how to set up your Microsoft Business Premium, Microsoft 365 Business Standard, Microsoft 365 Business Basic, Microsoft 365 Apps for business, or Office 365 Education subscription.
+#customer intent: As a decision maker, I want to evaluate the setup process for Microsoft 365 plans so that I can determine the best fit for my company.
 ---
 
 # Set up Microsoft 365 for business

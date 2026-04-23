@@ -1,25 +1,26 @@
 ---
-title: "Sign up for Microsoft 365 Apps for business"
+title: Sign up for Microsoft 365 Apps for business.
 f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 04/20/2026
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- Tier1
-- scotvorg
-- highpri
-- Adm_TOC
-- operations-pod
+  - Tier1
+  - scotvorg
+  - highpri
+  - Adm_TOC
+  - operations-pod
 ms.custom:
 - VSBFY23
 - AdminSurgePortfolio
-description: "Sign up for Microsoft 365 Apps for business."
+description: Sign up for Microsoft 365 Apps for business.
+#customer intent: As an admin, I want to understand the steps to purchase Microsoft 365 Apps for business so that I can complete the setup process efficiently.
 ---
 
 # Sign up for a Microsoft 365 Apps for business subscription
@@ -117,7 +118,7 @@ If you don't accept the terms, your subscription doesn't renew automatically, an
 
 ## Frequently asked questions
 
-### Is there a benefit to paying monthly vs annually?
+### Is there a benefit to paying monthly versus annually?
 
 To provide customers with the greatest amount of flexibility, different payment options are available.
 
@@ -129,7 +130,7 @@ To provide customers with the greatest amount of flexibility, different payment 
 
 When recurring billing is on, your subscription continues to be billed each year on the day you subscribed. You can turn it off or back on again in the admin center if your subscription is active. For more information, see [Manage recurring billing in the Microsoft 365 admin center](../../commerce/subscriptions/renew-your-subscription.md).
 
-### What do I do if I want to change my business name?
+### How do I change my business name?
 
 Contact our small business support experts who can help you change your business name. For more information, see [Get support](../../business-video/get-help-support.md).
 

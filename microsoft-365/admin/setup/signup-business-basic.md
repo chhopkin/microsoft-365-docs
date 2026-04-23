@@ -1,25 +1,25 @@
 ---
-title: "Sign up for Microsoft 365 Business Basic"
+title: Sign up for Microsoft 365 Business Basic
 f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 22/04/2026
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- Tier2
-- scotvorg
-- M365-subscription-management
-- Adm_O365
-- Adm_TOC
-- Adm_O365_Setup
-- TRN_SMB
-- must-keep
-- operations-pod
+  - Tier2
+  - scotvorg
+  - M365-subscription-management
+  - Adm_O365
+  - Adm_TOC
+  - Adm_O365_Setup
+  - TRN_SMB
+  - must-keep
+  - operations-pod
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
@@ -29,7 +29,8 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: "Learn how to sign up for a Microsoft 365 Business Basic subscription."
+description: Learn how to sign up for a Microsoft 365 Business Basic subscription.
+#customer intent: As an admin, I want to understand the steps to purchase Microsoft 365 Business Basic so that I can complete the setup process efficiently.
 ---
 
 # Sign up for Microsoft 365 Business Basic
