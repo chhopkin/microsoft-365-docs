@@ -11,7 +11,9 @@ ms.subservice: administration
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+- Adm_O365
+- identity-models
 ms.collection:
 - scotvorg
 - Ent_O365

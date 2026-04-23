@@ -120,7 +120,7 @@ To do this:
 
     {
       "enabled": true,
-      "timeZone": "America/Chicago”, 
+      "timeZone": "America/Chicago", 
       "timeClockEnabled": false
     }
     ```
