@@ -119,7 +119,7 @@ Let's say that the NS record for contoso.com says "hichina.com." Now the Interne
 
 ::: moniker-end
 
-The actual values that you must enter for all of this to work with Microsoft 365 are listed for you when you're setting up your domain, in the domain setup steps. If you're doing the set up manually, you copy and paste the values into the correct DNS records (MX record, CNAME records, and so on) at your DNS host, which might be your domain registrar (but doesn't have to be).
+The actual values that you must enter for all of this to work with Microsoft 365 are listed for you when you're setting up your domain, in the domain setup steps. If you're doing the setup manually, you copy and paste the values into the correct DNS records (MX record, CNAME records, and so on) at your DNS host, which might be your domain registrar (but doesn't have to be).
 
 ::: moniker range="o365-worldwide"
 
@@ -136,7 +136,7 @@ Why might your domain's zone file be somewhere besides at your domain registrar?
 ::: moniker range="o365-worldwide"
 ## Why add a domain in Microsoft 365?
 
-Adding a custom domain, like fourthcoffee.com, to Microsoft 365 lets you use a shorter, more familiar email address and userID with the service. You're [given a domain to use](../setup/domains-faq.yml) when you sign up for a Microsoft 365 account, but it includes "onmicrosoft.com." Many people prefer to add their organization or business domain if they plan to use Microsoft 365 for email. Micrsoft recommends configuring a custom domain to use with their Microsoft 365 subscription.
+Adding a custom domain, like fourthcoffee.com, to Microsoft 365 lets you use a shorter, more familiar email address and userID with the service. You're [given a domain to use](../setup/domains-faq.yml) when you sign up for a Microsoft 365 account, but it includes "onmicrosoft.com." Many people prefer to add their organization or business domain if they plan to use Microsoft 365 for email. Microsoft recommends configuring a custom domain to use with their Microsoft 365 subscription.
 
 > [!NOTE]
 > If you just want to download and use Microsoft 365 productivity apps, like Outlook or Word, you don't need to add a domain: [Download and install or reinstall Microsoft 365 or Office 2021 on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658).
