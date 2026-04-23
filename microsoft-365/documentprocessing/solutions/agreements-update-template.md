@@ -36,7 +36,7 @@ Templates have their own lifecycle management requirements and will change over 
 
 ## Prepare to edit the template
 
-When you open the template for editing, the right-hand panel in Word displays various details. The details include the template’s status (**Draft** or **Published**); metadata such as location, languages, and other fields; and information about sections and conditional sections. At the top of the panel, select **Edit template**.
+When you open the template for editing, the right-hand panel in Word displays various details. The details include the template's status (**Draft** or **Published**); metadata such as location, languages, and other fields; and information about sections and conditional sections. At the top of the panel, select **Edit template**.
 
 ## Edit the template
 
