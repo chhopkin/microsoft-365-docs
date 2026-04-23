@@ -52,9 +52,9 @@ When Anthropic models are used in Copilot experiences in Word, Excel, or PowerPo
 1. Sign in to the Microsoft 365 admin center as an administrator assigned the **AI Administrator** role.  
 2. Go to **Copilot** -> **Settings** -> **View All** -> **AI providers operating as Microsoft subprocessors**.
 
-    :::image type="content" source="media/ai-providers-operating-as-subprocessors.png" alt-text="Screenshot  of the AI providers operating as Microsoft subprocessors page with All users selected" lightbox="media/ai-providers-operating-as-subprocessors.png":::
+    :::image type="content" source="media/ai-providers-operating-as-subprocessors-sec-group.png" alt-text="Screenshot  of the AI providers operating as Microsoft subprocessors page with user and security group options." lightbox="media/ai-providers-operating-as-subprocessors-sec-group.png":::
 
 3. Confirm the correct setting for your organization.
 
 > [!NOTE]
-> Support for Anthropic models in Microsoft 365 apps varies based on how the AI providers operating as Microsoft subprocessors setting is scoped in your organization. When the setting is enabled for **All users**, Anthropic model use in supported apps is unavailable and can't be changed. This setting applies only to Copilot experiences within supported apps and doesn't affect Anthropic model usage in other Microsoft 365 Copilot features or services.
+> Support for Anthropic models in Microsoft 365 apps varies based on how the AI providers operating as Microsoft subprocessors setting is scoped in your organization. When the setting is enabled for **All users** or **Specific users and groups**, the Anthropic model use in supported apps setting is unavailable and can't be changed This setting applies only to Copilot experiences within supported apps and doesn't affect Anthropic model usage in other Microsoft 365 Copilot features or services.
