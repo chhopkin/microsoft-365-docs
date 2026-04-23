@@ -52,7 +52,8 @@ You have to be a member of the Global administrator role to perform this task. F
 2. On the **Copilot settings** page, select **View all**.
 3. Select **AI providers for other large language models**.
 4. Under **Available models for your organization**, choose **xAI**.
-5. Under **Choose who can access xAI models for Copilot and generative AI experiences**, select your users or groups and **Save**.
+5. Under **Choose who can access xAI models for Copilot and generative AI experiences**, agree to the **Terms and Conditions**.
+6. Under **Choose which users can access xAI models**, select the users or groups that you want to have access and choose **Save**.
 
     :::image type="content" source="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png" alt-text="Screenshot  of the AI providers operating as Microsoft subprocessors page with user and security group options." lightbox="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png":::
 
