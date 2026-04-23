@@ -48,7 +48,7 @@ You can change your settings after initial setup in the <a href="https://go.micr
 
 Prior to setup, make sure to plan for the best way to set up and configure content understanding in your environment. For example, you need to make the following decisions:
 
-- The SharePoint sites in which you want to enable document processing — all of them, some, or selected sites
+- The SharePoint sites in which you want to enable document processing - all of them, some, or selected sites
 - The name and admins for your content center
 --->
 
