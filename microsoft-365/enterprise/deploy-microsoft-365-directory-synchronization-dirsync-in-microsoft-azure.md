@@ -21,6 +21,7 @@ f1.keywords:
 ms.custom: 
 - Ent_Solutions
 - seo-marvel-apr2020
+- identity-models
 ms.assetid: b8464818-4325-4a56-b022-5af1dad2aa8b
 description: Learn how to deploy Microsoft Entra Connect on a virtual machine in Azure to synchronize accounts between your on-premises directory and the Microsoft Entra tenant.
 ---
