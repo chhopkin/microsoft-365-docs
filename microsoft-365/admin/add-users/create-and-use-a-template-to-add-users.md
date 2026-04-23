@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 06/04/2024
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-admin
@@ -32,7 +32,9 @@ You can create and use a template to save time and standardize settings when you
 
 ## Create a template
 
-Templates are easy to create&mdash;you can select **Users** > **Active users** > **User templates**, and then select **Add a template** from the drop-down list, or you can add a new user and when you're finished, you have the option to save the entry as a template.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Active users** > **User templates**.
+
+2. Select **Add a template** from the drop-down list. Or, add a new user, and when you're finished, you can save that entry as a template.
 
 When you create a template after adding a user, the values you choose for the following settings are saved in the template:
 
@@ -61,7 +63,7 @@ When you create a template by selecting the **Add a template** option, you can c
 
 To use an existing template to add a user:
 
-1. In the admin center, select **Users** > **Active users**.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Active users**.
 
 2. Select **User templates**, and then select a template from the drop-down list. (The list will contain only the templates that you created, not those created by other admins.)
 
@@ -77,7 +79,7 @@ To use an existing template to add a user:
 
 You can only delete templates you no longer need and add new ones. To delete a template:
 
-1. In the admin center, select **Users** > **Active users**.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Active users**.
 
 2. Select **Templates**, and then select **Manage templates** from the drop-down list.
 
