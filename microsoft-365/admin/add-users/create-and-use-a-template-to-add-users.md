@@ -28,7 +28,7 @@ description: "You can create and use a template to save time and standardize set
 
 # Create and use a template to add users
 
-You can create and use a template to save time and standardize settings when you're adding multiple users. Templates are particularly useful if you have users who share many common properties, like those who have the same role and work at the same location and those who require the same software. For example, you might have a team of support engineers who work in the same office.  
+You can create and use a template to save time and standardize settings when you're adding multiple users. Templates are useful if you have users who share many common properties, like for users who have the same role and work at the same location, and users who require the same software. For example, you might have a team of support engineers who work in the same office.  
 
 ## Create a template
 
@@ -55,9 +55,9 @@ The following information is user-specific and isn't saved in the template:
 - Choice to send the password in email and who the password email is sent to
 - Mobile phone number
 
-If you choose not to enter information for a setting within a section, that value will be blank and that setting won't display in the template. For example, if you leave **Job title** blank, when you review your template and when you use your template, **Job title** won't appear at all. If you leave all the **Profile** section settings blank, the **Profile** section will display **None provided** in your final template.
+If you choose not to enter information for a setting within a section, that value is blank and that setting doesn't display in the template. For example, if you leave **Job title** blank, when you review your template and when you use your template, **Job title** doesn't appear at all. If you leave all the **Profile** section settings blank, the **Profile** section displays **None provided** in your final template.
 
-When you create a template by selecting the **Add a template** option, you can choose which values to complete. Anything that is left blank will appear as **None provided** in the template.
+When you create a template by selecting the **Add a template** option, you can choose which values to complete. Anything that is left blank appears as **None provided** in the template.
 
 ## Use a template to add a user
 
