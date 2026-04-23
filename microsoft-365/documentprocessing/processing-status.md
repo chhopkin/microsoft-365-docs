@@ -20,7 +20,7 @@ description: Learn how to use the processing status column in a SharePoint docum
 
 <sup>**Applies to:**  &ensp; &#10003; All custom models &ensp; | &ensp; &#10003; All prebuilt models</sup>
 
-In a document library, you can see the status of any document that is being processed by a model by looking in the **Processing status** and **Processing details** columns.
+In a document library, you can see the status of any document that's being processed by a model by looking in the **Processing status** and **Processing details** columns.
 
 ![Screenshot of a document library showing the Processing status and Processing details columns.](../media/content-understanding/processing-status-column.png)
 
@@ -28,12 +28,12 @@ The **Processing status** column shows you whether the processing of a file is i
 
 | Processing status | Description |
 | ------- | -------
-| In progress | The file has been queued for processing or is processing. |
+| In progress | The file is queued for processing or is processing. |
 | Finished | The file has been processed. |
-| Failed | The file has been queued, but can't be processed (for example, the file type isn't supported or there's an issue with an image or text). |
+| Failed | The file is queued, but can't be processed (for example, the file type isn't supported or there's an issue with an image or text). |
 
 > [!NOTE]
-> When a file is uploaded or edited, the **Processing status** column will not change to "In progress." It will remain unchanged until processing completes, and then the status will show as "Finished" or "Failed."
+> When a file is uploaded or edited, the **Processing status** column won't change to "In progress." It will remain unchanged until processing completes, and then the status will show as "Finished" or "Failed."
 
 The **Processing details** column provides more information about the processing status, such as if a file format isn't supported or if an image is too small.
 
