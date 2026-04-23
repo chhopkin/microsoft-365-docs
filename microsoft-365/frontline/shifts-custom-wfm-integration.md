@@ -82,7 +82,7 @@ To set up your connector to receive and process requests from Shifts, you need t
 
 **Determine your base URL and endpoint URLs**
 
-The base URL (webhook) is `{url}/v{apiVersion}`, where **url** and **apiVersion** are the properties you set in the [workforceIntegration](/graph/api/resources/workforceintegration?view=graph-rest-1.0) object when you [register the workforce integration](#step-4a-register-the-workforce-integration-in-your-tenant).
+The base URL (webhook) is `{url}/v{apiVersion}`, where **url** and **apiVersion** are the properties you set in the [workforceIntegration](/graph/api/resources/workforceintegration) object when you [register the workforce integration](#step-4a-register-the-workforce-integration-in-your-tenant).
 
 The relative paths of the endpoint URLs are as follows:
 
@@ -329,7 +329,7 @@ Return HTTP `200 OK`
 
 ##### POST /teams/{teamid}/update
 
-Shifts calls this endpoint to get approval when a change is made to a Shifts entity in a [schedule](/graph/api/resources/schedule?view=graph-rest-1.0) that's [enabled for the workforce integration](#step-4b-enable-the-workforce-integration-for-your-team-schedules). If this endpoint approves the request, the change is saved in Shifts.
+Shifts calls this endpoint to get approval when a change is made to a Shifts entity in a [schedule](/graph/api/resources/schedule) that's [enabled for the workforce integration](#step-4b-enable-the-workforce-integration-for-your-team-schedules). If this endpoint approves the request, the change is saved in Shifts.
 
 As your WFM system is the system of record, when the connector receives a request to this endpoint, it should first attempt to make the change in the WFM system. If the change is successful, return success. Otherwise, return failure.
 
@@ -582,9 +582,9 @@ In this example, an error response is returned because the connector couldn't re
 
 Use Shifts APIs in Microsoft Graph to read schedule data from your WFM system and write the data to Shifts.
 
-For example, to add a shift to Shifts, use the [Create shift](/graph/api/schedule-post-shifts?view=graph-rest-1.0) API.
+For example, to add a shift to Shifts, use the [Create shift](/graph/api/schedule-post-shifts) API.
 
-See the [Microsoft Graph API v1.0 reference](/graph/api/resources/shift?view=graph-rest-1.0) for Shifts APIs, which are listed under **Shift management**.
+See the [Microsoft Graph API v1.0 reference](/graph/api/resources/shift) for Shifts APIs, which are listed under **Shift management**.
 
 The following diagram shows the flow of data.
 
@@ -614,7 +614,7 @@ Follow these steps to register an app for your connector in the Microsoft identi
 1. Register your app. For steps, see [Register an application with the Microsoft identity platform](/graph/auth-register-app-v2).
 1. Assign the *Schedule.ReadWrite.All* [application permissions](/graph/permissions-overview?tabs=http#application-permissions) to the app for app-only access and get an access token.
 
-      For step-by-step guidance, see [Get access without a user](/graph/auth-v2-service?view=graph-rest-1.0).
+      For step-by-step guidance, see [Get access without a user](/graph/auth-v2-service).
 
       The access token verifies that your app is authorized to [call Microsoft Graph using its own identity](/graph/auth/auth-concepts#access-scenarios) using the *Schedule.ReadWrite.All* permission. It must be included in the Authorization header of requests.
 1. If you plan to [register or update the workforce integration programmatically](#step-4a-register-the-workforce-integration-in-your-tenant) using app-only access, also assign the *WorkforceIntegration.ReadWrite.All* application permission to the app. A Global Administrator must grant admin consent for this permission.
@@ -627,9 +627,9 @@ Set up the teams in Teams that you want to sync. You can use existing teams or c
 
     - Frontline managers as team owners.
     - Frontline workers as team members.
-1. Create a schedule in Shifts for each team. To learn more, see [Create or replace schedule](/graph/api/team-put-schedule?view=graph-rest-1.0). Schedule provisioning is asynchronous — poll the schedule's `provisionStatus` until it's `completed` before creating scheduling groups.
-1. Add schedule groups to the schedule on each team. Schedule groups are used to group employees based on common characteristics within a team. For example, schedule groups can be departments or job types. To learn more, see [schedulingGroup resource type](/graph/api/resources/schedulinggroup?view=graph-rest-1.0).
-1. Add employees to each schedule group. To learn more, see [Replace schedulingGroup](/graph/api/schedulinggroup-put?view=graph-rest-1.0).
+1. Create a schedule in Shifts for each team. To learn more, see [Create or replace schedule](/graph/api/team-put-schedule). Schedule provisioning is asynchronous — poll the schedule's `provisionStatus` until it's `completed` before creating scheduling groups.
+1. Add schedule groups to the schedule on each team. Schedule groups are used to group employees based on common characteristics within a team. For example, schedule groups can be departments or job types. To learn more, see [schedulingGroup resource type](/graph/api/resources/schedulinggroup).
+1. Add employees to each schedule group. To learn more, see [Replace schedulingGroup](/graph/api/schedulinggroup-put).
 
 > [!NOTE]
 > You can also use the Teams admin center to set up your teams and deploy Shifts to the teams. To learn more, see:
@@ -648,7 +648,7 @@ To register and enable the workforce integration, complete the following steps:
 
 ### Step 4a: Register the workforce integration in your tenant
 
-Use the [Create workforceIntegration](/graph/api/workforceintegration-post?view=graph-rest-1.0&tabs=http) API to register your workforce integration in your tenant.
+Use the [Create workforceIntegration](/graph/api/workforceintegration-post?tabs=http) API to register your workforce integration in your tenant.
 
 You can perform this step interactively — for example, from [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) signed in as a Global Administrator — or programmatically using an application token. In the programmatic case, the app must have the *WorkforceIntegration.ReadWrite.All* application permission consented by a Global Administrator (see [Step 2](#step-2-register-an-app-in-the-microsoft-entra-admin-center)).
 
@@ -669,19 +669,19 @@ POST https://graph.microsoft.com/v1.0/teamwork/workforceIntegrations/
 }
 ```
 
-See the following table for details. To learn more, see [workforceIntegration resource type](/graph/api/resources/workforceintegration?view=graph-rest-1.0).
+See the following table for details. To learn more, see [workforceIntegration resource type](/graph/api/resources/workforceintegration).
 
 |Property  |More information|
 |---------|---------|
 |apiVersion|API version for the callback URL. Your [base URL](#step-1a-sync-changes-made-in-shifts-to-your-wfm-system) is comprised of the **url** property and this property.|
 |encryption|Set **protocol** to `sharedSecret`. The **secret** value must be exactly 64 characters. <br><br>Use the secret to decrypt the encrypted JSON payloads that are sent to your connector's endpoint from Shifts. The payload is encrypted using AES-256-CBC-HMAC-SHA256. Your app should safely persist this secret. For example, in a key vault.|
-|supportedEntities|Specify the Shifts entities you want the connector to support for syncing. Shifts calls your connector's [/update](#post-teamsteamidupdate) endpoint when any of these entities change so that you can approve or reject the change. For the list of the possible values, see [workforceIntegration resource type](/graph/api/resources/workforceintegration?view=graph-rest-1.0)<br><br>**Note** This list is an [evolvable enumeration](/graph/best-practices-concept#handling-future-members-in-evolvable-enumerations). You must use the `Prefer: include-unknown-enum-members` request header to get all the values.|
+|supportedEntities|Specify the Shifts entities you want the connector to support for syncing. Shifts calls your connector's [/update](#post-teamsteamidupdate) endpoint when any of these entities change so that you can approve or reject the change. For the list of the possible values, see [workforceIntegration resource type](/graph/api/resources/workforceintegration)<br><br>**Note** This list is an [evolvable enumeration](/graph/best-practices-concept#handling-future-members-in-evolvable-enumerations). You must use the `Prefer: include-unknown-enum-members` request header to get all the values.|
 |eligibilityFilteringEnabledEntities|**Note**: As of October 2024, this endpoint is supported only in the beta version of the Microsoft Graph API.<br><br>Specify the Shifts entities that you want to connector to support for eligibility filtering. Possible values are:<ul><li>`none`: Empty list</li><li>`SwapRequests`: Shifts calls your connector's [/read](#post-teamsteamidread) endpoint to get a filtered list of shifts a user can choose from for a swap request.</li><li>`TimeOffReasons`: Shifts calls your connector's [/read](#post-teamsteamidread) endpoint to get a filtered list of time-off reasons a user can choose from when they request time off. </li></ul>**Note** This list is an [evolvable enumeration](/graph/best-practices-concept#handling-future-members-in-evolvable-enumerations). You must use the `Prefer: include-unknown-enum-members` request header to get all the values.|
 |url|The workforce integration URL for callbacks from Shifts. Your [base URL](#step-1a-sync-changes-made-in-shifts-to-your-wfm-system) is comprised of this property and the **apiVersion** property.|
 
 ### Step 4b: Enable the workforce integration for your team schedules
 
-Enable your workforce integration on the schedules you want to manage. To do this, use the [Create or replace schedule](/graph/api/team-put-schedule?view=graph-rest-1.0) API to create or update the schedule for your teams.
+Enable your workforce integration on the schedules you want to manage. To do this, use the [Create or replace schedule](/graph/api/team-put-schedule) API to create or update the schedule for your teams.
 
 Here's an example of a request.
 
@@ -795,7 +795,7 @@ Number of elements in a request:
 |method |String|`POST` to create an entity, `PUT` to update an entity, `DELETE` to delete an entity. |
 |url|String|The format is `/{EntityType}/{EntityId}`. Possible values for `{EntityType}` are `shifts`, `swapRequests`, `timeoffReasons`, `openshifts`, `openshiftrequests`, `offershiftrequests`, `timesoff`, `timeOffRequests`. For example, `/shifts/SHFT_12345678-1234-1234-1234-1234567890ab`.|
 |header|WfiRequestHeader |Header|
-|body|ShiftsEntity |Must match `{EntityType}` in the **url** property. Use one of [shift](/graph/api/resources/shift?view=graph-rest-1.0), [swapShiftsChangeRequest](/graph/api/resources/swapshiftschangerequest?view=graph-rest-1.0), [timeOffReason](/graph/api/resources/timeoffreason?view=graph-rest-1.0), [openshift](/graph/api/resources/openshift?view=graph-rest-1.0), [openShiftChangeRequest](/graph/api/resources/openshiftchangerequest?view=graph-rest-beta), [offerShiftRequests](/graph/api/resources/offershiftrequest?view=graph-rest-1.0), [timeOff](/graph/api/resources/timeoff?view=graph-rest-1.0), [timeOffRequest](/graph/api/resources/timeoffrequest?view=graph-rest-1.0). For example, `/shifts/SHFT_12345678-1234-1234-1234-1234567890ab`.|
+|body|ShiftsEntity |Must match `{EntityType}` in the **url** property. Use one of [shift](/graph/api/resources/shift), [swapShiftsChangeRequest](/graph/api/resources/swapshiftschangerequest), [timeOffReason](/graph/api/resources/timeoffreason), [openshift](/graph/api/resources/openshift), [openShiftChangeRequest](/graph/api/resources/openshiftchangerequest), [offerShiftRequests](/graph/api/resources/offershiftrequest), [timeOff](/graph/api/resources/timeoff), [timeOffRequest](/graph/api/resources/timeoffrequest). For example, `/shifts/SHFT_12345678-1234-1234-1234-1234567890ab`.|
 
 ##### For POST /teams/{teamsId}/read  
 
