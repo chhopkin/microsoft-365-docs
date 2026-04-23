@@ -54,6 +54,12 @@ To set up pay-as-you-go, you must have the following prerequisites:
 
   To learn more about these roles, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
+## Watch: Set up pay-as-you-go billing
+
+Check out this and other videos on our [YouTube channel](https://go.microsoft.com/fwlink/?linkid=2198103).
+
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=392bd4b7-524a-4314-ba02-5d8ef705ab89]
+
 ## Add a billing policy
 
 To set up pay-as-you-go billing for Microsoft 365 Copilot, you must first add a billing policy in the Microsoft 365 admin center. You can create up to 50 billing policies for your tenant.
