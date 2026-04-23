@@ -18,7 +18,7 @@ description: Learn about the backup and recovery capabilities for OneDrive, Shar
 
 # Overview of Microsoft 365 Backup
 
-Microsoft 365 Backup is designed to ensure your organization’s data is always protected and easily recoverable. With the ability to back up all or select SharePoint sites, OneDrive accounts, and Exchange mailboxes, Microsoft 365 Backup provides comprehensive coverage for your critical data.
+Microsoft 365 Backup is designed to ensure your organization's data is always protected and easily recoverable. With the ability to back up all or select SharePoint sites, OneDrive accounts, and Exchange mailboxes, Microsoft 365 Backup provides comprehensive coverage for your critical data.
 <!---
 Key features include:
 
@@ -59,17 +59,17 @@ To summarize, applications built on top of the Microsoft 365 Backup Storage plat
 |**Recovery points**     |10 minutes for two weeks prior<br><br>Weekly snapshots 2-52 weeks prior |10 minutes for two weeks prior<br><br>Weekly snapshots 2-52 weeks prior | 10 minutes for prior 52 weeks   |
 |**Backup granularity**     | OneDrive account |SharePoint site  |Exchange user account  |
 |**Restore granularity**     |OneDrive accounts<br><br>Files restorable via versions (coming soon)  |SharePoint sites<br><br>Files restorable via versions (coming soon)    |Mail/Contacts/Calendar/Task items  |
-|**Restore options**     |**Location**: Same or new URL<br><br>**OneDrive** restore rolls back to the state of the site at the prior point in time, overwriting all content and metadata since that prior point in time<br><br>**File version** restore rolls forward the file to the state at the prior point in time, but retains prior versions    |**Location**: Same or new URL<br><br>**Full site** restore rolls back to the state of the site at the prior point in time, overwriting all content and metadata since that prior point in time<br><br>**File version** restore rolls forward the file to the state at the prior point in time, but retains prior versions  |**Location**: Same or new folder within user’s mailbox<br><br>**Full and item level mailbox** restores only modified/deleted items from prior point in time  |
+|**Restore options**     |**Location**: Same or new URL<br><br>**OneDrive** restore rolls back to the state of the site at the prior point in time, overwriting all content and metadata since that prior point in time<br><br>**File version** restore rolls forward the file to the state at the prior point in time, but retains prior versions    |**Location**: Same or new URL<br><br>**Full site** restore rolls back to the state of the site at the prior point in time, overwriting all content and metadata since that prior point in time<br><br>**File version** restore rolls forward the file to the state at the prior point in time, but retains prior versions  |**Location**: Same or new folder within user's mailbox<br><br>**Full and item level mailbox** restores only modified/deleted items from prior point in time  |
 |**Restore speeds (RTO)**     |Up to 1,000 average-sized OneDrive accounts at a rate of up to 1-3 TB per hour    |Up to 1,000 average-sized sites, at a rate of up to 1-3 TB per hour    |Up to 1,000 average-sized mailboxes at a rate of up to 1-3 TB per hour    |
 |**Auditability** |Actions fully auditable |Actions fully auditable |Actions fully auditable |
-|**Geographic residency**    |Physically redundant & geographically replicated<br><br>Honors tenant’s geographic residency requirements    |Physically redundant & geographically replicated<br><br>Honors tenant’s geographic residency requirements    |Physically redundant & geographically replicated<br><br>Honors tenant’s geographic residency requirements    |
+|**Geographic residency**    |Physically redundant & geographically replicated<br><br>Honors tenant's geographic residency requirements    |Physically redundant & geographically replicated<br><br>Honors tenant's geographic residency requirements    |Physically redundant & geographically replicated<br><br>Honors tenant's geographic residency requirements    |
 |**Billing model**    |$0.15 per GB per month for all data protected by Backup<br><br>Restores are free  |$0.15 per GB per month for all data protected by Backup<br><br>Restores are free   |$0.15 per GB per month for all data protected by Backup<br><br>Restores are free  |
 
 ## Architectural overview and performance expectations
 
 ### Architecture
 
-Microsoft 365 Backup provides ultra-fast backup and restore capabilities by creating backups within the protected services’ data boundaries.
+Microsoft 365 Backup provides ultra-fast backup and restore capabilities by creating backups within the protected services' data boundaries.
 
 Microsoft 365 Backup not only provides uniquely fast recovery from common business continuity and disaster recovery (BCDR) scenarios like ransomware or accidental or malicious employee content overwrite or deletion. More BCDR scenario protections are also built directly into the service. For example, OneDrive, SharePoint, and Exchange Online have a proprietary architecture design for resiliency with replicated copies of customer data to failover to live active copies seamlessly without the need for end customer intervention.
 
@@ -131,7 +131,7 @@ Microsoft 365 Backup is a pay-as-you-go offering that charges based on consumpti
 
 ## Integrated partner solutions
 
-We partner with many independent software publishers to provide differentiated versions of their applications integrated with the Microsoft 365 Backup Storage platform—all providing the same underlying performance value proposition for your Microsoft 365 data.
+We partner with many independent software publishers to provide differentiated versions of their applications integrated with the Microsoft 365 Backup Storage platform-all providing the same underlying performance value proposition for your Microsoft 365 data.
 
 For a partner application, operation of the Microsoft 365 Backup tool will be managed and paid for entirely through the partner's application. Those applications have the ability to provide a single pane of glass for all of your data estates that require backups, and they might provide more enhanced experiences or workflows.
 

@@ -39,7 +39,7 @@ To continue the electronic signing process, you must consent to the terms and co
 
 ## Sign the document
 
-Once you accept the eSignature terms and conditions, the document viewer opens in a new browser tab. Here you can navigate and read the document, and review the content. When you’re ready to sign, select **Start**. This action brings you to the first location where your input is needed.  
+Once you accept the eSignature terms and conditions, the document viewer opens in a new browser tab. Here you can navigate and read the document, and review the content. When you're ready to sign, select **Start**. This action brings you to the first location where your input is needed.  
 
 ![Screenshot of the document to be signed showing the Start button.](../media/content-understanding/esignature-start-signing-dark.png)
 
@@ -71,7 +71,7 @@ In some locations within the document, you might be asked to add your initials t
 
 ### Date
 
-The date is prepopulated with the current day’s date.
+The date is prepopulated with the current day's date.
 
 ## Submit the signed document
 
@@ -85,7 +85,7 @@ Once everyone has signed the document, you receive an email notification saying 
 
 ### Decline to sign the document
 
-If you review the document and don’t want to sign it, you can decline to sign.
+If you review the document and don't want to sign it, you can decline to sign.
 
 1. In the document viewer, select **More options** (...), and then select **Decline to sign**.
 
@@ -97,7 +97,7 @@ If you review the document and don’t want to sign it, you can decline to sign.
 
 Once you decline, you won't be able to add your signature, but you are able to see the document in read-only mode.
  
-Once you decline, an email notification is sent to the requester saying that you don’t want to sign the document. Declining to sign completes the signing process and changes the status of the request from **In progress** to **Declined**.
+Once you decline, an email notification is sent to the requester saying that you don't want to sign the document. Declining to sign completes the signing process and changes the status of the request from **In progress** to **Declined**.
   
 If there are more recipients, they'll also receive a notification saying that the request has been declined.
 
