@@ -444,7 +444,7 @@ Changes saved for a deployed agent are reflected for users within a few hours.
 
 ## Navigate to Employee Self-Service Settings in Microsoft 365 Admin Center
 
-1. **Log in** to the **Microsoft 365 Admin Center**.
+1. Log in to the **Microsoft 365 Admin Center**.
 
 2. From the **Copilot** dropdown, select **Settings**.
 
@@ -462,7 +462,8 @@ Get started by picking a primary Employee Self-Service agent to add categories, 
 
 2. Search for a previously published **Employee Self-Service agent** in **Copilot Studio**.
 
-   > **Note:** Only primary agents—such as the **ESS Frontier template**, **ES HR template**, or **ESS IT template**—can be added.  
+   > [!NOTE]
+   > Only primary agents—such as the **ESS Frontier template**, **ES HR template**, or **ESS IT template**—can be added.  
    > You can add up to **10 agents**.
 
 3. When you identify the correct agent, select **Add agent**.
