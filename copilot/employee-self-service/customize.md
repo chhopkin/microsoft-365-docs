@@ -442,6 +442,31 @@ The **Rich landing page** gives you control over how your Employee Self-Service 
 
 Changes saved for a deployed agent are reflected for users within a few hours.
 
+## Navigate to Employee Self-Service Settings in Microsoft 365 Admin Center
+
+1. Log in to the **Microsoft 365 Admin Center**.
+
+2. From the **Copilot** dropdown, select **Settings**.
+
+3. Under the **Data Access** tab, select **Employee Self-Service Agent**.
+
+4. Select an existing **Employee Self-Service Agent**.
+
+---
+
+### Add a Primary Employee Self-Service Agent
+
+Get started by picking a primary Employee Self-Service agent to add categories, suggested prompts, and accent colors that reflect your organization's brand.
+
+1. Select **Add an agent**.
+
+2. Search for a previously published **Employee Self-Service agent** in **Copilot Studio**.
+
+   > [!NOTE]
+   > Only primary agents—such as the **ESS Frontier template**, **ES HR template**, or **ESS IT template**—can be added.  
+   > You can add up to **10 agents**.
+
+3. When you identify the correct agent, select **Add agent**.
 ---
 
 ### Configure categorized starter prompts
