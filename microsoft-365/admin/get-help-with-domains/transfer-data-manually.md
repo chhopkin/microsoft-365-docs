@@ -2,10 +2,10 @@
 title: Transfer data manually between Microsoft 365 accounts
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
-ms.date: 03/13/2026
+ms.author: frankroj
+author: frankroj
+manager: scotv
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
