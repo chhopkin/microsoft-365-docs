@@ -67,8 +67,8 @@ tools:
       url: /microsoft-365/copilot/extensibility/overview
     # Card
     - title: Microsoft Copilot Studio
-      imageSrc: /office/media/icons/developer-blue.png
-#     summary: Who this library is for - Developers that are responsible for building AI-driven copilots with Microsoft Copilot Studio.Discover how to build AI-driven agents and workflows easily with Microsoft Copilot Studio with online training courses, docs, and videos. Learn how to quickly and simply integrate chat into your website.
+      imageSrc: /microsoft-365/media/logos/copilot-studio.png
+#     summary: Who this library is for - Developers that are responsible for building AI-driven copilots with Microsoft Copilot Studio. Discover how to build AI-driven agents and workflows easily with Microsoft Copilot Studio with online training courses, docs, and videos. Learn how to quickly and simply integrate chat into your website.
       url: /microsoft-copilot-studio
 
 # Card with links style
