@@ -25,6 +25,7 @@ ms.custom:
 - OKR_SMB_M365
 - seo-marvel-mar
 - AdminSurgePortfolio
+- identity-models
 search.appverid:
 - BCS160
 - MET150

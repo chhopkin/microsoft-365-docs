@@ -17,6 +17,7 @@ ms.custom:
 - 'O365M_AddUsersWithDirSync'
 - 'O365E_HRCSetupAADConnectAboutLM617031'
 - 'O365E_AddUsersWithDirSync'
+- identity-models
 ms.collection:
 - scotvorg
 - Ent_O365

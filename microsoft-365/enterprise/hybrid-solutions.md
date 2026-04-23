@@ -20,6 +20,7 @@ f1.keywords:
 ms.custom: 
  - Ent_Solutions
  - seo-marvel-apr2020
+ - identity-models
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
 description: Provides a list of links to useful information for deploying Office Server workloads in Microsoft Azure.
 ---

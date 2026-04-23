@@ -23,6 +23,7 @@ ms.collection:
 - must-keep
 ms.custom:
 - intro-overview
+- identity-models
 description: Deploy your identity infrastructure for Microsoft 365.
 ---
 
