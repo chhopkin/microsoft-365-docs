@@ -54,7 +54,7 @@ For a detailed description of each skill, see [Cowork skills](use-cowork.md#cowo
 
 ## Can I create my own custom skills?
 
-Yes. You can create up to 20 custom skills by placing `SKILL.md` files in your OneDrive `/Documents/Cowork/Skills/` folder. Each file contains a YAML frontmatter block with a name and description, followed by the skill instructions. Cowork discovers your custom skills automatically at the start of each conversation.
+Yes. You can create up to 50 custom skills by placing `SKILL.md` files in your OneDrive `/Documents/Cowork/Skills/` folder or by using natural language to ask Cowork to create skills for you. Each file contains a YAML frontmatter block with a name and description, followed by the skill instructions. Cowork discovers your custom skills automatically at the start of each conversation.
 
 For step-by-step instructions, see [Create custom skills](use-cowork.md#create-custom-skills).
 
