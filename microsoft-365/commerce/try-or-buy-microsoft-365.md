@@ -169,6 +169,9 @@ When you buy another subscription through the Microsoft 365 admin center, the ne
 
 If you want to move all of your users to a different subscription, see [Upgrade or change to a different Microsoft 365 for business plan](subscriptions/upgrade-to-different-plan.md).
 
+> [!NOTE]
+> You must move or reassign users from your free trial subscription to the new subscription before your trial subscription expires. By doing this, you keep your data, accounts, and configuration. Otherwise, that information is deleted.
+
 **If you have an MCA billing account type:**
 
 Check out this video and others on our [YouTube channel](https://go.microsoft.com/fwlink/?linkid=2198013).
