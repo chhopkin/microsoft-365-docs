@@ -28,7 +28,7 @@ Working time is a feature that allows admins to limit access to Microsoft Teams 
 
 With this feature, you can block access to Teams or show a warning message when frontline workers who are off shift open Teams. Consider enabling working time for your frontline workforce if:
 
-- You’re concerned about frontline workers asking for pay outside of working hours if they access work apps.
+- You're concerned about frontline workers asking for pay outside of working hours if they access work apps.
 - Local laws and regulations require you to restrict access to work apps when employees are off shift.
 
 ## How it works
@@ -37,7 +37,7 @@ When a frontline worker clocks in to their shift and opens Teams, the app checks
 
 - If the worker is on shift, they can access Teams.
 - If the worker is off shift when Teams is open, the worker sees a block or warning screen.
-  - If you configured a block screen, the worker can’t access Teams until they clock in to their shift.
+  - If you configured a block screen, the worker can't access Teams until they clock in to their shift.
   - If you configured a warning screen, the worker can dismiss it and choose whether to use Teams at their discretion.
 - If a worker is using Teams while clocking out, the worker sees a block or warning screen for the app after they clock out.
 
