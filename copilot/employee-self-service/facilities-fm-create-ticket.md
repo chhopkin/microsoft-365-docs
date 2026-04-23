@@ -1,8 +1,8 @@
 ---
-title: Extend Employee Self-Service agent: Create a Facilities Ticket
+title: "Extend Employee Self-Service agent: Create a Facilities Ticket"
 f1.keywords: NOCSH
 ms.author: heidip
-author: padmanabhareddy
+author: padmanabha
 manager: bartmand
 ms.reviewer: MicrosoftHeidi
 ms.date: 4/14/2026
@@ -86,10 +86,10 @@ For detailed documentation on AI Prompts, refer to the official Microsoft docume
 Power Automate is a cloud-based automation platform that enables users to create workflows – called flows – to automate repetitive tasks across applications and services without writing code. It's part of the Microsoft Power Platform and integrates seamlessly with Microsoft 365 apps and hundreds of third-party services.
 
 For supported connectors, see:
-[Connector reference overview - Microsoft Learn](https://learn.microsoft.com/en-us/connectors/connector-reference/)
+[Connector reference overview](/connectors/connector-reference/)
 
 HTTP request action reference:
-[HTTP with Microsoft Entra ID (preauthorized) - Connectors | Microsoft Learn](https://learn.microsoft.com/en-us/connectors/webcontents/)
+[HTTP with Microsoft Entra ID (preauthorized) - Connectors](/connectors/webcontents/)
 
 ## Example: Create a facilities ticket
 
@@ -203,12 +203,12 @@ Steps:
 ### I'm not getting the expected results while testing an AI prompt. What should I do?
 
 Confirm that your prompt instructions and inputs match your test scenario. If results still vary, try a different model and compare outputs.
-[FAQ for prompts - Microsoft Learn](https://learn.microsoft.com/en-us/ai-builder/faqs-prompts)
+[FAQ for prompts](/ai-builder/faqs-prompts)
 
 ### Can I use different data sources for categories defined in an AI prompt?
 
 Yes. You can provide categories as plain text in the prompt, or populate them from a data source such as Dataverse tables.
-[Prompt columns in Microsoft Dataverse - Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/prompt-column)
+[Prompt columns in Microsoft Dataverse](/power-apps/maker/data-platform/prompt-column)
 
 ### How are error conditions handled?
 
