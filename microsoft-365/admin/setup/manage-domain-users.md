@@ -2,10 +2,10 @@
 title: "Synchronize domain users to Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
-ms.date: 07/10/2024
+ms.author: frankroj
+author: frankroj
+manager: scotv
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -50,7 +50,7 @@ The **Run IdFix** in the following steps makes sure that your on-premises Active
 
 ## 2. Install and configure Microsoft Entra Connect
 
-To synchronize your users, groups, and contacts from the local Active Directory into Microsoft Entra ID, install Microsoft Entra Connect and set up directory synchronization. 
+To synchronize your users, groups, and contacts from the local Active Directory into Microsoft Entra ID, install Microsoft Entra Connect and set up directory synchronization.
 
  1. In the [admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), select **Setup** in the left nav.
 
