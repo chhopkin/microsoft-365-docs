@@ -2,10 +2,10 @@
 title: Remove a domain from Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
-ms.date: 03/13/2026
+ms.author: frankroj
+author: frankroj
+manager: scotv
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -58,7 +58,7 @@ Before you remove a domain, make sure that:
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
    ::: moniker-end
-    
+
    ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
@@ -86,7 +86,7 @@ Before you remove a domain, make sure that:
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
    ::: moniker-end
-    
+
    ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
@@ -118,7 +118,7 @@ You can also use PowerShell to move users to another domain. For more informatio
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
    ::: moniker-end
-    
+
    ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn/adminportal/).
@@ -152,7 +152,7 @@ You can also use PowerShell to move users to another domain. For more informatio
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
    ::: moniker-end
-    
+
    ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
