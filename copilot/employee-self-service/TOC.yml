@@ -89,6 +89,9 @@ items:
       href: facilities-lobby-invite-guest.md
     - name: Register your vehicle
       href: facilities-parking-register-vehicle.md
+    - name: Create a facilities ticket
+      href: facilities-fm-create-ticket.md
+      
 
 - name: Usage analytics
   href: usage-analytics.md
