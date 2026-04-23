@@ -1,11 +1,11 @@
 ---
-title: "Extend Employee Self-Service Agent: Invite a Guest"
+title: "Extend Employee Self-Service agent: Invite a Guest"
 f1.keywords: NOCSH
 ms.author: apoorvg
 author: apoorvg
 manager: sudhakarms
 ms.reviewer: heidip
-ms.date: 04/21/2026
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -13,20 +13,20 @@ ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about extending the Employee Self-Service Copilot Agent tailored to your organization. This article describes the steps to invite a guest to offices (Lobby) via Employee Self-Service. Example - "I want to invite my spouse to Building 32"
+description: Learn about extending the Employee Self-Service Copilot agent tailored to your organization. This article describes the steps to invite a guest to offices (Lobby) via Employee Self-Service. Example - "I want to invite my spouse to Building 32"
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Extend Employee Self-Service Agent: Invite a Guest
+# Extend Employee Self-Service agent: Invite a Guest
 
-The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
+The Employee Self-Service Copilot agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
-An organization may seek to enhance Employee Self-Service Copilot Agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
+An organization may seek to enhance Employee Self-Service Copilot agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
 
-To support these needs, Employee Self-Service Copilot Agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
+To support these needs, Employee Self-Service Copilot agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
 
-At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
+At Microsoft, we extended Employee Self-Service Copilot agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
 
 - Create a Facilities Ticket (Facilities), for example, "I want to report a water leak.".
 - Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3."
@@ -45,11 +45,11 @@ Moreover, such integrated experiences foster a sense of belonging and engagement
 
 Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organizations attract, retain, and motivate talent by prioritizing their day-to-day comfort and efficiency.
 
-Now that we covered the fundamentals, let's walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot Agent to allow employees to perform various operations.
+Now that we covered the fundamentals, let's walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot agent to allow employees to perform various operations.
 
 ## Prerequisites
 
-To extend the Employee Self-Service Copilot Agent with a custom *Invite a guest* topic, ensure the following prerequisites are met:
+To extend the Employee Self-Service Copilot agent with a custom *Invite a guest* topic, ensure the following prerequisites are met:
 
 - Employee Self-Service agent is installed in Copilot Studio.
 - Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeInviteGuest) in GitHub.
