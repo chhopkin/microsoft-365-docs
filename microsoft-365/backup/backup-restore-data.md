@@ -35,7 +35,7 @@ Currently, you can restore  accounts, SharePoint sites, and Exchange mailbox con
 
 ## Restore point frequency
 
-The restore point frequency, also known as the [recovery point objective](backup-faq.md#what-is-the-service-recovery-point-objective) (RPO), defines the maximum amount of time during which data is lost after an attack. Stated differently, it’s the time between the most recent backup of the healthy state of data and the time of the attack. The RPOs for each of the protected services are summarized in the following table.
+The restore point frequency, also known as the [recovery point objective](backup-faq.md#what-is-the-service-recovery-point-objective) (RPO), defines the maximum amount of time during which data is lost after an attack. Stated differently, it's the time between the most recent backup of the healthy state of data and the time of the attack. The RPOs for each of the protected services are summarized in the following table.
 
 |Type  |RPO for 0-14 days in the past  |RPO for 15-365 days in the past  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ The restore point frequency, also known as the [recovery point objective](backup
 
 > [!NOTE]
 > You can also use PowerShell cmdlets to perform these operations by following these steps:
-> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-onedriveforbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for OneDrive.
+> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-onedriveforbusinessrestoresessions) documentation for the specific action you want to perform-for example, restoring data for OneDrive.
 > 2. Scroll to the **Example request** section and select the **PowerShell** tab.
 > 3. Install the Microsoft.Graph.BackupRestore module as shown in the example.
 > 4. Run the provided PowerShell command in an Admin PowerShell session to execute the desired action.
@@ -319,7 +319,7 @@ Microsoft 365 Backup supports restoring sites and user accounts from both centra
 
 - Add or remove sites or accounts from all the geos during the restore operation.
 
-Microsoft 365 Backup supports the backup and restoration of any site and user account even if that site or user account has moved from one geo to another geo. If the site or user account has moved to a new geo, and you’re restoring data from a prior point back in time when the site or user account was in older geo, then the restored site or user account will be available in the new geo.
+Microsoft 365 Backup supports the backup and restoration of any site and user account even if that site or user account has moved from one geo to another geo. If the site or user account has moved to a new geo, and you're restoring data from a prior point back in time when the site or user account was in older geo, then the restored site or user account will be available in the new geo.
 
 > [!NOTE]
 > After a multi-geo move, a OneDrive account and SharePoint site will only be able to restore to the weekly restore points until an enhancement is deployed (enhancement coming soon).
@@ -369,14 +369,14 @@ Microsoft 365 Backup supports the backup and restoration of any site and user ac
     
         - On April 1, 2024, Megan has the option to roll back the site to any 10-minute period in the prior 14 days (that is, any 10-minute period between March 18 and the current date-time). If Megan wants to choose an earlier prior point in time, she would need to choose March 15, 8, or 1, and so on, back through February 1, or up to 52 weeks if the policy was created at least 52 weeks in the past.
     
-        - Megan then adds a user’s mailbox to the policy on February 1, 2024, at 11:00 AM PST. Megan has the option of restoring modified or deleted items from that user's mailbox to any 10-minute period during the entire retention period.
+        - Megan then adds a user's mailbox to the policy on February 1, 2024, at 11:00 AM PST. Megan has the option of restoring modified or deleted items from that user's mailbox to any 10-minute period during the entire retention period.
     
     - Users whose Microsoft Entra ID has been deleted will be displayed as blank lines in the restore picker experience for OneDrive and Exchange Online since those users no longer exist in the environment. Rest assured, their historical backups still exist in the Backup tool, but some [special handling is needed to restore them](backup-faq.md#what-is-the-service-recovery-point-objective).
     
     - To restore a OneDrive account and Exchange mailbox for a user who is deleted from Microsoft Entra ID, use this instruction:  
     
         > [!NOTE]
-        > Deleted users appear as "–" in the user interface because the user doesn't exist in the tenancy. However, the backups and associated restore points are retained for the full 365-day retention period from when a given restore point was originally created.
+        > Deleted users appear as "-" in the user interface because the user doesn't exist in the tenancy. However, the backups and associated restore points are retained for the full 365-day retention period from when a given restore point was originally created.
     
         If the user has been deleted within the past 30 days, the best option is to restore the user based on instructions found at [Restore a user in the Microsoft 365 admin center](/microsoft-365/admin/add-users/restore-user). Once the user is reconstituted, the name reappears in the Backup tool restore experience, and the rest of the experience will work as normal.
     

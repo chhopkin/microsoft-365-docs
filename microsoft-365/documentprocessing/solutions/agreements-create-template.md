@@ -79,11 +79,11 @@ Fields can either be added to the content of the document, or kept as other prop
 
 There are a few standard fields that come with SharePoint Agreements AI. These fields include:
 
-- **First party** – The first party on the agreement.
-- **Second party** – The second party on the agreement.
-- **Effective date**  – The date on which the agreement comes into effect.
-- **Expiration date** – The date on which the [agreement expires](agreements-expirations.md).
-- **Expiration type** – This type can either be single date, where the agreement expires on a specific date, or evergreen, where the agreement never expires.
+- **First party** - The first party on the agreement.
+- **Second party** - The second party on the agreement.
+- **Effective date**  - The date on which the agreement comes into effect.
+- **Expiration date** - The date on which the [agreement expires](agreements-expirations.md).
+- **Expiration type** - This type can either be single date, where the agreement expires on a specific date, or evergreen, where the agreement never expires.
 
 To add fields to a template, follow these steps:
 
@@ -135,7 +135,7 @@ You can also allow users to manually input values with the **Document authors ca
 
 ## Automatically detect potential fields for templates
 
-Automatic field detection for templates uses AI to help template creators quickly identify and insert relevant fields into their templates. It scans the document, detects key content, and suggests fields for review and insertion—reducing manual effort and saving time. To learn more about the AI used in the automatic field detection feature, see [Responsible AI FAQs for SharePoint Agreements](agreements-responsible-ai.md).
+Automatic field detection for templates uses AI to help template creators quickly identify and insert relevant fields into their templates. It scans the document, detects key content, and suggests fields for review and insertion-reducing manual effort and saving time. To learn more about the AI used in the automatic field detection feature, see [Responsible AI FAQs for SharePoint Agreements](agreements-responsible-ai.md).
 
 ### Detect potential fields
 
@@ -147,18 +147,18 @@ On the **Manage templates** panel, select **Set up fields** > **Detect potential
 
 The following standard fields from the library are detected.
 
-- First party (Single line of text) – The first party on the agreement.
-- Second party (Single line of text) – The second party on the agreement.
-- Effective date (Date) – The date on which the agreement comes into effect.
-- Expiration date (Date) – The date on which the agreement expires.
+- First party (Single line of text) - The first party on the agreement.
+- Second party (Single line of text) - The second party on the agreement.
+- Effective date (Date) - The date on which the agreement comes into effect.
+- Expiration date (Date) - The date on which the agreement expires.
 
 #### New field suggestions
 
 The following new fields are detected. These fields aren't part of the field library and will get added once you accept the suggestion and add them to the template.
 
-- Governing law (Single line of text) – State, country, or region’s law that governs the interpretation of the agreement.
-- Renewal term (Single line of text) – Renewal term after the initial term of the agreement expires.
-- Notice to terminate renewal (Single line of text) – Notice period required to terminate renewal or notice period required to prevent the automatic renewal of the agreement.
+- Governing law (Single line of text) - State, country, or region's law that governs the interpretation of the agreement.
+- Renewal term (Single line of text) - Renewal term after the initial term of the agreement expires.
+- Notice to terminate renewal (Single line of text) - Notice period required to terminate renewal or notice period required to prevent the automatic renewal of the agreement.
 
     ![A screenshot showing the Manage templates panel to review the potential detected fields.](../../media/content-understanding/agreements-review-detected-fields.png)
 
@@ -178,7 +178,7 @@ To apply a field to all detected occurrences and replace them with a placeholder
 
 #### Edit new field suggestions
 
-For new field suggestions, you’ll see the **Edit** (![Image of the edit icon.](../../media/content-understanding/agreements-edit-icon.png)) option.
+For new field suggestions, you'll see the **Edit** (![Image of the edit icon.](../../media/content-understanding/agreements-edit-icon.png)) option.
 
 ![A screenshot showing the option to edit new suggested fields.](../../media/content-understanding/agreements-edit-suggested-fields.png)
 
