@@ -1,9 +1,9 @@
 ---
-title: Create a Facilities Ticket  
+title: Extend Employee Self-Service agent: Create a Facilities Ticket
 f1.keywords: NOCSH
 ms.author: heidip
-author: padmanabha
-manager: ehanse
+author: padmanabhareddy
+manager: bartmand
 ms.reviewer: MicrosoftHeidi
 ms.date: 4/14/2026
 audience: Admin
@@ -13,19 +13,19 @@ ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about extending the Employee Self-Service Copilot Agent tailored to your organization. This article describes the steps to create a facilities ticket (Facilities Management) via Employee SelfService. Example - "I want to report a water leak"
+description: Learn about extending the Employee Self-Service Copilot agent tailored to your organization. This article describes the steps to create a facilities ticket (Facilities Management) via Employee SelfService. Example - "I want to report a water leak"
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
-# Extending Employee Self-Service Agent
+# Extend Employee Self-Service agent: Create a Facilities Ticket
 
-The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
+The Employee Self-Service Copilot agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
-An organization might seek to enhance Employee Self-Service Copilot Agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
+An organization might seek to enhance Employee Self-Service Copilot agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
 
-To support these needs, Employee Self-Service Copilot Agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
+To support these needs, Employee Self-Service Copilot agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new topics tailored to your organization.
 
-At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
+At Microsoft, we extended Employee Self-Service Copilot agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
 
 - Create a Facilities Ticket (Facilities), for example, "I want to report a water leak"
 - Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3"
@@ -44,16 +44,15 @@ Moreover, such integrated experiences foster a sense of belonging and engagement
 
 Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organizations attract, retain, and motivate talent by prioritizing their day-to-day comfort and efficiency.
 
-Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot Agent to allow employees to perform various operations.
+Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot agent to allow employees to perform various operations.
 
 ## Prerequisites
 
-Before extending the Employee Self-Service (ESS) Copilot Agent with custom topics for your Real Estate integration, ensure the following prerequisites are met:
+Before extending the Employee Self-Service Copilot agent with custom topics for your Real Estate integration, ensure the following prerequisites are met:
 
-- ESS agent is installed in Copilot Studio
+- Employee Self-Service agent is installed in Copilot Studio
 - Maker access to a sandbox or preproduction environment in Copilot Studio
-- Access to Copilot Studio Samples on GitHub  
-  [EmployeeCreateFacilitiesManagementTicket sample](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeCreateFacilitiesManagementTicket)
+- Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Facilities/EmployeeCreateFacilitiesManagementTicket) in GitHub.
 - Access to the Facilities Management API used to create tickets in the backend system
   - This example assumes the Facilities Management ticketing system is built on Dynamics 365 using the Field Service module
 
@@ -80,7 +79,7 @@ In Copilot Studio, Prompts are essential for constructing custom AI actions usin
 
 Some examples where AI prompt can be used is – For creating a facility ticket, identify information like category for the reported problem, and location of the issue being reported from the employee’s natural language input.
 
-For detailed documentation on AI Prompts, refer to the official Microsoft documentation [Prompt columns in Microsoft Dataverse - Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/prompt-column)
+For detailed documentation on AI Prompts, refer to the official Microsoft documentation [Prompt columns in Microsoft Dataverse](/power-apps/maker/data-platform/prompt-column)
 
 ### Power Automate Flow
 
@@ -96,7 +95,7 @@ HTTP request action reference:
 
 In this scenario, an employee needs facilities support for an issue in the office, for example, an air conditioner that isn’t working, broken furniture, or a cleaning request.
 
-Using the Employee Self-Service (ESS) experience, the employee submits a facilities ticket by describing the issue and specifying the location. The facilities team reviews the ticket, assigns the right personnel, and tracks the work to resolution.
+Using the Employee Self-Service experience, the employee submits a facilities ticket by describing the issue and specifying the location. The facilities team reviews the ticket, assigns the right personnel, and tracks the work to resolution.
 
 The implementation includes the following steps:
 
@@ -118,17 +117,17 @@ To route facilities issues to the right technician, extract the problem category
 2. Copy the prompt instructions from the Copilot Studio Samples repository: [Extract Problem category](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeCreateFacilitiesManagementTicket/Extract%20Problem%20category.md?plain=1), and paste them into the Instructions section. Adjust the instructions as needed for your scenario.
 3. Add two input text parameters by selecting Add content: Problem Description (next to the Problem Description input) and Categories (next to the Reference Categories Data input), as shown in the screenshot.
 
-    ![Extract problem category prompt configuration](media/facilities-fm-create-facilities-ticket-extract-category-prompt.png)
+    :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-prompt.png" alt-text="Extract problem category prompt configuration.":::
 
 4. Update the Categories input by adding or editing the list of problem categories for your organization. If your categories are stored in Dataverse, you can use that data instead.
 
-    ![Update Problem categories](media/facilities-fm-create-facilities-ticket-extract-category-prompt-edit.png)
+    :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-prompt-edit.png" alt-text="Update Problem categories.":::
 
 5. Test the prompt.
-    - Enter a sample Problem Description and choose a model. For consistent behavior, use the same model as your Employee Self-Service (ESS) agent. Select Test to confirm the category returned for your scenarios.
+    - Enter a sample Problem Description and choose a model. For consistent behavior, use the same model as your Employee Self-Service agent. Select Test to confirm the category returned for your scenarios.
     - Optionally, try other available models and compare results before you standardize on one.
 
-        ![Problem category prompt problem description](media/facilities-fm-create-facilities-ticket-extract-category-prompt-problem-description.png)
+        :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-prompt-problem-description.png" alt-text="Problem category prompt problem description.":::
 
 6. Save the prompt as **Prompt to Extract Problem Category**.
 
@@ -139,7 +138,8 @@ To dispatch facility services to the right place, extract location details from 
 1. Create a new prompt in Copilot Studio. Go to [Power Apps](https://make.powerapps.com/) and select AI Hub > Prompts > Build your own prompt.
 2. Copy the prompt instructions from the sample: [Extract Location Information](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeCreateFacilitiesManagementTicket/Extract%20Location%20Information.md?plain=1), and paste them into the Instructions section. Adjust the instructions as needed for your scenario.
 3. Add the input text parameter Facilities Description next to the Facilities Description input by selecting Add content, as shown in the screenshot.
-    ![Extract location information prompt](media/facilities-fm-create-facilities-ticket-extract-location-prompt.png)
+
+    :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-location-prompt.png" alt-text="Extract location information prompt.":::
 4. Test the prompt and save it as **Extract Location Information**.
 
 ## Create a Power Automate flow
@@ -163,32 +163,35 @@ Use the following steps to create an agent flow that the topic can call.
 Steps:
 
 1. Create a topic named **Create Facilities Management Ticket**.
-    - In Copilot Studio, go to Agents > Employee Self-Service Agent > Topics.
+    - In Copilot Studio, go to Agents > Employee Self-Service agent > Topics.
     - Create a new topic from blank, and then open the code editor.
 
-        ![Open topic code editor](media/facilities-fm-create-facilities-ticket-topic-code-editor.png)
+        :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-code-editor.png" alt-text="Open topic code editor.":::
 
     - Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeCreateFacilitiesManagementTicket/topic.yaml), and close code editor.
     - In the topic workflow editor, locate the Prompt Location reference. Select the double-arrow button to open Add a tool, and then choose the Extract Location Information prompt you created earlier.
-      ![Add prompt tools](media/facilities-fm-create-facilities-ticket-topic-add-location-prompt.png)
+
+      :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-add-location-prompt.png" alt-text="Add prompt tools.":::
     - Repeat the previous step for the problem category prompt and the action (the flow).
     - Resolve any validation errors, and then select Save.
 
 2. Validate.
     - Open the visual representation of the topic and verify the end-to-end flow.
     - Run Topic checker to identify any static issues.
-    - Optionally, follow the next section (Validate the topic) for a guided walkthrough of what to verify.
+    - Optionally, follow the next section (Review the topic workflow) for a guided walkthrough of what to verify.
 3. Test the topic.
     - In Copilot Studio, select Test to open the test chat.
     - Enter a sample request such as  There's a water leak in the first-floor bathroom.
-         ![Facilities ticket creation form](media/facilities-fm-create-facilities-ticket-topic-adaptive-card.png)
-    - Complete any required fields in the ticket form, and then submit.
-    - After submission, the Employee Self-Service (ESS) agent confirms that the Facilities Management ticket was created.
 
-## Validate the topic
+         :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-adaptive-card.png" alt-text="Facilities ticket creation form.":::
+    - Complete any required fields in the ticket form, and then submit.
+    - After submission, the Employee Self-Service agent confirms that the Facilities Management ticket was created.
+
+## Review the topic workflow
 
 1. Review the Trigger node text (the description shown to users). Adjust it as needed for your scenario.
-    ![Trigger configuration](media/facilities-fm-create-facilities-ticket-topic-codeeditor-trigger-queries.png)
+
+    :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-codeeditor-trigger-queries.png" alt-text="Trigger configuration.":::
 2. Confirm the next node stores the user's natural language input in a variable, and that the following message acknowledges receipt.
 3. Verify the prompt node that extracts location information and confirm it maps inputs/outputs correctly.
 4. Verify the prompt node that extracts the problem category and confirm it returns the expected category values.
@@ -216,14 +219,16 @@ Near the end of the topic, conditional branches handle failures and send user-fr
 Review the following areas:
 
 - **AI prompt:** Make sure the Location and Category prompt outputs contain the values you expect. To troubleshoot, temporarily display the output variables by using a Send a message node.
-  ![Prompt location output verification](media/facilities-fm-create-facilities-ticket-faq-prompt.png)
+
+  :::image type="content" source="media/facilities-fm-create-facilities-ticket-faq-prompt.png" alt-text="Prompt location output verification.":::
 
 - **Flow:** Check the flow run history for failed runs and validate connector configuration, inputs, and returned outputs.
-  ![Flow run history](media/facilities-fm-create-facilities-ticket-faq-flow.png)
+
+  :::image type="content" source="media/facilities-fm-create-facilities-ticket-faq-flow.png" alt-text="Flow run history.":::
 
 - **Error handling logic:** Verify your conditional branches cover common failure cases and that each branch returns a clear, actionable message.
 
-## More tips
+## Additional tips
 
-- Use Topic checker to identify static issues before you test.
-- Use the built-in test chat to run end-to-end scenarios and catch configuration issues early.
+- Before testing, to identify static issues in your topic definition, use the Topic Checker in Copilot Studio.
+- Test your topic using the built-in chat window and review the workflow visually to catch any misconfigurations early.
