@@ -1,10 +1,10 @@
 ---
 title: "Defederation Process for Microsoft 365 Admins Using GoDaddy"
 description: "Learn how to defederate Microsoft 365 email from Godaddy."
-ms.author: dansimp
-author: dansimp
-manager: dansimp
-ms.date: 03/18/2025
+ms.author: frankroj
+author: frankroj
+manager: scotv
+ms.date: 04/23/2026
 ms.topic: article
 ms.service: microsoft-365-business
 ms.subservice: m365-domains
