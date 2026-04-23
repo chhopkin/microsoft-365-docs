@@ -65,7 +65,7 @@ To use an existing template to add a user:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Active users**.
 
-2. Select **User templates**, and then select a template from the drop-down list. (The list will contain only the templates that you created, not those created by other admins.)
+2. Select **User templates**, and then select a template from the drop-down list. (The list contains only the templates that you created, not templates that were created by other admins.)
 
    > [!NOTE]
    > You can also use a template to add a user by selecting **User templates** > **Manage templates**, selecting a template, and then selecting **Use template**.
@@ -83,7 +83,7 @@ You can only delete templates you no longer need and add new ones. To delete a t
 
 2. Select **Templates**, and then select **Manage templates** from the drop-down list.
 
-3. A list of templates will appear. You can delete a template by doing any of the following:
+3. A list of templates appears. You can delete a template by taking any of the following actions:
 
    - Select one or more templates, and then select **Delete**.
    - Select the three dots to the right of the template name, and then select **Delete**.
