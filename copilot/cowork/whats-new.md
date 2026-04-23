@@ -28,6 +28,8 @@ This article lists recent features, improvements, and changes in Microsoft 365 C
 
 | Feature | Description | Learn more |
 |---|---|---|
+| Expanded skills support | You can now add 50 custom skills through natural language or OneDrive. | [Manage your tasks](use-cowork.md#create-custom-skills) |
+| Markdown support in OneDrive | OneDrive and SharePoint now have native support for Markdown files, including custom skill files. | [Introducing Markdown support in SharePoint and OneDrive](https://techcommunity.microsoft.com/blog/onedriveblog/introducing-markdown-support-in-sharepoint-and-onedrive/4512174) |
 | Search task history | Home page task list is scrollable with search and status filters, replacing the static five-item view. | [Manage your tasks](use-cowork.md#manage-your-tasks) |
 | Notifications in app | Users are notified via a pop-up when input is needed or when a task is complete. | [Manage your tasks](use-cowork.md#answer-questions-from-cowork) |
 

@@ -87,6 +87,8 @@ items:
   items:
     - name: Invite a guest
       href: facilities-lobby-invite-guest.md
+    - name: Register your vehicle
+      href: facilities-parking-register-vehicle.md
 
 - name: Usage analytics
   href: usage-analytics.md
