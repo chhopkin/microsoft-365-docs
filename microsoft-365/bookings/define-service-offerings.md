@@ -64,9 +64,9 @@ The number of services should be limited to 50.
 
    **Duration**: This is how long all meetings will be booked for. The time is blocked beginning from the start time, which is selected during booking. The full appointment time will be blocked on the staff's calendars.
 
-   **Buffer time**: Enabling this setting allows for the addition of extra time to the staff’s calendar every time an appointment is booked.
+   **Buffer time**: Enabling this setting allows for the addition of extra time to the staff's calendar every time an appointment is booked.
 
-   The time will be blocked on the staff’s calendar and impact free/busy information. This means if an appointment ends at 3:00 pm and 10 minutes of buffer time has been added to the end of the meeting, the staff’s calendar will show as busy and non-bookable until 3:10pm. This can be useful if your staff needs time before a meeting to prepare, such as a doctor reviewing a patient’s chart, or a financial advisor preparing relevant account information. It can also be useful after a meeting, such as when someone needs time to travel to another location.
+   The time will be blocked on the staff's calendar and impact free/busy information. This means if an appointment ends at 3:00 pm and 10 minutes of buffer time has been added to the end of the meeting, the staff's calendar will show as busy and non-bookable until 3:10pm. This can be useful if your staff needs time before a meeting to prepare, such as a doctor reviewing a patient's chart, or a financial advisor preparing relevant account information. It can also be useful after a meeting, such as when someone needs time to travel to another location.
 
    **Price not set**: Select the price options that will display on the Self-service page. If **Price not set** is selected, then no price or reference to cost or pricing will appear.
 
