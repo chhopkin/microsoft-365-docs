@@ -5,7 +5,7 @@ ms.author: heidip
 author: vibeCoder500
 manager: abmohamm
 ms.reviewer: MicrosoftHeidi
-ms.date: 04/22/2026
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
