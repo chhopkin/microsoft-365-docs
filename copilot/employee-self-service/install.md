@@ -63,7 +63,7 @@ Learn more about [Preferred Solution](/power-apps/maker/data-platform/preferred-
 
 🧩  **The Challenge**
 
-When customers customize their Employee Self-Service agent-adding topics, tools, knowledge sources, or flows, those changes can silently land in the Default solution if a Preferred Solution isn't set. This result makes customizations non portable, breaks Dev to Test to Production deployment, and creates unmanaged layer conflicts that override future managed updates. The result: "works in dev, breaks in uction."
+When customers customize their Employee Self-Service agent-adding topics, tools, knowledge sources, or flows, those changes can silently land in the Default solution if a Preferred Solution isn't set. This result makes customizations non portable, breaks Dev to Test to Production deployment, and creates unmanaged layer conflicts that override future managed updates. The result: "works in dev, breaks in production."
 
 ✅ **Step 0-Set your preferred solution (Before you customize)**
 
