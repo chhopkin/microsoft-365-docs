@@ -20,7 +20,7 @@ description: Learn about file limitations, file types, supported languages, and 
 
 The following table outlines key factors to consider when planning to use an unstructured document processing model.
 
-This service is available only for SharePoint sites — including hub sites, sites associated to a hub site, and the primary site of a site collection. Subsites aren’t supported.
+This service is available only for SharePoint sites - including hub sites, sites associated to a hub site, and the primary site of a site collection. Subsites aren't supported.
 
 | Icon          | Description   |
 | ------------- | ------------- |
