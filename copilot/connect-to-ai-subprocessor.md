@@ -4,7 +4,7 @@ ms.author: kwekua
 author: kwekuako
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 02/10/2026
+ms.date: 04/22/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-copilot
@@ -19,7 +19,7 @@ ms.collection:
 - OtherAILLMs
 appliesto:
 - ✅ Microsoft 365 Copilot
-description: "Learn about Anthropic as a subprocessor for Microsoft."
+description: "Learn about Anthropic as a subprocessor for Microsoft Online Services."
 ---
 
 # Anthropic as a subprocessor for Microsoft Online Services
@@ -58,10 +58,15 @@ If your organization is in a region that has Anthropic as a subprocessor set to 
 
 1. Go to the Microsoft 365 admin center and select **Copilot** -\> **Settings** -\> **View all**.
 2. Select **AI providers operating as Microsoft subprocessors**.
-3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Anthropic** and **Enable**.
+3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Anthropic** and **Save**.
+4. Under **Choose who can access Anthropic models for Copilot and generative AI experiences**, select your users or groups and **Save**.
+
+    :::image type="content" source="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png" alt-text="Screenshot of the AI providers operating as Microsoft subprocessors page with user and security group options." lightbox="media/ai-providers-operating-as-subprocessors-sec-group-anthropic-and-xai.png":::
 
 > [!NOTE]
-> If your organization is in the European Union (EU), the European Free Trade Association (EFTA), or the United Kingdom and you previously opted in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement, you’ll need to opt in again. The toggle will be set to **Off** by default.
+> You can restrict user access to AI provider subprocessors by assigning permissions to specific users or Microsoft Entra ID security groups in the Microsoft 365 admin center. These assignments are applied at the provider level and enforced across Microsoft 365 Copilot and Copilot Studio experiences. When access is limited by user or group membership, only the assigned users can use Copilot features or agents that rely on that AI provider. Review existing user or group assignments and update policies or configurations as needed. For more information on user and security group access, see [Assign AI provider access to users and groups](copilot-ai-provider-user-sec-group-access.md). For more information on creating security groups, see [Create a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+
+If your organization is in the European Union (EU), the European Free Trade Association (EFTA), or the United Kingdom and you previously opted in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement, you’ll need to opt in again. The toggle will be set to **Off** by default.
 
 Some features are only available when Anthropic models are enabled. If you turn off Anthropic as a subprocessor, certain features may no longer be accessible.
 
