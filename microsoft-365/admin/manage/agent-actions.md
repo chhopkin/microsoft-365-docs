@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/08/2026
+ms.date: 04/22/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -32,34 +32,82 @@ search.appverid:
 - MOE150
 ---
 
-# Agent actions available in Microsoft 365 admin center
+# Governance and agent actions available in Microsoft 365 admin center
 
-Administrators in the Microsoft 365 admin center can take several actions to control the lifecycle, availability, and compliance of agents in their organization. When administrators use these controls, they can decide which agents are visible, who can access them, and how to manage them across the tenant.
+The Microsoft 365 admin center provides governance and lifecycle management capabilities for agents through the [Agent Registry](agent-registry.md). These capabilities enable administrators to manage agent visibility, access, distribution, and retirement across the tenant.
 
 ## Agent actions
 
 > [!NOTE]
+>
 > Microsoft 365 for government Community Cloud High (GCCH) and Government Community Cloud Moderate (GCCM) environments support publishing agents to the organization.
 
-- **Install** - Make an agent available for installation to specific users or groups.
-- **Deploy** - Automatically install an agent for users so it's ready to use without manual setup.
-- **Publish** - Add the agent to your organizational catalog in the Agent Store so that members of your organization can install it.
-- **Reject** - Prevent an agent from being published or made available to members of your organization.
-- **Approve Updates** - Review and approve new versions or changes to existing agents before they're deployed.
-- **Block and unblock** - Restrict access to an agent across the organization, preventing any user from using it.
-- **Remove** - Remove an agent from the tenant's inventory. You can re-add it later from the store if needed.
-- **Delete** - Delete agents directly from the Microsoft 365 admin center. When you delete an agent, Microsoft 365 removes the agent from the inventory and deletes all associated files.
-- **Manage Ownerless Agents** - Identify agents without an active owner and take action to block or remove them. For more information, see [Manage Ownerless Agents]().
-- **Reassign** - Assign a new owner to agents that are ownerless or active.
-- **Activate** - 
-- **Connect agents** - 
-- **Create instance** - Allow only selected users or groups to install the agent and create instances.
-the tenant.
+- **Install and Uninstall**: Install an agent for users so it's ready to use without manual installation by end users. Admin can uninstall a previously installed agent.
+
+- **Block and unblock**: Restrict access to an agent across the organization, preventing any user from using it.
+
+- **Delete**: Delete agents and any associated files. When you delete an agent, this permanently removes the agent from the inventory and deletes all associated files.
+
+- **Start/Stop**: Start or stop the underlying Azure infrastructure to govern Foundry agents. This gesture is unique to Microsoft Foundry agents.
+
+- **Assign a new owner**: Assign a new owner to agents that are ownerless or active.
 
 > [!NOTE]
+>
 > For information about actions relate to the agent registry list, such as **Export to Excel**, **Upload custom agent**, and **Manage pinned agents**, see [Agent registry in the Microsoft 365 admin center](agent-registry.md).
 
 ## Install agents
+
+You can Install agents across the whole organization or for specific users or groups by using the same gestures and controls that work for any other app in the Microsoft 365 admin center.
+
+To Install an agent, follow these steps:
+
+To access the **Agents at risk** card in the Microsoft 365 admin center, follow these steps:
+
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+
+1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
+
+1. Under **Agents**, select **All agents**.
+
+1. In the **All agents** page, make sure **Registry** is selected, and then filter the list by **Availability**.
+
+Select an agent from the list that isn't installed.
+
+In the agent details pane that opens, under the agent's name, select Install.
+
+In the Install agent to selected users pane, decide whether to install the agents to everyone or to specific users or groups, and then select Next.Screenshot showing the configuration screen to deploy an agent.
+
+In the Review permissions pane, review the permissions requested by the agent and grant admin consent if appropriate. For more information, see Understanding permissions. When finished, select Next.
+
+In the Review & finish pane, select Finish deployment.
+
+Installing an agent affects its availability and functionality in Copilot and in the other host products, such as Outlook, Teams, or Microsoft 365.
+
+Uninstall agents
+
+You can uninstall first-party or external agents across the whole organization or for specific users or groups by using the same controls that work for any other agent in the Microsoft 365 admin center.
+
+To uninstall an agent, follow these steps:
+
+Sign in to the Microsoft 365 admin center.
+
+In the left navigation pane, select Agents > All Agents.
+
+In the All agents page, filter the list by Availability.
+
+Select an installed agent from the list.
+
+In the agent details pane that opens, under the agent name, select Uninstall.
+
+ Note
+
+If you don't see the Uninstall option, the selected agent might not be installed.
+
+In the Uninstall agent pane, select the Uninstall agent option, and then select the Uninstall agent button.
+
+Uninstalling an agent affects its availability and functionality in Copilot and in the other host products, such as Outlook, Teams, or Microsoft 365.
+
 
 ## Deploy agents
 
