@@ -1,7 +1,7 @@
 ---
-title: Agent actions available in Microsoft 365 admin center
-description: Agent actions available in the Microsoft 365 admin center.
-#customer intent: Learn about the agent actions that are available in Microsoft 365 admin center.
+title: Governance and Lifecycle actions for agents available in Microsoft 365 admin center
+description: Governance and lifecycle actions for agents available in the Microsoft 365 admin center.
+#customer intent: Learn about the governance and lifecycle actions for agents that are available in Microsoft 365 admin center.
 f1.keywords:
 - NOCSH
 ms.author: erikre
@@ -32,7 +32,7 @@ search.appverid:
 - MOE150
 ---
 
-# Governance and agent actions available in Microsoft 365 admin center
+# Governance and Lifecycle actions for agents available in Microsoft 365 admin center
 
 The Microsoft 365 admin center provides governance and lifecycle management capabilities for agents through the [Agent Registry](agent-registry.md). These capabilities enable administrators to manage agent visibility, access, distribution, and retirement across the tenant.
 
@@ -56,13 +56,11 @@ The Microsoft 365 admin center provides governance and lifecycle management capa
 >
 > For information about actions relate to the agent registry list, such as **Export to Excel**, **Upload custom agent**, and **Manage pinned agents**, see [Agent registry in the Microsoft 365 admin center](agent-registry.md).
 
-## Install agents
+### Install agents
 
-You can Install agents across the whole organization or for specific users or groups by using the same gestures and controls that work for any other app in the Microsoft 365 admin center.
+You can install agents across the whole organization or for specific users or groups by using the same gestures and controls that work for any other app in the Microsoft 365 admin center.
 
-To Install an agent, follow these steps:
-
-To access the **Agents at risk** card in the Microsoft 365 admin center, follow these steps:
+To install an agent via the Microsoft 365 admin center, follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
@@ -70,70 +68,100 @@ To access the **Agents at risk** card in the Microsoft 365 admin center, follow 
 
 1. Under **Agents**, select **All agents**.
 
-1. In the **All agents** page, make sure **Registry** is selected, and then filter the list by **Availability**.
+1. In the **All agents** page, make sure **Registry** is selected. Select the **Status** filter and then select **Available**.
 
-Select an agent from the list that isn't installed.
+1. Select an agent from the list of agents that isn't already installed.
 
-In the agent details pane that opens, under the agent's name, select Install.
+1. In the agent details pane that opens, immediately under the agent's name, select **Install**.
 
-In the Install agent to selected users pane, decide whether to install the agents to everyone or to specific users or groups, and then select Next.Screenshot showing the configuration screen to deploy an agent.
+1. In the **Deploy agent to selected users** pane, decide whether to install the agent to all users or to specific users or groups, and then select **Next**.
 
-In the Review permissions pane, review the permissions requested by the agent and grant admin consent if appropriate. For more information, see Understanding permissions. When finished, select Next.
+    :::image type="content" source="../../media/agents/deploy.png" alt-text="Screenshot showing the configuration screen to deploy an agent." lightbox="../../media/agents/deploy.png":::
 
-In the Review & finish pane, select Finish deployment.
+1. In the **Review permissions** pane, review the requested permissions for the agent. If the permissions are acceptable, select **Grant admin consent**. For more information, see the [Understanding permissions](#understanding-permissions) section in this article.
+
+1. In the **Permissions requested** window, select **Accept** to grant the permissions to the agent, and then select **Next**.
+
+1. In the **Review & finish** pane, select **Finish deployment**.
 
 Installing an agent affects its availability and functionality in Copilot and in the other host products, such as Outlook, Teams, or Microsoft 365.
 
-Uninstall agents
+### Uninstall agents
 
 You can uninstall first-party or external agents across the whole organization or for specific users or groups by using the same controls that work for any other agent in the Microsoft 365 admin center.
 
-To uninstall an agent, follow these steps:
+To uninstall an agent via the Microsoft 365 admin center, follow these steps:
 
-Sign in to the Microsoft 365 admin center.
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-In the left navigation pane, select Agents > All Agents.
+1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
 
-In the All agents page, filter the list by Availability.
+1. Under **Agents**, select **All agents**.
 
-Select an installed agent from the list.
+1. In the **All agents** page, make sure **Registry** is selected. Select the **Status** filter and then select **Available**.
 
-In the agent details pane that opens, under the agent name, select Uninstall.
+1. Select an installed agent from the list of agents.
 
- Note
+1. In the agent details pane that opens, immediately under the agent's name, select **Uninstall**.
 
-If you don't see the Uninstall option, the selected agent might not be installed.
+    > [!NOTE]
+    >
+    > If you don't see the Uninstall option, the selected agent might not be installed.
 
-In the Uninstall agent pane, select the Uninstall agent option, and then select the Uninstall agent button.
+1. In the **Remove agent** pane, select the **Remove agent** option, and then select the **Uninstall Agent** button.
 
-Uninstalling an agent affects its availability and functionality in Copilot and in the other host products, such as Outlook, Teams, or Microsoft 365.
+Uninstalling an agent affects its availability and functionality in Copilot and in the other host products, such as Microsoft Outlook, Microsoft Teams, or other Microsoft 365 applications.
 
+## Block or unblock agents
 
-## Deploy agents
+Block or unblock agents for the entire organization by using the same controls that work for any other app in the Microsoft 365 admin center.
 
-You can deploy agents across the whole organization or for specific users or groups by using the same gestures and controls that work for any other app in the Microsoft 365 admin center.
+To block or unblock an agent, follow these steps:
 
-To deploy an agent, follow these steps:
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+
+1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
+
+1. Under **Agents**, select **All agents**.
+
+1. In the **All agents** page, select an agent from the list of agents.
+
+1. In the agent details pane that opens, immediately under the agent's name, select **Block** or **Unblock**.
+
+1. In the **Block agent** or **Unblock agent** pane that opens, select either **Block agent** or **Unblock agent**, and then select **Save**.
+
+    :::image type="content" source="../../media/agents/block.png" alt-text="Screenshot showing the panel to block an agent." lightbox="../../media/agents/block.png":::
+
+Blocking or unblocking an agent that you created by using Microsoft 365 Copilot Agent Builder and Microsoft 365 Copilot Studio affects its availability and functionality in Microsoft 365 Copilot. It also affects availability and functionality in other host products, such as Microsoft Outlook, Microsoft Teams, or other Microsoft 365 applications. However, blocking an agent that you created by using SharePoint or Microsoft Foundary only impacts its availability in Microsoft 365 Copilot Chat.
+
+> [!NOTE]
+>
+> For the [Researcher](https://support.microsoft.com/topic/e63ab760-f3de-4c47-ae87-dad601b0e9c4) and [Analyst](https://support.microsoft.com/topic/ff505b9c-a06c-4be9-b855-69d89b1d25d2) agents, the **Edit users** panel is disabled. To manage their availability, block the agent for the entire tenant by using the **Block** action in the Microsoft 365 admin center.
+
+## Remove agents
+
+You can remove first-party and external agents across the whole organization or for specific users or groups by using the same controls that work for any other app in the Microsoft 365 admin center.
+
+To remove an agent, follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 1. In the left navigation pane, select **Agents** > **All Agents**.
 
-1. Make sure **Registry** is selected, and then filter the list by **Availability**.
+1. In the **All agents** page, filter the list by **Availability**.
 
-1. Select an agent from the list that isn't deployed.
+1. Select a deployed agent from the list.
 
-1. In the agent details pane that opens, under the agent's name, select **Deploy**.
+1. In the agent details pane that opens, under the agent name, select **Remove**.
 
-1. In the **Deploy agent to selected users** pane, decide whether to deploy the agents to everyone or to specific users or groups, and then select **Next**.
+    >[!NOTE]
+    >
+    > If you don't see the **Remove** option, the selected agent might not be deployed.
 
-    :::image type="content" source="../../media/agents/deploy.png" alt-text="Screenshot showing the configuration screen to deploy an agent." lightbox="../../media/agents/deploy.png":::
+1. In the **Remove agent** pane, select the **Remove agent** option, and then select the **Remove agent** button.
 
-1. In the **Review permissions** pane, review the permissions requested by the agent and grant admin consent if appropriate. For more information, see [Understanding permissions](#understanding-permissions). When finished, select **Next**.
+Removing an agent affects its availability and functionality in Copilot and in the other host products, such as Outlook, Teams, or Microsoft 365.
 
-1. In the **Review & finish** pane, select **Finish deployment**.
-
-Deploying an agent affects its availability and functionality in Copilot and in the other host products, such as Outlook, Teams, or Microsoft 365.
 
 ### Understanding permissions
 
@@ -205,53 +233,9 @@ You can find the details of all types of permissions in the **Permissions** tab 
     :::image type="content" source="../../media/agents/agent-permissions.png" alt-text="Screenshot showing the Permissions tab on the agent details page in the Microsoft 365 admin center." lightbox="../../media/agents/agent-permissions.png":::
 
 
-## Block or unblock agents
 
-Block or unblock agents for the entire organization by using the same controls that work for any other app in the Microsoft 365 admin center.
 
-To block or unblock an agent, follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-
-1. In the left navigation pane, select **Agents** > **All Agents**.
-
-1. In the **All agents** page, choose an agent from the list of agents.
-
-1. In the agent details pane that opens, under the agent name, select either **Block** or **Unblock**.
-
-1. In the **Block agent** or **Unblock agent** pane that opens, select either **Block agent** or **Unblock agent**, and then select **Save**.
-
-    :::image type="content" source="../../media/agents/block.png" alt-text="Screenshot showing the panel to block an agent." lightbox="../../media/agents/block.png":::
-
-Blocking or unblocking an agent that you created by using Microsoft 365 Copilot Agent Builder and Microsoft 365 Copilot Studio affects its availability and functionality in Microsoft 365 Copilot. It also affects availability and functionality in other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent that you created by using SharePoint only impacts its availability in Microsoft 365 Copilot Chat.
-
-> [!NOTE]
->
-> For the [Researcher](https://support.microsoft.com/topic/e63ab760-f3de-4c47-ae87-dad601b0e9c4) and [Analyst](https://support.microsoft.com/topic/ff505b9c-a06c-4be9-b855-69d89b1d25d2) agents, the **Edit users** panel is disabled. To manage their availability, block the agent for the entire tenant by using the **Block** action in the Microsoft 365 admin center.
-
-## Remove agents
-
-You can remove first-party and external agents across the whole organization or for specific users or groups by using the same controls that work for any other app in the Microsoft 365 admin center.
-
-To remove an agent, follow these steps:
-
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-
-1. In the left navigation pane, select **Agents** > **All Agents**.
-
-1. In the **All agents** page, filter the list by **Availability**.
-
-1. Select a deployed agent from the list.
-
-1. In the agent details pane that opens, under the agent name, select **Remove**.
-
-    >[!NOTE]
-    >
-    > If you don't see the **Remove** option, the selected agent might not be deployed.
-
-1. In the **Remove agent** pane, select the **Remove agent** option, and then select the **Remove agent** button.
-
-Removing an agent affects its availability and functionality in Copilot and in the other host products, such as Outlook, Teams, or Microsoft 365.
 
 
 
