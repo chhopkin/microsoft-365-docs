@@ -82,7 +82,7 @@ The Shadow AI experience helps administrators identify and manage these risks wi
 
 ## Features available in public preview
 
-During public preview, the Shadow AI experience allows admins to detect and block the following:
+During public preview, the Shadow AI experience allows admins to detect and block the following Shadow AI agent:
 
 | Agent    | Detection | Blocking  |
 | -------- | --------- | --------- |
@@ -110,7 +110,7 @@ To access the **Shadow AI (Frontier)** page in the Microsoft 365 admin center, f
 
 1. To view Shadow AI agent details, such as OpenClaw details, select the Shadow AI agent from the list of agents in the **Shadow AI (Frontier)** page.
 
-1. The details pane opens for the selected Shadow AI agent. Make sure **Details** is selected. From **Details**ou can view information regarding the type of agent. For example:
+1. The details pane opens for the selected Shadow AI agent. Make sure **Details** is selected. From **Details** you can view information regarding the type of agent. For example:
 
    - When it was last scanned.
    - If there are any Microsoft Intune security policies currently applied.
@@ -127,7 +127,7 @@ To proactively configure detection for a Shadow AI agent before broad adoption, 
 
 ### View detected devices for a Shadow AI agent
 
-Once you have enabled detection for a Shadow AI agent, you can view detected devices in the Shadow AI agent details pane by following these steps:
+Once detection is enabled for a Shadow AI agent, you can view detected devices in the Shadow AI agent details pane by following these steps:
 
 1. In the Shadow AI agent details pane, select the **Detected devices** tab.
 
@@ -135,7 +135,7 @@ Once you have enabled detection for a Shadow AI agent, you can view detected dev
 
     > [!NOTE]
     >
-    > The detected devices list and count is only populated if a detection policy is applied. After initially enabling the detection policy, it might take some time for devices to sync with Microsoft Intune and for the detected devices to populate in the list.
+    > The detected devices list and count are only populated if a detection policy is applied. After the detection policy is initially enabled, it might take some time for devices to sync with Microsoft Intune and for the detected devices to populate in the list.
 
 1. In **Detected devices**, you can search for a specific device name. You can also see the following device data:
 
@@ -166,7 +166,7 @@ Blocking a Shadow AI agent creates a new Microsoft Intune policy that automatica
 > - Windows Subsystem for Linux (WSL).
 > - The default network ports used by the Shadow AI agent such as OpenClaw.
 >
-> This action is highly impactful. While it is effective at disrupting the most common methods used to run OpenClaw on managed devices, it also blocks widely used developer tooling and workflows.
+> This action is highly impactful. While it's effective at disrupting the most common methods used to run OpenClaw on managed devices, it also blocks widely used developer tooling and workflows.
 
 To block a Shadow AI agent:
 
