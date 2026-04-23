@@ -15,6 +15,7 @@ ms.custom:
   - Adm_O365
   - seo-marvel-apr2020
   - has-azure-ad-ps-ref
+  - identity-models
 ms.collection:
 - scotvorg
 - Ent_O365

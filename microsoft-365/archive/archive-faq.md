@@ -25,9 +25,9 @@ The file-level archive preview allows end users to manually archive files. Start
 1. **Billing enabled and Microsoft 365 Archive enabled**.  Pay-as-you-go billing must be configured, and Microsoft 365 Archive must be turned on in the tenant. These settings are required before file-level archive is available. For setup details, see [Admin setup](archive-setup.md).
 
 
-1. **File-level archive (preview) enabled via PowerShell**. During public preview, file-level archive must be explicitly turned on for the tenant by using PowerShell. When file-level archive reaches general availability, this step won’t be required, and file-level archive will be enabled by default when Microsoft 365 Archive is enabled. For details, see [Manage](archive-manage.md).  
+1. **File-level archive (preview) enabled via PowerShell**. During public preview, file-level archive must be explicitly turned on for the tenant by using PowerShell. When file-level archive reaches general availability, this step won't be required, and file-level archive will be enabled by default when Microsoft 365 Archive is enabled. For details, see [Manage](archive-manage.md).  
 
-   1. **Site enabled for file-level archive [enabled by default]**. File-level archive is allowed on SharePoint sites by default, but admins can disable it per site by using PowerShell. If file-level archive is disabled for a site, the Archive action isn’t available for files on that site. For details, see [Manage](archive-manage.md).  
+   1. **Site enabled for file-level archive [enabled by default]**. File-level archive is allowed on SharePoint sites by default, but admins can disable it per site by using PowerShell. If file-level archive is disabled for a site, the Archive action isn't available for files on that site. For details, see [Manage](archive-manage.md).  
       
 1. **User permissioned for archiving**. To archive a file, the user must have 'edit' permissions to the file.  
 
@@ -35,11 +35,11 @@ File-level archive is currently available only on SharePoint sites. Other limita
 
 #### How does file-level archive (preview) affect my site-level storage?
 
-File-level archive doesn’t change site storage usage or quota behavior. Archived files are accounted for in site storage the same way as active files. Archiving a file doesn’t reduce reported storage usage, change storage calculations, or affect quota enforcement. Because archived files continue to consume site storage, file-level archive can’t be used to reduce storage usage or store data beyond a site’s allocated quota.
+File-level archive doesn't change site storage usage or quota behavior. Archived files are accounted for in site storage the same way as active files. Archiving a file doesn't reduce reported storage usage, change storage calculations, or affect quota enforcement. Because archived files continue to consume site storage, file-level archive can't be used to reduce storage usage or store data beyond a site's allocated quota.
 
 #### How does file-level archive (preview) affect my tenant-level storage?
 
-File‑level archive and site‑level archive affect tenant‑level storage in the same way. Archived files and sites still count toward your total tenant storage. However, the archived data is counted as **archived storage** instead of active SharePoint storage. Archiving data doesn’t remove it from your tenant’s total storage usage. Instead, the data is reclassified from active storage to archived storage.
+File-level archive and site-level archive affect tenant-level storage in the same way. Archived files and sites still count toward your total tenant storage. However, the archived data is counted as **archived storage** instead of active SharePoint storage. Archiving data doesn't remove it from your tenant's total storage usage. Instead, the data is reclassified from active storage to archived storage.
 
 After files are archived:
 
@@ -59,11 +59,11 @@ After files are archived:
 
 #### How does Azure Blob compare to Microsoft 365 Archive?
 
-Microsoft 365 Archive allows you to keep data in place in SharePoint, providing benefits that aren’t possible when data is migrated elsewhere:
+Microsoft 365 Archive allows you to keep data in place in SharePoint, providing benefits that aren't possible when data is migrated elsewhere:
 
 - Archiving happens quickly, usually within minutes, regardless of the amount or size of content being archived.
 
-- No need to manage data in a separate security and compliance domain, therefore allowing your security and compliance tooling to operate seamlessly—including eDiscovery, retention policies, and more.
+- No need to manage data in a separate security and compliance domain, therefore allowing your security and compliance tooling to operate seamlessly-including eDiscovery, retention policies, and more.
 
 - Admin search indexes remain intact.
 
@@ -71,7 +71,7 @@ Microsoft 365 Archive allows you to keep data in place in SharePoint, providing 
 
 #### What happens to versions for archived files?
 
-Archived files retain all versions. When an archived file is reactivated, all existing versions are restored. Versions can’t be archived independently of the file they belong to.
+Archived files retain all versions. When an archived file is reactivated, all existing versions are restored. Versions can't be archived independently of the file they belong to.
 
 #### Can content in legal hold be archived?
 
@@ -81,7 +81,7 @@ Yes, nearly all Microsoft Purview features continue to operate as normal.
 
 Admin-level search and Purview-based search operate like normal. End-user search is supported.  To learn more, visit [End-user search.](search/m365-archive-search-overview.md)
 
-#### What’s the availability timing of Microsoft 365 Archive for Microsoft Government Community Cloud (GCC) customers?
+#### What's the availability timing of Microsoft 365 Archive for Microsoft Government Community Cloud (GCC) customers?
 
 Standard GCC rollout times apply.
 
