@@ -25,11 +25,11 @@ description: Learn about pay-as-you-go licensing for document processing for Mic
 Microsoft 365 offers flexible, scalable document processing services through a pay-as-you-go licensing model. This model is ideal for organizations seeking agility without upfront commitments.
 
 > [!NOTE]
-> For Government Community Cloud (GCC) organizations, pay-as-you-go licensing—and the services that require pay-as-you-go licensing—aren't yet available. GCC organizations can continue to purchase and use [per-user licenses](#if-you-still-have-active-per-user-licenses) until pay-as-you-go becomes available.
+> For Government Community Cloud (GCC) organizations, pay-as-you-go licensing-and the services that require pay-as-you-go licensing-aren't yet available. GCC organizations can continue to purchase and use [per-user licenses](#if-you-still-have-active-per-user-licenses) until pay-as-you-go becomes available.
 
 ## Benefits of pay-as-you-go licensing
 
-- **No upfront license purchase**: Use services as needed—only pay when services are used. Learn more about [pay-as-you-go pricing](syntex-pay-as-you-go-services.md).
+- **No upfront license purchase**: Use services as needed-only pay when services are used. Learn more about [pay-as-you-go pricing](syntex-pay-as-you-go-services.md).
 
 - **Organization-wide access**: Any user in your tenant can use the services, provided they have a Microsoft 365 license.
 
@@ -67,11 +67,11 @@ The following pay-as-you-go services are currently available for document proces
 
 The following features are also available to support your document processing workflows:
 
-- [Content query](metadata-search.md) – Search and filter content based on metadata.
-- [Annotations](annotations.md) – Add notes and comments to content for collaboration and review.
-- [Content processing rules](content-processing-overview.md) – Automate actions and workflows based on content conditions.
-- [Solution accelerators](site-templates.md) – Use prebuilt templates to speed up site creation and deployment.
-- [Taxonomy tools](import-term-set-skos.md) – Manage and import term sets and content types to organize content effectively.
+- [Content query](metadata-search.md) - Search and filter content based on metadata.
+- [Annotations](annotations.md) - Add notes and comments to content for collaboration and review.
+- [Content processing rules](content-processing-overview.md) - Automate actions and workflows based on content conditions.
+- [Solution accelerators](site-templates.md) - Use prebuilt templates to speed up site creation and deployment.
+- [Taxonomy tools](import-term-set-skos.md) - Manage and import term sets and content types to organize content effectively.
 
 ## If you still have active per-user licenses
 
