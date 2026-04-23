@@ -29,7 +29,7 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 
 |Role                      |Activities to perform |Configuration area |
 |--------------------------|----------------------|-------------------|
-|Environment administrator |- Select the right environment </br>- Set up a preferred solution </br>- Install the IT or HR ESS agent (or both agents) |Microsoft Copilot Studio |
+|Environment administrator |- Select the right environment </br>- Set up a preferred solution </br>- Install the IT or HR Employee Self-Service agent (or both agents) |Microsoft Copilot Studio |
 
 ## Select the right environment
 
@@ -39,8 +39,8 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 ## Set up a preferred solution
 
 1. Set up a preferred solution before performing any customizations, as the default solution contains all the core components of Dataverse, which can't be exported or imported into another environment.
-1. Based on the application lifecycle management guidelines, create a *new unmanaged solution* in the Dev environment so the customizations can be performed and exported as managed solution to a Test/UAT/PROD environment.
-1. Select the elipsis (**...**) in the left navigation pane and then select the **Solutions** option from the pop-out menu.
+1. Based on the application lifecycle management guidelines, create a *new unmanaged solution* in the Dev environment so the customizations can be performed and exported as managed solution to a Test/UAT/PRODUCTION environment.
+1. Select the ellipsis (**...**) in the left navigation pane and then select the **Solutions** option from the pop-out menu.
 1. Select **+New solution** and fill in the required information.
     1. Display name
     1. Name
@@ -63,7 +63,7 @@ Learn more about [Preferred Solution](/power-apps/maker/data-platform/preferred-
 
 🧩  **The Challenge**
 
-When customers customize their Employee Self-Service agent-adding topics, tools, knowledge sources, or flows, those changes can silently land in the Default solution if a Preferred Solution isn't set. This makes customizations non portable, breaks Dev to Test to Production deployment, and creates unmanaged layer conflicts that override future managed updates. The result: "works in dev, breaks in prod."
+When customers customize their Employee Self-Service agent-adding topics, tools, knowledge sources, or flows, those changes can silently land in the Default solution if a Preferred Solution isn't set. This result makes customizations non portable, breaks Dev to Test to Production deployment, and creates unmanaged layer conflicts that override future managed updates. The result: "works in dev, breaks in uction."
 
 ✅ **Step 0-Set your preferred solution (Before you customize)**
 
@@ -76,17 +76,17 @@ Follow the steps provided for setting your preferred solution:
 
 |Tier            |Option        | What it does    | Who sets it up        |Maker Experience        |
 |----------------|--------------|-----------------|-----------------------|------------------------|
-|**Basic**       |[Power Platform Pipelines](/power-platform/alm/pipelines)|Admin-configured Dev > Test > Production stages. Prevalidates dependencies, auto backs up solutions, supports rollback. |Platform Admin (one-time setup)|Select "Deploy" from Copilot Studio. No export/import or DevOps knowledge needed. |
+|**Basic**       |[Power Platform Pipelines](/power-platform/alm/pipelines)|Admin-configured Dev > Test > uction stages. Prevalidates dependencies, auto backs up solutions, supports rollback. |Platform Admin (one-time setup)|Select "Deploy" from Copilot Studio. No export/import or DevOps knowledge needed. |
 |**Intermediate**|[Pipelines + Native Git integration](/power-platform/release-plan/2024wave2/power-apps/connect-environment-source-control)|Adds source control through Azure DevOps Git. Full audit trail, parallel development, YAML-based solution format. |Platform Admin + Azure DevOps Project Owner|Commit and pull changes in Power Platform UI. No command line required. |
-|**Advanced**|[Copilot ALM Starter + CI/CD Pipelines](https://github.com/microsoft/copilot-alm-starter)|Prebuilt GitHub Actions/Azure DevOps pipelines with automated export, PR validation, environment-specific settings, and workload identity federation. |DevOps Engineer (initial setup); CI/CD runs automatically thereafter |Makers author in Copilot Studio as usual. All ALM (Application Lifecycle Management) is being handled by the pipeline on merge. |
+|**Advanced**|[Copilot ALM Starter + CI/CD Pipelines](https://github.com/microsoft/copilot-alm-starter)|Prebuilt GitHub Actions/Azure pipelines with automated export, PR validation, environment-specific settings, and workload identity federation. |DevOps Engineer (initial setup); CI/CD runs automatically thereafter |Makers author in Copilot Studio as usual. All ALM (Application Lifecycle Management) is handled by the pipeline on merge. |
 
 🏅 **Golden rules for Clean ALM**
 
-- **Never customize directly in Test or Prod** - All changes originate in Dev and flow forward as managed solutions.
+- **Never customize directly in Test or Production** - All changes originate in Dev and flow forward as managed solutions.
 - **Always export as Managed** - Managed solutions lock components in target environments, preventing accidental edits, and unmanaged layer conflicts.
 - **Use Solution Layers view to troubleshoot** - If a managed import doesn't take effect, check for an active unmanaged layer overriding it, and remove it.
 - **Run Add Required Objects after every change** - This rule ensures new topics, tools, flows, and knowledge sources are captured in your solution before export.  
-- **Set Preferred Solution before Day 1** - This is non-negotiable. Without it, customizations scatter into the Default solution and become non-portable.
+- **Set Preferred Solution before Day 1** - This rule is non-negotiable. Without it, customizations scatter into the Default solution and become nonportable.
 
 > [!NOTE]
 > **Quick-start checklist**
@@ -97,9 +97,9 @@ Follow the steps provided for setting your preferred solution:
 >
 > ✅ Install/create your Employee Self-Service agent
 >
-> ✅ Run Add Required OBjects after each customizations
+> ✅ Run Add Required Objects after each customizations
 >
-> ✅ Configure Power Platform Pipelines (Dev ➡️ Test ➡️ Prod)
+> ✅ Configure Power Platform Pipelines (Dev ➡️ Test ➡️ Production)
 >
 > ✅ Deploy using the pipeline. Never manually export/import
 >
