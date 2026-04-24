@@ -225,7 +225,7 @@ To submit an incident analysis request:
 
 4. Review case details after selecting an incident where you'll also see additional details related to the ticket. Follow the prompts to complete your analysis request.
 
-5. If it is a Copilot issue, check the box.
+5. If it's a Copilot issue, check the box.
 
 6. Submit your request. Once you've reviewed the information, submit your incident analysis request.
 
