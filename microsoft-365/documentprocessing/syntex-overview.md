@@ -20,7 +20,7 @@ description: Learn about the document processing services and features in Micros
 
 # Overview of document processing for Microsoft 365
 
-Document processing for Microsoft 365 provides a powerful suite of AI-powered content management and productivity services designed to help your organization transform how you handle documents and information. A flexible pay-as-you-go approach gives you access to advanced capabilities—such as intelligent document discovery, classification, analysis, and processing—without the need for upfront licensing commitments.
+Document processing for Microsoft 365 provides a powerful suite of AI-powered content management and productivity services designed to help your organization transform how you handle documents and information. A flexible pay-as-you-go approach gives you access to advanced capabilities-such as intelligent document discovery, classification, analysis, and processing-without the need for upfront licensing commitments.
 
 By automating content workflows and enhancing document understanding, your everyday business content is turned into actionable knowledge. This advancement not only streamlines operations and reduces manual effort, but also empowers people in your organization to make faster, more informed decisions based on insights extracted from their content.
 
@@ -39,7 +39,7 @@ By automating content workflows and enhancing document understanding, your every
 |---|---|
 |:::image type="icon" source="/office/media/icons/usage-report-blue.png" :::|**Autofill columns** <br>Streamline the process of managing files and their associated information by using large language models (LLMs) to extract or generate content automatically. [Learn more about autofill columns.](autofill-overview.md)|
 |:::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" :::|**Document translation** <br>Create a translated copy of a document in a SharePoint document library, preserving the original format and structure of the file. Available for all supported languages and dialects. [Learn more about document translation.](translation-overview.md)|
-|:::image type="icon" source="/office/media/icons/sign-up-blue.png" :::|**eSignature** <br>Send electronic requests using eSignature, keeping your content in Microsoft 365 while it’s being reviewed and signed. [Learn more about eSignature.](esignature-overview.md)|
+|:::image type="icon" source="/office/media/icons/sign-up-blue.png" :::|**eSignature** <br>Send electronic requests using eSignature, keeping your content in Microsoft 365 while it's being reviewed and signed. [Learn more about eSignature.](esignature-overview.md)|
 |:::image type="icon" source="/office/media/icons/paragraph-writing-blue.png" :::|**Optical character recognition** <br> Extract printed or handwritten text from images, letting you quickly and accurately find the keywords and phrases you're looking for. [Learn more about using optical character recognition.](ocr-overview.md)|
 |:::image type="icon" source="/office/media/icons/structure-blue.png" :::|**Content assembly** <br>Automatically generate standard repetitive business documents, such as contracts, statements of work, service agreements, letters of consent, correspondence, and more. [Learn more about content assembly.](content-assembly.md)|
 |:::image type="icon" source="/office/media/icons/blog-site-blue.png" :::|**Image tagging** <br>Find, sort, filter, and manage images in SharePoint document libraries. [Learn more about image tagging.](image-tagging-overview.md)|
@@ -221,7 +221,7 @@ Both structured and freeform models use Microsoft Power Apps AI Builder to creat
       ![Image of generic esignature icon.](../media/content-understanding/esignature-image.png)
    :::column-end:::
    :::column span="3":::
-      Send electronic requests using SharePoint eSignature, keeping your content in Microsoft 365 while it’s being reviewed and signed. Use eSignature to quickly and securely send documents for signature to people both inside and outside of your organization.
+      Send electronic requests using SharePoint eSignature, keeping your content in Microsoft 365 while it's being reviewed and signed. Use eSignature to quickly and securely send documents for signature to people both inside and outside of your organization.
    :::column-end:::
 :::row-end:::
 

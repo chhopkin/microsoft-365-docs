@@ -48,7 +48,7 @@ This article describes how to set up and configure the Teams EHR connector to in
 
 ## Before you begin
 
-Before you get started, there’s a few things to do to prepare for the integration.
+Before you get started, there's a few things to do to prepare for the integration.
 
 ### Get familiar with the integration process
 
@@ -121,7 +121,7 @@ Your Microsoft 365 admin can configure a single organization or multiple organiz
 
 Next, to set up the integration, your Microsoft 365 admin completes following steps:
 
-1. Adds a Fast Health Interoperability Resources (FHIR) base URL from your Epic technical specialist and specifies the environment. Configure as many FHIR base URLs as needed, depending on your organization’s needs and the environments you want to test.
+1. Adds a Fast Health Interoperability Resources (FHIR) base URL from your Epic technical specialist and specifies the environment. Configure as many FHIR base URLs as needed, depending on your organization's needs and the environments you want to test.
 
     - The FHIR base URL is a static address that corresponds to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.com/fhir/auth/connect-ocurprd-oauth/api/FHDST`.
 
@@ -149,7 +149,7 @@ To enable SMS notifications, your Microsoft 365 admin completes the following st
 
 2. Under **Your phone numbers**, select **Generate a new phone number** to generate a phone number for your organization. Doing this starts the process to request and generate a new phone number. This process might take up to 2 minutes to complete.
 
-    After the phone number is generated, it's displayed on the screen. This number is used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn’t linked to the FHIR base URL yet. You do that in the next step.
+    After the phone number is generated, it's displayed on the screen. This number is used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn't linked to the FHIR base URL yet. You do that in the next step.
 
     :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="Screenshot showing an example of the phone number that's generated." lightbox="media/ehr-connector-epic-phone-number.png":::
 
@@ -163,7 +163,7 @@ To enable SMS notifications, your Microsoft 365 admin completes the following st
 
     :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="Screenshot showing how to link a phone number to a FHIR base URL." lightbox="media/ehr-connector-epic-link-phone-number.png":::
 
-    If you’re configuring the connector for the first time, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
+    If you're configuring the connector for the first time, you'll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
 
 5. Select **SMS setup** next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
 
@@ -178,7 +178,7 @@ To enable SMS notifications, your Microsoft 365 admin completes the following st
 
     A public key certificate is required to receive appointment information for sending SMS notifications. The certificate is needed to verify that the incoming information is from a valid source.
 
-    When the connector is used to send SMS reminders, the patient’s phone number is sent by Epic in an HL7v2 payload when appointments are created in Epic. These numbers are stored for each appointment in your organization’s geography and are retained until the appointment takes place. To learn more about how to configure HL7v2 messages, see the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+    When the connector is used to send SMS reminders, the patient's phone number is sent by Epic in an HL7v2 payload when appointments are created in Epic. These numbers are stored for each appointment in your organization's geography and are retained until the appointment takes place. To learn more about how to configure HL7v2 messages, see the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
     Choose **Next**.
 
@@ -244,7 +244,7 @@ Key features of the provider experience:
 - Providers can see real-time updates of participants connecting and disconnecting for a given appointment. Providers can see when the patient is connected to an appointment.
 
 > [!NOTE]
-> Any information entered in the meeting chat that’s necessary for medical records continuity or retention purposes should be downloaded, copied, and notated by the healthcare provider. The chat doesn’t constitute a legal medical record or a designated record set. Messages from the chat are stored based on settings created by the Microsoft Teams admin.
+> Any information entered in the meeting chat that's necessary for medical records continuity or retention purposes should be downloaded, copied, and notated by the healthcare provider. The chat doesn't constitute a legal medical record or a designated record set. Messages from the chat are stored based on settings created by the Microsoft Teams admin.
 
 ### Patient experience
 
@@ -288,9 +288,9 @@ The [EHR connector Virtual Appointments report](ehr-connector-report.md) in the 
 
 Teams integration into EHR systems optimizes the amount of data used and stored during integration and virtual appointment flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
 
-The Teams EHR connector doesn't store or transfer any identifiable personal data or any health records of patients or healthcare providers from the EHR system. The only data stored by the EHR connector is the EHR user’s unique ID, which is used during Teams meeting setup.
+The Teams EHR connector doesn't store or transfer any identifiable personal data or any health records of patients or healthcare providers from the EHR system. The only data stored by the EHR connector is the EHR user's unique ID, which is used during Teams meeting setup.
 
-The EHR user’s unique ID is stored in one of the three geographic regions described in [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations). All chat, recordings, and other data shared in Teams by meeting participants are stored according to existing storage policies. To learn more about the location of data in Teams, see [Location of data in Teams](/microsoftteams/location-of-data-in-teams).
+The EHR user's unique ID is stored in one of the three geographic regions described in [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations). All chat, recordings, and other data shared in Teams by meeting participants are stored according to existing storage policies. To learn more about the location of data in Teams, see [Location of data in Teams](/microsoftteams/location-of-data-in-teams).
 
 ## Related articles
 

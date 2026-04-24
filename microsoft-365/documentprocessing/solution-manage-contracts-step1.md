@@ -99,7 +99,7 @@ You need to add at least five example files that are contract documents, and one
 
 #### Test your model
 
-You can test your Contract model on example files it hasn’t seen before. This is optional, but it can be a useful best practice.
+You can test your Contract model on example files it hasn't seen before. This is optional, but it can be a useful best practice.
 
 1. On the **Models > Contract > Contract classifier** page, select the **Test** tab. This runs the model on your unlabeled example files.
 
@@ -164,7 +164,7 @@ To help identify the *Contract Start Date*, you can create an explanation.
 
 #### Test your model again
 
-You can test your Contract model on example files it hasn’t seen before. This is optional, but it can be a useful best practice.
+You can test your Contract model on example files it hasn't seen before. This is optional, but it can be a useful best practice.
 
 1. On the **Models > Contract > Contract classifier** page, select the **Test** tab. This runs the model on your unlabeled example files.
 
