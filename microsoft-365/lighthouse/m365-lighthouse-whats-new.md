@@ -571,13 +571,13 @@ Microsoft 365 Lighthouse now provides a deployment plan status for each active t
 
 We've added insights from Endpoint analytics to Microsoft 365 Lighthouse to help you proactively take measures to improve the health of user devices and apps within managed tenants. The insights from Endpoint analytics inform a deployment sub-task called **Enable Device Health Monitoring** within the default baseline under the **Set up device enrollment** task. Once the new sub-task is enabled and the deployment task is deployed, select **Apps** > **App performance** in the left navigation pane in Microsoft 365 Lighthouse to see the Endpoint analytics insights.  
 
-For more information, see [What is Endpoint analytics?](/mem/analytics/overview).
+For more information, see [What is Endpoint analytics?](/intune/endpoint-analytics/).
 
 ### Device insights from Endpoint analytics  
 
 We've added insights from Endpoint analytics to Microsoft 365 Lighthouse to help you proactively take measures to improve the health of user devices and apps within managed tenants. The insights from Endpoint analytics inform a deployment sub-task called **Enable Device Health Monitoring** within the default baseline under the **Set up device enrollment** task. Once the new sub-task is enabled and the deployment task is deployed, select **Devices** > **Device health** in the left navigation pane in Microsoft 365 Lighthouse to see the Endpoint analytics insights.  
 
-For more information, see [What is Endpoint analytics?](/mem/analytics/overview).
+For more information, see [What is Endpoint analytics?](/intune/endpoint-analytics/).
 
 ### Multi-tenant exposure score and recommendations  
 
@@ -676,7 +676,7 @@ Managed Service Providers (MSPs) can now deploy app protection policies for thei
 
 We've added a new deployment sub-task called **Enable Device Health Monitoring** within the default baseline under the **Set up device enrollment** task. Once the new sub-task is enabled and the deployment task is deployed, Endpoint analytics in Microsoft Intune will be able to analyze device data and can recommend software, help improve startup performance, and fix common support issues.
 
-For more information, see [What is Endpoint analytics?](/mem/analytics/overview).
+For more information, see [What is Endpoint analytics?](/intune/endpoint-analytics/).
 
 ## September 2022
 
