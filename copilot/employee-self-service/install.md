@@ -36,9 +36,9 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 1. Sign in to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com) as an assigned Environment Administrator.
 1. Before installing the agent, make sure that the correct Power Platform environment is selected by verifying the name in the ribbon.
 
-## Create a custom solution and publisher
+## Create a solution and set as preferred
 
-1. Based on the application lifecycle management guidelines, create a *new unmanaged solution* in the Dev environment so the customizations can be performed and exported as managed solution to a Test/UAT/PROD environment.
+1. Based on the application lifecycle management guidelines, create a *new solution* in the Dev environment so the customizations can be performed and exported as managed solution to a Test/UAT/PROD environment.
 1. Select the elipsis (**...**) in the left navigation pane and then select the **Solutions** option from the pop-out menu.
 1. Select **+New solution** and fill in the required information.
     1. Display name
@@ -51,7 +51,7 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 
 ### Set up a preferred solution
 
-1. Set up a preferred solution before performing any customizations, as the default solution contains all the core components of Dataverse, which can't be exported or imported into another environment.
+1. Create and set a preferred solution before making any customizations. The default solution cannot be exported or imported across environments, so your changes must live in a custom solution to be portable.
 1. Select the ellipsis (**...**) and choose **Set preferred solution** for the new solution that you created.
 
 > [!NOTE]
