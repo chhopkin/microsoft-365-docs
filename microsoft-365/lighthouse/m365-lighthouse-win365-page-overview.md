@@ -57,7 +57,7 @@ You can view all Cloud PCs and their provisioning status in the list below the c
 
 - **Cloud PC name:** Name assigned to the Cloud PC.
 - **User:** User for whom a Cloud PC has been provisioned or attempted to be provisioned.
-- **Device name:** Intune device name—a unique identifier for a Cloud PC.
+- **Device name:** Intune device name-a unique identifier for a Cloud PC.
 - **Tenant:** Customer tenant in which a Cloud PC was provisioned.
 - **Status:** Provisioning status of the Cloud PC.
 - **License type:** Enterprise or Business.

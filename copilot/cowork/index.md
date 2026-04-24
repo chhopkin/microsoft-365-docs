@@ -80,7 +80,7 @@ Cowork has 13 built-in skills, including Word, Excel, PowerPoint, PDF, Email, Sc
 
 For a detailed description of each skill, see [Cowork skills](use-cowork.md#cowork-skills).
 
-You can extend Cowork with custom skills stored in your OneDrive. Create a subfolder in `/Documents/Cowork/Skills/` and place a `SKILL.md` file inside it (for example, `Documents/Cowork/Skills/weekly-report/SKILL.md`). Cowork discovers your custom skills automatically at the start of each conversation. You can create up to 20 custom skills.
+You can extend Cowork with custom skills stored in your OneDrive. Create a subfolder in `/Documents/Cowork/skills/` and place a `SKILL.md` file inside it (for example, `Documents/Cowork/skills/weekly-report/SKILL.md`). Cowork discovers your custom skills automatically at the start of each conversation. You can create up to 20 custom skills.
 
 As Cowork loads skills during a conversation, the side panel updates to show which skills are active.
 
