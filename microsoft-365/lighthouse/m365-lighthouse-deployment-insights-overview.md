@@ -204,5 +204,5 @@ For information on how to manage tenants by using deployment insights, see [Mana
 ## Related content
 
 [Overview of deployment tasks in Microsoft 365 Lighthouse](m365-lighthouse-overview-deployment-task.md) (article)\
-[Overview of using Micrososft 365 Lighthouse baselines to deploy standard tenant configurations](m365-lighthouse-deploy-standard-tenant-configurations-overview.md) (article)\
-[Understand deployment statuses in Microsoft 365 Ligthouse](m365-lighthouse-understand-deployment-statuses.md) (article)
+[Overview of using Microsoft 365 Lighthouse baselines to deploy standard tenant configurations](m365-lighthouse-deploy-standard-tenant-configurations-overview.md) (article)\
+[Understand deployment statuses in Microsoft 365 Lighthouse](m365-lighthouse-understand-deployment-statuses.md) (article)
