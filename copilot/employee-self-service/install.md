@@ -38,7 +38,7 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 
 ## Create a solution and set as preferred
 
-1. Based on the application lifecycle management guidelines, create a *new solution* in the Dev environment so the customizations can be performed and exported as managed solution to a Test/UAT/PROD environment.
+1. Based on the application lifecycle management guidelines, create a *new solution* in the Dev environment so the customizations can be performed and exported as managed solution to a Test/UAT/PRODUCTION environment.
 1. Select the elipsis (**...**) in the left navigation pane and then select the **Solutions** option from the pop-out menu.
 1. Select **+New solution** and fill in the required information.
     1. Display name
