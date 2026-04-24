@@ -2,7 +2,7 @@
 title: Locations of Microsoft Online Services Personnel with Remote Access to Data
 description: Learn about locations of Microsoft Online services personnel with remote access to data
 ms.author: scotv
-author: kelleyvice-msft
+author: leenasheth3
 manager: scotv
 ms.service: microsoft-365-enterprise
 ms.topic: article
