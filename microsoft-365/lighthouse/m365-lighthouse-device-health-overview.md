@@ -59,7 +59,7 @@ The Device tab provides device health insights for all managed Windows devices, 
 
 - Health status (Needs attention, Meeting goals, Insufficient data)
 
-- Start up performance score – To learn more, see [Scores, baselines, and insights in Endpoint analytics](/mem/analytics/scores).
+- Start up performance score - To learn more, see [Scores, baselines, and insights in Endpoint analytics](/mem/analytics/scores).
 
 - Total restarts
 
