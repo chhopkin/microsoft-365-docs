@@ -5,7 +5,7 @@ ms.author: heidip
 author: padmanabhareddy
 manager: bartmand
 ms.reviewer: MicrosoftHeidi
-ms.date: 4/14/2026
+ms.date: 04/24/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
