@@ -1,5 +1,5 @@
 ---
-title: Make Employee Self-Service agent dining
+title: "Extend Employee Self-Service agent: Search Dining feed stations"
 f1.keywords: NOCSH
 ms.author: heidip
 author: prsarnaik
@@ -7,7 +7,7 @@ manager: baradhak
 ms.reviewer: MicrosoftHeidi
 ms.date: 04/20/2026
 audience: Admin
-ms.topic: article
+ms.topic: articleP
 ms.service: microsoft-365-copilot
 ms.subservice: ess-agent
 ms.custom: ess-agent
@@ -18,7 +18,7 @@ appliesto:
   - ✅ Microsoft 365 Copilot
 ---
 
-# Extending Employee Self-Service Agent
+# Extend Employee Self-Service agent: Search Dining feed stations
 
 The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
@@ -53,8 +53,7 @@ To extend the Employee Self-Service Copilot Agent with a custom topics for your 
 
 - Employee Self-Service Copilot agent is installed in Copilot Studio.
 - Maker access to a sandbox or preproduction environment in Copilot Studio.
-- Access to Copilot Samples in GitHub:
-- <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml>
+- Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml) in GitHub.
 - Need access to the Dining API that is used to view food stations by cuisine.
 - For this example, assume Dining service is built as an independent service on Azure platform.
 
@@ -66,10 +65,9 @@ Extending Employee Self-Service for RE&F experiences requires an understanding o
 
 In Copilot Studio, a topic is defined as a workflow of a conversation. Microsoft 365 Copilot topics are used to:
 
-- Define trigger phrases that determine when the _Invite a guest_ topic should be activated based on user’s natural language input.
-- Ask questions and capture necessary inputs from the user, such as building information and guest details like name, email, and purpose of visit.
-- Present a guest registration form where users can fill in required details.
-- Trigger an HTTP API call to the backend Guest Management APIs.
+- Define trigger phrases that determine when the Dining Search Stations topic should be activated based on user’s natural language input.
+- Ask questions and capture necessary inputs from the user, such as cuisine type.
+- Trigger an HTTP API call to the backend Dining APIs.
 - Interpret the backend API response and return the relevant outcome to the user in natural language.
 
 In the following section, we demonstrate how a maker in Copilot Studio can extend the Employee Self-Service Copilot Agent to support Dining related scenarios.
@@ -84,11 +82,9 @@ Connectors enable you to connect the agent with other apps, data, and devices in
 
 For this example of viewing food stations by cuisines, we assume the Dining service is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for viewing food stations.
 
-Available connectors:  
-<https://learn.microsoft.com/connectors/connector-reference/>
+For supported connectors, see: [Connector reference overview](/connectors/connector-reference/)
 
-HTTP request action reference:  
-<https://learn.microsoft.com/microsoft-copilot-studio/authoring-http-node>
+HTTP request action reference: [HTTP with Microsoft Entra ID (preauthorized) - Connectors](/connectors/webcontents/)
 
 ## Example: Search Food Stations by Category
 
@@ -105,10 +101,7 @@ The employees save time, skip the hassle, and make every meal a choice they love
 
   :::image type="content" source="media/facilities-dining-create-new-topic.png" alt-text="Screenshot showing how create a new topic in Copilot Studio.":::
 
-  :::image type="content" source="media/facilities-dining-add-topic-trigger.png" alt-text="Screenshot showing how add a trigger.":::
-
-- Use the code from the Copilot Samples repo file:  
-  <https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml>
+- Use the code from the [Copilot Samples repo file](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml)
 
 - Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction”. You see a code that sets a value to a variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
 
@@ -122,15 +115,11 @@ The employees save time, skip the hassle, and make every meal a choice they love
 - Ask “Where can I find Chinese food?”
 - The Employee Self-Service Copilot Agent displays Chinese food options.
 
-  :::image type="content" source="media/facilities-dining-where-is-food.png" alt-text="Screenshot showing results.":::
-
 ### Validate the Topic
 
 Validate the following in the topic definition:
 
 - Trigger node contains the topic description used by the UI.
-
-  :::image type="content" source="media/facilities-dining-validate-trigger-node.png" alt-text="Screenshot showing validation that the trigger node exists.":::
 
   :::image type="content" source="media/facilities-dining-validate-topic-file-start.png" alt-text="Screenshot showing the model description in the file.":::
 
@@ -148,19 +137,13 @@ Validate the following in the topic definition:
 
 - Next node assigns the station category value, cuisine in our case, if the user enters value in your input variable. For example, if the user mentions “Where can I find Italian food?”. The value “Italian” gets assigned to the input variable.
 
-  :::image type="content" source="media/facilities-dining-validate-set-variable-value.png" alt-text="Screenshot showing the set variable value.":::
-
 - Post this, the next node makes the API call. Validate that the HttpConnector is calling appropriate API that belongs to your platform.Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We're collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline etc. You should create a schema per your API response for this topic variable. Your API response may have a completely different structure, and you should make sure that structure is taken into consideration.
 
   :::image type="content" source="media/facilities-dining-validate-http-request.png" alt-text="Screenshot showing http request block.":::
 
 - Validate that the conditional block checks if the response is non-empty before the topic ends.
 
-  :::image type="content" source="media/facilities-dining-validate-condition-block-response.png" alt-text="Screenshot showing conditional block.":::
-
 - Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we mention extracting information from SearchStationApiResponse output variable. LLM follows those instructions and displays well formatted output.
-
-  :::image type="content" source="media/facilities-dining-validate-display-results-description.png" alt-text="Screenshot showing topic trigger description block.":::
 
 ## FAQs
 
@@ -171,8 +154,6 @@ If the API fails, it returns an empty response. In this case, the conditional bl
 ### When I save my topic, it shows errors saying it can't find certain variables. What do I do?
 
 Go to the **Variables** tab and verify all variables (topic and environment) are declared.
-
-:::image type="content" source="media/facilities-dining-faq-variables.png" alt-text="Screenshot showing the way to check all the variables.":::
 
 ### How are error conditions handled?
 
