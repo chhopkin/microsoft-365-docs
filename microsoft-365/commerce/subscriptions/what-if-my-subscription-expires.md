@@ -152,10 +152,10 @@ We recommend that you [back up your data](move-users-different-subscription.md) 
 
 ## What happens when your trial ends
 
-At the end of your trial period, we automatically start billing you for your subscription. Before your trial period ends, you can take one of the following actions:
+At the end of your trial period, we automatically start billing you for your subscription. Before your trial period ends, you can [turn off recurring billing](renew-your-subscription.md) and let the trial end. 
 
-- **Extend your trial.** If you need more time to evaluate Microsoft 365, you can [extend your trial](../extend-your-trial.md).
-- **Cancel the trial or let it end.** If you decide not to buy Microsoft 365, you can [turn off recurring billing](renew-your-subscription.md) and let your trial end or [cancel it](cancel-your-subscription.md). Before your trial ends, back up any data that you want to keep. After the trial ends, your trial account information and data are permanently deleted.
+> [!IMPORTANT]
+> Before your trial ends, back up any data that you want to keep. After the trial ends, your trial account information and data are permanently deleted.
 
 > [!NOTE]
 > The information on this page is subject to the [Microsoft Policy Disclaimer and Change Notice](https://go.microsoft.com/fwlink/p/?LinkId=613651). Return to this site periodically to review any changes.

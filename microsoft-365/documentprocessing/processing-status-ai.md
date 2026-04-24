@@ -24,12 +24,12 @@ You can now view real-time updates on files processed for autofill columns and d
 
 - See when a file is being processed.
 - Check the status of the file: **In progress**, **Completed**, or **Failed**.
-- Understand what worked, what didn’t, and why.
+- Understand what worked, what didn't, and why.
 
 You can view the processing status for a [file that is being processed](#monitor-the-status-of-a-file-being-processed), for a [selected file](#monitor-the-status-of-any-file) or for [all files](#monitor-the-status-of-all-files) in a document library.
 
 > [!NOTE]
-> For autofill, the **Status** column is hidden by default in the document library view. If you don’t see it, you can unhide it by customizing the library view.
+> For autofill, the **Status** column is hidden by default in the document library view. If you don't see it, you can unhide it by customizing the library view.
 
 ## Prerequisites
 

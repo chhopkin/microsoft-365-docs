@@ -310,8 +310,8 @@ To create a skill with natural language, tell Cowork what you want the skill to 
 
 To create skills in OneDrive using Markdown, use the following steps:
 
-1. In your OneDrive, navigate to the `/Documents/Cowork/Skills/` folder. Create it if it doesn't exist.
-1. Create a subfolder with your skill name (for example, `/Documents/Cowork/Skills/weekly-report/`).
+1. In your OneDrive, navigate to the `/Documents/Cowork/skills/` folder. Create it if it doesn't exist.
+1. Create a subfolder with your skill name (for example, `/Documents/Cowork/skills/weekly-report/`).
 1. Inside the subfolder, create a file named `SKILL.md`.
 1. Add a YAML frontmatter block with a `name` and `description`, followed by the skill instructions in Markdown:
 

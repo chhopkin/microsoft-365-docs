@@ -116,7 +116,7 @@ Deploy your frontline teams and give your frontline workforce access to the righ
 |Solution area|More information|
 |---------|---------|
 |Frontline teams|When deploying your frontline teams, you can choose between dynamic team membership, static team membership, or a combination of both. <ul><li>[Deploy frontline dynamic teams at scale](deploy-dynamic-teams-at-scale.md)</li><li>[Deploy frontline static teams at scale](deploy-teams-at-scale.md)</li></ul>Learn more about [how to determine the best frontline team solution for your organization](frontline-team-options.md). |
-|Frontline operational hierarchy|Set up a [frontline operational hierarchy](deploy-frontline-operational-hierarchy.md) to map your organization’s structure of frontline teams and locations to a hierarchy in the Teams admin center.|
+|Frontline operational hierarchy|Set up a [frontline operational hierarchy](deploy-frontline-operational-hierarchy.md) to map your organization's structure of frontline teams and locations to a hierarchy in the Teams admin center.|
 |Frontline apps |Standardize Shifts settings across all your frontline teams and manage them centrally by [deploying Shifts to your frontline teams at scale](deploy-shifts-at-scale.md).|
 |Teams policy packages |Use [Teams policy packages for frontline workers](/microsoftteams/policy-packages-flw) to streamline and help provide consistency when managing policies for your frontline.|
 

@@ -50,9 +50,9 @@ The content center site can be provisioned from the SharePoint look book service
 
     ![Screenshot showing the Content Center site template provisioning page.](../media/content-understanding/content-center-email-and-url.png)
 
-4. Select **Provision**, and in a short time your site will be ready for you to use. You’ll get an email (sent to the email address you provided) indicating that your request to provision the content center site template is completed.
+4. Select **Provision**, and in a short time your site will be ready for you to use. You'll get an email (sent to the email address you provided) indicating that your request to provision the content center site template is completed.
 
-5. Select **Open site**, and you’ll see your content center site. From here, you can explore the site and learn more about document processing.
+5. Select **Open site**, and you'll see your content center site. From here, you can explore the site and learn more about document processing.
 
 For more information about provisioning from the SharePoint look book service, see [Provision a new learning pathways solution](/office365/customlearning/custom_provision).
 
