@@ -37,7 +37,7 @@ We've worked with our LMS partners to create a suite of tools using the [Learnin
 
 ## LMS admin resources for deploying the Microsoft 365 LTI
 
-Follow the guide that's relevant to your LMS. If there isn’t a guide specific to your LMS, use the Deploy Microsoft 365 LTI in any LTI 1.3 Advantage Platform guidance, and reference the LTI tool deployment guidance from your LMS to assist.
+Follow the guide that's relevant to your LMS. If there isn't a guide specific to your LMS, use the Deploy Microsoft 365 LTI in any LTI 1.3 Advantage Platform guidance, and reference the LTI tool deployment guidance from your LMS to assist.
 
 - [Deploy the Microsoft 365 LTI® app in Canvas](microsoft-365-lti-canvas.md)
 - [Deploy the Microsoft 365 LTI® app in Blackboard by Anthology](microsoft-365-lti-blackboard.md)
