@@ -49,6 +49,9 @@ In some regions, Anthropic’s models aren't available by default. For these reg
 
 In addition, Anthropic models aren't available in government clouds (GCC, GCC High, DoD) as there's no FedRAMP certification in place yet. They're also not available in other sovereign clouds. No toggle will be present for government or sovereign clouds.
 
+> [!NOTE]
+> On April 3, 2026, Microsoft introduced a new Microsoft 365 admin center setting **Copilot in M365 apps with Anthropic models** in EU/EFTA and UK to enable Anthropic as the default model for Copilot in Microsoft 365 apps. For more information, see [Copilot in Microsoft 365 apps with Anthropic models](copilot-anthropic-apps.md).
+
 ## Opt-in to use Anthropic's models
 
 If your organization is in a region that has Anthropic as a subprocessor set to **Off** by default, you can choose to opt in so Anthropic's models are available for your organization. You must be a member of the global administrator role to perform this task. For more information, see [About admin roles](https://learn.microsoft.com) and [Global administrator](/entra/identity/role-based-access-control/permissions-reference).

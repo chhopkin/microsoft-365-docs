@@ -25,8 +25,10 @@ This article explains how to set up or disconnect pay-as-you-go billing in the *
 
 - Copilot
 - Microsoft 365 Backup
-    > [!NOTE]
-    > GCC and new Backup customers only. Existing backup customers must continue in the **Setup** node. For more information, see [Set up or disconnect pay-as-you-go billing in the Setup node of the Microsoft 365 admin center](pay-as-you-go-setup.md).
+- High Volume Email
+
+> [!NOTE]
+> Government Community Cloud (GCC) and new Backup customers only. Existing backup customers must continue in the **Setup** node. For more information, see [Set up or disconnect pay-as-you-go billing in the Setup node of the Microsoft 365 admin center](pay-as-you-go-setup.md).
 
 ## Before you begin
 

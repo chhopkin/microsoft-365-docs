@@ -1,6 +1,6 @@
 ---
-title: "What's new in Copilot Cowork (Frontier)"
-description: "Discover the latest features and improvements in Copilot Cowork in Microsoft 365 Copilot."
+title: "What's new in Cowork (Frontier)"
+description: "Discover the latest features and improvements in Microsoft 365 Copilot Cowork."
 ms.date: 04/08/2026
 ms.topic: whats-new
 author: leeclontz
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# What's new in Copilot Cowork (Frontier)
+# What's new in Cowork (Frontier)
 
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-This article lists recent features, improvements, and changes in Copilot Cowork. For a full guide to Cowork's capabilities, see [Use Copilot Cowork](use-cowork.md).
+This article lists recent features, improvements, and changes in Microsoft 365 Copilot Cowork. For a full guide to Cowork's capabilities, see [Use Cowork](use-cowork.md).
 
 ## April 2026
 
@@ -44,7 +44,7 @@ This article lists recent features, improvements, and changes in Copilot Cowork.
 
 ## Related content
 
-- [Copilot Cowork overview](index.md)
-- [Get started with Copilot Cowork](get-started.md)
-- [Use Copilot Cowork](use-cowork.md)
-- [Copilot Cowork common questions](cowork-faq.md)
+- [Cowork overview](index.md)
+- [Get started with Cowork](get-started.md)
+- [Use Cowork](use-cowork.md)
+- [Cowork common questions](cowork-faq.md)

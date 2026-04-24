@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 03/26/2026
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -20,11 +20,12 @@ Agent Store is the central hub in Microsoft 365 Copilot where you can easily dis
 
 :::image type="content" source="media/copilot-agent-store/copilot-agent-store-01.png" alt-text="Screenshot the Agent Store in Microsoft 365 Copilot." lightbox="media/copilot-agent-store/copilot-agent-store-01.png":::
 
-There are three ways to include agents in your Agent Store environment:
+There are four ways to include agents in your Agent Store environment:
 
 1. Deploy prebuilt agents to Agent Store
 2. Create agents with Copilot Studio publish to Agent Store
 3. Bring agents from external platforms to Agent Store
+4. Integrate agent with the Agent 365 SDK
 
 ## Prerequisites
 
@@ -44,6 +45,7 @@ The following table summarizes the three common agent deployment methods.
 | [Deploy prebuilt agents](#deploy-prebuilt-agents) | Deploy agents from Microsoft and trusted partners. | Admin |
 | [Create and publish with Copilot Studio](#create-and-publish-copilot-studio-agents-built-by-your-organization) | Create custom agents using a natural language  authoring tool. | Maker/Admin |
 | [Bring agents from external platforms](#bring-agents-from-external-platforms) | Connect agents built on external platforms or custom code. | Developer/Admin |
+| [Integrate agent with the Agent 365 SDK](#integrate-your-agent-with-the-agent-365-sdk) | Integrate your agent with the Agent 365 SDK. | Developer/Admin |
 
 > [!NOTE]
 > Agents built using  Agent Store.
@@ -132,6 +134,14 @@ Use this method to bring agents built outside of Copilot Studio into Microsoft 3
 3. Select **Approve** to publish the agent to Agent Store, or **Reject** to decline the request.
 
 After approval, the agent is available to users in Agent Store within Microsoft 365 Copilot.
+
+## Integrate your agent with the Agent 365 SDK
+
+For organizations that have already built agents on other SDKs or platforms, including Copilot Studio, Azure AI Foundry, OpenAI Agents SDK, or custom code, the Microsoft Agent 365 SDK can add enterprise capabilities without a full rebuild.
+
+The Agent 365 SDK equips agents with Entra-backed identity, governed access to Microsoft 365 data through managed MCP servers, full observability, and the ability to receive and respond to notifications across Teams, Outlook, and Word, just like a human participant. Agents operate within an IT-approved blueprint system, meaning each agent instance inherits the compliance, governance, and security policies defined by the organization.
+
+Once completed, these Agent 365-enabled agents appear in the "Agents for your team" collection in the Agent Store. This pathway is ideal for organizations that want to bring agents into Copilot and Agent Store while ensuring they meet the same enterprise standards as any other agent in the catalog. 
 
 ## Related content
 

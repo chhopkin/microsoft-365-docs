@@ -69,8 +69,6 @@ items:
   items:
     - name: Overview
       href: ../admin/security-and-compliance/m365bp-devices-enrollment.md
-    - name: Upgrade to Windows 10 or 11 Pro (if needed)
-      href: m365bp-upgrade-windows-pro.md
     - name: Onboard enrolled devices and apply policies
       href: /defender-business/mdb-onboard-devices?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Use Windows Autopilot to set up or reset devices

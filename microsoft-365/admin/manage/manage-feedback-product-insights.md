@@ -9,10 +9,9 @@ ms.date: 01/06/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
-ms.localizationpriority: medium
+ms.subservice: m365-privacy
 ms.collection:
 - Adm_O365
-- trust-pod
 - feedback-content
 hideEdit: true
 description: "Use Net promoter scores (NPS) from your end users to see how they feel about Microsoft products and services."

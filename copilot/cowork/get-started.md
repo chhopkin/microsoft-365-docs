@@ -1,6 +1,6 @@
 ---
-title: "Get started with Copilot Cowork (Frontier)"
-description: "Start using Copilot Cowork in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
+title: "Get started with Cowork (Frontier)"
+description: "Start using Cowork in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
 ms.date: 04/07/2026
 ms.topic: get-started
 author: leeclontz
@@ -15,11 +15,11 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Get started with Copilot Cowork (Frontier)
+# Get started with Cowork (Frontier)
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Cowork is available in Microsoft 365 Copilot. You describe what you need&mdash;draft an email, build a spreadsheet, schedule a meeting&mdash;and Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
+Microsoft 365 Copilot Cowork allows you to describe what you need&mdash;draft an email, build a spreadsheet, schedule a meeting&mdash;and Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
 
 ## Prerequisites
 
@@ -91,6 +91,6 @@ The task view lets you select any task to open it and resume the conversation. Y
 
 ## Related content
 
-- [Copilot Cowork overview](index.md)
-- [Use Copilot Cowork](use-cowork.md)
-- [Copilot Cowork common questions](cowork-faq.md)
+- [Cowork overview](index.md)
+- [Use Cowork](use-cowork.md)
+- [Cowork common questions](cowork-faq.md)
