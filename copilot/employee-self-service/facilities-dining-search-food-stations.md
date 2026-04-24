@@ -7,7 +7,7 @@ manager: baradhak
 ms.reviewer: MicrosoftHeidi
 ms.date: 04/20/2026
 audience: Admin
-ms.topic: articleP
+ms.topic: article
 ms.service: microsoft-365-copilot
 ms.subservice: ess-agent
 ms.custom: ess-agent
