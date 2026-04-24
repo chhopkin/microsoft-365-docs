@@ -34,7 +34,7 @@ This app includes an AI-driven feature designed to enhance your experience. To e
 
 #### What is automatic field detection in templates?
 
-[Automatic field detection](agreements-create-template.md#automatically-detect-potential-fields-for-templates) helps template creators quickly identify and insert relevant fields into their templates using AI. It scans documents, detects key content, and suggests fields for review and insertion—minimizing manual effort and saving time.
+[Automatic field detection](agreements-create-template.md#automatically-detect-potential-fields-for-templates) helps template creators quickly identify and insert relevant fields into their templates using AI. It scans documents, detects key content, and suggests fields for review and insertion-minimizing manual effort and saving time.
 
 #### What can automatic field detection do?
 
@@ -58,7 +58,7 @@ Automatic field detection is designed to streamline the template creation proces
 
 #### How was automatic field detection evaluated? What metrics were used to measure performance?
 
-Performance factors such as precision, recall, and accuracy relied on the base model’s performance (in this case, GPT-4o).
+Performance factors such as precision, recall, and accuracy relied on the base model's performance (in this case, GPT-4o).
 
 To evaluate feature specific performance, testing was done on the open-source dataset CUAD v1:
 
@@ -68,11 +68,11 @@ To evaluate feature specific performance, testing was done on the open-source da
 
 Evaluated risk and safety metrics.
 
-Setup: We used custom evaluation flows in Azure Prompt Flow to simulate real-world usage of the feature. These flows combined metadata prompts, system prompts, and user inputs—such as questions or document content—and were executed on the same base model (GPT-4o) with identical configuration settings.
+Setup: We used custom evaluation flows in Azure Prompt Flow to simulate real-world usage of the feature. These flows combined metadata prompts, system prompts, and user inputs-such as questions or document content-and were executed on the same base model (GPT-4o) with identical configuration settings.
 
 Assessment: Evaluated test cases with standard legal contracts which included jail break prompts and injection attacks, over 100 test cases for both.
 
-Evaluation: Successful output would either ignore the malicious prompt, or trigger AOAI’s content management policy leading to output getting filtered out. This red teaming evaluation was found to be successful on 200+ test cases.
+Evaluation: Successful output would either ignore the malicious prompt, or trigger AOAI's content management policy leading to output getting filtered out. This red teaming evaluation was found to be successful on 200+ test cases.
 
 #### What are the limitations of automatic field detection?
 

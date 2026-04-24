@@ -149,7 +149,7 @@ Once you've trained an extractor, that trained extractor can be used as an expla
 
 ## Test your model
 
-If you received a match on your labeled sample files, you can now test your model on your remaining unlabeled example files that the model hasn't seen before. This step is optional, but a useful step to evaluate the “fitness” or readiness of the model before using it, by testing it on files the model hasn’t seen before.
+If you received a match on your labeled sample files, you can now test your model on your remaining unlabeled example files that the model hasn't seen before. This step is optional, but a useful step to evaluate the "fitness" or readiness of the model before using it, by testing it on files the model hasn't seen before.
 
 1. From the model home page, select the **Test** tab. This runs the model on your unlabeled sample files.
 2. In the **Test files** list, your example files display and shows if the model predicted them to be positive or negative. Use this information to help determine the effectiveness of your classifier in identifying your documents.

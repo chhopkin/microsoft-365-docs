@@ -22,13 +22,13 @@ description: Learn how to use a prebuilt document processing model for simple do
 
 The *simple document processing model* offers a flexible, pretrained solution for extracting information from [basic structured documents](#types-of-documents), including information such as:
 
-- **Key-value pairs** – Think of these like labels and their corresponding information, such as “Name: Adele Vance.”
+- **Key-value pairs** - Think of these like labels and their corresponding information, such as "Name: Adele Vance."
 
-- **Selection marks** – These are checkboxes or other marks that indicate choices or selections in a document.
+- **Selection marks** - These are checkboxes or other marks that indicate choices or selections in a document.
 
-- **Named entities** – These are specific items like names of people, places, or organizations mentioned in the text of a document.
+- **Named entities** - These are specific items like names of people, places, or organizations mentioned in the text of a document.
 
-- **Barcodes** – These are machine-readable representations of data that can be used for tracking or identification purposes in a document.
+- **Barcodes** - These are machine-readable representations of data that can be used for tracking or identification purposes in a document.
 
 Unlike other prebuilt models with fixed schemas, this model can identify keys that others might miss, providing a valuable alternative to custom model labeling and training. This model also supports barcodes and language detection.
 
@@ -36,15 +36,15 @@ Unlike other prebuilt models with fixed schemas, this model can identify keys th
 
 Simple document processing works best with the types of documents that contain structured information, such as:
 
-- **Forms** – These often have clear fields and labels, making it easier to extract key-value pairs.
+- **Forms** - These often have clear fields and labels, making it easier to extract key-value pairs.
 
-- **Invoices** – Typically include consistent layouts with tables and key-value pairs.
+- **Invoices** - Typically include consistent layouts with tables and key-value pairs.
 
-- **Receipts** – Similar to invoices, they have structured data that can be easily extracted.
+- **Receipts** - Similar to invoices, they have structured data that can be easily extracted.
 
-- **Contracts** – Contain well-defined sections and clauses that can be parsed effectively.
+- **Contracts** - Contain well-defined sections and clauses that can be parsed effectively.
 
-- **Bank statements** – Include tables and structured data that are ideal for extraction.
+- **Bank statements** - Include tables and structured data that are ideal for extraction.
 
 These documents benefit from the optical character recognition (OCR) capabilities and deep learning processes used to extract key-value pairs, selection marks, tables, and named entities.
 
@@ -87,7 +87,7 @@ On the extractor details page, you see the document area on the right of the pag
 The entity fields that are highlighted in green in the document area are the items that were detected by the model when it analyzed the file. When you select an entity to extract, the highlighted field changes to blue. If you later decide not to include the entity, the highlighted field changes to gray. The highlights make it easier to see the current state of the extractors you select.
 
 > [!TIP]
-> To zoom in or out to read the entity fields, use your mouse’s scroll wheel or the zoom controls at the bottom of the document area.
+> To zoom in or out to read the entity fields, use your mouse's scroll wheel or the zoom controls at the bottom of the document area.
 
 ### Select an extractor entity
 
