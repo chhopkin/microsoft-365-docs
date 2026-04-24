@@ -2,10 +2,10 @@
 title: Find your domain registrar and DNS hosting provider
 f1.keywords:
 - CSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
-ms.date: 03/16/2026
+ms.author: frankroj
+author: frankroj
+manager: scotv
+ms.date: 04/23/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
