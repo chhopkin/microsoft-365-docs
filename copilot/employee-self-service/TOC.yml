@@ -37,7 +37,7 @@ items:
           href: evaluations.md
         - name: Create a custom evaluation strategy
           href: evaluations-custom-strategy.md
-        - name: Setup and run tests using the evaluation tool
+        - name: Set up and run tests using the evaluation tool
           href: evaluations-run-tests.md
 
 - name: Integrate external systems
