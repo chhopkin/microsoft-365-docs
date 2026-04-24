@@ -241,7 +241,7 @@ To submit an incident analysis request:
 
 ### Incident Analysis Overview
 
-The Incident Analysis (IA) Overview section provides a snapshot of the current state of your incident analysis requests:
+The Incident Analysis (IA) overview section provides a snapshot of the current state of your incident analysis requests:
 
 - **Total IAs**: Displays the total number of open incident analysis requests.
 
@@ -263,17 +263,17 @@ This section breaks down your active incident analysis requests by workload type
 
 You can refine your view of the incident analysis requests by using the following filters:
 
-- **Status**: Filter by the status of the request (for example, *Submitted*, *Completed*).
+- **Status**: Filter by the status of the request (for example, _Submitted_, _Completed_).
 
 - **Created By**: Filter by the user who created the request.
 
-- **Product**: Filter by the product associated with the incident (for example, *Exchange*, *SharePoint*, *Teams, Copilot for M365*).
+- **Product**: Filter by the product associated with the incident (for example, _Exchange_, _SharePoint_, _Teams_, _Copilot for M365_).
 
 ### Request Report
 
 The **Request Report** section displays a table with all the incident analysis requests that have been submitted. For each request, you can see the following details:
 
-- **Ticket \#**: The unique identifier for the incident.
+- **Ticket #**: The unique identifier for the incident.
 
 - **Case Title**: The title of the incident request.
 
