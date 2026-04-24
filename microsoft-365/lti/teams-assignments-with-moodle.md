@@ -41,7 +41,7 @@ By installing and using the Teams Assignments LTI app, educators and students ca
 
 **To register the new external tool in Moodle:**
 
-1. Open your Moodle site in a new tab or browser, and log in as a Site Administrator. Tip: **Don't** close the Microsoft LTI portal tab – we return there shortly!
+1. Open your Moodle site in a new tab or browser, and log in as a Site Administrator. Tip: **Don't** close the Microsoft LTI portal tab - we return there shortly!
 1. Navigate to **Site administration > Plugins** and select **External tool** and then **Manage tools**.
 1. Select **Configure a tool manually** and enter the values listed in the table:
 
