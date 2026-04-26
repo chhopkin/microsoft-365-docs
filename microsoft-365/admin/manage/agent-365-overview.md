@@ -38,7 +38,7 @@ Agents are powerful AI companions that can handle a range of interactions and ta
 
 Agent governance involves using policies, settings, and admin actions to control how agents at your organization are accessed, published, deployed, and managed across your organization. When you apply an agent governance approach to managing agents, you ensure agents and the data they use remain secure and compliant.
 
-By using governance across your agent lifecycle, you help ensure agent adoption is consistent and safe. Governance ensures agents are onboarded intentionally, operate within guardrails, and are managed consistently from build through retirement.
+By using governance across your agent lifecycle, you help ensure agent adoption is consistent and safe. Governance ensures agents onboard intentionally, operate within guardrails, and are manage consistently from build through retirement.
 
 Organizations face significant challenges related to agent governance, including the following:
 - How to apply consistent governance policies across all agents, regardless of how or where they’re built.
@@ -129,7 +129,7 @@ The following table provides agent management capabilities in the Microsoft 365 
 | Security Operator | ✔ | ✔ | ✖ |
 | Reports Reader | ✔ | ✔ | ✖ |
 | User Experience Success Manager | ✔ | ✔ | ✖ |
-| User Account Administrator | ✔ | ✔ | ✖ |
+| User Account Administrator | ✔ | ✖ | ✖ |
 
 The **AI Administrator** and **Global Administrator** roles have tenant‑wide visibility and governance authority, where-as by contrast, product-specific admin roles allow governance only within the boundaries of their products (such as Power Platform Administrator and Fabric Administrator).
 
@@ -139,20 +139,20 @@ The **AI Administrator** and **Global Administrator** roles have tenant‑wide v
 
 ## Types of agents
 
-Agents that can be managed in Microsoft 365 admin center vary depending on the agent type and platform. An agent's type and platform is based on the tool and methods used to create the agent. 
+Agents that can be managed in Microsoft 365 admin center vary depending on the agent type and platform. An agent's type and platform is based on the tools and methods used to create the agent.
 
 The following table describes each type of agent:
 
 | Type of agent | Description |
 |---|---|
 | **MCS DA** | A Microsoft Copilot Studio Declarative Agent (MCS DA) is created primarily using written instructions within Copilot Studio. These agents can be published based on channel and approved by the administrator within Microsoft 365 admin center. |
-| **MCS CEA** | A Microsoft Copilot Studio Custom Engine Agent (MCS CEA) is designed using more precise settings and capabilities using Copilot Studio. The agents can be publish based on channel and approved by the administrator within Microsoft 365 admin center. |
+| **MCS CEA** | A Microsoft Copilot Studio Custom Engine Agent (MCS CEA) is designed using more precise settings and capabilities using Copilot Studio. The agents can be published based on channel and approved by the administrator within Microsoft 365 admin center. |
 | **MCS BP** | A business process (BP) agent, created with Microsoft Copilot Studio, is a sequence of tasks, decisions, and interactions often implemented to use automation. |
 | **Foundry LOB** | A Foundry LOB agent is create using Microsoft Foundry. This is a Line-of-Business (LOB) agent that has been created in-house (within your organization) for a specific business scenario.  |
-| **Foundry non-LOB** | A Foundry non-LOB agent is create using Microsoft Foundry, however it is not tied to a specific business workflow. |
+| **Foundry non-LOB** | A Foundry non-LOB agent is creatde using Microsoft Foundry, however it is not tied to a specific business workflow. |
 | **Foundry hosted** | A Foundry hosted agent is created, stored, and run inside the Foundry platform. |
 | **Agent Builder** | An Agent Builder agent is a declarative agent that has been created using Agent Builder within Copilot. |
-| **SharePoint** | A SharePoint agent is a declarative agent has been created using SharePoint. This type of agent typically uses organization knowledge hosted on SharePoint. |
+| **SharePoint** | A SharePoint agent is a declarative agent that has been created using SharePoint. This type of agent typically uses organizational knowledge hosted on SharePoint. |
 | **Agent Toolkit** | An Agent Toolkit agent has been created using Microsoft 365 Agents Toolkit. The toolkit provides tooling for building, testing, and managing agents across Microsoft 365. |
 | **Agent instance** | An agent that has been extended using the Microsoft Agent 365 SDK is an agent instance. Once extended, an agent instance has Entra-backed agent identity, enhanced notification capabilities, extended observability, covered MCP tooling, and an IT-approved blueprint system. |
 
@@ -165,7 +165,7 @@ For more information about agent types, see [Data & tools by agent type](agent-d
 Hero metrics provide a high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale and engagement.
 
 - **Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom "line-of-business" agents. In both registry and usage we refer to these types of agents as "Built by your organization". This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
-- **Active users** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered an active user.
+- **Active users** - The number of unique users who interacted with at least one agent within the last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered an active user.
 - **Agent run-time** - Total hours worked by agents during the last 30 days, calculated as the sum of each agent session's duration (end time minus start time).
 - **Agent rgistry sync** - The external connected platforms that were scanned. You can connect to external platforms to find and monitor agents used in your organization. Your use of external non-Microsoft products is subject to the third-party service provider's terms of use. You're responsible for complying with each provider's terms of use.
 

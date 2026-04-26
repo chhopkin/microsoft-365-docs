@@ -40,7 +40,7 @@ search.appverid:
 
 AI teammate instances are AI-powered agents built on AI teammate templates that your organization can deploy to automate business processes. As a **Global Administrator**, you can create Instances  on behalf of an owner  directly from the Microsoft 365 Admin Center.  This process gives your organization full governance and control over agent deployment.
 
-AI teammate agent is a prebuilt AI agent template published in your tenant. The AI teammate agent must be activated before any instances can be created from them. Instances are created by the members of your organization. A deployed instance of an AI Teammate can be assigned to a specific owner and configured for their needs. When a member of your organization creates an instance of an agent, they create the instance from an activated AI Teammate. The owner is the person in your organization responsible for the instance. They appear as its manager in the directory and interact with the instance via Microsoft Teams and other office productivity surfaces.
+AI teammate agent is a prebuilt AI agent template published in your tenant. The AI teammate agent must be activated before any instances can be created from them. Instances are created by the members of your organization. A deployed instance of an AI Teammate can be assigned to a specific owner and configured for their needs. When a member of your organization creates an instance of an agent, they create the instance from an activated AI Teammate. The owner is the person in your organization responsible for instance. They appear as the instance's manager in the directory and interact with the instance via Microsoft Teams and other office productivity surfaces.
 
 Agent 365 provisions the instance with identity, validates licenses, enforces governance policies, and maintains a complete audit log of all actions.
 
@@ -69,7 +69,7 @@ Ensure the following prerequisites are in place before starting the AI teammate 
 
 You can create an instance from an activated AI Teammate agent in the Microsoft 365 Admin Center.
 
-The following steps show you how to create  an instance from an activated AI teammate agent.
+The following steps show you how to create an instance from an activated AI teammate agent.
  
 ### Step 1: Navigate to the Agent Registry
 
@@ -81,7 +81,7 @@ The following steps show you how to create  an instance from an activated AI tea
 
 ### Step 2: Review AI teammate Agent Details
 
-The Agent Details pane provides a full overview of the agent, including its description, capabilities, supported scenarios, availability settings, data connections, and security configuration. 
+The Agent Details pane provides a full overview of the agent, including its description, capabilities, supported scenarios, availability settings, data connections, and security configuration.
 
 1. Review these details to confirm that this is the correct **AI teammate** agent for your intended use case.
 
@@ -127,7 +127,7 @@ Once you confirm the configuration summary in the **Instance Creation Wizard**, 
 - The required license is assigned to the instance.
 - The Instance is placed within the organizational structure based on the instance owner position, hierarchically under the owner in the org structure.
 - The owner can access and interact with their Instance via Microsoft Teams and other productivity surfaces like Word, Excel, PowerPoint, and Outlook.
-- All provisioning actions are recorded in the audit log for compliance and traceability. The owner can also see their interactions and the agent activities on Teams and in Microsoft 365
+- All provisioning actions are recorded in the audit log for compliance and traceability. The owner can also see their interactions and the agent activities on Teams and in Microsoft 365.
 
 After you have completed the instance creation flow, the owner will find their new Instance available in Microsoft Teams. From there, they can begin working with the agent, delegating tasks, and managing its activity.
 
@@ -135,8 +135,8 @@ After you have completed the instance creation flow, the owner will find their n
 
 All instance deployments through the Microsoft 365 Admin Center are governed by Microsoft's enterprise compliance framework. Key governance controls include:
 
-- License enforcement: Instance can't be provisioned without a valid, available license.
-- Permission scoping: You control which owner can be assigned an instance and which data sources the agent can access.
-- Audit logging: Every action in the instance creation flow. This includes who initiated it, when it was configured, and what was configured. This is captured in the Microsoft 365 audit log.
-- Entra ID integration: All Instances are first-class directory objects, subject to the same identity governance policies as human users.
-- Decoupled activation and instance creation: You can activate AI teammates independently and post successful activation you can create instances, enabling staged rollouts and business-readiness gating.
+- **License enforcement**: Instance can't be provisioned without a valid, available license.
+- **Permission scoping**: You control which owner can be assigned an instance and which data sources the agent can access.
+- **Audit logging**: Every action in the instance creation flow. This includes who initiated it, when it was configured, and what was configured. This is captured in the Microsoft 365 audit log.
+- **Entra ID integration**: All Instances are first-class directory objects, subject to the same identity governance policies as human users.
+- **Decoupled activation and instance creation**: You can activate AI teammates independently and post successful activation you can create instances, enabling staged rollouts and business-readiness gating.
