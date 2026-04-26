@@ -52,7 +52,7 @@ The following capabilities help your organization confidently manage and govern 
 - **Bring agents under control from day one** - Onboard and approve agents through one IT controlled flow, applying policy templates to every agent for governance and compliance.
 - **Control what agents can access and do** - Enforce least privilege access by controlling which users, data, and tools agents can use and limit access to only the resources and other agents they need.
 - **Automate ongoing agent governance** - Leverage rules-based agent management to automatically enforce lifecycle policies, such as expiring inactive agents, flagging ownerless agents, or blocking risky agents.
-- **Be audit-ready from the start** - Strengthen visibility and traceability of agent actions and interactions, including who approved an agent, what it accessed, and how it behaved.
+- **Be audit-ready from the start** - Strengthen visibility into how your agents are being used and how they are performing, helping you ensure they operate securely, comply with policies, and run reliably across your organization.
 - **Reduce compliance and safety risks** - Establish data safety and compliance controls to detect, retain, and investigate unethical agent interactions.
 
 The Agent workload within [Microsoft 365 admin center](https://admin.microsoft.com/) allows you to view a summary of agents that you manage, deploy, and monitor at your organization. It provides usage and insights that help monitor agent adoption and governance. The Agent workload serves as the grounding control plane for all agents managed at your organization.
@@ -76,10 +76,12 @@ You can access and view the **Agent overview** using the following steps:
 
 ## Agent overview summary
 
+Administrators use the Agent overview to identify and act on critical governance tasks required to maintain compliance, mitigate risk, and ensure agents are properly managed across the organization. These actions are surfaced through actionable insights in the dashboard and provide direct pathways to resolve governance gaps.
+
 Using the **Agent overview**, you can view key agent details for your tenant, including the following items:
 
 - A snapshot of agent activity and actionable insights for the last 30 days
-- Track agent adoption and usage trends
+- Track agent usage trends
 - Identify risks and governance gaps
 - Critical actions for administrators to review, such as:
   - Approve pending requests
@@ -91,6 +93,20 @@ Using the **Agent overview**, you can view key agent details for your tenant, in
 > A tenant is an instance of Microsoft Entra ID. Your subscription to Copilot or Agent 365 is hosted by a Microsoft Entra tenant. For more information about creating and understanding tenants, see [Set up a new Microsoft Entra tenant](/entra/identity-platform/quickstart-create-new-tenant) in the Microsoft Entra documentation.
 
 :::image type="content" source="../../media/agents/agent-overview.png" alt-text="Screenshot showing the agent workload in Microsoft 365 admin center, which provides management controls and details for agents within your organization's tenant." lightbox="../../media/agents/agent-overview.png":::
+
+To ensure consistent interpretation across metrics and insights in the Agent overview, the following definitions clarify what is included in agent counts and reporting on the **Overview** dashboard:
+- **Definition of an agent**
+  An agent is defined as an AI-powered entity that can perform tasks or interactions autonomously or semi-autonomously using instructions, context, knowledge sources, and tools to accomplish user or organizational goals.
+- **Supported agent types and platforms**
+  The Agent overview includes agents built across supported Microsoft and connected platforms. This includes agents created using platforms surfaced in the ecosystem such as Copilot Studio and other Microsoft-supported creation tools, as well as applicable third-party agents detected through connected platforms. Specific platforms supported include: MCS, SharePoint, Agent Builder, AI Foundry, Agents Toolkit, 1P (ex Researcher), and 3P Agentic platforms.
+- **Draft agent visibility**
+  Agent counts and metrics primarily reflect agents that are discoverable within the tenant through governance and registry systems. Visibility of draft or unpublished agents may vary based on platform integration and governance state.
+- **System and Microsoft-built agents**
+  Agent inventory includes Microsoft-built, partner-built, and custom (line-of-business) agents to provide a comprehensive view of the total agent footprint in the organization. 
+- **Platforms surfaced in Copilot Studio and ecosystem**
+  Agent creation platforms represented in the overview include Microsoft-native tools (such as Copilot Studio, Agent Builder, and others) along with any external or third-party platforms detected and integrated into the agent registry. 
+- **Data consistency across sources (Registry vs. analytics systems)**
+  Metrics in the Agent overview are derived from multiple underlying systems (such as the Agent Registry and usage analytics pipelines). Minor variances may occur due to differences in ingestion timing, update frequency, and system-specific processing. These variances are expected and do not impact overall directional insights.
 
 View access to the agent **Overview** doesn't grant permission to install, modify, or manage agents. Administrative actions continue to be governed by role-based access controls aligned with agent installation and consent workflows.
 
@@ -142,44 +158,48 @@ The following table describes each type of agent:
 
 For more information about agent types, see [Data & tools by agent type](agent-details.md#data--tools-by-agent-type).
 
-## Governance actions for agents
+## Agent card details
 
-Administrators can use governance insights in the Microsoft 365 admin center to identify and remediate compliance gaps related to agent usage across the organization.
+### Hero metrics for agent impact
 
-Examples of governance include the actions:
-- Review and approve pending agent installation requests
-- Assign ownership to agents without a designated owner
+Hero metrics provide a high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale and engagement.
 
-These actions can be initiated based on the following agent views:
-- Pending Requests for agents
-- Ownerless agents
-
-Selecting these options in Microsoft 365 admin center navigates you to relevant filtered views within the agent **Registry** to take corrective action.
-
-> [!IMPORTANT]
-> Governance actions, such as approving agent requests or assigning agent ownership, can only be performed by admins assigned to the **AI Administrator** or **Global Administrator** Microsoft Entra roles. Other supported roles can monitor governance gaps but can't take administrative actions. In addition, admins that have been assigned the **AI Administrator** role aren't authorized to configure **Conditional Access** policies or **Microsoft Entra** access package policies. These actions require a highly privileged administrator role with appropriate Microsoft Graph permissions.
-
-## Hero metrics for agent adoption and impact
-
-Hero metrics provide a high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale, engagement, and business value.
-
-- **Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
+- **Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom "line-of-business" agents. In both registry and usage we refer to these types of agents as "Built by your organization". This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
 - **Active users** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered an active user.
 - **Agent run-time** - Total hours worked by agents during the last 30 days, calculated as the sum of each agent session's duration (end time minus start time).
-- **Agent detector** - The external connected platforms that were scanned. You can connect to external platforms to find and monitor agents used in your organization. Your use of external non-Microsoft products is subject to the third-party service provider's terms of use. You're responsible for complying with each provider's terms of use.
+- **Agent rgistry sync** - The external connected platforms that were scanned. You can connect to external platforms to find and monitor agents used in your organization. Your use of external non-Microsoft products is subject to the third-party service provider's terms of use. You're responsible for complying with each provider's terms of use.
 
 ## Top actions for you
 
-View actionable governance cards that display urgent tasks for you (the administrator) to maintain compliance and improve adoption. These cards help you quickly identify and resolve governance gaps.
+Governance actions help administrators enforce policy, maintain accountability, and manage the agent lifecycle across the tenant. These actions are driven by signals such as pending approvals, ownership gaps, and identified risks.
 
-- **Pending Requests for Agents** - See the total number of agent requests awaiting admin approvals within the last 30 days. The card lists the three oldest pending requests, prioritized by oldest first. It also displays the delta badge next to the key metric to highlight week-over-week change in the total requests. To take immediate action, select **Manage requests**. This selection navigates to the **Agent Registry** > **Requests** tab. This tab lists all pending agent requests submitted by users within your organization.
+Common governance actions include: 
+- **Review and approve pending agent requests** - Identify agents awaiting administrative approval and take action to allow or restrict deployment. Selecting **Manage requests** navigates to **Requests** view (**All agents** > **Requests**).
+- **Assign ownership to agents without owners** - Ensure all agents have a designated owner responsible for lifecycle management, compliance, and ongoing maintenance.
+- **Investigate and remediate agents at risk** - Review agents flagged for potential security or compliance issues and take corrective action by selecting to manage agent risks in the Agent Registry.
+- **Review agents with exceptions** - Identify agents experiencing errors or issues in operation and investigate underlying problems through detailed views.
+
+These governance actions are surfaced through the following key views:
+- Pending Requests for agents
+- Agents without owners
+- Agents at risk
+- Agents with exceptions
+
+Selecting any of these options navigates to filtered views within the Agent Registry, where administrators can take corrective action.
+
+> [!IMPORTANT]
+> Important governance actions such as approving agent requests or assigning ownership can only be performed by users in the **AI Administrator** or **Global Administrator** roles. Other roles can monitor governance gaps but cannot take administrative action.
+
+View actionable governance cards that display urgent tasks for you (the administrator) to maintain compliance. These cards help you quickly identify and resolve governance gaps.
+
+- **Pending Requests for Agents** - See the total number of agent requests awaiting admin approvals within the last 30 days. The card lists the three oldest pending requests, prioritized by newest first. It also displays the delta badge next to the key metric to highlight week-over-week change in the total requests. To take immediate action, select **Manage requests**. This selection navigates to the **Agent Registry** > **Requests** tab. This tab lists all pending agent requests submitted by users within your organization.
 - **Agents at risk** - View the total number of agents with security risks. Select **Manage agent risks** to view agents filter by risk in the **Agent Registry**. 
 - **Agents without owners** - View the total number of agents without an assigned owner and still pending owner assignment. Select **Assign Owner** to view a list of agents filtered by **Agents without owners**.
 - **Agent with exceptions** - View the total number of agents with errors in their conversations. Select **View details** to view a list of agents filtered by agents with errors.
  
 ## Agent analytics
 
-Get detailed insights into how agents are distributed and used. This information helps administrators understand adoption patterns and optimize resources.
+Get detailed insights into how agents are distributed and used. This information helps administrators understand if a specific platform is being used, and if an agent is spiking in usage, to assure it’s compliant and managed, so as to mitigate risk.
 
 - **Agents by creators** - View a breakdown of all agents in your inventory by their source of publisher type, such as who created and shared the agent. There are four categories:
   - **Your organization** - Agents that your organization created and published. These agents can be shared by the creator or used only by the creator.
@@ -194,6 +214,6 @@ Get detailed insights into how agents are distributed and used. This information
   - Microsoft Foundry
   - Other - **NOTE**: 'Other' is used to indicate an unknown platform.
   - Third party platforms will also display in this card if there are third party agents in your registry.
-- **Active users in Copilot over time** - View a trend chart that shows daily active user engagement with agents over the last 30 days. This chart reveals adoption momentum and helps you spot usage spikes or declines.
+- **Active users over time** - View a trend chart that shows daily active user engagement with agents over the last 30 days. This chart reveals usage momentum and helps you spot spikes or declines.
 - **Trending agents by active users** - You can view the agents with the most active users in your organization over the last 30 days.
 
