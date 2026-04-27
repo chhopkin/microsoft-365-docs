@@ -54,7 +54,7 @@ The Microsoft 365 admin center provides governance and lifecycle management capa
 
 > [!NOTE]
 >
-> For information about actions relate to the agent registry list, such as **Export to Excel**, **Upload custom agent**, and **Manage pinned agents**, see [Agent registry in the Microsoft 365 admin center](agent-registry.md).
+> For information about actions related to the agent registry list, such as **Export to Excel**, **Upload custom agent**, and **Manage pinned agents**, see [Agent registry in the Microsoft 365 admin center](agent-registry.md).
 
 ### Install agents
 
