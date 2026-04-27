@@ -23,6 +23,7 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - m365solution-removeemployee
+- user-accounts
 description: "Once you've blocked a user from being able to log into your organization, learn two ways you can save the contents of the former employee's mailbox."
 ---
 
