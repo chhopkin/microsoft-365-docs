@@ -1,7 +1,7 @@
 ---
-title: Manage AI instances in Microsoft 365 admin center
-description: Manage AI instances in Microsoft 365 admin center.
-#customer intent: As an IT admin, I want to manage AI instances so that I can control their availability and functionality within my organization.
+title: Create AI instances in Microsoft 365 admin center
+description: Create AI instances in Microsoft 365 admin center.
+#customer intent: As an IT admin, I want to create AI instances so that I can control their availability and functionality within my organization.
 f1.keywords:
 - NOCSH
 ms.author: erikre
@@ -32,7 +32,7 @@ search.appverid:
 - MOE150
 ---
 
-# Manage AI agent instances in Microsoft 365 admin center
+# Create AI agent instances in Microsoft 365 admin center
 
 > [!IMPORTANT]
 >
