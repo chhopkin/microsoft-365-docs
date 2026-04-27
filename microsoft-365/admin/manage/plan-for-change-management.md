@@ -54,7 +54,7 @@ The **Microsoft Frontier program** gives organizations early access to innovativ
 
 The Frontier program supports early experimentation, but the features aren't fully supported, might change, and might not reach GA. They’re intended for evaluation and readiness, not production use.
 
-For more information on the Frontier program, see [Get started with the Microsoft Frontier program](get-started-frontier.md).
+For more information on the Frontier program, see [Get started with the Microsoft Frontier program](get-started-frontier).
 
 ## Updated Message center interface
 
