@@ -66,7 +66,7 @@ The agent **Registry** provides quick details about the agents your organization
 
 ### Agent registry filters
 
-The agent **Registry** can contain a large and diverse inventory of agents. As your organization's agent adoption increases, management of all your agents can be more involved and complex. Filtering this list helps you narrow the view to the agents that you want to focus on at the moment that allows you to:
+The agent **Registry** can contain a large and diverse inventory of agents. As your organization's agent adoption increases, management of all your agents can be more involved and complex. In addition to sorting the list of agents by column, you can filter the list. Filtering this list helps you narrow the view to the agents that you want to focus on at the moment that allows you to:
 
 - Be more efficient.
 - Make focused decisions.
@@ -82,6 +82,8 @@ You can filter the agent list based on the following criteria:
 
 > [!TIP]
 > If you don't see the agents that you expect to see in the agent registry list, check to make sure you don't have an existing filter set.
+> 
+> Certain columns allow you to sort the agent registry list. Select the column title to sort the list.
 
 ## Agent registry actions
 
