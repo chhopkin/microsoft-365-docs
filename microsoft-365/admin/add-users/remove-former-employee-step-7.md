@@ -23,6 +23,7 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - m365solution-removeemployee
+- user-accounts
 description: "After you've saved and accessed all of a former employee's user data, you can delete the former employee's account in the Microsoft 365 admin center."
 ---
 

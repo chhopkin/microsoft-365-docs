@@ -25,6 +25,7 @@ ms.custom:
 - AdminTemplateSet
 - adminvideo
 - business_assist
+- user-accounts
 search.appverid:
 - MET150
 ms.date: 01/06/2026
