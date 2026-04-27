@@ -2356,6 +2356,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "microsoft-365/admin/security-and-compliance/gdpr-compliance.md",
+      "redirect_url": "/compliance/regulatory/gdpr",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "microsoft-365/admin/misc/compare-ways-to-block-access.md",
       "redirect_url": "/microsoft-365/admin/add-users/remove-former-employee",
       "redirect_document_id": false
