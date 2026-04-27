@@ -126,10 +126,10 @@ To route facilities issues to the right technician, extract the problem category
     :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-prompt-edit.png" alt-text="Screenshot that shows the expanded _Categories_ field showing an editable, comma-separated list (for example, plumbing, electrical, cleaning).":::
 
 1. Test the prompt.
-  1. Enter a sample **Problem Description** and choose a model. For consistent behavior, use the same model as your Employee Self-Service agent. Select **Test** to confirm the category returned for your scenarios.
-  1. Optionally, try other available models and compare results before you standardize on one.
+   1. Enter a sample **Problem Description** and choose a model. For consistent behavior, use the same model as your Employee Self-Service agent. Select **Test** to confirm the category returned for your scenarios.
+   1. Optionally, try other available models and compare results before you standardize on one.
 
-  :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-problem-desc.png" alt-text="Screenshot that shows the prompt test panel with a sample description entered and the model returning the matched category in the output pane.":::
+    :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-problem-desc.png" alt-text="Screenshot that shows the prompt test panel with a sample description entered and the model returning the matched category in the output pane.":::
 
 1. Save the prompt as **Prompt to Extract Problem Category**.
 
@@ -167,8 +167,11 @@ Steps:
 1. Create a topic named **Create Facilities Management Ticket**.
 
     a. In Copilot Studio, select **Add a topic > From blank**.
+   
     b. Once inside the topic, select **Open code editor**.
+   
     c. Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeCreateFacilitiesManagementTicket/topic.yaml), and close code editor.
+   
     d. In the topic workflow editor, locate the **Prompt Location** reference. Select the double-arrow button to open **Add a tool**, and then choose the **Extract Location Information prompt** you created earlier.
 
       :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-add-location-prompt.png" alt-text="Screenshot that shows the Copilot Studio topic editor with the _Add a tool_ panel open and Extract Location Information selected.":::
@@ -178,13 +181,19 @@ Steps:
 1. Validate.
 
     a. Open the visual representation of the topic and verify the end-to-end flow.
+   
     b. Run Topic checker to identify any static issues.
+   
     c. Optionally, follow the next section (Review the topic workflow) for a guided walkthrough of what to verify.
+   
 1. Test the topic.
    
     a. In Copilot Studio, select Test to open the test chat.
+   
     b. Enter a sample request such as  There's a water leak in the first-floor bathroom.
+   
     c. Complete any required fields in the ticket form, and then submit.
+   
     d. After submission, the Employee Self-Service agent confirms that the Facilities Management ticket was created.
 
 ## Review the topic workflow
