@@ -117,7 +117,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copil
 
 Use this setting to configure your organization's access to experimental and preview features in web apps, desktop apps, and agents. By default, no users have access to Frontier features.
 
-For more information, see [Get started with the Microsoft Frontier program](/microsoft-365/admin/manage/get-started-frontier.mdget-started-frontier.md).
+For more information, see [Get started with the Microsoft Frontier program](/microsoft-365/admin/manage/get-started-frontier.md).
 
 #### Web apps tab
 
