@@ -142,7 +142,7 @@ New users sometimes display as **unknown**. This problem usually happens because
 
 ## Show user, group, or site details in usage reports
 
-Reports provide information about your organization's usage data. By default, all reports hide user information such as usernames, groups, and sites to help companies support local privacy laws.
+Reports provide information about your organization's usage data. By default, all reports hide user information such as usernames, display names, groups, and sites to help companies support local privacy laws.
 
 By default, your user list looks like the following screenshot:
 

@@ -292,7 +292,7 @@ Wondering how much storage your customer tenant users are consuming? You can now
 Plus, in the coming months we'll roll out even more enhancements:
 
 - Quick navigation: Jump directly to the details page of any tenant from any page in Lighthouse.
-- Customer-facing report: Get ready for a long-awaited feature—a comprehensive report that you can share directly with your customers.
+- Customer-facing report: Get ready for a long-awaited feature-a comprehensive report that you can share directly with your customers.
 - And more...stay tuned.
  
 To check out the recent enhancements, in the left navigation pane in Lighthouse, select **Tenants**, and then select any tenant in the list to open the tenant details page. 
@@ -567,21 +567,21 @@ Microsoft 365 Lighthouse now provides a deployment plan status for each active t
 
 ## February 2023
 
-### App insights from Endpoint analytics  
+### App insights from Endpoint analytics  
 
-We've added insights from Endpoint analytics to Microsoft 365 Lighthouse to help you proactively take measures to improve the health of user devices and apps within managed tenants. The insights from Endpoint analytics inform a deployment sub-task called **Enable Device Health Monitoring** within the default baseline under the **Set up device enrollment** task. Once the new sub-task is enabled and the deployment task is deployed, select **Apps** > **App performance** in the left navigation pane in Microsoft 365 Lighthouse to see the Endpoint analytics insights.  
+We've added insights from Endpoint analytics to Microsoft 365 Lighthouse to help you proactively take measures to improve the health of user devices and apps within managed tenants. The insights from Endpoint analytics inform a deployment sub-task called **Enable Device Health Monitoring** within the default baseline under the **Set up device enrollment** task. Once the new sub-task is enabled and the deployment task is deployed, select **Apps** > **App performance** in the left navigation pane in Microsoft 365 Lighthouse to see the Endpoint analytics insights.  
 
-For more information, see [What is Endpoint analytics?](/mem/analytics/overview).
+For more information, see [What is Endpoint analytics?](/intune/endpoint-analytics/).
 
-### Device insights from Endpoint analytics  
+### Device insights from Endpoint analytics  
 
-We've added insights from Endpoint analytics to Microsoft 365 Lighthouse to help you proactively take measures to improve the health of user devices and apps within managed tenants. The insights from Endpoint analytics inform a deployment sub-task called **Enable Device Health Monitoring** within the default baseline under the **Set up device enrollment** task. Once the new sub-task is enabled and the deployment task is deployed, select **Devices** > **Device health** in the left navigation pane in Microsoft 365 Lighthouse to see the Endpoint analytics insights.  
+We've added insights from Endpoint analytics to Microsoft 365 Lighthouse to help you proactively take measures to improve the health of user devices and apps within managed tenants. The insights from Endpoint analytics inform a deployment sub-task called **Enable Device Health Monitoring** within the default baseline under the **Set up device enrollment** task. Once the new sub-task is enabled and the deployment task is deployed, select **Devices** > **Device health** in the left navigation pane in Microsoft 365 Lighthouse to see the Endpoint analytics insights.  
 
-For more information, see [What is Endpoint analytics?](/mem/analytics/overview).
+For more information, see [What is Endpoint analytics?](/intune/endpoint-analytics/).
 
-### Multi-tenant exposure score and recommendations  
+### Multi-tenant exposure score and recommendations  
 
-We've brought multi-tenant threat and vulnerability management capabilities from Microsoft Defender for Endpoint (MDE) into Microsoft 365 Lighthouse. To see the exposure levels of all your managed tenants onboarded to MDE, go to **Devices** > **Vulnerability management** in Microsoft 365 Lighthouse.  
+We've brought multi-tenant threat and vulnerability management capabilities from Microsoft Defender for Endpoint (MDE) into Microsoft 365 Lighthouse. To see the exposure levels of all your managed tenants onboarded to MDE, go to **Devices** > **Vulnerability management** in Microsoft 365 Lighthouse.  
 
 ### Persistent deployment status detection and configuration drift analysis 
 
@@ -607,7 +607,7 @@ Microsoft 365 Lighthouse now reports deployment progress by user so you can see 
 
 The default baseline now provides a mobile device management (MDM) and mobile application management (MAM) deployment sub-task to automate the enrollment of Windows devices in Intune. Previously, this was a manual task that provided instructions only.  
 
-For any tenant, go to the **Deployment plan** page, expand the **Set up device enrollment** task, select the **Configure device enrollment** sub-task to open the task details pane, and then select **Deploy**. 
+For any tenant, go to the **Deployment plan** page, expand the **Set up device enrollment** task, select the **Configure device enrollment** sub-task to open the task details pane, and then select **Deploy**. 
 
 ### User search improvements
 
@@ -676,7 +676,7 @@ Managed Service Providers (MSPs) can now deploy app protection policies for thei
 
 We've added a new deployment sub-task called **Enable Device Health Monitoring** within the default baseline under the **Set up device enrollment** task. Once the new sub-task is enabled and the deployment task is deployed, Endpoint analytics in Microsoft Intune will be able to analyze device data and can recommend software, help improve startup performance, and fix common support issues.
 
-For more information, see [What is Endpoint analytics?](/mem/analytics/overview).
+For more information, see [What is Endpoint analytics?](/intune/endpoint-analytics/).
 
 ## September 2022
 
@@ -914,7 +914,7 @@ With the new baselines feature, you can now deploy standard configurations to he
 - Require MFA for admins
 - Require MFA for users
 - Block Legacy Authentication
-- Enroll Windows Devices in Microsoft Intune – Azure AD Join
+- Enroll Windows Devices in Microsoft Intune - Azure AD Join
 - Configure Defender AV policy for Windows devices
 - Configure Compliance Policy for Windows devices
 
