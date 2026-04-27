@@ -213,7 +213,7 @@ The Customer Advisory Board program allows you to:
 
 The Incident Analysis page in Enhanced engagements allows you to request incident analysis for closed incidents. You can submit a request for incidents that have been critical in nature and resolved in the last 7 days. In addition, you can view insights into your current incident analysis requests, including their status, and see a report of all past requests.
 
-:::image type="content" source="../enterprise/media/enhanced-engagements/incident-analysis-engagements.png" alt-text="The image shows a dashboard interface with sections for engaging in incident analysis, requesting analysis for closed critical incidents, and submitting a new incident request." lightbox="../enterprise/media/enhanced-engagements/incident-analysis-engagements.png":::
+:::image type="content" source="../media/enhanced-engagements/incident-analysis-engagements.png" alt-text="The image shows a dashboard interface with sections for engaging in incident analysis, requesting analysis for closed critical incidents, and submitting a new incident request." lightbox="../media/enhanced-engagements/incident-analysis-engagements.png":::
 
 To submit an incident analysis request:
 
@@ -229,7 +229,7 @@ To submit an incident analysis request:
 
 6. Submit your request. Once you've reviewed the information, submit your incident analysis request.
 
-:::image type="content" source="../enterprise/media/enhanced-engagements/submit-incident-analysis.png" alt-text="The image displays a selection interface for submitting an incident analysis, featuring a list of various technical issues, such as Exchange, SharePoint, and Copilot for M365." lightbox="../enterprise/media/enhanced-engagements/submit-incident-analysis.png":::
+:::image type="content" source="../media/enhanced-engagements/submit-incident-analysis.png" alt-text="The image displays a selection interface for submitting an incident analysis, featuring a list of various technical issues, such as Exchange, SharePoint, and Copilot for M365." lightbox="../media/enhanced-engagements/submit-incident-analysis.png":::
 
 1. If you do not see your incident listed, then select **Don’t see your incident** .
 
@@ -237,7 +237,7 @@ To submit an incident analysis request:
 
 3. Submit your request. All requests will be reviewed by TCL.
 
-:::image type="content" source="../enterprise/media/enhanced-engagements/manually-submit-request-incident-analysis.png" alt-text="The image shows a user interface form for submitting a request for an Incident Analysis, including fields for case number, contact, description, and a submit button." lightbox="../enterprise/media/enhanced-engagements/manually-submit-request-incident-analysis.png":::
+:::image type="content" source="../media/enhanced-engagements/manually-submit-request-incident-analysis.png" alt-text="The image shows a user interface form for submitting a request for an Incident Analysis, including fields for case number, contact, description, and a submit button." lightbox="../media/enhanced-engagements/manually-submit-request-incident-analysis.png":::
 
 ### Incident Analysis Overview
 
