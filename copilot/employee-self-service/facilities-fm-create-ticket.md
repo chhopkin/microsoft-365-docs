@@ -129,7 +129,7 @@ To route facilities issues to the right technician, extract the problem category
   1. Enter a sample **Problem Description** and choose a model. For consistent behavior, use the same model as your Employee Self-Service agent. Select **Test** to confirm the category returned for your scenarios.
   1. Optionally, try other available models and compare results before you standardize on one.
 
-    :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-problem-desc.png" alt-text="Screenshot that shows the prompt test panel with a sample description entered and the model returning the matched category in the output pane.":::
+  :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-problem-desc.png" alt-text="Screenshot that shows the prompt test panel with a sample description entered and the model returning the matched category in the output pane.":::
 
 1. Save the prompt as **Prompt to Extract Problem Category**.
 
