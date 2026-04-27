@@ -10,7 +10,9 @@ audience: Admin
 ms.topic: article
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
-ms.custom: m365-groups
+ms.custom: 
+- m365-groups
+- user-accounts
 ms.collection:
 - M365-subscription-management
 - Adm_O365

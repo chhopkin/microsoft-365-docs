@@ -22,6 +22,7 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkEXCHANGE
 - business_assist
+- user-accounts
 description: "Learn to convert a user mailbox to a shared mailbox that can be accessed by several people instead of by just one person."
 ---
 

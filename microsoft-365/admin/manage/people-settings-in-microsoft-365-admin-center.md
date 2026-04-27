@@ -11,6 +11,7 @@ ms.service: microsoft-365-admin
 ms.topic: overview
 ms.date: 10/10/2025
 manager: scotv
+ms.custom: user-accounts
 ---
 
 # Manage people data and related experiences from the Microsoft 365 admin center

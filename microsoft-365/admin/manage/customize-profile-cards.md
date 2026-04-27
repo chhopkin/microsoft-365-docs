@@ -11,6 +11,7 @@ ms.service: microsoft-365-admin
 ms.topic: article
 ms.date:     07/24/2025
 manager: scotv
+ms.custom: user-accounts
 ---
 
 # Enriching and customizing your organization's profile cards 
