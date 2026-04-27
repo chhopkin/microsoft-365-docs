@@ -53,7 +53,6 @@ To use Shadow AI detection and governance, you need:
   - Security Administrator.
   - AI Administrator.
   - Global Reader.
-  - Security Administrator.
   - Security Reader.
   - Security Operator.
   - Reports Reader.
