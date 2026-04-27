@@ -4,9 +4,9 @@ description: Learn how IT administrators can enable the Microsoft Frontier progr
 author: dansimp
 ms.author: dansimp
 manager: dansimp
-ms.date: 04/20/2026
+ms.date: 04/27/2026
 ms.topic: how-to
-ms.service: microsoft-365-copilot
+ms.service: microsoft-365
 ms.subservice: admin
 ms.custom: copilot-frontier
 audience: Admin

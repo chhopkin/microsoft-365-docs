@@ -456,6 +456,8 @@ items:
              href: manage/plan-for-change-management.md
            - name: Configure modern release options
              href: manage/configure-release-options.md
+           - name: Enroll in Frontier
+             href: manage/enroll-frontier.md
            - name: Modern release options FAQ
              href: manage/release-options-faq.md
            - name: Set up the Standard or Targeted release options
