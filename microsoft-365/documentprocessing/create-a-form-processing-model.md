@@ -21,7 +21,7 @@ description: Learn how to train a structured model or freeform model for documen
 # Train a structured or freeform document processing model
 
 <!---
-Using [AI Builder](/ai-builder/overview)—a feature in Microsoft Power Apps—Syntex users can create a [structured document processing](form-processing-overview.md) model directly from a SharePoint document library. 
+Using [AI Builder](/ai-builder/overview)-a feature in Microsoft Power Apps-Syntex users can create a [structured document processing](form-processing-overview.md) model directly from a SharePoint document library. 
 --->
 
 Follow the instructions in [Create an enterprise model for document processing](create-syntex-model.md) to create a structured or freeform document processing model in a content center. Or, follow the instructions in [Create a model on a local SharePoint site](create-local-model.md) to create the model on a local site. Then use this article to train your model.
@@ -104,11 +104,11 @@ To run the flow:
 
 Two flows are available to process a selected file or batch of files in a library where a structured or freeform document processing model has been applied.
 
-- **Extract info from an image or PDF file with a document processing model** — Use to extract text from a selected image or PDF file by running a document processing model. Supports a single selected file at a time, and supports only PDF files and image files (.png, .jpg, and .jpeg). To run the flow, select a file, and then select **Automate** > **Extract info**.
+- **Extract info from an image or PDF file with a document processing model** - Use to extract text from a selected image or PDF file by running a document processing model. Supports a single selected file at a time, and supports only PDF files and image files (.png, .jpg, and .jpeg). To run the flow, select a file, and then select **Automate** > **Extract info**.
 
     ![Screenshot showing the Automate menu with Extract info highlighted.](../media/content-understanding/automate-extract-info.png)  
 
-- **Extract info from files with a document processing model** — Use with document processing models to read and extract information from a batch of files. Processes up to 5,000 SharePoint files at a time. When you run this flow, there are certain parameters you can set. You can:
+- **Extract info from files with a document processing model** - Use with document processing models to read and extract information from a batch of files. Processes up to 5,000 SharePoint files at a time. When you run this flow, there are certain parameters you can set. You can:
 
     - Choose whether to include previously processed files (the default isn't to include previously processed files).
     - Select the number of files to process (the default is 100 files).

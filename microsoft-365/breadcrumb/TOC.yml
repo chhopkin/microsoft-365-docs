@@ -38,7 +38,10 @@ items:
     topicHref: /microsoft-365/lighthouse/m365-lighthouse-overview
   - name: Microsoft 365 Learning Tools Interoperability (LTI)
     tocHref: /microsoft-365/lti/
-    topicHref: /microsoft-365/lti/    
+    topicHref: /microsoft-365/lti/
+  - name: Microsoft 365 Migration
+    tocHref: /microsoft-365/migrate/
+    topicHref: /microsoft-365/migrate/index      
   - name: Security
     tocHref: /microsoft-365/security/
     topicHref: /microsoft-365/security/index        

@@ -19,12 +19,12 @@ ms.custom:
 - AdminSurgePortfolib
 - M365-Lighthouse                         
 search.appverid: MET150
-description: "For Managed Service Providers (MSPs) using Microsoft 365 Lighthouse, learn how to view and manage upcoming and expired non‑Azure Microsoft subscriptions in Microsoft 365 Lighthouse."
+description: "For Managed Service Providers (MSPs) using Microsoft 365 Lighthouse, learn how to view and manage upcoming and expired non-Azure Microsoft subscriptions in Microsoft 365 Lighthouse."
 ---
 
 # Overview of subscription renewals in Microsoft 365 Lighthouse
 
-You can view upcoming and expired non‑Azure Microsoft subscriptions in Microsoft 365 Lighthouse by selecting **Subscription renewals** in the left navigation pane to open the **Subscription renewals** page (formerly under **Sales Advisor**).
+You can view upcoming and expired non-Azure Microsoft subscriptions in Microsoft 365 Lighthouse by selecting **Subscription renewals** in the left navigation pane to open the **Subscription renewals** page (formerly under **Sales Advisor**).
 
 The page includes an **Overview** section that shows the following consolidated information across all customer tenants:  
 

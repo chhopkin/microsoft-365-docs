@@ -21,7 +21,7 @@ Whiteboard can be deployed on devices that run Windows 10 or later using Microso
 
 In order to deploy Whiteboard, you must first ensure that Whiteboard is enabled for your organization. For more information, see [Manage access to Whiteboard](manage-whiteboard-access-organizations.md).
 
-- **Microsoft Intune using an online license mode** – This process allows you to specify groups of users who will receive access to the Whiteboard app.
+- **Microsoft Intune using an online license mode** - This process allows you to specify groups of users who will receive access to the Whiteboard app.
 
 ## Install Whiteboard using Microsoft Intune
 

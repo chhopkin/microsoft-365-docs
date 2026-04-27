@@ -67,7 +67,7 @@ The chart information gives you insight into the apps and services that you want
 
 **In-product feedback** Is the total number of feedback responses from within the app or service that were initiated and submitted by your users. Use this data to gauge the success and satisfaction people have with the apps. [Learn more](feedback-user-control.md)
 
-**NPS survey response volume** is the total number of responses to the Net Promoter Score (NPS) survey. By default, Microsoft sends the survey to 5% of your users and asks “Would you recommend this product?” Use this data to gauge user satisfaction and to see what people are saying about the app. [Learn more](../manage/manage-feedback-product-insights.md)
+**NPS survey response volume** is the total number of responses to the Net Promoter Score (NPS) survey. By default, Microsoft sends the survey to 5% of your users and asks “Would you recommend this product?” Use this data to gauge user satisfaction and to see what people are saying about the app.
 
 **Help article views** is the total number of views of Microsoft help articles and training videos about the app. Use this data to find topics of interest and share the suggested training with your users. [Learn more](#examples-of-help-articles)
 

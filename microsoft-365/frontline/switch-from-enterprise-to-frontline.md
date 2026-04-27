@@ -148,8 +148,8 @@ F3 and F1 users have 2 GB of OneDrive storage to store and share files. To learn
 
 |Service or feature|Microsoft 365 E3/E5 (no Teams)|Microsoft 365 F3 (with Teams)|Microsoft 365 F3 (no Teams)|Microsoft 365 F1 (with Teams)|Microsoft 365 F1 (no Teams)|
 |---------|---------|---------|---------|---------|---------|
-|Viva Connections – dashboard, feed, resources, and Teams app|Available by adding Teams Enterprise or Teams EEA|Yes|No|Yes|No|
-|Viva Engage – communities, conversations, and storyline|Yes|Yes|Yes|Yes|Yes|
+|Viva Connections - dashboard, feed, resources, and Teams app|Available by adding Teams Enterprise or Teams EEA|Yes|No|Yes|No|
+|Viva Engage - communities, conversations, and storyline|Yes|Yes|Yes|Yes|Yes|
 |Viva Learning in Teams|Available by adding Teams Enterprise or Teams EEA|Yes|No|Yes|No|
 |Viva Insights app in Teams|Available by adding Teams Enterprise or Teams EEA|Yes<sup>1</sup>|No|Yes<sup>1</sup>|No|
 
@@ -205,8 +205,8 @@ Here's some ideas to help plan your strategy.
 
 You might also want to check out these adoption resources to help you engage and train your users:
 
-- [Microsoft 365 – Microsoft Adoption](https://adoption.microsoft.com/microsoft-365/)
-- [Teams for frontline workers – Microsoft Adoption](https://adoption.microsoft.com/microsoft-teams/frontline-workers/)
+- [Microsoft 365 - Microsoft Adoption](https://adoption.microsoft.com/microsoft-365/)
+- [Teams for frontline workers - Microsoft Adoption](https://adoption.microsoft.com/microsoft-teams/frontline-workers/)
 
 ### Back up or prepare data
 
