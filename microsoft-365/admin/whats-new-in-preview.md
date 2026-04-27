@@ -124,8 +124,6 @@ To learn more, see [Microsoft 365 Reports in the admin center – EWS usage](/mi
 
 ### Provide admin-initiated feedback for Microsoft 365 Copilot
 
-> [!VIDEO c67f2b9c-8ba4-44b5-8713-00063e92ba54]
-
 You can provide feedback about Microsoft 365 Copilot on behalf of your users within the Microsoft 365 admin center, supplementing the user-initiated feedback process. This helps Microsoft receive comprehensive diagnostic data to aid in debugging and improving the quality and relevance of Copilot's responses. Recent enhancements to this feature include:
 
 - **Role expansion** The feature now includes the AI Admin role in addition to Global Admin role, ensuring that more administrators can access and manage Copilot diagnostics.
@@ -136,7 +134,7 @@ You can provide feedback about Microsoft 365 Copilot on behalf of your users wit
 
 As an admin, you play a pivotal role in setting the tone for how your organization adopts and benefits from new technologies. Hence, with admin-initiated feedback, we're empowering administrators to harness this capability for Copilot's continual improvement, all while ensuring the security and ownership of your organization’s data. 
 
-These enhancements provide more control and flexibility, ensuring that feedback is accurate and relevant. To learn more, see [Submit admin-initiated Copilot feedback from the Microsoft 365 admin center](/copilot/microsoft-365/provide-feedback).
+These enhancements provide more control and flexibility, ensuring that feedback is accurate and relevant.
 
 ## January 2025
 
