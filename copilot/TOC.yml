@@ -532,8 +532,6 @@ items:
   items:
   - name: Release notes
     href: release-notes.md
-  - name: Get started with Microsoft Frontier
-    href: copilot-frontier.md
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md
   - name: Connect to Anthropic's AI models

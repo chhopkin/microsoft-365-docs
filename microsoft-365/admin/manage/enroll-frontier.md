@@ -6,8 +6,7 @@ ms.author: dansimp
 manager: dansimp
 ms.date: 04/27/2026
 ms.topic: how-to
-ms.service: microsoft-365
-ms.subservice: admin
+ms.service: microsoft-365-business
 ms.custom: copilot-frontier
 audience: Admin
 ms.collection:
