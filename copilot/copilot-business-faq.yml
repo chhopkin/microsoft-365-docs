@@ -75,6 +75,10 @@ sections:
       If I have a Microsoft 365 Business Standard or Business Premium plan and the Copilot Business add-on, can I upgrade to an Enterprise plan? 
     answer: |
       No. You can't upgrade to an Enterprise plan from a Microsoft 365 Business Standard or Business Premium plan with Copilot Business. You must wait until your commitment end date to move to an Enterprise plan.
+  - question: |
+      Is Shared Computer Activation (SCA) supported for Microsoft 365 Copilot licenses?
+    answer: |
+      Yes. Shared Computer Activation (SCA) is fully supported for Microsoft 365 Copilot licenses. No special configuration, exceptions, or additional treatment is required. Copilot licenses can be managed and deployed with SCA the same as any other supported Microsoft 365 license.
 - name: Support and resources
   questions:
   - question: |
