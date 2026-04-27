@@ -9,7 +9,7 @@ items:
     - name: Get started
       items:
         - name: What is Microsoft 365 for business
-          href: admin-overview/what-is-microsoft-365-for-business.md 
+          href: admin-overview/what-is-microsoft-365-for-business.md
         - name: Sign up
           href: admin-overview/sign-up-for-office-365.md
         - name: Try or buy Microsoft 365
@@ -300,6 +300,8 @@ items:
               href: manage/manage-tools-for-agent.md
             - name: Agent tenant settings
               href: manage/agent-settings.md
+            - name: Shadow AI
+              href: manage/agent-shadow-ai.md
          - name: Microsoft Graph connectors for Microsoft Search
            href: /microsoft-365/copilot/connectors/overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
          - name: Monitor Microsoft 365 activity by using reports
@@ -457,7 +459,7 @@ items:
          - name: Manage Microsoft feedback for your organization
            href: manage/manage-feedback-ms-org.md
          - name: Change management
-           items: 
+           items:
            - name: Overview of modern change management
              href: manage/plan-for-change-management.md
            - name: Configure modern release options
