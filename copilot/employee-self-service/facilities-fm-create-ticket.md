@@ -175,7 +175,9 @@ Steps:
     d. In the topic workflow editor, locate the **Prompt Location** reference. Select the double-arrow button to open **Add a tool**, and then choose the **Extract Location Information prompt** you created earlier.
 
       :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-add-location-prompt.png" alt-text="Screenshot that shows the Copilot Studio topic editor with the _Add a tool_ panel open and Extract Location Information selected.":::
+   
     e. Repeat the previous step for the problem category prompt and the action (the flow).
+   
     f. Resolve any validation errors, and then select **Save**.
 
 1. Validate.
