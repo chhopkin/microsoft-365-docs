@@ -276,6 +276,8 @@ items:
            items:
             - name: Agent management overview
               href: manage/agent-365-overview.md
+            - name: Agent management roles and permissions
+              href: manage/agent-roles-perms.md              
             - name: Manage agent inventory
               items:
               - name: Agent registry

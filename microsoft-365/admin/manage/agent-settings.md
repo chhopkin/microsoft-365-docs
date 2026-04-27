@@ -121,44 +121,11 @@ Using the Block Agents with Risk Alert rule, you can do the following:
 > - If you disable an option, agents of that type don't appear for users in the Agent store.
 > - Agents built by Microsoft are visible to users even if the setting is disabled. Users aren't able to install those agents.
 
-## Security templates
+## Agent templates
 
-To enhance governance and security for agents, you can apply a template that includes predefined security policies:
+To enhance governance and security for agents, you can apply a template that includes predefined security policies.
 
-- **Default Templates**: Microsoft offers out-of-the-box default templates that include essential security and compliance controls from Microsoft Entra, Purview, and SharePoint. For customers enrolled in the Frontier program with an active Agent 365 license, these default templates automatically assign the Agent 365 license, helping reduce manual license management.
-
-- **Custom Templates**: If you need additional governance beyond the default, create a custom template and apply extra policies such as Restrict External Content sharing to meet your organization's requirements.
-
-> [!NOTE]
->
-> As an administrator, you can choose which default template to apply based on the agent type. There are two default templates:
->
-> - One for agents that allow instance creation.
-> - One for agents that don't allow instance creation.
->
-> When an agent is activated or published, a dropdown menu displays both Microsoft default templates. Select the desired template to apply its policies to the agent.
-
-For more information about protecting AI agents, see [Detect, block, and investigate threats to AI agents using Microsoft Defender](/defender-xdr/security-for-ai/ai-agent-detection-protection).
-
-### Create custom templates
-
-To create a custom template that can be applied to AI agents used at your organization, follow these steps:
-
-1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-1. Select **Agents** > **Settings** > **Template** > **Add New Template**.
-1. Select the agent that will use the template:
-
-   - Agent that allows instances.
-   - Agent with no instances.
-   - Provide the template name.
-   - Provide description for the template.
-
-    :::image type="content" source="../../media/agents/details-page.png" alt-text="Screenshot of Details page." lightbox="../../media/knowledge-agent-idea.png":::
-
-1. Select the **Next** button and then choose any custom policies you want to add to the template. Microsoft's built-in default policies appears preselected and locked. Since the default policies are locked, they can't be edited. You can add additional policies as needed to meet your organization's requirements.
-1. You can review and finish adding the template.
-
-When an agent is being activated or published, a dropdown menu with both your custom templates and Microsoft's default templates is displayed. To apply its policies to the agent, select the desired template from the list.
+To learn more about templates see [Agent templates](/microsoft-agent-365/admin/agent-template).
 
 ## Sharing
 
