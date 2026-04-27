@@ -38,9 +38,9 @@ search.appverid:
 >
 > You need to be part of the [Frontier preview program](https://adoption.microsoft.com/copilot/frontier-program/) to get **early access** to this feature. Frontier connects you directly with Microsoft's latest AI innovations. Frontier previews are subject to the existing preview terms of your customer agreements. As these features are still in development, their availability and capabilities might change over time.
 
-Agent instances are deployed AIagents, each provisioned with their own user identity in Microsoft Entra ID,that your organization can use to automate business processes. They are created from agent templates that have been activated in your tenant.
+Agent instances are deployed AI agents, each provisioned with their own user identity in Microsoft Entra ID, that your organization can use to automate business processes. They're created from agent templates that have been activated in your tenant.
 
-As a Global Administrator, you can create agent instanceson behalf of an owner directly from the Microsoft 365 Admin Center. Each instance receives its own Entra ID-backed identity.This process gives your organization full governance and control over agent deployment.
+As a Global Administrator, you can create agent instances on behalf of an owner directly from the Microsoft 365 Admin Center. Each instance receives its own Microsoft Entra ID-backed identity. This process gives your organization full governance and control over agent deployment.
 
 An agent template is a prebuilt AI agent configuration published in your tenant. The agent template must be activated before any instances can be created from it. A deployed instance is assigned to a specific owner and configured for their needs. The owner is the person in your organization responsible for the instance. The owner is the person in your organization responsible for instance. They appear as the instance’s manager in the directory and interact with the instance via Microsoft Teams and other office productivity surfaces.
 Agent 365 provisions the instance with its own user identity, validates licenses, enforces governance policies, and maintains a complete audit log of all actions.
