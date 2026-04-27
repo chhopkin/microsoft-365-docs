@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 04/24/2026
+ms.date: 04/27/2026
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -13,7 +13,7 @@ ms.service: microsoft-365-enterprise
 ms.localizationpriority: medium
 ms.collection: 
 - m365admin
-description: The Engagements pivot in Enhanced engagements offers a centralized overview of all customer-specific engagements with Microsoft.
+description: The Engagements section in Enhanced engagements offers a centralized overview of all customer-specific engagements with Microsoft.
 ai-usage: ai-assisted  
 ---
 
@@ -215,6 +215,8 @@ The Incident Analysis page in Enhanced engagements allows you to request inciden
 
 :::image type="content" source="../media/enhanced-engagements/incident-analysis-engagements.png" alt-text="The image shows a dashboard interface with sections for engaging in incident analysis, requesting analysis for closed critical incidents, and submitting a new incident request." lightbox="../media/enhanced-engagements/incident-analysis-engagements.png":::
 
+### Create an Incident Analysis request
+
 To submit an incident analysis request:
 
 1. Go to the **Incident Analysis** page and navigate to the Incident Analysis section under **Engagements**.
@@ -231,11 +233,13 @@ To submit an incident analysis request:
 
 :::image type="content" source="../media/enhanced-engagements/submit-incident-analysis.png" alt-text="The image displays a selection interface for submitting an incident analysis, featuring a list of various technical issues, such as Exchange, SharePoint, and Copilot for M365." lightbox="../media/enhanced-engagements/submit-incident-analysis.png":::
 
-1. If you do not see your incident listed, then select **Don’t see your incident** .
+Alternatively, you can do the following:
 
-2. A flyout menu will open, share your Case Number, Contact details and describe why you feel this case should have been enabled for an Incident Analysis submission and please provide context around the interest for an Incident Analysis with this particular case, detailing what information you are interested in, should the case be eligible.
+1. If you do not see your incident listed, select **Don’t see your incident** .
 
-3. Submit your request. All requests will be reviewed by TCL.
+2. A flyout menu will open. Provide your case number and contact details, explain why this case should qualify for Incident Analysis, and outline the specific information you seek if eligible.
+
+3. Submit your request. All requests will be reviewed by a Technical Customer Lead (TCL).
 
 :::image type="content" source="../media/enhanced-engagements/manually-submit-request-incident-analysis.png" alt-text="The image shows a user interface form for submitting a request for an Incident Analysis, including fields for case number, contact, description, and a submit button." lightbox="../media/enhanced-engagements/manually-submit-request-incident-analysis.png":::
 
