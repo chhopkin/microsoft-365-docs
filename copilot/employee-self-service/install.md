@@ -58,7 +58,7 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 > If you intend to create both the HR and IT agents, you need to repeat this process. You must install agents one at a time.
 
 > [!WARNING]
-> Preferred solution is per-user setting, which means every single user/maker who would like to apply any customizations, must set the same solution as preferred solution
+> Preferred solution is a per-user setting, which means every single user/maker who'd like to apply any customizations must set the same solution as the preferred solution.
 
 Learn more about [Preferred Solution](/power-apps/maker/data-platform/preferred-solution).
 
