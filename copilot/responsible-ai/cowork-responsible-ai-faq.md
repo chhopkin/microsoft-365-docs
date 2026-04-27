@@ -1,7 +1,7 @@
 ---
-title: "Responsible AI FAQ for Copilot Cowork"
-description: "Get answers to frequently asked questions about responsible AI and Copilot Cowork in Microsoft 365 Copilot."
-ms.date: 03/30/2026
+title: "Responsible AI FAQ for Cowork"
+description: "Get answers to frequently asked questions about responsible AI and Microsoft 365 Copilot Cowork."
+ms.date: 04/03/2026
 ms.topic: faq
 ms.custom:
   - transparency-note
@@ -11,23 +11,25 @@ ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
+ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Responsible AI FAQ for Copilot Cowork
+# Responsible AI FAQ for Cowork
 
 [!INCLUDE [preview](../includes/preview.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Copilot Cowork agent in Microsoft 365 Copilot.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft 365 Copilot Cowork.
 
-## What is Copilot Cowork agent?
+## What is Cowork?
 
-Copilot Cowork in Microsoft 365 Copilot helps you carry out tasks across Microsoft 365 using natural language instructions. For example, it can send emails, schedule meetings, create documents, post in Teams, and manage files. Each action that Cowork takes is visible in the conversation. Sensitive actions require your explicit approval before they're executed.
+Cowork helps you carry out tasks across Microsoft 365 using natural language instructions. For example, it can send emails, schedule meetings, create documents, post in Teams, and manage files. Each action that Cowork takes is visible in the conversation. Sensitive actions require your explicit approval before they're executed.
 
-## What are Copilot Cowork's capabilities?
+## What are Cowork's capabilities?
 
-Copilot Cowork can:
+Cowork can:
 
 - Draft and send emails, reply to messages, and forward messages with attachments through Outlook.
 - Create and manage calendar events and schedule meetings.
@@ -45,7 +47,7 @@ Copilot Cowork can:
 
 During a conversation, Cowork acquires specialized skills as needed, such as the following: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards.
 
-## What is Copilot Cowork's intended use?
+## What is Cowork's intended use?
 
 Cowork is designed for information workers who use Microsoft 365 and want to delegate multi-step tasks. Typical use cases include:
 
@@ -57,7 +59,7 @@ Cowork is designed for information workers who use Microsoft 365 and want to del
 
 Cowork isn't intended for use cases that require guaranteed accuracy without human review. Examples are legal filings, medical decisions, or financial transactions that bypass approval processes.
 
-## How is Cowork agent evaluated, and what metrics are used to measure performance?
+## How is Cowork evaluated, and what metrics are used to measure performance?
 
 Microsoft evaluates Cowork across several areas:
 
@@ -66,7 +68,7 @@ Microsoft evaluates Cowork across several areas:
 - **User feedback**: Thumbs up and thumbs down ratings on individual responses and generated documents, collected directly in the conversation.
 - **Safety and compliance**: Ongoing evaluation to ensure Cowork operates within Microsoft's responsible AI principles.
 
-## What are the limitations of Copilot Cowork, and how can users minimize the impact of these limitations?
+## What are the limitations of Cowork, and how can users minimize the impact of these limitations?
 
 Current limitations include:
 
@@ -84,17 +86,17 @@ To minimize these limitations:
 - Use the pause and cancel controls to stop work if Cowork is heading in the wrong direction.
 - Provide thumbs up or thumbs down feedback to help improve future responses.
 
-## How does Copilot Cowork handle action approval?
+## How does Cowork handle action approval?
 
 Before Cowork performs a sensitive action such as sending an email, posting in Teams, or modifying a file, it presents an approval dialog. You have the following options:
 
-- **Approve**: Allow the action to proceed this one time.
-- **Approve & Remember**: Allow the action and skip the approval prompt for similar actions in the current conversation.
-- **Reject**: Block the action.
+- **Action button** (for example, **Send**, **Post**, or **Create**): Allow the action to proceed this one time.
+- **Don't ask again**: Select the dropdown arrow next to the action button to allow the action and skip the approval prompt for similar actions in the current conversation.
+- **Cancel**: Block the action.
 
 For certain actions, such as sending an email, Cowork displays a preview of the content so you can review it before approving. Cowork doesn't execute sensitive actions without your explicit consent.
 
-## How does Copilot Cowork handle my data?
+## How does Cowork handle my data?
 
 Cowork operates within the security and compliance boundaries of Microsoft 365.
 
@@ -113,7 +115,7 @@ Cowork doesn't use your data to train AI models. Your organizational data remain
 - Administrators can manage access to Cowork through the Microsoft 365 admin center, including disabling access for specific users or controlling deployment across the organization.
 - Provide regular feedback through the thumbs up/down controls and the general feedback option to help improve Cowork's performance over time.
 
-## How do I provide feedback on Copilot Cowork?
+## How do I provide feedback on Cowork?
 
 You can provide feedback in the following ways:
 
@@ -121,14 +123,14 @@ You can provide feedback in the following ways:
 - **Document feedback**: When previewing files that Cowork created.
 - **General feedback**: Through the feedback option in the header menu.
 
-Your feedback is used to evaluate and improve Cowork agent's quality and safety.
+Your feedback is used to evaluate and improve Cowork's quality and safety.
 
 ## Related content
 
-- [Responsible AI overview for Copilot Cowork](cowork-responsible-ai-overview.md)
-- [Copilot Cowork overview](../cowork/index.md)
-- [Get started with Copilot Cowork](../cowork/get-started.md)
-- [Use Copilot Cowork](../cowork/use-cowork.md)
-- [Copilot Cowork common questions](../cowork/cowork-faq.md)
+- [Responsible AI overview for Cowork](cowork-responsible-ai-overview.md)
+- [Cowork overview](../cowork/index.md)
+- [Get started with Cowork](../cowork/get-started.md)
+- [Use Cowork](../cowork/use-cowork.md)
+- [Cowork common questions](../cowork/cowork-faq.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
 

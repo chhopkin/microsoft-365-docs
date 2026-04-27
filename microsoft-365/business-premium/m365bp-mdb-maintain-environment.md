@@ -1,11 +1,8 @@
 ---
 title: "Maintain Microsoft 365 Business Premium."
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.date: 05/08/2025
@@ -20,9 +17,6 @@ ms.collection:
 - trust-pod
 ms.custom:
 - MiniMaven
-search.appverid:
-- BCS160[Email and calendars](#email-and-calendars)
-- MET150
 description: "Keep your systems, devices, user accounts, and security policies up to date to help protect against cyberattacks."
 ---
 

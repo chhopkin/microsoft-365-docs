@@ -36,9 +36,6 @@ When a site is archived, compliance features such as eDiscovery and retention la
 
 1. In the SharePoint admin center, go to [**Active sites**](https://go.microsoft.com/fwlink/?linkid=2185220), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
-   > [!NOTE]
-   > If you have Office 365 operated by 21Vianet (China), sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Active sites** page.
-
 2. In the left column, select one or more sites.
 
 3. Select **Archive**, and to confirm, select **Archive**.
@@ -58,7 +55,7 @@ Sites associated with Teams that include private or shared channels are only par
 
 - SharePoint admin center: Archiving a site with channel sites is not possible. (Message: "The group connected site with channel sites associated can't be archived.")
 
-- PowerShell and Graph API: Archiving a site with channel sites isn’t blocked. Only the main site associated with the Team and its standard channels is archived. Private and shared channel sites remain active. Archiving channel sites directly isn’t possible because these sites use unsupported site templates.
+- PowerShell and Graph API: Archiving a site with channel sites isn't blocked. Only the main site associated with the Team and its standard channels is archived. Private and shared channel sites remain active. Archiving channel sites directly isn't possible because these sites use unsupported site templates.
 
 ## Manage file-level archive (preview)
 
@@ -70,19 +67,19 @@ For the public preview of file-level archive starting at the end of March 2026, 
 
 To control which sites can use file-level archive, admins have three PowerShell tools they can utilize.
 
-1. **Tenant-level enablement**. To only utilize Site archive and not allow any user to archive files, disable file-level archive entirely for your tenant.  This capability is controlled via the _**-AllowFileArchive**_ property flag of the _**Set-SPOTenant**_ cmdlet.  This property will override the site-level property with the same name.  This flag was introduced into SPO admin PowerShell starting in version 16.0.26714.12000. By default, this property is set to True, meaning that the tenant can archive files. When set to False, no new files can be archived by users, but existing archived files can be reactivated. 
+1. **Tenant-level enablement**. To only utilize Site archive and not allow any user to archive files, disable file-level archive entirely for your tenant.  This capability is controlled via the _**-AllowFileArchive**_ property flag of the _**Set-SPOTenant**_ cmdlet.  This property will override the site-level property with the same name.  This flag was introduced into SPO admin PowerShell starting in version 16.0.26714.12000. By default, this property is set to True, meaning that the tenant can archive files. When set to False, no new files can be archived by users, but existing archived files can be reactivated. 
 
    ```PowerShell
    Set-SPOTenant -AllowFileArchive $true 
    ```
 
-1. **Site-level enablement**. To control which sites have file-level archive enabled, enable or disable specific sites from being able to archive new files.  This capability is controlled via the _**-AllowFileArchive**_ property flag of the _**Set-SPOSite**_ cmdlet. This flag was introduced into SPO admin PowerShell starting in version 16.0.26211.12000. By default, this property is set to True, meaning that the site can archive files. When set to False, no new files can be archived by users on this site, but existing archived files can be reactivated.
+1. **Site-level enablement**. To control which sites have file-level archive enabled, enable or disable specific sites from being able to archive new files.  This capability is controlled via the _**-AllowFileArchive**_ property flag of the _**Set-SPOSite**_ cmdlet. This flag was introduced into SPO admin PowerShell starting in version 16.0.26211.12000. By default, this property is set to True, meaning that the site can archive files. When set to False, no new files can be archived by users on this site, but existing archived files can be reactivated.
 
    ```PowerShell
     Set-SPOSite -Identity <site_url> -AllowFileArchive $true 
     ```
 
-1. **Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveOnNewSitesByDefault**_.  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property’s value will be copied to future created sites' ***-AllowFileArchive*** property flag, dictating whether those sites allow file archive.
+1. **Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveOnNewSitesByDefault**_.  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property's value will be copied to future created sites' ***-AllowFileArchive*** property flag, dictating whether those sites allow file archive.
 
     ```PowerShell
     Set-SPOTenant -AllowFileArchiveOnNewSitesByDefault $true 

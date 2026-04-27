@@ -4,7 +4,7 @@ description: Overview of a control that allows admins to determine whether users
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/24/2025
+ms.date: 03/31/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.reviewer: suparekh; davidedwards
@@ -34,8 +34,10 @@ If you don't want users to have the ability to upload files in Microsoft 365 Cop
 - **Allow file uploads in both Microsoft 365 Copilot and Microsoft 365 Copilot Chat**: Allows users to upload files in both experiences. This is the default setting.
 - **Prevent file uploads in both Microsoft 365 Copilot and Microsoft 365 Copilot Chat**: Disables file upload in both experiences.
 - **Disable file uploads in Microsoft 365 Copilot Web mode and Microsoft 365 Copilot Chat while allowing file uploads in Microsoft 365 Copilot Work mode**: Enables file upload in Microsoft 365 Copilot Chat *Work mode only* and disables file upload in Microsoft 365 Copilot Web mode and Microsoft 365 Copilot Chat.
- 
+
+Changes to the file upload control could take up to 24 hours to be reflected for end users.
+
 If users are prevented from uploading files in Microsoft 365 Copilot and Microsoft 365 Copilot Chat, the **Files** tab doesn't appear for those users in the Microsoft 365 Copilot app.
 
 > [!NOTE]
-> Changes to the file upload control could take up to 24 hours to be reflected for end users.
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more, in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).

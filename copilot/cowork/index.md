@@ -1,7 +1,7 @@
 ---
-title: "Copilot Cowork overview (Frontier)"
-description: "Learn about Copilot Cowork in Microsoft 365 Copilot, which take action on your behalf."
-ms.date: 03/30/2026
+title: "Cowork overview (Frontier)"
+description: "Learn about Microsoft 365 Copilot Cowork, which takes action on your behalf."
+ms.date: 04/07/2026
 ms.topic: overview
 author: leeclontz
 manager: KumarVivek
@@ -9,19 +9,23 @@ ms.author: leeclontz
 ms.reviewer: angieandrews
 ms.service: microsoft-365-copilot
 ms.subservice: cowork
+ai-usage: ai-assisted
+ms.collection: bap-ai-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Copilot Cowork overview (Frontier)
+# Cowork overview (Frontier)
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Cowork in Microsoft 365 Copilot can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. You approve each action before it happens.
+Microsoft 365 Copilot Cowork can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. You approve each action before it happens.
 
-## What is Copilot Cowork?
+:::image type="content" source="media/cowork-overview-interface.png" alt-text="Screenshot of the Cowork home page showing the chat input, suggested prompts, and recent tasks."  lightbox="media/cowork-overview-interface.png":::
 
-Cowork is available in Microsoft 365 Copilot. It carries out tasks across your Microsoft 365 environment. Rather than describing what you could do, it does the work.
+## What is Cowork?
+
+Cowork carries out tasks across your Microsoft 365 environment. Rather than describing what you could do, it does the work.
 
 - **Sends emails**: Drafts, replies, forwards, and sends messages through Outlook.
 - **Schedules meetings**: Creates calendar events, adds attendees, and helps you organize your day.
@@ -31,7 +35,7 @@ Cowork is available in Microsoft 365 Copilot. It carries out tasks across your M
 
 Cowork shows each step in your conversation, so you can follow along as it works.
 
-## What can Copilot Cowork do for you?
+## What can Cowork do for you?
 
 The following sections describe what you can ask Cowork to do.
 
@@ -70,17 +74,17 @@ The following sections describe what you can ask Cowork to do.
 
 ## Skills
 
- Cowork uses specialized skills as it works. When Cowork loads a new skill during your conversation, the skill shows up in the side panel. Each skill corresponds to a specific type of task.
+Cowork uses specialized skills as it works. When Cowork loads a new skill during your conversation, the skill shows up in the side panel. Each skill corresponds to a specific type of task.
 
- Cowork has 13 built-in skills, including Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. You can also create your own custom skills.
+Cowork has 13 built-in skills, including Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards. You can also create your own custom skills.
 
-For a detailed description of each skill, see [Copilot Cowork skills](use-cowork.md#cowork-skills).
+For a detailed description of each skill, see [Cowork skills](use-cowork.md#cowork-skills).
 
-You can extend Copilot Cowork with custom skills stored in your OneDrive. Create a subfolder in `/Documents/Cowork/Skills/` and place a `SKILL.md` file inside it (for example, `Documents/Cowork/Skills/weekly-report/SKILL.md`). Copilot Cowork discovers your custom skills automatically at the start of each conversation. You can create up to 20 custom skills.
+You can extend Cowork with custom skills stored in your OneDrive. Create a subfolder in `/Documents/Cowork/skills/` and place a `SKILL.md` file inside it (for example, `Documents/Cowork/skills/weekly-report/SKILL.md`). Cowork discovers your custom skills automatically at the start of each conversation. You can create up to 20 custom skills.
 
-As Copilot Cowork loads skills during a conversation, the side panel updates to show which skills are active.
+As Cowork loads skills during a conversation, the side panel updates to show which skills are active.
 
-## How you work with Copilot Cowork
+## How you work with Cowork
 
 Here's how a typical interaction works:
 
@@ -92,9 +96,9 @@ Here's how a typical interaction works:
 
 ## Stay in control
 
-You control what Copilot Cowork does throughout a conversation.
+You control what Cowork does throughout a conversation.
 
-- **Approve actions**: Cowork asks for your permission before taking sensitive actions, with a risk level indicator for medium and high risk actions. You can **Approve**, **Approve & Remember** (for the current conversation), or **Reject**.
+- **Approve actions**: Cowork asks for your permission before taking sensitive actions, with a risk level indicator for medium and high risk actions. The button label matches the action (for example, **Send** or **Post**), and a dropdown option lets you skip future prompts for similar actions. Select **Cancel** to stop an action.
 - **Pause, resume, and cancel**: Pause at any time, resume when ready, or cancel the current task.
 - **Give feedback**: Rate responses, leave comments on documents, or share general feedback.
 
@@ -102,22 +106,21 @@ For details on each option, see [Approve actions](use-cowork.md#approve-actions)
 
 ## Manage your work
 
-Copilot Cowork helps you stay organized with built-in project and task management.
+Cowork helps you stay organized with built-in project and task management.
 
-- **Task views**: Display your tasks in a sortable **list view**, a visual **kanban board**, or the **Scheduled** tab to manage your scheduled prompts. Each task shows a status: **In progress**, **Needs user input**, **Done**, or **Failed**.
+- **Task views**: Display all of your tasks or filtered views based on task status or use the **Scheduled** tab to manage your scheduled prompts. 
 
 ## Data protection and privacy
 
-Copilot Cowork adheres to the data protection policies detailed in [Privacy, security, and compliance in Microsoft OneDrive](/sharepoint/onedrive-privacy-security-overview).
-
+Cowork adheres to the data protection policies detailed in [Privacy, security, and compliance in Microsoft OneDrive](/sharepoint/onedrive-privacy-security-overview).
 
 ## Get started
 
-Copilot Cowork is available in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft) and in the Microsoft 365 Copilot desktop app for Windows and Mac.
+Cowork is available in your browser at [m365.cloud.microsoft](https://m365.cloud.microsoft) and in the Microsoft 365 Copilot desktop app for Windows and Mac.
 
-Learn more in [Get started with Copilot Cowork](get-started.md).
+Learn more in [Get started with Cowork](get-started.md).
 
 ## Related content
 
-- [Use Copilot Cowork](use-cowork.md)
-- [Copilot Cowork common questions](cowork-faq.md)
+- [Use Cowork](use-cowork.md)
+- [Cowork common questions](cowork-faq.md)

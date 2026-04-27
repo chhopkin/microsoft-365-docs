@@ -1,11 +1,8 @@
 ---
 title: "Collaborate and share securely with Microsoft 365 Business Premium"
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: Admin
 ms.topic: article
 ms.service: microsoft-365-admin
 ms.date: 05/31/2024
@@ -19,9 +16,6 @@ ms.collection:
 ms.custom:
 - MiniMaven
 - MSB365
-search.appverid:
-- BCS160
-- MET150
 description: "An overview on how to collaborate and share files and communicate securely using Teams in Microsoft 365 Business Premium. In the closed environment provide by Teams, files and communications are free from cyber threats and cyberattacks."
 ---
 

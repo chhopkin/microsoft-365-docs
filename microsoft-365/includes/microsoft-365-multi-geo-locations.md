@@ -9,6 +9,7 @@ ms.date: 12/02/2025
 | Brazil | BRA |
 | Canada | CAN |
 | Chile | CHL |
+| Denmark | DNK |
 | France, Netherlands, Ireland, Norway, Switzerland, Austria, Finland, Sweden, Germany | EUR |
 | France | FRA |
 | Germany | DEU |

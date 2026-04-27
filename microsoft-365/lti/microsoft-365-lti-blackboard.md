@@ -14,6 +14,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 ---
 # Deploy the Microsoft 365 LTI&reg; app in Blackboard by Anthology
@@ -99,7 +100,7 @@ When migrating from any legacy app that is replaced by the functionality in the 
 
 ### Migrating from classic Microsoft Teams Classes and Teams Meetings integration
 
-[The classic Teams Classes and Teams Meetings app has sunset as of September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). There's no required migration of the Teams created by the Blackboard Ultra [Microsoft Teams sync](/microsoft-365/lti/teams-classes-with-blackboard) integration or for any Team connected to a course by the classic Teams Assignments LTI’s Manage Connected Teams feature. The new Teams app that is included in the Microsoft 365 LTI app is backwards compatible and will display any previously connected Teams, as well as any Teams created by the Blackboard Teams Sync or Microsoft 365 LTI Team sync going forward. Review the additional [guidance on choosing a Teams sync option](/microsoft-365/lti/microsoft-365-lti-first-time-configuration?#considerations-for-teams-sync-options).
+[The classic Teams Classes and Teams Meetings app has sunset as of September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). There's no required migration of the Teams created by the Blackboard Ultra [Microsoft Teams sync](/microsoft-365/lti/teams-classes-with-blackboard) integration or for any Team connected to a course by the classic Teams Assignments LTI's Manage Connected Teams feature. The new Teams app that is included in the Microsoft 365 LTI app is backwards compatible and will display any previously connected Teams, as well as any Teams created by the Blackboard Teams Sync or Microsoft 365 LTI Team sync going forward. Review the additional [guidance on choosing a Teams sync option](/microsoft-365/lti/microsoft-365-lti-first-time-configuration?#considerations-for-teams-sync-options).
 
 All meetings created by the classic Teams Meetings LTI will continue to be displayed in Outlook and Teams calendars, but only the previous six months and upcoming six months of meetings scheduled will display in the new Meetings app that is part of Microsoft 365 LTI. Course meetings should be created in the new Meetings app going forward.
 
@@ -107,7 +108,7 @@ We suggest that you remove the classic apps by locating the app in **Admin > (In
 
 ### Migrate from classic OneNote Class Notebook LTI 1.1 app
 
-The classic OneNote Class Notebook LTI 1.1 app will be sunset on September 17, 2026. All notebooks created by the classic app will continue to be available directly through the notebook owner’s personal OneDrive and on the OneNote Microsoft 365 [web homepage](https://onenote.cloud.microsoft).
+The classic OneNote Class Notebook LTI 1.1 app will be sunset on September 17, 2026. All notebooks created by the classic app will continue to be available directly through the notebook owner's personal OneDrive and on the OneNote Microsoft 365 [web homepage](https://onenote.cloud.microsoft).
 
 There's no way to automatically migrate a Class Notebook created with the classic OneNote LTI 1.1 to a Microsoft 365 LTI OneNote Class Notebook. However, you can create a new notebook using the Microsoft 365 LTI OneNote app and copy content from a classic Class Notebook in the OneNote app for Windows using the right-click menu option on Sections and Pages to move or copy to another OneNote Notebook. There are also copy options in OneNote for [Mac](https://support.microsoft.com/office/move-or-copy-notes-in-onenote-for-mac-7faf1c7f-d6c6-420e-a65c-5ac7c6f6ec27), [iOS](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab), or [Android](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab). Students can also [export a copy of their work from OneNote Class Notebooks](https://support.microsoft.com/topic/students-export-a-copy-of-your-work-from-onenote-class-notebook-teams-and-onedrive-deb62dce-c441-41b0-b2fc-fccd3cc99c1b).
 

@@ -107,8 +107,8 @@ To protect sensitive information during the deployment and use of Microsoft 365 
 
 - **Turn on proactive audit and protection**: Disable **everyone except external users (EEEU)** at the tenant level and enable Purview Audit to monitor Copilot interaction activity. For more information, see [Protect your sensitive data with Microsoft Purview](/purview/information-protection).
 
-- **Implement access controls and labeling**: Start a SharePoint Advanced Management Access Review for all sites that are overshared. Then apply restricted access control on business-critical sites. For more information, see [Get ready for Microsoft 365 Copilot with SharePoint Advanced Management)](/sharepoint/get-ready-copilot-sharepoint-advanced-management).
-
+- **Implement access controls and labeling**: Start a SharePoint Advanced Management Access Review for all sites that are overshared. Then apply restricted access control on business-critical sites. For more information, see [Get ready for Microsoft 365 Copilot with SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management).
+  
 For detailed steps, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](secure-govern-copilot-foundational-deployment-guidance.md).
 
 ## Get started and deploy
@@ -158,6 +158,10 @@ Next, assign Copilot licenses so users can start using it. You can manage Micros
 When you assign licenses, Copilot shows up in Microsoft 365 apps, like Word and Excel. For some apps, users might need to wait up to 24 hours for Copilot to appear. They might also need to restart or refresh the app. Once enabled, Copilot appears across the apps.
 
 To use Copilot, users sign into the app with their work or school account and the file must be editable, not read-only. In some experiences like Word, a Copilot dialog shows when you create a new document. In other experiences, Copilot is accessible on the ribbon.
+
+> [!NOTE]
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+> If you'd like to enable users with priority access to these capabilities, learn more about [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise).
 
 > [!NOTE]
 >

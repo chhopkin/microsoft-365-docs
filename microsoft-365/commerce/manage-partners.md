@@ -25,7 +25,7 @@ ms.custom:
 service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn how to work with Microsoft-certified solution providers (partners) to buy and manage products and services for your organization or school."
-ms.date: 09/29/2025
+ms.date: 03/30/2026
 ---
 
 # Manage Microsoft-certified solution provider partner relationships

@@ -21,7 +21,7 @@ description: Get answers to frequently asked questions about changes coming to T
 
 ## Why is the Topics product being retired?
 
-As our AI strategy continues to evolve, we’ll be retiring Viva Topics in February 2025 and will focus our efforts on building AI-powered knowledge experiences in Copilot. Copilot enables people in your organization to discover and learn more about topics, projects, and concepts in a natural and automatic way and is integrated across the Microsoft 365 suite all while requiring minimal setup.
+As our AI strategy continues to evolve, we'll be retiring Viva Topics in February 2025 and will focus our efforts on building AI-powered knowledge experiences in Copilot. Copilot enables people in your organization to discover and learn more about topics, projects, and concepts in a natural and automatic way and is integrated across the Microsoft 365 suite all while requiring minimal setup.
 
 ## How should I invest in knowledge management going forward?
 
@@ -43,7 +43,7 @@ The Topics product came with Graph Connector credits. These credits will expire 
 
 - The existing Topic Center where the Topics data is located will be converted into a normal SharePoint site, capable of being maintained and governed like any other SharePoint site.
 - Topic pages that have been published by a user will be converted into standard SharePoint pages. This means that while these pages won't continue to be updated by AI, users can still edit and publish updates as they would any other topic page.
-- These SharePoint pages can still appear as results in Microsoft Search results page, according to users’ permissions. They'll appear with a SharePoint page icon.
+- These SharePoint pages can still appear as results in Microsoft Search results page, according to users' permissions. They'll appear with a SharePoint page icon.
 - AI-suggested and confirmed topics will no longer appear as topic pages. Only topics that appear in the Site Pages library will remain after retirement.
 
 ## Do I need to be concerned about data leakage?

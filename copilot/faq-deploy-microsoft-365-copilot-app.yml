@@ -6,7 +6,7 @@ metadata:
   ms.author: frankroj
   ms.service: microsoft-365-copilot
   ms.topic: faq
-  ms.date: 01/20/2026
+  ms.date: 04/01/2026
 
 title: Frequently asked questions about deploying the Microsoft 365 Copilot app
 summary: The Microsoft 365 Copilot app helps Microsoft 365 users be more productive by providing a single place to access [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) features and capabilities, including search, chat, agents, and more.
@@ -16,6 +16,11 @@ summary: The Microsoft 365 Copilot app helps Microsoft 365 users be more product
 sections:
   - name: Deployment of the Microsoft 365 Copilot app
     questions:
+
+      - question: |
+          Why isn't the Microsoft 365 Copilot app automatically installing on eligible devices?
+        answer: |
+          Microsoft has temporarily disabled automatic installation of the Microsoft 365 Copilot app on eligible devices with the Microsoft 365 desktop apps due to a technical issue. An update will be shared when automatic installation is re-enabled.
 
       - question: |
           What deployment methods are supported for the Microsoft 365 Copilot app on Windows?

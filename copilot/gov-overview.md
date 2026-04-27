@@ -94,7 +94,7 @@ Microsoft 365 workloads are broadly consistent across environments, but differen
 
 These differences are an expected outcome of the architectural evolution that led to sovereign cloud environments, not a limitation of individual products.
 
-For more information, see [Feature availability](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#feature-availability)
+For more information, see [Feature availability](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#feature-availability).
 
 ## Microsoft 365 Copilot in U.S. government cloud environments
 
@@ -124,5 +124,5 @@ Also see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-c
 
 See the following resources:
 
-- [Microsoft 365 Copilot for U.S. Government](https://enablement.microsoft.com/en-us/copilot/us-government/)
-- [How to buy](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy)
+- [Enablement: Microsoft 365 Copilot for U.S. Government](https://enablement.microsoft.com/en-us/copilot/us-government/)
+- [Service description: How to buy](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy)
