@@ -26,7 +26,6 @@ In this section:
 
 - [Visual Mail Flow](#visual-mail-flow)
 - [Validate DKIM Signing Configuration](#validate-dkim-signing-configuration)
-- [Auto Archive Detection](#auto-archive-detection)
 - [Audit Log Summary](#audit-log-summary)
 - [Issues with Guest Access in Teams](#issues-with-guest-access-in-teams)
 
@@ -153,49 +152,6 @@ If you encounter issues with the Validate DKIM Signing Configuration tool or nee
 - If issues persist, contact Microsoft support for further assistance.
 
 By using the Validate DKIM Signing Configuration tool effectively, you can ensure that your email authentication is robust and that your messages are protected from spoofing and tampering.
-
-## Auto archive detection
-
-Auto Archive Detection helps manage your mailbox by automatically archiving or deleting old items. This feature can be configured differently in Outlook Desktop and Outlook on the Web (OWA). Editing Auto Archive settings in Outlook can help you effectively manage your mailbox, keeping it organized and free of clutter. Whether you're using Outlook Desktop or Outlook on the Web, the steps provided will guide you through the process of configuring Auto Archive to suit your needs.
-
-Follow the following steps to enable and customize Auto Archive settings based on your version of Outlook.
-
-### For Outlook desktop
-
-1. Launch the Outlook application on your computer.
-1. Select **File** tab located in the top-left corner of the window.
-1. From the menu that appears, select **Options**.
-1. In the Outlook Options window, select **Advanced** located in the left sidebar.
-1. Under the **AutoArchive** section, select **AutoArchive Settings**.
-1. Configure AutoArchive:
-
-    - **Run AutoArchive every X days**: Check this box and set the frequency for how often you want Auto Archive to run.
-    - **Prompt before AutoArchive runs**: If you wish to receive a reminder before Auto Archive runs, check this option.
-    - **Delete expired items**: Check this box if you want to permanently delete old items.
-
-1. Select **Actions**: Decide what actions you want Auto Archive to take:
-
-    - **Move items to the archive folder**: Archives items in a designated folder.
-    - **Permanently delete old items**: Removes items without archiving.
-    - **Archive items older than a specific number of months**: Specify the age of items to be archived.
-
-1. Set Archive Folder: Specify the folder where you want archived items to be stored.
-
-1. After making your selections, select **OK** to save your settings. Select **OK** again to exit the Options window.
-
-### For Outlook on the Web (OWA)
-
-1. Navigate to your Outlook on the web and sign in with your credentials.
-
-1. Select the gear icon in the top-right corner to open the settings menu.
-
-1. At the bottom of the settings panel, select **View all Outlook settings**.
-
-1. In the settings window, select **Mail**, then go to **Cleanup**.
-
-1. Locate the Auto Archive settings and configure them according to your preferences.
-
-1. Save your changes to apply the new settings.
 
 ## Audit log summary
 
