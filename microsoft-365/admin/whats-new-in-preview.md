@@ -250,7 +250,6 @@ To access the sentiment per topic insights, sign in to the Microsoft 365 Admin C
 
 :::image type="content" source="../media/nps-sentimentpertopic.jpg" alt-text="Screenshot: Sentiment per topic feature in the NPS survey insights dashboard" lightbox="../media/nps-sentimentpertopic.jpg":::
 
-For questions or feedback related to NPS survey insights, contact us at Prosight@microsoft.com.
 
 ## August 2022
 
@@ -268,9 +267,6 @@ To access, go to **Health** > **Product feedback** > **NPS survey insights tab**
 
 :::image type="content" source="../media/nps-date-filter.png" alt-text="Screenshot: Date filter in the NPS survey insights dashboard" lightbox="../media/nps-date-filter.png":::
 
-Learn more about [NPS survey insights](/microsoft-365/admin/manage/manage-feedback-product-insights).
-
-For questions or feedback related to NPS survey insights, contact us at Prosight@microsoft.com.
 
 ## July 2022
 
@@ -318,7 +314,7 @@ NPS survey insights is an AI-driven dashboard available in the Microsoft 365 adm
 
 In the admin center, go to **Health** > **Product feedback** > **NPS survey insights**.
 
-This feature helps admins like you obtain actionable insights derived from Microsoft NPS surveys your users have responded to. Learn more at [Microsoft product NPS feedback and insights for your organization](manage/manage-feedback-product-insights.md).
+This feature helps admins like you obtain actionable insights derived from Microsoft NPS surveys your users have responded to.
 
 Based on your feedback, we're introducing a new feature that identifies the sentiment for each NPS verbatim feedback, so that you can learn what your users are feeling regarding Microsoft 365 products. Sentiment labels such as **Positive**, **Negative** and **Other** are assigned to the NPS verbatim feedback.
 
@@ -342,8 +338,6 @@ To provide you with a better experience using the NPS survey insight dashboard, 
 
 - Improve diagnosability by enabling [Windows Error Reporting](/windows/win32/wer/windows-error-reporting).
 
-> [!NOTE]
-> If you're an enterprise customer and you're interested in joining our design sessions, send us an email at: prosight@microsoft.com
 
 ### Microsoft 365 admin center search
 
