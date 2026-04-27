@@ -457,7 +457,7 @@ items:
            - name: Configure modern release options
              href: manage/configure-release-options.md
            - name: Get started with Frontier
-             href: manage/enroll-frontier.md
+             href: manage/get-started-frontier.md
            - name: Modern release options FAQ
              href: manage/release-options-faq.md
            - name: Set up the Standard or Targeted release options
