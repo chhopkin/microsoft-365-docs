@@ -23,6 +23,7 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
 - m365-groups
+- user-accounts
 search.appverid:
 - BCS160
 - MET150

@@ -28,6 +28,7 @@ ms.custom:
 - business_assist
 - has-azure-ad-ps-ref
 - azure-ad-ref-level-one-done
+- user-accounts
 description: Learn how to set a password expiration policy for your organization in the Microsoft 365 admin center. Configure passwords to expire or never expire and improve security.
 #customer intent: As an IT administrator, I want to configure password expiration policies so that I can enhance the security of my organization's accounts.
 ---

@@ -23,6 +23,7 @@ ms.custom:
 - okr_smb
 - AdminTemplateSet
 - business_assist
+- user-accounts
 search.appverid:
 - BCS160
 - MET150

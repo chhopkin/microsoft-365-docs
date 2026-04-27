@@ -27,6 +27,7 @@ ms.custom:
 - AdminTemplateSet
 - adminvideo
 - business_assist
+- user-accounts
 description: "Learn how you can set a policy in the Microsoft 365 admin center to allow users to reset their own passwords using the self-service password reset tool."
 ---
 

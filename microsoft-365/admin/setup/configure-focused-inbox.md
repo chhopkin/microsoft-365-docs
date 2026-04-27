@@ -21,6 +21,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - admindeeplinkMAC
+- user-accounts
 description: "If you're responsible for configuring email settings for everyone in a business this article explains how to configure Focused Inbox for users."
 ---
 

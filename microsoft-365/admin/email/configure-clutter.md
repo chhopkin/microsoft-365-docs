@@ -20,6 +20,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- user-accounts
 description: "Learn to enable or disable the Clutter feature for all or specific users in your organization, using Exchange PowerShell. "
 ---
 
