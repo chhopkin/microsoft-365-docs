@@ -111,9 +111,11 @@ items:
     - name: Anthropic as a subprocessor for Microsoft Online Services
       href: connect-to-ai-subprocessor.md
     - name: Copilot in Microsoft 365 apps with Anthropic models
-      href: copilot-anthropic-apps.md      
-    - name: Connect to xAI's models  
+      href: copilot-anthropic-apps.md
+    - name: Connect to xAI's models
       href: connect-to-ai-models.md
+    - name: Assign AI provider access to users and groups
+      href: copilot-ai-provider-user-sec-group-access.md
     - name: Deploy Microsoft 365 Copilot app
       href: deploy-microsoft-365-copilot-app.md
     - name: Deploy Microsoft 365 Copilot app FAQ
@@ -461,6 +463,8 @@ items:
           href: cowork/get-started.md
         - name: Use Cowork
           href: cowork/use-cowork.md
+        - name: Best practices
+          href: cowork/best-practices.md
         - name: Common questions
           href: cowork/cowork-faq.md
         - name: Manage Cowork
