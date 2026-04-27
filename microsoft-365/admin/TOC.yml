@@ -530,8 +530,6 @@ items:
             href: security-and-compliance/add-defender-suite-business-premium.md
           - name: Secure Microsoft 365 Copilot for small businesses
             href: security-and-compliance/m365b-copilot-security.md
-          - name: GDPR simplified - A guide for your small business
-            href: security-and-compliance/gdpr-compliance.md
         - name: Account security
           items:
             - name: Multifactor authentication in Microsoft 365
