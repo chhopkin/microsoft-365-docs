@@ -70,7 +70,7 @@ To install an agent via the Microsoft 365 admin center, follow these steps:
 
 1. In the **All agents** page, make sure **Registry** is selected. Select the **Status** filter and then select **Available**.
 
-1. Select an agent from the list of agents that isn't already installed.
+1. From the list of agents, select an agent  that isn't already installed.
 
 1. In the agent details pane that opens, immediately under the agent's name, select **Install**.
 
@@ -140,7 +140,23 @@ Blocking or unblocking an agent that you created by using Microsoft 365 Copilot 
 
 ## Delete agents
 
-You can delete agents directly from the Microsoft 365 admin center. Delete permanently removes the agent and its data from the tenant.
+You can delete agents created using Microsoft 365 Copilot Agent Builder directly from the Microsoft 365 admin center. Delete permanently removes the agent and its data from the tenant.
+
+To delete an Agent Builder agent, follow these steps:
+
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+
+1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
+
+1. Under **Agents**, select **All agents**.
+
+1. In the **All agents** page, from the list of agents find the Agent Builder agent that you want to delete.
+
+    > [!TIP]
+    >
+    > To quickly find Agent Builder agents, use the **Platform** filter in the **All agents** page and then select **Agent Builder in Microsoft 365 Copilot**.
+
+1. Next to the Agent Builder agent you want to delete, select the vertical ellipses (⁝) and then select **Delete**.
 
 When you delete an agent, the following actions occur:
 
@@ -149,10 +165,6 @@ When you delete an agent, the following actions occur:
 1. The underlying SharePoint Embedded container is deleted.
 
 This deletion process is irreversible. Once you delete an agent, it might take up to 24 hours for the deletion to reach all users who had access to the agent. During this time, users might still see the agent listed, but they can't interact with it.
-
-> [!NOTE]
->
-> Delete is only supported when the agent is created using Microsoft 365 Copilot Agent Builder.
 
 ## Start or Stop agents
 
@@ -192,11 +204,15 @@ To reassign ownership of a shared agent, follow these steps:
 
 1. Under **Agents**, select **All agents**.
 
-1. In the **All agents** page, select an agent from the list of agents that you want to reassign.
+1. In the **All agents** page, from the list of agents select an Agent Builder or Copilot Studio agent that you want to reassign.
 
-1. In the agent details pane, under the agent name, select **Assign new owner**.
+    > [!TIP]
+    >
+    > To quickly find Agent Builder or Copilot Studio agents, use the **Platform** filter in the **All agents** page and then select either **Agent Builder in Microsoft 365 Copilot** or **Copilot Studio**.
 
-1. In the **Assign a new owner** pane, select a new owner from your organization.
+1. In the agent details pane, immediately under the agent name, select **Assign new owner**.
+
+1. In the **Assign a new owner** pane, enter a new owner from your organization, and then select **Assign**.
 
 The following changes occur after owner reassignment:
 
