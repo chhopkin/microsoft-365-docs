@@ -13,6 +13,9 @@ items:
     tocHref: /microsoft-365/migrate/index
     topicHref: /microsoft-365/migrate/index
   - name: Microsoft 365 Migration
+    tocHref: /exchange/mailbox-migration/
+    topicHref: /microsoft-365/migrate/index    
+  - name: Microsoft 365 Migration
     tocHref: /sharepointmigration/
     topicHref: /microsoft-365/migrate/index
   - name: Microsoft 365 Migration
