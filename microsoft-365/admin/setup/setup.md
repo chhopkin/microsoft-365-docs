@@ -26,7 +26,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 description: Learn how to set up your Microsoft Business Premium, Microsoft 365 Business Standard, Microsoft 365 Business Basic, Microsoft 365 Apps for business, or Office 365 Education subscription.
-#customer intent: As a decision maker, I want to evaluate the setup process for Microsoft 365 plans so that I can determine the best fit for my company.
+#customer intent: As an IT admin for a small business, I want to evaluate the setup process for Microsoft 365 plans so that I can determine the best fit for the business.
 ---
 
 # Set up Microsoft 365 for business

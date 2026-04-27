@@ -20,7 +20,7 @@ ms.custom:
 - VSBFY23
 - AdminSurgePortfolio
 description: Sign up for Microsoft 365 Apps for business.
-#customer intent: As an admin, I want to understand the steps to purchase Microsoft 365 Apps for business so that I can complete the setup process efficiently.
+#customer intent: As an IT admin for a small business, I want to understand the steps to purchase Microsoft 365 Apps for business so that I can complete the setup process efficiently.
 ---
 
 # Sign up for a Microsoft 365 Apps for business subscription

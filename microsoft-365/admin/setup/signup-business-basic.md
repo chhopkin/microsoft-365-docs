@@ -30,7 +30,7 @@ search.appverid:
 - MOE150
 - BEA160
 description: Learn how to sign up for a Microsoft 365 Business Basic subscription.
-#customer intent: As an admin, I want to understand the steps to purchase Microsoft 365 Business Basic so that I can complete the setup process efficiently.
+#customer intent: As an IT admin for a small business, I want to understand the steps to purchase Microsoft 365 Business Basic so that I can complete the setup process efficiently.
 ---
 
 # Sign up for Microsoft 365 Business Basic
@@ -106,7 +106,7 @@ When recurring billing is on, your subscription continues to be billed each year
 
 ### How do I change my business name?
 
-Contact our small business support experts who can help you change your business name. For more information, see [Get support](../get-help-support.md).
+Contact the small business support experts who can help you change your business name. For more information, see [Get support](../get-help-support.md).
 
 ## Set up Microsoft 365 Business Basic
 

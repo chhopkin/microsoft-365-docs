@@ -24,7 +24,7 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Learn how to sign in to the Outlook app with your Microsoft 365 email account.
-#customer intent: As a small business admin, I want to sign in to Outlook with my Microsoft 365 email account so that I can manage my business communications efficiently.
+#customer intent: As a small business IT admin, I want to sign in to Outlook with my Microsoft 365 email account so that I can manage my business communications efficiently.
 ---
 
 # Sign in to Outlook with your Microsoft 365 for business email account
@@ -49,6 +49,3 @@ After you install the apps in Microsoft 365, set up Outlook to start using email
 1. Select **Done**. It might take several minutes for Outlook to download your email and other data.
 
 Now you can view email for the accounts you added. You can also view your calendar, contacts, and tasks.
-
-> [!NOTE]
-> This article shows you how to sign in to Outlook. If you want to set up a printer, scanner, or line-of-business app to send email through Microsoft 365, use [How to set up a multifunction device or application to send email using Microsoft 365 or Office 365](/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365).
