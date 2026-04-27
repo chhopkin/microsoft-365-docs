@@ -52,7 +52,7 @@ You can manage Frontier settings in the Microsoft 365 Admin Center.
 
 To enable Frontier preview experiences:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com)   
+1. Sign in to the [Microsoft 365 admin center.](https://admin.microsoft.com)   
 1. Go to **Copilot** > **Settings**.
 1. Select the **View all** tab.
 1. In the **Search all Copilot settings** search bar, type "Frontier". 
