@@ -101,7 +101,7 @@ No, even if you have users in deferred release, a feature that isn’t classifie
 
 ## How does deferred release affect Frontier features?
 
-Deferred release doesn't apply to Frontier program features. Deferred release enables customers to delay delivery of eligible features at general availability (GA). Frontier provides preview access for early adopters to evaluate new experiences and provide feedback. Frontier access is managed separately from deferred release. Although Frontier features are pre-release, they run within an otherwise generally available (GA) environment. For more information, see [Get started with the Microsoft Frontier program](/microsoft-365/admin/manage/get-started-frontier).
+Deferred release doesn't apply to Frontier program features. Deferred release enables customers to delay delivery of eligible features at general availability (GA). Frontier provides preview access for early adopters to evaluate new experiences and provide feedback. Frontier access is managed separately from deferred release. Although Frontier features are pre-release, they run within an otherwise generally available (GA) environment. For more information, see [Get started with the Microsoft Frontier program](get-started-frontier.md).
 
 ## Where can I find guidance on these new features and updates?
 
