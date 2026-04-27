@@ -206,8 +206,6 @@
               href: ../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Compliance overview
           href: ../enterprise/essentials-compliance.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: GDPR compliance for small business
-          href: ../admin/security-and-compliance/gdpr-compliance.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Password policy recommendations
           href: ../admin/misc/password-policy-recommendations.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Network
