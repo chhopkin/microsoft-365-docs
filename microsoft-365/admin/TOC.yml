@@ -286,14 +286,16 @@ items:
                 href: manage/agent-requests.md
               - name: Agent details
                 href: manage/agent-details.md
-            - name: Manage agent actions
-              href: manage/agent-actions.md
-            - name: Manage agent instances
-              href: manage/manage-agent-instances.md
-            - name: Manage teammate instances
-              href: manage/manage-teammate-instances.md
-            - name: Manage connected agents
-              href: manage/manage-connected-agents-for-researcher.md
+            - name: Manage agent lifecycle
+              items:                
+              - name: Manage agent actions
+                href: manage/agent-actions.md
+              - name: Create agent instances
+                href: manage/create-agent-instances.md
+              - name: Manage agent instances
+                href: manage/manage-agent-instances.md
+              - name: Manage connected agents
+                href: manage/manage-connected-agents-for-researcher.md
             - name: Agent tools
               href: manage/manage-tools-for-agent.md
             - name: Agent tenant settings
