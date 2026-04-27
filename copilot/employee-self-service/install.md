@@ -39,8 +39,8 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 ## Create a solution and set as preferred
 
 1. Based on the application lifecycle management guidelines, create a *new solution* in the Dev environment so the customizations can be performed and exported as managed solution to a Test/UAT/PRODUCTION environment.
-1. Select the elipsis (**...**) in the left navigation pane and then select the **Solutions** option from the pop-out menu.
-1. Select **+New solution** and fill in the required information.
+1. Select the ellipsis (**...**) in the left navigation pane and then select the **Solutions** option from the pop-out menu.
+1. Select **+New solution** and fill in the required information:
     1. Display name
     1. Name
     1. Publisher
@@ -51,14 +51,14 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 
 ### Set up a preferred solution
 
-1. Create and set a preferred solution before making any customizations. The default solution cannot be exported or imported across environments, so your changes must live in a custom solution to be portable.
+1. Create and set a preferred solution before making any customizations. The default solution can't be exported or imported across environments, so your changes must live in a custom solution to be portable.
 1. Select the ellipsis (**...**) and choose **Set preferred solution** for the new solution that you created.
 
 > [!NOTE]
 > If you intend to create both the HR and IT agents, you need to repeat this process. You must install agents one at a time.
 
 > [!WARNING]
-> Preferred solution is a per-user setting, which means every single user/maker who'd like to apply any customizations must set the same solution as the preferred solution.
+> Preferred solution is a per-user setting, which means every single user/maker who would like to apply any customizations must set the same solution as the preferred solution.
 
 Learn more about [Preferred Solution](/power-apps/maker/data-platform/preferred-solution).
 
@@ -81,7 +81,7 @@ Follow the steps provided for setting your preferred solution:
 |----------------|--------------|-----------------|-----------------------|------------------------|
 |**Basic**       |[Power Platform Pipelines](/power-platform/alm/pipelines)|Admin-configured Dev > Test > Production stages. Prevalidates dependencies, auto backs up solutions, supports rollback. |Platform Admin (one-time setup)|Select "Deploy" from Copilot Studio. No export/import or DevOps knowledge needed. |
 |**Intermediate**|[Pipelines + Native Git integration](/power-platform/release-plan/2024wave2/power-apps/connect-environment-source-control)|Adds source control through Azure DevOps Git. Full audit trail, parallel development, YAML-based solution format. |Platform Admin + Azure DevOps Project Owner|Commit and pull changes in Power Platform UI. No command line required. |
-|**Advanced**|[Copilot ALM Starter + CI/CD Pipelines](https://github.com/microsoft/copilot-alm-starter)|Prebuilt GitHub Actions/Azure pipelines with automated export, PR validation, environment-specific settings, and workload identity federation. |DevOps Engineer (initial setup); CI/CD runs automatically thereafter |Makers author in Copilot Studio as usual. All ALM (Application Lifecycle Management) is handled by the pipeline on merge. |
+|**Advanced**|[Copilot ALM Starter + CI/CD Pipelines](https://github.com/microsoft/copilot-alm-starter)|Prebuilt GitHub Actions/Azure pipelines with automated export, PR validation, environment-specific settings, and workload identity federation. |DevOps Engineer (initial setup); CI/CD runs automatically thereafter |Makers author in Copilot Studio as usual. The pipeline handles all ALM (Application Lifecycle Management) on merge. |
 
 🏅 **Golden rules for Clean ALM**
 
