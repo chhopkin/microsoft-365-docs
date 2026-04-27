@@ -43,7 +43,7 @@ Use the following steps to view the Agent Map:
 
 When you select the **Map** tab, the map loads agents from your tenant and displays them as icons grouped by platform and other metrics.
 
-Agent Map is available to all Microsoft 365 Copilot administrators with an E7 (Agent 365) license. To access the Agent Map, your role must be either a **Global Administrator** or an **AI Administrator**. For more information about agent management roles, see [Agent management roles and permissions](agent-365-overview.md#agent-management-roles-and-permissions).
+Agent Map is available to all Microsoft 365 Copilot administrators with an E7 (Agent 365) license. To access the Agent Map, your role must be either a **Global Administrator** or an **AI Administrator**. For more information about agent management roles, see [Agent management roles and permissions](agent-roles-perms.md).
 
 ### Clustering
  

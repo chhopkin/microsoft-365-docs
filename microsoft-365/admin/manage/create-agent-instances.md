@@ -53,7 +53,7 @@ Agent 365 provisions the instance with its own user identity, validates licenses
 | Global Administrator | Activates agent templates, initiates instance creation, assigns licenses and policies, and governs the deployment on behalf of the organization.  |
 | Owner | The designated business owner of instance. Appears as the instance (agent) manager in Microsoft Entra ID. |
 
-For more information about agent management roles, see [Agent management roles and permissions](agent-365-overview.md#agent-management-roles-and-permissions).
+For more information about agent management roles, see [Agent management roles and permissions](agent-roles-perms.md).
 
 ## Prerequisites
 

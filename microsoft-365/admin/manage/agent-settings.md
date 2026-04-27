@@ -125,7 +125,8 @@ Using the Block Agents with Risk Alert rule, you can do the following:
 
 To enhance governance and security for agents, you can apply a template that includes predefined security policies.
 
-To learn more about templates see [Agent templates](/microsoft-agent-365/admin/agent-template).
+For more information about templates, see [Agent templates](/microsoft-agent-365/overview).
+<!-- For more information about templates, see [Agent templates](/microsoft-agent-365/admin/agent-template). -->
 
 ## Sharing
 
