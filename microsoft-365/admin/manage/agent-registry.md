@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/20/2026
+ms.date: 05/01/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -82,8 +82,8 @@ You can filter the agent list based on the following criteria:
 
 > [!TIP]
 > If you don't see the agents that you expect to see in the agent registry list, check to make sure you don't have an existing filter set.
-> 
-> Certain columns allow you to sort the agent registry list. Select the column title to sort the list.
+>
+> Certain columns allow you to sort the agent registry list. To sort the list, select the column title.
 
 ## Agent registry actions
 
@@ -184,7 +184,7 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
 As an administrator, you can choose to pin a deployed agent to the **Agents** list within Microsoft 365 Copilot. By pinning agents in Microsoft 365 Copilot, you can ensure that those agents are visible and accessible for all members of your organization, or only specific users or groups. You can choose to pin and unpin agents. Also, you can rank the list of pinned agents.
 
-✅ **Task: Review and confirm your organization’s pinned agents that are displayed in Microsoft 365 admin center.**
+✅ **Task: Review and confirm your organization's pinned agents that are displayed in Microsoft 365 admin center.**
 
 Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Microsoft pinned agents are specific agents that are pinned by default for all users. Your organization pins admin pinned agents by using the Copilot Control System in Microsoft 365 admin center. Individual users pin user pinned agents in their own Microsoft 365 Copilot Chat or Microsoft 365 Copilot experience.
 
@@ -251,7 +251,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
   - Pin **HR Q&A** agent for all users.
 - The end-user can't unpin the Administrator-pinned and Microsoft-pinned agents.
 
-### How to pin agents
+### Pin agents
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
@@ -293,7 +293,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
     :::image type="content" source="../../media/agents/pinned-agents.png" alt-text="Screenshot of the pinned agents list in the Microsoft 365 admin center." lightbox="../../media/agents/pinned-agents.png":::
 
-### Can any agent be pinned
+### Agents that can be pinned
 
 You can only pin deployed agents. If the agent isn't deployed, you see a banner with a message to first deploy the agent.
 
@@ -309,11 +309,11 @@ If the agent is blocked, unblock the agent before you pin it.
 
 - The administrator can use the **Move up** and **Move down** buttons to reorder the list of pinned agents by priority to control what is shown to the user.
 
-### How to unpin an agent
+### Unpin an agent
 
 From the list of pinned agents, find the agent that you want to unpin and select **Unpin**. When you remove the pin, the agent is no longer available under the **Pinned by your org** section.
 
-### How to edit the pinning scope of an agent
+### Edit the pinning scope of an agent
 
 Select the agent and choose **Edit users** to modify the scope of users for which an agent is pinned.
 
@@ -387,16 +387,27 @@ The **Agents at risk tile** on the **All agents** page displays the total number
 
 The following table shows what each role can access when they select the **Review** link:
 
-| **Role**          | **Microsoft Entra** | **Purview**         | **Defender**        |
-| ----------------- | ------------------- | ------------------- | ------------------- |
-| **Global Reader** | Can view            | Can view            | Can view            |
-| **AI Admin role** | Can view            | No view permissions | No view permissions |
+| **Role**                            | **Defender Review** | **Purview Review**  | **Microsoft Entra Review** |
+| ----------------------------------- | ------------------- | ------------------- | -------------------------- |
+| **[AI Admin](/entra/identity/role-based-access-control/permissions-reference#ai-administrator)**                                       | No Access | No Access | Partial Access |
+| **[Reports Reader](/entra/identity/role-based-access-control/permissions-reference#reports-reader)**                                   | No Access | No Access | No Access      |
+| **[User Experience Success Manager](/entra/identity/role-based-access-control/permissions-reference#user-experience-success-manager)** | No Access | No Access | No Access      |
+| **[Security Reader](/entra/identity/role-based-access-control/permissions-reference#security-reader)**                                 | No Access | No Access | Access         |
+| **[Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator)**                   | No Access | No Access | Access         |
+| **[AI Reader](/entra/identity/role-based-access-control/permissions-reference#ai-reader)**                                             | No Access | No Access | No Access      |
+| **[Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader)**                                     | No Access | No Access | Access         |
 
 > [!IMPORTANT]
 >
-> To access Purview alerts, users must be assigned an **Insider Risk Management** (IRM) role within Purview. This role is required to sign in to Purview to view Insider Risk Management alerts. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
+> To access Purview alerts, users must be assigned to one of the following **Insider Risk Management** (IRM) roles within Purview:
+>
+> - **Insider Risk Management Admins**
+> - **Insider Risk Management Analysts**
+> - **Insider Risk Management Investigators**
+>
+> These roles are required to sign in to Purview to view Insider Risk Management alerts. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
 
-### Agents at risk card
+## Agents at risk card in the Overview page
 
 The **Agents at risk** card on the Microsoft 365 admin center **Overview** page provides administrators with a tenant‑level summary of agents that are identified with high‑severity risks across Microsoft security platforms including:
 
