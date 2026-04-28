@@ -33,7 +33,7 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in. If you can access the Microsoft 365 admin center, you're an administrator, and you can proceed to the next step.
 
-2. In the left navigation pane, select **Users** > **Active users**. (Or, go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
+2. In the left navigation pane, select **Users** > **Active users**. (Or go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
 
 3. Select the user account for the person who you want to make an administrator. The user's details appear in the right dialog box.
 
@@ -42,7 +42,7 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 The [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
 
 - For the full list of detailed Microsoft Entra role descriptions you can manage in the Microsoft 365 admin center, see Administrator role permissions in [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
-- For the full list of detailed Intune role descriptions you can manage in the Microsoft 365 admin center, see [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
+- For the full list of detailed Microsoft Intune role descriptions you can manage in the Microsoft 365 admin center, see [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
 For more information on assigning roles in the Microsoft 365 admin center, see [Assign admin roles](assign-admin-roles.md).
 
@@ -61,7 +61,7 @@ Because administrators have access to sensitive data and files, we recommend tha
 
 If you get a message in the Microsoft 365 admin center that indicates you don't have permission to edit a setting or page, it's because you're assigned to a role that doesn't have that permission. In this case, take one or more of the following actions:
 
-- Talk to another administrator to assign you the correct permissions.
+- Talk to another administrator to assign you the correct role.
 - Learn more about how administrator roles are assigned. See [Assign administrator roles](assign-admin-roles.md).
 - [Contact support for Microsoft 365 for business](../get-help-support.md).
 
