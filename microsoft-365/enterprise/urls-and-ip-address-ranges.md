@@ -79,13 +79,24 @@ Notes for this table:
 ## Related Topics
 
 - [Other endpoints not included in the Microsoft 365 IP Address and URL Web service](additional-office365-ip-addresses-and-urls.md)
+
 - [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md)
+
 - [General Microsoft Stream endpoints](/stream/network-overview#general-microsoft-stream-endpoints)
+
 - [Monitor Microsoft 365 connectivity](./monitor-connectivity.md)
+
 - [Client connectivity](microsoft-365-networking-overview.md)
+
 - [Content delivery networks](content-delivery-networks.md)
-- [Microsoft Azure IP Ranges and Service Tags - Public Cloud](https://www.microsoft.com/download/details.aspx?id=56519)
-- [Microsoft Azure IP Ranges and Service Tags - US Government Cloud](https://www.microsoft.com/download/details.aspx?id=57063)
-- [Microsoft Azure IP Ranges and Service Tags - China Cloud](https://www.microsoft.com/download/details.aspx?id=57062)
-- [Microsoft Public IP Space](https://www.microsoft.com/download/details.aspx?id=53602)
+
+- [Microsoft Azure IP Ranges and Service Tags - Public Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=56519)
+
+- [Microsoft Azure IP Ranges and Service Tags - US Government Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=57063)
+
+- [Microsoft Azure IP Ranges and Service Tags - China Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=57062)
+
+- [Microsoft Public IP Space](https://www.microsoft.com/en-us/download/details.aspx?id=53602)
+
 - [Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+

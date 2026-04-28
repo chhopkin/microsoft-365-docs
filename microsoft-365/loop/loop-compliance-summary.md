@@ -53,7 +53,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 
 Loop content storage varies based on creation method. For detailed information about storage locations, see [storage](loop-storage.md). Content stored in SharePoint Embedded containers follows the [SharePoint Embedded security and compliance documentation](/sharepoint/dev/embedded/compliance/security-and-compliance).
 
-The sections below outline governance, lifecycle, and compliance capabilities applicable to all Loop storage types. Where capabilities vary by storage location—OneDrive, SharePoint sites, or SharePoint Embedded containers—specific details are provided.
+The sections below outline governance, lifecycle, and compliance capabilities applicable to all Loop storage types. Where capabilities vary by storage location-OneDrive, SharePoint sites, or SharePoint Embedded containers-specific details are provided.
 
 ## Foundations
 

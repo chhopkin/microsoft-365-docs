@@ -54,13 +54,13 @@ Continue to the next section for a description of each option in this setting.
 
 :::image type="content" source="media/pin-copilotchat-m365-apps.png" alt-text="Screenshot of Microsoft 365 admin center showing selected checkbox for Pin Copilot Chat in Microsoft 365 apps setting." lightbox="media/pin-copilotchat-m365-apps.png":::
 
-Copilot Chat is pinned by default to the navigation bar of the Microsoft 365 apps and the Microsoft 365 Copilot app. This behavior applies for most users eligible for Copilot Chat across web, mobile, and desktop.
+Copilot Chat is pinned by default to the navigation bar of the Microsoft 365 apps. This behavior applies for most users eligible for Copilot Chat across web, mobile, and desktop. The Pin Copilot Chat in Microsoft 365 apps setting no longer applies to the Microsoft 365 Copilot app, and Copilot Chat cannot be unpinned from the navigation for all tenants worldwide as of January 28, 2026.
 
 To change the pinning settings for Copilot Chat, select one of the following options:
 
 - **Pin Copilot Chat in Microsoft 365 apps (recommended)**: Copilot Chat is automatically pinned for all users. Users aren't prompted. This option is the default.
 
-- **Do not pin Copilot Chat in Microsoft 365 apps**: If you choose this option, Copilot Chat won't be available by default for users in the Microsoft 365 Copilot app, Teams and Outlook. Users can still visit their app store and add Copilot themselves.
+- **Do not pin Copilot Chat in Microsoft 365 apps**: If you choose this option, Copilot Chat won't be available by default for users in Teams and Outlook. Users can still visit their app store and add Copilot themselves.
 
     If you previously selected **Do not pin Copilot to the navigation bar** in the Microsoft 365 admin center and unchecked **Allow users to be asked whether they want to pin it**, your setting configuration is now **Do not pin** and users still don't have Copilot Chat pinned. Also, if you switch the setting to **Do not pin Copilot Chat in Microsoft 365 apps**, Copilot honors that choice.
 
@@ -83,6 +83,9 @@ If your organization doesn't have an Intune subscription, then you see the follo
 :::image type="content" source="media/pin-m365-copilot-apps-windows.png" alt-text="Screenshot showing the link to pin Microsoft 365 Copilot app to the Windows taskbar if you don't have an Intune subscription.":::
 
 ## Pin at a group or user level
+
+> [!IMPORTANT]
+> The Pin Copilot Chat in Microsoft 365 apps setting no longer applies to the Microsoft 365 Copilot app, and Copilot Chat cannot be unpinned from the navigation for all tenants worldwide as of January 20, 2026. This also means the pinning policy no longer applies to the Microsoft 365 Copilot app.
 
 For large organizations with complex needs, set up the pinning policy to apply to specific groups of users. This option isn't recommended for most customers due to management complexity.
 

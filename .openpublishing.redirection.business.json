@@ -1086,6 +1086,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path":"microsoft-365/business-premium/m365bp-upgrade-windows-pro.md",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment",
+      "redirect_document_id": false
+    },
+    {
       "source_path":"microsoft-365/admin/security-and-compliance/m365bp-add-m365e5s.md",
       "redirect_url":"/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium",
       "redirect_document_id": false

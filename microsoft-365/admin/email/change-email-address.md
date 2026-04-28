@@ -23,6 +23,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - adminvideo
+- user-accounts
 search.appverid:
 - BCS160
 - MET150

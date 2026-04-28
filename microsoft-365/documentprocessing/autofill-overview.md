@@ -54,7 +54,7 @@ Autofill columns can work alongside other document models. You can link various 
 
 - Text column limits: Single-line and multi-line text columns in SharePoint default to a 255-character limit. To allow longer values, edit the column settings, select **More options** and set **Allow unlimited length** to **Yes**, which increases the limit to 64K characters. For more information on column types and options click [here](https://support.microsoft.com/office/list-and-library-column-types-and-options-0d8ddb7b-7dc7-414d-a283-ee9dca891df7).
 
-- This service is available only for SharePoint sites — including hub sites, sites associated to a hub site, and the primary site of a site collection. Subsites aren’t supported.
+- This service is available only for SharePoint sites - including hub sites, sites associated to a hub site, and the primary site of a site collection. Subsites aren't supported.
 
 > [!NOTE] 
 > AI-generated content might be incorrect. Be sure to check the column results.
@@ -69,7 +69,7 @@ Responsible AI FAQs are part of a broader effort to put Microsoft's AI principle
 
 #### What are autofill columns?
 
-Autofill columns provide a column setting that allows users to construct large language model (LLM) prompts that will automatically classify the file, extract or generate information from the file’s contents (extract a specific value or string or generate a summary or response based on some criteria), and save the output to the column.
+Autofill columns provide a column setting that allows users to construct large language model (LLM) prompts that will automatically classify the file, extract or generate information from the file's contents (extract a specific value or string or generate a summary or response based on some criteria), and save the output to the column.
 
 #### What can autofill columns do?
 
@@ -81,7 +81,7 @@ Autofill columns provide metadata automation for users. A user can use it to cla
 
 #### How were autofill columns evaluated? What metrics were used to measure performance?
 
-- Performance factors such as coherence, fluency, and accuracy relied on the base model’s performance (in this case, GPT-4 Turbo).
+- Performance factors such as coherence, fluency, and accuracy relied on the base model's performance (in this case, GPT-4 Turbo).
 
 - Evaluated feature specific performances. Testing included:
 
@@ -89,7 +89,7 @@ Autofill columns provide metadata automation for users. A user can use it to cla
 
     - Created autofill columns covering different column types, including single line text and multiple choices.
 
-    - Designed prompts such as “What is the category of the document, choose from A, B, C. Reply none if it’s none of them.” Or "What is the candidate education background" for resumes.
+    - Designed prompts such as "What is the category of the document, choose from A, B, C. Reply none if it's none of them." Or "What is the candidate education background" for resumes.
 
 - Reviewed the results. The results aligned with expectations in most cases. For the results that didn't meet the satisfactory threshold, function calling was used to improve the results. Some of the results were compared across different LLM versions.
 
@@ -97,11 +97,11 @@ Autofill columns provide metadata automation for users. A user can use it to cla
 
     - Setup: Used automated programs to send similar requests as the feature does in the real world, combining metadata prompts, system prompts, and user question or document content, run on the same base model (in this case, GPT-4 Turbo) with same configuration.
 
-    - Assessment: Because the feature’s prompt comes from two parts (one is the document content, the other is the question), we prepared several hundred test cases.
+    - Assessment: Because the feature's prompt comes from two parts (one is the document content, the other is the question), we prepared several hundred test cases.
 
         - Evaluated test cases with standard business documents, and harmful questions. These questions contained self-harm, sexual, violence, or racial information.
 
-        - Evaluated test cases with harmful content, and questions prompting the model to answer something it shouldn’t. For example, “Summarize the content in the document.”
+        - Evaluated test cases with harmful content, and questions prompting the model to answer something it shouldn't. For example, "Summarize the content in the document."
 
     - Evaluation: Followed Microsoft curated risk and safety metrics instructions, which is provided in Microsoft Azure AI Foundry portal, to measure the results using LLM (in this case GPT-4 Turbo) from four aspects: self-harm-related content, hateful and unfair content, violent content, and sexual content.
 

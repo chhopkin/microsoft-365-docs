@@ -75,7 +75,7 @@ Import-Module -Name ".\CTModule\CrossTenantMigration" -Force
 
 3. Set up the Cross-Tenant Migration Service Application on the **target tenant only**. Run `Grant-CTMSAppPermissions`
 
-4. Set up the OneDrive Migration Application. Run `Grant-OneDriveSharePointMigrationPermissions`
+1. Set up the OneDrive Migration Application. Run `Grant-OneDriveAppPermissions`
 
 5. Set up the Teams Chat Migration Application. Run `Grant-CTTMAppPermissions`
 
@@ -169,7 +169,7 @@ The CTTM permissions granted are as follows:
 
 1. Set-CalendarRBACRoles assigns an RBAC role to the MMS App to allow Calendar Read Write Permissions.
 
-### Teams Chat Migration (CTTM) permissions
+### Cross-Tenant Migration Service (CTMS) permissions
 
 The CrossTenantMigration Production Azure Active Directory (AAD) App is added with service principals. The Resource Identity Mapping service app service principals are added. The Identity Mapping service app role is granted to the CTMS app.
 

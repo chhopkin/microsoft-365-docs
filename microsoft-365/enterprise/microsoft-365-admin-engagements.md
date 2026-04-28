@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 01/27/2026
+ms.date: 04/27/2026
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -13,7 +13,7 @@ ms.service: microsoft-365-enterprise
 ms.localizationpriority: medium
 ms.collection: 
 - m365admin
-description: The Engagements pivot in Enhanced engagements offers a centralized overview of all customer-specific engagements with Microsoft.
+description: The Engagements section in Enhanced engagements offers a centralized overview of all customer-specific engagements with Microsoft.
 ai-usage: ai-assisted  
 ---
 
@@ -180,8 +180,8 @@ If a CAB event or call hasn’t been scheduled yet, the corresponding date and d
 ### Upcoming CAB schedule
 
 The **Upcoming CAB schedule** lists all planned engagements with Microsoft 365 engineering teams. Each entry provides event details, topics, audience, and registration information.
-You can:
 
+You can:
 - **View** upcoming and past CAB sessions.
 - **Export** the schedule for tracking and internal coordination.
 - **Register** for upcoming sessions directly from the portal.
@@ -208,6 +208,94 @@ The Customer Advisory Board program allows you to:
 - Preview and provide feedback on Microsoft 365 roadmap plans.
 - Network with peers across industries facing similar challenges.
 - Influence future product and service enhancements.
+
+## Incident Analysis
+
+The Incident Analysis page in Enhanced engagements allows you to request incident analysis for closed incidents. You can submit a request for incidents that have been critical in nature and resolved in the last 7 days. In addition, you can view insights into your current incident analysis requests, including their status, and see a report of all past requests.
+
+:::image type="content" source="../media/enhanced-engagements/incident-analysis-engagements.png" alt-text="Screenshot that shows a dashboard with sections for engaging in incident analysis, requesting analysis for closed critical incidents, and submitting a new incident request." lightbox="../media/enhanced-engagements/incident-analysis-engagements.png":::
+
+### Create an Incident Analysis request
+
+To submit an incident analysis request:
+
+1. Go to the **Incident Analysis** page and navigate to the Incident Analysis section under **Engagements**.
+
+2. Select **Create a new request**. A flyout menu will open, showing a list of eligible incidents that can be selected for incident analysis.
+
+3. Select a case. In the flyout menu, choose an incident by selecting the ticket number from the available list.
+
+4. Review case details after selecting an incident where you'll also see additional details related to the ticket. Follow the prompts to complete your analysis request.
+
+5. If it's a Copilot issue, check the box.
+
+6. Submit your request. Once you've reviewed the information, submit your incident analysis request.
+
+   :::image type="content" source="../media/enhanced-engagements/submit-incident-analysis.png" alt-text="Screenshot that shows a selection interface for submitting an incident analysis, with a list of technical issue categories such as Exchange, SharePoint, and Copilot for Microsoft 365." lightbox="../media/enhanced-engagements/submit-incident-analysis.png":::
+
+Alternatively, you can do the following:
+
+1. If you do not see your incident listed, select **Don’t see your incident**.
+
+2. A flyout menu will open. Provide your case number and contact details, explain why this case should qualify for Incident Analysis, and outline the specific information you seek if eligible.
+
+3. Submit your request. All requests will be reviewed by a Technical Customer Lead (TCL).
+
+   :::image type="content" source="../media/enhanced-engagements/manually-submit-request-incident-analysis.png" alt-text="Screenshot that shows a form for submitting an Incident Analysis request, including fields for case number, contact information, description, and a submit button." lightbox="../media/enhanced-engagements/manually-submit-request-incident-analysis.png":::
+
+### Incident Analysis Overview
+
+The Incident Analysis (IA) overview section provides a snapshot of the current state of your incident analysis requests:
+
+- **Total IAs**: Displays the total number of open incident analysis requests.
+
+- **Active IAs**: Shows the number of active requests that are being worked on.
+
+### Active IAs by workload
+
+This section breaks down your active incident analysis requests by workload type:
+
+- **Exchange**: The number of active analysis requests related to Exchange incidents.
+
+- **SharePoint**: The number of active analysis requests related to SharePoint incidents.
+
+- **Teams**: The number of active analysis requests related to Teams incidents.
+
+- **Copilot for M365**: The number of active analysis requests related to Copilot incidents
+
+### Incident analysis filters
+
+You can refine your view of the incident analysis requests by using the following filters:
+
+- **Status**: Filter by the status of the request (for example, _Submitted_, _Completed_).
+
+- **Created By**: Filter by the user who created the request.
+
+- **Product**: Filter by the product associated with the incident (for example, _Exchange_, _SharePoint_, _Teams_, _Copilot for M365_).
+
+### Request Report
+
+The **Request Report** section displays a table with all the incident analysis requests that have been submitted. For each request, you can see the following details:
+
+- **Ticket #**: The unique identifier for the incident.
+
+- **Case Title**: The title of the incident request.
+
+- **Status**: The current status of the request (for example, *Submitted*, *Completed*).
+
+- **Created By**: The user who created the request.
+
+- **Date Created**: The date when the request was created.
+
+- **Product**: The product associated with the incident (for example, *Exchange*, *SharePoint*, *Teams, Copilot for M365*).
+
+## Navigation and Pagination
+
+The request report is displayed in a paginated table format. You can navigate through the pages of requests by using the pagination controls at the bottom of the table:
+
+- **Next** and **Previous** arrows allow you to move between pages.
+
+- The **Items per page** selector lets you adjust how many requests are displayed on each page.
 
 ## Related content
 

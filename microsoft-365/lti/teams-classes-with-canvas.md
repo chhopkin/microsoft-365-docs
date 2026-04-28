@@ -16,6 +16,7 @@ ms.collection:
 - M365-modern-desktop
 - tier2
 - m365-education
+- mesg
 - all-education
 ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
@@ -67,7 +68,7 @@ To begin the integration, you need to enable the app in Canvas by enabling the d
 
 8. Select **Update Settings**.
 
-9. To approve access for Canvas’s **Microsoft-Teams-Sync-for-Canvas** Azure app, select the **Grant tenant access** link. You'll be redirected to the Microsoft identity platform Admin Consent Endpoint.
+9. To approve access for Canvas's **Microsoft-Teams-Sync-for-Canvas** Azure app, select the **Grant tenant access** link. You'll be redirected to the Microsoft identity platform Admin Consent Endpoint.
 
    ![permissions.](media/permissions.png)
 

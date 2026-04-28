@@ -56,6 +56,10 @@ For more information, see the following articles:
 - [Which Copilot is right for your organization?](which-copilot-for-your-organization.md)
 - [Get started with Microsoft 365 Copilot](microsoft-365-copilot-setup.md)
 
+> [!NOTE]
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+> If you'd like to enable users with priority access to these capabilities, learn more about [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise).
+
 ### Role requirements
 
 Role requirements vary depending on your task.
@@ -355,7 +359,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copil
 
 When you allow this scenario, users can ask Copilot to create, design, and edit images. Users can add these images to their work in Microsoft 365 apps and Designer.
 
-If you don't allow this scenario, Copilot doesn't generate images. It responds with stock or brand images.
+ If you don't allow this scenario, Copilot doesn't generate images. It responds with stock or brand images (applies only to PowerPoint). Copilot Chat will not generate new images or return stock or brand images.
 
 For more information, see the following resources:
 
@@ -398,8 +402,6 @@ For more information, see [Manage custom dictionaries for Microsoft Teams meetin
 In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Settings** > **Other settings** > **Copilot diagnostics logs**.
 
 If users encounter an issue and can't send Copilot feedback logs to Microsoft, you can submit feedback logs on their behalf. The data includes prompts and generated responses, relevant content samples, and log files. When you use this scenario to send feedback logs, it temporarily overrides any user level feedback policy.
-
-For more information, see [Submit admin-initiated Copilot feedback from the Microsoft 365 admin center](provide-feedback.md).
 
 ## Related articles
 

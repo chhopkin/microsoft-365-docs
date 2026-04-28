@@ -1,7 +1,7 @@
 ---
-title: "Use Copilot Cowork (Frontier)"
-description: "Learn how to have conversations, manage files, approve actions, and organize projects with Copilot Cowork in Microsoft 365 Copilot."
-ms.date: 04/03/2026
+title: "Use Cowork (Frontier)"
+description: "Learn how to have conversations, manage files, approve actions, and organize projects with Microsoft 365 Copilot Cowork."
+ms.date: 04/07/2026
 ms.topic: how-to
 author: leeclontz
 manager: KumarVivek
@@ -15,11 +15,11 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Use Copilot Cowork (Frontier)
+# Use Cowork (Frontier)
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Cowork in Microsoft 365 Copilot carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
+Microsoft 365 Copilot Cowork carries out tasks on your behalf, such as sending emails, creating documents, scheduling meetings, and searching across your organization. This article explains everything you can do with Cowork.
 
 ## Start a conversation
 
@@ -29,7 +29,7 @@ The Cowork home page has a chat input where you can type or speak your request. 
 
 1. Go to the Cowork home page. You see a set of suggested prompts such as **Catch me up**, **Organize my inbox**, **Organize my week**, **Prep for a meeting**, **Plan an event**, **Prepare for my 1:1**, and **Research a company**. Select one to get started quickly, or continue with the steps below.
 1. Select the chat input field.
-1. Type your message or instruction. You can enter up to 16,000 characters.
+1. Type your message or instruction. You can enter up to 250,000 characters.
 1. Submit your message by pressing **Enter** or selecting the **Send** button.
 
 ### Attach files
@@ -121,10 +121,9 @@ When you need an approval, a dialog appears with the details of the action Cowor
 > [!NOTE]
 > For certain actions like Outlook mail rules, Cowork presents a detailed approval card that shows exactly what the rule will do before you approve.
 
-
 1. From the previous table, select the action button (for example, **Send** or **Post**), expand the dropdown for the **don't ask again** option, or select **Cancel** to stop the action.
 
-2. To see the technical details of the action, select **Show parameters**.
+1. To see the technical details of the action, select **Show parameters**.
 
     To collapse the view, select **Hide parameters**.
 
@@ -147,7 +146,7 @@ When Cowork creates or updates files during a conversation, you can grab them fr
 1. To save the file to your device, select **Download**.
 
 > [!TIP]
-> When Cowork produces multiple output files, select **Download All** at the top of the output file list to download every file as a single zip archive.
+> When Cowork produces multiple output files, select **Download All** at the top of the output file list to download every file as a single zip archive. The archive can include up to 50 files and 500 MB total.
 
 > [!NOTE]
 > You can also access files that Cowork creates directly in your OneDrive **Cowork** folder at any time.
@@ -181,8 +180,10 @@ You can preview many file types directly inside Cowork. You don't need to downlo
 The following file types can be previewed directly:
 
 - **PDF**: Renders inline with page navigation. Use **Ctrl+F** to search within the document.
+- **Microsoft 365 documents**: Word, Excel, and PowerPoint files open in an online preview.
 - **CSV**: Displays as a formatted table.
 - **Markdown**: Renders with full formatting.
+- **Code files**: Displays with syntax highlighting (JSON, JavaScript, TypeScript, Python, Java, C, C++, Go, Rust, Ruby, and others).
 - **Images**: Displays inline (png, jpg, jpeg, gif, webp, bmp, svg, ico).
 - **HTML**: Renders in the preview pane.
 - **Email**: Opens email references in a side-by-side preview panel.
@@ -252,8 +253,7 @@ Choose the view that works best for you:
 | View | Description |
 |---|---|
 | List | Shows tasks in a vertical list with key details. |
-| Board | Organizes tasks into columns by status. Drag and drop tasks between columns to update their status. |
-| Scheduled | Shows your scheduled prompts with options to edit, pause, resume, or delete them. This view only appears when you have at least one scheduled prompt. |
+| Scheduled | Shows your scheduled prompts with options to edit, pause, resume, or delete them. |
 
 ### Track task status
 
@@ -304,12 +304,16 @@ You can display which skills Cowork loaded during a conversation in the **Skills
 
 ### Create custom skills
 
-You can extend Cowork with your own custom skills stored in OneDrive.
+You can extend Cowork by using natural language or by adding custom skills in your OneDrive folder.
 
-1. In your OneDrive, navigate to the `/Documents/Cowork/Skills/` folder. Create it if it doesn't exist.
-2. Create a subfolder with your skill name (for example, `/Documents/Cowork/Skills/weekly-report/`).
-3. Inside the subfolder, create a file named `SKILL.md`.
-4. Add a YAML frontmatter block with a `name` and `description`, followed by the skill instructions in Markdown:
+To create a skill with natural language, tell Cowork what you want the skill to do or simply tell Cowork that you'd like help creating a skill. Cowork will guide you through the process of creating the skill.
+
+To create skills in OneDrive using Markdown, use the following steps:
+
+1. In your OneDrive, navigate to the `/Documents/Cowork/skills/` folder. Create it if it doesn't exist.
+1. Create a subfolder with your skill name (for example, `/Documents/Cowork/skills/weekly-report/`).
+1. Inside the subfolder, create a file named `SKILL.md`.
+1. Add a YAML frontmatter block with a `name` and `description`, followed by the skill instructions in Markdown:
 
    ```yaml
    ---
@@ -321,16 +325,18 @@ You can extend Cowork with your own custom skills stored in OneDrive.
    a summary document organized by project.
    ```
 
-5. Save the file. Cowork discovers your custom skills automatically at the start of each conversation.
+1. Save the file. Cowork discovers your custom skills automatically at the start of each conversation.
 
 > [!NOTE]
-> You can create up to 20 custom skills. Each `SKILL.md` file can be up to 1 MB.
+> You can create up to 50 custom skills. Each `SKILL.md` file can be up to 1 MB.
 
 ## Schedule prompts
 
 You can schedule a prompt to run automatically on a recurring basis. To create a scheduled prompt, describe what you want and when in your message. For example, "Send me a daily briefing every morning at 9 AM" or "Create a weekly status report every Friday."
 
 Cowork sets up the schedule based on your request. You can manage your scheduled prompts from the **Scheduled** tab in the **Tasks** view, or from the **Schedule** section of the side panel. From there, you can edit, pause, resume, or delete any scheduled prompt.
+
+When you activate a draft scheduled prompt, Cowork asks whether to **Activate and run now** (starts immediately so you can watch and approve actions) or **Activate** (the first run happens at the next scheduled time). You can create up to five scheduled prompts.
 
 ## Provide feedback
 
@@ -369,6 +375,6 @@ Cowork supports keyboard shortcuts to help you work faster.
 
 ## Related content
 
-- [Copilot Cowork overview](index.md)
-- [Get started with Copilot Cowork](get-started.md)
-- [Copilot Cowork common questions](cowork-faq.md)
+- [Cowork overview](index.md)
+- [Get started with Cowork](get-started.md)
+- [Cowork common questions](cowork-faq.md)

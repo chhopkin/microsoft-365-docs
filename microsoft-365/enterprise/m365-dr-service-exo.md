@@ -55,7 +55,7 @@ Please refer to the [ADR commitment page](m365-dr-commitments.md#exchange-online
 Required Conditions:
 
 1. Tenants have a valid Multi-Geo subscription that covers all users assigned to a _Satellite Geography_.
-1. Customer must have an active Enterprise Agreement.
+1. Customers purchasing Multi‑Geo through the Enterprise Agreement (EA) licensing program must maintain an active Enterprise Agreement.
 1. Total purchased Multi-Geo units must be greater than 5% of the total eligible users in the tenant.
 
 **Commitment:**

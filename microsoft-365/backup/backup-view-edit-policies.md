@@ -28,7 +28,7 @@ You can create more than one backup policy for each product (SharePoint, Exchang
 
 > [!NOTE]
 > You can also use PowerShell cmdlets to perform these operations by following these steps:
-> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-exchangeprotectionpolicies) documentation for the specific action you want to perform—for example, creating a SharePoint policy.
+> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-exchangeprotectionpolicies) documentation for the specific action you want to perform-for example, creating a SharePoint policy.
 > 2. Scroll to the **Example request** section and select the **PowerShell** tab.
 > 3. Install the Microsoft.Graph.BackupRestore module as shown in the example.
 > 4. Run the provided PowerShell command in an Admin PowerShell session to execute the desired action.
@@ -323,7 +323,7 @@ Follow these steps to view and edit backup policies for OneDrive.
 
 ## Dynamic rules
 
-Dynamic rules in Microsoft 365 Backup allow administrators to define backup policies based on distribution lists and security group memberships—eliminating the need for manual updates when group memberships change.
+Dynamic rules in Microsoft 365 Backup allow administrators to define backup policies based on distribution lists and security group memberships-eliminating the need for manual updates when group memberships change.
 
 </br>
 
@@ -340,7 +340,7 @@ When deleting a dynamic rule, you have two options that determine how existing a
 
 #### Delete rule but continue backups
 
-The dynamic rule is converted into a static list. Backup continues for all user accounts that were included through the rule at the time of deletion. However, future changes to the original distribution lists or security groups—such as users being added or removed—are no longer reflected in the backup policy. For example, if a user is added to a previously included group after the rule is deleted, they aren't automatically added to the backup policy.
+The dynamic rule is converted into a static list. Backup continues for all user accounts that were included through the rule at the time of deletion. However, future changes to the original distribution lists or security groups-such as users being added or removed-are no longer reflected in the backup policy. For example, if a user is added to a previously included group after the rule is deleted, they aren't automatically added to the backup policy.
 
 #### Delete rule and stop new backups
 

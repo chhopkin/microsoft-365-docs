@@ -213,7 +213,7 @@ The renewal process can cause temporary discrepancies between the number of lice
 
 When online subscriptions ordered under one License ID are renewed on another License ID, subscriptions ordered on the original License ID display with a status of **In Grace**, while the subscriptions ordered under the new License ID display with a status of **Active**. Only licenses with the **Active** status are relevant to your licensed quantity.
 
-After a certain period, subscriptions with the **In Grace** status are automatically removed from the account and the data is deleted. For detailed information about status durations, see "Lifecycle status durations for volume licensing customers" in [Lifecycle status durations for volume licensing customers](../subscriptions/what-if-my-subscription-expires.md#lifecycle-status-durations-for-volume-licensing-customers).
+After a certain period, subscriptions with the **In Grace** status are automatically removed from the account and the data is deleted. For detailed information about status durations, see [Lifecycle status durations for Enterprise, Volume Licensing and Open Value customers](../subscriptions/what-if-my-subscription-expires.md#lifecycle-status-durations-for-enterprise-volume-licensing-and-open-value-customers).
 
 ## Map License IDs to tenants
 

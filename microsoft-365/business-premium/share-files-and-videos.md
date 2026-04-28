@@ -1,7 +1,5 @@
 ---
 title: "Share files and videos in Microsoft Teams and SharePoint"
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
@@ -16,10 +14,6 @@ ms.collection:
 - tier2
 - trust-pod
 ms.custom:
-search.appverid:
-- BCS160
-- MET150
-- MOE150
 description: "Share files and videos inside your campaign with Microsoft Teams and SharePoint. Microsoft 365 Business premium includes Teams, which is a great way to safely share files and videos."
 ---
 

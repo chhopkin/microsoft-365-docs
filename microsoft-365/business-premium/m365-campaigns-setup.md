@@ -1,11 +1,8 @@
 ---
 title: "Sign in and set up Microsoft 365 for Campaigns"
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.date: 06/07/2024
@@ -17,9 +14,6 @@ ms.collection:
 - trust-pod
 ms.custom:
 - MiniMaven
-search.appverid:
-- BCS160
-- MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: "Setup overview for Microsoft 365 for Campaigns or other businesses"
 ---

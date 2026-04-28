@@ -1,7 +1,7 @@
 ---
-title: "Get started with Copilot Cowork (Frontier)"
-description: "Start using Copilot Cowork in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
-ms.date: 04/03/2026
+title: "Get started with Cowork (Frontier)"
+description: "Start using Cowork in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
+ms.date: 04/07/2026
 ms.topic: get-started
 author: leeclontz
 manager: KumarVivek
@@ -15,11 +15,11 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Get started with Copilot Cowork (Frontier)
+# Get started with Cowork (Frontier)
 [!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
 [!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-Cowork is available in Microsoft 365 Copilot. You describe what you need&mdash;draft an email, build a spreadsheet, schedule a meeting&mdash;and Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
+Microsoft 365 Copilot Cowork allows you to describe what you need&mdash;draft an email, build a spreadsheet, schedule a meeting&mdash;and Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ The Cowork home page opens. A chat input where you can describe what you need ap
 
 ## Start your first conversation
 
-1. Type what you want done in the chat input, or select one of the suggested prompts such as **Catch me up**, **Organize my inbox**, or **Prep for a meeting**. You can enter up to 16,000 characters, so feel free to include plenty of detail.
+1. Type what you want done in the chat input, or select one of the suggested prompts such as **Catch me up**, **Organize my inbox**, or **Prep for a meeting**. You can enter up to 250,000 characters, so feel free to include plenty of detail.
 1. Attach files if needed. Select the **Add attachments** button to choose from **Add work context** (files, people, meetings), **Upload images and files** from your device, or **Attach cloud files** from OneDrive, SharePoint, or Teams. You can also drag and drop files onto the input area.
 1. (Optional) Use voice input by selecting the microphone icon to speak your request instead of typing.
 1. Send your message by selecting **Send**.
@@ -80,20 +80,17 @@ Sometimes Cowork asks you a question to clarify your request. When this happens,
 When Cowork finishes, any files it created appear in the side panel on the right. From there you can:
 
 - Download individual files to your device, or select **Download All** to download every file as a single zip archive.
-- Preview files directly in the browser. Supported formats include PDF, Markdown, images, CSV, and HTML.
+- Preview files directly in the browser. Supported formats include PDF, Microsoft 365 documents (Word, Excel, PowerPoint), Markdown, code files, images, CSV, HTML, and email.
 - Open files in OneDrive and directly in the online version of PowerPoint. 
 
 The side panel also shows a progress bar with the percentage of tasks complete and the skills Cowork used. You can select **thumbs down** on responses that missed the mark, or **thumbs up** on ones that were helpful.
 
-## Find your past work
+## View your created tasks
 
-Select the **Tasks** view to see everything you asked Cowork to do. Here you can:
-
-- Switch between **list view**, **kanban board**, and the **Scheduled** tab depending on how you like to organize.
-- Select any task to open it and resume the conversation.
+The task view lets you select any task to open it and resume the conversation. You can filter tasks by those that need input, those that are still in progress, completed tasks, and scheduled tasks.
 
 ## Related content
 
-- [Copilot Cowork overview](index.md)
-- [Use Copilot Cowork](use-cowork.md)
-- [Copilot Cowork common questions](cowork-faq.md)
+- [Cowork overview](index.md)
+- [Use Cowork](use-cowork.md)
+- [Cowork common questions](cowork-faq.md)

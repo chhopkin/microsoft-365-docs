@@ -4,18 +4,13 @@ ms.author: laurawi
 author: MSFTTracyP
 manager: laurawi
 ms.date: 12/14/2017
-audience: Admin
 ms.topic: troubleshooting
 ms.service: microsoft-365-enterprise
 ms.subservice: administration
 ms.localizationpriority: medium
-search.appverid:
-- MET150
 ms.collection: 
 - scotvorg
 - Ent_O365
-f1.keywords:
-- CSH
 ms.custom: Adm_O365
 ms.assetid: 026e83cb-a945-4543-97b0-a8af6e80ac61
 description: "This article contains general tips and links to other resources that tell you how to improve performance of Exchange Online."

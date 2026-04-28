@@ -15,7 +15,9 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom: 
+- AdminSurgePortfolio
+- user-accounts
 ms.localizationpriority: medium
 search.appverid:
 - MET150

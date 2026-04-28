@@ -9,31 +9,31 @@ items:
     - name: Get started
       items:
         - name: What is Microsoft 365 for business
-          href: ../admin/admin-overview/what-is-microsoft-365-for-business.md
+          href: admin-overview/what-is-microsoft-365-for-business.md 
         - name: Sign up
           href: admin-overview/sign-up-for-office-365.md
         - name: Try or buy Microsoft 365
-          href: ../commerce/try-or-buy-microsoft-365.md
+          href: ../commerce/try-or-buy-microsoft-365.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Plan your setup of Microsoft 365 for business
           href: setup/plan-your-setup.md
         - name: Sign up for Microsoft 365 Business Premium
-          href: ../business-premium/get-microsoft-365-business-premium.md
+          href: ../business-premium/get-microsoft-365-business-premium.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Sign up for Microsoft 365 Business Standard
           items:
            - name: Sign up for Microsoft 365 Business Standard
-             href: ../admin/simplified-signup/signup-business-standard.md
+             href: simplified-signup/signup-business-standard.md
            - name: Sign up for Microsoft 365 Business Standard FAQ
-             href: ../admin/simplified-signup/signup-business-standard-faq.yml
+             href: simplified-signup/signup-business-standard-faq.yml
            - name: Set up Microsoft 365 Business Standard
-             href: ../admin/setup/setup-business-standard.md
+             href: setup/setup-business-standard.md
            - name: Invite users to Microsoft 365 for business subscription
-             href: ../admin/simplified-signup/admin-invite-business-standard.md
+             href: simplified-signup/admin-invite-business-standard.md
            - name: Accept email invitation to Microsoft 365 for business subscription
-             href: ../admin/simplified-signup/user-invite-business-standard.md
-           - name: Accept an email invitation to a Microsoft 365 for business subscription using an Outlook, Yahoo, Gmail or other account
-             href: ../admin/simplified-signup/user-invite-msa-nodomain-join.md
+             href: simplified-signup/user-invite-business-standard.md
+           - name: Accept an email invitation to a Microsoft 365 for business subscription using an Outlook, Yahoo, Gmail, or other account
+             href: simplified-signup/user-invite-msa-nodomain-join.md
            - name: Migrate data to my Microsoft 365 Business Standard subscription
-             href: ../admin/simplified-signup/migrate-data-business-standard.md
+             href: simplified-signup/migrate-data-business-standard.md
         - name: Sign up Microsoft Apps for business
           items:
            - name: Sign up for Microsoft 365 Apps for business
@@ -49,13 +49,13 @@ items:
         - name: Explore the Setup page and wizard
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: Secure Windows 10 or 11 computers
-          href: ../business-premium/m365bp-secure-windows-devices.md?bc=%2foffice365%2fadmin%2fbreadcrumb%2ftoc.json&toc=%2foffice365%2fadmin%2ftoc.json
+          href: ../business-premium/m365bp-secure-windows-devices.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Download software and product keys
           href: setup/download-software-licenses-csp.md
         - name: Install Microsoft 365 apps
           href: setup/install-applications.md
         - name: Set up windows devices
-          href: /microsoft-365/business-premium/m365bp-set-up-windows-devices
+          href: ../business-premium/m365bp-set-up-windows-devices.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Set up mobile devices
           href: setup/set-up-mobile-devices.md
         - name: Set up Outlook for Microsoft 365 for business email (video)
@@ -67,7 +67,7 @@ items:
         - name: Migrate your email from Gmail to Microsoft 365
           href: https://support.microsoft.com/office/move-your-old-email-calendars-and-contacts-to-microsoft-365-2c37f0b7-2915-423c-b35e-9e03267f23dc
         - name: Roll out Teams
-          href: /microsoftteams/how-to-roll-out-teams?bc=%2foffice365%2fadmin%2fbreadcrumb%2ftoc.json&toc=%2foffice365%2fadmin%2ftoc.json
+          href: /microsoftteams/deploy-overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: App training for everyone
           href: https://support.microsoft.com/training
         - name: What subscription do I have?
@@ -96,8 +96,6 @@ items:
           href: whats-new-in-preview.md
         - name: Search in the Microsoft 365 admin center
           href: manage/search-in-the-mac.md
-        - name: Stay on top of changes
-          href: manage/stay-on-top-of-updates.md
         - name: Manage multiple tenants
           href: multi-tenant/manage.md
     - name: Manage users, groups, and passwords
@@ -210,8 +208,14 @@ items:
               href: email/convert-user-mailbox-to-shared-mailbox.md
         - name: Set up Focused Inbox
           href: setup/configure-focused-inbox.md
+        - name: Create distribution groups
+          href: setup/create-distribution-lists.md
         - name: Add user or contact to distribution group
           href: email/add-user-or-contact-to-distribution-list.md
+        - name: Create room and equipment mailboxes
+          href: manage/room-and-equipment-mailboxes.md
+        - name: Create room and equipment mailboxes FAQ
+          href: manage/room-equipment-mailboxes-faq.yml
         - name: Manage clutter for your organization
           href: email/configure-clutter.md
         - name: Mailbox not found error
@@ -267,7 +271,7 @@ items:
     - name: Manage your data and services
       items:
          - name: Copilot in Microsoft 365 admin center
-           href: /copilot/microsoft-365/copilot-for-microsoft-365-admin
+           href: /microsoft-365/copilot/copilot-for-microsoft-365-admin?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
          - name: Agents in Microsoft 365 admin center
            items:
             - name: Manage agents in the Microsoft 365 admin center
@@ -286,12 +290,12 @@ items:
                 href: manage/manage-connected-agents-for-researcher.md
             - name: Agent Map
               href: manage/agent-map.md
-            - name: Manage Tools for agents 
+            - name: Manage Tools for agents
               href: manage/manage-tools-for-agent.md
             - name: Agent Settings
               href: manage/agent-settings.md
          - name: Microsoft Graph connectors for Microsoft Search
-           href: /microsoftsearch/connectors-overview
+           href: /microsoft-365/copilot/connectors/overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
          - name: Monitor Microsoft 365 activity by using reports
            items:
             - name: Microsoft 365 Reports in the admin center - overview
@@ -340,9 +344,9 @@ items:
               href: activity-reports/microsoft365-apps-usage-ww.md
             - name: Microsoft 365 groups
               href: activity-reports/office-365-groups-ww.md
-            - name: OneDrive for Business activity
+            - name: OneDrive activity
               href: activity-reports/onedrive-for-business-activity-ww.md
-            - name: OneDrive for Business usage
+            - name: OneDrive usage
               href: activity-reports/onedrive-for-business-usage-ww.md
             - name: Project activity
               href: activity-reports/project-activity.md
@@ -389,15 +393,15 @@ items:
             - name: Microsoft 365 Apps health
               href: adoption/apps-health.md
             - name: Endpoint Analytics
-              href: /mem/analytics/productivity-score
+              href: /mem/analytics/adoption-score?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
          - name: Usage and user sentiment
            href: misc/experience-insights-dashboard.md
          - name: Change your organization contact info
            href: manage/change-address-contact-and-more.md
          - name: Manager people data and experiences
-           href: ./manage/people-settings-in-microsoft-365-admin-center.md
+           href: manage/people-settings-in-microsoft-365-admin-center.md
          - name: Customize your organization profile cards
-           href: ./manage/customize-profile-cards.md
+           href: manage/customize-profile-cards.md
          - name: Update your admin contact info
            href: manage/update-phone-number-and-email-address.md
          - name: Customize the app launcher
@@ -442,12 +446,32 @@ items:
            href: manage/manage-industry-news.md
          - name: Manage Office Scripts settings
            href: manage/manage-office-scripts-settings.md
-         - name: Find a partner or a re-seller
+         - name: Find a partner or a reseller
            href: manage/find-your-partner-or-reseller.md
          - name: Manage Microsoft feedback for your organization
            href: manage/manage-feedback-ms-org.md
-         - name: Set up release options
-           href: manage/release-options-in-office-365.md
+         - name: Change management
+           items: 
+           - name: Overview of modern change management
+             href: manage/plan-for-change-management.md
+           - name: Configure modern release options
+             href: manage/configure-release-options.md
+           - name: Get started with Frontier
+             href: manage/get-started-frontier.md
+           - name: Modern release options FAQ
+             href: manage/release-options-faq.md
+           - name: Set up the Standard or Targeted release options
+             href: manage/release-options-in-office-365.md
+           - name: Message center
+             href: manage/message-center.md
+           - name: What's new in Message center
+             href: manage/message-center-updates.md
+           - name: Message center FAQ
+             href: manage/message-center-faq.md
+           - name: Connect Release Communications MCP Server
+             href: manage/mrc-mcp.md
+           - name: Overview of MCP Server for Enterprise
+             href: /graph/mcp-server/overview
          - name: Power BI usage analytics
            items:
            - name: About usage analytics
@@ -508,13 +532,11 @@ items:
             href: security-and-compliance/add-defender-suite-business-premium.md
           - name: Secure Microsoft 365 Copilot for small businesses
             href: security-and-compliance/m365b-copilot-security.md
-          - name: GDPR simplified - A guide for your small business
-            href: security-and-compliance/gdpr-compliance.md
         - name: Account security
           items:
-            - name: Multi-factor authentication in Microsoft 365
+            - name: Multifactor authentication in Microsoft 365
               href: security-and-compliance/multi-factor-authentication-microsoft-365.md
-            - name: Set up multi-factor authentication
+            - name: Set up multifactor authentication
               href: security-and-compliance/set-up-multi-factor-authentication.md
             - name: Admin account security in Microsoft 365 for business
               href: security-and-compliance/m365b-account-security-admins.md
@@ -553,35 +575,35 @@ items:
             - name: Turn off Basic Mobility and Security enforcement
               href: security-and-compliance/m365b-devices-basic-mobility-security-turn-off.md
           - name: Use Windows Autopilot to set up or reset devices
-            href: /autopilot/overview?toc=/microsoft-365/admin/security-and-compliance/toc.json&bc=/microsoft-365/admin/security-and-compliance/breadcrumb/toc.json
+            href: /autopilot/overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Manage Microsoft 365 installation options for devices
-            href: /DeployOffice/manage-software-download-settings-office-365?toc=/microsoft-365/admin/security-and-compliance/toc.json&bc=/microsoft-365/admin/security-and-compliance/breadcrumb/toc.json
+            href: /microsoft-365-apps/deploy/manage-software-download-settings-office-365?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Manage user consent to apps
             href: misc/user-consent.md
           - name: Turn on Idle session timeout
             href: manage/idle-session-timeout-web-apps.md
-    - name: Switch from Google Workspace to M365
+    - name: Switch from Google Workspace to Microsoft 365
       items:
         - name: Overview
-          href: moveto-microsoft-365/move-from-google-workspace-overview.md
+          href: moveto-microsoft-365/move-from-google-workspace-overview.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Sign up for Microsoft 365
-          href: admin-overview/sign-up-for-office-365.md?toc=/microsoft-365/admin/moveto-microsoft-365/toc.json&bc=/microsoft-365/admin/moveto-microsoft-365/breadcrumb/toc.json
+          href: admin-overview/sign-up-for-office-365.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Set up Microsoft 365 for Google migration
-          href: moveto-microsoft-365/set-up-microsoft-365-forgoogle.md
+          href: moveto-microsoft-365/set-up-microsoft-365-forgoogle.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Set up security policies for Windows devices
-          href: ../business-premium/m365bp-secure-windows-devices.md?toc=/microsoft-365/admin/moveto-microsoft-365/toc.json&bc=/microsoft-365/admin/moveto-microsoft-365/breadcrumb/toc.json
+          href: ../business-premium/m365bp-secure-windows-devices.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Add Google Workspace Domain
-          href: moveto-microsoft-365/add-google-domain.md
+          href: moveto-microsoft-365/add-google-domain.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Install Office apps and Microsoft Teams
-          href: setup/install-applications.md?toc=/microsoft-365/admin/moveto-microsoft-365/toc.json&bc=/microsoft-365/admin/moveto-microsoft-365/breadcrumb/toc.json
+          href: setup/install-applications.md
         - name: Migrate email, calendar, and contacts to Microsoft 365
-          href: moveto-microsoft-365/migrate-email.md
+          href: moveto-microsoft-365/migrate-email.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Connect your domain to Microsoft 365
-          href: moveto-microsoft-365/connect-domain-tom365.md
+          href: moveto-microsoft-365/connect-domain-tom365.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Use Migration Manager to move everyone's data
-          href: moveto-microsoft-365/migrate-files-migration-manager.md
+          href: moveto-microsoft-365/migrate-files-migration-manager.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Cancel Google Workspace
-          href: moveto-microsoft-365/cancel-google.md
+          href: moveto-microsoft-365/cancel-google.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
     - name: Work with customers
       items:
         - name: Share sites and files with guest users
@@ -599,29 +621,29 @@ items:
         - name: Office Engineering Direct (OED)
           items:
           - name: What is Engineering Direct?
-            href: ../enterprise/office-engineering-direct.md
+            href: ../enterprise/office-engineering-direct.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Overview
-            href: ../enterprise/engineering-direct-overview.md
+            href: ../enterprise/engineering-direct-overview.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Engagements
-            href: ../enterprise/engineering-direct-engagements.md
+            href: ../enterprise/engineering-direct-engagements.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Diagnostics
-            href: ../enterprise/engineering-direct-diagnostics.md
+            href: ../enterprise/engineering-direct-diagnostics.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Design Change Requests (DCR)
-            href: ../enterprise/engineering-direct-design-change-requests.md
+            href: ../enterprise/engineering-direct-design-change-requests.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
         - name: Mission Critical Services (MCS)
           items:
           - name: What is Enhanced Engagements?
-            href: ../enterprise/microsoft-365-admin-enhanced-engagements.md
+            href: ../enterprise/microsoft-365-admin-enhanced-engagements.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Overview
-            href: ../enterprise/microsoft-365-admin-overview-enhanced-engagements.md
+            href: ../enterprise/microsoft-365-admin-overview-enhanced-engagements.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Engagements
-            href: ../enterprise/microsoft-365-admin-engagements.md
+            href: ../enterprise/microsoft-365-admin-engagements.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Diagnostics
-            href: ../enterprise/microsoft-365-admin-diagnostics.md
+            href: ../enterprise/microsoft-365-admin-diagnostics.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Design Change Requests (DCR)
-            href: ../enterprise/microsoft-365-admin-design-change-requests.md
+            href: ../enterprise/microsoft-365-admin-design-change-requests.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
     - name: Troubleshoot
-      href: /office/troubleshoot/
+      href: /troubleshoot/microsoft-365-apps/
     - name: Contact support
       items:
         - name: Get support for Microsoft 365 for business
@@ -631,5 +653,5 @@ items:
     - name: Find support phone numbers
       href: https://support.microsoft.com/topic/customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2#ID0EBBD=signinorgid
     - name: Navigation guide
-      href: ../microsoft-365-docs-navigation-guide.md?bc=%2foffice365%2fadmin%2fbreadcrumb%2ftoc.json&toc=%2foffice365%2fadmin%2ftoc.json
+      href: ../microsoft-365-docs-navigation-guide.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
 

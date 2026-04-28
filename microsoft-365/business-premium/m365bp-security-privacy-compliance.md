@@ -1,17 +1,14 @@
 ---
 title: Security, privacy, and compliance
 description: "Learn about security, privacy, and compliance in Microsoft 365 Business Premium."
-search.appverid: MET150
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-admin
 ms.date: 05/31/2024
 ms.localizationpriority: medium
 ms.reviewer: nehabha
-f1.keywords: NOCSH
 ms.collection:
 - essentials-security
 - essentials-privacy

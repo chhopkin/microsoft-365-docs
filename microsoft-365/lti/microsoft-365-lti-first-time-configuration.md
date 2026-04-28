@@ -2,7 +2,7 @@
 title: Microsoft 365 LTI First Time Configuration
 description: Learn about the first time configuration of Microsoft 365 LTI
 ms.date: 01/14/2026
-last.review.date: 01/14/2026
+last.review.date: 04/09/2026
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
@@ -15,6 +15,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 ---
 # Microsoft 365 LTI&reg; First-Time Configuration
@@ -35,7 +36,7 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
 
 1. Have a Microsoft 365 Global Administrator provide consent.
 
-   - If you're a Microsoft 365 Global Administrator, then you are able to provide consent for the app by clicking the **Admin Consent** button.
+   - If you're a Microsoft 365 Global Administrator, then you're able to provide consent for the app by clicking the **Admin Consent** button.
    - If you aren't a Microsoft 365 Administrator, then you can copy and paste the Admin consent URL for the app and sent it to a Microsoft 365 Global Administrator to complete this step.
 
    The button and messaging will change to "Reconsent" after this step is completed.
@@ -43,12 +44,12 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
    :::image type="content" source="./media/consent.png" alt-text="Screenshot of admin setting consent." border="true":::
 
    > [!IMPORTANT]
-   > We are aware that the consent dialog displays an Unverified status for Microsoft, and are working to resolve this. The dialog is being presented from the app at `https://m365lti.edu.cloud.microsoft` and is a first party Microsoft 365 application that complies with Microsoft 365 terms. We don't share any permissions with other apps or services, all are exclusively leveraged by Microsoft 365 LTI to provide functionality. More information on additional industry compliance and regulatory resources is available on the [Microsoft Service Trust Portal.](https://aka.ms/STP) 
+   > We're aware that the consent dialog displays an Unverified status for Microsoft, and are working to resolve this. The dialog is being presented from the app at `https://m365lti.edu.cloud.microsoft` and is a first party Microsoft 365 application that complies with Microsoft 365 terms. We don't share any permissions with other apps or services, all are exclusively leveraged by Microsoft 365 LTI to provide functionality. More information on additional industry compliance and regulatory resources is available on the [Microsoft Service Trust Portal.](https://aka.ms/STP)
 
    > [!NOTE]
-   > You can share the following instructions with your Microsoft admin to complete this step. The URL they'll need is: `https://m365lti.edu.cloud.microsoft/Consent`
+   > You can share the following instructions with your Microsoft admin to complete this step. The URL they need is: `https://m365lti.edu.cloud.microsoft/Consent`
 
-   Selecting the **Admin Consent** button or visiting the consent link will trigger a login and then the **Permissions requested** dialog. Login with a Microsoft 365 Global Administrator user role, and then select **Accept** on the dialog to complete this step.
+   Selecting the **Admin Consent** button or visiting the consent link triggers a login and then the **Permissions requested** dialog. Login with a Microsoft 365 Global Administrator user role, and then select **Accept** on the dialog to complete this step.
 
    :::image type="content" source="./media/pick-account.png" alt-text="Screenshot of the account dialog box." border="true":::
 
@@ -96,43 +97,6 @@ Review the guidance specific to your LMS for more information and tips for migra
 
 - [Canvas Migration Guidance](microsoft-365-lti-canvas.md#migration-guidance)
 - [Blackboard Migration Guidance](microsoft-365-lti-blackboard.md#migration-guidance)
-- Schoology Migration Guidance
-- Brightspace by D2L Migration Guidance
-- Moodle Migration Guidance
-- Other LTI 1.3 Advantage Platform Migration Guidance
-
-### Migrating from Teams Classes LTI 1.3 app
-
-[The legacy Teams Classes app will sunset on September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). There's no required migration of the Teams created by the Canvas Teams sync or any Teams connected to a course via the Teams Assignments LTI. The new Teams app that is included in the Microsoft Education LTI app is backwards compatible and will display any previously connected Teams. We suggest that you uninstall the legacy app before sunset by locating the app in **Admin > Settings > Apps > View App Configurations** and use the Gear icon drop-down to delete the app deployment.
-
-### Migrating from Teams Meetings LTI 1.3 app
-
-[The legacy Teams Meetings app will sunset on September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). Meetings created by the  classic Teams Meetings LTI will continue to display in Outlook and Teams calendars but will not display in the new Meetings app that is part of Microsoft 365 LTI. Course meetings should be created in the new Meetings app going forward. We suggest that you uninstall the legacy app before sunset by locating the app in **Admin > Settings > Apps > View App Configurations** and use the Gear icon drop-down to delete the app deployment.
-
-### OneNote Class Notebook LTI 1.1 app
-
-There's no way to migrate a OneNote LTI 1.1 Class Notebook to a Microsoft Education OneNote Class Notebook directly. However, you can copy content from one Class Notebook to another in the OneNote app for Windows using the right-click menu option on Sections and Pages to move or copy to another OneNote Notebook. There are also copy options in OneNote for [Mac](https://support.microsoft.com/office/move-or-copy-notes-in-onenote-for-mac-7faf1c7f-d6c6-420e-a65c-5ac7c6f6ec27), [iOS](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab), or [Android](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab). Students can also [export a copy of their work from OneNote Class Notebooks](https://support.microsoft.com/topic/students-export-a-copy-of-your-work-from-onenote-class-notebook-teams-and-onedrive-deb62dce-c441-41b0-b2fc-fccd3cc99c1b). We suggest that after deploying Microsoft Education with OneNote Class Notebooks enabled, you leave the Microsoft OneNote Class Notebook legacy app installed to keep existing files and links accessible but disable the Placements so no new links are created using the legacy tool. The Microsoft OneNote Class Notebook placements can be disabled by an **Admin > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down associated with the app and toggling off all of the placements listed.
-
-### Migrating from Microsoft Office 365 LTI 1.1 app (Instructure legacy app)
-
-There's no direct migration path or copy available from Microsoft Office 365 files to Microsoft Education files used in the RCE, as assignment templates, or in collaborations. We suggest that after deploying Microsoft Education with OneDrive enabled you leave the Microsoft Office 365 app installed to keep existing files and links accessible but disable the Placements so no new links are created using the legacy tool. The Microsoft Office 365 placements can be disabled by an Admin in **Admin > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down associated with the app and toggling off all of the placements listed. It's also recommended that you toggle on the Add to RCE Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to discover.
-
-### Migrating from Microsoft OneDrive LTI 1.3 app
-
-:::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
-
-Currently, there's no direct migration path or copy available from Microsoft OneDrive files to new Microsoft 365 LTI OneDrive files used in the RCE, as assignment templates, or in collaborations - Copy isn't supported currently for files linked or assigned via the Microsoft OneDrive LTI. We expect to have functionality soon to support copy of files and will update this documentation when available.
-
-If you choose to preview the new OneDrive experience while still supporting the old tool in existing courses, we suggest that after deploying Microsoft Education with OneDrive enabled, you leave the Microsoft OneDrive app installed to keep existing files and links accessible but disable the Placements in any newly created course menus so no new links are created using the legacy tool.  
-
-**For Canvas LMS:** The Microsoft OneDrive placements can be disabled by an Admin in **Settings > Apps > View App Configurations** by selecting the Gear icon drop-down associated with the app and toggling off all of the placements listed. It's also recommended that you toggle on the Add to RCE Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to discover.
-
-### Migrating from Microsoft Teams Assignments LTI 1.3 app
-
-Teams Assignments created by the legacy LTI 1.3 app can be reused as Microsoft Education Assignments. Any Team Assignment created in the LMS or via the assignments app in Microsoft Teams can be copied and reused using the Copy functionality in the Microsoft Education Assignment instructor flow. We suggest that you hide the placements of the legacy Teams Assignments LTI app as soon as you install the new Microsoft Education LTI and enable the Assignments app by locating the legacy Microsoft Teams Assignments in **Settings > Apps > View App Configurations** and selecting the Gear icon drop-down associated with the app and toggling off all of the placements listed.
-
-### Migrating from Reflect LTI 1.3 app
-
-There's no migration required for reflections created in the legacy LTI 1.3 app. The new Microsoft Education Reflect app will continue to work with any existing reflections. We suggest that you uninstall the legacy app as soon as you install the new Microsoft Education LTI and enable the Reflect app by locating the legacy Microsoft Reflect app in **Admin > Settings > Apps > View App Configurations** and use the Gear icon drop-down to delete the app deployment.
+- [Other LTI 1.3 Advantage Platform Migration Guidance](microsoft-365-lti-other.md#migration-guidance)
 
 Learning Tools Interoperability&reg; (LTI&reg;) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**)

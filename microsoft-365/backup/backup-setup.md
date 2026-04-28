@@ -19,8 +19,8 @@ description: Learn how to turn on Microsoft 365 Backup, set up pay-as-you-go bil
 # Set up Microsoft 365 Backup
 
 > [!TIP]
-> **Already have an Azure subscription and are a SharePoint Administrator or Global Administrator?** Follow these three steps to quickly set up Microsoft 365 Backup in the admin center.<br><br>
-> [1. Set up pay-as-you-go billing](https://admin.microsoft.com/#/orgsettings/payasyougo)<br>
+> **Already have an Azure subscription and are a SharePoint Administrator or Global Administrator?** Follow these steps to quickly set up Microsoft 365 Backup in the admin center.<br><br>
+> [1. Set up pay-as-you-go billing](https://admin.microsoft.com/#/PaygPlatform)<br>
 > [2. Create backup policies to protect your data](https://admin.microsoft.com/#/Settings/enhancedRestore)<br>
 
 
@@ -90,7 +90,7 @@ Email notifications help ensure that potentially harmful or important changes in
 
 When enabled, Microsoft 365 Backup sends email alerts to a **Backup Notification List** whenever an important backup event occurs. Global admins and Microsoft 365 Backup admins can turn on this feature and update the notification list at any time.
 
-You can add up to 20 individual recipients to the list or include distribution lists and security groups. By default, recipients are notified only about potentially harmful events, but you can also opt in to receive notifications for routine events. Notifications are sent as a **daily email digest** when at least one relevant event occurs. If both notification types are enabled, you receive two separate emails—one for potentially harmful events and another for routine events.
+You can add up to 20 individual recipients to the list or include distribution lists and security groups. By default, recipients are notified only about potentially harmful events, but you can also opt in to receive notifications for routine events. Notifications are sent as a **daily email digest** when at least one relevant event occurs. If both notification types are enabled, you receive two separate emails-one for potentially harmful events and another for routine events.
 
 ### Events that trigger notifications
 
@@ -133,7 +133,7 @@ You can add up to 20 individual recipients to the list or include distribution l
 
 ## Admin roles and backup management privileges
 
-Only tenant-level admins can create and manage backups using Microsoft 365 Backup for their users. End users don't have the ability to enable backup or restores for their user account, distribution lists, mailboxes, or sites. It’s important to note that your admin role determines which products you can manage with Microsoft 365 Backup. We have also introduced a new dedicated role for this tool, the Microsoft 365 Backup Administrator, that can control the entire tool. For more information about this role, see [Microsoft 365 Backup Administrator](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-backup-administrator).
+Only tenant-level admins can create and manage backups using Microsoft 365 Backup for their users. End users don't have the ability to enable backup or restores for their user account, distribution lists, mailboxes, or sites. It's important to note that your admin role determines which products you can manage with Microsoft 365 Backup. We have also introduced a new dedicated role for this tool, the Microsoft 365 Backup Administrator, that can control the entire tool. For more information about this role, see [Microsoft 365 Backup Administrator](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-backup-administrator).
 
 |Admin role  |OneDrive  |SharePoint  |Exchange  |
 |---------|---------|---------|---------|
@@ -144,13 +144,13 @@ Only tenant-level admins can create and manage backups using Microsoft 365 Backu
 
 ## Glossary
 
-- **Protection units** – SharePoint sites, OneDrive accounts, or Exchange Online mailboxes backed up by the Microsoft 365 Backup tool.
+- **Protection units** - SharePoint sites, OneDrive accounts, or Exchange Online mailboxes backed up by the Microsoft 365 Backup tool.
 
-- **Restore point** – A prior point in time from which you can restore a version of your content and metadata. If the protection unit from a prior point in time is identical to the present state of your data, then a restore from that point has no effect on your current data.
+- **Restore point** - A prior point in time from which you can restore a version of your content and metadata. If the protection unit from a prior point in time is identical to the present state of your data, then a restore from that point has no effect on your current data.
 
-- **RPO** – Recovery point objective, or how close in time the most recent restore point is to an impacting event.
+- **RPO** - Recovery point objective, or how close in time the most recent restore point is to an impacting event.
 
-- **RTO** – Recovery time objective, or how fast a restore to a prior point in time might complete.
+- **RTO** - Recovery time objective, or how fast a restore to a prior point in time might complete.
 
 
 <!---

@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/23/2025
+ms.date: 04/09/2026
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education
@@ -14,6 +14,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 ---
 # Deploy the Microsoft 365 LTI&reg; app in any LTI 1.3 compliant LMS
@@ -656,11 +657,11 @@ Post Call - <LineItemUrl>/Scores
 </details>
 
 <details>
-<summary>Submit a Assignment using One Drive (Templateless)</summary>
+<summary>Submit an Assignment using One Drive (Templateless)</summary>
 
 **Feature/Launch:**
 
-- Submit a Assignment using One Drive (Templateless)
+- Submit an Assignment using One Drive (Templateless)
 
 **Description:**
 
@@ -966,6 +967,48 @@ On first access, users must sign in using their Microsoft 365 (Microsoft Entra) 
 - Popups shouldn't be blocked for Microsoft apps.
 
 If you receive an error message regarding cookies being blocked, check your browser's address bar for an icon to allow third-party cookies and popups. If this issue persists, review your settings related to cookies and popups to make sure they're allowed for this app.
+
+## Migration guidance
+
+### Migrating from the classic Teams Classes LTI 1.3 app
+
+[The classic Teams Classes app was retired on September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). There's no required migration of the Teams created by the Canvas Teams sync or any Teams connected to a course via the Teams Assignments LTI. The new Teams app that is included in the Microsoft Education LTI app is backwards compatible and will display any previously connected Teams. Uninstall the legacy app from your LMS to avoid errors.
+
+### Migrating from classic Teams Meetings LTI 1.3 app
+
+[The classic Teams Meetings app was retired on September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). Meetings created by the classic Teams Meetings LTI will continue to display in Outlook and Teams calendars but won't display in the new Meetings app that is part of Microsoft 365 LTI. Course meetings should be created in the new Meetings app going forward. Uninstall the legacy app from your LMS to avoid errors.
+
+### Migrating from the classic OneNote Class Notebook LTI 1.1 app
+
+The classic OneNote Class Notebook LTI 1.1 app will be retired on September 17, 2026.
+
+All notebooks created by the classic LTI 1.1 app will continue to be available directly in the educator owner's OneDrive or through the [OneNote web app](https://onenote.cloud.microsoft).  
+
+After [deploying Microsoft 365 LTI](https://aka.ms/LMSAdminDocs) with the OneNote Class Notebooks app enabled, it's important that you guide users to use the new app exclusively and copy existing notebooks they wish to keep in their courses ahead of the retirement date.
+
+There's no way to automatically migrate a classic OneNote LTI 1.1 Class Notebook to a Microsoft 365 LTI OneNote Class Notebook. However, you can create a new notebook using the Microsoft 365 LTI OneNote app and copy content from any previous Class Notebooks in OneNote on Windows using the right-click menu option on Sections and Pages to move or copy to another OneNote Notebook. There are also copy options in OneNote for [Mac](https://support.microsoft.com/office/move-or-copy-notes-in-onenote-for-mac-7faf1c7f-d6c6-420e-a65c-5ac7c6f6ec27), [iOS](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab), or [Android](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab). Students can also [export a copy of their work from OneNote Class Notebooks](https://support.microsoft.com/topic/students-export-a-copy-of-your-work-from-onenote-class-notebook-teams-and-onedrive-deb62dce-c441-41b0-b2fc-fccd3cc99c1b).
+
+You can leave the legacy app installed until the retirement date while content is being migrated to keep existing notebooks accessible. We strongly recommend that you disable or remove placements of the classic tool in courses, so no new links are created using the legacy tool by mistake. Consult your LMS documentation for instructions to disable or remove placements of the LTI tool in courses. After the retirement date, the tool should be uninstalled to avoid errors.
+
+### Migrating from the classic Teams Assignments LTI 1.3 app
+
+The classic Teams Assignments LTI 1.3 app will be retired on September 17, 2026.
+
+Teams Assignments created by the legacy LTI 1.3 app can be reused as Microsoft 365 LTI Assignments. Any Team Assignment created in the LMS or via the assignments app in Microsoft Teams can be copied and reused using the Copy functionality in the Microsoft Education Assignment teacher flow.  
+
+After [deploying Microsoft 365 LTI](https://aka.ms/LMSAdminDocs) with the Assignments app enabled, it's important that you guide users to use the new app exclusively and copy existing assignments they wish to reuse ahead of the classic app retirement date. Assignments will continue to be available for instructors to copy after the classic app retires. However, any existing assignments created in the classic app and not copied/reassigned in the new app won't be functional.  
+
+The artifacts from classic Teams Assignments (files, assignment information) will continue to be accessible on the Sharepoint site associated with the Teams Class and in Teams as well as via the Microsoft Education Graph API for programmatic access to data and insights.
+
+You can leave the legacy app installed until the retirement date while content is being migrated to keep existing notebooks accessible. We strongly recommend that you disable or remove placements of the classic tool in courses, so no new links are created using the legacy tool by mistake. Consult your LMS documentation for instructions to disable or remove placements of the LTI tool in courses. After the retirement date, the tool should be uninstalled to avoid errors.
+
+### Migrating from the classic Reflect LTI 1.3 app
+
+The classic Reflect LTI 1.3 app will be retired on September 17, 2026.
+
+There's no migration required for reflections created in the legacy LTI 1.3 app. The new Microsoft Education Reflect app will continue to work with any existing reflections.  
+
+We suggest that you uninstall the classic Reflect LTI 1.3 app as soon as you deploy the Microsoft 365 LTI and enable the Reflect app.
 
 ## Getting help and giving feedback
 

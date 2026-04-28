@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 04/02/2026
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -32,7 +32,11 @@ appliesto:
 
 [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) uses Work IQ to enhance responses to user prompts using data that the user already has permission to access. When your organization's data is well governed, current, and appropriately shared, Copilot can deliver accurate, relevant, and secure responses. 
 
-This article guides you through preparing, securing, and managing Microsoft 365 Copilot. By following these steps, you can help Copilot deliver accurate and relevant results while supporting your organization's security, compliance, and regulatory requirements.
+This article guides you through preparing, securing, and managing Microsoft 365 Copilot using the process depicted in the following diagram: 
+
+:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/remediate-guardrails-regulations.png" alt-text="Diagram depicting the three main steps to configuring a secure foundation for Copilot." lightbox="media/configure-secure-governed-data-foundation-microsoft-365-copilot/remediate-guardrails-regulations.png":::
+
+By following these steps, you can help Copilot deliver accurate and relevant results while supporting your organization's security, compliance, and regulatory requirements. 
 
 This guidance is intended for IT administrators and security administrators who are either preparing their organization for Microsoft 365 Copilot or making necessary adjustments to security and governance controls after Copilot is enabled.
 
@@ -60,17 +64,26 @@ The capabilities described in this article require:
     
 ### Admin roles
 
-You need access to the following admin portals and permissions:
+:::image type="content" source="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png" alt-text="Table depicting required admin roles for portals." lightbox="media/configure-secure-governed-data-foundation-microsoft-365-copilot/required-admin-roles.png":::
 
-| Admin portal | Required role |
-|---|---|
-| [Microsoft 365 admin center](https://admin.microsoft.com/) | Global Administrator or Privileged Role Administrator |
-| [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) | SharePoint Administrator |
-| [Microsoft Purview portal](https://purview.microsoft.com/) | Varies by task. See [Permissions in the Microsoft Purview portal](/purview/purview-permissions) |
+You must have an appropriate role assigned to perform the tasks described in this article. 
+
+For more information, see the following resources:
+
+- [Overview of the Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview)
+- [About administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles)
+- [About the SharePoint Administrator role in Microsoft 365](/sharepoint/sharepoint-admin-role)
+- [Permissions in the Microsoft Purview portal](/purview/purview-permissions)
    
 ## Step 1: Remediate oversharing
 
 In this step, you identify and prioritize high-risk sites and sensitive content, apply interim protections to reduce Copilot exposure, and then remediate access and permissions.
+
+### Video: Preventing oversharing in Copilot
+
+The following video provides a high-level overview of how to prevent oversharing in Copilot by configuring capabilities in SharePoint Advanced Management and Microsoft Purview:
+
+> [!VIDEO b45581fd-8711-47fa-9946-c5067735f4d1]
 
 ### Identify high-risk sites and content
 

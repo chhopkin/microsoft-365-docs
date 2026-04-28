@@ -1,11 +1,8 @@
 ---
 title: "Install Microsoft 365 Apps on your devices with Microsoft 365 Business Premium"
-f1.keywords:
-- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.date: 05/31/2024
@@ -17,10 +14,6 @@ ms.collection:
 - trust-pod
 ms.custom:
 - MiniMaven
-search.appverid:
-- BCS160
-- MET150
-- MOE150
 description: "How to install Microsoft 365 Apps also called Office apps on your devices in Microsoft 365 Business Premium."
 ---
 

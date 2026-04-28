@@ -14,6 +14,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 ---
 # Deploy the Microsoft 365 LTI&reg; app in Canvas
@@ -52,7 +53,7 @@ Canvas supports multiple tool deployment for the same tool through two different
 1. There are three Developer Keys for the Microsoft Education API app: two LTI keys and one API key.
     :::image type="content" source="./media/canvas-developer-keys.png" alt-text="Screenshot of developer keys." border="true":::
     1. Enable the API key **170000000001941** by toggling the **State** switch to **On** and then selecting the **Switch to On** button in the pop up to confirm.
-    1. Decide which version of the LTI key you would like to deploy and toggle the **State** switch to **On** and then select the **Switch to On** button in the pop up to confirm. You'll need to know which Client ID listed in the Details column for the developer key you chose to enable for a later step.
+    1. Decide which version of the LTI key you would like to deploy and toggle the **State** switch to **On** and then select the **Switch to On** button in the pop up to confirm. You need to know which Client ID listed in the Details column for the developer key you chose to enable for a later step.
   
     > [!NOTE]
     > The apps are identical. However, the "(Course Nav Disabled)" app has the course navigation placement disabled by default, which might be useful for testing but is less discoverable by instructors since they must locate and enable it in their course menu to leverage the apps and make visible to their students. If you decide to change this default after testing, you can disable the version you have chosen currently, and repeat these instructions for the other app. We strongly recommend using the first key with course nav enabled to help with discoverability and to drive awareness with your instructors.
@@ -122,7 +123,7 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 ## Migration Guidance
 
-When migrating from any legacy app that is replaced by the functionality in the Microsoft 365 LTI app, it's recommended that **Placements of the classic app are disabled, but the app isn't uninstalled until all users are leveraging the new app, and content has been migrated to or recreated with the new app.** Because the classic LTI apps have different resource links to files and data, the process of migrating educators and their content to the new apps may be unique.
+When migrating from any legacy app that is replaced by the functionality in the Microsoft 365 LTI app, it's recommended that **Placements of the classic app are disabled, but the app isn't uninstalled until all users are leveraging the new app, and content has been migrated to or recreated with the new app**. Because the classic LTI apps have different resource links to files and data, the process of migrating educators and their content to the new apps may be unique.
 
 ### Migrating from classic Microsoft OneDrive LTI
 
@@ -243,7 +244,7 @@ You must have a teacher role or Canvas admin role to have access to the migratio
 
 The classic OneNote Class Notebook LTI 1.1 app will be sunset on September 17, 2026.
 
-All notebooks created by the classic LTI 1.1 app will continue to be available directly in the educator owner’s OneDrive or through the [OneNote web app](https://onenote.cloud.microsoft).
+All notebooks created by the classic LTI 1.1 app will continue to be available directly in the educator owner's OneDrive or through the [OneNote web app](https://onenote.cloud.microsoft).
 
 There's no way to automatically migrate a classic OneNote LTI 1.1 Class Notebook to a Microsoft 365 LTI OneNote Class Notebook. However, you can create a new notebook using the Microsoft 365 LTI OneNote app and copy content from any previous Class Notebooks in OneNote on Windows using the right-click menu option on Sections and Pages to move or copy to another OneNote Notebook. There are also copy options in OneNote for [Mac](https://support.microsoft.com/office/move-or-copy-notes-in-onenote-for-mac-7faf1c7f-d6c6-420e-a65c-5ac7c6f6ec27), [iOS](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab), or [Android](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab). Students can also [export a copy of their work from OneNote Class Notebooks](https://support.microsoft.com/topic/students-export-a-copy-of-your-work-from-onenote-class-notebook-teams-and-onedrive-deb62dce-c441-41b0-b2fc-fccd3cc99c1b).
 
@@ -257,11 +258,23 @@ Currently, there's no direct migration path or copy available from Microsoft Off
 
 After deploying the Microsoft 365 LTI, we recommend that you leave the Office 365 app installed to keep existing files and links accessible in active courses, but disable the Placements, so new links are only created using the Microsoft 365 LTI app via Microsoft Education menu items.
 
-The Office 365 LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configuration**s by selecting the Gear icon drop-down for the Office 365 app and toggling off all the placements listed.
+The Office 365 LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Office 365** app and toggling off all the placements listed.
 
 :::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
 
 It's also recommended that you toggle on the **Add to RCE** Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to easily discover.
+
+### Migrate from classic OneNote Class Notebook LTI 1.1 app
+
+The classic OneNote Class Notebook LTI 1.1 app will be sunset on September 17, 2026.
+
+All notebooks created by the classic LTI 1.1 app will continue to be available directly in the educator owner's OneDrive or through the [OneNote web app](https://onenote.cloud.microsoft).
+
+There's no way to automatically migrate a classic OneNote LTI 1.1 Class Notebook to a Microsoft 365 LTI OneNote Class Notebook. However, you can create a new notebook using the Microsoft 365 LTI OneNote app and copy content from any previous Class Notebooks in OneNote on Windows using the right-click menu option on Sections and Pages to move or copy to another OneNote Notebook. There are also copy options in OneNote for [Mac](https://support.microsoft.com/office/move-or-copy-notes-in-onenote-for-mac-7faf1c7f-d6c6-420e-a65c-5ac7c6f6ec27), [iOS](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab), or [Android](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab). Students can also [export a copy of their work from OneNote Class Notebooks](https://support.microsoft.com/topic/students-export-a-copy-of-your-work-from-onenote-class-notebook-teams-and-onedrive-deb62dce-c441-41b0-b2fc-fccd3cc99c1b).
+
+We suggest that after deploying Microsoft 365 LTI with OneNote Class Notebooks enabled that you leave the classic Microsoft OneNote Class Notebook LTI 1.1 app installed to keep existing notebooks accessible in active courses, but disable the Placements of the classic LTI, so no new links are created using the classic tool.
+
+The classic Microsoft OneNote Class Notebook LTI 1.1 app can be removed, or placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **OneNote Class Notebook** app and deleting or toggling off all the placements listed.
 
 ### Migrating from classic Microsoft Teams Assignments LTI
 
@@ -269,7 +282,7 @@ Teams Assignments created by the classic Teams Assignments LTI app can be reused
 
 After deploying the Microsoft 365 LTI, we recommend that you leave the classic Teams Assignments app installed to keep existing files and links accessible in active courses, but disable the Placements, so new assignments are only created using the Microsoft 365 LTI app via Microsoft Education menu items.
 
-The classic Teams Assignments LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the Teams Assignments app and toggling off all the placements listed. Once all assignments have been copied into new courses and courses with existing classic Teams Assignments have been archived, the classic Teams Assignments app can be removed.
+The classic Teams Assignments LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Teams Assignments** app and toggling off all the placements listed. Once all assignments have been copied into new courses and courses with existing classic Teams Assignments have been archived, the classic Teams Assignments app can be removed.
 
 ### Migrating from Reflect LTI
 
@@ -277,7 +290,7 @@ There's no migration required for reflections created in the legacy LTI 1.3 app.
 
 ### Migrating from classic Teams Classes LTI
 
-[The classic Teams Classes app has sunset as of September 15, 2025.](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2) There's no required migration of the Teams created by the Canvas [Microsoft Teams sync](https://community.instructure.com/kb/articles/661147-unknown) integration or for any Team connected to a course by the classic Teams Assignments LTI’s Manage Connected Teams feature. The new Teams app that is included in the Microsoft 365 LTI app (Microsoft Education) is backwards compatible and displays any previously connected Teams, as well as any Teams created by the Canvas Teams Sync or Microsoft 365 LTI Team sync going forward. Review the additional [guidance on choosing a Teams sync option](/microsoft-365/lti/microsoft-365-lti-first-time-configuration?#considerations-for-teams-sync-options).
+[The classic Teams Classes app has sunset as of September 15, 2025.](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2) There's no required migration of the Teams created by the Canvas [Microsoft Teams sync](https://community.instructure.com/kb/articles/661147-unknown) integration or for any Team connected to a course by the classic Teams Assignments LTI's Manage Connected Teams feature. The new Teams app that is included in the Microsoft 365 LTI app (Microsoft Education) is backwards compatible and displays any previously connected Teams, as well as any Teams created by the Canvas Teams Sync or Microsoft 365 LTI Team sync going forward. Review the additional [guidance on choosing a Teams sync option](/microsoft-365/lti/microsoft-365-lti-first-time-configuration?#considerations-for-teams-sync-options).
 We suggest that you uninstall the classic app by locating the app in **Admin > Settings > *`<your root account>`* > Apps > View App Configurations** and use the Gear icon drop-down for the **Microsoft Teams classes** app to delete the app deployment.
 
 ### Migrating from classic Teams Meetings LTI
