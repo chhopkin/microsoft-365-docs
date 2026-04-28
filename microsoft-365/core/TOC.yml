@@ -145,14 +145,22 @@
                           href: ../enterprise/migration-orchestrator-7-end-user-exp.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
                     - name: Cross-tenant migration with orchestrator FAQ
                       href: ../enterprise/migration-orchestrator-8-faq.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Domain FAQ
-          href: ../admin/setup/domains-faq.yml?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Plan and set up Microsoft 365 identity governance
           href: ../enterprise/manage-microsoft-365-identity-governance.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Understand user account passwords
           href: ../enterprise/manage-microsoft-365-passwords.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Understand Microsoft 365 groups
           href: ../enterprise/manage-microsoft-365-groups.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Organizational messages
+          href: ../admin/misc/organizational-messages-microsoft-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+    - name: Domains
+      items:
+        - name: Buy a domain 
+          href: ../admin/get-help-with-domains/buy-a-domain-name.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Domain FAQ
+          href: ../admin/setup/domains-faq.yml?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+    - name: Integrated apps
+      items:
         - name: What is the integrated apps portal?
           href: ../admin/manage/test-and-deploy-microsoft-365-apps.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
           items:
@@ -160,8 +168,6 @@
               href: ../admin/manage/centralized-deployment-of-add-ins.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
             - name: Centralized deployment FAQ
               href: ../admin/manage/centralized-deployment-FAQ.yml?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Organizational messages
-          href: ../admin/misc/organizational-messages-microsoft-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Data residency
       items:
         - name: Data residency overview
@@ -256,8 +262,6 @@
           href: ../enterprise/microsoft-365-monitoring.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
 - name: Implement
   items:
-    - name: Deployment setup guides
-      href: ../enterprise/setup-guides-for-microsoft-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Subscriptions
       href:
       items:
@@ -362,8 +366,42 @@
     - name: Tenant
       href:
       items: 
-        - name: Buy a domain 
-          href: ../admin/get-help-with-domains/buy-a-domain-name.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Configure Exchange server on-premises to use Hybrid Modern Authentication
+          href: ../enterprise/configure-exchange-server-for-hybrid-modern-authentication.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Implement a multi-tenant organization (MTO)
+          href:
+          items:
+            - name: Set up a multi-tenant organization 
+              href: ../enterprise/set-up-multi-tenant-org.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: Join or leave a multi-tenant organization 
+              href: ../enterprise/join-leave-multi-tenant-org.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: Sync users in multi-tenant organizations 
+              href: ../enterprise/sync-users-multi-tenant-orgs.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+              items:
+                - name: Search for people across multiple-tenant organizations
+                  href: ../enterprise/multi-tenant-people-search.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Deploy cross-tenant migration
+          href:
+          items:
+            - name: Deploy cross-tenant identity map
+              href: ../enterprise/cross-tenant-identity-mapping.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: Deploy cross-tenant mailbox migration
+              href: ../enterprise/cross-tenant-mailbox-migration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Deploy cross-tenant migration with orchestrator
+          href:
+          items:
+            - name: Deploy cross-tenant migration with orchestrator
+              href: ../enterprise/migration-orchestrator-5-running-migration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: Complete post-migration tasks with orchestrator
+              href: ../enterprise/migration-orchestrator-5-running-migration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Set up the release option for updates and features 
+          href: ../admin/manage/release-options-in-office-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Customize the Microsoft 365 sign-in page 
+          href: ../admin/setup/customize-sign-in-page.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Customize your organization's theme 
+          href: ../admin/setup/customize-your-organization-theme.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+    - name: Domains and DNS
+      items:
         - name: Add or replace a onmicrosoft.com fallback domain 
           href: ../admin/setup/add-or-replace-your-onmicrosoftcom-domain.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Add a domain 
@@ -399,46 +437,8 @@
                   href: ../admin/dns/create-dns-records-at-web-com.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
                 - name: Connect Wix DNS records 
                   href: ../admin/dns/create-dns-records-at-wix.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Change nameservers to set up Microsoft 365 with any domain registrar 
-          href: ../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Troubleshoot domain issues 
-          href: ../admin/get-help-with-domains/find-and-fix-issues.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Pilot Microsoft 365 from my custom domain 
-          href: ../admin/misc/pilot-microsoft-365-from-my-custom-domain.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Configure Exchange server on-premises to use Hybrid Modern Authentication
-          href: ../enterprise/configure-exchange-server-for-hybrid-modern-authentication.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Implement a multi-tenant organization (MTO)
-          href:
-          items:
-            - name: Set up a multi-tenant organization 
-              href: ../enterprise/set-up-multi-tenant-org.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Join or leave a multi-tenant organization 
-              href: ../enterprise/join-leave-multi-tenant-org.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Sync users in multi-tenant organizations 
-              href: ../enterprise/sync-users-multi-tenant-orgs.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-              items:
-                - name: Search for people across multiple-tenant organizations
-                  href: ../enterprise/multi-tenant-people-search.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Deploy cross-tenant migration
-          href:
-          items:
-            - name: Deploy cross-tenant identity map
-              href: ../enterprise/cross-tenant-identity-mapping.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Deploy cross-tenant mailbox migration
-              href: ../enterprise/cross-tenant-mailbox-migration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Deploy cross-tenant migration with orchestrator
-          href:
-          items:
-            - name: Deploy cross-tenant migration with orchestrator
-              href: ../enterprise/migration-orchestrator-5-running-migration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Complete post-migration tasks with orchestrator
-              href: ../enterprise/migration-orchestrator-5-running-migration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Set up the release option for updates and features 
-          href: ../admin/manage/release-options-in-office-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Customize the Microsoft 365 sign-in page 
-          href: ../admin/setup/customize-sign-in-page.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Customize your organization's theme 
-          href: ../admin/setup/customize-your-organization-theme.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+    - name: Integrated apps
+      items:
         - name: Deploy apps through the integrated apps portal 
           href:
           items:
@@ -546,8 +546,12 @@
           href: ../enterprise/network-requests-in-office-2016-for-mac.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Scenario-based configurations
       items:
+        - name: Deployment setup guides
+          href: ../enterprise/setup-guides-for-microsoft-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Use Microsoft Entra ID for SharePoint Server authentication (entra lib)
           href: /entra/identity/saas-apps/sharepoint-on-premises-tutorial?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Pilot Microsoft 365 from my custom domain 
+          href: ../admin/misc/pilot-microsoft-365-from-my-custom-domain.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
 - name: Adopt
   items:
     - name: Help your users adopt Microsoft 365 services
@@ -729,6 +733,8 @@
     - name: Tenant
       href:
       items:
+        - name: Change your organization's contact information 
+          href: ../admin/manage/change-address-contact-and-more.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Manage multi-tenant organization (MTO) settings
           href: ../enterprise/manage-multitenant-org-settings.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Manage multiple tenants in the Microsoft 365 admin center 
@@ -737,27 +743,30 @@
           href: ../enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Transfer a domain from Microsoft to another host 
           href: ../admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Remove a domain 
-          href: ../admin/get-help-with-domains/remove-a-domain.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Change your organization's contact information 
-          href: ../admin/manage/change-address-contact-and-more.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Manage apps through the Integrated apps portal
-          href:
-          items:
-            - name: Manage Office Add-ins 
-              href: ../admin/manage/office-addins.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Manage Teams apps that only work in Teams 
-              href: ../admin/manage/teams-apps-work-only-on-teams.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Manage SaaS linked apps 
-              href: ../admin/manage/saas-linked-apps.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Manage Copilot agents
-              href: ../admin/manage/manage-copilot-agents-integrated-apps.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-            - name: Manage Add-ins 
-              href: ../admin/manage/manage-addins-in-the-admin-center.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Manage industry news 
           href: ../admin/manage/manage-industry-news.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Manage Office Scripts settings 
-          href: ../admin/manage/manage-office-scripts-settings.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+          href: ../admin/manage/manage-office-scripts-settings.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json          
+    - name: Domains
+      items:
+        - name: Remove a domain 
+          href: ../admin/get-help-with-domains/remove-a-domain.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Change nameservers to set up Microsoft 365 with any domain registrar 
+          href: ../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Troubleshoot domain issues 
+          href: ../admin/get-help-with-domains/find-and-fix-issues.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+    - name: Integrated apps
+      items:
+        - name: Manage Office Add-ins 
+          href: ../admin/manage/office-addins.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Manage Teams apps that only work in Teams 
+          href: ../admin/manage/teams-apps-work-only-on-teams.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Manage SaaS linked apps 
+          href: ../admin/manage/saas-linked-apps.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Manage Copilot agents
+          href: ../admin/manage/manage-copilot-agents-integrated-apps.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+        - name: Manage Add-ins 
+          href: ../admin/manage/manage-addins-in-the-admin-center.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Data Residency
       items:
         - name: Add or remove a geo administrator
