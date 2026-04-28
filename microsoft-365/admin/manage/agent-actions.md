@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/27/2026
+ms.date: 05/01/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -156,7 +156,7 @@ To delete an Agent Builder agent, follow these steps:
     >
     > To quickly find Agent Builder agents, use the **Platform** filter in the **All agents** page and then select **Agent Builder in Microsoft 365 Copilot**.
 
-1. Next to the Agent Builder agent you want to delete, select the vertical ellipses (⁝) and then select **Delete**.
+1. Next to the Agent Builder agent you want to delete, select the vertical ellipses (**⁝**) and then select **Delete**.
 
 When you delete an agent, the following actions occur:
 
