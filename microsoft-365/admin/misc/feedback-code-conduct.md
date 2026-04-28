@@ -36,7 +36,7 @@ In addition to upholding this Code of Conduct, you're also responsible for adher
 
 ## Don't
 
-- Post feedback that is the same or similar to feedback you posted before.
+- Post feedback that's the same or similar to feedback you posted before.
 - Threaten, stalk, insult, victimize or intimidate anyone (or group of people) for any reason, including on the basis of age, gender, disability, ethnicity, sexual orientation, race, or religion.
 - Incite other users to threaten, stalk, insult, victimize, or intimidate another person or group of people.
 - Harass, insult, tease, or correct other users about the grammar used in their posts. Good or bad grammar isn't the point. The feedback community is about sharing feedback with Microsoft and others within the community.
@@ -47,7 +47,7 @@ In addition to upholding this Code of Conduct, you're also responsible for adher
 
 ## Things that will get you immediately banned from participating in feedback
 
-- Posting content that is intended to harm or exploit minors in any way, including collecting the personal data of any minor (anyone under18 years old), including, but not limited to: name, email address, home address, phone number, or the name of the minor's school.
+- Posting content that's intended to harm or exploit minors in any way, including collecting the personal data of any minor (anyone under18 years old), including, but not limited to: name, email address, home address, phone number, or the name of the minor's school.
 - Invading anyone's privacy by attempting to harvest, collect, store, or publish private or personal data, such as passwords, account information, credit card numbers, addresses, or other contact information without that person's knowledge and willing consent.
 - Posting content or links to content that's illegal or violates any applicable local or national laws.
 - Posting or spreading viruses, worms, malware, or other software intended to harm another user's computer.
