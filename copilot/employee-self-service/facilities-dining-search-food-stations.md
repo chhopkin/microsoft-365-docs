@@ -138,7 +138,7 @@ The employees save time, skip the hassle, and make every meal a choice they love
 
 :::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
 
-3. Validate that the output variable named SearchStationsApiResponse is created. Click on the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot below.
+3. Validate that the output variable named SearchStationsApiResponse is created. Click on the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot.
 
 :::image type="content" source="media/facilities-dining-validate-topic-details-output.png" alt-text="Screenshot showing the output section of the details.":::
 
@@ -154,7 +154,7 @@ The employees save time, skip the hassle, and make every meal a choice they love
 
 7. Validate that the conditional block checks if the response is non-empty before the topic ends.
 
-8. Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we mention extracting information from SearchStationApiResponse output variable. LLM follows those instructions and displays well formatted output.
+8. Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we mention extracting information from SearchStationApiResponse output variable. Large Language Model (LLM) follows those instructions and displays well formatted output.
 
 ## FAQs
 
