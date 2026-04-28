@@ -75,7 +75,7 @@ Import-Module -Name ".\CTModule\CrossTenantMigration" -Force
 
 3. Set up the Cross-Tenant Migration Service Application on the **target tenant only**. Run `Grant-CTMSAppPermissions`
 
-4. Set up the OneDrive Migration Application. Run `Grant-OneDriveSharePointMigrationPermissions`
+1. Set up the OneDrive Migration Application. Run `Grant-OneDriveAppPermissions`
 
 5. Set up the Teams Chat Migration Application. Run `Grant-CTTMAppPermissions`
 
