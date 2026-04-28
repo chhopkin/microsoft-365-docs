@@ -24,6 +24,7 @@ ms.custom:
 - AdminTemplateSet
 - adminvideo
 - business_assist
+- user-accounts
 description: "Learn how you can change a user's email address and display name."
 ---
 

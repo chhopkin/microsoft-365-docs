@@ -18,6 +18,7 @@ ms.collection:
 ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
+- user-accounts
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - MET150
