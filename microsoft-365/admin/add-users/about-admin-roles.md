@@ -23,7 +23,7 @@ customer-intent: As an administrator, I want to understand administrator roles t
 
 > Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube. These resources are especially helpful for small business admins who are new to Microsoft 365.
 
-In order to perform tasks, such as adding users, assigning licenses, or configuring services, you must be assigned an administrator role in Microsoft 365 for business. Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that can be assigned in the [Microsoft 365 admin center](https://admin.microsoft.com). Each administrator role maps to common business functions and enables people in your organization to do specific tasks in the admin centers. This article provides an overview of administrator roles, security guidelines to keep in mind, and links to related content.
+To perform tasks like adding users, assigning licenses, or configuring services, you need an administrator role in Microsoft 365 for business. Your Microsoft 365 or Office 365 subscription includes a set of administrator roles that you can assign in the [Microsoft 365 admin center](https://admin.microsoft.com). Each administrator role corresponds to common business functions and enables people in your organization to complete specific tasks in the admin centers. This article provides an overview of administrator roles, security guidelines to keep in mind, and links to related content.
 
 ## Watch: What is an admin?
 
@@ -33,13 +33,13 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in. If you can access the Microsoft 365 admin center, you're an administrator, and you can proceed to the next step.
 
-2. In the left navigation pane, select **Users** > **Active users**. (Or go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
+1. In the left navigation pane, select **Users** > **Active users**. (Or go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
 
-3. Select the user account for the person who you want to make an administrator. The user's details appear in the right dialog box.
+1. Select the user account for the person who you want to make an administrator. The user's details appear in the right dialog box.
 
 ## Before you begin
 
-The [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
+The [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2024339) lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
 
 - For the full list of detailed Microsoft Entra role descriptions you can manage in the Microsoft 365 admin center, see Administrator role permissions in [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
 - For the full list of detailed Microsoft Intune role descriptions you can manage in the Microsoft 365 admin center, see [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
@@ -51,13 +51,13 @@ For more information on assigning roles in the Microsoft 365 admin center, see [
 
 ## Security guidelines for assigning roles
 
-Because administrators have access to sensitive data and files, we recommend that you follow these guidelines to keep your organization's data more secure.
+Because administrators have access to sensitive data and files, follow these guidelines to keep your organization's data more secure.
 
 | Recommendation   | Why it's important |
 | :------------------- | :------------------- |
-| Have as few global administrators as possible  | Global Administrators have almost unlimited access to your organization's settings and most of its data. We recommend you limit the number of Global Administrators as much as possible. A Global Administrator could inadvertently lock their account and require a password reset. Either another Global Administrator or a Privileged Authentication Administrator can reset a Global Administrator's password. Therefore, we recommend you have at least a Privileged Authentication administrator in the event a Global Administrator is locked out of their account. |
-| Assign the *least permissive* role    | Assigning the *least permissive* role means giving administrators only the access they need to get the job done. For example, if you want someone to reset user passwords you shouldn't assign the unlimited global administrator role; instead, you should assign a limited administrator role, like Password Administrator or Helpdesk Administrator. See [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task). |
-| Require multifactor authentication (MFA) for administrators   |  It's a good idea to require MFA for all of your users, especially administrators. MFA makes users use a second method of identification to verify their identity. Administrators can have access to user data, such as their name, email address, location, and so on. If you require MFA, even if the administrator's password gets compromised, the password alone isn't sufficient to sign in without another method of identification.  <br><br>When you turn on MFA, the next time the user signs in, they'll need to provide an alternate email address and phone number for account recovery.  <br> [Set up multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)   |
+| Have as few global administrators as possible  | Global Administrators have almost unlimited access to your organization's settings and most of its data. Limit the number of Global Administrators as much as possible. A Global Administrator could inadvertently lock their account and require a password reset. Either another Global Administrator or a Privileged Authentication Administrator can reset a Global Administrator's password. Therefore, have at least a Privileged Authentication administrator in case a Global Administrator is locked out of their account. |
+| Assign the *least permissive* role    | Assigning the *least permissive* role means giving administrators only the access they need to get the job done. For example, if you want someone to reset user passwords, don't assign the unlimited global administrator role. Instead, assign a limited administrator role, like Password Administrator or Helpdesk Administrator. See [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task). |
+| Require multifactor authentication (MFA) for administrators   |  Require MFA for all of your users, especially administrators. MFA makes users use a second method of identification to verify their identity. Administrators can access user data, such as their name, email address, location, and so on. If you require MFA, even if the administrator's password gets compromised, the password alone isn't sufficient to sign in without another method of identification.  <br><br>When you turn on MFA, the next time the user signs in, they need to provide an alternate email address and phone number for account recovery.  <br> [Set up multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)   |
 
 If you get a message in the Microsoft 365 admin center that indicates you don't have permission to edit a setting or page, it's because you're assigned to a role that doesn't have that permission. In this case, take one or more of the following actions:
 
@@ -71,11 +71,11 @@ To view administrator roles, follow these steps:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861).
 
-2. Select any role to open its detail pane. 
+1. Select any role to open its detail pane. 
 
-3. Select the **Permissions** tab to view the detailed list of what administrators assigned that role have permissions to do. 
+1. Select the **Permissions** tab to view the detailed list of what administrators assigned that role have permissions to do. 
 
-4. Select the **Assigned** or **Assigned admins** tab to add users to roles.
+1. Select the **Assigned** or **Assigned admins** tab to add users to roles.
 
    To view the full list of roles, go to the bottom of the list and select **Show all by Category**. For detailed information, including the cmdlets associated with a role, see [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
 
@@ -88,7 +88,7 @@ The following table lists administrator roles and information about who should b
 | [AI Administrator](/entra/identity/role-based-access-control/permissions-reference#ai-administrator) | Provides AI- and agent-scoped administration, but doesn't grant broad tenant-wide Microsoft 365 workload administration. <br/><br/>Assign the AI Administrator role to users who need to do the following tasks:<ul><li>Manage all aspects of Microsoft 365 Copilot</li><li>Manage AI-related enterprise services, extensibility, and Copilot agents on the Integrated Apps page in the Microsoft 365 admin center</li><li>Manage the full lifecycle of agent users, their licenses, and sign-in sessions</li><li>Manage agent instances and agent identities using available administrator experiences, such as upload, publish, install, activate, and block or unblock agents where supported</li><li>Grant tenant-wide consent for apps and agents requesting permissions except Microsoft Graph application permissions. Apps or agents requiring Microsoft Graph application permissions continue to require Global Administrator approval.</li><li>View usage reports, adoption insights, and organizational insight</li><li>View basic subscription properties</li><li>View agents flagged as risky in [Identity Protection for agents](/entra/id-protection/concept-risky-agents)</li><li>Allow users to install an app or install an app for users in the organization if the app doesn't require permission</li><li>Read and configure Microsoft Azure and Microsoft 365 service health dashboards</li><li>Create and manage support requests in the Microsoft Azure portal and the Microsoft 365 admin center</li></ul>The AI Administrator doesn't manage human user licensing or user sign-in sessions. Some high-privilege permission or consent scenarios (for example, certain Microsoft Graph application permissions) might still require a Global Administrator or Privileged Role Administrator. |
 | [AI Reader](/entra/identity/role-based-access-control/permissions-reference) | This role is intended for visibility, monitoring, and reporting, but not administration. Assign the AI Reader role to users who need to view administrator features and settings in the admin centers that the AI Administrator can view. The AI Reader can't edit any settings. <br/><br/>Assign the AI Reader role to users who need to do the following tasks: <ul><li>Read all aspects of Microsoft 365 Copilot</li><li>Read all properties of agent identities, agent identity blueprint principals, and agent identity blueprints</li><li>Read and configure Microsoft Azure and Microsoft 365 service health dashboards</li><li>View usage reports, adoption insights, and organizational insight</li></ul>The AI Reader role is a read-only role and can't create, publish, approve, activate, deactivate, or modify agents. The AI Reader can't manage agent availability, permissions, policies, licenses, consent, or support requests. |
 | [Application Administrator](/entra/identity/role-based-access-control/permissions-reference#application-administrator) | Assign the Application Administrator role to users who need to create and manage all aspects of enterprise applications, application registrations, and application proxy settings. <br/><br/>Users assigned to this role aren't added as owners when creating new application registrations or enterprise applications. This role also grants the ability to consent for delegated permissions and application permissions, except for application permissions for Azure AD Graph and Microsoft Graph. |
-|[Billing Administrator](/entra/identity/role-based-access-control/permissions-reference#billing-administrator)     |   Assign the Billing Administrator role to users who make purchases, manage subscriptions & service requests, and monitor service health. Billing administrators can also:<ul><li>Manage all aspects of billing</li><li>Create and manage support tickets in the Azure portal </li></ul>|
+|[Billing Administrator](/entra/identity/role-based-access-control/permissions-reference#billing-administrator)     |   Assign the Billing Administrator role to users who make purchases, manage subscriptions and service requests, and monitor service health. Billing administrators can also:<ul><li>Manage all aspects of billing</li><li>Create and manage support tickets in the Azure portal </li></ul>|
 |[Exchange Administrator](/entra/identity/role-based-access-control/permissions-reference#exchange-administrator)     |   Assign the Exchange Administrator role to users who need to view and manage your user's email mailboxes, Microsoft 365 Groups, and Exchange Online. Exchange Administrators can also:<ul><li>Recover deleted items in a user's mailbox</li><li>Set up "Send As" and "Send on behalf" delegates </li></ul> |
 |[Fabric Administrator](/entra/identity/role-based-access-control/permissions-reference#fabric-administrator) |   Assign the Fabric Administrator role to users who need to do the following tasks:<ul><li>Manage all admin features for Microsoft Fabric and Power BI</li><li>Report on usage and performance</li><li>Review and manage auditing</li></ul>  |
 |[Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) |  This is a privileged role. Global Administrators can view Directory Activity logs and elevate their access to manage all Microsoft Azure subscriptions and management groups. Global Administrators can get full access to all Microsoft Azure resources using their respective Microsoft Entra tenant.<br/><br/>The person who purchased a subscription for your organization and signed up for Microsoft online services is a Global Administrator automatically. There can be more than one Global Administrator in your organization.<br/><br/>Users with this role have access to all administrative features in Microsoft Entra ID, and services that use Microsoft Entra identities like the Microsoft Defender portal, the Microsoft Purview portal, Exchange Online, SharePoint Online, and Skype for Business Online. <br/><br/>Global Administrators can:<ul><li>Reset passwords for any user and all other administrators</li><li>Manage purchasing of your organization's subscriptions and products</li><li>Reset passwords for all users</li><li>Add and manage domains</li><li>Unblock another Global Administrator</li></ul>Additionally, only Global Administrators can view and manage subscriptions purchased through a Partner. <br/><br/>A Global Administrator can't remove their own Global Administrator assignment. This limitation is to prevent a situation where an organization has zero Global Administrators.|
@@ -119,7 +119,7 @@ The following table lists administrator roles and information about who should b
 
 Also see [Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization).
 
-## Permissions based on administrator roles and Group type in the Microsoft 365 administrator center
+## Permissions based on administrator roles and group type in the Microsoft 365 administrator center
 
 |Administrator | Microsoft 365 Groups   | Security Groups  | Distribution Groups   | Mail Enabled Security Groups   |
 | --- | --- | --- | --- | --- |
@@ -136,22 +136,22 @@ Also see [Check admin roles in your organization](/microsoft-365/admin/add-users
 
 ## Delegated administration for Microsoft Partners
 
-If you're working with a Microsoft partner, you can assign them administrator roles. They, in turn, can assign users in your company, or their company, administrator roles. You might want to assign administrator roles to partners if they're setting up and managing your online organization for you.
+If you're working with a Microsoft partner, you can assign them administrator roles. They can assign users in your company, or their company, administrator roles. Assign administrator roles to partners if they're setting up and managing your online organization for you.
   
 A partner can assign these roles:
   
 - **Admin Agent** Privileges equivalent to a global administrator, except for managing multifactor authentication through the Partner Center.
 - **Helpdesk Agent** Privileges equivalent to a helpdesk admin.
 
-Before the partner can assign these roles to users, you must add the partner as a delegated administrator to your account. The partner has to be an authorized partner. The partner sends you an email to ask you if you want to give them permission to act as a delegated admin. For instructions, see [Authorize or remove partner relationships](../misc/add-partner.md).
+Before the partner can assign these roles to users, you must add the partner as a delegated administrator to your account. The partner has to be an authorized partner. The partner sends you an email to ask if you want to give them permission to act as a delegated admin. For instructions, see [Authorize or remove partner relationships](../misc/add-partner.md).
 
 ## Volume licensing roles
 
 Volume licensing (VL) agreement administrators access their volume licenses in the [Microsoft 365 admin center](https://admin.microsoft.com).
 
 - VL Administrators don't have permissions to any other admin center information or functionality outside the VL section.
-- Global administrators don't assign any VL roles and don't need to assign any administrator role to a VL Administrator for them to be able to access the VL agreement.
-- Global administrators don't have access to VL information or functionality in the admin center, unless they're assigned to a VL role by a VL Administrator.
+- Global administrators don't assign any VL roles and don't need to assign any administrator role to a VL Administrator for them to access the VL agreement.
+- Global administrators don't have access to VL information or functionality in the admin center, unless a VL Administrator assigns them to a VL role.
 
 For more information, see [Manage volume licensing user roles](../../commerce/licenses/manage-user-roles-vl.md) or [contact the Volume Licensing Support team](../../commerce/licenses/contact-vl-support.md).
 
