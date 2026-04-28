@@ -23,6 +23,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - has-azure-ad-ps-ref
+- user-accounts
 search.appverid: 
 description: "Learn how a Microsoft 365 admin can add, update, and remove the pictures in user account profiles and Microsoft 365 Group profiles."
 customer-intent: As an admin, I want to update a user's profile photo in Microsoft 365.

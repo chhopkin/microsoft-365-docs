@@ -21,6 +21,7 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - AdminTemplateSet
+- user-accounts
 description: "Create a shared mailbox and configure some settings for its users, such as email forwarding and automatic replies."
 ---
 

@@ -29,6 +29,7 @@ ms.custom:
 - AdminTemplateSet
 - m365solution-removeemployee
 - business_assist
+- user-accounts
 description: "Block access to Microsoft 365 so a former employee can't sign in, secure organization data, and allow other employees to access their email and OneDrive data."
 ---
 
