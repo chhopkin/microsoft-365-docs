@@ -64,7 +64,7 @@ The sections below outline governance, lifecycle, and compliance capabilities ap
 
 ## Data Security, Devices
 
-- **Intune** [Device Management Support](/mem/intune/remote-actions/device-management) exists for Microsoft 365 app, Teams app, and Loop app, on iOS and Android.
+- **Intune** [Device Management Support](/intune/device-management/actions) exists for Microsoft 365 app, Teams app, and Loop app, on iOS and Android.
 
 - **[Conditional Access](/sharepoint/control-access-from-unmanaged-devices)** is supported.
 
