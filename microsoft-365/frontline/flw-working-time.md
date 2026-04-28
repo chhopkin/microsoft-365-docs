@@ -60,7 +60,7 @@ Use Microsoft Intune [app protection policies](/intune/app-management/protection
 
 #### Create an application
 
-1. Create an application in Microsoft Entra for the [workingTimeSchedule](/graph/api/resources/workingtimeschedule?view=graph-rest-beta) Graph API.
+1. Create an application in Microsoft Entra for the [workingTimeSchedule](/graph/api/resources/workingtimeschedule) Graph API.
 
     When you register your application, make sure you choose the **Accounts in this organizational directory only (Single tenant)** option so that only users in your tenant can use the application. To learn more, see [Register an application with the Microsoft identity platform](/entra/identity-platform/quickstart-register-app).
 1. Add the hidden application permission for calling the Graph API using the required scope, `Schedule-WorkingTime.ReadWrite.All`.
@@ -240,4 +240,4 @@ No, a clock in/out signal is required to use this feature.
 
 ## Related articles
 
-- [workingTimeSchedule](/graph/api/resources/workingtimeschedule?view=graph-rest-beta)
+- [workingTimeSchedule](/graph/api/resources/workingtimeschedule)
