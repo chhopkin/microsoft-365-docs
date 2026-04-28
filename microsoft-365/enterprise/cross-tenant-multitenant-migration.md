@@ -1,5 +1,5 @@
 ---
-title: "Moving from multitenant to migration readiness"
+title: Moving from multitenant to migration readiness
 author: MicrosoftHeidi
 ms.author: heidip
 manager: dansimp
@@ -9,7 +9,7 @@ ms.date: 03/23/2026
 ms.service: microsoft-365-enterprise
 ms.localizationpriority: high
 description: "Preparing a multitenant Microsoft 365 environment for migration."
-ms.custom tenant
+ms.custom: tenant
 ---
 
 # Introduction
