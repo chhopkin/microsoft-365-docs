@@ -23,6 +23,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - m365solution-removeemployee
+- user-accounts
 description: "Follow the steps in this article to access a former employee's OneDrive and Outlook data, back it up, and choose whether to give access to another employee."
 ---
 

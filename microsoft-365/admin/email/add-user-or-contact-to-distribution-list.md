@@ -22,6 +22,7 @@ ms.custom:
 - VSBFY23
 - AdminSurgePortfolio
 - AdminTemplateSet
+- user-accounts
 description: "Learn how to add a Microsoft 365 user or contact such as an employee, partner, or vendor to an email distribution group."
 ---
 

@@ -22,6 +22,7 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet
+- user-accounts
 description: Learn about shared mailboxes in Microsoft 365, including licensing, permissions, storage limits, and troubleshooting. Find out what to know before creating a shared mailbox.
 #customer intent: Create shared email mailboxes
 ---
