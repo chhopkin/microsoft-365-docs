@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 ms.custom:
  - Adm_O365
  - seo-marvel-apr2020
+ - identity-models
 ms.assetid: e4c45989-4b1a-462e-a81b-2a13191cf517
 ms.collection:
 - scotvorg
