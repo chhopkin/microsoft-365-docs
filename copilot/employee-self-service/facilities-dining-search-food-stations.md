@@ -37,7 +37,7 @@ The following section shows how a maker in Copilot Studio can extend Employee Se
 
 ## Real Estate & Facilities
 
-Real Estate and Facilities (RE&F) play a pivotal role in shaping the overall employee experience within an organization. By integrating RE&F services into Employee Self-Service platforms, companies can streamline access to essential workplace amenities and administrative tasks, making daily operations more efficient and user-friendly for employees.
+Real Estate and Facilities (RE&F) play a pivotal role in shaping the overall employee experience within an organization. By integrating Real Estate and Facilitie services into Employee Self-Service platforms, companies can streamline access to essential workplace amenities and administrative tasks, making daily operations more efficient and user-friendly for employees.
 
 For instance, features like - vehicle registration, facilities tickets for maintenance requests, access to café menus, and streamlined guest invitation processes empower employees to manage their work environment proactively. These capabilities reduce administrative overhead, minimize wait times, and improve satisfaction by giving employees greater control and visibility over their workplace needs.
 
@@ -59,7 +59,7 @@ To extend the Employee Self-Service Copilot Agent with a custom topic for your R
 
 ## Fundamentals
 
-Extending Employee Self-Service for RE&F experiences requires an understanding of a few key building blocks: **topics, adaptive cards, and connectors**. Together, these building blocks define how conversational scenarios are designed and how they interact with RE&F services.
+Extending Employee Self-Service for Real Estate and Facilitie experiences requires an understanding of a few key building blocks: **topics, adaptive cards, and connectors**. Together, these building blocks define how conversational scenarios are designed and how they interact with Real Estate and Facilitie services.
 
 ### Topics
 
