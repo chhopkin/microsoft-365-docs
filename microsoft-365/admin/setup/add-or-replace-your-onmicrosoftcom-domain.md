@@ -29,6 +29,7 @@ ms.custom:
 - business_assist
 - AdminSurgePortfolio
 - AdminTemplateSet
+- domains
 search.appverid:
 - BCS160
 - MET150
