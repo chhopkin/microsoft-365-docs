@@ -98,9 +98,17 @@ To ensure consistent interpretation across metrics and insights in the Agent ove
 - **Definition of an agent**
   An agent is defined as an AI-powered entity that can perform tasks or interactions autonomously or semi-autonomously using instructions, context, knowledge sources, and tools to accomplish user or organizational goals.
 - **Supported agent types and platforms**
-  The Agent overview includes agents built across supported Microsoft and connected platforms. This includes agents created using platforms surfaced in the ecosystem such as Copilot Studio and other Microsoft-supported creation tools, as well as applicable third-party agents detected through connected platforms. Specific platforms supported include: MCS, SharePoint, Agent Builder, AI Foundry, Agents Toolkit, 1P (ex Researcher), and 3P Agentic platforms.
+  The Agent overview includes agents built across supported Microsoft and connected platforms. This includes agents created using platforms surfaced in the ecosystem such as Copilot Studio and other Microsoft-supported creation tools, as well as applicable third-party agents detected through connected platforms. Specific platforms supported include: Microsoft Copilot Studio, SharePoint, Agent Builder, AI Foundry, Agents Toolkit, 1P (ex Researcher), and 3P Agentic platforms.
+
+  > [!NOTE]
+  > The Agent Overview does not show all agent platforms in use, only the top 5 most used, to fit on the card. To see all agent platforms and associated agents, go to the **Registry** tab.
+  
 - **Draft agent visibility**
-  Agent counts and metrics primarily reflect agents that are discoverable within the tenant through governance and registry systems. Visibility of draft or unpublished agents may vary based on platform integration and governance state.
+  Agent counts and metrics primarily reflect agents that are discoverable within the tenant through governance and registry systems. Visibility of draft or unpublished agents may vary based on platform integration and governance state. 
+
+  > [!NOTE]
+  > Currently, you can only view draft agents from Copilot Studio. Support for draft agents from other platforms, such Agent Builder, Foundry, and SharePoint, are not currently available.
+
 - **System and Microsoft-built agents**
   Agent inventory includes Microsoft-built, partner-built, and custom (line-of-business) agents to provide a comprehensive view of the total agent footprint in the organization. 
 - **Platforms surfaced in Copilot Studio and ecosystem**
@@ -108,34 +116,7 @@ To ensure consistent interpretation across metrics and insights in the Agent ove
 - **Data consistency across sources (Registry vs. analytics systems)**
   Metrics in the Agent overview are derived from multiple underlying systems (such as the Agent Registry and usage analytics pipelines). Minor variances may occur due to differences in ingestion timing, update frequency, and system-specific processing. These variances are expected and do not impact overall directional insights.
 
-View access to the agent **Overview** doesn't grant permission to install, modify, or manage agents. Administrative actions continue to be governed by role-based access controls aligned with agent installation and consent workflows.
-
-## Agent management roles and permissions
-
-Access to agent management in Microsoft 365 admin center is controlled by [Microsoft Entra admin roles](/entra/identity/role-based-access-control/permissions-reference). 
-
-While several administrative and security roles can view agent-related information for monitoring and reporting purposes, only select roles are authorized to perform governance actions such as approving agent requests or assigning ownership.
-
-The following table provides agent management capabilities in the Microsoft 365 admin center:
-
-| Role | View insights and organization   data | View agent registry information | Install, modify, approve, and manage agent configurations |
-|:---:|:---:|:---:|:---:|
-| Global Administrator | ✔ | ✔ | ✔ |
-| AI Administrator | ✔ | ✔ | ✔ |
-| Global Reader | ✔ | ✔ | ✖ |
-| AI Reader | ✔ | ✔ | ✖ |
-| Security Administrator | ✔ | ✔ | ✖ |
-| Security Reader | ✔ | ✔ | ✖ |
-| Security Operator | ✔ | ✔ | ✖ |
-| Reports Reader | ✔ | ✔ | ✖ |
-| User Experience Success Manager | ✔ | ✔ | ✖ |
-| User Account Administrator | ✔ | ✖ | ✖ |
-
-The **AI Administrator** and **Global Administrator** roles have tenant‑wide visibility and governance authority, where-as by contrast, product-specific admin roles allow governance only within the boundaries of their products (such as Power Platform Administrator and Fabric Administrator).
-
-> [!IMPORTANT]
->
-> Use and assign roles with the fewest permissions to accomplish tasks. Accounts with lower permission roles help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+View access to the agent **Overview** doesn't grant permission to install, modify, or manage agents. Administrative actions continue to be governed by role-based access controls aligned with agent installation and consent workflows. For more information about roles and permissions, see [Agent management roles and permissions in Microsoft 365 admin center](agent-roles-perms.md).
 
 ## Types of agents
 
@@ -154,7 +135,7 @@ The following table describes each type of agent:
 | **Agent Builder** | An Agent Builder agent is a declarative agent that has been created using Agent Builder within Copilot. |
 | **SharePoint** | A SharePoint agent is a declarative agent that has been created using SharePoint. This type of agent typically uses organizational knowledge hosted on SharePoint. |
 | **Agent Toolkit** | An Agent Toolkit agent has been created using Microsoft 365 Agents Toolkit. The toolkit provides tooling for building, testing, and managing agents across Microsoft 365. |
-| **Agent instance** | An agent that has been extended using the Microsoft Agent 365 SDK is an agent instance. Once extended, an agent instance has Entra-backed agent identity, enhanced notification capabilities, extended observability, covered MCP tooling, and an IT-approved blueprint system. |
+| **Agent instance** | An agent that has been extended using the Microsoft Agent 365 SDK is an agent instance. Once extended, an agent instance has Entra-backed agent identity, enhanced notification capabilities, extended observability, covered MCP tooling, and an IT-approved template system. |
 
 For more information about agent types, see [Data & tools by agent type](agent-details.md#data--tools-by-agent-type).
 
@@ -162,12 +143,14 @@ For more information about agent types, see [Data & tools by agent type](agent-d
 
 ### Hero metrics for agent impact
 
-Hero metrics provide a high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale and engagement.
+Hero metrics provide a high-level summary of the most critical indicators of agent scale and engagement. 
 
 - **Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom "line-of-business" agents. In both registry and usage we refer to these types of agents as "Built by your organization". This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
-- **Active users** - The number of unique users who interacted with at least one agent within the last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered an active user.
+- **Active users** - The number of unique users who interacted with at least one agent up to the last 30 days. If a user interacts at least once with one agent in the last 30 days, they're considered an active user.
+  - This metric begins when your organization activates Agent 365 licenses, so it may reflect fewer than 30 days of data immediately after activation. As activity accumulates, the metric will progressively reflect a fuller 30-day view.
+  - Data collection starts at license activation.
 - **Agent run-time** - Total hours worked by agents during the last 30 days, calculated as the sum of each agent session's duration (end time minus start time).
-- **Agent rgistry sync** - The external connected platforms that were scanned. You can connect to external platforms to find and monitor agents used in your organization. Your use of external non-Microsoft products is subject to the third-party service provider's terms of use. You're responsible for complying with each provider's terms of use.
+- **Agent registry sync** - The external connected platforms that were scanned. You can connect to external platforms to find and monitor agents used in your organization. Your use of external non-Microsoft products is subject to the third-party service provider's terms of use. You're responsible for complying with each provider's terms of use.
 
 ## Top actions for you
 

@@ -259,22 +259,10 @@ The following table provides tool types and examples that can be included with t
 
 ### Data & tools by agent type
 
-The metadata surfaced in the **Data & tools** tab varies depending on the agent type and platform. Agent type is largely based on the tool and method of creating the agent. 
+The metadata surfaced in the **Data & tools** tab varies depending on the agent type and platform. Agent type is largely based on the tool and method of creating the agent.
 
-The table below summarizes the capabilities for each type of agent.
-
-| Agent type | Can read | Typical knowledge sources | Typical tools | 
-|---|---|---|---| 
-| **MCS DA** (Declarative Agent) | Organization files, Public sites | SharePoint sites, web URLs, Graph connectors | Microsoft 365 connectors, custom API actions | 
-| **MCS CEA** (Custom Engine Agent) | Public sites, Organization files | Web URLs, custom knowledge bases | Office 365 connectors (e.g., ContactGetItem), Work IQ tools | 
-| **MCS BP** (Business Process) | Organization files, Email | SharePoint sites, business system URLs | Workflow connectors, Office 365 connectors | 
-| **Foundry LOB** | Organization files, LOB data | SharePoint sites, LOB system endpoints | Foundry-managed connectors, custom API actions | 
-| **Foundry non-LOB** | Public sites, Organization files | Web URLs, SharePoint sites | Foundry-managed connectors | 
-| **Foundry hosted** | Organization files | SharePoint sites, hosted data endpoints | Foundry-managed connectors, hosted service actions | 
-| **Agent Builder** | Public sites, Organization files | Web URLs, SharePoint sites, uploaded files | Microsoft 365 connectors, custom actions | 
-| **SharePoint** | Organization files | SharePoint sites, document libraries | SharePoint connectors | 
-| **Agent Toolkit** | Organization files, Public sites | Web URLs, SharePoint sites | Custom-developed tools, Microsoft 365 connectors | 
-| **A365 SDK** | Varies by implementation | Varies by implementation | Custom tools defined via SDK | 
+> [!NOTE]
+> Currently, Microsoft 365 admin center does not have data and tools information for all agents.
 
 ## Agent security
 
