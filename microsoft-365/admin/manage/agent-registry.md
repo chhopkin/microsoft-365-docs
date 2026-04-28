@@ -387,27 +387,26 @@ The **Agents at risk tile** on the **All agents** page displays the total number
 
 The following table shows what each role can access when they select the **Review** link:
 
-| **Role**                            | **Defender Review** | **Purview Review**  | **Microsoft Entra Review** |
-| ----------------------------------- | ------------------- | ------------------- | -------------------------- |
-| **[AI Admin](/entra/identity/role-based-access-control/permissions-reference#ai-administrator)**                                       | No Access | No Access | Partial Access |
-| **[Reports Reader](/entra/identity/role-based-access-control/permissions-reference#reports-reader)**                                   | No Access | No Access | No Access      |
-| **[User Experience Success Manager](/entra/identity/role-based-access-control/permissions-reference#user-experience-success-manager)** | No Access | No Access | No Access      |
-| **[Security Reader](/entra/identity/role-based-access-control/permissions-reference#security-reader)**                                 | No Access | No Access | Access         |
-| **[Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator)**                   | No Access | No Access | Access         |
-| **[AI Reader](/entra/identity/role-based-access-control/permissions-reference#ai-reader)**                                             | No Access | No Access | No Access      |
-| **[Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader)**                                     | No Access | No Access | Access         |
+| **Role** | **Can access & investigate risks in Defender** | **Can access & investigate risks in Purview**  | **Can access & investigate risks in Microsoft Entra** |
+| -------- | ---------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------- |
+| **[AI Admin](/entra/identity/role-based-access-control/permissions-reference#ai-administrator)**                                       | No | No | Partial |
+| **[Reports Reader](/entra/identity/role-based-access-control/permissions-reference#reports-reader)**                                   | No | No | No      |
+| **[User Experience Success Manager](/entra/identity/role-based-access-control/permissions-reference#user-experience-success-manager)** | No | No | No      |
+| **[Security Reader](/entra/identity/role-based-access-control/permissions-reference#security-reader)**                                 | No | No | Yes     |
+| **[Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator)**                   | No | No | Yes     |
+| **[AI Reader](/entra/identity/role-based-access-control/permissions-reference#ai-reader)**                                             | No | No | No      |
+| **[Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader)**                                     | No | No | Yes     |
 
 > [!IMPORTANT]
 >
 > To access Purview alerts, users must be assigned to one of the following **Insider Risk Management** (IRM) roles within Purview:
 >
-> - **Insider Risk Management Admins**
 > - **Insider Risk Management Analysts**
 > - **Insider Risk Management Investigators**
 >
 > These roles are required to sign in to Purview to view Insider Risk Management alerts. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
 
-## Agents at risk card in the Overview page
+## Agents at risk card in the Agent 365 overview page
 
 The **Agents at risk** card on the Microsoft 365 admin center **Overview** page provides administrators with a tenant‑level summary of agents that are identified with high‑severity risks across Microsoft security platforms including:
 
