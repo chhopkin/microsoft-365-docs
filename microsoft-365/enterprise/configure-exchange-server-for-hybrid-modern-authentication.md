@@ -24,6 +24,7 @@ ms.custom:
   - seo-marvel-apr2020
   - has-azure-ad-ps-ref
   - azure-ad-ref-level-one-done
+  - identity-models
 ---
 
 # How to configure Exchange Server on-premises to use Hybrid Modern Authentication
