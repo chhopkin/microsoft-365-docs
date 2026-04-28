@@ -221,7 +221,7 @@ The settings in the following table are available only on the **New-DeviceConfig
 |_WLANEnabled_||||✔|Disables Wi-Fi on devices.|
 |_WorkFoldersSyncUrl_||||✔|Specifies the Work Folders URL on a Windows Server that's used to synchronize company resources on devices. For more information about Work Folders, see [Work Folders overview](/windows-server/storage/work-folders/work-folders-overview).|
 
-<!--- Do the SmartScreen/AV settings for Windows apply to Windows Defender? --->
+<!--- Do the SmartScreen/AV settings for Windows apply to Microsoft Defender? --->
 
 For information about configuring policies in PowerShell, see [Use PowerShell to create policies in Basic Mobility and Security](m365b-devices-basic-mobility-security-policies-configure.md#use-powershell-to-create-policies-in-basic-mobility-and-security).
 

@@ -15,6 +15,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 description: Get ready to integrate Open LMS and Microsoft Teams by setting up and configuring the Moodle LMS plugins.
 ---

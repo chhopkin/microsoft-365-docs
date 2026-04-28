@@ -1,10 +1,10 @@
 ---  
 title: "Block Dynamic Data Exchange (DDE) server launches in Excel"  
 description: Use the Microsoft 365 admin center, Office Group policies or registry keys to block Dynamic Data Exchange (DDE) server launches in Excel.
-author: kwekuako
-ms.author: kwekua  
+author: vpattnai
+ms.author: vpattnaik
 manager: dansimp
-ms.date: 06/24/2025  
+ms.date: 03/31/2026
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
@@ -25,9 +25,12 @@ When you enable this setting, Excel will block DDE server launches, helping prev
 
 If you have enabled this setting but need to revert to the default behavior, you can turn this setting off directly in the Microsoft 365 admin center.
 
+> [!NOTE]
+> This setting does not block Excel‑to‑Excel Dynamic Data Exchange (DDE) links that are used when workbooks are open in separate Excel desktop instances.
+
 ## Turn off setting in the Microsoft 365 admin center
 
-1. Go to the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.cloud.microsoft</a> and select Org settings.
+1. Go to the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.cloud.microsoft</a> and select **Org settings**.
 1. Select Baseline Security Mode, find the **Block Dynamic Data Exchange (DDE) server launches in Excel** setting, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service

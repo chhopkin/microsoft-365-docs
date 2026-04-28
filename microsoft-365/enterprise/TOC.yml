@@ -27,7 +27,7 @@ items:
     - name: Deploy
       items: 
         - name: Add a domain
-          href: ../admin/setup/add-domain.md
+          href: ../admin/setup/add-domain.md?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: Configure endpoints to bypass
           items: 
             - name: Microsoft 365 IP Address and URL Web service
@@ -60,8 +60,8 @@ items:
               href: microsoft-365-vpn-stream-and-live-events.md
             - name: Microsoft 365 optimization for China users
               href: microsoft-365-networking-china.md
-            - name: Optimizing Microsoft 365 traffic for remote workers with the native Windows 10 VPN client
-              href: /windows/security/identity-protection/vpn/vpn-office-365-optimization
+            - name: Optimizing Microsoft 365 traffic for remote workers with the native Windows VPN client
+              href: /windows/security/operating-system-security/network-security/vpn/vpn-office-365-optimization?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: ExpressRoute for Microsoft 365
           href: azure-expressroute.md
           items: 
@@ -146,20 +146,20 @@ items:
             - name: Office 2013, Office 2016, and Office 2019 client apps
               href: modern-auth-for-office-2013-and-2016.md
         - name: Tenant isolation in Microsoft 365
-          href: /compliance/assurance/assurance-microsoft-365-isolation-controls
+          href: /compliance/assurance/assurance-microsoft-365-isolation-controls?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
           items: 
             - name: Isolation and Access Control in Microsoft Entra ID
               href: microsoft-365-isolation-in-azure-active-directory.md
             - name: Monitoring and Testing Tenant Boundaries
-              href: /compliance/assurance/assurance-monitoring-and-testing
+              href: /compliance/assurance/assurance-monitoring-and-testing?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
             - name: Resource Limits
-              href: /compliance/assurance/assurance-resource-limits
+              href: /compliance/assurance/assurance-resource-limits?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
             - name: Isolation and Access Control
               href: microsoft-365-isolation-in-microsoft-365.md
     - name: Deploy
       items: 
         - name: Add a domain
-          href: ../admin/setup/add-domain.md
+          href: ../admin/setup/add-domain.md?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
     - name: Manage
       items: 
         - name: Microsoft 365 service health status
@@ -316,7 +316,7 @@ items:
                   href: configure-multi-geo-in-region-routing.md
                   displayName: Configure Multi-Geo In-Region Routing
                 - name: Configure preferred data location
-                  href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/Enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
+                  href: /entra/identity/hybrid/connect/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
                 - name: Configure search
                   href: configure-search-for-multi-geo.md
                 - name: User Testing in Multi-Geo
@@ -387,7 +387,7 @@ items:
               - name: Overview
                 href: hybrid-solutions.md
               - name: Use Microsoft Entra ID for SharePoint Server authentication
-                href: /azure/active-directory/saas-apps/sharepoint-on-premises-tutorial
+                href: /entra/identity/saas-apps/sharepoint-on-premises-tutorial?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
               - name: Connect an on-premises network to an Azure virtual network
                 href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
               - name: Deploy a directory synchronization server in Azure IaaS
@@ -425,9 +425,6 @@ items:
 - name: Security
   href: essentials-security.md
 
-- name: Privacy
-  href: essentials-privacy.md
-
 - name: Cloud services
   items: 
     - name: Roadmap
@@ -439,37 +436,35 @@ items:
         - name: External collaboration
           href: external-guest-access.md
         - name: Exchange Online
-          href: /Exchange/exchange-online
+          href: /exchange/exchange-online?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: SharePoint
-          href: /sharepoint/sharepoint-online
+          href: /sharepoint/introduction?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: Microsoft Teams
-          href: /MicrosoftTeams/Teams-overview
+          href: /microsoftteams/teams-overview?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: Meetings and conferencing
-          href: /microsoftteams/deploy-meetings-microsoft-teams-landing-page
+          href: /microsoftteams/deploy-meetings-microsoft-teams-landing-page?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: Teams voice
-          href: /microsoftteams/cloud-voice-landing-page
-        - name: Yammer
-          href: https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe
+          href: /microsoftteams/cloud-voice-landing-page?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
+        - name: Viva Engage
+          href: /viva/engage/overview?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: Activate rights management
           href: activate-rms-in-microsoft-365.md
         - name: Configuring release options
-          href: https://support.office.com/article/365-3b3adfa4-1777-4ff0-b606-fb8732101f47
-        - name: Train your users
-          href: /office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users
+          href: ../admin/manage/release-options-in-office-365.md?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
     - name: Manage
       items: 
         - name: How to check service health
           href: view-service-health.md
         - name: Support options
-          href: ../admin/get-help-support.md
+          href: ../admin/get-help-support.md?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: Exchange Online
-          href: /Exchange/exchange-online
+          href: /exchange/exchange-online?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: SharePoint
-          href: /sharepoint/introduction
+          href: /sharepoint/introduction?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: Microsoft Teams
-          href: /microsoftteams/manage-teams-overview
-        - name: Yammer
-          href: https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe
+          href: /microsoftteams/manage-teams-overview?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
+        - name: Viva Engage
+          href: /viva/engage/overview?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
         - name: Performance and tuning
           items: 
             - name: Performance tuning using baselines and performance history
@@ -493,15 +488,15 @@ items:
 - name: Windows 11
   items:
     - name: How to check release health
-      href: /windows/deployment/update/check-release-health
+      href: /windows/deployment/update/check-release-health?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
     - name: Deploy and update
-      href: /windows/deployment/
+      href: /windows/deployment/?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
 
 - name: Microsoft 365 Apps for enterprise
-  href: /deployoffice/deployment-guide-microsoft-365-apps
+  href: /microsoft-365-apps/deploy/deployment-guide-microsoft-365-apps?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
 
 - name: Surface devices
-  href: /surface/deploy
+  href: /surface/surface-autopilot-cookbook?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
 
 - name: Device management
   items:
@@ -509,7 +504,7 @@ items:
       href: device-management-roadmap-microsoft-365.md
 
 - name: Microsoft Edge
-  href: /deployedge/deploy-edge-plan-deployment
+  href: /deployedge/deploy-edge-plan-deployment?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
 
 - name: Deployment and update channel example configurations
   href: deploy-update-channels-examples.md
@@ -586,7 +581,7 @@ items:
         - name: Manage SharePoint Online site groups
           href: manage-sharepoint-site-groups-with-powershell.md
     - name: Manage Exchange Online
-      href: /powershell/exchange/connect-to-exchange-online-powershell
+      href: /powershell/exchange/connect-to-exchange-online-powershell?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
     - name: Use PowerShell to migrate email to Microsoft 365
       href: use-powershell-for-email-migration-to-microsoft-365.md
       items: 
@@ -602,9 +597,9 @@ items:
         - name: Add a domain to a client tenancy with Windows PowerShell for Delegated Access partners
           href: add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md
         - name: Connect to Exchange Online via remote Windows PowerShell for Delegated Access partners
-          href: /powershell/exchange/connect-to-exchange-online-powershell
+          href: /powershell/exchange/connect-to-exchange-online-powershell?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
     - name: Manage Microsoft Teams
-      href: /microsoftteams/teams-powershell-install
+      href: /microsoftteams/teams-powershell-install?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
     - name: Manage add-ins with Centralized Deployment PowerShell
       href: use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md
 
@@ -639,16 +634,16 @@ items:
 - name: Enterprise Business Continuity Management (EBCM) with cloud services
   items: 
     - name: Customer and cloud partner EBCM responsibilities
-      href: /compliance/assurance/assurance-customer-and-cloud-partner-ebcm-responsibilities
+      href: /compliance/assurance/assurance-customer-and-cloud-partner-ebcm-responsibilities?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
     - name: Microsoft 365 cloud services resiliency
-      href: /compliance/assurance/assurance-m365-service-resiliency
+      href: /compliance/assurance/assurance-m365-service-resiliency?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
     - name: Developing your continuity plan
-      href: /compliance/assurance/assurance-developing-your-ebcm-plan
+      href: /compliance/assurance/assurance-developing-your-ebcm-plan?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
     - name: Service incident mitigation scenarios
-      href: /compliance/assurance/assurance-microsoft-365-mitigations
+      href: /compliance/assurance/assurance-microsoft-365-mitigations?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
 
 - name: Navigation guide
-  href: ../microsoft-365-docs-navigation-guide.md?toc=/microsoft-365/Enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
+  href: ../microsoft-365-docs-navigation-guide.md?toc=/microsoft-365/enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
 
 - name: Microsoft 365 for Business
   href: ../admin/index.yml

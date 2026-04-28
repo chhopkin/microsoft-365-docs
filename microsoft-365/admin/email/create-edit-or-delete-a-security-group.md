@@ -22,6 +22,7 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
 - admindeeplinkEXCHANGE
+- user-accounts
 description: "Learn to create, edit, or delete a security group."
 ---
 

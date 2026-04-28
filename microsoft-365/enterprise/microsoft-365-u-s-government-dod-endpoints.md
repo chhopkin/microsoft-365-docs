@@ -3,7 +3,7 @@ title: Microsoft 365 US Government DOD endpoints
 ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
-ms.date: 10/30/2025
+ms.date: 03/31/2026
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
@@ -39,7 +39,7 @@ Microsoft 365 requires connectivity to the Internet. The following endpoints sho
 
 |Notes|Download|
 |---|---|
-|**Last updated:** 10/30/2025 - [Change Log subscription](https://endpoints.office.com/version/USGOVDoD?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** the full list in [JSON format](https://endpoints.office.com/endpoints/USGOVDoD?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
+|**Last updated:** 03/31/2026 - [Change Log subscription](https://endpoints.office.com/version/USGOVDoD?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** the full list in [JSON format](https://endpoints.office.com/endpoints/USGOVDoD?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
 
 Start with [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md) to understand our recommendations for managing network connectivity using this data. Endpoints data is updated as needed at the beginning of each month with new IP Addresses and URLs published 30 days in advance of being active. This lets customers who don't yet have automated updates to complete their processes before new connectivity is required. Endpoints might also be updated during the month if needed to address support escalations, security incidents, or other immediate operational requirements. The data shown on this page is all generated from the REST-based web services. If you're using a script or a network device to access this data, you should go to the [Web service](microsoft-365-ip-web-service.md) directly.
 

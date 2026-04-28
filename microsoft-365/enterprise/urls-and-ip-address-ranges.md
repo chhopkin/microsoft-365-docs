@@ -3,7 +3,7 @@ title: "Microsoft 365 URLs and IP address ranges"
 ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
-ms.date: 07/31/2025
+ms.date: 03/31/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-enterprise
@@ -37,7 +37,7 @@ Microsoft 365 requires connectivity to the Internet. The endpoints in this artic
 
 |Notes|Download|Use|
 |---|---|---|
-|**Last updated:** 07/31/2025 - [Change Log subscription](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** all required and optional destinations in one [JSON formatted](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) list.|**Use:** our proxy [PAC files](managing-office-365-endpoints.md#pacfiles)|
+|**Last updated:** 03/31/2026 - [Change Log subscription](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** all required and optional destinations in one [JSON formatted](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) list.|**Use:** our proxy [PAC files](managing-office-365-endpoints.md#pacfiles)|
 
 Start with [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md) to understand our recommendations for managing network connectivity using this data. Endpoints data is updated as needed at the beginning of each month with new IP Addresses and URLs published 30 days in advance of being active. This cadence allows for customers who don't yet have automated updates to complete their processes before new connectivity is required. Endpoints may also be updated during the month if needed to address support escalations, security incidents, or other immediate operational requirements. The data shown on this page below is all generated from the REST-based web services. If you're using a script or a network device to access this data, you should go to the [Web service](microsoft-365-ip-web-service.md) directly.
 
@@ -79,13 +79,24 @@ Notes for this table:
 ## Related Topics
 
 - [Other endpoints not included in the Microsoft 365 IP Address and URL Web service](additional-office365-ip-addresses-and-urls.md)
+
 - [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md)
+
 - [General Microsoft Stream endpoints](/stream/network-overview#general-microsoft-stream-endpoints)
+
 - [Monitor Microsoft 365 connectivity](./monitor-connectivity.md)
+
 - [Client connectivity](microsoft-365-networking-overview.md)
+
 - [Content delivery networks](content-delivery-networks.md)
-- [Microsoft Azure IP Ranges and Service Tags - Public Cloud](https://www.microsoft.com/download/details.aspx?id=56519)
-- [Microsoft Azure IP Ranges and Service Tags - US Government Cloud](https://www.microsoft.com/download/details.aspx?id=57063)
-- [Microsoft Azure IP Ranges and Service Tags - China Cloud](https://www.microsoft.com/download/details.aspx?id=57062)
-- [Microsoft Public IP Space](https://www.microsoft.com/download/details.aspx?id=53602)
+
+- [Microsoft Azure IP Ranges and Service Tags - Public Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=56519)
+
+- [Microsoft Azure IP Ranges and Service Tags - US Government Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=57063)
+
+- [Microsoft Azure IP Ranges and Service Tags - China Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=57062)
+
+- [Microsoft Public IP Space](https://www.microsoft.com/en-us/download/details.aspx?id=53602)
+
 - [Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+

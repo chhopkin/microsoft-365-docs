@@ -37,7 +37,7 @@ items:
           href: evaluations.md
         - name: Create a custom evaluation strategy
           href: evaluations-custom-strategy.md
-        - name: Setup and run tests using the evaluation tool
+        - name: Set up and run tests using the evaluation tool
           href: evaluations-run-tests.md
 
 - name: Integrate external systems
@@ -82,13 +82,24 @@ items:
           href: servicenow-hrsd-itsm.md
         - name: ServiceNow Live agent
           href: servicenow-live-agent.md
+
+- name: Extend Employee Self-Service agent
+  items:
+    - name: Invite a guest
+      href: facilities-lobby-invite-guest.md
+    - name: Register your vehicle
+      href: facilities-parking-register-vehicle.md
+    - name: Create a facilities ticket
+      href: facilities-fm-create-ticket.md
+      
+
 - name: Usage analytics
   href: usage-analytics.md
 - name: Review user feedback
   href: feedback.md
 - name: Auditing and Logging
   href: auditing-logging.md
-- name: Known issues and limitations
+- name: Release Notes, known issues and limitations 
   href: known-issues-limitations.md
 - name: Responsible AI FAQ
   href: rai-faq.md

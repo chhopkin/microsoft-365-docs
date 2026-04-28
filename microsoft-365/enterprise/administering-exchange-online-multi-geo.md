@@ -5,11 +5,8 @@ ms.date: 6/29/2023
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
-f1.keywords:
-- NOCSH
 ms.custom:
 - seo-marvel-mar2020
 - has-azure-ad-ps-ref

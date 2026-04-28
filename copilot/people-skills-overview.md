@@ -6,6 +6,7 @@ ms.author: kwekua
 ms.collection: operations-pod
 manager: scotv
 ms.service: microsoft-365-copilot
+ms.subservice: people-skills
 ms.topic: overview
 ms.date: 10/21/2025
 ---

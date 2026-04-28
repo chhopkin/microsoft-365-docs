@@ -4,7 +4,7 @@ f1.keywords:
 author: lauragra
 ms.author: lauragra
 manager: calvind
-ms.date: 03/10/2026
+ms.date: 04/13/2026
 ms.reviwer: riyazp
 ms.update-cycle: 180-days
 audience: Admin
@@ -45,6 +45,8 @@ The following table summarizes how Copilot Tuning behaves across common availabi
 | Transition: enabled → limited | Preserved | Preserved | Blocked for non-authorized users | Blocked for non-authorized users | Yes |
 | Transition: enabled or limited → disabled | Preserved | Preserved | Blocked | No | Yes |
 
+:::image type="content" source="media/copilot-tuning-admin-guide/scenarios.png" alt-text="Screenshot that shows tuning availability scenarios." lightbox="media/copilot-tuning-admin-guide/scenarios.png":::
+
 These behaviors ensure that existing agents remain usable while giving admins fine-grained control over who can continue tuning.
 
 ## Request access flow
@@ -67,6 +69,8 @@ The following table summarizes the Copilot Tuning admin controls.
 | Just-in-time access requests | Not applicable. All eligible users already have access. | Supported. Users who aren't enabled can request tuning access from within the product. Admin approval is required in the Microsoft 365 admin center. | Not applicable. Access requests are not available when tuning is disabled. |
 | Open-source model option | The toggle is available. Admins can allow or block the use of open-source base models for all users. | The toggle is available. If disabled, open-source base models are blocked even for authorized users. | Not applicable. |
 | Example scenario | Organization enables tuning broadly to support innovation across teams. | Organization runs a pilot or controlled rollout, such as enabling tuning only for research or legal teams, with access granted through approvals. | Organization pauses tuning to mitigate risk or respond to a security or compliance concern. |
+
+:::image type="content" source="media/copilot-tuning-admin-guide/open-source-tuning-control.png" alt-text="Screenshot that shows Copilot Tuning admin controls." lightbox="media/copilot-tuning-admin-guide/open-source-tuning-control.png":::
 
 ## Agent visibility and lifecycle management
 
@@ -107,6 +111,8 @@ The following behaviors apply when tuning access is changed:
 - **No rollback occurs.**  
   Copilot Tuning does not revert agents to a previous state when access is restricted or disabled. Transitions are intentionally non-destructive.
 
+:::image type="content" source="media/copilot-tuning-admin-guide/tuning-changes.png" alt-text="Screenshot that shows behaviors that apply when tuning access changes." lightbox="media/copilot-tuning-admin-guide/tuning-changes.png":::
+
 This model allows admins to confidently adjust tuning availability without disrupting existing business workflows.
 
 ## Data commitments, privacy, and compliance
@@ -120,6 +126,8 @@ When a user performs Copilot Tuning, only the SharePoint content explicitly sele
 - Snapshot data is stored in a tenant-isolated Microsoft 365 environment.
 - Snapshot data is used solely for tuning and isn't shared across tenants.
 - Snapshot data enables efficient tuning without repeatedly accessing live content.
+
+:::image type="content" source="media/copilot-tuning-admin-guide/snapshot-data.png" alt-text="Screenshot that shows how snapshot data is handled." lightbox="media/copilot-tuning-admin-guide/snapshot-data.png":::
 
 During public preview, snapshot data is retained for as long as the tuned agent remains active. When a tuned agent is deleted, its associated snapshot data is also deleted. Data used for tuning is subject to a maximum retention period of two years.
 

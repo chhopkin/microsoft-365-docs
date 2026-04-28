@@ -15,6 +15,7 @@ ms.collection:
 - tier2
 - m365-education
 - all-education
+- mesg
 ms.localizationpriority: medium
 description: Learn how to conduct key Microsoft LMS Gateway management tasks including viewing, deleting, editing, and troubleshooting.
 ---

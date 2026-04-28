@@ -72,7 +72,7 @@ Either granular delegated administrative privileges (GDAP) plus an indirect rese
 | Status | Description | Resolution |
 |--|--|--|
 | Limited | This customer tenant has access to only a limited set of experiences in Lighthouse, including GDAP setup and management, user search, user details, tenant tagging, and service health. | Select the tenant name to see a detailed status of Lighthouse management requirements. For more information, see [Requirements for Microsoft 365 Lighthouse](m365-lighthouse-requirements.md). |
-| Removed by partner | Your organization has excluded this customer tenant from Lighthouse management. | You need to reactivate the tenant for management by Lighthouse. On the **Tenants** page, select the three dots (more actions) next to the tenant that you want to manage, and then select **Manage tenant**. It can take 24–48 hours for initial customer data to appear in Lighthouse. |
+| Removed by partner | Your organization has excluded this customer tenant from Lighthouse management. | You need to reactivate the tenant for management by Lighthouse. On the **Tenants** page, select the three dots (more actions) next to the tenant that you want to manage, and then select **Manage tenant**. It can take 24-48 hours for initial customer data to appear in Lighthouse. |
 | Removed by customer | The customer chose to disallow the use of Microsoft 365 Lighthouse to manage their tenant. | An admin in the customer tenant needs to go to **Org settings** in the Microsoft 365 admin center, select **Microsoft 365 Lighthouse** on the **Services** tab, and then select the option to allow the use of Microsoft 365 Lighthouse customer management experiences in their tenant. |
 | Error | An error occurred during the onboarding process for this customer tenant and we're working on a fix. | If this error persists for more than 48 hours, please contact Support. |
 
@@ -122,7 +122,7 @@ You should also make sure Conditional Access policies configured in the customer
 
 **Cause:** You're attempting to view data in Lighthouse before tenant onboarding is complete.
 
-**Resolution:** It can take 24–48 hours for initial customer data to appear in Lighthouse. If it's been more than 48 hours since you onboarded the tenant and you're still not able to view or load tenant data, or you're unable to view or load data that you had previously been able to, contact Support. For more information, see [Get help and support for Microsoft 365 Lighthouse](m365-lighthouse-get-help-and-support.md). Be prepared to provide relevant network logs and a list of any options that may have been modified.
+**Resolution:** It can take 24-48 hours for initial customer data to appear in Lighthouse. If it's been more than 48 hours since you onboarded the tenant and you're still not able to view or load tenant data, or you're unable to view or load data that you had previously been able to, contact Support. For more information, see [Get help and support for Microsoft 365 Lighthouse](m365-lighthouse-get-help-and-support.md). Be prepared to provide relevant network logs and a list of any options that may have been modified.
 
 ### Customer tenant data isn't updating after making changes in the customer tenant
 
@@ -152,7 +152,7 @@ You should also make sure Conditional Access policies configured in the customer
 
 **Cause 2:** The customer tenant was recently onboarded to Lighthouse and data is still loading in Lighthouse.
 
-**Resolution:** Once a customer tenant is onboarded to Lighthouse, allow 24–48 hours for initial customer data to appear.
+**Resolution:** Once a customer tenant is onboarded to Lighthouse, allow 24-48 hours for initial customer data to appear.
 
 **Cause 3:** The customer tenant device is new and device data is still loading in Lighthouse.
 

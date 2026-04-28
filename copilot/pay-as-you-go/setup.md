@@ -9,6 +9,7 @@ ms.reviewer: nishanair
 audience: Admin
 ms.topic: get-started
 ms.service: microsoft-365-copilot
+ms.subservice: commerce
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot
@@ -52,6 +53,12 @@ To set up pay-as-you-go, you must have the following prerequisites:
 [!INCLUDE [global-administrator-note](../../microsoft-365/includes/global-administrator-note.md)]
 
   To learn more about these roles, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
+
+## Watch: Set up pay-as-you-go billing
+
+Check out this and other videos on our [YouTube channel](https://go.microsoft.com/fwlink/?linkid=2198103).
+
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=392bd4b7-524a-4314-ba02-5d8ef705ab89]
 
 ## Add a billing policy
 

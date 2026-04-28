@@ -61,9 +61,9 @@ items:
         - name: Buy or remove subscription licenses
           href: licenses/buy-licenses.md
         - name: Assign or unassign licenses for users
-          href: ../admin/manage/assign-licenses-to-users.md
+          href: ../admin/manage/assign-licenses-to-users.md?toc=/microsoft-365/commerce/toc.json&bc=/microsoft-365/commerce/breadcrumb/toc.json
         - name: Assign or unassign licenses for groups
-          href: ../admin/manage/manage-group-licenses.md
+          href: ../admin/manage/manage-group-licenses.md?toc=/microsoft-365/commerce/toc.json&bc=/microsoft-365/commerce/breadcrumb/toc.json
         - name: Move users to a different subscription
           href: subscriptions/move-users-different-subscription.md
         - name: Manage ISV app licenses
@@ -145,4 +145,4 @@ items:
     - name: Close your account
       href: close-your-account.md
     - name: Contact support
-      href: ../admin/get-help-support.md
+      href: ../admin/get-help-support.md?toc=/microsoft-365/commerce/toc.json&bc=/microsoft-365/commerce/breadcrumb/toc.json

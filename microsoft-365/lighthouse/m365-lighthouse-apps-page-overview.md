@@ -50,7 +50,7 @@ The Apps performance tab provides application insight from the past 14 days. For
 
 - **Total app hangs:** The total number of application hangs reported across all enrolled devices over the past 14 days.
 
-Select an application from the list for more detailed application information, including which devices are having issues. A shortcut is provided to view the device in Microsoft Endpoint Manager, where you can see more insights and recommendations.
+Select an application from the list for more detailed application information, including which devices are having issues. A shortcut is provided to view the device in Microsoft Intune, where you can see more insights and recommendations.
 
 The App performance tab also includes the following options:
 

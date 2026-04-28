@@ -8,20 +8,20 @@ ms.service: microsoft-365-enterprise
 ms.subservice: multi-tenant
 ms.topic: upgrade-and-migration-article
 f1.keywords:
-  - NOCSH
-ms.date: 02/28/2025
+- NOCSH
+ms.date: 09/28/2025
 ms.reviewer: georgiah
 ms.custom:
-  - it-pro
-  - admindeeplinkMAC
-  - admindeeplinkEXCHANGE
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
+- it-pro
+- admindeeplinkMAC
+- admindeeplinkEXCHANGE
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 ms.localizationpriority: high
 ms.collection:
-  - scotvorg
-  - M365-subscription-management
-  - must-keep
+- scotvorg
+- M365-subscription-management
+- must-keep
 ---
 
 # Cross-tenant mailbox migration
@@ -179,8 +179,8 @@ Now that the migration application and secret is successfully created, the next 
    New-MigrationEndpoint -RemoteServer outlook.office.com -RemoteTenant $remote -Credentials $Credential -ExchangeRemoteMove:$true -Name $name -ApplicationId $AppId
    ```
 
-> [!NOTE]
-> If the previous command fails, check with the source tenant administrator to confirm if the application was granted admin consent.
+   > [!NOTE]
+   > If the previous command fails, check with the source tenant administrator to confirm if the application was granted admin consent.
 
 3. Create a new organization relationship object or edit your existing organization relationship object to your source tenant.
 

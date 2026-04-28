@@ -23,6 +23,7 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
 - m365-groups
+- user-accounts
 search.appverid:
 - BCS160
 - MET150
@@ -44,19 +45,20 @@ While users can create a Microsoft 365 group from Outlook or other apps, as an a
 
 1. Select **Add Microsoft 365 group**.
 
-4. On the **Basics** page, type a name for the group, and, optionally, a description. Select **Next**.
+1. On the **Basics** page, type a name for the group, and, optionally, a description. Select **Next**.
 
-5.  On the **Owners** page, choose the name of one or more people who will be designated to manage the group. Anyone who is a group owner will be able to delete email from the Group inbox. Other members won't be able to delete email from the Group inbox. Select **Next**.
+1.  On the **Owners** page, choose the name of one or more people who will be designated to manage the group. Anyone who is a group owner will be able to delete email from the Group inbox. Other members won't be able to delete email from the Group inbox. Select **Next**.
 
-6.  On the **Members** page, choose the name of one or more people who will be designated as members of the group. Select **Next**.
+1.  On the **Members** page, choose the name of one or more people who will be designated as members of the group. Select **Next**.
 
-7. On the **Settings** page, type a unique email address for the group, choose a privacy option and whether you want to add Microsoft Teams, and then select **Next**.
-> [!NOTE]
-> The email domain of the group can be changed after the group has been created.
+1. On the **Settings** page, type a unique email address for the group, choose a privacy option and whether you want to add Microsoft Teams, and then select **Next**.
+
+    > [!NOTE]
+    > The email domain of the group can be changed after the group has been created.
     
-8. After reviewing your settings and making any changes, select **Create group**.
+1. After reviewing your settings and making any changes, select **Create group**.
 
-9. Select **Close**.
+1. Select **Close**.
     
 ## Add members to the group
 
@@ -68,13 +70,13 @@ Users can [add themselves or request approval](https://support.microsoft.com/off
     
 1. On the **Membership** tab, select **Members**.
 
-3. Select **Add members**.
+1. Select **Add members**.
     
-4. Select the users you want to add, and then select **Save**.
+1. Select the users you want to add, and then select **Save**.
     
-5. Select **Close** three times. 
-    
-The group will appear in Outlook with members assigned to it.
+1. Select **Close** three times.
+
+   The group will appear in Outlook with members assigned to it.
 
 ## Who can delete email from the Group inbox?
 

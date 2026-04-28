@@ -57,7 +57,7 @@ You can view all Cloud PCs and their provisioning status in the list below the c
 
 - **Cloud PC name:** Name assigned to the Cloud PC.
 - **User:** User for whom a Cloud PC has been provisioned or attempted to be provisioned.
-- **Device name:** Intune device name—a unique identifier for a Cloud PC.
+- **Device name:** Intune device name-a unique identifier for a Cloud PC.
 - **Tenant:** Customer tenant in which a Cloud PC was provisioned.
 - **Status:** Provisioning status of the Cloud PC.
 - **License type:** Enterprise or Business.
@@ -89,7 +89,7 @@ In the list below the count-annotation bar, you can view all Azure network conne
 
 To see connections with a specific provisioning status, select that status from the count-annotation bar to filter the list. To see connection statuses for one or more specific customer tenants, use the **Tenants** dropdown menu to filter the list.
 
-If you need to take action or troubleshoot a connection in the list, select **View connection details in Microsoft Endpoint Manager**.
+If you need to take action or troubleshoot a connection in the list, select **View connection details in Microsoft Intune**.
 
 The Azure network connections tab also includes the following options:
 

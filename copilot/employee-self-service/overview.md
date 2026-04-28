@@ -20,9 +20,9 @@ appliesto:
 
 # Employee Self-Service
 
-As part of our general availability release, access is rolling out in waves, starting with managed customers and expanding to all customers over time. If you’d like to explore access sooner, reach out to your Microsoft account team. If you don’t currently have an account team, keep an eye on [this blog post](https://aka.ms/ess/gablog) for updates on when the Employee Self-Service Agent is available to all customers in Copilot Studio.
+As part of our general availability release, access is rolling out in waves, starting with managed customers and expanding to all customers over time. If you’d like to explore access sooner, reach out to your Microsoft account team. If you don’t currently have an account team, keep an eye on [this blog post](https://aka.ms//gablog) for updates on when the Employee Self-Service Agent is available to all customers in Copilot Studio.
 
-The Employee Self-Service agent is designed as a unified, customer-facing, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. The Employee Self-Service agent, built on Copilot Studio, is designed for you to customize. Once you customize it for your organization's needs, the Employee Self-Service agent streamlines access to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
+The Employee Self-Service agent is designed as a unified, customer-facing, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. The Employee Self-Service agent, built on Copilot Studio, is designed for you to customize. Once you customize it for your organization's needs, the Employee Self-Service agent streamlines acc to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
 
 ## Technical Architecture
 
@@ -53,7 +53,7 @@ Data security and compliance are enforced through:
 
 ## Customization, scalability, and extensibility
 
-Copilot Studio and Power Platform provide extensive customization options, including low-code and pro-code development environments. Organizations can modify agent behavior, extend dialog flows, and integrate additional data sources. The platform supports scaling across regions and business units, with centralized management and version control for agent configurations.
+Copilot Studio and Power Platform provide extensive customization options, including low-code and pro-code development environments. Organizations can modify agent behavior, extend dialog flows, and integrate more data sources. The platform supports scaling across regions and business units, with centralized management and version control for agent configurations.
 
 Each starter comes with default content and accelerators to get you started like:
 
@@ -69,7 +69,7 @@ The agent ships with a few solution accelerators to integrate with external syst
 - Flows
 - Templates
 
-In addition to the shipped solution accelerators, the agent is extensible within Copilot Studio by adding components to support additional business scenarios.
+In addition to the shipped solution accelerators, the agent is extensible within Copilot Studio by adding components to support other business scenarios.
 
 [Learn more](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent) about Copilot Studio samples and adding more scenarios.
 
@@ -110,3 +110,37 @@ The following matrix provides an overview of the various external systems integr
 - [Learn more](workday.md#topics) about Workday preconfigured scenarios.
 - [Learn more](servicenow-hrsd-itsm.md#topics) about ServiceNow HR preconfigured scenarios.
 - [Learn more](servicenow-hrsd-itsm.md#topics-1) about ServiceNow IT preconfigured scenarios.
+
+## Use Employee Self Service on Mobile
+
+Employee Self Service is available on mobile through the M365 Copilot app on iOS and Android. This enables employees to access HR and IT support wherever they work.
+
+### What Employee Self Service on Mobile Supports
+
+- Access to the Employee Self Service agent from the M365 Copilot mobile app  
+- Core Employee Self Service scenarios aligned with the web experience  
+
+### How Access Works
+
+If your organization has enabled Employee Self Service on web, users can access Employee Self Service on mobile by signing in to the M365 Copilot app and selecting the Employee Self Service agent from the agent list.
+
+No other configuration is required to enable mobile access.
+
+Users should update to the latest version of the app if they are not able to see the Employee Self Service agent.
+
+### Current Limitations
+
+The Employee Self Service mobile experience supports core self-service scenarios available through the M365 Copilot mobile app. Some capabilities currently available on web are not yet supported on mobile.
+
+| Capability Area       | Limitation on Mobile                                                                 | Recommended Behavior                                                                 |
+|-----------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Agent Handoff         | Handoff to another agent or live agent is not supported in mobile experiences.       | Users are redirected to complete the interaction on Employee Self Service web                         |
+| Starter Prompts       | Employee Self Service Mobile currently displays six starter prompts on its main landing page. iOS and Android do not currently offer access to the Prompt Gallery nor the capability to add references or modify values in a starter prompt. | — |
+| Rich Landing Page     | Rich landing page elements configured in MAC (for example, starter prompts, quick links, accent color) may not render on mobile. | Use Employee Self Service on web for full landing page experience; configure essential prompts in Copilot Studio when needed. |
+| Multi Agent Support   | Multi-agent orchestration scenarios may have limited functionality on mobile.        | Continue interaction on web for complex agent routing.                               |
+| Official Sources      | Official sources on mobile provide the same content as the web experience, but the visual elements, such as the official source header and badge, isn't shown. | — |
+| Official Answers      | On mobile, the Official Answer label does not appear in the response. Official Answers provide the same content as the web experience, but users need to click an adaptive card to access the content. | — |
+
+### What’s Next
+
+The Employee Self Service mobile experience continues to evolve as platform and configuration capabilities converge. Future updates are going to support scenarios and improve parity across surfaces.

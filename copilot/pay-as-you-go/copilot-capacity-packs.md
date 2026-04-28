@@ -9,6 +9,7 @@ ms.reviewer: kkannampully, ronild
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
+ms.subservice: commerce
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot

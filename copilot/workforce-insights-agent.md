@@ -1,8 +1,9 @@
 ---
 title: Workforce Insights agent
 description: This article details how to use the Workforce Insights agent
-ms.date: 03/20/2026
+ms.date: 03/31/2026
 ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.topic: how-to
 ms.localizationpriority: medium
 author: tiaraquan
@@ -67,7 +68,7 @@ To support these scenarios, you can override the default logic by providing a `S
 > [!IMPORTANT]
 > This configuration is fully data-driven. Adding the `SupervisorIndicator` column doesn't change your reporting hierarchy, manager-employee relationships, access control, delegation, or privacy enforcement. Features such as delegation and manager-confidential access continue to rely on direct reporting relationships.
 
-### When to use this feature
+### When to use the `SupervisorIndicator`
 
 Use this feature if your organization:
 
@@ -82,7 +83,7 @@ If your definition of a manager already aligns with having direct reports, no ad
 Workforce Insights interprets `SupervisorIndicator` using the following parameters:
 
 - Employees defined as "Managers" are treated as managers in Workforce Insights.
-- Employees defined as "Individual contributors" are treated as ICs, even if they have direct reports.
+- Employees defined as "Individual contributors" are treated as ICs, even with direct reports.
 - If the column isn't provided, Workforce Insights uses the default logic based on direct reports.
 
 > [!NOTE]
@@ -98,6 +99,100 @@ The column must contain one of the following values. Values are case-insensitive
     - Individual contributor: `ic`
 
 If unsupported values are used, such as additional labels, different spelling, or unexpected formats, Workforce Insights can't reliably determine manager status.
+
+## Organization-specific prompts
+
+> [!NOTE]
+> Organization-specific prompts are optional. You don't have to create organizational-specific prompts to use the Workforce Insights agent.
+
+Administrators can add custom organization-specific prompts to the Workforce Insights agent home page. These prompts guide leaders and delegates to the questions, workflows, and standards that matter most to your organization while preserving the core Workforce Insights experience.  
+
+Organization-specific prompts appear alongside Microsoft-provided suggested prompts and are visible tenant-wide.
+
+> [!NOTE]
+> Prompt responses are subject to existing data access and delegation policies.
+
+### Data access, privacy, and permissions
+
+Organization specific prompts don't override data access policies. Responses are generated only from data the user is already permitted to access.  
+
+- Manager confidential or restricted attributes remain gated by existing access policies.  
+- If a prompt references data the user doesn't have access to, the response might be limited or unavailable.
+
+For example, a prompt that relies on manager-confidential attribute return results only for users with appropriate manager or delegate access.
+
+### What are organization-specific prompts?
+
+Organization-specific prompts are admin-created prompt cards displayed under **From your organization on the Workforce Insights** home page. The prompts:
+
+- Reinforce commonly asked, organization-relevant questions
+- Provide consistent phrasing for workforce analysis
+- Help users get started faster with trusted prompts
+
+> [!NOTE]
+> Organization-specific prompts supplement Microsoft-provided suggested prompts. Microsoft-provided suggested prompts can't be removed or replaced.
+
+### How organization-specific prompts work
+
+Administrators can create up to six organization-specific prompts per tenant. Each prompt includes:
+
+- Prompt title: A short label shown on the prompt card
+- Display prompt: A concise, user facing question shown on the home page
+- Extended prompt (optional): Additional instructions or context used by Copilot when generating a response
+
+The display prompt stays short and scannable on the home page. Use the extended prompt to add guidance without cluttering the user interface.
+
+> [!IMPORTANT]
+> When a user selects a prompt card, only the extended prompt, if provided, is inserted in the message box. The display prompt isn't included automatically. To include the display prompt, you must repeat the display prompt in the extended prompt.
+
+Prompts are saved at the tenant level, so all eligible users see the same prompts.
+
+### Who can create and manage prompts?
+
+> [!IMPORTANT]
+> Before you add custom prompts, test the prompts to ensure that each prompt works, and the Workforce Insights agent returns the expected results.
+
+Only authorized [Organizational Data Source Administrators](/entra/identity/role-based-access-control/permissions-reference#organizational-data-source-administrator) can create, edit, reorder, or delete organization-specific prompts. Prompt management is available from the Workforce Insights admin settings experience. End users can't modify prompts.
+
+**To create and manage prompts:**
+
+1. Go to the Workforce Insights landing page.
+2. Select **Organization-specific prompts** to add and manage prompts.
+
+### Where users see organization specific prompts
+
+On the Workforce Insights agent home page, prompts are grouped into:  
+
+- Microsoft-provided suggested prompts, which might vary based on role and delegation
+- Organization-specific prompts created by your admin
+
+Organization specific prompts are visually distinct, so users know they were added by their organization. If fewer than six organization specific prompts are configured, the remaining space is filled by suggested prompts.
+
+#### Example
+
+- Prompt title: team location coverage
+- Display prompt: Show me the distribution of my team by location and time zone
+- Optional extended prompt: Show me the distribution of my team by location and time zone. Include a breakdown by primary work location and time zone. Highlight any locations with limited overlap in core working hours and call out potential collaboration risks
+
+### Limitations and considerations
+
+- You can add up to six organization specific prompts per tenant  
+- Default Microsoft-provided prompts can't be edited or removed  
+- Prompts are additive, and don't replace suggested prompts
+- Prompts apply tenant-wide and aren't targeted to specific groups or roles in the current experience
+
+These limits help ensure a consistent, predictable experience for all users.
+
+### Best practices for writing effective organization-specific prompts
+
+To get the most value from organization-specific prompts:
+
+- Keep display prompts short and action oriented  
+- Use extended prompts to clarify intent, assumptions, or preferred framing
+- Avoid references to data or attributes not available in your organizational data
+- Align prompts to real questions leaders and delegates already ask
+
+Clear, well-written prompts improve consistency, reduce ambiguity, and build trust in the results.
 
 ## Start using the Workforce Insights agent
 
@@ -187,7 +282,7 @@ After reviewing these guidelines, see the [custom column examples](#custom-colum
 | Column Name | Choose a column name that's concise and descriptive of its purpose. Avoid abbreviations or ambiguous terms that could lead to confusion. Think of column names like labels on a form or headings in a spreadsheet. The column name should clearly tell someone what information belongs in that column without needing extra explanation. Don't include detailed usage instructions or data definitions in the name. Usage instructions and data definitions belong in the description. |
 | Data Type | Select the correct data type for the column. The options are:<ul><li>String</li><li>Boolean</li><li>DateTime</li><li>Double</li><li>Integer</li></ul><p>Using an incorrect type can lead to poor performance and inaccurate results.</p><p>Clean and normalize data before uploading by ensuring consistent spelling and capitalization. Avoid inconsistent values such as:<ul><li>`Software Eng` versus `Software Engineer`</li><li>`Washington` versus `WASHINGTON`</li><li>Use full terms instead of acronyms. `Product Manager` instead of `PM`</li></ul><p>The number of unique values per column is limited to `100` for string data types. There's no hard limit on the number of values, but performance is better if the number of unique values is constrained. These limits don't apply to numbers or dates.</p> |
 | Semantic Overlap | Avoid creating multiple columns that represent similar concepts. Significant overlap between columns can lead to inconsistent or unpredictable results. If two columns serve nearly the same purpose, consider consolidating them. |
-| Column Description | After the **Organizational Data Admin** completes the **MODIS (Microsoft Organizational Data Ingestion System) process** where they ingest [organizational data](/viva/organizational-data) and select which columns to send to Workforce Insights agent, there might be a short latency period, typically a couple of hours, before the data becomes available for configuration.<p>Once available, you must add column descriptions to ensure each column is clearly defined and usable. This step is critical because without descriptions, the Workforce Insights agent can't interpret the column effectively and might ignore it in responses.</p><p>The column description should provide a clear explanation of what the column represents. Include details such as:<ul><li>The data that the column contains</li><li>The intended usage of the column</li><li>Any other requirements when using the column. Such as:<ul><li>If the meaning of the data isn't obvious from the values themselves, document the meaning in the description.</li><li>If data in a column is built from multiple parts, mention that the data is built from multiple parts.</li><li>If data in a column is limited to certain values, consider adding this information to the description.</li></ul></ul> |
+| Column Description | After the **Organizational Data Admin** completes the **MODIS (Microsoft Organizational Data Ingestion System) process** where they ingest [organizational data](/viva/organizational-data) and select which columns to send to Workforce Insights agent, there might be a short latency period before the data becomes available for configuration. **In most cases, this takes a few hours, though in some scenarios it might take longer**.<p>Column descriptions give the Workforce Insights agent the context to use the data correctly. The descriptions are AI-generated, but administrators must review and confirm that the descriptions reflect their organization's data and definitions.</p><p>In the [configuration page](https://aka.ms/WorkforceInsightsAdminHome), there are two types of status messages informing you about: <ol><li>The number of columns that need attention</li><li>The number of columns that were changed</li></ol></p><p>Custom columns without a confirmed description aren't used by the Workforce Insights agent. Column descriptions changes take effect immediately after you save the changes.</p><p>**What to include in a column description**</p><p>A good column description clearly explains:<ul><li>What the column represents</li><li>How the data is intended to be used</li><li>Important constraints or nuances, such as:<ul><li>When the meaning isn't obvious from the values</li><li>When the column is derived from multiple data elements</li><li>When values are limited to a defined set or format</li></ul></ul><p>AI-generated descriptions often already include much of this information, but administrators should verify accuracy and add organization-specific context as needed.</p><p>**Important considerations:**</p><ul><li>A blank value isn't accepted in any column description. Use the AI-generated description or add/edit your description<li>AI-generated descriptions aren't final until an administrator confirms them</li><li>Confirmed descriptions are stored at the tenant level and apply to all eligible users</li><li>Descriptions can be updated as data definitions change</li></ul><p>To upload and maintain attributes, see [Upload and maintain organizational data in the Microsoft admin center](/viva/insights/advanced/admin/upload-org-data-admin-center#how-to-prepare-upload-and-manage-your-data-in-the-microsoft-365-admin-center).</p> |
 
 ## Custom column examples
 

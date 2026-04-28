@@ -20,17 +20,18 @@ Microsoft is improving your visibility into Microsoft Support's read-only access
 
 This article describes what you see in your Microsoft Entra audit logs when:
 
-- When a Microsoft 365 Support case is created.
-- When a Microsoft Support engineer works on your case.
-- When a Microsoft 365 Support case is closed.
+- A Microsoft 365 Support case is created
+- A Microsoft Support engineer works on your case
+- A Microsoft 365 Support case is closed
 
-It also lists who can create support cases and what permissions are granted to Microsoft Support engineers.
+This article also lists who can create support cases and what permissions are granted to Microsoft Support engineers.
 
 > [!NOTE]
+> This article is designed for enterprise admins and IT Pros. 
 >
-> To learn how to create a support case, see [Get support for Microsoft 365 for business](get-help-support.md).
+> If you're a business user and you need technical support, see [Get support for Microsoft 365 for business](get-help-support.md).
 >
-> If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/contactus).
+> If you're a home user and you need help, see [Contact us](https://support.microsoft.com/contactus).
 
 ## What happens when a Microsoft 365 support case is created?
 

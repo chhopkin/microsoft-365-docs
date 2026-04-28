@@ -149,7 +149,7 @@ We can then trigger policy such as approve, trigger MFA, or block authentication
 
 Again, Microsoft 365 provides protection for the Optimize marked endpoints in various layers in the service itself, [outlined in this document](/office365/Enterprise/office-365-malware-and-ransomware-protection). As noted, it's vastly more efficient to provide these security elements in the service itself rather than try to do it in line with devices that may not fully understand the protocols/traffic. By default, SharePoint [automatically scans file uploads](../security/office-365-security/anti-malware-protection-for-spo-odfb-teams-about.md) for known malware
 
-For the previously described Exchange endpoints, [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about) and [Microsoft Defender for Microsoft 365](/defender-office-365/mdo-about) do an excellent job of providing security of the traffic to the service.
+For the previously described Exchange endpoints, [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about) and [Microsoft Defender for Office 365](/defender-office-365/mdo-about) do an excellent job of providing security of the traffic to the service.
 
 ### Can I send more than just the Optimize traffic direct?
 

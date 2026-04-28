@@ -10,6 +10,7 @@ ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-copilot
+ms.subservice: reporting
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
@@ -45,6 +46,10 @@ This article applies to:
 - Users must have [Microsoft Entra ID](/microsoft-365/admin/add-users/add-users) accounts. You can add or sync users using the [onboarding wizard in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?Q=m365setup#/modernonboarding/identitywizard).
 
 - Microsoft 365 Copilot is only supported on primary mailboxes that are hosted on Exchange Online.
+
+> [!NOTE]
+> Chat experiences in Word, Excel, PowerPoint vary depending on your tenant configuration and license. Learn more in [Microsoft 365 copilot overview](microsoft-365-copilot-overview.md#copilot-features-in-microsoft-365-apps).
+> If you'd like to enable users with priority access to these capabilities, learn more about [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise).
 
 ## App requirements
 
@@ -127,7 +132,7 @@ Several Copilot integrations rely on WebSockets (WSS) to deliver a streamlined u
 
 Some organization might prefer to use granular definitions of endpoints, like individual FQDNs, instead of wildcards to configure their network settings. Due to hyperscale and the dynamic nature of its services, Microsoft 365 can't provide specific FQDNs used by individual features and scenarios. Doing so would result in unmanageable configuration surface, constant customer network changes, and connectivity incidents.
 
-When you review and implement the recommended network configurations, consider all the FQDNs and subdomains where wildcards are specified. These wildcards include functionally that the referenced scenarios require.
+When you review and implement the recommended network configurations, consider all the FQDNs and subdomains where wildcards are specified. These wildcards include functionality that the referenced scenarios require.
 
 ✅ **cloud.microsoft domain**:
 

@@ -58,7 +58,7 @@ The following steps elevate partner tenant users to time-scoped higher privilege
 
 1. Create a role-assignable group as described in the article [Create a group for assigning roles in Microsoft Entra ID](/azure/active-directory/roles/groups-create-eligible).
 
-2. Go to [Microsoft Entra ID – All Groups](https://portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) and add the new group as a member of a security group for high-privilege roles (for example, Admin Agents security group for DAP or a similarly respective security group for GDAP roles).
+2. Go to [Microsoft Entra ID - All Groups](https://portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) and add the new group as a member of a security group for high-privilege roles (for example, Admin Agents security group for DAP or a similarly respective security group for GDAP roles).
 
 3. Set up privileged access to the new group as described in the article [Assign eligible owners and members for privileged access groups](/azure/active-directory/privileged-identity-management/groups-assign-member-owner).
 

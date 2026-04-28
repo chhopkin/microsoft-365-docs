@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: dansimp
-ms.date: 03/13/2026
+ms.date: 03/27/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -45,9 +45,9 @@ To sign up and purchase Microsoft 365 Business Standard, complete the following 
 
 > [!NOTE]
 >
-> As Microsoft 365 evolves, changes, and new features are introduced, the sign-up experience and available options can change. If you don't see the same options described in this article when you sign up, follow the prompts you see on screen. If you have questions or need help, contact support at [Get support](../get-help-support.md).
+> As Microsoft 365 evolves, changes, and new features are introduced, the sign-up experience and available options can change. Additionally, the sign-up experience might vary depending on your region and the type of subscription you choose. If you don't see the same options described in this article when you sign up, follow the prompts you see on screen. If you have questions or need help, contact support at [Get support](../get-help-support.md).
 
-1. On the [Microsoft 365 for business page](https://go.microsoft.com/fwlink/?linkid=2109654), select **Compare plans & pricing**.
+1. Navigate to the [Microsoft 365 for business](https://go.microsoft.com/fwlink/?linkid=2109654) page and then select **Compare plans & pricing**.
 
 1. On the **Find the best Microsoft 365 plan for your business** section of the page, select between **Business plans** and **Plans with Copilot**, and between **With Teams** and **Without Teams** depending on the type of plan you're interested in.
 
@@ -57,13 +57,22 @@ To sign up and purchase Microsoft 365 Business Standard, complete the following 
     >
     > Comparison charts and tables are available in the [Choose the right Microsoft 365 business subscription](#choose-the-right-microsoft-365-business-subscription) section of this article to help you choose the right plan for your business.
 
-1. At the **Let's get you started** page, enter an email address that Microsoft can use to communicate with you during setup. This address also receives billing and renewal notifications.
+1. After selecting **Buy now**, you're taken to the sign-up wizard. The first few pages that the sign-up wizard displays depends on the plan you selected. For example, you might initially see one of the following pages:
 
-    After entering the email address, select **Next**, and then select **Set up account**.
+    - **Let's get you started**.
+    - **Enter your email**.
+    - **Set up your subscription**.
 
-    > [!IMPORTANT]
-    >
-    > The person that signs up for Microsoft 365 for business automatically becomes the technical administrator of the organization. You can add other administrators later to help manage your Microsoft 365 services. For more information, see [Assign admin roles](../add-users/assign-admin-roles.md).
+    Follow the first few pages to complete the initial steps of the sign-up process. These pages ask questions such as:
+
+    - An email address that Microsoft can use to communicate with you during setup.
+    - How many people the subscription is for.
+    - The length of the subscription.
+    - How often you want to be billed.
+
+        > [!IMPORTANT]
+        >
+        > The person that signs up for Microsoft 365 for business automatically becomes the technical administrator of the organization. You can add other administrators later to help manage your Microsoft 365 services. For more information, see [Assign admin roles](../add-users/assign-admin-roles.md).
 
 1. At the **Tell us about yourself** page, enter your information, and then select **Next**.
 
@@ -77,9 +86,11 @@ To sign up and purchase Microsoft 365 Business Standard, complete the following 
 
 1. At the **Add payment method** page, enter your payment information, and then select **Save**.
 
-1. Continue stepping through the wizard. On the **Confirmation details** page, you see information about your subscription.
+1. At the **Review and place order** page, review your order details, select the box to agree to the billing terms, and then select **Place order**.
 
-1. To setup and configure your Microsoft 365 environment, use the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). With the Microsoft 365 admin center, you can perform the following tasks:
+1. Information about your subscription is displayed on the **Confirmation details** page. You might want print or save this page for your records.
+
+1. Use the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) to set up and configure your Microsoft 365 environment. With the Microsoft 365 admin center, you can perform the following tasks:
 
     - Add users.
     - Install Microsoft 365 productivity apps.
@@ -161,7 +172,6 @@ To add a domain and create a business email account, see the following articles:
 
 - [Set up Microsoft 365 Business Standard](../setup/setup-business-standard.md).
 - [Add a domain to Microsoft 365](../setup/add-domain.md).
-- [Finish setting up](../setup/setup-business-standard.md#finish-setting-up).
 
 ## Microsoft 365 Business Standard Frequently asked questions (FAQ)
 

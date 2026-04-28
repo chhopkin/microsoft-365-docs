@@ -6,6 +6,7 @@ manager: scotv
 ms.date: 09/02/2025  
 ms.topic: how-to
 ms.service: microsoft-365-copilot  
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection: CopilotSearch
 ms.custom: QuickDraft  

@@ -26,6 +26,7 @@ ms.custom:
 - business_assist
 - has-azure-ad-ps-ref
 - azure-ad-ref-level-one-done
+- user-accounts
 description: "Create a shared mailbox to enable multiple users in your business to share the responsibility of reading and answering email sent to one address."
 ---
 

@@ -3,7 +3,6 @@ title: "Microsoft 365 Copilot features adoption using organizational messages"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 03/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -27,6 +26,7 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how you can use organizational messages to help with the adoption of Microsoft 365 Copilot."
+ms.date: 03/18/2025
 ---
 
 # Microsoft 365 Copilot features adoption using organizational messages

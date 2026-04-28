@@ -1,17 +1,14 @@
 ---
 title: Sign in and set up Microsoft 365 Business Premium
 description: "How to set up Microsoft 365 Business Premium or work with a solution provider to do so."
-search.appverid: MET150
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-admin
 ms.date: 06/07/2024
 ms.localizationpriority: medium
 ms.reviewer: nehabha
-f1.keywords: NOCSH
 ms.collection:
 - m365-security
 - tier2

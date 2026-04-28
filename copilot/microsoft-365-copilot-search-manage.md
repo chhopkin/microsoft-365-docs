@@ -5,7 +5,8 @@ ms.author: efrene
 manager: scotv
 ms.date: 12/15/2025
 ms.topic: overview
-ms.service: microsoft-365-admin
+ms.service: microsoft-365-copilot
+ms.subservice: admin
 ms.localizationpriority: medium
 ms.collection:
 - CopilotSearch

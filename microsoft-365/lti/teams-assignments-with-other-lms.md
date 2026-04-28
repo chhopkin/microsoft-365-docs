@@ -11,6 +11,7 @@ ms.service: microsoft-365-education
 ms.collection:
 - m365-education
 - all-education
+- mesg
 ---
 
 # Use Microsoft Teams Assignments with any LTI 1.3® Advantage compliant LMS/VLE
