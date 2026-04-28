@@ -30,7 +30,7 @@ At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real E
 
 - Create a Facilities Ticket (Facilities), for example, "I want to report a water leak"
 - Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3"
-- View food stations or counters by cuisine (Dining), for example, "Where can I find Chinese food?"
+- View food stations or counters by cuisine (Dining), for example, Where can I find Chinese food?
 - Invite a Guest (Lobby), for example "I want to invite my spouse to Building 32".
 
 The following section shows how a maker in Copilot Studio can extend Employee Self-Service to support Dining related scenarios.
@@ -90,7 +90,7 @@ HTTP request action reference: [HTTP with Microsoft Entra ID (preauthorized) - C
 
 Every café is comprised of multiple stations, and each station is a dedicated area serving a specific type of food or beverage (for example. Espresso, Deli, Dim Sum). These stations give employees choices within the same café.
 
-With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine (for example."Where can I find Chinese food?") and get stations serving that cuisine.
+With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine (for example. Where can I find Chinese food?) and get stations serving that cuisine.
 
 The employees save time, skip the hassle, and make every meal a choice they love.
 
@@ -106,7 +106,7 @@ The employees save time, skip the hassle, and make every meal a choice they love
 
    c. Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml), and close the editor
 
-   d. Update the HTTP API URL in the code sample. Search for “kind: HttpRequestAction”. You see a code that sets a value to a variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
+   d. Update the HTTP API URL in the code sample. Search for kind: HttpRequestAction. You see a code that sets a value to a variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
 
    :::image type="content" source="media/facilities-dining-update-api-url.png" alt-text="Screenshot showing how to update API url in the topic.":::
 
