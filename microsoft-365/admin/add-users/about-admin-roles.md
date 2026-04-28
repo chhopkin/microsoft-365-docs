@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 04/27/2026
+ms.date: 04/28/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-admin
@@ -59,7 +59,7 @@ Because administrators have access to sensitive data and files, we recommend tha
 | Assign the *least permissive* role    | Assigning the *least permissive* role means giving administrators only the access they need to get the job done. For example, if you want someone to reset user passwords you shouldn't assign the unlimited global administrator role; instead, you should assign a limited administrator role, like Password Administrator or Helpdesk Administrator. See [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task). |
 | Require multifactor authentication (MFA) for administrators   |  It's a good idea to require MFA for all of your users, especially administrators. MFA makes users use a second method of identification to verify their identity. Administrators can have access to user data, such as their name, email address, location, and so on. If you require MFA, even if the administrator's password gets compromised, the password alone isn't sufficient to sign in without another method of identification.  <br><br>When you turn on MFA, the next time the user signs in, they'll need to provide an alternate email address and phone number for account recovery.  <br> [Set up multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)   |
 
-If you get a message in the Microsoft 365 admin center that you don't have permissions to edit a setting or page, it's because you're assigned to a role that doesn't have that permission. In this case, take one or more of the following actions:
+If you get a message in the Microsoft 365 admin center that indicates you don't have permission to edit a setting or page, it's because you're assigned to a role that doesn't have that permission. In this case, take one or more of the following actions:
 
 - Talk to another administrator to assign you the correct permissions.
 - Learn more about how administrator roles are assigned. See [Assign administrator roles](assign-admin-roles.md).
