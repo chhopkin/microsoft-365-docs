@@ -1,5 +1,5 @@
 ---
-title: "Extend Employee Self-Service agent: Search Dining feed stations"
+title: "Extend Employee Self-Service agent: Search  food stations"
 f1.keywords: NOCSH
 ms.author: heidip
 author: prsarnaik
@@ -18,26 +18,26 @@ appliesto:
   - ✅ Microsoft 365 Copilot
 ---
 
-# Extend Employee Self-Service agent: Search Dining feed stations
+# Extend Employee Self-Service agent: Search food stations
 
-The Employee Self-Service Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
+The Employee Self-Service Copilot agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
-An organization may seek to enhance Employee Self-Service Copilot Agent by integrating extra capabilities. These capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
+An organization may seek to enhance Employee Self-Service Copilot agent by integrating extra capabilities. These capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
 
-To support these needs, Employee Self-Service Copilot Agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new one tailored to your organization.
+To support these needs, Employee Self-Service Copilot agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new one tailored to your organization.
 
-At Microsoft, we extended Employee Self-Service Copilot Agent to bring in Real Estate and Facilities related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
+At Microsoft, we extended Employee Self-Service Copilot agent to bring in Real Estate and Facilities (RE&F) related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
 
-- Create a Facilities Ticket (Facilities), for example, "I want to report a water leak"
-- Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3"
+- Create a Facilities Ticket (Facilities), for example, "I want to report a water leak".
+- Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3".
 - View food stations or counters by cuisine (Dining), for example, Where can I find Chinese food?
 - Invite a Guest (Lobby), for example "I want to invite my spouse to Building 32".
 
-The following section shows how a maker in Copilot Studio can extend Employee Self-Service to support Dining related scenarios.
+The following section shows how a maker in Copilot Studio can extend Employee Self-Service to support Dining related scenarios. Before diving into the maker experience, it's important to understand what real estate and facilities are and how they support employees.
 
 ## Real Estate & Facilities
 
-Real Estate and Facilities (RE&F) play a pivotal role in shaping the overall employee experience within an organization. By integrating Real Estate and Facilities services into Employee Self-Service platforms, companies can streamline access to essential workplace amenities and administrative tasks, making daily operations more efficient and user-friendly for employees.
+RE&F play a pivotal role in shaping the overall employee experience within an organization. By integrating RE&F services into Employee Self-Service platforms, companies can streamline access to essential workplace amenities and administrative tasks, making daily operations more efficient and user-friendly for employees.
 
 For instance, features like - vehicle registration, facilities tickets for maintenance requests, access to café menus, and streamlined guest invitation processes empower employees to manage their work environment proactively. These capabilities reduce administrative overhead, minimize wait times, and improve satisfaction by giving employees greater control and visibility over their workplace needs.
 
@@ -45,11 +45,11 @@ Moreover, such integrated experiences foster a sense of belonging and engagement
 
 Ultimately, the seamless blend of real estate and facilities management with employee-centric digital solutions helps organizations attract, retain, and motivate talent by prioritizing their day-to-day comfort and efficiency.
 
-Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot Agent to allow employees to view food stations or counter by cuisine through the Employee Self-Service Copilot Agent.
+Now that we covered the fundamentals, let’s walk through a practical example. In the following sections, we extend the Employee Self-Service Copilot agent to allow employees to view food stations or counter by cuisine through the Employee Self-Service Copilot agent.
 
 ## Prerequisites
 
-To extend the Employee Self-Service Copilot Agent with a custom topic for your Real Estate integration, ensure the following prerequisites are met:
+To extend the Employee Self-Service Copilot agent with a custom topic for your Real Estate integration, ensure the following prerequisites are met:
 
 - Employee Self-Service Copilot agent is installed in Copilot Studio.
 - Maker access to a sandbox or preproduction environment in Copilot Studio.
@@ -59,7 +59,7 @@ To extend the Employee Self-Service Copilot Agent with a custom topic for your R
 
 ## Fundamentals
 
-Extending Employee Self-Service for Real Estate and Facilities experiences requires an understanding of a few key building blocks: **topics, adaptive cards, and connectors**. Together, these building blocks define how conversational scenarios are designed and how they interact with Real Estate and Facilities services.
+Extending Employee Self-Service for RE&F experiences requires an understanding of a few key building blocks: **topics, adaptive cards, and connectors**. Together, these building blocks define how conversational scenarios are designed and how they interact with RE&F services.
 
 ### Topics
 
@@ -70,8 +70,6 @@ In Copilot Studio, a topic is defined as a workflow of a conversation. Microsoft
 - Trigger an HTTP API call to the backend Dining APIs.
 - Interpret the backend API response and return the relevant outcome to the user in natural language.
 
-In the following section, we demonstrate how a maker in Copilot Studio can extend the Employee Self-Service Copilot Agent to support Dining related scenarios.
-
 ### Adaptive Cards
 
 Adaptive cards are platform-agnostic UI snippets authored in JSON. They help create interactive and visually appealing cards to capture user inputs while maintaining the conversational flow.
@@ -80,7 +78,7 @@ Adaptive cards are platform-agnostic UI snippets authored in JSON. They help cre
 
 Connectors enable you to connect the agent with other apps, data, and devices in the cloud.
 
-For this example of viewing food stations by cuisines, we assume the Dining service is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for viewing food stations.
+For this example of search food stations, we assume the Dining service is a custom solution built on Azure. The HTTP connector is used to connect to backend APIs for viewing food stations.
 
 For supported connectors, see: [Connector reference overview](/connectors/connector-reference/)
 
@@ -88,11 +86,14 @@ HTTP request action reference: [HTTP with Microsoft Entra ID (preauthorized) - C
 
 ## Example: Search Food Stations by Category
 
-Every café is composed of multiple stations, and each station is a dedicated area serving a specific type of food or beverage (for example. Espresso, Deli, Dim Sum). These stations give employees choices within the same café.
+In this scenario, an employee needs to search food stations before ordering food, for example, search for American food stations.
 
-With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine and get stations serving that cuisine (for example. Where can I find Chinese food?).
+Through the Employee Self-Service agent, the employee can ask - Where can I find Chinese food?. The Employee Self-Service agent finds stations serving their preferred cuisine across the office campus. The employees save time, skip the hassle, and make every meal a choice they love.
 
-The employees save time, skip the hassle, and make every meal a choice they love.
+The implementation includes the following steps:
+
+- **Create a topic**: Define the conversation flow for searching food stations, including triggers, prompts, and instructions.
+  Validate API responses, handle errors as required, and provide user feedback.
 
 ### Create a Topic
 
@@ -100,11 +101,9 @@ The employees save time, skip the hassle, and make every meal a choice they love
 
    a. In Copilot Studio, select **\*Add a topic > From blank**.
 
-   :::image type="content" source="media/facilities-dining-create-new-topic.png" alt-text="Screenshot showing how create a new topic in Copilot Studio.":::
-
    b. Once inside the topic, select Open code editor.
 
-   c. Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml), and close the editor
+   c. Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml), and close the editor.
 
    d. Update the HTTP API URL in the code sample. Search for kind: HttpRequestAction. You see a code that sets a value to a variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
 
@@ -116,7 +115,7 @@ The employees save time, skip the hassle, and make every meal a choice they love
 
    a. Open the visual representation of the topic and verify the end-to-end flow.
 
-   b. To identify any static issues, run Topic checker
+   b. To identify any static issues, run Topic checker.
 
    c. Optionally, follow the next section (Review the topic workflow) for a guided walkthrough of what to verify.
 
@@ -126,7 +125,7 @@ The employees save time, skip the hassle, and make every meal a choice they love
 
    b. Ask a question such as Where can I find Chinese food?
 
-   c. After submission, the Employee Self-Service Copilot Agent displays Chinese food options.
+   c. After submission, the Employee Self-Service Copilot agent displays Chinese food options.
 
 ### Review the topic workflow
 
@@ -165,6 +164,8 @@ If the API fails, it returns an empty response. In this case, the conditional bl
 ### When I save my topic, it shows errors saying it can't find certain variables. What do I do?
 
 Go to the **Variables** tab and verify all variables (topic and environment) are declared.
+
+:::image type="content" source="media/facilities-dining-faq-variables.png" alt-text="Screenshot showing the way to check all the variables.":::
 
 ### How are error conditions handled?
 

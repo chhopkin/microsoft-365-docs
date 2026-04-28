@@ -91,7 +91,7 @@ items:
         href: facilities-parking-register-vehicle.md
       - name: Create a facilities ticket
         href: facilities-fm-create-ticket.md
-      - name: Search Dining food stations
+      - name: Search food stations
         href: facilities-dining-search-food-stations.md
 
   - name: Usage analytics
