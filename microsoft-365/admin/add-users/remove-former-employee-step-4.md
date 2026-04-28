@@ -23,6 +23,7 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - m365solution-removeemployee
+- user-accounts
 description: "Forward a former employee's email to another employee or convert it to a shared mailbox where several people are able to access it instead of one person."
 ---
 

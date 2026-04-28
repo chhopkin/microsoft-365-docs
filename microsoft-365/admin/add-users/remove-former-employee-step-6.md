@@ -23,6 +23,7 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - m365solution-removeemployee
+- user-accounts
 description: "You can remove a former employee's Microsoft 365 license, and then delete it from your subscription or assign the license to another user."
 ---
 
