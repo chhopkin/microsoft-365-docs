@@ -34,6 +34,8 @@ This article explains reservation restrictions, the online services available fo
 - You must have an agreement type of Enterprise, Enterprise Subscription, or Enterprise Agreement (EA) for Government Partners.
 - If you're a Licensing Solution Partner, you must be added as a VL external user and be granted the OSM role by a customer VL Administrator before you can make reservations on behalf of that customer.
 
+- All Reservations usage dates start at midnight Pacific Standard Timezone (PST). 
+
 > [!NOTE]
 > Placing a volume licensing reservation is a different action from assigning the licenses to users. You must contact your Global Administrator for seat assignment.
 
@@ -44,7 +46,8 @@ License Reservations have the following restrictions:
 - Only online services are eligible for License Reservation orders.
 - A reservation order is a financial obligation that's realized during the annual true-up order process, based on the reservation usage date and the quantity of licenses reserved.
 - You can place a reservation order for the current date or for a date that is no more than six months in the future.
-- You can cancel reservation orders up to 72 hours from the start of the usage date (weekends and holidays included).
+- You can cancel reservation orders up to 72 hours from the start of the usage date, defined as midnight Pacific Standard Timezone (PST), including weekends and holidays.
+
 - Reservations can't be made if the enrollment is expired or is in the last 30 days of the agreement anniversary. Instead, consult your Microsoft Reseller about ordering options.
 
 > [!NOTE]
@@ -55,7 +58,8 @@ License Reservations have the following restrictions:
 To reduce the risk that customers unintentionally order incorrect or incompatible services, not all Microsoft services are available to reserve in the admin center. The following list explains the three types of available services:
 
 1. Standard online services are available to EA customers on the VL <a href="https://go.microsoft.com/fwlink/p/?linkid=2297441" target="_blank">Reservations</a> page in the admin center.
-2. A second category of services is only available if customers have either a prior purchase or preagreed pricing for that service.
+1. A second category of services is only available if customers have either a prior purchase or pre-agreed pricing for that service.
+
 3. A third category of more complex services isn't configured for online reservation and must be ordered via your Microsoft partner or seller.
 
 If you want to use a Microsoft online service not listed on the **Reservations** page, contact your Microsoft seller or Licensing Solution Partner for help with placing the necessary purchase order.
@@ -84,19 +88,32 @@ If you have any questions that relate to invoices resulting from the reconciliat
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a> go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">**Your products**</a> page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
 2. In the **Reservations** section, select **Make reservations**.
 3. From your list of Enterprise Agreement **contracts available for reservation**, select an active agreement, then select **Confirm** to proceed with the online reservation.
-4. For **Usage Date**, select the first date when the reserved licenses will be used and then select **View services**.
+1. For **Usage Date**, select the first date when the reserved licenses will be used and then select **View services**. 
 
    > [!NOTE]
-   >
+   > - All volume licensing Reservation usage dates are based on the **PST** (Pacific Standard Time) timezone.  Customers may need to select the previous date to ensure services are made available in their local time.
    > - Selecting a usage date within 60 days of your anniversary date might affect your ability to step-up to higher edition licenses. Speak with your Microsoft partner or seller first.
-   > - You can’t place a reservation within 30 days of the agreement's anniversary date.
-   > - After you make a reservation, you can't edit it. However, you can [cancel a reservation](#cancel-a-license-reservation-order) up to 72 hours from the start of the usage date (weekends and holidays included).
+   > - Customers can’t place a reservation within 30 days of the agreement's end date. Instead, ask your partner or seller to submit an order on your behalf. 
+- After you make a reservation, you can't edit it. However, you can [cancel a reservation](#cancel-a-license-reservation-order) up to 72 hours from the start of the usage date (weekends and holidays included).
 
+   
 5. Select **Add services** to see a list of online services available for reserving online.
 6. Select the online services that you want to reserve, then select **Add services**.
 7. A list of selected line services is displayed. For each service, select **add usage** in the **Actions** column. Then, select the usage country/region and the **number of licenses** you want to reserve and **confirm**.
 8. Review the reservation for accuracy, use **Add services** or **Remove services**, if needed, then select **Reserve services**.
 9. The **Reservation Confirmation** pop-up window displays. You must first **accept and agree** to the terms of services before you can select **Place Reservation**. Your online reservation is complete.
+
+## Volume Licensing Reservation Usage Dates
+
+- The Usage Date in a volume licensing reservation is the date when the service should be available for use on the Microsoft 365 admin center.
+
+- All reservation usage dates start at midnight **Pacific Standard Time (PST)**.  
+
+- Customers whose local time zone is __**one day ahead of PST**__ see an option to select the __previous date__ in the reservation calendar.  This should be used to ensure that the services are available in the right "local time".    
+
+- If the selected usage date is a future date, the services will not be made available before the commencement of the usage date. 
+
+- If the usage date is more than 24 hours ago and the services are not yet available, please contact volume licensing support.
 
 ## Cancel a License Reservation order
 
@@ -113,8 +130,8 @@ You can cancel a previously submitted reservation within 72 hours of the usage d
 
 1. In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">**Your products**</a> page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
 2. In the **Reservations** section, select **View Reservations**.
-3. In the search bar, search for the reservation order that you want to view details for. You can search by Reservation ID, Licensing Contract ID, or organization.
-4. In the **Action** column, select the **Details** button to the view details.
+1. In the search bar, search for the reservation order that you want to view details for. You can search by Reservation ID, Licensing Contract ID, or organization.
+1. In the **Action** column, select the **Details** button to the view details.
 
 ## Contact volume licensing support
 
