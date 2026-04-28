@@ -14,6 +14,7 @@ ms.collection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "The steps for running a migration using the Microsoft 365 migration orchestrator."
+ms.custom: tenant
 ---
 
 # Running the migration
