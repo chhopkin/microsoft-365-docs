@@ -107,13 +107,13 @@ This section outlines the options available to block insecure authentication met
 
 ### Exchange Web Services requirements
 
-Before you disable EWS, make sure that you have the required build to avoid disruption of Office Add-ins. **Build 16.0.19127** is the first build with the baseline security mode feature.
+Before you disable EWS, make sure that you have the required build to avoid disruption of Office Add-ins. **Build 16.0.19725** is the first build with the baseline security mode feature.
 
 Here's when that build reaches the various update channels:
 
 - Current Channel (CC): Currently available.
-- Monthly Enterprise Channel (MEC): October 2025.
-- Semi-Annual Enterprise Channel (SAC): January 2026.
+- Monthly Enterprise Channel (MEC): Currently available.
+- Semi-Annual Enterprise Channel (SAC): July 2026.
 - Teams panels: To avoid disruption, update your devices Teams app version 1449/1.0.97.2025120101, which was shipped in September 2025.
 
 > [!NOTE]
