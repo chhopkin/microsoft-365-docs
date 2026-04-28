@@ -371,6 +371,10 @@ If the agent has multiple instances associated with it, the flyout initially dis
 
 To support further investigation, admins can select the **Review** link. The **Review** link redirects to the respective security portals where further action can be taken.
 
+> [!NOTE]
+>
+> After selecting the **Review** link, you're taken to the respective security platform. If you're presented with a **Welcome** message window at the security platform, make sure to select the **Get started** button to see the relevant security alerts related to the agent. If the **Welcome**message window is instead closed or another option is selected other than **Get started**, you might not see the relevant security alerts related to the agent.
+
 > [!IMPORTANT]
 >
 > - The **Risks** column only shows high severity risks flagged by the respective platforms. Zero risks is an indication that there are no high risks presently for the agent. However, there could be other types of risks, such as low or medium, in the respective security platforms.
