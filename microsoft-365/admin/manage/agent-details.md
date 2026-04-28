@@ -67,20 +67,21 @@ The following table provides agent tabs based on agent capability:
 
 | Agent tab | Description |
 |---|---|
-| **[Overview](#agent-overview-tab)** | This tab provides a description, instructions, status, and other general details about the agent. |
-| **[Users](#agent-users-tab)** | This tab allows you to view and select the allowed users that the agent has been published to. |
+| **[Details](#agent-details)** | This tab provides a description, instructions, status, and other general details about the agent. |
+| **[Users](#agent-users)** | This tab allows you to view and select the allowed users that the agent has been published to. |
 | **[Data & Tools](#agent-data--tools)** |  This tab provides details about Microsoft Purview protections, such as capabilities, knowledge sources, and tools available to the agent. Also, provides Microsoft Entry   protection details, such as Agent User ID and Agent ID. |
 | **[Security](#agent-security)** | This tab provides details about monitoring agent activity, protecting sensitive   data, and evaluating compliance gaps. |
 | **[Permissions](#agent-permissions)** | This tab allows you to review and grant permission to data the agent can access and perform actions on. For more information, see [Agent permissions](#agent-permissions). |
-| **[Connect Agents](#connected-agents-tab)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
-| **[Custom tools & knowledge](#custom-tools--knowledge-tab)** | This tab helps you extend the selected agent by copying the skills and knowledge from up to one other agent. When you select an agent to extend from, the skills and knowledge from   that agent will be available in the selected agent. |
-| **[Computer use](#computer-use-tab)** | This tab is used to allow the selected agent to perform action on behalf of the users and also access work data. Additionally, you can choose which websites are   allowed for **Computer use**. Note that Web search is required for **Computer use**. |
+| **[Activity](#agents-activity)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
+| **[Connect Agents](#connected-agents)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
+| **[Custom tools & knowledge](#custom-tools--knowledge)** | This tab helps you extend the selected agent by copying the skills and knowledge from up to one other agent. When you select an agent to extend from, the skills and knowledge from   that agent will be available in the selected agent. |
+| **[Computer use](#computer-use)** | This tab is used to allow the selected agent to perform action on behalf of the users and also access work data. Additionally, you can choose which websites are   allowed for **Computer use**. Note that Web search is required for **Computer use**. |
 
-## Agent overview tab
+## Agent details
 
-The **Overview** tab provides details about the agent's intended purpose. This tab contains the agent's description, instructions, publish status, availability, publisher, deployment, agent type, channel, platform, last updated, sensitivity, and version. Use this tab to assess the agents general capabilities and state.
+The **Details** tab provides details about the agent's intended purpose. This tab contains the agent's description, instructions, publish status, availability, publisher, deployment, agent type, channel, platform, last updated, sensitivity, and version. Use this tab to assess the agents general capabilities and state.
 
-## Agent users tab
+## Agent users
 
 You can control how agents created in your organization are made available across your organization. You can configure the following agent availability options: 
 
@@ -116,68 +117,6 @@ To set an individual agent's availability and installation settings, use the fol
    - All users in the organization can install
    - Specific users/groups can install
 1. Select **Update** to save these settings.
-
-## Agent permissions
-
-In the Microsoft 365 admin center, when granting permissions to agents, consider two types of permissions:
-
-- **Application Permissions**
-- **Delegated Permissions**
-
-Each permission type grants different actions that agents can perform on behalf of users, depending on the scope of the access. This section explains these two types of permissions and provides an overview of the common permissions available.
-
-### Application Permissions
-
-**Application Permissions** let the agent access data and perform actions without requiring a user to sign in. These permissions let agents do tasks without needing a user to be signed in, like reading directory data, managing teams, or sending messages.
-
-Key features of application permissions:
-
-- **No user context required** - The agent can operate without an active user session.
-- **Wide-reaching capabilities** - Agents with application permissions can act at the organizational level, allowing access to a large range of data.
-- **Administrator consent required** - Administrator consent is typically required for granting application permissions.
-
-#### Common Application Permissions
-
-| Permission | Details |
-| --- | ---|
-| **Group.Read.All** | Read all groups in the organization. |
-| **TeamsActivity.Send** | Send a teamwork activity to any user. |
-| **RoleManagement.Read.Directory**| Read all directory role-based access control (RBAC) settings. |
-| **User.Read.All** | Read all users' full profiles. |
-| **Team.ReadBasic.All** | Get a list of all teams in the organization. |
-
-### Delegated Permissions
-
-**Delegated Permissions** allow the agent to act on behalf of a user when the user is signed in. These permissions provide access to user-specific data and allow agents to perform actions in the context of a particular user.
-
-Use delegated permissions for applications where the agent interacts directly with the user's data or takes actions on their behalf.
-
-#### Key features of delegated permissions
-
-- **User context required** - The agent performs actions with the signed-in user's permission.
-- **Granular access** - These permissions are typically more restricted, limiting access to only the user's data.
-- **User consent might be required** - Depending on the permissions, users might need to grant consent for the application to act on their behalf.
-
-#### Common delegated permissions
-
-| Permission | Details |
-| --- | --- |
-| **User.ReadBasic.All** | Read all users' basic profiles. |
-| **TeamsActivity.Send** | Send a teamwork activity to any user. |
-| **RoleManagement.Read.Directory** | Read all directory role-based access control (RBAC) settings. |
-| **User.Read.All** | Read all users' full profiles. |
-| **Team.ReadBasic.All** | Get a list of all teams. |
-
-### View permissions of an agent
-
-You can find the details of all types of permissions in the **Permissions** tab on the agent details page.
-
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
-1. Select a deployed agent from the list.
-1. In the agent details pane that opens, select the **Permissions** tab to view all the permissions granted to the agent.
-
-    :::image type="content" source="../../media/agents/agent-permissions.png" alt-text="Screenshot showing the Permissions tab on the agent details page in the Microsoft 365 admin center." lightbox="../../media/agents/agent-permissions.png":::
 
 ## Agent data & tools
 
@@ -297,17 +236,140 @@ Protection for sensitive data helps prevent leaks and oversharing. You can view 
 
 If the selected agent has an AI baseline assessment available, you can evaluate compliance gaps for your agent. For more information, see [Microsoft Purview Compliance Manager](/purview/compliance-manager).
 
-## Connected agents tab
+## Agent permissions
 
-The **Connected Agents** tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access.
+In the Microsoft 365 admin center, when granting permissions to agents, consider two types of permissions:
 
-### Add connected agents to an existing agent
+- **Application Permissions**
+- **Delegated Permissions**
+
+Each permission type grants different actions that agents can perform on behalf of users, depending on the scope of the access. This section explains these two types of permissions and provides an overview of the common permissions available.
+
+### Application Permissions
+
+**Application Permissions** let the agent access data and perform actions without requiring a user to sign in. These permissions let agents do tasks without needing a user to be signed in, like reading directory data, managing teams, or sending messages.
+
+Key features of application permissions:
+
+- **No user context required** - The agent can operate without an active user session.
+- **Wide-reaching capabilities** - Agents with application permissions can act at the organizational level, allowing access to a large range of data.
+- **Administrator consent required** - Administrator consent is typically required for granting application permissions.
+
+#### Common Application Permissions
+
+| Permission | Details |
+| --- | ---|
+| **Group.Read.All** | Read all groups in the organization. |
+| **TeamsActivity.Send** | Send a teamwork activity to any user. |
+| **RoleManagement.Read.Directory**| Read all directory role-based access control (RBAC) settings. |
+| **User.Read.All** | Read all users' full profiles. |
+| **Team.ReadBasic.All** | Get a list of all teams in the organization. |
+
+### Delegated Permissions
+
+**Delegated Permissions** allow the agent to act on behalf of a user when the user is signed in. These permissions provide access to user-specific data and allow agents to perform actions in the context of a particular user.
+
+Use delegated permissions for applications where the agent interacts directly with the user's data or takes actions on their behalf.
+
+#### Key features of delegated permissions
+
+- **User context required** - The agent performs actions with the signed-in user's permission.
+- **Granular access** - These permissions are typically more restricted, limiting access to only the user's data.
+- **User consent might be required** - Depending on the permissions, users might need to grant consent for the application to act on their behalf.
+
+#### Common delegated permissions
+
+| Permission | Details |
+| --- | --- |
+| **User.ReadBasic.All** | Read all users' basic profiles. |
+| **TeamsActivity.Send** | Send a teamwork activity to any user. |
+| **RoleManagement.Read.Directory** | Read all directory role-based access control (RBAC) settings. |
+| **User.Read.All** | Read all users' full profiles. |
+| **Team.ReadBasic.All** | Get a list of all teams. |
+
+### View permissions of an agent
+
+You can find the details of all types of permissions in the **Permissions** tab on the agent details page.
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
+1. Select a deployed agent from the list.
+1. In the agent details pane that opens, select the **Permissions** tab to view all the permissions granted to the agent.
+
+    :::image type="content" source="../../media/agents/agent-permissions.png" alt-text="Screenshot showing the Permissions tab on the agent details page in the Microsoft 365 admin center." lightbox="../../media/agents/agent-permissions.png":::
+
+## Agent certification
+
+The **Certification** tab provided in the agent's details pane in the Microsoft 365 admin center gives you a single place to review the trust and attestation signals that are available for the selected agent before you deploy the agent across your organization. For Microsoft-built agents and agents from external publishers, this tab surfaces the publisher attestation provided by the agent's developer, along with any Microsoft 365 Certification status that's been earned through Microsoft's app certification program. Publisher attestation captures the developer's self-reported information about how the agent handles data, security, and compliance. Microsoft 365 Certification reflects an independent security and compliance assessment that's valid for 12 months and helps confirm that the agent meets Microsoft's standards for handling tenant data. By reviewing the **Certification** tab alongside the **Overview**, **Data & tools**, and **Security** tabs, you can make an informed governance decision for the agent, where you can approve, deploy, block, or remove the agent. Your decision may largely be based on who built the agent, what it has been validated against, and the level of trust the publisher has documented.
+
+## Agent activity
+
+The **Activity** tab displayed in the agent details of the Microsoft 365 admin center gives you a focused view of how a single agent is being used and how it's performing across the tenant. By default, the metrics on this tab reflect the last 30 days, and you can adjust the date range to scope the view to a different time window. 
+
+Additional details include the following:
+- **Active users** - The number of unique users who interacted with the agent at least once during the selected date range. A user counts as active after a single interaction, regardless of how many times they engage with the agent.
+- **Sessions** - The total count of complete agent invocations in which the agent performed a task, answered a query, or completed an interaction during the selected date range. A session represents one end‑to‑end instance of agent activity initiated by a trigger (such as an email, chat, or @mention) and includes all actions until the session ends.
+- **Exceptions** - The percentage of sessions in the selected date range that completed without errors—that is, where the agent successfully finished the intended task. This metric helps administrators spot reliability issues and investigate agents that are failing to complete work as expected.
+- **Agent run-time** -  The total agent‑assisted time over the selected date range, calculated as the sum of each session's duration (end time minus start time). Use this metric to gauge the overall workload an agent is carrying on behalf of users.
+
+Snapshots provide agent activity:
+- Active users over time
+- Sessions over time
+- Active users
+  - User principal name
+  - Total sessions
+  - Last activity date (UTC)
+
+> [!NOTE]
+> The **Active users** table can be exported to a CSV file. The table also supports pagination.
+
+These signals let you monitor, adoption, measure impact, and identify agents that need your attention. Agent that need your attention may include high excpetion raties, low active-users counts, and long run-times. Activity metrics are currently supported for Microsoft 365 Copilot Agent Builder, SharePoint, and Microsoft 365 Agents Toolkit agent types.
+
+## Agent instances
+
+The **Instances** tab provides a table of instances of the agent across environments. 
+
+The table provides the following columns:
+- Name
+- Email
+- Status
+- Risks
+- Total sessions
+- Owner
+
+## Connected agents
+
+The **Connected Agents** tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. 
+
+> [!IMPORTANT]
+> You must make sure the connected agents are available to everyone who needs access.
+
+The **Connected agents** tab provides a table of agents that are currently connected.
+
+### Add a connected agent
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
+1. Navigate to **Agents** > **All agents** > **Registry**.
+1. Select an agent from the **Registry** list.
+  The agent details will be displayed.
+1. Select the **Connected agents** tab.
+1. Select **Connect agents**.
+1. Using the search box, add the name of the agent to connect.
+1. Select the check-box next to the agent.
+1. Select **Save**.
+
+## Custom tools & knowledge
 
 
 
-## Custom tools & knowledge tab
 
-## Computer use tab
+
+## Computer use
+
+
+
+
+
 
 ## Manage agents with embedded file content as a knowledge source
 
