@@ -69,11 +69,11 @@ If you're new to Microsoft 365, take a moment to get an [Overview of the Microso
 
 |Task|Resources to learn more|
 |---|---|
-|Use Windows Autopilot to set up and preconfigure new devices or to reset, repurpose, and recover devices<br/>(*applies to Microsoft 365 Business Premium*)|[Overview of Windows Autopilot](/mem/autopilot/windows-autopilot)|
+|Use Windows Autopilot to set up and preconfigure new devices or to reset, repurpose, and recover devices<br/>(*applies to Microsoft 365 Business Premium*)|[Overview of Windows Autopilot](/autopilot/overview)|
 |View current status of and manage devices|[Manage devices in Microsoft Defender for Business](/defender-business/mdb-manage-devices)|
 |Onboard devices to Defender for Business|[Onboard devices to Defender for Business](/defender-business/mdb-onboard-devices)|
 |Offboard devices from Defender for Business|[Offboard a device from Defender for Business](/defender-business/mdb-offboard-devices)|
-|Manage devices with Intune|[What does device management with Intune mean?](/mem/intune/fundamentals/what-is-device-management)<br/><br/>[Manage your devices and control device features in Microsoft Intune](/mem/intune/fundamentals/manage-devices)|
+|Manage devices with Intune|[What does device management with Intune mean?](/intune/fundamentals/what-is-device-management)<br/><br/>[Manage your devices and control device features in Microsoft Intune](/intune/fundamentals/manage-devices)|
 
 ## Domains
 

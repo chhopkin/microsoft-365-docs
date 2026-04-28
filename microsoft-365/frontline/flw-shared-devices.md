@@ -101,7 +101,7 @@ For example, you can use a Conditional Access policy to restrict access so that 
 
 ## App protection policies
 
-With mobile application management (MAM) from Intune, you can use [app protection policies](/mem/intune/apps/app-protection-policy) to ensure that data doesn't leak to apps that don't support shared device mode. To help prevent data loss, enable the following app protection policies on shared devices:
+With mobile application management (MAM) from Intune, you can use [app protection policies](/intune/app-management/protection/overview) to ensure that data doesn't leak to apps that don't support shared device mode. To help prevent data loss, enable the following app protection policies on shared devices:
 
 - Disable copy/paste to non-shared device mode enabled apps.
 - Disable local file saving.
@@ -109,7 +109,7 @@ With mobile application management (MAM) from Intune, you can use [app protectio
 
 ## Automatically grant consent to apps for device features
 
-On a shared device, it's important to remove unnecessary screens that could pop up when a user accesses an app the first time. These screens can include prompts to grant the app permission to use device features, such as the microphone or camera, or access location. You can use [app configuration policies in Intune](/mem/intune/apps/app-configuration-policies-use-android#preconfigure-the-permissions-grant-state-for-apps) on Android shared devices to preconfigure app permissions to access device features.
+On a shared device, it's important to remove unnecessary screens that could pop up when a user accesses an app the first time. These screens can include prompts to grant the app permission to use device features, such as the microphone or camera, or access location. You can use [app configuration policies in Intune](/intune/app-management/configuration/configure-managed-android#preconfigure-the-permissions-grant-state-for-apps) on Android shared devices to preconfigure app permissions to access device features.
 
 If you're using a third-party MDM solution, check the documentation for options available to automatically grant consent to apps to access device features.
 
