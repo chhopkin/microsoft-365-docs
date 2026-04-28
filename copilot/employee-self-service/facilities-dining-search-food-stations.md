@@ -88,9 +88,9 @@ HTTP request action reference: [HTTP with Microsoft Entra ID (preauthorized) - C
 
 ## Example: Search Food Stations by Category
 
-Every café is comprised of multiple stations, and each station is a dedicated area serving a specific type of food or beverage (e.g., Espresso, Deli, Dim Sum). These stations give employees choices within the same café.
+Every café is comprised of multiple stations, and each station is a dedicated area serving a specific type of food or beverage (for example., Espresso, Deli, Dim Sum). These stations give employees choices within the same café.
 
-With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine (e.g., _“Where can I find Chinese food?”_) and get stations serving that cuisine.
+With the **“Search stations by category”** feature in the Employee Self-Service Copilot Agent, employees can easily find stations serving their preferred cuisine across the office campus. Employees can mention the cuisine (for example., _"Where can I find Chinese food?"_) and get stations serving that cuisine.
 
 The employees save time, skip the hassle, and make every meal a choice they love.
 
@@ -116,7 +116,7 @@ The employees save time, skip the hassle, and make every meal a choice they love
 
    a. Open the visual representation of the topic and verify the end-to-end flow.
 
-   b. Run Topic checker to identify any static issues
+   b. To identify any static issuesy, run Topic checker
 
    c. Optionally, follow the next section (Review the topic workflow) for a guided walkthrough of what to verify.
 
@@ -138,17 +138,17 @@ The employees save time, skip the hassle, and make every meal a choice they love
 
 :::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
 
-3. Validate that the output variable named ‘SearchStationsApiResponse’ is created. Click on the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot below.
+3. Validate that the output variable named SearchStationsApiResponse is created. Click on the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot below.
 
 :::image type="content" source="media/facilities-dining-validate-topic-details-output.png" alt-text="Screenshot showing the output section of the details.":::
 
-4. Post this, Validate the conditional block exists that checks user’s input in the input variable..
+4. Validate the conditional block exists that checks user’s input in the input variable..
 
 :::image type="content" source="media/facilities-dining-validate-condition-block-category.png" alt-text="Screenshot showing the conditional block section of the topic details.":::
 
-5. Next node assigns the station category value, cuisine in our case, if the user enters value in your input variable. For example, if the user mentions “Where can I find Italian food?”. The value “Italian” gets assigned to the input variable.
+5. Next node assigns the station category value, cuisine in our case, if the user enters value in your input variable. For example, if the user mentions “Where can I find Italian food?”. The value Italian gets assigned to the input variable.
 
-6. Post this, the next node makes the API call. Validate that the HttpConnector is calling appropriate API that belongs to your platform.Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We're collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline etc. You should create a schema per your API response for this topic variable. Your API response may have a completely different structure, and you should make sure that structure is taken into consideration.
+6. Validate that the HttpConnector is calling appropriate API that belongs to your platform.Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We're collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline etc. You should create a schema per your API response for this topic variable. Your API response may have a different structure, and you should make sure that structure is taken into consideration.
 
 :::image type="content" source="media/facilities-dining-validate-http-request.png" alt-text="Screenshot showing http request block.":::
 
