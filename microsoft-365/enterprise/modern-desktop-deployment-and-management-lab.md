@@ -112,9 +112,9 @@ The following sections describe the scenarios supported by the lab guides.
 
 - [Windows client deployment resources and documentation](/windows/deployment)
 - [Desktop Deployment series videos from Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
-- [Microsoft Configuration Manager OS Deployment](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
+- [Microsoft Configuration Manager OS Deployment](/intune/configmgr/osd/understand/introduction-to-operating-system-deployment)
 - [Deployment guide for Microsoft 365 Apps](/deployoffice/deployment-guide-microsoft-365-apps)
-- [Getting Started with Intune](/mem/intune/fundamentals/what-is-intune)
+- [Getting Started with Intune](/intune/fundamentals/what-is-intune)
 
 ## Related resources
 

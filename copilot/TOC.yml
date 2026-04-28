@@ -536,6 +536,3 @@ items:
   items:
   - name: Release notes
     href: release-notes.md
-  - name: Connect to Anthropic's AI models
-    href: connect-to-independent-model.md
-

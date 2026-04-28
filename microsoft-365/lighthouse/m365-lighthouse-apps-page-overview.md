@@ -30,7 +30,7 @@ The data only reflects fully managed Windows devices. Data on Bring Your Own Dev
 
 ## Requirements
 
-Devices must be enrolled in Microsoft Intune. For more information on enrollment, see [What is Endpoint analytics?](/mem/analytics/overview) Once a device is enrolled, the Apps page automatically populates with data. It may take up to 48 hours to see updates.
+Devices must be enrolled in Microsoft Intune. For more information on enrollment, see [What is Endpoint analytics?](/intune/endpoint-analytics/) Once a device is enrolled, the Apps page automatically populates with data. It may take up to 48 hours to see updates.
 
 > [!NOTE]
 > If data doesn't show up for a specific application, verify that the policy is enabled. From the tenant's deployment plan, under **Set up device enrollment**, verify that **Device health monitoring policy** is compliant. If not compliant, deploy the policy.
@@ -62,6 +62,6 @@ The App performance tab also includes the following options:
 
 
 ## Related content
-[What is Endpoint analytics?](/mem/analytics/overview) (article)\
-[Application reliability in Endpoint analytics](/mem/analytics/app-reliability) (article)\
+[What is Endpoint analytics?](/intune/endpoint-analytics/) (article)\
+[Application reliability in Endpoint analytics](/intune/endpoint-analytics/app-reliability) (article)\
 [Overview of the Device health page in Microsoft 365 Lighthouse](m365-lighthouse-device-health-overview.md) (article)
