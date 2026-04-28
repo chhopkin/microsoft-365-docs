@@ -24,6 +24,7 @@ ms.custom:
 - VSBFY23
 - AdminSurgePortfolio
 - AdminTemplateSet
+- domains
 search.appverid:
 - BCS160
 - MET150
