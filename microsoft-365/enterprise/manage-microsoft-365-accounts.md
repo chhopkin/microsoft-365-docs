@@ -15,6 +15,7 @@ ms.custom:
  - Adm_O365
  - seo-marvel-mar2020
  - admindeeplinkMAC
+ - user-accounts
 ms.collection:
 - scotvorg
 - Ent_O365

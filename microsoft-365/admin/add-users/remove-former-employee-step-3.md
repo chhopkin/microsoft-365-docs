@@ -24,6 +24,7 @@ ms.custom:
 - AdminSurgePortfolio
 - m365solution-removeemployee
 - admindeeplinkEXCHANGE
+- user-accounts
 description: "Use the Exchange admin center to wipe and block a former employee's device so that all organization data is removed and it no longer connects to Microsoft 365."
 ---
 

@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 search.appverid: 
-ms.custom: m365-groups
+ms.custom: 
+- m365-groups
+- user-accounts
 ms.collection:
 - trust-pod
 ms.reviewer: batre

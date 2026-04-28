@@ -26,6 +26,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - adminvideo
+- user-accounts
 ---
 
 # Assign admin roles in the Microsoft 365 admin center

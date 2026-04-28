@@ -22,7 +22,7 @@ search.appverid:
 - MOE150
 ai-usage: ai-assisted
 description: "The SharePoint site usage report provides key metrics on file activity, storage, and sharing in Microsoft 365. Explore trends and manage your SharePoint sites efficiently."
-ms.date: 04/24/2026
+ms.date: 04/28/2026
 ---
 
 # SharePoint site usage report - Microsoft 365 admin center 
@@ -59,7 +59,7 @@ The SharePoint site usage report displays trends over the last 7, 30, 90, or 180
 |Deleted  |The deletion status of the site. The site is marked as deleted after at least 7 days.  |
 |Site owner  |The username of the primary owner of the site.   |
 |Site owner principal name  |The email address of the owner of the site. |
-|Last activity date (UTC)  | The date of the last time file activity was detected or a page was viewed on the site.  |
+|Last activity date (UTC)  | The most recent date when activity occurred on the site or OneDrive account within the selected reporting period. Last activity date is retained for up to 180 days. For active and inactive sites, the report shows the most recent activity date within that 180-day window. If a site is disabled, the last activity date is dropped and might no longer appear in the report.  |
 |Site sensitivity label ID  | The sensitivity label on the site.  |
 |External sharing  | The value of the external sharing setting for the site. This value doesn't reflect changes to the effective setting made by site sensitivity labels. If you use sensitivity labels, use the [data access governance reports](/sharepoint/data-access-governance-reports) to get the correct values.|
 |Unmanaged device policy  | The site access policy for unmanaged devices.  |
