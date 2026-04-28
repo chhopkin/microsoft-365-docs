@@ -5,18 +5,15 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: padeshmukh
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-marketplace
 ms.localizationpriority: medium
 ms.collection:
-- Tier1
-- scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 search.appverid: MET150
 ms.custom:
 - commerce_purchase
@@ -26,7 +23,7 @@ ms.custom:
 - campaignIDs-batch1
 - campaignIDs-batch2
 description: "Learn about registration numbers and under-review notifications when you buy Microsoft business products or services."
-ms.date: 04/30/2025
+ms.date: 04/28/2026
 ---
 
 # About registration numbers and under-review notifications in the Microsoft 365 admin center
