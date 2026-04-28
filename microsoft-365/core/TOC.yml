@@ -502,7 +502,7 @@
             - name: Onboard devices to Microsoft Defender for Business 
               href: /defender-business/mdb-onboard-devices?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
             - name: Use Windows Autopilot to set up and or reset devices 
-              href: /mem/autopilot/windows-autopilot?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+              href: /autopilot/overview?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Network
       href:
       items:
