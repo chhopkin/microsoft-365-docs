@@ -14,6 +14,7 @@ ms.collection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "Discover the configuration requirements for Microsoft 365 migration orchestrator. Configuration is needed in both the source and client tenants to ensure a successful migration of your users' data."
+ms.custom: tenant
 ---
 
 # Configuring source and target tenants

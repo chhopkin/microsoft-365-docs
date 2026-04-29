@@ -51,7 +51,7 @@ The following capabilities help your organization confidently manage and govern 
 
 - **Bring agents under control from day one** - Onboard and approve agents through one IT controlled flow, applying policy templates to every agent for governance and compliance.
 - **Control what agents can access and do** - Enforce least privilege access by controlling which users, data, and tools agents can use and limit access to only the resources and other agents they need.
-- **Automate ongoing agent governance** - Leverage rules-based agent management to automatically enforce lifecycle policies, such as expiring inactive agents, flagging ownerless agents, or blocking risky agents.
+- **Automate ongoing agent governance** - Leverage rules-based agent management to automatically enforce lifecycle policies, such as flagging ownerless agents, or blocking risky agents.
 - **Be audit-ready from the start** - Strengthen visibility into how your agents are being used and how they're performing, helping you ensure they operate securely, comply with policies, and run reliably across your organization.
 - **Reduce compliance and safety risks** - Establish data safety and compliance controls to detect, retain, and investigate unethical agent interactions.
 
@@ -98,7 +98,7 @@ To ensure consistent interpretation across metrics and insights in the Agent ove
 - **Definition of an agent**
   An agent is defined as an AI-powered entity that can perform tasks or interactions autonomously or semi-autonomously using instructions, context, knowledge sources, and tools to accomplish user or organizational goals.
 - **Supported agent types and platforms**
-  The Agent overview includes agents built across supported Microsoft and connected platforms. This includes agents created using platforms surfaced in the ecosystem such as Copilot Studio and other Microsoft-supported creation tools, as well as applicable non-Microsoft agents detected through connected platforms. Specific platforms supported include: Microsoft Copilot Studio, SharePoint, Agent Builder, AI Foundry, Agents Toolkit, and non-Microsoft Agentic platforms.
+  The Agent Overview includes agents built across supported Microsoft and connected platforms. This includes agents created using platforms surfaced in the ecosystem such as Copilot Studio and other Microsoft-supported creation tools, as well as applicable non-Microsoft agents detected through connected platforms. Specific platforms supported include: Microsoft Copilot Studio, SharePoint, Agent Builder, AI Foundry, Agents Toolkit, and non-Microsoft Agentic platforms (such as Manus or Genspark).
 
   > [!NOTE]
   > The Agent Overview doesn't show all agent platforms in use, only the top 5 most used, to fit on the card. To see all agent platforms and associated agents, go to the **Registry** tab.
@@ -148,7 +148,7 @@ Hero metrics provide a high-level summary of the most critical indicators of age
 - **Agent registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom "line-of-business" agents. In both registry and usage, we refer to these types of agents as "Built by your organization". This Agent registry reflects the breadth of agents deployed across your tenant. In the **Agent overview**, you can select **Explore All agents** > **Registry** to view your inventory in detail.
 - **Active users** - The number of unique users who interacted with at least one agent up to the last 30 days by sending a prompt to an agent and receiving a response from that agent. These conversational interactions can occur in Microsoft experiences, such as Teams and Microsoft Copilot, as well as non-Microsoft channels. For Microsoft Copilot Studio agents, an active user is counted when a user sends a prompt to the agent. In most cases, prompts and responses have a one-to-one relationship. However, there are limited scenarios where a user may send a prompt but not receive a response. This difference is expected to have a minimal impact in practice. This definition will evolve in the future as we continue to improve how usage is measured.
   - This metric begins when your organization activates Agent 365 licenses. It may reflect fewer than 30 days of data immediately after activation. As activity accumulates, the metric will progressively reflect a fuller 30-day view.
-  - Data collection starts at license activation.
+  - Data collection starts at license activation. For related information, see [Microsoft 365 Copilot Agents usage report - Microsoft 365 admin center](/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents-new).
 - **Agent run-time** - Total hours worked by agents during the last 30 days, calculated as the sum of each agent session's duration (end time minus start time).
   - This metric begins when your organization activates Agent 365 licenses, so it will reflect fewer than 30 days of data immediately after activation. As activity accumulates, the metric will progressively reflect a fuller 30-day view.
 - **Agent registry sync** - The external connected platforms that were scanned. You can connect to external platforms to find and monitor agents used in your organization. Your use of external non-Microsoft products is subject to the third-party service provider's terms of use. You're responsible for complying with each provider's terms of use.
@@ -191,7 +191,7 @@ Get detailed insights into how agents are distributed and used. This information
   - **Third Party** - Agents created by external partners.
   - **Microsoft** - Agent created by Microsoft.
 - **Top platforms used to build agents** - See which creation platforms are most used for building agents. The following MSFT platforms are covered in Agent 365 (A365):
-  - Microsoft 365 Copilot Agent Builder
+  - Microsoft 365 Copilot Agent Builder (including Teams and Copilot Studio Legacy Agents)
   - Copilot Studio
   - Agents Toolkit
   - SharePoint
