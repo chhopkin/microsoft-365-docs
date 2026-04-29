@@ -105,7 +105,7 @@ Steps:
   - Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml), and close the editor.
   - Update the HTTP API URL in the code sample. Search for kind: HttpRequestAction. You see a code that sets a value to a variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
 
-    :::image type="content" source="media/facilities-dining-update-api-url.png" alt-text="Screenshot showing how to update API url in the topic.":::
+    :::image type="content source="media/facilities-dining-update-api-url.png" alt-text="Screenshot showing how to update API url in the topic.":::
 
   - Resolve any validation errors, and then select Save.
 
@@ -123,11 +123,11 @@ Steps:
 
 - Review the Trigger node text (the description shown to users). Adjust it as needed for your scenario.
 
-  :::image type="content" source="media/facilities-dining-validate-topic-file-start.png" alt-text="Screenshot showing the model description in the file.":::
+  :::image type="content" source="media/facilities-dining-validate-topic-file-start.png alt-text="Screenshot showing the model description in the file.":::
 
 - Confirm that the input variable named `StationCategory` is created. Select the Details -> Input to check that your topic has input variable named StationCategory as per the screenshot.
 
-  :::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
+  :::image type="content source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
 
 - Validate that the output variable named SearchStationsApiResponse is created. Select the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot.
 
@@ -137,7 +137,7 @@ Steps:
 
   :::image type="content" source="media/facilities-dining-validate-condition-block-category.png" alt-text="Screenshot showing the conditional block section of the topic details.":::
 
-- Next node assigns the station category value, cuisine in our case, if the user enters value in your input variable. For example, if the user mentions “Where can I find Italian food?”. The value Italian gets assigned to the input variable.
+- Next node assigns the station category value, cuisine in our case, if the user enters value in your input variable. For example, if the user mentions "Where can I find Italian food?". The value Italian gets assigned to the input variable.
 
 - Validate that the HttpConnector is calling appropriate API that belongs to your platform. Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We're collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline, etc. You should create a schema per your API response for this topic variable. Your API response can have a different structure, and you should make sure that structure is taken into consideration.
 
