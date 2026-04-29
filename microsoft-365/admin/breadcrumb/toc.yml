@@ -6,7 +6,7 @@ items:
   tocHref: /microsoft-365/
   topicHref: /microsoft-365/index
 - name: Microsoft 365
-  tocHref: /mem/
+  tocHref: /intune/
   topicHref: /microsoft-365/index
 - name: Microsoft 365
   tocHref: /microsoft-365-apps/
@@ -31,7 +31,7 @@ items:
     tocHref: /microsoftsearch/
     topicHref: /microsoft-365/admin/index
   - name: Microsoft 365 admin center
-    tocHref: /mem/analytics/
+    tocHref: /intune/endpoint-analytics/
     topicHref: /microsoft-365/admin/index
   - name: Microsoft 365 admin center
     tocHref: /autopilot/

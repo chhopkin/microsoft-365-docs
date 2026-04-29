@@ -142,7 +142,7 @@ conceptualContent:
             - url: ./managed-desktop/index.yml
               itemType: deploy
               text: Microsoft Managed Desktop
-            - url: /mem/intune/fundamentals/what-is-intune
+            - url: /intune/fundamentals/what-is-intune
               itemType: overview
               text: Device management with Microsoft Intune
         # Card

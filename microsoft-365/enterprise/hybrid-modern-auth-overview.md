@@ -17,7 +17,9 @@ ms.collection:
 - must-keep
 f1.keywords:
 - NOCSH
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- identity-models
 description: "In this article, you can learn about Hybrid Modern Authentication and the prerequisites for use with on-premises Skype for Business and Exchange servers."
 ---
 
