@@ -14,6 +14,7 @@ f1.keywords:
 ms.custom: 
 - seo-marvel-mar2020
 - admindeeplinkSPO
+- data-residency
 ms.collection: Strat_SP_gtc
 ms.localizationpriority: medium
 description: Learn how to delete a satellite location in Microsoft 365 Multi-Geo. When a satellite location is deleted, all user data is also permanently deleted.
@@ -43,3 +44,4 @@ To delete a _Satellite Geography_ location
 5. Select **Delete**.
 
 The deletion will take at least seven days to complete.
+

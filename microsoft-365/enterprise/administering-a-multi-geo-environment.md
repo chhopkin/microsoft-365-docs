@@ -14,6 +14,7 @@ f1.keywords:
 ms.custom: 
 - seo-marvel-apr2020
 - admindeeplinkSPO
+- data-residency
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
@@ -97,3 +98,4 @@ See [Work with user profiles in a Multi-Geo tenant](/sharepoint/dev/solution-gui
 ## Viva Engage
 
 Viva Engage isn't a Multi-Geo workload. Viva Engage threads stored in Viva Engage will be placed in the _Tenant's_ central location. Viva Engage is rolling out a file storage change which will store Viva Engage files within SharePoint. Viva Engage files stored in SharePoint will be placed the SharePoint site associated with the Viva Engage group. SharePoint group sites are based on PDL logic as outlined in [SharePoint Sites and Groups](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md#sharepoint-sites-and-groups).
+

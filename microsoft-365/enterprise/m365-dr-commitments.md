@@ -13,6 +13,7 @@ ms.date: 1/30/2026
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
+- data-residency
 ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
@@ -168,3 +169,4 @@ The following customer data is stored at rest in the _Local Region Geography_:
 The following customer data is stored in the _Local Region Geography_:
 
 - Viva Connections Dashboard and Feed can have content sourced from SharePoint, Exchange Online and Microsoft Teams. All customer data sourced from these services covered by data residency commitments will be stored in the _Local Region Geography_. Refer to [Exchange Online](m365-dr-service-exo.md), [SharePoint](m365-dr-service-spo.md), and [Microsoft Teams](m365-dr-service-teams.md) workload data residency pages for more details.
+

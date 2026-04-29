@@ -1,4 +1,4 @@
----
+﻿---
 title: "Overview: VPN split tunneling for Microsoft 365"
 ms.author: scotv
 author: kelleyvice-msft
@@ -21,6 +21,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: "Overview of VPN split tunneling with Microsoft 365 to optimize connectivity for remote users."
+ms.custom: network
 ---
 
 # Overview: VPN split tunneling for Microsoft 365
