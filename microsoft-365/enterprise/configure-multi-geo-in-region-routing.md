@@ -13,6 +13,7 @@ ms.topic: how-to
 ms.date:     09/26/2025
 ms.subservice: multi-geo-capabilities
 ms.reviewer: jugiammo, v-fahasen
+ms.custom: data-residency
 ---
 
 # Configure Multi-Geo In-Region Routing
@@ -164,3 +165,4 @@ The following SMTP errors indicate a temporary system error:
 - **451 4.4.3 Temporary server error. Please try again later ATTR55.1**
 
 Email servers are expected to retry message delivery.
+

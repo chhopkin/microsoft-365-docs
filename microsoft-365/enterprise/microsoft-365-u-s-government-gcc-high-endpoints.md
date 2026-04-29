@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 U.S. Government GCC High endpoints"
 ms.author: scotv
 author: kelleyvice-msft
@@ -16,8 +16,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: 
- - Adm_O365
- - seo-marvel-apr2020
+- Adm_O365
+- seo-marvel-apr2020
+- network
 search.appverid: MET150
 ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
 description: "In this article, you find endpoints reachable for customers using Microsoft 365 U.S. Government GCC High plans."

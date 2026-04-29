@@ -1,4 +1,4 @@
----
+﻿---
 title: "Network provider details and connectivity attribution in the Microsoft 365 Admin Center"
 ms.author: scotv
 author: kelleyvice-msft
@@ -19,6 +19,7 @@ ms.collection:
 - must-keep
 description: "Network provider details and connectivity attribution in the Microsoft 365 Admin Center"
 ROBOTS: NOINDEX, NOFOLLOW
+ms.custom: network
 ---
 
 # Network provider details and connectivity attribution in the Microsoft 365 Admin Center

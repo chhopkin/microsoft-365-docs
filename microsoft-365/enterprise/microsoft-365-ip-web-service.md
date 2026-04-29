@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 IP Address and URL web service"
 ms.author: scotv
 author: kelleyvice-msft
@@ -18,8 +18,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: 
- - Adm_O365
- - seo-marvel-apr2020
+- Adm_O365
+- seo-marvel-apr2020
+- network
 ms.reviewer: pandrew
 search.appverid:
 - MET150

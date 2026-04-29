@@ -1,4 +1,4 @@
----
+﻿---
 title: "Special considerations for Teams events in VPN environments"
 ms.author: scotv
 author: kelleyvice-msft
@@ -21,6 +21,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: "Special considerations for Teams events in VPN environments"
+ms.custom: network
 ---
 
 # Special considerations for Teams events in VPN environments

@@ -1,4 +1,4 @@
----
+﻿---
 # Required metadata
 # For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
 # For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
@@ -12,6 +12,7 @@ ms.service: microsoft-365-enterprise
 ms.topic: article
 ms.date:     07/01/2025
 ms.subservice: network
+ms.custom: network
 ---
 
 # Understanding implications when using network intermediation to decrypt or manipulate Microsoft 365 traffic at the network layer.
