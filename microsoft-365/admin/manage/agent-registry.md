@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/20/2026
+ms.date: 05/01/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -41,7 +41,7 @@ The agent registry in [Microsoft 365 admin center](https://admin.microsoft.com/)
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
 
-:::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing a list of available agents for a tenant." lightbox="../../media/agents/agent-registry.png":::
+    :::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing a list of available agents for a tenant." lightbox="../../media/agents/agent-registry.png":::
 
 ## Agent types
 
@@ -62,7 +62,7 @@ The agent **Registry** provides quick details about the agents your organization
 |---|---|
 | **Total agents** | The number of agents available in your organization's tenant. |
 | **Agents without owners** | The number of agents that no longer have owners at your organization. |
-| **Unmanged agents** | The number of agents created or managed outside of Agent 365, without its risk protection and observability. |
+| **Unmanaged agents** | The number of agents created or managed outside of Agent 365, without its risk protection and observability. |
 
 ### Agent registry filters
 
@@ -82,8 +82,8 @@ You can filter the agent list based on the following criteria:
 
 > [!TIP]
 > If you don't see the agents that you expect to see in the agent registry list, check to make sure you don't have an existing filter set.
-> 
-> Certain columns allow you to sort the agent registry list. Select the column title to sort the list.
+>
+> Certain columns allow you to sort the agent registry list. To sort the list, select the column title.
 
 ## Agent registry actions
 
@@ -95,8 +95,7 @@ The agent **Registry** provides agent actions that relate specifically to your t
 | **Export** | Exports agents to a CSV file. This action could take some time depending on the number of agents in the tenant. For more information, see [Export to Excel](#export-to-excel).  |
 | **Add agent** | Provides a method to upload an agent manifest file (.zip). For more information, see [Upload custom agent](#upload-custom-agent). |
 | **Manage pinned agents** | Select which agents are pinned for the user. Pinned agents are more prominently displayed in each available channel where the agent is deployed. You can change the priority of pinned agents by moving them up and down in this list. If a user has more than three pinned agents, users don't see agents with lower priority. For more information, see [Managed pinned agents](#manage-pinned-agents). |
-| **Csutomize view** | Customize how the columns that are displayed in the agent list. For more information, see [Custom view](#customize-view). |
-
+| **Customize view** | Customize how the columns that are displayed in the agent list. For more information, see [Custom view](#customize-view). |
 | **Search** | Use the search option to quickly find an agent in your agent **Registry**. |
 
 
@@ -175,18 +174,17 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 1. Verify the agent's name, icon, and host products.
 1. Under **Publish**, select the users or groups who can install the agent.
 
-  :::image type="content" source="../../media/agents/agent-upload-01.png" alt-text="Screenshot of 'Publish to users' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-01.png":::
+    :::image type="content" source="../../media/agents/agent-upload-01.png" alt-text="Screenshot of Publish to users during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-01.png":::
 
-1. Under **Deploy** (optional), select the users or groups who will have the agent pre-installed.
-  Then, select **Next**.
+1. Under **Deploy** (optional), select the users or groups who will have the agent pre-installed. Then, select **Next**.
 
-  > [!NOTE]
-  > You can select a small audience for testing purposes. For instance, select **Just me**, or a single test group to narrow the availability of the agent.
+    > [!NOTE]
+    > You can select a small audience for testing purposes. For instance, select **Just me**, or a single test group to narrow the availability of the agent.
 
 1. Choose to apply either an existing policy template, a custom policy, or the default policy. For more existing policy template information, see [Security templates](/microsoft-365/admin/manage/agent-settings#security-templates). Agent 365 users can apply selected custom policies and protections. Default policies and protections are managed through their security platform. Check the status of each in the platform. Note policies and protections might not be enabled.
   Then, select **Next**.
 
-:::image type="content" source="../../media/agents/agent-upload-02.png" alt-text="Screenshot of 'Apply Security Template' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-02.png":::
+    :::image type="content" source="../../media/agents/agent-upload-02.png" alt-text="Screenshot of 'Apply Security Template' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-02.png":::
 
 1. Review agent permissions. Then, select **Next**.
 1. Review and finished. Select **Finish deployment**.
@@ -195,12 +193,13 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
 As an administrator, you can choose to pin a deployed agent to the **Agents** list within Microsoft 365 Copilot. By pinning agents in Microsoft 365 Copilot, you can ensure that those agents are visible and accessible for all members of your organization, or only specific users or groups. You can choose to pin and unpin agents. Also, you can rank the list of pinned agents.
 
+✅ **Task: Review and confirm your organization's pinned agents that are displayed in Microsoft 365 admin center.**
+
 Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Microsoft pinned agents are specific agents that are pinned by default for all users. Your organization pins admin pinned agents by using the Copilot Control System in Microsoft 365 admin center. Individual users pin user pinned agents in their own Microsoft 365 Copilot Chat or Microsoft 365 Copilot experience.
 
 To set, view, or manage pinned agents for your organization, see [Manage Pinning of Agents](/microsoft-365/admin/manage/manage-pinning-agents).
 
 > [!NOTE]
->
 > After an administrator pins an agent, it might take up to six hours for end-users to see the agent pinned.
 
 This section explains how administrators can pin, unpin, or manage agents for everyone or specific groups by using the Microsoft 365 admin center. It also covers related actions like ranking the list of pinned agents and editing the scope of pinned agents.
@@ -223,7 +222,7 @@ To pin agents so that each agent is more visible and accessible to members of yo
 
 ### Pinned agents
 
-:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot." lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
+:::image type="content" source="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot." lightbox="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
 
 ### Microsoft-pinned agents
 
@@ -258,13 +257,13 @@ To pin agents so that each agent is more visible and accessible to members of yo
   - Pin **HR Q&A** agent for all users.
 - The end-user can't unpin the Administrator-pinned and Microsoft-pinned agents.
 
-### How to pin agents
+### Pin agents
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. In the left navigation pane, select **Agents** > **All agents**.
-1. In the **All agents** page, select the ellipse on the right to display a dropdown menu. 
+1. In the **All agents** page, select the ellipse on the right to display a dropdown menu.
 1. Select the **Manage pinned agents**.
-  In the **Pinned agents** pane, you will see agents **Pinned by your org** and agents **Pinned by Microsoft** list.
+  In the **Pinned agents** pane, you'll see agents **Pinned by your org** and agents **Pinned by Microsoft** list.
 1. Select **Pin agent** to pin a new agent.
 1. In the **Select an agent to pin** pane, find the agent you want to pin from the list of agents. You can search the list to find a specific agent by name. You can only pin agents that have been deployed to some or all users.
 
@@ -293,7 +292,7 @@ To pin agents so that each agent is more visible and accessible to members of yo
 
     :::image type="content" source="../../media/agents/pinned-agents.png" alt-text="Screenshot of the pinned agents list in the Microsoft 365 admin center." lightbox="../../media/agents/pinned-agents.png":::
 
-### Can any agent be pinned
+### Agents that can be pinned
 
 You can only pin deployed agents. If the agent isn't deployed, you see a banner with a message to first deploy the agent.
 
@@ -309,11 +308,11 @@ If the agent is blocked, unblock the agent before you pin it.
 
 - The administrator can use the **Move up** and **Move down** buttons to reorder the list of pinned agents by priority to control what is shown to the user.
 
-### How to unpin an agent
+### Unpin an agent
 
 From the list of pinned agents, find the agent that you want to unpin and select **Unpin**. When you remove the pin, the agent is no longer available under the **Pinned by your org** section.
 
-### How to edit the pinning scope of an agent
+### Edit the pinning scope of an agent
 
 Select the agent and choose **Edit users** to modify the scope of users for which an agent is pinned.
 
@@ -377,6 +376,10 @@ If the agent has multiple instances associated with it, the flyout initially dis
 
 To support further investigation, admins can select the **Review** link. The **Review** link redirects to the respective security portals where further action can be taken.
 
+> [!NOTE]
+>
+> After selecting the **Review** link for Purview risks, you're taken to Purview. If you're presented with the **Welcome to the new Microsoft Purview portal!** message window, make sure to select the **Get started** button to see the relevant security alerts. If this message window is instead closed or the option **Go to classic portal** is selected instead of the **Get started** button, you might not see the relevant security alerts.
+
 > [!IMPORTANT]
 >
 > - The **Risks** column only shows high severity risks flagged by the respective platforms. Zero risks is an indication that there are no high risks presently for the agent. However, there could be other types of risks, such as low or medium, in the respective security platforms.
@@ -393,16 +396,26 @@ The **Agents at risk tile** on the **All agents** page displays the total number
 
 The following table shows what each role can access when they select the **Review** link:
 
-| **Role**          | **Microsoft Entra** | **Purview**         | **Defender**        |
-| ----------------- | ------------------- | ------------------- | ------------------- |
-| **Global Reader** | Can view            | Can view            | Can view            |
-| **AI Admin role** | Can view            | No view permissions | No view permissions |
+| **Role** | **Can access & investigate risks in Defender** | **Can access & investigate risks in Purview**  | **Can access & investigate risks in Microsoft Entra** |
+| -------- | ---------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------- |
+| **[AI Admin](/entra/identity/role-based-access-control/permissions-reference#ai-administrator)**                                       | No | No | Partial |
+| **[Reports Reader](/entra/identity/role-based-access-control/permissions-reference#reports-reader)**                                   | No | No | No      |
+| **[User Experience Success Manager](/entra/identity/role-based-access-control/permissions-reference#user-experience-success-manager)** | No | No | No      |
+| **[Security Reader](/entra/identity/role-based-access-control/permissions-reference#security-reader)**                                 | No | No | Yes     |
+| **[Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator)**                   | No | No | Yes     |
+| **[AI Reader](/entra/identity/role-based-access-control/permissions-reference#ai-reader)**                                             | No | No | No      |
+| **[Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader)**                                     | No | No | Yes     |
 
 > [!IMPORTANT]
 >
-> To access Purview alerts, users must be assigned an **Insider Risk Management** (IRM) role within Purview. This role is required to sign in to Purview to view Insider Risk Management alerts. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
+> To access Purview alerts, users must be assigned to one of the following **Insider Risk Management** (IRM) roles within Purview:
+>
+> - **Insider Risk Management Analysts**
+> - **Insider Risk Management Investigators**
+>
+> These roles are required to sign in to Purview to view Insider Risk Management alerts. For more information, see [Assign permissions in Insider Risk Management](/purview/insider-risk-management-permissions).
 
-### Agents at risk card
+## Agents at risk card in the Agent 365 overview page
 
 The **Agents at risk** card on the Microsoft 365 admin center **Overview** page provides administrators with a tenant‑level summary of agents that are identified with high‑severity risks across Microsoft security platforms including:
 

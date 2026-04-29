@@ -126,7 +126,7 @@ From the Agent Map, you can take administrative actions directly on agents witho
 Available actions are based on the state of the agent. The action can include the following:
  
 - **Assign owner** – Assign an owner to an agent that currently has no active owner. You can only assign ownership to users with a Copilot license.
-- **Block** – Blocks the agent from members of your organization. They will not be able to install or use the agent. Additionally, the agent will be removed from any member of your organization who has already installed it.
+- **Block** – Blocks the agent from members of your organization. They won't be able to install or use the agent. Additionally, the agent will be removed from any member of your organization who has already installed it.
 - **Unblock** – Restore access to a previously blocked agent.
 - **Install** - Deploys and installs the agent to the selected users.
 - **Pin for users** - The agent will be pinned in the UI (based on channel) where the agent was deployed, so that the agent can be found more easily. Based on the users or groups where the agent was deployed, you can specify who will have the agent pinned.
