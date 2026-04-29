@@ -270,7 +270,7 @@ To resolve this error, upgrade to TLS 1.2. The following syntax updates the Serv
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 ```
 
-To learn more, see [How to enable TLS 1.2](/mem/configmgr/core/plan-design/security/enable-tls-1-2).
+To learn more, see [How to enable TLS 1.2](/intune/configmgr/core/plan-design/security/enable-tls-1-2).
 
 <!--
 ## Uninstall the MSCommerce module

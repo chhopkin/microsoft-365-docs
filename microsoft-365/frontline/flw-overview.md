@@ -107,7 +107,7 @@ Safeguard your business with best-in-class security and compliance features. Mic
 |Capability |More information |
 |-----------|---------------------|
 |Manage identities and access |<ul><li>[Microsoft Entra ID overview](/entra/fundamentals/whatis)</li></ul>|
-|Secure endpoints and apps across device types and operating systems |<ul><li>[Overview of device management for frontline workers](flw-devices.md)</li><li>[Manage shared devices](flw-shared-devices.md)</li><li>[Microsoft Intune overview](/mem/intune/fundamentals/what-is-intune)</li><li>[Frontline worker device management overview in Microsoft Intune](/mem/solutions/frontline-worker/frontline-worker-overview)</li><li>[Manage devices with Intune overview](/previous-versions/microsoft-365/solutions/manage-devices-with-intune-overview)</li></ul>|
+|Secure endpoints and apps across device types and operating systems |<ul><li>[Overview of device management for frontline workers](flw-devices.md)</li><li>[Manage shared devices](flw-shared-devices.md)</li><li>[Microsoft Intune overview](/intune/fundamentals/what-is-intune)</li><li>[Frontline worker device management overview in Microsoft Intune](/intune/solutions/frontline-worker/)</li><li>[Manage devices with Intune overview](/previous-versions/microsoft-365/solutions/manage-devices-with-intune-overview)</li></ul>|
 
 ## Deploy and manage at scale
 

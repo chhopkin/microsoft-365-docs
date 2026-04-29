@@ -14,6 +14,7 @@ ms.collection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "The steps for running a migration using the Microsoft 365 migration orchestrator."
+ms.custom: tenant
 ---
 
 # Running the migration
@@ -325,7 +326,7 @@ A user's migration concludes with a status of failed if either of the following 
 
 - More than 10% of attempted threads failed
 
-If both failure rates are below these thresholds, the migration concludes with a status of completed. These thresholds apply to content that the migration service attempted to process. [Content that was skipped because it is explicitly known to be unsupported](/microsoft-365/enterprise/migration-orchestrator-7-end-user-exp?view=o365-worldwide) is not counted toward these thresholds.
+If both failure rates are below these thresholds, the migration concludes with a status of completed. These thresholds apply to content that the migration service attempted to process. [Content that was skipped because it is explicitly known to be unsupported](/microsoft-365/enterprise/migration-orchestrator-7-end-user-exp) is not counted toward these thresholds.
 
 #### Reading the migration message
 

@@ -139,7 +139,7 @@ Microsoft Intune Mobile Application Management (MAM) allows you to manage and pr
 - You create an App Protection Policy (APP) that determines which apps on a device are managed and what behaviors are allowed (such as preventing data from a managed app from being copied to an unmanaged app). You create one policy for each platform (iOS, Android).
 - After creating the app protection policies, you enforce these by creating a conditional access rule in Microsoft Entra ID to require approved apps and APP data protection.
 
-APP protection policies include many settings. Fortunately, you don't need to learn about every setting and weigh the options. Microsoft makes it easy to apply a configuration of settings by recommending starting points. The [Data protection framework using app protection policies](/mem/intune/apps/app-protection-framework) includes three levels you can choose from.
+APP protection policies include many settings. Fortunately, you don't need to learn about every setting and weigh the options. Microsoft makes it easy to apply a configuration of settings by recommending starting points. The [Data protection framework using app protection policies](/intune/app-management/protection/data-protection-framework) includes three levels you can choose from.
 
 Even better, Microsoft coordinates this app protection framework with a set of conditional access and related policies we recommend all organizations use as a starting point. If you implemented MFA using the guidance in this article, you're half way there!
 
@@ -166,14 +166,14 @@ The Intune mobile app protection policies you created, together with the conditi
 
 ## 8: Enroll PCs into device management and require compliant PCs
 
-There are several methods to enroll your workforce's devices. Each method depends on the device's ownership (personal or corporate), device type (iOS, Windows, Android), and management requirements (resets, affinity, locking). This investigation can take a bit of time to sort out. See: [Enroll devices in Microsoft Intune](/mem/intune/enrollment/).
+There are several methods to enroll your workforce's devices. Each method depends on the device's ownership (personal or corporate), device type (iOS, Windows, Android), and management requirements (resets, affinity, locking). This investigation can take a bit of time to sort out. See: [Enroll devices in Microsoft Intune](/intune/device-enrollment/guide).
 
-The quickest way to get going is to [Set up automatic enrollment for Windows 10 devices](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
+The quickest way to get going is to [Set up automatic enrollment for Windows devices](/intune/device-enrollment/windows/guide#windows-automatic-enrollment).
 
 You can also take advantage of these tutorials:
 
-- [Use Autopilot to enroll Windows devices in Intune](/mem/intune/enrollment/tutorial-use-autopilot-enroll-devices)
-- [Use Apple's Corporate Device Enrollment features in Apple Business Manager (ABM) to enroll iOS/iPadOS devices in Intune](/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios)
+- [Use Autopilot to enroll Windows devices in Intune](/intune/device-enrollment/windows/guide#windows-autopilot)
+- [Use Apple's Corporate Device Enrollment features in Apple Business Manager (ABM) to enroll iOS/iPadOS devices in Intune](/intune/device-enrollment/apple/guide-ios-ipados)
 
 After enrolling devices, use the guidance in [Common identity and device access policies](./office-365-security/zero-trust-identity-device-access-policies-common.md) to create these policies:
 

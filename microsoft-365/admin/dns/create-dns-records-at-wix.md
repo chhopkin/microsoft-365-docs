@@ -19,7 +19,9 @@ ms.collection:
 - Adm_NonTOC
 - Adm_O365_Setup
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- domains
 search.appverid:
 - BCS160
 - MET150

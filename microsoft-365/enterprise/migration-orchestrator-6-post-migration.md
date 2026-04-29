@@ -14,6 +14,7 @@ ms.collection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "The steps to take after completing a migration with Microsoft 365 migration orchestrator."
+ms.custom: tenant
 ---
 
 # Post-migration tasks and cleanup

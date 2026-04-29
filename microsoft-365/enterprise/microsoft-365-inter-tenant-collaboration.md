@@ -22,7 +22,9 @@ ms.assetid: eb45fd8b-1d5d-4b0c-9c5a-479dbb176e7d
 f1.keywords:
 - NOCSH
 description: Learn how Microsoft 365 collaboration works across tenants and organizations, allowing different organizations to work together securely.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- tenant
 ---
 
 # Microsoft 365 inter-tenant collaboration

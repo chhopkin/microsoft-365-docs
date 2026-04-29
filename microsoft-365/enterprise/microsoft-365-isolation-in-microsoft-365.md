@@ -20,6 +20,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: "Summary: An explanation of isolation and access control within the various applications of Microsoft 365."
+ms.custom: tenant
 ---
 
 # Isolation and Access Control in Microsoft 365

@@ -21,6 +21,7 @@ ms.collection:
 - operations-pod
 ms.custom:
 - AdminSurgePortfolio
+- domains
 search.appverid:
 - BCS160
 - MET150
