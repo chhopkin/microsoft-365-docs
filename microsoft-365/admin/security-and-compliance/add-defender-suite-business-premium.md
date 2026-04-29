@@ -29,7 +29,7 @@ As you probably already know, [Microsoft 365 Business Premium](m365bp-security-b
 
 - [Microsoft 365 Apps](../setup/install-applications.md) installed on your devices
 - Protection for your user accounts with [Microsoft Entra ID P1](/entra/fundamentals/whatis)
-- Endpoint management, security, and mobile application management with [Microsoft Intune Plan 1](/mem/intune/fundamentals/what-is-intune)
+- Endpoint management, security, and mobile application management with [Microsoft Intune Plan 1](/intune/fundamentals/what-is-intune)
 - Protection for your devices with [Microsoft Defender for Business](/defender-business/mdb-overview)
 - Protection for email and files with [Microsoft Defender for Office 365 Plan 1](/defender-office-365/mdo-about#defender-for-office-365-plan-1-capabilities)
 - [Microsoft Purview Information Protection](/azure/information-protection/what-is-information-protection) and [data loss prevention (DLP)](/purview/dlp-learn-about-dlp) for email and files with Microsoft Purview.

@@ -14,6 +14,7 @@ ms.collection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "Frequently asked question about Microsoft 365's migration orchestrator."
+ms.custom: tenant
 ---
 
 # FAQ and troubleshooting

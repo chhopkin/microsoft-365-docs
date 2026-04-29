@@ -14,6 +14,7 @@ f1.keywords:
 ms.custom: 
  - Adm_O365
  - seo-marvel-apr2020
+ - tenant
 ms.collection: 
 - scotvorg
 - M365-subscription-management
