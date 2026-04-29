@@ -37,7 +37,7 @@ If your users are using one of Microsoft's apps and wish to provide feedback, th
 
 ### In-product surveys
 
-Users can rate their experience and provide additional information about their experience via system-initiated survey requests. These requests occur within the Microsoft 365 products from time to time. When prompted, users can choose if they want to provide feedback. The survey requests typically appear at the bottom right of the app. If the user decides to provide feedback, dismisses the requests, or lets the requests disappear on its own, that user won't see the survey again for some time. Microsoft also uses a governance process to limit the number of these system-initiated surveys. The intent of governance is to ensure users aren't overwhelmed by the number of survey requests.
+Users can rate their experience and provide additional information about their experience via system-initiated survey requests. These requests occur within the Microsoft 365 products from time to time. When the survey appears, users can choose if they want to provide feedback. The survey requests typically appear at the bottom right of the app. If the user decides to provide feedback, dismisses the requests, or lets the requests disappear on its own, that user won't see the survey again for some time. Microsoft also uses a governance process to limit the number of these system-initiated surveys. The intent of governance is to ensure users aren't overwhelmed by the number of survey requests.
 
 :::image type="content" source="../../media/feedback-love.png" alt-text="Screenshot: Example of in-product feedback request":::
 
@@ -100,7 +100,7 @@ Administrators can view, delete, and export the feedback data for their organiza
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. For more information, see [About administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-To access your organization's feedback data, sign in to the Microsoft 365 admin center and customize navigation to show the health node. Access this experience by selecting **Product Feedback** under the Health node.
+To access your organization's feedback data, sign in to the Microsoft 365 admin center and customize navigation to show the health node. Access this experience by selecting **Product Feedback** under the **Health** node.
 
 :::image type="content" source="../../media/manage-feedback-3.jpg" alt-text="Product feedback in the Microsoft 365 admin center":::
 
