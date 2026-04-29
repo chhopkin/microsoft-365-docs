@@ -41,7 +41,7 @@ The agent registry in [Microsoft 365 admin center](https://admin.microsoft.com/)
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
 
-:::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing a list of available agents for a tenant." lightbox="../../media/agents/agent-registry.png":::
+    :::image type="content" source="../../media/agents/agent-registry.png" alt-text="Screenshot showing a list of available agents for a tenant." lightbox="../../media/agents/agent-registry.png":::
 
 ## Agent types
 
@@ -95,8 +95,7 @@ The agent **Registry** provides agent actions that relate specifically to your t
 | **Export** | Exports agents to a CSV file. This action could take some time depending on the number of agents in the tenant. For more information, see [Export to Excel](#export-to-excel).  |
 | **Add agent** | Provides a method to upload an agent manifest file (.zip). For more information, see [Upload custom agent](#upload-custom-agent). |
 | **Manage pinned agents** | Select which agents are pinned for the user. Pinned agents are more prominently displayed in each available channel where the agent is deployed. You can change the priority of pinned agents by moving them up and down in this list. If a user has more than three pinned agents, users don't see agents with lower priority. For more information, see [Managed pinned agents](#manage-pinned-agents). |
-| **Csutomize view** | Customize how the columns that are displayed in the agent list. For more information, see [Custom view](#customize-view). |
-
+| **Customize view** | Customize how the columns that are displayed in the agent list. For more information, see [Custom view](#customize-view). |
 | **Search** | Use the search option to quickly find an agent in your agent **Registry**. |
 
 
@@ -175,18 +174,17 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 1. Verify the agent's name, icon, and host products.
 1. Under **Publish**, select the users or groups who can install the agent.
 
-  :::image type="content" source="../../media/agents/agent-upload-01.png" alt-text="Screenshot of 'Publish to users' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-01.png":::
+    :::image type="content" source="../../media/agents/agent-upload-01.png" alt-text="Screenshot of Publish to users during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-01.png":::
 
-1. Under **Deploy** (optional), select the users or groups who will have the agent pre-installed.
-  Then, select **Next**.
+1. Under **Deploy** (optional), select the users or groups who will have the agent pre-installed. Then, select **Next**.
 
-  > [!NOTE]
-  > You can select a small audience for testing purposes. For instance, select **Just me**, or a single test group to narrow the availability of the agent.
+    > [!NOTE]
+    > You can select a small audience for testing purposes. For instance, select **Just me**, or a single test group to narrow the availability of the agent.
 
 1. Choose to apply either an existing policy template, a custom policy, or the default policy. For more existing policy template information, see [Security templates](/microsoft-365/admin/manage/agent-settings#security-templates). Agent 365 users can apply selected custom policies and protections. Default policies and protections are managed through their security platform. Check the status of each in the platform. Note policies and protections might not be enabled.
   Then, select **Next**.
 
-:::image type="content" source="../../media/agents/agent-upload-02.png" alt-text="Screenshot of 'Apply Security Template' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-02.png":::
+    :::image type="content" source="../../media/agents/agent-upload-02.png" alt-text="Screenshot of 'Apply Security Template' during agent ZIP upload in Microsoft 365 admin center." lightbox="../../media/agents/agent-upload-02.png":::
 
 1. Review agent permissions. Then, select **Next**.
 1. Review and finished. Select **Finish deployment**.
@@ -202,7 +200,6 @@ Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Mi
 To set, view, or manage pinned agents for your organization, see [Manage Pinning of Agents](/microsoft-365/admin/manage/manage-pinning-agents).
 
 > [!NOTE]
->
 > After an administrator pins an agent, it might take up to six hours for end-users to see the agent pinned.
 
 This section explains how administrators can pin, unpin, or manage agents for everyone or specific groups by using the Microsoft 365 admin center. It also covers related actions like ranking the list of pinned agents and editing the scope of pinned agents.
