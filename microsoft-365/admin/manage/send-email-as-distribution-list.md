@@ -1,5 +1,5 @@
 ---
-title: Send Email as a Distribution List in Microsoft 365
+title: Send Email as a Distribution List
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,13 +19,13 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - AdminTemplateSet
-description: Send email as a distribution list in Microsoft 365 so replies appear to come from the group, not individual members. Learn the steps in Outlook and Outlook on the web.
+description: Send email as a distribution list so replies come from the group address. Learn how to use Outlook or Outlook on the web.
 #customer intent: As a distribution list member, I want to send email as the distribution list so that replies appear to come from the group instead of my personal address.
 ---
 
-# Send Microsoft 365 email as a distribution list
+# Send email as a distribution list
 
-In Microsoft 365, you can send email as a distribution list. When a person who is a member of the distribution list replies to a message sent to the distribution list, the email appears to be from the distribution list, not from the individual user.
+You can send email as a distribution list so replies appear to come from the group instead of an individual member. This article explains how to do it in Outlook and Outlook on the web.
 
 ## Before you begin
 
@@ -50,15 +50,9 @@ Before you perform the steps in this article, make sure the following prerequisi
 
 1. At the bottom of the message, select **More** > **Show from**.
 
-   :::image type="content" source="../../media/outlook-web-show-from-distribution-list.png" alt-text="Screenshot of selecting More and then choosing Show From." lightbox="../../media/outlook-web-show-from-distribution-list.png":::
-
 1. Right-click on the **From** address, such as `john@contoso.com`, and select **Remove**.
 
-   :::image type="content" source="../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png" alt-text="Screenshot of removing the personal address from the From field." lightbox="../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png":::
-
 1. In the **From** field, enter the distribution list address, such as `support@contoso.com`, and then send the message. The next time you reply from the distribution list, its address appears as an option in the **From** list.
-
-   :::image type="content" source="../../media/outlook-web-from-list-distribution-list-address.png" alt-text="Screenshot of the alias of the shared mailbox appearing." lightbox="../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png":::
 
 ## Outlook
 
