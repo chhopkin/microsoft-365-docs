@@ -34,7 +34,7 @@ The Microsoft 365 Copilot credits report helps you manage metered consumption co
 - Cumulative and daily time series
 - Credits used per user, per agent, per billing policy, and per agent-user pair
 
-To learn more about meters, see [Meters for Microsoft 365 Copilot pay-as-you-go for IT admins](/copilot/microsoft-365/pay-as-you-go/meters).
+To learn more about meters, see [Meters for Microsoft 365 Copilot pay-as-you-go for IT admins](/microsoft-365/copilot/pay-as-you-go/meters).
 
 [!INCLUDE [microsoft-365-usage-reports-generic-intro](../../includes/microsoft-365-usage-reports-generic-intro.md)]
 
@@ -49,7 +49,7 @@ For information about the roles needed to view usage reports, see [Microsoft 365
 
 ## Interpret the Copilot Credits report
 
-After you [set up pay-as-you-go for Microsoft 365 Copilot Chat](/copilot/microsoft-365/pay-as-you-go/setup), either in the Microsoft 365 admin center or the <a href="https://go.microsoft.com/fwlink/p/?linkid=2160305" target="_blank">Power Platform admin center</a>, and enable agent usage in your organization, you see a new report that includes metrics for credits used.
+After you [set up pay-as-you-go for Microsoft 365 Copilot Chat](/microsoft-365/copilot/pay-as-you-go/setup), either in the Microsoft 365 admin center or the <a href="https://go.microsoft.com/fwlink/p/?linkid=2160305" target="_blank">Power Platform admin center</a>, and enable agent usage in your organization, you see a new report that includes metrics for credits used.
 
 To help you mitigate overspending, the report includes alerts when users in your organization use more than 2,000 credits. To learn more, see [Using agents in Microsoft 365 Copilot Chat](/copilot/agents) and the [overview on enabling agents](/microsoft-copilot-studio/requirements-messages-management), which explains how agents are billed.  
 

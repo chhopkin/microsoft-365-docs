@@ -232,7 +232,7 @@ If certain topics aren't delivering the expected response, it could mean the top
 
 #### Ambiguous prompt tests
 
-Ambiguous prompt tests check whether the agent recognizes unclear requests and asks for the right follow-up questions before acting. These scenarios ensure the agent doesn't guess, hallucinate, or take unintended actions when a prompt could mean multiple things. Strong clarification logic improves both accuracy and user trust. The Employee Self-Service agent template comes with a topic called [Seek clarification](/copilot/microsoft-365/employee-self-service/emotional-quotient-ambiguity) that detects ambiguous prompts.
+Ambiguous prompt tests check whether the agent recognizes unclear requests and asks for the right follow-up questions before acting. These scenarios ensure the agent doesn't guess, hallucinate, or take unintended actions when a prompt could mean multiple things. Strong clarification logic improves both accuracy and user trust. The Employee Self-Service agent template comes with a topic called [Seek clarification](/microsoft-365/copilot/employee-self-service/emotional-quotient-ambiguity) that detects ambiguous prompts.
 
 **Examples:**
 

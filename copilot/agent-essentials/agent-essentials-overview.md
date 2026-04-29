@@ -36,17 +36,17 @@ Key aspects of this content include the following topics:
 
 Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. Each aspect of this foundation forms a safer digital ecosystem for you and your organization to confidently adopt AI features and tools.
 
-Agents use this foundation as part of Copilot's AI [infrastructure](/copilot/microsoft-365/microsoft-365-copilot-architecture), [model](/microsoft-copilot-studio/nlu-gpt-overview), and [orchestrator](/microsoft-365-copilot/extensibility/orchestrator), which means agents adhere to the security, privacy, and compliance that is provided by Microsoft 365 Copilot. 
+Agents use this foundation as part of Copilot's AI [infrastructure](/microsoft-365/copilot/microsoft-365-copilot-architecture), [model](/microsoft-copilot-studio/nlu-gpt-overview), and [orchestrator](/microsoft-365-copilot/extensibility/orchestrator), which means agents adhere to the security, privacy, and compliance that is provided by Microsoft 365 Copilot. 
 
 > [!NOTE]
-> Your organization's data is maintained within the Microsoft 365 service boundary within your tenant. For more information, see [Microsoft 365 Copilot architecture and how it works](/copilot/microsoft-365/microsoft-365-copilot-architecture).
+> Your organization's data is maintained within the Microsoft 365 service boundary within your tenant. For more information, see [Microsoft 365 Copilot architecture and how it works](/microsoft-365/copilot/microsoft-365-copilot-architecture).
 
-Copilot and agents only access data that [individual users are authorized to access](/copilot/microsoft-365/microsoft-365-copilot-architecture#user-access-and-data-privacy) and don't access data that the user don't have permission to access. In addition, Copilot and agents honors [Conditional Access policies and multifactor authentication (MFA) based on Microsoft Entra ID](/copilot/microsoft-365/microsoft-365-copilot-architecture#copilot-honors-conditional-access-and-mfa).
+Copilot and agents only access data that [individual users are authorized to access](/microsoft-365/copilot/microsoft-365-copilot-architecture#user-access-and-data-privacy) and don't access data that the user don't have permission to access. In addition, Copilot and agents honors [Conditional Access policies and multifactor authentication (MFA) based on Microsoft Entra ID](/microsoft-365/copilot/microsoft-365-copilot-architecture#copilot-honors-conditional-access-and-mfa).
 
 When you integrate your business workflows as agents for Copilot, your internal data stays within your agent. That data doesn't flow out of [Microsoft Graph](/graph/overview) and it isn't used to train Microsoft 365 Copilot [LLMs](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-are-large-language-models-llms). Copilot does, however, generate a search query to send to your agent on the user's behalf based on their prompt and conversation history with Copilot and data the user has access to in Microsoft 365. 
 
 Microsoft's comprehensive security posture for AI includes:
-- [Secure engineering and development practices](/copilot/microsoft-365/security-microsoft-365-copilot)
+- [Secure engineering and development practices](/microsoft-365/copilot/security-microsoft-365-copilot)
 - [Data, Privacy, and Security for Microsoft 365 Copilot](../microsoft-365-copilot-privacy.md)
 
 > [!NOTE]
@@ -83,7 +83,7 @@ For more information, see [Responsible AI FAQ for Microsoft Copilot in Azure](/a
 
 ## Protect organizational data
 
-Microsoft 365 Copilot works with different Microsoft services to help you protect your organization's data. When you're ready to deploy agents within your organization, you should consider Microsoft's recommended approach to address oversharing concerns. This approach provides the pilot, deploy, and operate phases to consider when deploying Copilot and agents. Each phase consists of activities, outcomes, and expected effort needed. For more information, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/copilot/microsoft-365/secure-govern-copilot-foundational-deployment-guidance).
+Microsoft 365 Copilot works with different Microsoft services to help you protect your organization's data. When you're ready to deploy agents within your organization, you should consider Microsoft's recommended approach to address oversharing concerns. This approach provides the pilot, deploy, and operate phases to consider when deploying Copilot and agents. Each phase consists of activities, outcomes, and expected effort needed. For more information, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/microsoft-365/copilot/secure-govern-copilot-foundational-deployment-guidance).
 
 In addition, Microsoft provides SharePoint Advance Management and Microsoft Purview to address oversharing. SharePoint Advance Management provides SharePoint site management and content governance capabilities. Microsoft Purview provides security, compliance, and governance across data and files.
 
@@ -91,8 +91,8 @@ In addition, Microsoft provides SharePoint Advance Management and Microsoft Purv
 > Microsoft 365 Copilot uses the access rights of the end user to determine the data that can be presented to the end user.  
 
 To better understand aspects of data protection related to Microsoft 365 Copilot, such as sensitivity labels, encryption, oversharing, and data auditing, see the following resources:
-- [How data is protected and audited in Microsoft 365 and Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
-- [Enterprise data protection in Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/copilot/microsoft-365/enterprise-data-protection)
+- [How data is protected and audited in Microsoft 365 and Microsoft 365 Copilot](/microsoft-365/copilot/microsoft-365-copilot-architecture-data-protection-auditing)
+- [Enterprise data protection in Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/microsoft-365/copilot/enterprise-data-protection)
 - [Considerations to manage Microsoft 365 Copilot and Channel Agent in Teams for security and compliance](/purview/ai-m365-copilot-considerations)
 
 

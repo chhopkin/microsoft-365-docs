@@ -275,7 +275,7 @@ You can review, confirm, or edit the workflow directly from the chat card before
 
 ##### What do I need to set up to see these capabilities?
 
-You need to have a [Microsoft 365 Copilot license](/copilot/microsoft-365/microsoft-365-copilot-licensing) and be a site owner or a member to see the agent button.  
+You need to have a [Microsoft 365 Copilot license](/microsoft-365/copilot/microsoft-365-copilot-licensing) and be a site owner or a member to see the agent button.  
 A tenant administrator must enable Knowledge Agent for the tenant, either for all sites or for selected sites.
 
 ##### Why am I seeing errors when I try to process files?
