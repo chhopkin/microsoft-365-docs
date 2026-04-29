@@ -58,7 +58,7 @@ Copilot Pages and Copilot Notebooks content are stored in SharePoint Embedded. C
 
 ## Data Security, Devices
 
-- **Intune**: [Device Management Support](/mem/intune/remote-actions/device-management) is available for the Microsoft 365 app and Teams app on iOS and Android.
+- **Intune**: [Device Management Support](/intune/device-management/actions) is available for the Microsoft 365 app and Teams app on iOS and Android.
 - **Conditional Access**: Only applies at the app level. Because Copilot Pages and Copilot Notebooks are features of the Microsoft 365 Copilot app, [Conditional Access](/sharepoint/control-access-from-unmanaged-devices) applies to the entire app at m365.cloud.microsoft. Use [admin policies](cpcn-admin-configuration.md) to block creation of new content.
 - **Information Barriers**: [Not supported](/purview/information-barriers-sharepoint). See [admin policies](cpcn-admin-configuration.md) for available controls.
 

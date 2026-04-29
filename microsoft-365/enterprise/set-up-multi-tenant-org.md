@@ -15,6 +15,7 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: Learn how to set up a multitenant org in Microsoft 365.
+ms.custom: tenant
 ---
 
 # Set up a multitenant org in Microsoft 365

@@ -58,12 +58,8 @@ items:
   - name: Microsoft 365 Core
     tocHref:  /defender-business/
     topicHref: /microsoft-365/core/
-- name: Microsoft 365
-  tocHref:  /mem/
-  topicHref: /microsoft-365/index
-  items:
   - name: Microsoft 365 Core
-    tocHref:  /mem/autopilot/
+    tocHref:  /autopilot/
     topicHref: /microsoft-365/core/
 - name: Microsoft 365
   tocHref:  /windows/
