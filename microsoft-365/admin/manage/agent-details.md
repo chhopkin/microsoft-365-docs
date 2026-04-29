@@ -54,7 +54,7 @@ When you select an agent from the **Registry**, the details fly-out pane display
 |---|---|
 | **Install** | Deploys and installs the agent for the selected users at your   organizations. |
 | **Uninstall** | Removes the agent. Members of your organization can't install or use use   the agent. |
-| **Block** | Blocks the agent from members of your organization. They will not be able   to install or use the agent. Additionally, the agent will be removed from any   member of your organization who has already installed it. |
+| **Block** | Blocks the agent from members of your organization. They won't be able   to install or use the agent. Additionally, the agent will be removed from any   member of your organization who has already installed it. |
 | **Pin for users** | The agent will be pinned in the UI (based on channel) where the agent was   deployed, so that the agent can be found more easily. Based on the users or   groups where the agent was deployed, you can specify who will have the agent   pinned. |
 
 For more information about agent actions, see [Agent actions available in Microsoft 365 admin center](agent-actions.md).
@@ -109,7 +109,7 @@ To set an individual agent's availability and installation settings, use the fol
 1. In the left navigation pane, select **Agents** > **All Agents** > **Registry**.
 1. Select an agent from the list to manage.
 1. Select the **Users** tab.
-1. Select **Installed to** to assign users that will have the agent pre-install. Choose from the following options:
+1. Select **Installed to** to assign users that will have the agent pre-installed. Choose from the following options:
    - Just me
    - Entire organization
    - Specific users/groups
@@ -143,9 +143,9 @@ To access the **Data and tools** tab for an agent, use the following steps:
 The **Data & tools** tab is read-only and shows metadata reported by the agent platform. To change an agent's data sources or tools, the agent developer must update the agent configuration in the authoring platform, such as Copilot Studio, or Foundry. 
 
 Some agents may have an empty **Data & tools** tab. This occurs based on the following conditions: 
-- The agent developer did not configure knowledge sources or tools for the agent.
-- The agent type does not support these metadata fields. 
-- The agent's metadata has not yet synced to Microsoft 365 admin center.
+- The agent developer didn't configure knowledge sources or tools for the agent.
+- The agent type doesn't support these metadata fields. 
+- The agent's metadata hasn't yet synced to Microsoft 365 admin center.
 
 ### Agent capabilities
 
@@ -163,7 +163,7 @@ The **Can read** section indicates the categories of content the agent has been 
 > [!NOTE]
 > The capabilities shown depend on the permissions configured for the agent and may vary by agent type and platform.
 > 
-> **Public sites** means the agent can access publicly available web content. This does not mean the agent has unrestricted internet access — it can read public web pages as a knowledge source to inform its responses.
+> **Public sites** means the agent can access publicly available web content. This doesn't mean the agent has unrestricted internet access, it can read public web pages as a knowledge source to inform its responses.
 
 ### Agent knowledge sources
 
@@ -181,7 +181,7 @@ The following table provides knowledge sources and examples that can be included
 > [!NOTE]
 > Review knowledge source URLs to verify the agent is only referencing approved, trusted sources. Unfamiliar or external URLs may indicate the agent has access to data outside your organization's boundaries.
 
-### Agnet tools
+### Agent tools
 
 The **Tools** section, within the **Data & Tools** tab, provides the processes, connectors, and actions that the agent uses to handle requests. Tools represent what the agent can do, not just what it can read.
 
@@ -202,7 +202,7 @@ The following table provides tool types and examples that can be included with t
 The metadata surfaced in the **Data & tools** tab varies depending on the agent type and platform. Agent type is largely based on the tool and method of creating the agent.
 
 > [!NOTE]
-> Currently, Microsoft 365 admin center does not have data and tools information for all agents.
+> Currently, Microsoft 365 admin center doesn't have data and tools information for all agents.
 
 ## Agent security
 
@@ -220,7 +220,7 @@ To access the **Security** tab for an agent, use the following steps:
 3. Select an agent from the **Registry** list.
 4. In the agent details pane, select the **Security** tab.
 
-The **Security** tab provide the following actions related to Microsoft Purview protections:
+The **Security** tab provides the following actions related to Microsoft Purview protections:
 - Monitor agent activity
 - Protect sensitive data
 - Evaluate compliance gaps
@@ -324,7 +324,7 @@ Snapshots provide agent activity:
 > [!NOTE]
 > The **Active users** table can be exported to a CSV file. The table also supports pagination.
 
-These signals let you monitor, adoption, measure impact, and identify agents that need your attention. Agent that need your attention may include high excpetion raties, low active-users counts, and long run-times. Activity metrics are currently supported for Microsoft 365 Copilot Agent Builder, SharePoint, and Microsoft 365 Agents Toolkit agent types.
+These signals let you monitor, adoption, measure impact, and identify agents that need your attention. Agent that needs your attention may include high exception rates, low active-users counts, and long run-times. Activity metrics are currently supported for Microsoft 365 Copilot Agent Builder, SharePoint, and Microsoft 365 Agents Toolkit agent types.
 
 ## Agent instances
 
