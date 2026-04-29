@@ -62,7 +62,7 @@ The agent **Registry** provides quick details about the agents your organization
 |---|---|
 | **Total agents** | The number of agents available in your organization's tenant. |
 | **Agents without owners** | The number of agents that no longer have owners at your organization. |
-| **Blocked agents** | The number of agents that are blocked from members of your organization. |
+| **Unmanged agents** | The number of agents created or managed outside of Agent 365, without its risk protection and observability. |
 
 ### Agent registry filters
 
@@ -75,8 +75,8 @@ The agent **Registry** can contain a large and diverse inventory of agents. As y
 You can filter the agent list based on the following criteria:
 
 - **Status** - You can filter the agent list based on status of the agent.
-- **Publisher** - The publisher filter indicates who owns and distributes the agent, rather than where or how it was built. This filter is primarily used to distinguish between Microsoft agents, external partner-built agents, and internally owned agents published by your organization.
-- **Channel** - The channel filter is the location where the agent is deployed. It's the surface through which members of your organization can discover and interact with the agent. Channel values include **Copilot**, **Office**, **Outlook**, **Teams**.
+- **Publisher Type** - The publisher filter indicates who owns and distributes the agent, rather than where or how it was built. This filter is primarily used to distinguish between Microsoft agents, external partner-built agents, and internally owned agents published by your organization.
+- **Channel** - The channel filter is the location where the agent is deployed. It's the surface through which members of your organization can discover and interact with the agent. Channel values include **Copilot**, **Teams**, **Outlook**, **Microsoft 365 apps**, and **SharePoint**.
 - **Platform** - The platform filter indicates which platform or product was used to create the agent.
 - **Data source** - The data source filter allows you to select **Embedded knowledge** and **Fine-tuned models** as data source options. **Embedded knowledge** refers to agents that include files that were uploaded by the agent maker or developer as knowledge sources. **Fine-tuned models** indicates that the agent was created using [Microsoft 365 Copilot Tuning](/microsoft-365/copilot/copilot-tuning-overview), allowing the agent to tune LLMs with their own organization data.
 
@@ -92,10 +92,13 @@ The agent **Registry** provides agent actions that relate specifically to your t
 | Action | Description |
 |---|---|
 | **Refresh** | Updates the list to provide the most current view of the agent list. |
-| **Export to Excel** | Exports agents to a CSV file. This action could take some time depending on the number of agents in the tenant. For more information, see [Export to Excel](#export-to-excel).  |
-| **Upload custom agent** | Provides a method to upload an agent manifest file (.zip). For more information, see [Upload custom agent](#upload-custom-agent). |
+| **Export** | Exports agents to a CSV file. This action could take some time depending on the number of agents in the tenant. For more information, see [Export to Excel](#export-to-excel).  |
+| **Add agent** | Provides a method to upload an agent manifest file (.zip). For more information, see [Upload custom agent](#upload-custom-agent). |
 | **Manage pinned agents** | Select which agents are pinned for the user. Pinned agents are more prominently displayed in each available channel where the agent is deployed. You can change the priority of pinned agents by moving them up and down in this list. If a user has more than three pinned agents, users don't see agents with lower priority. For more information, see [Managed pinned agents](#manage-pinned-agents). |
+| **Csutomize view** | Customize how the columns that are displayed in the agent list. For more information, see [Custom view](#customize-view). |
+
 | **Search** | Use the search option to quickly find an agent in your agent **Registry**. |
+
 
 > [!TIP]
 > In addition to the above actions, you can change the view of the list from **Normal list** to **Compact list** by selecting the *list* icon next to the **Search** box.
@@ -106,25 +109,25 @@ Shared agents can become ownerless when you delete the user who created them fro
 
 To help administrators manage these scenarios, the Microsoft 365 admin center now enables you to identify and manage ownerless shared agents. The dashboard displays the total count of such agents, a one-click filter to quickly isolate them, and real-time updates that reflect user deletions. When administrators use these features, they can efficiently review and address ownership gaps by blocking or deleting affected agents.
 
-:::image type="content" source="../../media/agents/ownerless-shared-agents.png" alt-text="Screenshot of the ownerless shared agents view." lightbox="../../media/agents/ownerless-shared-agents.png":::
+:::image type="content" source="../../media/agents/agent-without-owners.png" alt-text="Screenshot of the ownerless agents view." lightbox="../../media/agents/agent-without-owners.png":::
 
 ### Key features
 
 - **Ownerless agent count** - Administrators can view the total number of agents without a valid owner directly from the dashboard. For example, the dashboard shows 20 ownerless agents, which indicates that users who left the organization created these agents.
-- **One-click filter** - Selecting the dashboard pane instantly filters the agent inventory to display only shared agents missing an owner. This feature allows for quick triage and action.
+- **One-click filter** - Selecting the dashboard pane instantly filters the agent list to display only shared agents missing an owner. This feature allows for quick triage and action.
 - **Real-time updates** - The ownerless agent count automatically updates when you hard delete a user from the organization. This feature ensures that the dashboard reflects the current state without requiring manual refreshes.
 
 ### Steps to view and manage ownerless shared agents
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. In the left navigation pane, select **Agents** > **All agents**.
-1. In the **All agents** page, locate the **Missing an Owner** tab.
-1. Select the tab to filter **Agent inventory**.
-1. Review the list of ownerless agents and take appropriate actions such as [blocking](agent-actions.md#block-or-unblock-agents) or [deleting](agent-actions.md#delete-agents) the agent.
+1. Select the **Agents without owners** card.
+  The **Publisher type** and **Owner** filters will be set.
+1. Review the list of agents without owners and take appropriate actions for each agent, such as [blocking](agent-actions.md#block-or-unblock-agents) or [deleting](agent-actions.md#delete-agents) the agent.
 
 ## Export to Excel
 
-Export the list of shared agents to an Excel file. This feature is essential for detailed analysis and reporting.
+Export the list of shared agents to an Excel file. You can set the scope of the exported list to be **All agents** or only the currently **Filtered agents**. This feature is essential for detailed analysis and reporting.
 
 > [!NOTE]
 >
@@ -133,12 +136,20 @@ Export the list of shared agents to an Excel file. This feature is essential for
 The exported file includes comprehensive information about each shared agent, such as:
 
 - Name
-- Host products
-- Created date
-- Developer user ID
-- Description
 - Status
+- Channel
+- Date created
+- Last Modified
+- Publisher
+- Publisher Type
 - Version
+- Owner
+- Description
+- Platform
+- Instructions
+
+> [!TIP]
+> There are over 30 different items for each agent that can be included in the exported list.
 
 With this information, you can efficiently manage and review the shared agents within your organization, ensuring compliance and optimizing resource allocation.
 
@@ -188,8 +199,6 @@ As an administrator, you can choose to pin a deployed agent to the **Agents** li
 
 Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Microsoft pinned agents are specific agents that are pinned by default for all users. Your organization pins admin pinned agents by using the Copilot Control System in Microsoft 365 admin center. Individual users pin user pinned agents in their own Microsoft 365 Copilot Chat or Microsoft 365 Copilot experience.
 
-:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot." lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
-
 To set, view, or manage pinned agents for your organization, see [Manage Pinning of Agents](/microsoft-365/admin/manage/manage-pinning-agents).
 
 > [!NOTE]
@@ -202,21 +211,21 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
 ### Prerequisites
 
-#### For end users
+To pin agents so that each agent is more visible and accessible to members of your organization, there are prerequisites for your users (members of your organization). Additionally, you must have specific permissions and role.
 
-- Microsoft 365 work account.
-- Access to Microsoft 365 Copilot Chat, for example, via Teams, web, or the Microsoft 365 Copilot app.
-- The agent you want to pin must be discoverable to you.
+**For end users** - Members of your organization must have access to the following:
+- Microsoft 365 work account
+- Access to Microsoft 365 Copilot Chat (for example, via Teams, web, or the Microsoft 365 Copilot app)
+- The agent to pin must be discoverable by the member of your organization
 
-#### For administrators
-
-- AI Administrator.
-- Access to the Microsoft 365 admin center.
-- (Optional) Power Platform admin center access if you use Pay-as-you-go for agents.
+**For administrators** - You, as the administrator, must have the following role and access:
+- AI Administrator
+- Access to the Microsoft 365 admin center
+- (Optional) Power Platform admin center access (if you use Pay-as-you-go for agents)
 
 ### Pinned agents
 
-:::image type="content" source="../../media/agents/copilot-chat-pinned-agents.png" alt-text="Screenshot of pinned agents in Microsoft 365 Copilot Chat." lightbox="../../media/agents/copilot-chat-pinned-agents.png":::
+:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot." lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
 
 ### Microsoft-pinned agents
 
@@ -254,23 +263,16 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 ### Pin agents
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-
 1. In the left navigation pane, select **Agents** > **All agents**.
-
-1. In the **All agents** page, select the **Manage pinned agents** icon.
-
-    :::image type="content" source="../../media/agents/manage-pinned-agents.png" alt-text="Screenshot of the Manage pinned agents setting in the Microsoft 365 admin center." lightbox="../../media/agents/manage-pinned-agents.png":::
-
-1. In the **Pinned agents** pane, view the agents pinned by Microsoft under the **Pinned by Microsoft** list. Initially, the **Pinned by your org** section has no agents.
-
-1. Select **Pin agent** to pin new agents.
-
-1. In the **Select an agent to pin** pane, find the agent you want to pin from the list of agents. You can search the list to find a specific agent by name.
+1. In the **All agents** page, select the ellipse on the right to display a dropdown menu.
+1. Select the **Manage pinned agents**.
+  In the **Pinned agents** pane, you will see agents **Pinned by your org** and agents **Pinned by Microsoft** list.
+1. Select **Pin agent** to pin a new agent.
+1. In the **Select an agent to pin** pane, find the agent you want to pin from the list of agents. You can search the list to find a specific agent by name. You can only pin agents that have been deployed to some or all users.
 
     :::image type="content" source="../../media/agents/select-an-agent.png" alt-text="Screenshot of the agent selection list in the Microsoft 365 admin center." lightbox="../../media/agents/select-an-agent.png":::
 
 1. When you find the desired agent, select it and then select **Next**.
-
 1. In the **Choose who will have this agent pinned** pane, choose the scope for the agent that you want to pin.
 
     - **All users the agent is deployed to** - Pin the agent for all users that the agent is deployed to in the tenant.
@@ -324,6 +326,12 @@ Select the agent and choose **Edit users** to modify the scope of users for whic
 You can also pin an agent from the agent details pane. Select the pin for the user icon. The icon is only enabled if the agent is deployed.
 
 :::image type="content" source="../../media/agents/agent-details.png" alt-text="Screenshot of the agent details pane in the Microsoft 365 admin center." lightbox="../../media/agents/agent-details.png":::
+
+## Customize view
+
+The agent list provided on the **All agents** page can be customized. You can choose which columns to display.
+
+:::image type="content" source="../../media/agents/agent-customize-view.png" alt-text="Screenshot of the Customize view pane in the Microsoft 365 admin center." lightbox="../../media/agents/agent-customize-view.png":::
 
 ## Microsoft Graph API for Agent Registry and Agent Details (preview)
 
