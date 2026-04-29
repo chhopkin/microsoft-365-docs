@@ -3,7 +3,7 @@ title: "Microsoft Feedback Code of Conduct"
 ms.author: danbrown
 author: DHB-MSFT
 manager: dansimp
-ms.date: 04/29/2026
+ms.date: 04/30/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
