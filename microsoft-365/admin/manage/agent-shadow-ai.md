@@ -34,6 +34,8 @@ search.appverid:
 
 # Shadow AI in Microsoft 365 admin center (Preview)
 
+[!INCLUDE [Frontier preview program](../includes/frontier.md)]
+
 The Shadow AI page in the Microsoft 365 admin center helps IT administrators discover, monitor, and govern unmanaged AI agents used within their organization.
 
 This preview capability provides a dedicated view for detecting and governing unapproved local AI agents such as OpenClaw, and enables administrators to take governance actions to maintain security and compliance.
