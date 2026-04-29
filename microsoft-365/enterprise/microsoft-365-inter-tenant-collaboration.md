@@ -3,7 +3,7 @@ title: "Microsoft 365 inter-tenant collaboration"
 ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
-ms.date: 07/11/2024
+ms.date: 07/11/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-enterprise
