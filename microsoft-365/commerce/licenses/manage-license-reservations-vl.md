@@ -31,7 +31,6 @@ This article explains reservation restrictions, the online services available fo
 - You must have the volume licensing (VL) Administrator or the Online Service Manager (OSM) role for the corresponding License ID to create and manage online reservations in the admin center.
 - You must have an agreement type of Enterprise, Enterprise Subscription, or Enterprise Agreement (EA) for Government Partners.
 - If you're a Licensing Solution Partner, you must be added as a VL external user and be granted the OSM role by a customer VL Administrator before you can make reservations on behalf of that customer.
-
 - All Reservations usage dates start at midnight Pacific Standard Timezone (PST). 
 
 > [!NOTE]
@@ -90,7 +89,7 @@ If you have any questions that relate to invoices resulting from the reconciliat
    > - All volume licensing Reservation usage dates are based on the **PST** (Pacific Standard Time) timezone.  Customers may need to select the previous date to ensure services are made available in their local time.
    > - Selecting a usage date within 60 days of your anniversary date might affect your ability to step-up to higher edition licenses. Speak with your Microsoft partner or seller first.
    > - Customers can’t place a reservation within 30 days of the agreement's end date. Instead, ask your partner or seller to submit an order on your behalf. 
-- After you make a reservation, you can't edit it. However, you can [cancel a reservation](#cancel-a-license-reservation-order) up to 72 hours from the start of the usage date (weekends and holidays included).
+   > - After you make a reservation, you can't edit it. However, you can [cancel a reservation](#cancel-a-license-reservation-order) up to 72 hours from the start of the usage date (weekends and holidays included).
 
 1. Select **Add services** to see a list of online services available for reserving online.
 1. Select the online services that you want to reserve, then select **Add services**.
