@@ -17,7 +17,7 @@ ms.collection:
 # Workforce Insights agent
 
 > [!IMPORTANT]
-> The Workforce Insights agent is in Frontier and subject to change. For more information about the Frontier program, see [What is Frontier?](https://adoption.microsoft.com/copilot/frontier-program/)
+> The Workforce Insights agent is in the Microsoft Frontier program and subject to change. For more information, see [Get started with the Microsoft Frontier program](/microsoft-365/admin/manage/get-started-frontier).
 
 The Workforce Insights agent helps organizational leaders and their specified delegates:
 
