@@ -48,8 +48,6 @@ The Microsoft 365 admin center provides governance and lifecycle management capa
 
 - **[Delete](#delete-agents)**: Delete agents and any associated files. When you delete an agent, it permanently removes the agent from the inventory and deletes all associated files.
 
-- **[Start/Stop](#start-or-stop-agents)**: Governs Foundry agents by starting or stopping the underlying Azure infrastructure. This action is unique to Microsoft Foundry agents.
-
 - **[Assign a new owner](#assign-new-owner-to-an-agent)**: Assign a new owner to agents that are ownerless or active.
 
 > [!NOTE]
