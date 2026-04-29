@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 11/18/2025
+ms.date: 05/01/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -68,14 +68,16 @@ Each tool listed here represents a service that supports Copilot experiences acr
 
 The following are examples of MCP servers:
 
-- **Microsoft Teams MCP Server** - Enables Copilot to manage chats, channels, and user interactions in Teams.
-- **Microsoft Word MCP Server** - Supports Copilot features in Word documents.
-- **Microsoft 365 Calendar MCP Server** - Provides scheduling and calendar integration.
-- **Microsoft Outlook Mail MCP Server** - Powers Copilot for email workflows.
-- **SharePoint MCP Server** - Enables Copilot to interact with SharePoint content.
-- **OneDrive MCP Server** - Supports file-based Copilot actions in OneDrive.
+- [**Work IQ Calendar MCP Server**](/microsoft-agent-365/mcp-server-reference/calendar) - Provides scheduling and calendar integration.
+- [**Work IQ Outlook Mail MCP Server**](/microsoft-agent-365/mcp-server-reference/mail) - Powers Copilot for email workflows.
+- [**Work IQ SharePoint MCP Server**](/microsoft-agent-365/mcp-server-reference/sharepoint) - Enables Copilot to interact with SharePoint content.
+- [**Work IQ OneDrive MCP Server**](/microsoft-agent-365/mcp-server-reference/onedrive) - Supports file-based Copilot actions in OneDrive.
+- [**Work IQ Teams MCP Server**](/microsoft-agent-365/mcp-server-reference/teams) - Enables Copilot to manage chats, channels, and user interactions in Teams.
+- [**Work IQ Word MCP Server**](/microsoft-agent-365/mcp-server-reference/word) - Supports Copilot features in Word documents.
 
 :::image type="content" source="../../media/agents/mcp-servers.png" alt-text="Screenshot showing a list of MCP servers in the Tools page of the Microsoft 365 admin center." lightbox="../../media/agents/mcp-servers.png":::
+
+For more information, see [Agent 365 tools catalog](/microsoft-agent-365/tooling-servers-overview#agent-365-tools-catalog).
 
 ### Status indicators
 
