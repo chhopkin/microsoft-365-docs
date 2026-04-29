@@ -68,7 +68,7 @@ To install an agent via the Microsoft 365 admin center, follow these steps:
 
 1. In the **All agents** page, make sure **Registry** is selected. Select the **Status** filter and then select **Available**.
 
-1. From the list of agents, select an agent  that isn't already installed.
+1. From the list of agents, select an agent that isn't already installed.
 
 1. In the agent details pane that opens, immediately under the agent's name, select **Install**.
 
