@@ -200,7 +200,7 @@ To configure admin settings for **Researcher with Computer Use**, follow these s
 
 - [Introducing Researcher with Computer Use in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-researcher-with-computer-use-in-microsoft-365-copilot/4464766).
 - [Get started using Researcher with Computer Use](https://support.microsoft.com/topic/get-started-using-researcher-with-computer-use-in-microsoft-365-copilot-frontier-1f274537-6648-46e8-8264-052a49b92af4).
-- [Frequently asked questions for Researcher with Computer Use](/copilot/microsoft-365/researcher-agent-computer-use-faq).
+- [Frequently asked questions for Researcher with Computer Use](/microsoft-365/copilot/researcher-agent-computer-use-faq).
 
 #### Agent metadata in the Microsoft 365 admin center
 
