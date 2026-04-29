@@ -37,12 +37,12 @@ Use the following steps to deploy an individual agent:
     c. Specific users/groups
     Then, select **Next**.
 
-   :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-select-users.png" alt-text="Screenshot of the step to deploy agent to selected users from within Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-select-users.png":::
+   :::image type="content" source="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-deploy-select-users.png" alt-text="Screenshot of the step to deploy agent to selected users from within Microsoft 365 admin center."  lightbox="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-deploy-select-users.png":::
 
 7. Review and confirm the agent permissions and details, then select **Next**.
 8. Review the deployment, then select **Finish deployment**.
 
-   :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-review-finish.png" alt-text="Screenshot of the step to review and and finish the process when deploying an agent from within Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-review-finish.png":::
+   :::image type="content" source="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-deploy-review-finish.png" alt-text="Screenshot of the step to review and and finish the process when deploying an agent from within Microsoft 365 admin center."  lightbox="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-deploy-review-finish.png":::
 
 9. When the deployment is complete, select **Close**.
 

@@ -78,5 +78,5 @@ You can continue to evolve your agent as new data becomes available and tune the
 
 ## Related content
 
-- [Copilot Tuning overview](/copilot/microsoft-365/copilot-tuning-overview)
-- [Copilot Tuning admin guide](/copilot/microsoft-365/copilot-tuning-admin-guide)
+- [Copilot Tuning overview](/microsoft-365/copilot/copilot-tuning-overview)
+- [Copilot Tuning admin guide](/microsoft-365/copilot/copilot-tuning-admin-guide)

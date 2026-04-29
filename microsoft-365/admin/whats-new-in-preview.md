@@ -44,7 +44,7 @@ And if you'd like to know what's new with other Microsoft cloud services, check 
 
 - [What's new in Microsoft Entra ID](/azure/active-directory/fundamentals/whats-new)
 - [What's new in the Exchange admin center](/Exchange/whats-new)
-- [What's new in Microsoft Intune](/mem/intune/fundamentals/whats-new)
+- [What's new in Microsoft Intune](/intune/whats-new/)
 - [What's new in the Microsoft Purview portal](/microsoft-365/compliance/whats-new)
 - [What's new in Microsoft Defender XDR](../security/mtp/whats-new.md)
 - [What's new in the SharePoint admin center](/sharepoint/what-s-new-in-admin-center)
@@ -90,7 +90,7 @@ The Microsoft 365 Admin center now includes the **Copilot Search Admin experie
 
 These features help ensure that users find the right information faster, especially when navigating internal terminology or frequently accessed content.
 
-To learn more, see [Microsoft 365 Copilot Search](/copilot/microsoft-365/microsoft-365-copilot-search?branch=pr-28653).
+To learn more, see [Microsoft 365 Copilot Search](/microsoft-365/copilot/microsoft-365-copilot-search?branch=pr-28653).
 
 ## April 2025
 
@@ -124,8 +124,6 @@ To learn more, see [Microsoft 365 Reports in the admin center – EWS usage](/mi
 
 ### Provide admin-initiated feedback for Microsoft 365 Copilot
 
-> [!VIDEO c67f2b9c-8ba4-44b5-8713-00063e92ba54]
-
 You can provide feedback about Microsoft 365 Copilot on behalf of your users within the Microsoft 365 admin center, supplementing the user-initiated feedback process. This helps Microsoft receive comprehensive diagnostic data to aid in debugging and improving the quality and relevance of Copilot's responses. Recent enhancements to this feature include:
 
 - **Role expansion** The feature now includes the AI Admin role in addition to Global Admin role, ensuring that more administrators can access and manage Copilot diagnostics.
@@ -136,13 +134,13 @@ You can provide feedback about Microsoft 365 Copilot on behalf of your users wit
 
 As an admin, you play a pivotal role in setting the tone for how your organization adopts and benefits from new technologies. Hence, with admin-initiated feedback, we're empowering administrators to harness this capability for Copilot's continual improvement, all while ensuring the security and ownership of your organization’s data. 
 
-These enhancements provide more control and flexibility, ensuring that feedback is accurate and relevant. To learn more, see [Submit admin-initiated Copilot feedback from the Microsoft 365 admin center](/copilot/microsoft-365/provide-feedback).
+These enhancements provide more control and flexibility, ensuring that feedback is accurate and relevant.
 
 ## January 2025
 
 ### AI Administrator role in Microsoft 365 admin center
 
-The AI administrator role is designed to manage all settings related to Copilot within the Microsoft 365 admin center. You can manage Copilot settings by using the Copilot page in the admin center, which serves as the central hub for all Copilot controls. To learn more about the Copilot page, see [Manage Microsoft 365 Copilot settings in the Microsoft 365 admin center](/copilot/microsoft-365/microsoft-365-copilot-page).
+The AI administrator role is designed to manage all settings related to Copilot within the Microsoft 365 admin center. You can manage Copilot settings by using the Copilot page in the admin center, which serves as the central hub for all Copilot controls. To learn more about the Copilot page, see [Manage Microsoft 365 Copilot settings in the Microsoft 365 admin center](/microsoft-365/copilot/microsoft-365-copilot-page).
 
 With the AI administrator role, you can:
 
@@ -250,7 +248,6 @@ To access the sentiment per topic insights, sign in to the Microsoft 365 Admin C
 
 :::image type="content" source="../media/nps-sentimentpertopic.jpg" alt-text="Screenshot: Sentiment per topic feature in the NPS survey insights dashboard" lightbox="../media/nps-sentimentpertopic.jpg":::
 
-For questions or feedback related to NPS survey insights, contact us at Prosight@microsoft.com.
 
 ## August 2022
 
@@ -268,9 +265,6 @@ To access, go to **Health** > **Product feedback** > **NPS survey insights tab**
 
 :::image type="content" source="../media/nps-date-filter.png" alt-text="Screenshot: Date filter in the NPS survey insights dashboard" lightbox="../media/nps-date-filter.png":::
 
-Learn more about [NPS survey insights](/microsoft-365/admin/manage/manage-feedback-product-insights).
-
-For questions or feedback related to NPS survey insights, contact us at Prosight@microsoft.com.
 
 ## July 2022
 
@@ -318,7 +312,7 @@ NPS survey insights is an AI-driven dashboard available in the Microsoft 365 adm
 
 In the admin center, go to **Health** > **Product feedback** > **NPS survey insights**.
 
-This feature helps admins like you obtain actionable insights derived from Microsoft NPS surveys your users have responded to. Learn more at [Microsoft product NPS feedback and insights for your organization](manage/manage-feedback-product-insights.md).
+This feature helps admins like you obtain actionable insights derived from Microsoft NPS surveys your users have responded to.
 
 Based on your feedback, we're introducing a new feature that identifies the sentiment for each NPS verbatim feedback, so that you can learn what your users are feeling regarding Microsoft 365 products. Sentiment labels such as **Positive**, **Negative** and **Other** are assigned to the NPS verbatim feedback.
 
@@ -342,8 +336,6 @@ To provide you with a better experience using the NPS survey insight dashboard, 
 
 - Improve diagnosability by enabling [Windows Error Reporting](/windows/win32/wer/windows-error-reporting).
 
-> [!NOTE]
-> If you're an enterprise customer and you're interested in joining our design sessions, send us an email at: prosight@microsoft.com
 
 ### Microsoft 365 admin center search
 

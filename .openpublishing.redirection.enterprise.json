@@ -1511,6 +1511,11 @@
       "redirect_document_id": true
    },
    {
+      "source_path": "microsoft-365/enterprise/essentials-privacy.md",
+      "redirect_url": "https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA",
+      "redirect_document_id": false
+   },   
+   {
       "source_path": "microsoft-365/enterprise/m365-dr-workload-other.md",
       "redirect_url": "/microsoft-365/enterprise/m365-dr-service-other",
       "redirect_document_id": true

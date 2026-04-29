@@ -23,6 +23,7 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet
+- user-accounts
 description: "Make your organization more secure against password attacks, and ban common passwords and enable risk-based multifactor authentication."
 ---
 

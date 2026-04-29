@@ -79,7 +79,7 @@ Mobile device management (MDM) solutions, such as Microsoft Intune, simplify dep
 
 A device can only be enrolled in one MDM solution, but you can use multiple MDM solutions to manage separate pools of devices. For example, you could use Omnissa Workspace ONE or SOTI MobiControl for shared devices and Intune for BYOD. If you use multiple MDM solutions, keep in mind that some users might not be able to access shared devices because of a mismatch in Conditional Access policies or mobile application management (MAM) policies.
 
-If you're using a third-party MDM solution, you can integrate with [Intune partner compliance](/mem/intune/protect/device-compliance-partners) to take advantage of Conditional Access for devices managed by third-party MDM solutions.
+If you're using a third-party MDM solution, you can integrate with [Intune partner compliance](/intune/device-security/compliance/third-party-partners) to take advantage of Conditional Access for devices managed by third-party MDM solutions.
 
 ### App launchers for Android devices
 
@@ -91,7 +91,7 @@ The following table lists some of the most common app launchers available today 
 
 |App launcher |Capabilities|
 |-------------|------------|
-|Microsoft Managed Home Screen |Use Managed Home Screen when you want your users to have access to a specific set of apps on your Intune-enrolled dedicated devices. Because Managed Home Screen can be automatically launched as the default home screen on the device and appears to the user as the only home screen, it's useful in shared devices scenarios when a locked-down experience is required. [Learn more](/mem/intune/apps/app-configuration-managed-home-screen-app).|
+|Microsoft Managed Home Screen |Use Managed Home Screen when you want your users to have access to a specific set of apps on your Intune-enrolled dedicated devices. Because Managed Home Screen can be automatically launched as the default home screen on the device and appears to the user as the only home screen, it's useful in shared devices scenarios when a locked-down experience is required. [Learn more](/intune/app-management/configuration/configure-managed-home-screen).|
 |Omnissa Workspace ONE Launcher |If you're using Omnissa, the Workspace ONE Launcher is a tool to curate a set of apps that your frontline needs to access. Omnissa Workspace ONE Launcher doesn't currently support shared device mode. [Learn more](https://docs.omnissa.com/bundle/workspaceonelauncherV2306/page/AWLAUNCHERINTRO.html).|
 |SOTI|If you're using SOTI, the SOTI app launcher is the best tool to curate a set of apps that your frontline needs to access. The SOTI app launcher supports shared device mode today.|
 |BlueFletch|[BlueFletch Launcher](https://docs.bluefletch.com/bluefletch-enterprise/product-guides/bluefletch-launcher) can be used on devices, regardless of your MDM solution. BlueFletch supports shared device mode today. [Learn more](https://soti.net/mc/help/v2024.0/en/console/system/microsoft_365_integration/change_device_reg_to_shared_mode_in_azure.html). |
@@ -207,7 +207,7 @@ To learn more, see the [Microsoft Entra Conditional Access documentation](/entra
 
 #### App protection policies
 
-With mobile application management (MAM) from Intune, you can use [app protection policies](/mem/intune/apps/app-protection-policy) with apps that are integrated with the [Intune App SDK](/mem/intune/developer/app-sdk-get-started). This allows you to further protect your organization's data within an app.
+With mobile application management (MAM) from Intune, you can use [app protection policies](/intune/app-management/protection/overview) with apps that are integrated with the [Intune App SDK](/intune/developer/app-sdk/quickstart-integration). This allows you to further protect your organization's data within an app.
 
 With app protection policies, you can add access control safeguards, such as:
 
@@ -227,4 +227,4 @@ To learn more, see [Limit access to Teams when frontline workers are off shift](
 
 - [Manage shared devices for your frontline](flw-shared-devices.md)
 - [Frontline worker management](/entra/fundamentals/frontline-worker-management)
-- [Frontline worker device management overview in Microsoft Intune](/mem/solutions/frontline-worker/frontline-worker-overview)
+- [Frontline worker device management overview in Microsoft Intune](/intune/solutions/frontline-worker/)

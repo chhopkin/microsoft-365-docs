@@ -2,9 +2,9 @@
 title: "User email settings"
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
+ms.author: kwekua
+author: kwekuako
+manager: scotv
 ms.date: 10/01/2024
 audience: Admin
 ms.topic: overview
@@ -15,7 +15,9 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom: 
+- AdminSurgePortfolio
+- user-accounts
 ms.localizationpriority: medium
 search.appverid:
 - MET150

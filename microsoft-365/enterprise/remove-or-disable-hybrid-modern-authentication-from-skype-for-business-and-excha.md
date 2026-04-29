@@ -20,6 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - seo-marvel-apr2020
+- identity-models
 description: "This article explains how to remove or disable Hybrid Modern Authentication from Skype for Business and Exchange."
 ---
 

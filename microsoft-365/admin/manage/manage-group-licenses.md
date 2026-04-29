@@ -17,6 +17,7 @@ ms.custom:
 - commerce_licensing
 - admindeeplinkMAC
 - m365-groups
+- user-accounts
 search.appverid: MET150
 description: "Learn how to assign or unassign licenses to groups in the Microsoft 365 admin center."
 ms.date: 04/17/2026

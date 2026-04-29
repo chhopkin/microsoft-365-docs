@@ -18,6 +18,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- tenant
 search.appverid:
 - BCS160
 - MET150

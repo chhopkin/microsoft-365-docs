@@ -2,9 +2,9 @@
 title: "Create organization-wide signatures and disclaimers"
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
+ms.author: kwekua
+author: kwekuako
+manager: scotv
 ms.date: 06/19/2024
 audience: Admin
 ms.topic: how-to

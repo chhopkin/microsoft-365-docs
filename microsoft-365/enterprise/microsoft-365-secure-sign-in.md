@@ -21,7 +21,7 @@ ms.collection:
 - zerotrust-solution
 - highpri
 - must-keep
-ms.custom: 
+ms.custom: user-accounts
 description: Require that your users sign in securely with multifactor authentication (MFA) and other features.
 ---
 
