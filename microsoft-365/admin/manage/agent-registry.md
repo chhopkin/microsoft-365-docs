@@ -62,7 +62,7 @@ The agent **Registry** provides quick details about the agents your organization
 |---|---|
 | **Total agents** | The number of agents available in your organization's tenant. |
 | **Agents without owners** | The number of agents that no longer have owners at your organization. |
-| **Unmanged agents** | The number of agents created or managed outside of Agent 365, without its risk protection and observability. |
+| **Unmanaged agents** | The number of agents created or managed outside of Agent 365, without its risk protection and observability. |
 
 ### Agent registry filters
 
