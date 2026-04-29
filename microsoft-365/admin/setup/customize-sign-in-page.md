@@ -2,9 +2,9 @@
 title: "Add your company branding to the Microsoft 365 sign-in page"
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
+ms.author: kwekua
+author: kwekuako
+manager: scotv
 ms.date: 09/30/2024
 audience: Admin
 ms.topic: how-to
