@@ -148,9 +148,9 @@ Once detection is enabled for a Shadow AI agent, you can view detected devices i
 
 ### Blocking a Shadow AI agent
 
-After detection is enabled and the Shadow AI agent is identified in your environment, you can block it to prevent execution on managed devices. Blocking a Shadow AI agent, such as OpenClaw, blocks common ways of running it by creating a new Microsoft Intune policy that automatically propagates to all managed Windows devices enrolled in Intune.
+After detection is enabled and the Shadow AI agent is identified in your environment, you can block it to prevent execution on managed devices. When a Shadow AI agent is blocked, such as OpenClaw, it blocks common ways of running it by creating a new Microsoft Intune policy that automatically propagates to all managed Windows devices enrolled in Intune.
 
-To view the policy details, search for the policy name **A365 - Block OpenClaw** in the article [Assign policies in Microsoft Intune](/intune/device-configuration/assign-device-profile). Depending on how Intune is configured in your organization, this Intune policy update could take anywhere from 15 minutes up to 8 hours to apply. To Full policy details, including when Intune policy applies, can be found in Intune. Lastly, policies can also be edited in Intune to add additional controls.
+To view the policy details, search for the policy name **A365 - Block OpenClaw** in the article [Assign policies in Microsoft Intune](/intune/device-configuration/assign-device-profile). Depending on how Intune is configured in your organization, this Intune policy update could take anywhere from 15 minutes up to 8 hours to apply. Full policy details, including when Intune policy applies, can be found in Intune. Lastly, policies can also be edited in Intune to add additional controls.
 
 To block a Shadow AI agent, follow these steps:
 
