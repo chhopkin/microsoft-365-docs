@@ -68,7 +68,6 @@ Agent Management Rules currently support the following governance scenarios:
 
 - Install Microsoft agents
 - Reassign ownerless agents created with Agent Builder to manager
-- Block agents that are confirmed compromised
 
 #### Install Microsoft agents
 
@@ -93,16 +92,6 @@ Using the Reassign Ownerless Agents rule, you can do the following:
 - Identify agents that no longer have a valid owner
 - Review ownerless agents prior to reassignment
 - Transfer ownership using a bulk reassignment action to the manager of the previous owner based on Microsoft Entra ID hierarchy
-
-#### Block agents that are confirmed compromised
-
-When an agent is flagged by security tooling such as Microsoft Defender, Microsoft Purview, or Microsoft Entra ID, administrators must mitigate potential risks that could result in misuse or data exposure. 
-
-Using the Block Agents with Risk Alert rule, you can do the following:
-
-- Identify agents that meet defined security risk criteria
-- Review affected agents prior to enforcement
-- Apply blocking action across impacted agents in bulk
 
 ## Allowed agent types
 

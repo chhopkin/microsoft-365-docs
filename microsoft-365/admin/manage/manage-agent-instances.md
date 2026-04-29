@@ -36,7 +36,7 @@ search.appverid:
 
 Once an admin activates an agent, requestor can create instances of that agent. The Microsoft 365 admin center provides a centralized view for managing these instances:
 
-- **Agent Registry** - Navigate to **Agents** > **All agents** > **Registry**. You can view agents with the **AI teammate** tag. You will also the number of instances that have been created for the specific agent.
+- **Agent Registry** - Navigate to **Agents** > **All agents** > **Registry**. You can view agents with the **AI teammate** tag. You'll also the number of instances that have been created for the specific agent.
 
 - **Agent Details** - Select an agent to open a flyout panel that displays the agent details. Select the **Instances** tab in the panel.
 
@@ -68,7 +68,7 @@ To restore functionality, the administrator can **Unblock** the instance at any 
 Administrators can delete an instance from the Microsoft 365 admin center when it's no longer needed.
 
 1. In the left navigation pane, select **Agents** > **All agents**.
-1. Selct the **AI teammate** filter.
+1. Select the **AI teammate** filter.
 1. Select an agent from the list. The agent panel opens.
 1. Under the **Instance** tab, the **Instance list view** is displayed.
 1. Select the instance to see all details of the agent instance.
