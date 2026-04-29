@@ -222,7 +222,7 @@ To pin agents so that each agent is more visible and accessible to members of yo
 
 ### Pinned agents
 
-:::image type="content" source="../../media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot." lightbox="../../media/m365-agents-admin-guide/agent-pinned.png":::
+:::image type="content" source="/copilot/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot." lightbox="/copilot/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
 
 ### Microsoft-pinned agents
 
