@@ -72,9 +72,10 @@ The following table provides agent tabs based on agent capability:
 | **[Data & Tools](#agent-data--tools)** |  This tab provides details about Microsoft Purview protections, such as capabilities, knowledge sources, and tools available to the agent. Also, provides Microsoft Entry   protection details, such as Agent User ID and Agent ID. |
 | **[Security](#agent-security)** | This tab provides details about monitoring agent activity, protecting sensitive   data, and evaluating compliance gaps. |
 | **[Permissions](#agent-permissions)** | This tab allows you to review and grant permission to data the agent can access and perform actions on. For more information, see [Agent permissions](#agent-permissions). |
+| **[Certification](#agent-certification)** | This tab gives you a single place to review the trust and attestation signals that are available for the selected agent before you deploy the agent across your organization. For more information, see [Agent certification](#agent-certification). |
 | **[Activity](#agent-activity)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
+| **[Agent instances](#agent-instances)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
 | **[Connect Agents](#connected-agents)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
-| **[Custom tools & knowledge](#custom-tools--knowledge)** | This tab helps you extend the selected agent by copying the skills and knowledge from up to one other agent. When you select an agent to extend from, the skills and knowledge from   that agent will be available in the selected agent. |
 | **[Computer use](#computer-use)** | This tab is used to allow the selected agent to perform action on behalf of the users and also access work data. Additionally, you can choose which websites are   allowed for **Computer use**. Note that Web search is required for **Computer use**. |
 
 ## Agent details
@@ -327,15 +328,20 @@ These signals let you monitor, adoption, measure impact, and identify agents tha
 
 ## Agent instances
 
-The **Instances** tab provides a table of instances of the agent across environments. 
+The **Instances** tab appears when you select an agent that is tagged as an **AI teammate** in the **Agent Registry**. AI teammate agents are agent templates from which your organization can instantiate one or more agent instances. Agent instances receive their own Microsoft Entra–backed agent identity, license, mailbox, OneDrive, and Teams presence so they can participate in Microsoft 365 workflows. 
 
-The table provides the following columns:
-- Name
-- Email
-- Status
-- Risks
-- Total sessions
-- Owner
+ The **Instances** tab allows you to review a detailed table of all instances created from the selected agent. The table provides the following columns:
+
+- **Name** - The name of the agent instance.
+- **Email** - The email for the agent instance.
+- **Status** - The status of the agent, such as **Active** or **Not active**.
+- **Risks** - The number of detected risks.
+- **Total sessions** - The total number of sessions over the last 30 days.
+- **Owner** - The owner of the agent instance.
+- 
+Selecting a row opens that instance's details. Based on your assigned role (such as **AI Administrator** or **Global Administrator**), you can manage individual instance settings, review security and compliance status, assign or update Microsoft 365 licenses, and take lifecycle actions such as **Block**, **Unblock**, or **Delete** the instance.
+
+For more information about agent instances, see [Create AI agent instances in Microsoft 365 admin center](create-agent-instances.md) and [Manage agent instances in Microsoft 365 admin center](manage-agent-instances.md).
 
 ## Connected agents
 
@@ -358,18 +364,17 @@ The **Connected agents** tab provides a table of agents that are currently conne
 1. Select the check-box next to the agent.
 1. Select **Save**.
 
-## Custom tools & knowledge
-
-
-
-
-
 ## Computer use
 
+The **Computer use** tab appears in the agent details pane for select agents that support computer-use capabilities, such as Researcher. When an agent supports this feature, an extra **Computer use** tab is shown alongside the other agent details tabs. **Computer use** allows you to govern how the agent interacts with web content through a secure virtual computer. For Researcher specifically, you can extend Researcher beyond research and reasoning, allowing it to securely interact with public, gated, and interactive web content through a Windows 365–backed virtual computer. You can select whether Research can generate richer reports grounded in both their work data and the web. The **Computer use** tab is where you establish the guardrails before users can take advantage of these capabilities. 
 
+The **Computer use** tab allows you to configure three primary policies that scope who can use the feature, what work data it can combine with the web, and which sites the virtual computer is allowed to reach:
 
+- **Allow Researcher with Computer Use to perform actions on behalf of users**: Choose who in your organization can use Researcher with **Computer Use**. When access is disabled for a user, the **Computer use** option appears grayed out in the Researcher experience. 
+- **Allow Researcher to access work data**: Control whether users can combine enterprise data (such as emails, chats, and files) with web-based research during a **Computer use** session. 
+- **Choose which websites are allowed for Computer Use**: Define which sites the virtual computer is allowed to navigate. 
 
-
+For more information, see [Researcher with Computer Use admin configuration](#researcher-with-computer-use-admin-configuration).
 
 ## Manage agents with embedded file content as a knowledge source
 
@@ -458,8 +463,6 @@ You can view the sensitivity label for each agent in the **Overview** tab of the
 
 For more information, see [Sensitivity labels for agent embedded content](/microsoft-365-copilot/extensibility/copilot-studio-lite-knowledge#sensitivity-labels-for-agent-embedded-content).
 
-
-
 #### Researcher with Computer Use admin configuration
 
 For **Researcher with Computer Use** onboarding instructions, see the following short video:
@@ -529,4 +532,3 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
 You can access key metadata for Copilot agents in **Agents** > **All Agents**. When you select an agent, you see the metadata in the **Data & tools** tab.
 
 The metadata includes details such as the agent's capabilities, data sources, and custom actions. Example data sources include OneDrive and SharePoint files and sites, or Graph connectors. Metadata is only for custom agents, which are designed to perform specific tasks based on predefined rules and configurations.
-
