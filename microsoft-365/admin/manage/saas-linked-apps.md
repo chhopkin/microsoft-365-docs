@@ -15,7 +15,9 @@ ms.collection:
 - scotvorg
 - Adm_TOC
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- integrated-apps
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Gives an overview of software as a service (SaaS) linked apps."

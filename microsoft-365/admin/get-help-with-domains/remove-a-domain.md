@@ -25,6 +25,7 @@ ms.custom:
 - business_assist
 - has-azure-ad-ps-ref
 - azure-ad-ref-level-one-done
+- domains
 search.appverid:
 - BCS160
 - MET150

@@ -23,6 +23,7 @@ ms.custom:
 - okr_smb
 - AdminTemplateSet
 - admindeeplinkMAC
+- integrated-apps
 search.appverid:
 - BCS160
 - MET150

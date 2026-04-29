@@ -2,9 +2,9 @@
 title: "Getting a mailbox not found error in Outlook on the web"
 f1.keywords:
 - CSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
+ms.author: kwekua
+author: kwekuako
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business

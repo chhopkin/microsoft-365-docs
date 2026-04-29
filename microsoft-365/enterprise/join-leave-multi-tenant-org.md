@@ -14,6 +14,7 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: Learn how to join or leave a multitenant organization in Microsoft 365.
+ms.custom: tenant
 ---
 
 # Join or leave a multitenant organization in Microsoft 365

@@ -21,6 +21,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - admindeeplinkMAC
+- tenant
 search.appverid: MET150
 description: "Learn how to manage Office Scripts settings for users in your organization."
 ---
