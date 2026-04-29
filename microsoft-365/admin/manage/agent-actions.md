@@ -166,28 +166,6 @@ When you delete an agent, the following actions occur:
 
 This deletion process is irreversible. Once you delete an agent, it might take up to 24 hours for the deletion to reach all users who had access to the agent. During this time, users might still see the agent listed, but they can't interact with it.
 
-## Start or Stop agents
-
-An admin can start or stop the underlying Microsoft Azure infrastructure to govern Foundry agents. The admin must first elevate to the **Azure AI Owner** role.
-
-> [!IMPORTANT]
->
-> Stop and Start operate on individual deployments by deallocating or provisioning compute. They affect the underlying Azure infrastructure, not just how an agent is used in your organization.
-
-To start or stop an agent, follow these steps:
-
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-
-1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
-
-1. Under **Agents**, select **All agents**.
-
-1. In the **All agents** page, select a Foundry agent that you want to start or stop.
-
-1. In the agent details pane that opens, under the agent's name, select **Add Role**. You must elevate to the **Azure AI Owner** role to perform this action.
-
-1. Once you're elevated, you can start or stop the underlying infrastructure to govern these agents.
-
 ## Assign new owner to an agent
 
 IT administrators can reassign ownership for agents that are ownerless or active.
