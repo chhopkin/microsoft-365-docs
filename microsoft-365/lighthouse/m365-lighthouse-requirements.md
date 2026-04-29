@@ -49,8 +49,8 @@ Customer tenants that don't meet these requirements will have access to only a l
 
 To view customer tenant devices on the device management pages, an MSP must:
 
-- Enroll all customer devices in Microsoft Intune. For more information, see [Enroll devices in Microsoft Intune](/mem/intune/enrollment/).
-- Assign compliance policies to all customer devices. For more information, see [Create a compliance policy in Microsoft Intune](/mem/intune/protect/create-compliance-policy).
+- Enroll all customer devices in Microsoft Intune. For more information, see [Enroll devices in Microsoft Intune](/intune/device-enrollment/guide).
+- Assign compliance policies to all customer devices. For more information, see [Create a compliance policy in Microsoft Intune](/intune/device-security/compliance/create-policy).
 
 ## Requirements for enabling user management
 
@@ -60,7 +60,7 @@ For customer data to show up in reports on user management pages, including Risk
 
 To view customer tenant devices and threats on the threat management pages, you must enroll all customer tenant devices in Microsoft Intune and protect them by running Microsoft Defender Antivirus.
 
-For more information, see [Enroll devices in Microsoft Intune](/mem/intune/enrollment/).
+For more information, see [Enroll devices in Microsoft Intune](/intune/device-enrollment/guide).
 
 Microsoft Defender Antivirus is part of the Windows operating system and is enabled by default on devices running Windows 10.
 

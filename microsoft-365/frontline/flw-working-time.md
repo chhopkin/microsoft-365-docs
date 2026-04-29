@@ -51,16 +51,16 @@ Follow these steps to enable working time for your frontline.
 
 ### Configure app protection policies for Android and iOS
 
-Use Microsoft Intune [app protection policies](/mem/intune/apps/app-protection-policies) to configure working time to block or warn access to Teams on Android and iOS devices. For more information about policy settings, see:
+Use Microsoft Intune [app protection policies](/intune/app-management/protection/create-policy) to configure working time to block or warn access to Teams on Android and iOS devices. For more information about policy settings, see:
 
-- [Android app protection policy settings - Conditional launch](/mem/intune/apps/app-protection-policy-settings-android#conditional-launch)
-- [iOS app protection policy settings - Conditional launch](/mem/intune/apps/app-protection-policy-settings-ios#conditional-launch)
+- [Android app protection policy settings - Conditional launch](/intune/app-management/protection/ref-settings-android#conditional-launch)
+- [iOS app protection policy settings - Conditional launch](/intune/app-management/protection/ref-settings-ios#conditional-launch)
 
 ### Connect your workforce management system (WFM) to the workingTimeSchedule API
 
 #### Create an application
 
-1. Create an application in Microsoft Entra for the [workingTimeSchedule](/graph/api/resources/workingtimeschedule?view=graph-rest-beta) Graph API.
+1. Create an application in Microsoft Entra for the [workingTimeSchedule](/graph/api/resources/workingtimeschedule) Graph API.
 
     When you register your application, make sure you choose the **Accounts in this organizational directory only (Single tenant)** option so that only users in your tenant can use the application. To learn more, see [Register an application with the Microsoft identity platform](/entra/identity-platform/quickstart-register-app).
 1. Add the hidden application permission for calling the Graph API using the required scope, `Schedule-WorkingTime.ReadWrite.All`.
@@ -226,7 +226,7 @@ Here's how to call Graph endpoints from the application using example code in C#
 
 This step is optional but recommended.
 
-Configure quiet time policies in Intune to automatically mute Teams notifications for frontline workers during nonworking hours. Learn more about how to [create quiet time policies](/mem/intune/apps/apps-quiet-time-policies).
+Configure quiet time policies in Intune to automatically mute Teams notifications for frontline workers during nonworking hours. Learn more about how to [create quiet time policies](/intune/app-management/protection/configure-quiet-time).
 
 ## Frequently asked questions
 
@@ -240,4 +240,4 @@ No, a clock in/out signal is required to use this feature.
 
 ## Related articles
 
-- [workingTimeSchedule](/graph/api/resources/workingtimeschedule?view=graph-rest-beta)
+- [workingTimeSchedule](/graph/api/resources/workingtimeschedule)

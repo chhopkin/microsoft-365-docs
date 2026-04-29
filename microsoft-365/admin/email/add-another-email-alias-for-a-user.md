@@ -22,6 +22,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - business_assist
+- user-accounts
 description: "Learn how you can add more than one email address, called an email alias to users in your Microsoft 365 organization."
 ---
 

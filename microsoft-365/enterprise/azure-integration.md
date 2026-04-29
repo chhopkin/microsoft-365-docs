@@ -19,6 +19,7 @@ f1.keywords:
 ms.custom: 
 - Adm_O365
 - seo-marvel-apr2020
+- tenant
 search.appverid:
 - MET150
 - MOE150

@@ -21,7 +21,7 @@ description: Learn how to submit agents to the Microsoft Commercial Marketplace.
 
 The Microsoft commercial marketplace is a platform that enables customers to discover, purchase, and deploy cutting-edge cloud solutions and services tailored to drive their business outcomes.
 
-:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-appsource.png" alt-text="Screenshot Microsoft AppSource."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-appsource.png":::
+:::image type="content"  source="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-appsource.png" alt-text="Screenshot Microsoft AppSource."  lightbox="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-appsource.png":::
 
 Use the [Microsoft 365 Agents Toolkit](https://aka.ms/M365AgentsToolkit) suite of tools to create your agent. Your agent must meet responsible AI (RAI) principles, provide a valued end user experience, and meet enterprise needs. RAI involves transparency, accountability, reliability, and safety. A valued experience provides an agent that is functionally productive and includes a quality end-user experience. Enterprise needs meets the admin trust bar, as well as an overall goal for productivity and collaboration. 
 

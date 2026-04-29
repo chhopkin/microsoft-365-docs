@@ -32,7 +32,7 @@ Microsoft 365 Copilot is an AI-powered productivity tool that helps enhance your
 
 For example, at work you can have Microsoft 365 Copilot summarize a Teams meeting that you missed. At home, you can use Microsoft 365 Copilot to generate a slide show using photos from your family vacation.
 
-For more information for organizations, see [Microsoft 365 Copilot overview](microsoft-365-copilot-overview.md) and [Microsoft 365 Copilot hub](/copilot/microsoft-365/). For individuals, see [Microsoft 365 Copilot help and learning](https://support.microsoft.com/microsoft-365-copilot).
+For more information for organizations, see [Microsoft 365 Copilot overview](microsoft-365-copilot-overview.md) and [Microsoft 365 Copilot hub](/microsoft-365/copilot/). For individuals, see [Microsoft 365 Copilot help and learning](https://support.microsoft.com/microsoft-365-copilot).
 
 ## Key terms
 

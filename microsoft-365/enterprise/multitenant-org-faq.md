@@ -8,6 +8,7 @@ ms.service: microsoft-365-enterprise
 ms.topic: faq
 ms.date: 10/15/2025
 ms.subservice: multi-tenant
+ms.custom: tenant
 ---
 
 # Multitenant org FAQ

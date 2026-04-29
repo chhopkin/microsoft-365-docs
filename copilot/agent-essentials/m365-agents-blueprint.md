@@ -19,7 +19,7 @@ description: View the agents deployment blueprint for Microsoft 365.
 
 # Agents deployment blueprint for Microsoft 365
 
-This deployment blueprint helps you enable agents in [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) at scale, while ensuring data security and governance, managing access and costs, and measuring adoption and impact.
+This deployment blueprint helps you enable agents in [Microsoft 365 Copilot](/microsoft-365/copilot/microsoft-365-copilot-overview) at scale, while ensuring data security and governance, managing access and costs, and measuring adoption and impact.
 
 > [!NOTE]
 > This blueprint is scoped primarily to agents created in the [Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-experience) experience using the Microsoft 365 Copilot app.
@@ -43,13 +43,13 @@ The blueprint provides these phases for each of the following areas:
 - Management controls
 - Measurement and reporting
 
-:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-blue-print/m365-agents-blue-print.png" alt-text="Diagram that shows the agents deployment blueprint for Microsoft 365 Copilot." lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-blue-print/m365-agents-blue-print.png":::
+:::image type="content" source="/microsoft-365/copilot/agent-essentials/media/m365-agents-blue-print/m365-agents-blue-print.png" alt-text="Diagram that shows the agents deployment blueprint for Microsoft 365 Copilot." lightbox="/microsoft-365/copilot/agent-essentials/media/m365-agents-blue-print/m365-agents-blue-print.png":::
 
 ## Download the blueprint and documentation
 
 | Deployment model | Description |
 |---|---|
-| [![Enable agents in Microsoft 365 Copilot](/copilot/microsoft-365/agent-essentials/media/m365-agents-blue-print/m365-agents-blue-print.png)](https://aka.ms/AgentsDeployBlueprintPDF) | Use this deployment model to assist organizations with agent security, governance, management controls, measurement, and reporting. <br/><br/>**This model includes**<br/><ul><li>Blueprint with high level activities and presentation [PDF](https://aka.ms/AgentsDeployBlueprintPDF) \| [PowerPoint](https://aka.ms/AgentsDeployBlueprintPPT)</li></ul> |
+| [![Enable agents in Microsoft 365 Copilot](/microsoft-365/copilot/agent-essentials/media/m365-agents-blue-print/m365-agents-blue-print.png)](https://aka.ms/AgentsDeployBlueprintPDF) | Use this deployment model to assist organizations with agent security, governance, management controls, measurement, and reporting. <br/><br/>**This model includes**<br/><ul><li>Blueprint with high level activities and presentation [PDF](https://aka.ms/AgentsDeployBlueprintPDF) \| [PowerPoint](https://aka.ms/AgentsDeployBlueprintPPT)</li></ul> |
 
 ### Documentation resources
 

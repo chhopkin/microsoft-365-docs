@@ -23,6 +23,7 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet
+- tenant
 description: "Learn to change the default theme for the top of the navigation bar in Microsoft 365 and customize it to match your company logo or color."
 ---
 

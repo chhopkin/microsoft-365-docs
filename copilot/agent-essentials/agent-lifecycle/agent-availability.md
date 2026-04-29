@@ -42,7 +42,7 @@ To view details about an individual agent:
     c. Specific users/groups
 6. Confirm who in your organization can install the agent by selecting **Available to**.
  
-   :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-assign-available.png" alt-text="Screenshot of the 'Available to' setting for an agent in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-assign-available.png":::
+   :::image type="content" source="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-assign-available.png" alt-text="Screenshot of the 'Available to' setting for an agent in Microsoft 365 admin center."  lightbox="/microsoft-365/copilot/agent-essentials/media/m365-agents-admin-guide/agent-assign-available.png":::
 
 7. Select **Update**.
 

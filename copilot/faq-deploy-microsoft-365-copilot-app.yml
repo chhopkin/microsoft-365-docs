@@ -32,7 +32,7 @@ sections:
             Admins can deploy the Microsoft 365 Copilot app using software deployment and management solutions. For example:
 
             - [Microsoft Intune](/intune/intune-service/apps/lob-apps-windows).
-            - [Microsoft Configuration Manager](/mem/configmgr/core/understand/introduction) via either a [Package](/intune/configmgr/apps/deploy-use/packages-and-programs) or an [Application](/intune/configmgr/apps/deploy-use/deploy-applications).
+            - [Microsoft Configuration Manager](/intune/configmgr/core/understand/introduction) via either a [Package](/intune/configmgr/apps/deploy-use/packages-and-programs) or an [Application](/intune/configmgr/apps/deploy-use/deploy-applications).
             - [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software).
             - Non-Microsoft deployment and management solutions.
 

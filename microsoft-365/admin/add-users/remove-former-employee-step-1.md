@@ -27,6 +27,7 @@ ms.custom:
 - m365solution-removeemployee
 - admindeeplinkEXCHANGE
 - has-azure-ad-ps-ref, azure-ad-ref-level-one-done
+- user-accounts
 ---
 
 # Step 1 - Prevent user sign-in and block access to Microsoft 365

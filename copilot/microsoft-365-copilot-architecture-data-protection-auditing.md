@@ -97,6 +97,6 @@ Retention and deletion behavior follows configured Microsoft Purview retention p
 
 ## Related content
 
-- [Microsoft 365 Copilot architecture and how it works](/copilot/microsoft-365/microsoft-365-copilot-architecture)
+- [Microsoft 365 Copilot architecture and how it works](/microsoft-365/copilot/microsoft-365-copilot-architecture)
 - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
 - [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](secure-govern-copilot-foundational-deployment-guidance.md)
