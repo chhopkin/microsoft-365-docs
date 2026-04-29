@@ -2,9 +2,9 @@
 title: "OneDrive recommendations"
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 05/02/2024
 audience: Admin
 ms.topic: article

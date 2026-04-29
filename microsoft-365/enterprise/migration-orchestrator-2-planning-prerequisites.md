@@ -14,6 +14,7 @@ ms.collection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "A planning and prerequisites article for Microsoft 365 migration orchestrator, a tool that allows you to migrate users' content from one tenant to another."
+ms.custom: tenant
 ---
 
 # Planning and prerequisites

@@ -20,6 +20,7 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - AdminTemplateSet
+- user-accounts
 description: "Within 30 days of deleting a user account, you can restore the account and all data, and the user can sign in with the same account."
 customer-intent: As an admin, I want to restore a user account that was deleted.
 ---

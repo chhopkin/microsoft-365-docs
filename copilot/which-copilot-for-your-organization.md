@@ -136,7 +136,7 @@ To learn more, see:
 - [Microsoft 365 Copilot architecture and how it works](microsoft-365-copilot-architecture.md)
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [Microsoft 365 Copilot plans](https://www.microsoft.com/microsoft-365/copilot)
-- [Add apps to Microsoft Intune](/mem/intune/apps/apps-add) and [assign apps to groups](/mem/intune/apps/apps-deploy)
+- [Add apps to Microsoft Intune](/intune/app-management/deployment/) and [assign apps to groups](/intune/app-management/deployment/assign-groups)
 
 ## Microsoft Copilot
 

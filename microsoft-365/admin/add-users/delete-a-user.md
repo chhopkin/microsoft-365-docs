@@ -20,6 +20,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- user-accounts
 description: "Learn how to delete a Microsoft 365 user account, what to do with the user's email and OneDrive content, and whether to keep the product license."
 customer-intent: As an administrator, I need to delete a user account because someone has left our organization.
 ---

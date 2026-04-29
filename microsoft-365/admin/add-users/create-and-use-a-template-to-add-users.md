@@ -20,6 +20,7 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- user-accounts
 search.appverid:
 - MET150
 - MOE150

@@ -15,7 +15,9 @@ ms.collection:
 - scotvorg
 - Adm_TOC
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- integrated-apps
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "An overview of how to deploy and manage Office Add-ins."

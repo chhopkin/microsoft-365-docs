@@ -20,7 +20,9 @@ ms.collection:
 - Adm_O365_Setup
 - must-keep
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- domains
 search.appverid:
 - BCS160
 - MET150

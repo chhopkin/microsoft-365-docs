@@ -44,7 +44,7 @@ And if you'd like to know what's new with other Microsoft cloud services, check 
 
 - [What's new in Microsoft Entra ID](/azure/active-directory/fundamentals/whats-new)
 - [What's new in the Exchange admin center](/Exchange/whats-new)
-- [What's new in Microsoft Intune](/mem/intune/fundamentals/whats-new)
+- [What's new in Microsoft Intune](/intune/whats-new/)
 - [What's new in the Microsoft Purview portal](/microsoft-365/compliance/whats-new)
 - [What's new in Microsoft Defender XDR](../security/mtp/whats-new.md)
 - [What's new in the SharePoint admin center](/sharepoint/what-s-new-in-admin-center)
@@ -90,7 +90,7 @@ The Microsoft 365 Admin center now includes the **Copilot Search Admin experie
 
 These features help ensure that users find the right information faster, especially when navigating internal terminology or frequently accessed content.
 
-To learn more, see [Microsoft 365 Copilot Search](/copilot/microsoft-365/microsoft-365-copilot-search?branch=pr-28653).
+To learn more, see [Microsoft 365 Copilot Search](/microsoft-365/copilot/microsoft-365-copilot-search?branch=pr-28653).
 
 ## April 2025
 
@@ -140,7 +140,7 @@ These enhancements provide more control and flexibility, ensuring that feedback 
 
 ### AI Administrator role in Microsoft 365 admin center
 
-The AI administrator role is designed to manage all settings related to Copilot within the Microsoft 365 admin center. You can manage Copilot settings by using the Copilot page in the admin center, which serves as the central hub for all Copilot controls. To learn more about the Copilot page, see [Manage Microsoft 365 Copilot settings in the Microsoft 365 admin center](/copilot/microsoft-365/microsoft-365-copilot-page).
+The AI administrator role is designed to manage all settings related to Copilot within the Microsoft 365 admin center. You can manage Copilot settings by using the Copilot page in the admin center, which serves as the central hub for all Copilot controls. To learn more about the Copilot page, see [Manage Microsoft 365 Copilot settings in the Microsoft 365 admin center](/microsoft-365/copilot/microsoft-365-copilot-page).
 
 With the AI administrator role, you can:
 
