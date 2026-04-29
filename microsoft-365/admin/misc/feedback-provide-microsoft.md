@@ -33,7 +33,7 @@ Whether you’re providing feedback directly in an application or website, throu
 
 ### Sending feedback from within an application
 
-There are many places you can provide feedback to Microsoft. Within an application, you might be able to enter the **Help** or **Feedback** menu and find **Send feedback** button, which opens a form to provide your feedback to Microsoft.
+There are many places you can provide feedback to Microsoft. Within an application, you might be able to enter the **Help** or **Feedback** menu and find the **Send feedback** button, which opens a form to provide your feedback to Microsoft.
 
 :::image type="content" source="../../media/i-have-a-suggestion.png" alt-text="Screenshot: Text field to enter feedback suggestion to Microsoft":::
 
@@ -116,6 +116,6 @@ We understand that when you use Microsoft products and services, you’re entrus
 
 ## Have feedback about the Feedback web portal?
 
-Use the send feedback button on the [Feedback web portal](https://feedbackportal.microsoft.com/feedback) and choose the Feedback (web portal) forum.
+Use the send feedback button on the [Feedback web portal](https://feedbackportal.microsoft.com/feedback) and choose the **Feedback (web portal)** forum.
 
 :::image type="content" source="../../media/post-public-feedback.png" alt-text="Screenshot: Send feedback on the feedback web portal":::
