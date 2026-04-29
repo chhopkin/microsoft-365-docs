@@ -22,9 +22,9 @@ description: Information on how to manage Microsoft 365 Copilot Search.
 
 No action is required by admins to set up Microsoft 365 Copilot Search. If a user has a Microsoft 365 Copilot license, they can access Copilot Search from the **Search** module in the Microsoft 365 Copilot app across web, desktop, and mobile. Users who don't have the Microsoft 365 Copilot app will receive the Microsoft Search experience when clicking the **Search** module in the Microsoft 365 app.
 
-Learn more about [setting up Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-setup) for your users.
+Learn more about [setting up Microsoft 365 Copilot](/microsoft-365/copilot/microsoft-365-copilot-setup) for your users.
 
-For more details on how to manage, customize, and optimize Copilot Search across your organization, learn about the [Microsoft 365 Copilot Search admin experience](/copilot/microsoft-365/microsoft-365-copilot-search-admin-experience).
+For more details on how to manage, customize, and optimize Copilot Search across your organization, learn about the [Microsoft 365 Copilot Search admin experience](/microsoft-365/copilot/microsoft-365-copilot-search-admin-experience).
 
 ## Copilot Search and third-party systems
 
@@ -34,7 +34,7 @@ Learn more about [Microsoft 365 Copilot connectors](/microsoft-365-copilot/exten
 
 ## Privacy and security
 
-Microsoft 365 Copilot Search adheres to the same data protection, privacy standards, and security configurations as Microsoft 365 Copilot. Learn more about [data, privacy, and security in Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy).
+Microsoft 365 Copilot Search adheres to the same data protection, privacy standards, and security configurations as Microsoft 365 Copilot. Learn more about [data, privacy, and security in Microsoft 365 Copilot](/microsoft-365/copilot/microsoft-365-copilot-privacy).
 
 ## Microsoft 365 Copilot extension
 
