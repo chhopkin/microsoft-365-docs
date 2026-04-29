@@ -127,7 +127,7 @@ Steps:
 
 - Confirm that the input variable named `StationCategory` is created. Select the Details -> Input to check that your topic has input variable named StationCategory as per the screenshot.
 
-  :::image type="content source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
+  :::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
 
 - Validate that the output variable named SearchStationsApiResponse is created. Select the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot.
 
