@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: scotv
-ms.date: 04/27/2026
+ms.date: 05/01/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -48,8 +48,6 @@ The Microsoft 365 admin center provides governance and lifecycle management capa
 
 - **[Delete](#delete-agents)**: Delete agents and any associated files. When you delete an agent, it permanently removes the agent from the inventory and deletes all associated files.
 
-- **[Start/Stop](#start-or-stop-agents)**: Governs Foundry agents by starting or stopping the underlying Azure infrastructure. This action is unique to Microsoft Foundry agents.
-
 - **[Assign a new owner](#assign-new-owner-to-an-agent)**: Assign a new owner to agents that are ownerless or active.
 
 > [!NOTE]
@@ -70,7 +68,7 @@ To install an agent via the Microsoft 365 admin center, follow these steps:
 
 1. In the **All agents** page, make sure **Registry** is selected. Select the **Status** filter and then select **Available**.
 
-1. From the list of agents, select an agent  that isn't already installed.
+1. From the list of agents, select an agent that isn't already installed.
 
 1. In the agent details pane that opens, immediately under the agent's name, select **Install**.
 
@@ -156,7 +154,7 @@ To delete an Agent Builder agent, follow these steps:
     >
     > To quickly find Agent Builder agents, use the **Platform** filter in the **All agents** page and then select **Agent Builder in Microsoft 365 Copilot**.
 
-1. Next to the Agent Builder agent you want to delete, select the vertical ellipses (⁝) and then select **Delete**.
+1. Next to the Agent Builder agent you want to delete, select the vertical ellipses (**⁝**) and then select **Delete**.
 
 When you delete an agent, the following actions occur:
 
@@ -165,28 +163,6 @@ When you delete an agent, the following actions occur:
 1. The underlying SharePoint Embedded container is deleted.
 
 This deletion process is irreversible. Once you delete an agent, it might take up to 24 hours for the deletion to reach all users who had access to the agent. During this time, users might still see the agent listed, but they can't interact with it.
-
-## Start or Stop agents
-
-An admin can start or stop the underlying Microsoft Azure infrastructure to govern Foundry agents. The admin must first elevate to the **Azure AI Owner** role.
-
-> [!IMPORTANT]
->
-> Stop and Start operate on individual deployments by deallocating or provisioning compute. They affect the underlying Azure infrastructure, not just how an agent is used in your organization.
-
-To start or stop an agent, follow these steps:
-
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-
-1. From the left navigation bar, select **… Show all**, and then select **Agents** to expand it.
-
-1. Under **Agents**, select **All agents**.
-
-1. In the **All agents** page, select a Foundry agent that you want to start or stop.
-
-1. In the agent details pane that opens, under the agent's name, select **Add Role**. You must elevate to the **Azure AI Owner** role to perform this action.
-
-1. Once you're elevated, you can start or stop the underlying infrastructure to govern these agents.
 
 ## Assign new owner to an agent
 
