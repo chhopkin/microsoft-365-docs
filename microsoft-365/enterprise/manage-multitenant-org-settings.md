@@ -12,6 +12,7 @@ ms.subservice: multi-tenant
 ms.collection:
 - must-keep
 ms.localizationpriority: medium
+ms.custom: multi-tenant
 ---
 
 # Manage multitenant org settings

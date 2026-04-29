@@ -16,7 +16,9 @@ ms.collection:
 - Adm_TOC
 - operations-pod
 ms.service: microsoft-365-business
-ms.custom: admindeeplinkMAC
+ms.custom:
+- admindeeplinkMAC
+- integrated-apps
 ms.localizationpriority: medium
 description: "Lean how to pin up to three apps to your users' app launcher."
 ---

@@ -507,7 +507,7 @@ items:
         items:
           - name: Overview of Workforce Insights agent
             href: workforce-insights-agent.md
-      - name: Word, Excel, and PowerPoint Agents (Frontier) in Microsoft 365 Copilot
+      - name: Word, Excel, and PowerPoint Agents in Microsoft 365 Copilot
         items:
         - name: Setting up and managing agents
           href: wordexcelppt-agents.md
@@ -536,6 +536,3 @@ items:
   items:
   - name: Release notes
     href: release-notes.md
-  - name: Connect to Anthropic's AI models
-    href: connect-to-independent-model.md
-

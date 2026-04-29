@@ -14,6 +14,7 @@ ms.collection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "Learn about orchestrator for Microsoft 365, a tool that allows you to migrate personal user data from one tenant to another. This migration includes Exchange mailboxes and Teams data for individual users."
+ms.custom: tenant
 ---
 
 # An overview of tenant-to-tenant migration with orchestrator in Microsoft 365

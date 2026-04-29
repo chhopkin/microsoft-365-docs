@@ -22,6 +22,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
+- multi-tenant
 ---
 
 # Manage multiple tenants in the Microsoft 365 admin center

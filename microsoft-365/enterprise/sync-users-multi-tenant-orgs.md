@@ -15,6 +15,7 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: Learn how to manage user sync in multitenant organizations in Microsoft 365.
+ms.custom: tenant
 ---
 
 # Synchronize users in multitenant organizations in Microsoft 365
