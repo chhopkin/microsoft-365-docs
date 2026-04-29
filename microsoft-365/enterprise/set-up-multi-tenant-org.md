@@ -3,7 +3,7 @@ title: Set up a multitenant org in Microsoft 365
 ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
-ms.date: 04/02/2025
+ms.date: 04/29/2026
 audience: ITPro
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-enterprise
