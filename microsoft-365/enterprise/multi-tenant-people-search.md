@@ -17,6 +17,7 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: Learn about People Search in multitenant Microsoft 365 organizations.
+ms.custom: tenant
 ---
 
 # Microsoft 365 Multitenant Organization People Search 

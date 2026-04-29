@@ -23,6 +23,7 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet
+- tenant
 search.appverid: 
 description: "Customize the Microsoft 365 sign-in page by using the Microsoft Entra ID. You can add an illustration, a logo, and text to the sign-in page."
 ---

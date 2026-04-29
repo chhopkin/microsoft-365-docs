@@ -12,7 +12,9 @@ ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
 - m365initiative-migratetom365
-ms.custom: template-overview
+ms.custom:
+- template-overview
+- tenant
 search.appverid: MET150
 description: "How to map identities across Microsoft 365 organizations when preparing for cross-tenant migrations."
 ---

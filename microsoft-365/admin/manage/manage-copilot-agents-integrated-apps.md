@@ -26,6 +26,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- integrated-apps
 search.appverid:
 - BCS160
 - MET150
