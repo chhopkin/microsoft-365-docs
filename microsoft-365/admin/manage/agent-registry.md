@@ -373,7 +373,7 @@ To support further investigation, admins can select the **Review** link. The **R
 
 > [!NOTE]
 >
-> After selecting the **Review** link, you're taken to the respective security platform. If you're presented with a **Welcome** message window at the security platform, make sure to select the **Get started** button to see the relevant security alerts related to the agent. If the **Welcome**message window is instead closed or another option is selected other than **Get started**, you might not see the relevant security alerts related to the agent.
+> After selecting the **Review** link, you're taken to the respective security platform. If you're presented with a **Welcome** message window at the security platform, make sure to select the **Get started** button to see the relevant security alerts related to the agent. If the **Welcome** message window is instead closed or another option is selected other than **Get started**, you might not see the relevant security alerts related to the agent.
 
 > [!IMPORTANT]
 >
