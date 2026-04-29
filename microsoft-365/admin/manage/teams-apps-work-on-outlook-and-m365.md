@@ -15,7 +15,9 @@ ms.collection:
 - scotvorg
 - Adm_TOC
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- integrated-apps
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "How to manage Apps for Microsoft 365 that work across application hosts through the Integrated Apps portal."

@@ -42,7 +42,7 @@ To export device compliance data to an Excel comma-separated values (.csv) file,
 
 ## Devices tab
 
-On the Devices tab, the colored count-annotation bar displays the total number of devices across all your customer tenants that have the following compliance statuses: Compliant, Not compliant, In grace period, and Not evaluated. For more information about the different compliance statuses, see [Monitor Intune Device compliance policies](/mem/intune/protect/compliance-policy-monitor).
+On the Devices tab, the colored count-annotation bar displays the total number of devices across all your customer tenants that have the following compliance statuses: Compliant, Not compliant, In grace period, and Not evaluated. For more information about the different compliance statuses, see [Monitor Intune Device compliance policies](/intune/device-security/compliance/monitor-policy).
 
 To see which tenants have devices with a specific compliance status, select that status from the count-annotation bar to filter the list. To see device compliance statuses for one or more specific customer tenants, use the **Tenants** dropdown menu to filter the list.
 

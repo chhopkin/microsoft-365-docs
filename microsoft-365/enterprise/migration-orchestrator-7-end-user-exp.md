@@ -14,6 +14,7 @@ ms.collection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "How individual users experience the results of using Microsoft 365's migration orchestrator."
+ms.custom: tenant
 ---
 
 # End-user experience

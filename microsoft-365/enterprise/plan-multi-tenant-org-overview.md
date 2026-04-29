@@ -14,6 +14,7 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: Learn how to plan for multitenant organizations in Microsoft 365.
+ms.custom: tenant
 ---
 
 # Plan for multitenant organizations in Microsoft 365

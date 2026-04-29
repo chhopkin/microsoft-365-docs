@@ -31,6 +31,7 @@ ms.custom:
 - AdminTemplateSet
 - business_assist
 - admindeeplinkMAC
+- domains
 ---
 
 # Connect your domain by adding DNS records

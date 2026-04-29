@@ -14,6 +14,7 @@ ms.collection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "Users need preparation before a cross-tenant migration in Microsoft 365. This article outlines the steps you need to take before the cross-tenant migration begins"
+ms.custom: tenant
 ---
 
 # Preparing users for migration

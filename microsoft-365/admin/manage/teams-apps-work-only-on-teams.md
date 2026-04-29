@@ -15,7 +15,9 @@ ms.collection:
 - scotvorg
 - Adm_TOC
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- integrated-apps
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "How to block and unblock apps Teams apps that only work on Teams through controls in the integrated apps portal."

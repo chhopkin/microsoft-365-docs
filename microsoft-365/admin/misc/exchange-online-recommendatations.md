@@ -2,9 +2,9 @@
 title: "Exchange Online recommendations"
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
+ms.author: kwekua
+author: kwekuako
+manager: scotv
 ms.date: 05/02/2024
 audience: Admin
 ms.topic: how-to

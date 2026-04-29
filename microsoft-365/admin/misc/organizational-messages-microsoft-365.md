@@ -17,7 +17,9 @@ ms.collection:
  - Adm_O365
  - Adm_TOC
  - operations-pod
-ms.custom: campaignIDs-batch2
+ms.custom:
+- campaignIDs-batch2
+- tenant
 search.appverid:
 - MET150
 - MOE150

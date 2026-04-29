@@ -17,7 +17,9 @@ ms.collection:
 - m365initiative-coredeploy
 - essentials-get-started
 - must-keep
-ms.custom: it-pro
+ms.custom:
+- it-pro
+- tenant
 description: The roadmap to set up your tenants for Microsoft 365.
 ---
 

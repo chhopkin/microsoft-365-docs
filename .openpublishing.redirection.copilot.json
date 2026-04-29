@@ -102,7 +102,7 @@
       },
       {
          "source_path": "copilot/connect-to-independent-model.md",
-         "redirect_url": "/copilot/connect-to-ai-subprocessor",
+         "redirect_url": "/microsoft-365/copilot/connect-to-ai-subprocessor",
          "redirect_document_id": false
       }      
    ]
