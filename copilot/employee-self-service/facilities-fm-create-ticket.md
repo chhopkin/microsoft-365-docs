@@ -15,8 +15,9 @@ ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about extending the Employee Self-Service Copilot agent tailored to your organization. This article describes the steps to create a facilities ticket (Facilities Management) via Employee SelfService. Example - "I want to report a water leak"
 appliesto:
-- ✅ Microsoft 365 Copilot
+  - ✅ Microsoft 365 Copilot
 ---
+
 # Extend Employee Self-Service agent: Create a Facilities Ticket
 
 The Employee Self-Service Copilot agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
@@ -64,7 +65,7 @@ Extending Employee Self-Service for RE&F experiences requires an understanding o
 
 In Copilot Studio, a topic is defined as a workflow of a conversation. Microsoft 365 Copilot topics are used to:
 
-- Define trigger prompts that determine when the *Invite a guest* topic should be activated based on user’s natural language input.
+- Define trigger prompts that determine when the _Invite a guest_ topic should be activated based on user’s natural language input.
 - Asking questions and capturing necessary input from the employee, such as problem descriptions, building information, and location details, and so on.
 - Triggering a Power Automate flow by utilizing the Dynamics connector, which is responsible for creating a facilities ticket using the Case (Incident) entity.
 - Interpreting the response from the Facilities Management ticket creation process and returning the relevant outcome to the employee in a conversational format.
@@ -111,7 +112,7 @@ The implementation includes the following steps:
 
 The ticket creation process uses two AI prompts: one to identify the problem category and another to extract the location.
 
-### *AI prompt to extract the problem category*
+### _AI prompt to extract the problem category_
 
 To route facilities issues to the right technician, extract the problem category from the user's description.
 
@@ -119,11 +120,11 @@ To route facilities issues to the right technician, extract the problem category
 - Copy the prompt instructions from the Copilot Studio Samples repository: [Extract Problem category](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeCreateFacilitiesManagementTicket/Extract%20Problem%20category.md?plain=1), and paste them into the Instructions section. Adjust the instructions as needed for your scenario.
 - Add two input text parameters by selecting **Add content: Problem Description** (next to the Problem Description input) and **Categories** (next to the Reference Categories Data input), as shown in the screenshot.
 
-    :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-prompt.png" alt-text="Power Apps prompt builder showing instructions to extract a problem category, with “Problem Description” and “Categories” input fields.":::
+  :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-prompt.png" alt-text="Power Apps prompt builder showing instructions to extract a problem category, with “Problem Description” and “Categories” input fields.":::
 
 - Update the Categories input by adding or editing the list of problem categories for your organization. If your categories are stored in Dataverse, you can use that data instead.
 
-    :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-prompt-edit.png" alt-text="Expanded “Categories” field showing an editable, comma-separated list (for example, plumbing, electrical, cleaning).":::
+  :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-category-prompt-edit.png" alt-text="Expanded “Categories” field showing an editable, comma-separated list (for example, plumbing, electrical, cleaning).":::
 
 - Test the prompt.
   - Enter a sample **Problem Description** and choose a model. For consistent behavior, use the same model as your Employee Self-Service agent. Select **Test** to confirm the category returned for your scenarios.
@@ -133,7 +134,7 @@ To route facilities issues to the right technician, extract the problem category
 
 - Save the prompt as **Prompt to Extract Problem Category**.
 
-### *AI prompt to extract location information*
+### _AI prompt to extract location information_
 
 To dispatch facility services to the right place, extract location details from the user's request.
 
@@ -141,7 +142,8 @@ To dispatch facility services to the right place, extract location details from 
 - Copy the prompt instructions from the sample: [Extract Location Information](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeCreateFacilitiesManagementTicket/Extract%20Location%20Information.md?plain=1), and paste them into the Instructions section. Adjust the instructions as needed for your scenario.
 - Add the input text parameter Facilities Description next to the Facilities Description input by selecting **Add content**, as shown in the screenshot.
 
-    :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-location-prompt.png" alt-text="Power Apps prompt builder showing instructions to extract location details, with a “Facilities Description” input field.":::
+  :::image type="content" source="media/facilities-fm-create-facilities-ticket-extract-location-prompt.png" alt-text="Power Apps prompt builder showing instructions to extract location details, with a “Facilities Description” input field.":::
+
 - Test the prompt and save it as **Extract Location Information**.
 
 ## Create a Power Automate flow
@@ -170,7 +172,8 @@ Steps:
   - Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeCreateFacilitiesManagementTicket/topic.yaml), and close code editor.
   - In the topic workflow editor, locate the **Prompt Location** reference. Select the double-arrow button to open **Add a tool**, and then choose the **Extract Location Information prompt** you created earlier.
 
-      :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-add-location-prompt.png" alt-text="Copilot Studio topic editor with the “Add a tool” panel open and “Extract Location Information” selected.":::
+    :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-add-location-prompt.png" alt-text="Copilot Studio topic editor with the “Add a tool” panel open and “Extract Location Information” selected.":::
+
   - Repeat the previous step for the problem category prompt and the action (the flow).
   - Resolve any validation errors, and then select **Save**.
 
@@ -180,7 +183,7 @@ Steps:
   - Optionally, follow the next section (Review the topic workflow) for a guided walkthrough of what to verify.
 - Test the topic.
   - In Copilot Studio, select Test to open the test chat.
-  - Enter a sample request such as  There's a water leak in the first-floor bathroom.
+  - Enter a sample request such as There's a water leak in the first-floor bathroom.
   - Complete any required fields in the ticket form, and then submit.
   - After submission, the Employee Self-Service agent confirms that the Facilities Management ticket was created.
 
@@ -188,13 +191,14 @@ Steps:
 
 - Review the Trigger node text (the description shown to users). Adjust it as needed for your scenario.
 
-    :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-codeeditor-trigger-queries.png" alt-text="Topic editor showing the Trigger node with example phrases (for example, “report a water leak,” “request a repair”).":::
+  :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-codeeditor-trigger-queries.png" alt-text="Topic editor showing the Trigger node with example phrases (for example, “report a water leak,” “request a repair”).":::
+
 - Confirm the next node stores the user's natural language input in a variable, and that the following message acknowledges receipt.
 - Verify the prompt node that extracts location information and confirm it maps inputs/outputs correctly.
 - Verify the prompt node that extracts the problem category and confirm it returns the expected category values.
 - Review the Adaptive Card node and ensure it shows problem category, location, and description as required fields. Users should be able to edit values and select Submit or Cancel.
 
-    :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-adaptive-card.png" alt-text="Adaptive Card ticket form in chat with fields for category, location, and description, plus Submit and Cancel buttons.":::
+  :::image type="content" source="media/facilities-fm-create-facilities-ticket-topic-adaptive-card.png" alt-text="Adaptive Card ticket form in chat with fields for category, location, and description, plus Submit and Cancel buttons.":::
 
 - Confirm the topic branches based on the selected action. For **Submit**, verify it calls the flow you created earlier (under Create a Power Automate flow) and handles the returned response.
 

@@ -13,7 +13,7 @@ ms.subservice: ess-agent
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about extending the Employee Self-Service tailored to your organization. This article describes the steps to search food by category (Dining) via Employee Self-Service. Example - "Where can I find Chinese food?".
+description: Learn about extending the Employee Self-Service tailored to your organization. This article describes the steps to search food by category (Dining) via Employee Self-Service. Example - "Where can I find Chinese food?"
 appliesto:
   - ✅ Microsoft 365 Copilot
 ---
@@ -22,16 +22,16 @@ appliesto:
 
 The Employee Self-Service Copilot agent allows employees to get their queries answered from admin-configured knowledge sources, HCM, and IT systems, directly within Microsoft 365 Copilot.
 
-An organization may seek to enhance Employee Self-Service Copilot agent by integrating extra capabilities. These capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
+An organization might seek to enhance Employee Self-Service Copilot agent by integrating additional capabilities. These additional capabilities enable organizations to maximize the benefits of Employee Self-Service and support work-related activities.
 
-To support these needs, Employee Self-Service Copilot agent is designed to be extensible. You can create and publish your own topics that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new one tailored to your organization.
+To support these needs, Employee Self-Service Copilot agent is designed to be extensible. You can create and publish your own articles that work seamlessly alongside the built-in ones. This article explains the steps to extend Employee Self-Service by adding new one tailored to your organization.
 
 At Microsoft, we extended Employee Self-Service Copilot agent to bring in Real Estate and Facilities (RE&F) related experiences. Some scenarios that this extensibility to Employee Self-Service is helping us power are:
 
-- Create a Facilities Ticket (Facilities), for example, "I want to report a water leak".
-- Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3".
+- Create a Facilities Ticket (Facilities), for example, "I want to report a water leak."
+- Register a Vehicle (Parking), for example, "I want to register my vehicle Tesla Model 3."
 - View food stations or counters by cuisine (Dining), for example, Where can I find Chinese food?
-- Invite a Guest (Lobby), for example "I want to invite my spouse to Building 32".
+- Invite a Guest (Lobby), for example "I want to invite my spouse to Building 32."
 
 The following section shows how a maker in Copilot Studio can extend Employee Self-Service to support Dining related scenarios. Before diving into the maker experience, it's important to understand what real estate and facilities are and how they support employees.
 
@@ -55,7 +55,7 @@ To extend the Employee Self-Service Copilot agent with a custom topic for your R
 - Maker access to a sandbox or preproduction environment in Copilot Studio.
 - Access to [Copilot Samples](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml) in GitHub.
 - Need access to the Dining API that is used to view food stations by cuisine.
-- For this example, assume Dining service is built as an independent service on Azure platform.
+  - This example assumes the Dining service is built as an independent service on Azure platform.
 
 ## Fundamentals
 
@@ -88,7 +88,7 @@ HTTP request action reference: [HTTP with Microsoft Entra ID (preauthorized) - C
 
 In this scenario, an employee needs to search food stations before ordering food, for example, search for American food stations.
 
-Through the Employee Self-Service agent, the employee can ask - Where can I find Chinese food?. The Employee Self-Service agent finds stations serving their preferred cuisine across the office campus. The employees save time, skip the hassle, and make every meal a choice they love.
+Through the Employee Self-Service agent, the employee can ask - Where can I find Chinese food? The Employee Self-Service agent finds stations serving their preferred cuisine across the office campus. The employees save time, skip the hassle, and make every meal a choice they love.
 
 The implementation includes the following steps:
 
@@ -99,63 +99,53 @@ The implementation includes the following steps:
 
 Steps:
 
-    1. Create a new Topic named **“Dining Search Stations”**.
+- Create a new Topic named **“Dining Search Stations”**.
+  - In Copilot Studio, select **\*Add a topic > From blank**.
+  - Once inside the topic, select Open code editor.
+  - Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml), and close the editor.
+  - Update the HTTP API URL in the code sample. Search for kind: HttpRequestAction. You see a code that sets a value to a variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
 
-       a. In Copilot Studio, select **\*Add a topic > From blank**.
+    :::image type="content" source="media/facilities-dining-update-api-url.png" alt-text="Screenshot showing how to update API url in the topic.":::
 
-       b. Once inside the topic, select Open code editor.
+  - Resolve any validation errors, and then select Save.
 
-       c. Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml), and close the editor.
+- Validate
+  - Open the visual representation of the topic and verify the end-to-end flow.
+  - To identify any static issues, run Topic checker
+  - Optionally, follow the next section (Review the topic workflow) for a guided walkthrough of what to verify.
 
-       d. Update the HTTP API URL in the code sample. Search for kind: HttpRequestAction. You see a code that sets a value to a variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
-
-:::image type="content" source="media/facilities-dining-update-api-url.png" alt-text="Screenshot showing how to update API url in the topic.":::
-
-       e. Resolve any validation errors, and then select Save.
-
-    2. Validate
-
-        a. Open the visual representation of the topic and verify the end-to-end flow.
-
-        b. To identify any static issues, run Topic checker.
-
-        c. Optionally, follow the next section (Review the topic workflow) for a guided walkthrough of what to verify.
-
-    3. Test
-
-        a. In Copilot Studio, select Test to open the test chat.
-
-        b. Ask a question such as Where can I find Chinese food?
-
-        c. After submission, the Employee Self-Service Copilot agent displays Chinese food options.
+- Test
+  - In Copilot Studio, select Test to open the test chat.
+  - Ask a question such as Where can I find Chinese food?
+  - After submission, the Employee Self-Service Copilot agent displays Chinese food options.
 
 ### Review the topic workflow
 
-    1. Review the Trigger node text (the description shown to users). Adjust it as needed for your scenario.
+- Review the Trigger node text (the description shown to users). Adjust it as needed for your scenario.
 
-:::image type="content" source="media/facilities-dining-validate-topic-file-start.png" alt-text="Screenshot showing the model description in the file.":::
+  :::image type="content" source="media/facilities-dining-validate-topic-file-start.png" alt-text="Screenshot showing the model description in the file.":::
 
-    2. Confirm that the input variable named `StationCategory` is created. Click on the Details -> Input to check that your topic has input variable named StationCategory as per the screenshot.
+- Confirm that the input variable named `StationCategory` is created. Select the Details -> Input to check that your topic has input variable named StationCategory as per the screenshot.
 
-:::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
+  :::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
 
-    3. Validate that the output variable named SearchStationsApiResponse is created. Click on the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot.
+- Validate that the output variable named SearchStationsApiResponse is created. Select the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot.
 
-:::image type="content" source="media/facilities-dining-validate-topic-details-output.png" alt-text="Screenshot showing the output section of the details.":::
+  :::image type="content" source="media/facilities-dining-validate-topic-details-output.png" alt-text="Screenshot showing the output section of the details.":::
 
-    4. Validate the conditional block exists that checks user’s input in the input variable.
+- Validate the conditional block exists that checks user’s input in the input variable.
 
-:::image type="content" source="media/facilities-dining-validate-condition-block-category.png" alt-text="Screenshot showing the conditional block section of the topic details.":::
+  :::image type="content" source="media/facilities-dining-validate-condition-block-category.png" alt-text="Screenshot showing the conditional block section of the topic details.":::
 
-    5. Next node assigns the station category value, cuisine in our case, if the user enters value in your input variable. For example, if the user mentions “Where can I find Italian food?”. The value Italian gets assigned to the input variable.
+- Next node assigns the station category value, cuisine in our case, if the user enters value in your input variable. For example, if the user mentions “Where can I find Italian food?”. The value Italian gets assigned to the input variable.
 
-    6. Validate that the HttpConnector is calling appropriate API that belongs to your platform. Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We're collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline etc. You should create a schema per your API response for this topic variable. Your API response may have a different structure, and you should make sure that structure is taken into consideration.
+- Validate that the HttpConnector is calling appropriate API that belongs to your platform. Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We're collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline, etc. You should create a schema per your API response for this topic variable. Your API response can have a different structure, and you should make sure that structure is taken into consideration.
 
-:::image type="content" source="media/facilities-dining-validate-http-request.png" alt-text="Screenshot showing http request block.":::
+  :::image type="content" source="media/facilities-dining-validate-http-request.png" alt-text="Screenshot showing http request block.":::
 
-    7. Validate that the conditional block checks if the response is non-empty before the topic ends.
+- Validate that the conditional block checks if the response is nonempty before the topic ends.
 
-    8. Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we mention extracting information from SearchStationApiResponse output variable. Large Language Model (LLM) follows those instructions and displays well formatted output.
+- Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we mention extracting information from SearchStationApiResponse output variable. Large Language Model (LLM) follows those instructions and displays well formatted output.
 
 ## FAQs
 
