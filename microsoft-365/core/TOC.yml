@@ -393,7 +393,7 @@
             - name: Deploy cross-tenant migration with orchestrator
               href: ../enterprise/migration-orchestrator-5-running-migration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
             - name: Complete post-migration tasks with orchestrator
-              href: ../enterprise/migration-orchestrator-5-running-migration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+              href: ../enterprise/migration-orchestrator-6-post-migration.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Set up the release option for updates and features 
           href: ../admin/manage/release-options-in-office-365.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Customize the Microsoft 365 sign-in page 
@@ -735,28 +735,26 @@
       items:
         - name: Change your organization's contact information 
           href: ../admin/manage/change-address-contact-and-more.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Manage multi-tenant organization (MTO) settings
-          href: ../enterprise/manage-multitenant-org-settings.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Manage multiple tenants in the Microsoft 365 admin center 
-          href: ../admin/multi-tenant/manage.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Manage industry news 
           href: ../admin/manage/manage-industry-news.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Manage Office Scripts settings 
-          href: ../admin/manage/manage-office-scripts-settings.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json          
+          href: ../admin/manage/manage-office-scripts-settings.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json  
+        - name: Multi-tenant
+          items:
+            - name: Manage multi-tenant organization (MTO) settings
+              href: ../enterprise/manage-multitenant-org-settings.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
+            - name: Manage multiple tenants in the Microsoft 365 admin center 
+              href: ../admin/multi-tenant/manage.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json       
     - name: Domains
       items:
         - name: Remove a domain 
           href: ../admin/get-help-with-domains/remove-a-domain.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
-        - name: Change nameservers to set up Microsoft 365 with any domain registrar 
-          href: ../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Transfer a domain from Microsoft to another host 
           href: ../admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Troubleshoot domain issues 
           href: ../admin/get-help-with-domains/find-and-fix-issues.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
     - name: Integrated apps
       items:
-        - name: Manage Office Add-ins 
-          href: ../admin/manage/office-addins.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Manage Teams apps that only work in Teams 
           href: ../admin/manage/teams-apps-work-only-on-teams.md?toc=/microsoft-365/core/toc.json&bc=/microsoft-365/core/breadcrumb/toc.json
         - name: Manage SaaS linked apps 

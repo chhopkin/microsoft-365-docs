@@ -19,6 +19,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
+- tenant
 search.appverid:
 - MET150
 description: "Provide your users with up-to-date news headlines about your industry and info from your organization, use the News service to enable a customized news feed for your organization."

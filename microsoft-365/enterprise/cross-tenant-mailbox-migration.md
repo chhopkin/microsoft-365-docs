@@ -17,6 +17,7 @@ ms.custom:
 - admindeeplinkEXCHANGE
 - has-azure-ad-ps-ref
 - azure-ad-ref-level-one-done
+- tenant
 ms.localizationpriority: high
 ms.collection:
 - scotvorg

@@ -17,7 +17,9 @@ ms.collection:
 - Adm_O365
 - Adm_O365_Setup
 - operations-pod
-ms.custom: QuickDraft
+ms.custom:
+- QuickDraft
+- domains
 ms.reviewer: amtro
 search.appverid: MET150
 f1.keywords:
