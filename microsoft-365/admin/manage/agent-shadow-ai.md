@@ -59,7 +59,6 @@ To use Shadow AI detection and governance, you need:
   - [Security Operator](/entra/identity/role-based-access-control/permissions-reference#security-operator).
   - [Reports Reader](/entra/identity/role-based-access-control/permissions-reference#reports-reader).
   - [User Experience Success Manager](/entra/identity/role-based-access-control/permissions-reference#user-experience-success-manager).
-  - [User Account Admin](/entra/identity/role-based-access-control/permissions-reference#user-account-admin).
   - [Intune Administrator](/entra/identity/role-based-access-control/permissions-reference#intune-administrator).
 
 - [Microsoft Intune](/intune/fundamentals/what-is-intune) enrollment for managed Windows devices.
