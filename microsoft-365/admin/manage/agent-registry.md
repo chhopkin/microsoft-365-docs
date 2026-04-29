@@ -264,7 +264,7 @@ To pin agents so that each agent is more visible and accessible to members of yo
 1. In the left navigation pane, select **Agents** > **All agents**.
 1. In the **All agents** page, select the ellipse on the right to display a dropdown menu. 
 1. Select the **Manage pinned agents**.
-  In the **Pinned agents** pane, you will see agents **Pinned by your org** and agents **Pinned by Microsoft** list.
+  In the **Pinned agents** pane, you'll see agents **Pinned by your org** and agents **Pinned by Microsoft** list.
 1. Select **Pin agent** to pin a new agent.
 1. In the **Select an agent to pin** pane, find the agent you want to pin from the list of agents. You can search the list to find a specific agent by name. You can only pin agents that have been deployed to some or all users.
 
