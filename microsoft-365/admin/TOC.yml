@@ -770,10 +770,10 @@ items:
                 href: manage/servicenow-troubleshooting.md
               - name: Integrate Microsoft 365 with ServiceNow Virtual Agent
                 href: manage/servicenow-virtual-agent-integration.md
-      - name: Manage subscriptions and billing
-        href: ../commerce/index.yml
-      - name: Secure your organization
-        items:
+        - name: Manage subscriptions and billing
+          href: ../commerce/index.yml
+        - name: Secure your organization
+          items:
           - name: Microsoft 365 for business security overview
             href: security-and-compliance/m365b-security-overview.md
           - name: What's new in security in Microsoft 365 for business
