@@ -34,9 +34,7 @@ search.appverid:
 
 # Create AI agent instances in Microsoft 365 admin center
 
-> [!IMPORTANT]
->
-> You need to be part of the [Frontier preview program](https://adoption.microsoft.com/copilot/frontier-program/) to get **early access** to this feature. Frontier connects you directly with Microsoft's latest AI innovations. Frontier previews are subject to the existing preview terms of your customer agreements. As these features are still in development, their availability and capabilities might change over time.
+[!INCLUDE [Frontier preview program](../includes/frontier.md)]
 
 Agent instances are deployed AI agents, each provisioned with their own user identity in Microsoft Entra ID, that your organization can use to automate business processes. They're created from agent templates that have been activated in your tenant.
 
@@ -60,7 +58,7 @@ For more information about agent management roles, see [Agent management roles a
 Ensure the following prerequisites are in place before starting the instance creation flow:
 - You're signed in to the Microsoft 365 Admin Center as a Global Administrator or AI Administrator.
 - The agent template you want to create an instance from has already been activated  in your tenant.
-- You have identified the owner on whose behalf you're going to create the instance. 
+- You have identified the owner on whose behalf you're going to create the instance.
 - Sufficient licenses are available to assign to the new instance.
 - You haveonfirmed that the owner has an active user account in Microsoft Entra ID.
 
@@ -72,7 +70,7 @@ Ensure the following prerequisites are in place before starting the instance cre
 You can create an instance from an activated agent template in the Microsoft 365 Admin Center.
 
 The following steps show you how to create an instance from an activated agent template.
- 
+
 ### Step 1: Navigate to the Agent Registry
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
@@ -95,13 +93,13 @@ The panel includes several tabs you can review before creating an instance. For 
 
 ## The Instance Creation Wizard
 
-The **Instance Creation Wizard** guides you through four stages to configure and provision the agent **Instance**. 
+The **Instance Creation Wizard** guides you through four stages to configure and provision the agent **Instance**.
 
 ### Step 1: Select an Owner
 
 1. Search for and select the person who will be the business owner of this Instance.
 
-   The owner appears as the agent instance's owner in Microsoft Entra ID and will onboard the agent via Microsoft Teams. Only users with valid accounts in your directory can be selected. 
+   The owner appears as the agent instance's owner in Microsoft Entra ID and will onboard the agent via Microsoft Teams. Only users with valid accounts in your directory can be selected.
 
 ### Step 2: Confirm license validation
 
@@ -117,7 +115,7 @@ The **Instance Creation Wizard** guides you through four stages to configure and
 
 ### Step 4: Review & Confirm
 
-1. Review a complete summary of all configuration choices before the agent **Instance** is created. 
+1. Review a complete summary of all configuration choices before the agent **Instance** is created.
 
    This includes the owner license assignment, customization settings, and access scope. Once you confirm, the system provisions the Instance by creating its own user identity in Entra ID.
 
