@@ -55,8 +55,7 @@ You can block or unblock agent instances for the entire organization using the s
 To block or unblock an agent:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Agents** > **All Agents**.
-1. Select the **AI teammate** filter.
-1. Select an agent from the list. The agent panel opens.
+1. Select the agent with the **AI teammate** tag from the list. The agent details panel opens.
 1. Under the **Instance** tab, the **Instance list view** is displayed.
 1. Select the instance to see all details of the agent instance.
 1. Select an instance and choose **Block**.
@@ -68,8 +67,7 @@ To restore functionality, the administrator can **Unblock** the instance at any 
 Administrators can delete an instance from the Microsoft 365 admin center when it's no longer needed.
 
 1. In the left navigation pane, select **Agents** > **All agents**.
-1. Select the **AI teammate** filter.
-1. Select an agent from the list. The agent panel opens.
+1. Select the agent with the **AI teammate** tag from the list. The agent details panel opens.
 1. Under the **Instance** tab, the **Instance list view** is displayed.
 1. Select the instance to see all details of the agent instance.
 1. Select the instance you want to delete, then select **Delete**.
