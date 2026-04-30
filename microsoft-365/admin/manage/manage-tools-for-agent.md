@@ -78,8 +78,6 @@ The following are examples of MCP servers:
 - [**Work IQ Word**](/microsoft-agent-365/mcp-server-reference/word): Supports Copilot features in Word documents.
 - [**Dataverse and Dynamics 365**](/microsoft-agent-365/mcp-server-reference/dataverse): CRUD operations and domain-specific actions.
 
-:::image type="content" source="../../media/agents/mcp-servers.png" alt-text="Screenshot showing a list of MCP servers in the Tools page of the Microsoft 365 admin center." lightbox="../../media/agents/mcp-servers.png":::
-
 For more information, see [Agent 365 tools catalog](/microsoft-agent-365/tooling-servers-overview#agent-365-tools-catalog).
 
 ### Status indicators
