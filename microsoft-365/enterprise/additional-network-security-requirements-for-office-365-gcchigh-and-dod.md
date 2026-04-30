@@ -1,4 +1,4 @@
----
+﻿---
 title: "Additional network security requirements for Office 365 Government Community Cloud (GCC) High and DoD"
 ms.author: dzazzo
 author: dzazzo-msft
@@ -11,7 +11,9 @@ ms.localizationpriority: medium
 ms.collection: 
 - M365-subscription-management
 - Strat_O365_Enterprise
-ms.custom: Adm_O365
+ms.custom:
+- Adm_O365
+- network
 search.appverid:
 - OGA150m
 - OGC150

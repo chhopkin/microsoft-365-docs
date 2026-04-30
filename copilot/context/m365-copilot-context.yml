@@ -1,5 +1,4 @@
 ### YamlMime: ContextObject
 uhfHeaderId: MSDocsHeader-M365-IT
-brand: m365
-breadcrumb_path: ../agent-framework/bread/toc.yml
+breadcrumb_path: bread/toc.yml
 toc_rel: ../toc.yml

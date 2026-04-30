@@ -52,7 +52,7 @@ Once you add it, **Cowork** appears in your list in the Copilot rail.
 > [!NOTE]
 > You can only install Cowork if your organization makes it available to you. If you restrict access to specific groups, only those users see it in the Agent Store.
 
-Learn more about how users interact with Cowork in [Use agents in Microsoft 365 Copilot](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide).
+Learn more about how users interact with Cowork in [Use agents in Microsoft 365 Copilot](/microsoft-365/copilot/agent-essentials/m365-agents-admin-guide).
 
 ## Control access with the Microsoft 365 admin center
 
@@ -124,7 +124,7 @@ By default, Cowork stores conversation content in your tenant's local region geo
 ## Related content
 
 - [Manage agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
-- [Agent availability settings](/copilot/microsoft-365/agent-essentials/agent-lifecycle/agent-availability)
-- [Deploy agents in Microsoft 365 Copilot](/copilot/microsoft-365/agent-essentials/agent-lifecycle/agent-deploy)
-- [Microsoft 365 Copilot agent installation overview](/copilot/microsoft-365/copilot-agent-install)
-- [Agents admin guide for Microsoft 365 Copilot](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide)
+- [Agent availability settings](/microsoft-365/copilot/agent-essentials/agent-lifecycle/agent-availability)
+- [Deploy agents in Microsoft 365 Copilot](/microsoft-365/copilot/agent-essentials/agent-lifecycle/agent-deploy)
+- [Microsoft 365 Copilot agent installation overview](/microsoft-365/copilot/copilot-agent-install)
+- [Agents admin guide for Microsoft 365 Copilot](/microsoft-365/copilot/agent-essentials/m365-agents-admin-guide)

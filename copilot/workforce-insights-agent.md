@@ -1,7 +1,7 @@
 ---
 title: Workforce Insights agent
 description: This article details how to use the Workforce Insights agent
-ms.date: 03/31/2026
+ms.date: 04/30/2026
 ms.service: microsoft-365-copilot
 ms.subservice: admin
 ms.topic: how-to
@@ -17,7 +17,7 @@ ms.collection:
 # Workforce Insights agent
 
 > [!IMPORTANT]
-> The Workforce Insights agent is in Frontier and subject to change. For more information about the Frontier program, see [What is Frontier?](https://adoption.microsoft.com/copilot/frontier-program/)
+> The Workforce Insights agent is in the Microsoft Frontier program and subject to change. For more information, see [Get started with the Microsoft Frontier program](/microsoft-365/admin/manage/get-started-frontier).
 
 The Workforce Insights agent helps organizational leaders and their specified delegates:
 
@@ -31,7 +31,7 @@ The Workforce Insights agent uses information from:
 - [Organizational Data](/viva/organizational-data)
     - Organizational data describes the users in your organization.
 - [Custom attributes](#data-available-in-the-workforce-insights-agent) sent to Workforce Insights  
-- [People Skills data](/copilot/microsoft-365/people-skills-overview)
+- [People Skills data](/microsoft-365/copilot/people-skills-overview)
 
 > [!IMPORTANT]
 > You can only search for information that's available to you about your team. Responses are based on your role, and policies set by your admin and organization.
@@ -39,7 +39,7 @@ The Workforce Insights agent uses information from:
 ## Licensing and tenant requirements
 
 > [!IMPORTANT]
-> Workforce Insights is only available if your organization has at least 50 paid and enabled Copilot licenses. For more information, see [Which Copilot is right for me?](/copilot/microsoft-365/which-copilot-for-your-organization)
+> Workforce Insights is only available if your organization has at least 50 paid and enabled Copilot licenses. For more information, see [Which Copilot is right for me?](/microsoft-365/copilot/which-copilot-for-your-organization)
 
 Workforce Insights is only available to users with paid Microsoft 365 Copilot licenses. In addition:
 
@@ -56,8 +56,8 @@ For information on responsible AI principles and usage, see the following articl
 
 - [Responsible AI Principles and Approach](https://www.microsoft.com/ai/principles-and-approach?msockid=3be31cda99b962db1b5a0a8398f063ed)
 - [Responsible AI: Ethical policies and practices](https://www.microsoft.com/ai/responsible-ai)
-- [Data privacy and security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy)
-- [People Skills data and AI guidelines](/copilot/microsoft-365/people-skills-data-and-ai-guidelines)
+- [Data privacy and security for Microsoft 365 Copilot](/microsoft-365/copilot/microsoft-365-copilot-privacy)
+- [People Skills data and AI guidelines](/microsoft-365/copilot/people-skills-data-and-ai-guidelines)
 
 ## Customize how managers are identified
 
@@ -203,7 +203,7 @@ Clear, well-written prompts improve consistency, reduce ambiguity, and build tru
     1. [Use admin controls to manage access to Workforce Insights](#use-admin-controls-to-manage-access-to-the-workforce-insights-agent-in-your-organization)
     2. Manage delegation policies  
 1. Download the Workforce Insights agent from the Agent Store in Microsoft 365 Copilot.
-1. Set up [People Skills](/copilot/microsoft-365/people-skills-setup).
+1. Set up [People Skills](/microsoft-365/copilot/people-skills-setup).
 
 ## Use admin controls to manage access to the Workforce Insights agent in your organization
 
@@ -268,7 +268,7 @@ The following explains:
 | Data type | Description |
 | --- | --- |
 | Public attributes | Public attributes include general information seen by all users in the tenant, such as work email, name, job title, and department.<p>The attributes uploaded by the tenant are available to the Microsoft 365 profile. The tenant's users and Microsoft 365 apps have access to the attributes. The data used for public attributes used by Workforce Insights depends on the precedence of the data used in Microsoft 365 User Profile. For more information, see [Understand how organizational data is used and retained in Microsoft 365](/viva/orgdata-data-usage#data-usage).</p><p>You can find the complete list of public attributes available to Workforce Insights in the [Organizational Data in Microsoft 365 - Attribute reference](/viva/orgdata-attributes).</p> |
-| People skills | The Workforce Insights Agent can use the People Skills data that's available in your organization. Before you can use People Skills data, you must [set up People Skills](/copilot/microsoft-365/people-skills-setup) in your tenant first. |
+| People skills | The Workforce Insights Agent can use the People Skills data that's available in your organization. Before you can use People Skills data, you must [set up People Skills](/microsoft-365/copilot/people-skills-setup) in your tenant first. |
 | Custom attributes | Custom attributes are attributes that you might want to add to the public attributes to enhance the usefulness of the Workforce Insights agent. These attributes need to be explicitly uploaded and made available to the Workforce Insights service.<p>Use the information in [Map attributes and set access for Microsoft 365, Copilot, and Viva apps](/viva/map-attributes-set-access#4-choose-attribute-access-for-apps) to make data available to the Workforce Insights service.</p><p>In addition to making custom attributes available for the service, you must:</p><ol><li>Configure the use of the custom attributes by [assigning access policies](/viva/set-access-policies).</li><li>Add the attribute metadata for the agent to use. You can use the [Custom column best practices](#custom-column-best-practices) section to help you attribute the metadata.</li></ol><p>Other helpful resources:<ul><li>To upload public and custom attributes, see [Import your organizational data with a `.csv` file](/viva/import-orgdata)</li><li>[Manage delegation access policies](#manage-delegation-policies)</li></ul></p> |
 
 ## Custom column best practices
@@ -343,7 +343,7 @@ In the Workforce Insights agent, the following experiences can appear:
 
 ### What languages does the Workforce Insights agent support?
 
-Being in the Frontier program, the Workforce Insights agent is optimized for English. Features like the landing page and chat work in all Microsoft 365 Copilot languages but experiences like delegation, reports, and admin experiences are limited to English until Early 2026.
+Being in the Frontier program, the Workforce Insights agent is optimized for English. Features like the landing page and chat work in all Microsoft 365 Copilot languages but experiences like delegation, reports, and admin experiences are limited to English.
 
 ### How can I provide feedback on the Workforce Insights agent?
 

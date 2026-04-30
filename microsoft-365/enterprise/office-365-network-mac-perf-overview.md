@@ -1,4 +1,4 @@
----
+﻿---
 title: "Network connectivity in the Microsoft 365 Admin Center"
 ms.author: scotv
 author: kelleyvice-msft
@@ -19,6 +19,7 @@ ms.collection:
 - m365initiative-coredeploy
 - must-keep
 description: "Overview of network connectivity in the Microsoft 365 Admin Center"
+ms.custom: network
 ---
 
 # Network connectivity in the Microsoft 365 Admin Center

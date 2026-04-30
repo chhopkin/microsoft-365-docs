@@ -13,6 +13,7 @@ ms.date: 08/04/2025
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
+- data-residency
 ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
@@ -111,3 +112,4 @@ The _Tenant’s Data Location Card_ displays the following message:
 Certain _Tenants_ might have their in-scope customer data stored in "**Europe**" but might not be provided with the _EUDB_ commitment based on the _Tenant’s Default Geography_. In these scenarios, users see a _Current Geography_ of "**Europe**" and an information message stating “This tenant doesn't have an [EU Data Boundary] (EUDB) data residency commitment.” at the bottom of the _DLC_. For more information on _EUDB_ eligibility, see [How to configure services for use in the EU Data Boundary](/privacy/eudb/eu-data-boundary-learn#how-to-configure-services-for-use-in-the-eu-data-boundary). For more information on _EUDB_ commitments, see the [Microsoft EU Data Boundary documentation](https://www.microsoft.com/trust-center/privacy/european-data-boundary-eudb?msockid=17b6c7f9a50068231a1fd4dea4ba694a) in the Microsoft Trust Center.
 
 :::image type="content" source="media\data-residency\m365-dlc-no-eudb-commitment-0725.png" alt-text="Screenshot of Data Location View For Customer With No EUDB Commitment.":::
+

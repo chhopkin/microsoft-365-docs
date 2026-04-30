@@ -20,6 +20,7 @@ description: Learn how to create a Microsoft 365 group with a specified preferre
 ms.custom: 
 - seo-marvel-apr2020
 - admindeeplinkSPO
+- data-residency
 ---
 
 # Create a Microsoft 365 group with a specific preferred data location
@@ -63,3 +64,4 @@ New-UnifiedGroup -DisplayName MultiGeoEUR -Alias "MultiGeoEUR" -AccessType Publi
 [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)
 
 [Create groups with a specific preferred data location using Graph API](/graph/api/group-post-groups)
+

@@ -73,4 +73,4 @@ When web search is enabled, Microsoft 365 Copilot Chat may fetch information fro
 The AI Administrator role lets organizations manage Copilot Chat and AI experiences using least‑privilege access, without requiring Global Administrator permissions. This role includes access to the Copilot Control System admin settings as well as reports to help track adoption.
 
 ### Pin Copilot Chat in Microsoft 365 apps
-Admins can [pin Copilot Chat in their users Microsoft 365 apps](/copilot/microsoft-365/pin-copilot-chat-navbar) so it’s easy to find, consistently available, and used as the organization’s secure, compliant AI entry point across Microsoft 365 apps. This setting is turned on by default.
+Admins can [pin Copilot Chat in their users Microsoft 365 apps](/microsoft-365/copilot/pin-copilot-chat-navbar) so it’s easy to find, consistently available, and used as the organization’s secure, compliant AI entry point across Microsoft 365 apps. This setting is turned on by default.

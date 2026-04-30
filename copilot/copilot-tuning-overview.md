@@ -51,37 +51,37 @@ Copilot Tuning supports a set of task-oriented agent templates.
 
 Document writing agents generate structured, long-form documents based on organizational templates, examples, and standards. These agents can produce first drafts of content such as proposals, contracts, policies, and technical documentation while adhering to formatting and compliance requirements.
 
-For more information, see [Document Writing agent template](/copilot/microsoft-365/copilot-tuning-document-writing-template).
+For more information, see [Document Writing agent template](/microsoft-365/copilot/copilot-tuning-document-writing-template).
 
 ### Document summary
 
 Document summary agents generate tailored summaries based on tone, audience, purpose, and length. Organizations can tune these agents to reflect internal summarization standards and emphasize information that is most relevant for their use cases.
 
-For more information, see [Document Summary agent template](/copilot/microsoft-365/copilot-tuning-document-summary-template).
+For more information, see [Document Summary agent template](/microsoft-365/copilot/copilot-tuning-document-summary-template).
 
 ### Expert answers (Q&A)
 
 Expert answers agents provide domain-specific responses by grounding answers in organizational content. These agents support scenarios that require deep search across large datasets, strict policy guardrails, or specialized terminology.
 
-For more information, see [Expert Answers agent template](/copilot/microsoft-365/copilot-tuning-expert-answers-template).
+For more information, see [Expert Answers agent template](/microsoft-365/copilot/copilot-tuning-expert-answers-template).
 
 ### Document validation
 
 Document validation agents review documents for compliance with organizational guidelines, policies, branding standards, and regulatory requirements. They identify issues, categorize risks, and provide actionable feedback directly within documents.
 
-For more information, see [Document Validation agent template](/copilot/microsoft-365/copilot-tuning-document-validation-template).
+For more information, see [Document Validation agent template](/microsoft-365/copilot/copilot-tuning-document-validation-template).
 
 ### Style editing
 
 Style editing agents refine drafts to align with an organization's brand voice, tone, and writing guidelines. These agents help ensure consistency across content produced by different users and teams.
 
-For more information, see [Style Editing agent template](/copilot/microsoft-365/copilot-tuning-style-editing-template).
+For more information, see [Style Editing agent template](/microsoft-365/copilot/copilot-tuning-style-editing-template).
 
 ### Optimization agent
 
 Optimization agents assist with business optimization problems such as resource allocation, task assignment, and planning. Users define objectives and constraints, and the agent produces explainable solutions based on uploaded data and organizational rules.
 
-For more information, see [Optimization agent](/copilot/microsoft-365/copilot-tuning-optimization-template).
+For more information, see [Optimization agent](/microsoft-365/copilot/copilot-tuning-optimization-template).
 
 ## Agent tuning
 

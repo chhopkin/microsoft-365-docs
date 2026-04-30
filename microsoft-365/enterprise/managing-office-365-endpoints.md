@@ -1,4 +1,4 @@
----
+﻿---
 title: Managing Microsoft 365 endpoints
 ms.author: scotv
 author: kelleyvice-msft
@@ -17,6 +17,7 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: 
+- network
 - Adm_O365_Setup
 - seo-marvel-apr2020
 search.appverid: MOE150

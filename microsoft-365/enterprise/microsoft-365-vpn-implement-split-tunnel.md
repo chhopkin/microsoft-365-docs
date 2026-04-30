@@ -1,4 +1,4 @@
----
+﻿---
 title: Implementing VPN split tunneling for Microsoft 365
 ms.author: scotv
 author: kelleyvice-msft
@@ -21,6 +21,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: "How to implement VPN split tunneling for Microsoft 365"
+ms.custom: network
 ---
 
 # Implementing VPN split tunneling for Microsoft 365

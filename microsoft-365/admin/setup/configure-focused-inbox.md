@@ -2,9 +2,9 @@
 title: "Configure Focused Inbox for everyone in your organization"
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
+ms.author: kwekua
+author: kwekuako
+manager: scotv
 ms.date: 01/06/2025
 audience: Admin
 ms.topic: how-to

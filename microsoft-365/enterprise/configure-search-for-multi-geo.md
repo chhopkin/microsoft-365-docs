@@ -9,7 +9,9 @@ audience: ITPro
 ms.topic: how-to
 ms.service: microsoft-365-enterprise
 ms.subservice: multi-geo-capabilities
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
+- data-residency
 ms.collection: 
 - Strat_SP_gtc
 - must-keep
@@ -369,3 +371,4 @@ keywordQuery.QueryText = query.SearchQueryText;
 keywordQuery.ClientType = <enter a string here>;
 keywordQuery.Properties["EnableMultiGeoSearch"] = true;
 ```
+

@@ -838,7 +838,7 @@ Updates released between February 24, 2026, March 10, 2026
 
   **Learn:**
 
-  [Manage your skills library in People Skills](/copilot/microsoft-365/people-skills-manage-skills-library)
+  [Manage your skills library in People Skills](/microsoft-365/copilot/people-skills-manage-skills-library)
 
 - **Chat History filtering experience refresh**
 
@@ -1938,7 +1938,7 @@ Admins can configure a custom URL pointing to their AI policy documentation.
   **Additional resources:**
 
   **Learn:**  
-  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+  [Microsoft 365 Copilot Library](/microsoft-365/copilot/copilot-library)
 
 ### Microsoft 365 Copilot Chat
 - **Search for meetings by organizer using Copilot Chat** [Windows]
@@ -2738,7 +2738,7 @@ Updates released between November 12, 2025, and November 25, 2025.
     **Learn:**
 
 
-     [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
+     [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/microsoft-365/copilot/pay-as-you-go/copilot-capacity-packs)
 
 
 - **Reassign agent ownership with full control** [Windows, Web]
@@ -3372,7 +3372,7 @@ Search now delivers more personalized results by using user context and engageme
 - **Harmful content protection toggle** [Web]
 
   Admins can now control how users interact with harmful content protection settings in Microsoft 365 Copilot Chat. This is crucial for specialized roles like legal or investigative teams that may need exposure to sensitive content.  
-  [Learn more.](/copilot/microsoft-365/harmful-content-protection-copilot-chat)
+  [Learn more.](/microsoft-365/copilot/harmful-content-protection-copilot-chat)
 
 - **Historical Data Upload Support in Organizational Data in Microsoft 365** [Web]
 
@@ -3387,7 +3387,7 @@ Search now delivers more personalized results by using user context and engageme
 - **Prepurchase capacity packs for chat** [Web]
 
   Admins can apply pre-purchased message capacity packs to Microsoft 365 Copilot Chat and other agent scenarios before incurring pay-as-you-go charges, optimizing budget management.  
-  [Learn more.](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
+  [Learn more.](/microsoft-365/copilot/pay-as-you-go/copilot-capacity-packs)
 
 ### Microsoft 365 Copilot Chat
 - **Create new images using reference uploads** [Windows, Mac, Web]
@@ -3532,7 +3532,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 - **Copilot Search management under Copilot Control Systems** [Web]
 
-  Enable administrators to configure, customize, and measure Copilot Search across their organization. This feature provides centralized tools to manage search connectors, tailor search experiences to organizational needs, and gain actionable insights into adoption, usage patterns, and content engagement. Designed to enhance productivity and maximize the value of Microsoft 365 Copilot, it supports both setup and ongoing optimization of enterprise search experiences. [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search-admin-experience)
+  Enable administrators to configure, customize, and measure Copilot Search across their organization. This feature provides centralized tools to manage search connectors, tailor search experiences to organizational needs, and gain actionable insights into adoption, usage patterns, and content engagement. Designed to enhance productivity and maximize the value of Microsoft 365 Copilot, it supports both setup and ongoing optimization of enterprise search experiences. [Learn more](/microsoft-365/copilot/microsoft-365-copilot-search-admin-experience)
 
 ### Microsoft 365 Copilot app
 
@@ -3556,7 +3556,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 - **Microsoft 365 Copilot Search** [Android, Windows, iOS, Web]
 
   Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries.  
-  [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search)
+  [Learn more](/microsoft-365/copilot/microsoft-365-copilot-search)
 
 - **Unified Conversations (Chat History) List** [Web]
 
@@ -3844,7 +3844,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 - **Manage Copilot costs with budget limits** [Web]
 
   Define budget policies for Copilot services, set thresholds and alerts, and receive email notifications for proactive cost control.  
-  [Learn more.](/copilot/microsoft-365/pay-as-you-go/setup)
+  [Learn more.](/microsoft-365/copilot/pay-as-you-go/setup)
 
 ### Microsoft 365 Copilot app
 
@@ -3910,7 +3910,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 
 - **Bridge skill gaps with personalized insights** [Windows, Web]
 
-  Discover and promote upskilling opportunities with People Skills. Share skills, connect with others, and enrich user experiences across Microsoft 365, including apps such as Copilot and Viva Learning. [Learn more.](/copilot/microsoft-365/people-skills-overview)
+  Discover and promote upskilling opportunities with People Skills. Share skills, connect with others, and enrich user experiences across Microsoft 365, including apps such as Copilot and Viva Learning. [Learn more.](/microsoft-365/copilot/people-skills-overview)
 
 - **Unified analytics for enhanced insights** [Web]
 
@@ -3937,7 +3937,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 - **Discover and install Copilot agents easily** 
 
   Users in Word and PowerPoint can seamlessly find and install Copilot agents directly from the Unified App Store.  
-  [Learn more.](/copilot/microsoft-365/copilot-agent-install)
+  [Learn more.](/microsoft-365/copilot/copilot-agent-install)
 
 - **Enhance agent builder with full screen mode** [Windows, Mac, Web]
 
@@ -3956,7 +3956,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 - **Fine-tune models with tenant data** 
 
   Developers and makers can fine-tune a model used in Microsoft 365 Copilot using their tenant data.  
-  [Learn more.](/copilot/microsoft-365/copilot-tuning-overview)
+  [Learn more.](/microsoft-365/copilot/copilot-tuning-overview)
 
 - **Get relevant calendar results by time period** [Windows, Web]
 
@@ -4437,7 +4437,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Scheduled prompts** [Windows, Mac, Web, Teams]
 
-  Plan ahead by scheduling essential prompts for repeated tasks in Copilot chat. Create a productive routine that helps you stay organized and efficient.  [Learn more](/copilot/microsoft-365/scheduled-prompts).
+  Plan ahead by scheduling essential prompts for repeated tasks in Copilot chat. Create a productive routine that helps you stay organized and efficient.  [Learn more](/microsoft-365/copilot/scheduled-prompts).
 
 ### Microsoft Clipchamp
 
@@ -4715,7 +4715,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 - **Pay-as-you-go policies keep Copilot costs in check** [Windows, Web]
 
   Allocate budgets by department, set usage caps, and manage access from the admin center so your organization can innovate with Copilot while staying on budget.
-  [Learn more](/copilot/microsoft-365/pay-as-you-go/overview).
+  [Learn more](/microsoft-365/copilot/pay-as-you-go/overview).
 - **Safe Links validates redacted URLs** [Windows]
 
   When Copilot masks a link, Safe Links now scans it instantly and alerts users to malicious sites, adding an extra layer of protection before anyone clicks. 
@@ -4777,7 +4777,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 - **Manage pay-as-you-go billing for Copilot** [Windows, Web]
 
   Admins can manage pay-as-you-go billing directly within Copilot settings in the Microsoft 365 admin center. This capability is available to users with Global admin, AI admin, and Global reader roles.
- [Learn more](/copilot/microsoft-365/pay-as-you-go/setup).
+ [Learn more](/microsoft-365/copilot/pay-as-you-go/setup).
 - **Overview of Copilot for admin** [Web]
 
   Streamline IT management with Copilot's real-time, contextually relevant insights that help you make faster, data-driven decisions in the Microsoft 365 admin center.
@@ -5329,7 +5329,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
 - **Share a prompt with a co-worker** [Windows, Web]  
 
-  Easily create, save, and share your favorite prompts using Copilot Prompt Gallery, inspiring your co-workers to achieve more with Copilot. [Learn more](/copilot/microsoft-365/copilot-prompt-gallery-export-prompts).
+  Easily create, save, and share your favorite prompts using Copilot Prompt Gallery, inspiring your co-workers to achieve more with Copilot. [Learn more](/microsoft-365/copilot/copilot-prompt-gallery-export-prompts).
 
 ### SharePoint
 
@@ -5575,7 +5575,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Admin control over Copilot web search access** [Web]  
 
-  Administrators can now manage user access to web search within Copilot using policies in config.office.com. This provides better control over how users interact with web content through Copilot. [Learn more](/copilot/microsoft-365/manage-public-web-access).
+  Administrators can now manage user access to web search within Copilot using policies in config.office.com. This provides better control over how users interact with web content through Copilot. [Learn more](/microsoft-365/copilot/manage-public-web-access).
 
 - **Focus Copilot responses on specific emails in Microsoft 365 Copilot Chat** [Windows, Web, Android, iOS, Mac]  
 
@@ -6970,7 +6970,7 @@ Updates released between February 24, 2026, and March 10, 2026.
 
   **Learn:**
 
-  [Manage your skills library in People Skills](/copilot/microsoft-365/people-skills-manage-skills-library)
+  [Manage your skills library in People Skills](/microsoft-365/copilot/people-skills-manage-skills-library)
 
  ### Excel
 
@@ -7349,7 +7349,7 @@ Admins can configure a custom URL pointing to their AI policy documentation.
   **Additional resources:**
 
   **Learn:**  
-  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+  [Microsoft 365 Copilot Library](/microsoft-365/copilot/copilot-library)
 
 ### Microsoft 365 Copilot Chat
 - **Search for meetings by organizer using Copilot Chat** [Windows]
@@ -8023,7 +8023,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 - **Microsoft 365 Copilot Search** [Android, Windows, iOS, Web]
 
-  Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries. [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
+  Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries. [Learn more](/microsoft-365/copilot/microsoft-365-copilot-search).
 
 ### OneNote
 - **Create and use Copilot Notebooks in OneNote** [Windows]
@@ -8125,7 +8125,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 - **Bridge skill gaps with personalized insights** [Windows, Web]
 
   Discover and promote upskilling opportunities with People Skills. Share skills, connect with others, and enrich user experiences across Microsoft 365, including apps such as Copilot and Viva Learning.
- [Learn more](/copilot/microsoft-365/people-skills-overview).
+ [Learn more](/microsoft-365/copilot/people-skills-overview).
 
 
 <!-- 84976,94586,83228,95029,64023,99774,100348,100344,100339,100338,99368,98331,97241,79743,84472 -->
@@ -8367,7 +8367,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 - **Scheduled prompts** [Windows, Mac, Web, Teams]
 
   Plan ahead by scheduling essential prompts for repeated tasks in Copilot chat. Create a productive routine that helps you stay organized and efficient.
- [Learn more](/copilot/microsoft-365/scheduled-prompts).
+ [Learn more](/microsoft-365/copilot/scheduled-prompts).
 ### Microsoft Clipchamp
 - **Clipchamp Copilot video creator** [Windows, Web]
 
@@ -8483,7 +8483,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 - **Pay-as-you-go policies keep Copilot costs in check** [Windows, Web]
 
   Allocate budgets by department, set usage caps, and manage access from the admin center so your organization can innovate with Copilot while staying on budget.
- [Learn more](/copilot/microsoft-365/pay-as-you-go/overview).
+ [Learn more](/microsoft-365/copilot/pay-as-you-go/overview).
 - **Safe Links validates redacted URLs** [Windows]
 
   When Copilot masks a link, Safe Links now scans it instantly and alerts users to malicious sites, adding an extra layer of protection before anyone clicks.
@@ -8518,7 +8518,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 - **Manage pay-as-you-go billing for Copilot** [Windows, Web]
 
   Admins can manage pay-as-you-go billing directly within Copilot settings in the Microsoft 365 admin center. This capability is available to users with Global admin, AI admin, and Global reader roles.
- [Learn more](/copilot/microsoft-365/pay-as-you-go/setup).
+ [Learn more](/microsoft-365/copilot/pay-as-you-go/setup).
 ### Microsoft 365 Copilot Chat
 - **Copilot pages in Government Clouds** [Windows]
 
@@ -8755,7 +8755,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
 - **Share a prompt with a co-worker** [Windows, Web]  
 
-  Easily create, save, and share your favorite prompts using Copilot Prompt Gallery, inspiring your co-workers to achieve more with Copilot. [Learn more](/copilot/microsoft-365/copilot-prompt-gallery-export-prompts).
+  Easily create, save, and share your favorite prompts using Copilot Prompt Gallery, inspiring your co-workers to achieve more with Copilot. [Learn more](/microsoft-365/copilot/copilot-prompt-gallery-export-prompts).
 
 ### Word
 
@@ -10203,7 +10203,7 @@ Updates released between February 24, 2026, March 10, 2026
 
   **Learn:**
 
-  [Manage your skills library in People Skills](/copilot/microsoft-365/people-skills-manage-skills-library)
+  [Manage your skills library in People Skills](/microsoft-365/copilot/people-skills-manage-skills-library)
 
  - **Summarize and explain PDFs with Copilot in Microsoft Edge** [Web]
 
@@ -11261,7 +11261,7 @@ Admins can configure a custom URL pointing to their AI policy documentation.
   **Additional resources:**
 
   **Learn:**  
-  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+  [Microsoft 365 Copilot Library](/microsoft-365/copilot/copilot-library)
 
 ### Microsoft 365 Copilot extensibility
 - **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
@@ -12533,7 +12533,7 @@ Updates released between September 30, 2025, and October 15, 2025.
 ### Microsoft 365 admin center
 - **Harmful content protection toggle** [Web]
 
-  Admins can now control how users interact with harmful content protection settings in Microsoft 365 Copilot Chat. This is crucial for specialized roles like legal or investigative teams that may need exposure to sensitive content. [Learn more](/copilot/microsoft-365/harmful-content-protection-copilot-chat).
+  Admins can now control how users interact with harmful content protection settings in Microsoft 365 Copilot Chat. This is crucial for specialized roles like legal or investigative teams that may need exposure to sensitive content. [Learn more](/microsoft-365/copilot/harmful-content-protection-copilot-chat).
 
 - **Historical Data Upload Support in Organizational Data in Microsoft 365** [Web]
 
@@ -12545,7 +12545,7 @@ Updates released between September 30, 2025, and October 15, 2025.
 
 - **Prepurchase capacity packs for chat** [Web]
 
-  Admins can apply pre-purchased message capacity packs to Microsoft 365 Copilot Chat and other agent scenarios before incurring pay-as-you-go charges, optimizing budget management. [Learn more](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs).
+  Admins can apply pre-purchased message capacity packs to Microsoft 365 Copilot Chat and other agent scenarios before incurring pay-as-you-go charges, optimizing budget management. [Learn more](/microsoft-365/copilot/pay-as-you-go/copilot-capacity-packs).
 
 ### Microsoft 365 Copilot Chat
 
@@ -12657,7 +12657,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 - **Copilot Search management under Copilot Control Systems** [Web]
 
   Enable administrators to configure, customize, and measure Copilot Search across their organization. This feature provides centralized tools to manage search connectors, tailor search experiences to organizational needs, and gain actionable insights into adoption, usage patterns, and content engagement. Designed to enhance productivity and maximize the value of Microsoft 365 Copilot, it supports both setup and ongoing optimization of enterprise search experiences.
- [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search-admin-experience).
+ [Learn more](/microsoft-365/copilot/microsoft-365-copilot-search-admin-experience).
 ### Microsoft 365 Copilot app
 - **Configure format, style, and durations of an audio overview in Copilot Notebooks** [Web]
 
@@ -12669,7 +12669,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 - **Microsoft 365 Copilot Search** [Android, Windows, iOS, Web]
 
   Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries.
- [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
+ [Learn more](/microsoft-365/copilot/microsoft-365-copilot-search).
 - **Unified Conversations (Chat History) List** [Web]
 
   We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Select a conversation and you'll pick up in the same context and mode as where you left off.
@@ -12828,7 +12828,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 - **Manage Copilot costs with budget limits** [Web]
 
   Define budget policies for Copilot services, set thresholds and alerts, and receive email notifications for proactive cost control.
- [Learn more](/copilot/microsoft-365/pay-as-you-go/setup).
+ [Learn more](/microsoft-365/copilot/pay-as-you-go/setup).
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
 
@@ -12878,7 +12878,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 - **Bridge skill gaps with personalized insights** [Windows, Web]
 
   Discover and promote upskilling opportunities with People Skills. Share skills, connect with others, and enrich user experiences across Microsoft 365, including apps such as Copilot and Viva Learning.
- [Learn more](/copilot/microsoft-365/people-skills-overview).
+ [Learn more](/microsoft-365/copilot/people-skills-overview).
 - **Unified analytics for enhanced insights** [Web]
 
   Experience a streamlined approach with Copilot Dashboard and Viva Insights. This unified platform blends advanced analytics offerings, providing leaders, delegates, and analysts with cohesive, actionable insights.
@@ -13193,7 +13193,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 - **Scheduled prompts** [Windows, Mac, Web, Teams]
 
   Plan ahead by scheduling essential prompts for repeated tasks in Copilot chat. Create a productive routine that helps you stay organized and efficient.
- [Learn more](/copilot/microsoft-365/scheduled-prompts).
+ [Learn more](/microsoft-365/copilot/scheduled-prompts).
 ### Microsoft Clipchamp
 - **Clipchamp Copilot video creator** [Windows, Web]
 
@@ -13356,7 +13356,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 - **Pay-as-you-go policies keep Copilot costs in check** [Windows, Web]
 
   Allocate budgets by department, set usage caps, and manage access from the admin center so your organization can innovate with Copilot while staying on budget.
- [Learn more](/copilot/microsoft-365/pay-as-you-go/overview).
+ [Learn more](/microsoft-365/copilot/pay-as-you-go/overview).
 ### PowerPoint
 - **Ask Copilot to rewrite text as a list** [Web, Mac, Windows]
 
@@ -13399,7 +13399,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 - **Manage pay-as-you-go billing for Copilot** [Windows, Web]
 
   Admins can manage pay-as-you-go billing directly within Copilot settings in the Microsoft 365 admin center. This capability is available to users with Global admin, AI admin, and Global reader roles.
- [Learn more](/copilot/microsoft-365/pay-as-you-go/setup).
+ [Learn more](/microsoft-365/copilot/pay-as-you-go/setup).
 - **Overview of Copilot for admin** [Web]
 
   Streamline IT management with Copilot's real-time, contextually relevant insights that help you make faster, data-driven decisions in the Microsoft 365 admin center.
@@ -13797,7 +13797,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
 - **Share a prompt with a co-worker** [Windows, Web]  
 
-  Easily create, save, and share your favorite prompts using Copilot Prompt Gallery, inspiring your co-workers to achieve more with Copilot. [Learn more](/copilot/microsoft-365/copilot-prompt-gallery-export-prompts).
+  Easily create, save, and share your favorite prompts using Copilot Prompt Gallery, inspiring your co-workers to achieve more with Copilot. [Learn more](/microsoft-365/copilot/copilot-prompt-gallery-export-prompts).
 
 ### SharePoint
 
@@ -13961,7 +13961,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Admin control over Copilot web search access** [Web]  
 
-  Administrators can now manage user access to web search within Copilot using policies in config.office.com. This provides better control over how users interact with web content through Copilot. [Learn more](/copilot/microsoft-365/manage-public-web-access).
+  Administrators can now manage user access to web search within Copilot using policies in config.office.com. This provides better control over how users interact with web content through Copilot. [Learn more](/microsoft-365/copilot/manage-public-web-access).
 
 - **Focus Copilot responses on specific emails in Microsoft 365 Copilot Chat** [Windows, Web, Android, iOS, Mac]  
 
@@ -14862,7 +14862,7 @@ Updates released between December 23, 2025, and January 13, 2026.
   **Additional resources:**
 
   **Learn:**  
-  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+  [Microsoft 365 Copilot Library](/microsoft-365/copilot/copilot-library)
 
 ### Microsoft 365 Copilot extensibility
 - **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
@@ -15166,7 +15166,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 - **Microsoft 365 Copilot Search** [Android, Windows, iOS, Web]
 
   Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries.
- [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
+ [Learn more](/microsoft-365/copilot/microsoft-365-copilot-search).
 
 <!-- 98075,97530,100740 -->
 ## September 3, 2025
@@ -15677,7 +15677,7 @@ Updates released between December 23, 2025, and January 13, 2026.
   **Additional resources:**
 
   **Learn:**  
-  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+  [Microsoft 365 Copilot Library](/microsoft-365/copilot/copilot-library)
 
 ### Microsoft 365 Copilot extensibility
 - **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
@@ -15959,7 +15959,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 - **Microsoft 365 Copilot Search** [Android, Windows, iOS, Web]
 
   Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries.
- [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
+ [Learn more](/microsoft-365/copilot/microsoft-365-copilot-search).
 ### Outlook
 - **Schedule meetings effortlessly from email threads** [iOS]
 
@@ -16953,7 +16953,7 @@ Updates released between December 23, 2025, and January 13, 2026.
   **Additional resources:**
 
   **Learn:**  
-  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+  [Microsoft 365 Copilot Library](/microsoft-365/copilot/copilot-library)
 
 ### Microsoft 365 Copilot extensibility
 - **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
@@ -17065,7 +17065,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   
     [Manage Microsoft 365 Copilot in Teams meetings and events](/microsoftteams/copilot-teams-transcription)
 
-    [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
+    [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/microsoft-365/copilot/pay-as-you-go/copilot-capacity-packs)
 
 
 ### Microsoft 365 Copilot Chat
@@ -17354,7 +17354,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 - **Scheduled prompts** [Windows, Mac, Web, Teams]
 
   Plan ahead by scheduling essential prompts for repeated tasks in Copilot chat. Create a productive routine that helps you stay organized and efficient.
- [Learn more](/copilot/microsoft-365/scheduled-prompts).
+ [Learn more](/microsoft-365/copilot/scheduled-prompts).
 ### Outlook
 - **Content language is the default summarize language** [Mac]
 
