@@ -22,6 +22,8 @@ ms.date:     04/17/2026
 
 Build a schedule in seconds by automatically assigning open shifts to available workers, honoring approved time off, historical scheduling patterns, and scheduling constraints. Start by creating open shifts for the number of positions you need to fill, then click the "Assign open shifts" button to begin the process of assigning to available workers.
 
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ced8527b-97d5-4da2-99a3-959b0a988e6c]
+
 ## How it works
 
 1. Make sure all of the shifts you need to assign are entered into the Open Shifts area at the top of your schedule. Add an open shift like you would any other Shift block, or use copy and paste.
