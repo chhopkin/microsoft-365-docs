@@ -292,8 +292,6 @@ items:
               items:                
               - name: Manage agent actions
                 href: manage/agent-actions.md
-              - name: Create agent instances
-                href: manage/create-agent-instances.md
               - name: Manage agent instances
                 href: manage/manage-agent-instances.md
               - name: Manage connected agents
