@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft 365 US Government DOD endpoints
 ms.author: scotv
 author: kelleyvice-msft
@@ -23,7 +23,9 @@ f1.keywords:
 - NOCSH
 description: Microsoft 365 requires connectivity to the Internet. The following endpoints should be reachable for customers using Microsoft 365 U.S. Government DoD plans only.
 hideEdit: true
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
+- network
 ---
 
 # Microsoft 365 U.S. Government DoD endpoints

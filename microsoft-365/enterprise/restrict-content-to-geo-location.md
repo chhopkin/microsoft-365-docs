@@ -11,7 +11,9 @@ ms.service: microsoft-365-enterprise
 ms.subservice: multi-geo-capabilities
 f1.keywords:
 - NOCSH
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- data-residency
 ms.collection: Strat_SP_gtc
 ms.localizationpriority: medium
 description: In this article, learn how to restrict SharePoint sites to a specified geo location in a multi-geo environment.
@@ -40,3 +42,4 @@ For example:
 ```powershell
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/RegionRestrictedTeamSite -RestrictedToGeo BlockFull
 ```
+

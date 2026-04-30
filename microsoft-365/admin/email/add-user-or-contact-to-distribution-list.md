@@ -2,9 +2,9 @@
 title: "Add a user or contact to a distribution group"
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
-manager: dansimp
+ms.author: kwekua
+author: kwekuako
+manager: scotv
 ms.date: 11/14/2024
 audience: Admin
 ms.topic: how-to
@@ -22,6 +22,7 @@ ms.custom:
 - VSBFY23
 - AdminSurgePortfolio
 - AdminTemplateSet
+- user-accounts
 description: "Learn how to add a Microsoft 365 user or contact such as an employee, partner, or vendor to an email distribution group."
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 endpoints"
 ms.author: scotv
 author: kelleyvice-msft
@@ -19,6 +19,7 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom:
+- network
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 

@@ -19,6 +19,7 @@ ms.collection:
 ms.custom:
 - Ent_TLGs
 - admindeeplinkMAC
+- data-residency
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: "Determine where your Microsoft 365 customer data is stored worldwide. Links in the article show this information for each workload."
 ---
@@ -79,3 +80,4 @@ For more information on data location for non-Microsoft 365 Services, see the fo
 - [Microsoft Dynamics 365 and Power Platform data residency documentation](/dynamics365/get-started/availability)
 
 For Microsoft services not listed, refer to [Microsoft Privacy - Where Data Is Stored and Located](https://www.microsoft.com/trust-center/privacy/data-location?msockid=17b6c7f9a50068231a1fd4dea4ba694a).
+

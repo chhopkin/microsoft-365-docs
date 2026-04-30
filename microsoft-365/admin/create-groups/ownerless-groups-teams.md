@@ -20,6 +20,7 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
 - m365-groups
+- user-accounts
 search.appverid:
 - MET150
 - MOE150

@@ -1,4 +1,4 @@
----
+﻿---
 title: "URLs and IP address ranges for Microsoft 365 operated by 21Vianet"
 ms.author: scotv
 author: kelleyvice-msft
@@ -18,7 +18,9 @@ search.appverid:
 - GPA150
 - GEA150
 ms.assetid: 5c47c07d-f9b6-4b78-a329-bfdc1b6da7a0
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- network
 f1.keywords:
 - NOCSH
 description: This article lists the URLs and IP address ranges for Microsoft 365 when operated by 21Vianet in China.

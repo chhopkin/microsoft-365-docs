@@ -9,7 +9,9 @@ audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
 ms.subservice: multi-geo-capabilities
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- data-residency
 ms.collection: 
 - Strat_SP_gtc
 - must-keep
@@ -97,3 +99,4 @@ Whether you are a CSP partner managing your customer’s Microsoft 365 subscript
 [Multi-Geo Capabilities in Exchange Online](multi-geo-capabilities-in-exchange-online.md)
 
 [Teams experience in a multi-geo environment](/microsoftteams/teams-experience-o365odb-spo-multi-geo)
+

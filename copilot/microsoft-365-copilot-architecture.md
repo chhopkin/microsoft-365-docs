@@ -107,7 +107,7 @@ This means:
 
 - If you [enable and configure Conditional Access policies](/entra/identity/conditional-access/plan-conditional-access), make sure your users can access Microsoft 365 services. You can manage access based on conditions you configure, including enforcing device compliance policies you set. To learn more, see [Protect AI with Conditional Access policy](/entra/identity/conditional-access/policy-all-users-copilot-ai-security).
 
-  If you use Microsoft Intune, you can use Intune compliance policies and Conditional Access together. To learn more, see [Use compliance policies to set rules for devices you manage with Intune](/mem/intune/protect/device-compliance-get-started).
+  If you use Microsoft Intune, you can use Intune compliance policies and Conditional Access together. To learn more, see [Use compliance policies to set rules for devices you manage with Intune](/intune/device-security/compliance/overview).
 
 - Copilot uses the same MFA features you configure for your tenant. With MFA, like all Microsoft 365 services, users must provide multiple forms of verification before they're allowed to access Copilot.
 

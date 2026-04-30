@@ -1,4 +1,4 @@
----
+﻿---
 title: "DNS records for Office 365 DoD"
 ms.author: dzazzo
 author: dzazzo-msft
@@ -13,8 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom:
-  - Adm_O365
-  - has-azure-ad-ps-ref
+- Adm_O365
+- has-azure-ad-ps-ref
+- network
 search.appverid:
 - OGA150
 - OGC150

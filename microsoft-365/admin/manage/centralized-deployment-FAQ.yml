@@ -19,7 +19,9 @@ metadata:
   - Adm_NonTOC
   - Adm_TOC
   - operations-pod
-  ms.custom: AdminSurgePortfolio
+  ms.custom:
+  - AdminSurgePortfolio
+  - integrated-apps
   search.appverid:
   - BCS160
   - MET150

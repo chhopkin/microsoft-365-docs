@@ -1,4 +1,4 @@
----
+﻿---
 title: "Implementing ExpressRoute for Microsoft 365"
 ms.author: scotv
 author: kelleyvice-msft
@@ -16,8 +16,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom:
- - Adm_O365
- - seo-marvel-apr2020
+- Adm_O365
+- seo-marvel-apr2020
+- network
 search.appverid:
 - MET150
 - MOE150

@@ -30,7 +30,7 @@ appliesto:
 
 > Applies to: Microsoft 365 Copilot, Microsoft Purview, and SharePoint Advanced Management
 
-[Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) uses Work IQ to enhance responses to user prompts using data that the user already has permission to access. When your organization's data is well governed, current, and appropriately shared, Copilot can deliver accurate, relevant, and secure responses. 
+[Microsoft 365 Copilot](/microsoft-365/copilot/microsoft-365-copilot-overview) uses Work IQ to enhance responses to user prompts using data that the user already has permission to access. When your organization's data is well governed, current, and appropriately shared, Copilot can deliver accurate, relevant, and secure responses. 
 
 This article guides you through preparing, securing, and managing Microsoft 365 Copilot using the process depicted in the following diagram: 
 
@@ -205,5 +205,5 @@ After completing the steps in this article:
 
 1. Use the [Microsoft Purview portal](/purview/purview-portal) and the [SharePoint Admin Agent](/sharepoint/content-governance-agent) to view information and run reports on a scheduled basis.
 
-1. Educate site owners and users on labeling, sharing, and responsible Copilot use. (See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).)
+1. Educate site owners and users on labeling, sharing, and responsible Copilot use. (See [Microsoft 365 Copilot data and compliance readiness](/microsoft-365/copilot/microsoft-365-copilot-minimum-requirements-data-compliance).)
 

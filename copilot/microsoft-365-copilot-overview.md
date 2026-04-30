@@ -50,7 +50,7 @@ This article is for IT admins. It describes the different components that Micros
 
 ## Differences between Microsoft 365 Copilot and Copilot Chat
 
-Microsoft 365 Copilot uses your organizational data and the web. It requires an [add-on license](/copilot/microsoft-365/microsoft-365-copilot-licensing). Microsoft 365 Copilot Chat uses the web and users can provide organizational data. It doesn't require an additional license. [Learn more about Copilot Chat](/copilot/overview). For more information, see [differences between Microsoft 365 Copilot and Copilot Chat](/copilot/overview#differences-between-copilot-chat-and-microsoft-365-).
+Microsoft 365 Copilot uses your organizational data and the web. It requires an [add-on license](/microsoft-365/copilot/microsoft-365-copilot-licensing). Microsoft 365 Copilot Chat uses the web and users can provide organizational data. It doesn't require an additional license. [Learn more about Copilot Chat](/copilot/overview). For more information, see [differences between Microsoft 365 Copilot and Copilot Chat](/copilot/overview#differences-between-copilot-chat-and-microsoft-365-).
 
 > [!VIDEO 6ba0f4d6-fffc-479a-9698-a90e6e57e80f]
 
@@ -70,7 +70,7 @@ Microsoft 365 Copilot:
 
 - Uses content in [Microsoft Graph](/graph/overview) to personalize the responses with a user's work emails, chats, and documents. Copilot only shows the data that users have permission to access.
 
-- Includes [Microsoft 365 Copilot Search](/copilot/microsoft-365/microsoft-365-copilot-search), a universal search experience that allows users to search across all their Microsoft 365 and third-party data sources to find what they need quickly.
+- Includes [Microsoft 365 Copilot Search](/microsoft-365/copilot/microsoft-365-copilot-search), a universal search experience that allows users to search across all their Microsoft 365 and third-party data sources to find what they need quickly.
 
 - Coordinates large language models (LLMs). LLMs are artificial intelligence (AI) algorithms. These algorithms use deep learning techniques and data sets to understand, summarize, predict, and generate content.
 
@@ -78,7 +78,7 @@ For more information, see:
 
 - [Microsoft 365 Copilot architecture and how it works](microsoft-365-copilot-architecture.md)
 - [Microsoft 365 Copilot service description](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot)
-- [Microsoft 365 Copilot Search overview](/copilot/microsoft-365/microsoft-365-copilot-search)
+- [Microsoft 365 Copilot Search overview](/microsoft-365/copilot/microsoft-365-copilot-search)
 - Video: [Copilot system explained by Microsoft](https://www.youtube.com/watch?v=E5g20qmeKpg)
 - Video: [Microsoft 365 Copilot, LLMs, and your apps](https://www.youtube.com/watch?v=B2-8wrF9Okc)
 - Video: [How to get ready for Microsoft 365 Copilot](https://aka.ms/M365CopilotAdmin)
@@ -107,7 +107,7 @@ You can use Microsoft 365 Copilot Chat in Microsoft Teams, in the Microsoft 365 
 
 Copilot Search is an AI-powered universal search experience across all your Microsoft 365 applications and connected non-Microsoft data sources. It's integrated with Microsoft 365 Copilot, so users can find the results they need by using search, then seamlessly transition to chat for deeper exploration or follow-up task completion.
 
-Learn more about [Copilot Search](/copilot/microsoft-365/microsoft-365-copilot-search).
+Learn more about [Copilot Search](/microsoft-365/copilot/microsoft-365-copilot-search).
 
 ✅ **Microsoft Graph**
 

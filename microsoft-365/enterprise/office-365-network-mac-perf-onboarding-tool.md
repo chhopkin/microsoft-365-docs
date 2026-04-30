@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 network connectivity test tool"
 ms.author: scotv
 author: kelleyvice-msft
@@ -18,6 +18,7 @@ ms.collection:
 - Strat_O365_Enterprise
 - must-keep
 description: "Microsoft 365 network connectivity test tool"
+ms.custom: network
 ---
 
 # Microsoft 365 network connectivity test tool
@@ -200,19 +201,19 @@ This network insight affects the selection of the Exchange Online service front 
 
 The tests for Microsoft 365 Copilot generally available worldwide from 2025-3-25. The feature allows users to test the network connectivity, websocket enablement and latency of the major endpoints of Microsoft 365 Copilot, and also supports mobile device testing.
 
-You can read more about the network requirements for Microsoft 365 Copilot in [Microsoft 365 Copilot requirements](/copilot/microsoft-365/microsoft-365-copilot-requirements#network-requirements).
+You can read more about the network requirements for Microsoft 365 Copilot in [Microsoft 365 Copilot requirements](/microsoft-365/copilot/microsoft-365-copilot-requirements#network-requirements).
 
 #### Microsoft 365 Copilot HTTP Connectivity  
 
-We'll test the HTTP connectivity for specific endpoints to ensure your connection to Microsoft 365 Copilot services is functioning properly. If you are on a managed network, contact your IT or network administrator to add `*.cloud.microsoft` and `*.office.com` to the allow list. For more information, see the [Microsoft 365 Copilot requirements](/copilot/microsoft-365/microsoft-365-copilot-requirements#network-requirements).  
+We'll test the HTTP connectivity for specific endpoints to ensure your connection to Microsoft 365 Copilot services is functioning properly. If you are on a managed network, contact your IT or network administrator to add `*.cloud.microsoft` and `*.office.com` to the allow list. For more information, see the [Microsoft 365 Copilot requirements](/microsoft-365/copilot/microsoft-365-copilot-requirements#network-requirements).  
 
 #### Microsoft 365 Copilot Web Socket Enablement  
 
-Microsoft 365 Copilot uses WebSocket (WSS) as its communication protocol. If you are on a managed network, contact your IT or network administrator to enable WebSocket (WSS) connectivity for Microsoft 365 Copilot domains. For more information, see the [Microsoft 365 Copilot requirements](/copilot/microsoft-365/microsoft-365-copilot-requirements#network-requirements).  
+Microsoft 365 Copilot uses WebSocket (WSS) as its communication protocol. If you are on a managed network, contact your IT or network administrator to enable WebSocket (WSS) connectivity for Microsoft 365 Copilot domains. For more information, see the [Microsoft 365 Copilot requirements](/microsoft-365/copilot/microsoft-365-copilot-requirements#network-requirements).  
 
 #### Microsoft 365 Copilot Latency  
 
-We'll measure the average latency for Microsoft 365 Copilot endpoints. Ensure WebSocket support is enabled. If the latency exceeds 250ms, it may result in a slower experience with Microsoft 365 Copilot. For more information, see the [Microsoft 365 Copilot requirements](/copilot/microsoft-365/microsoft-365-copilot-requirements#network-requirements).  
+We'll measure the average latency for Microsoft 365 Copilot endpoints. Ensure WebSocket support is enabled. If the latency exceeds 250ms, it may result in a slower experience with Microsoft 365 Copilot. For more information, see the [Microsoft 365 Copilot requirements](/microsoft-365/copilot/microsoft-365-copilot-requirements#network-requirements).  
 
 
 ### Exchange Online

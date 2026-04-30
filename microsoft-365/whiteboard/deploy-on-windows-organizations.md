@@ -25,9 +25,9 @@ In order to deploy Whiteboard, you must first ensure that Whiteboard is enabled 
 
 ## Install Whiteboard using Microsoft Intune
 
-1. Add Whiteboard as an available app using the steps in this article: [Add Microsoft Store apps to Microsoft Intune](/mem/intune/apps/store-apps-windows).
+1. Add Whiteboard as an available app using the steps in this article: [Add Microsoft Store apps to Microsoft Intune](/intune/app-management/deployment/add-microsoft-store-legacy).
 
-2. Assign the app to a group using the steps in this article: [Assign apps to groups with Microsoft Intune](/mem/intune/apps/apps-deploy).
+2. Assign the app to a group using the steps in this article: [Assign apps to groups with Microsoft Intune](/intune/app-management/deployment/assign-groups).
 
 ## See also
 

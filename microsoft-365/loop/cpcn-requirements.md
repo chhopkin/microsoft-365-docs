@@ -60,7 +60,7 @@ Users need a OneDrive license and an active OneDrive site. If a OneDrive site ex
 
 ### Copilot Notebooks
 
-Users need the [Microsoft 365 Copilot license](/copilot/microsoft-365/microsoft-365-copilot-licensing).
+Users need the [Microsoft 365 Copilot license](/microsoft-365/copilot/microsoft-365-copilot-licensing).
 
 ## Exchange Online requirement
 

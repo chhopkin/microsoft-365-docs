@@ -22,6 +22,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
+- domains
 search.appverid:
 - BCS160
 - MET150

@@ -1,4 +1,4 @@
----
+﻿---
 title: Managing Microsoft 365 endpoints
 ms.author: scotv
 author: kelleyvice-msft
@@ -17,6 +17,7 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: 
+- network
 - Adm_O365_Setup
 - seo-marvel-apr2020
 search.appverid: MOE150
@@ -223,6 +224,6 @@ Microsoft 365 doesn't provide IP addresses of all required network endpoints. So
 - [Microsoft 365 IP Address and URL Web service](microsoft-365-ip-web-service.md)
 - [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653)
 - [Microsoft Public IP Space](https://www.microsoft.com/download/details.aspx?id=53602)
-- [Network infrastructure requirements for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
+- [Network infrastructure requirements for Microsoft Intune](/intune/fundamentals/endpoints)
 - [Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
 - [Microsoft 365 Network Connectivity Principles](microsoft-365-network-connectivity-principles.md)

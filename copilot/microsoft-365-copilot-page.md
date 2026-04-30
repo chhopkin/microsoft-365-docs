@@ -117,7 +117,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copil
 
 Use this setting to configure your organization's access to experimental and preview features in web apps, desktop apps, and agents. By default, no users have access to Frontier features.
 
-For more information, see [Frontier program - Microsoft Adoption](https://adoption.microsoft.com/copilot/frontier-program/).
+For more information, see [Get started with the Microsoft Frontier program](/microsoft-365/admin/manage/get-started-frontier).
 
 #### Web apps tab
 
@@ -402,8 +402,6 @@ For more information, see [Manage custom dictionaries for Microsoft Teams meetin
 In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Settings** > **Other settings** > **Copilot diagnostics logs**.
 
 If users encounter an issue and can't send Copilot feedback logs to Microsoft, you can submit feedback logs on their behalf. The data includes prompts and generated responses, relevant content samples, and log files. When you use this scenario to send feedback logs, it temporarily overrides any user level feedback policy.
-
-For more information, see [Submit admin-initiated Copilot feedback from the Microsoft 365 admin center](provide-feedback.md).
 
 ## Related articles
 
