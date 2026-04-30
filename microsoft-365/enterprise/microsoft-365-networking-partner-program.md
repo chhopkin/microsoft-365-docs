@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 Network Provider Program"
 ms.author: scotv
 author: kelleyvice-msft
@@ -16,7 +16,9 @@ ms.collection:
 f1.keywords:
 - CSH
 - NOCSH
-ms.custom: Adm_O365_Setup
+ms.custom:
+- Adm_O365_Setup
+- network
 search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: "The Microsoft 365 Network Provider Program allows your device to become certified as working with Microsoft 365."

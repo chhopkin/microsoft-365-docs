@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 Network Connectivity Overview"
 ms.author: scotv
 author: kelleyvice-msft
@@ -20,6 +20,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: "Discusses why network optimization is important for SaaS services, the goal of Microsoft 365 networking, and how SaaS requires different networking from other workloads."
+ms.custom: network
 ---
 
 # Microsoft 365 network connectivity overview

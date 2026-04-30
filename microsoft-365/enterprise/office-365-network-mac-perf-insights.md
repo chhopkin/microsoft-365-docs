@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 Network Insights"
 ms.author: scotv
 author: kelleyvice-msft
@@ -17,6 +17,7 @@ ms.collection:
 - Strat_O365_Enterprise
 - must-keep
 description: "Microsoft 365 Network Insights"
+ms.custom: network
 ---
 
 # Microsoft 365 Network Insights
