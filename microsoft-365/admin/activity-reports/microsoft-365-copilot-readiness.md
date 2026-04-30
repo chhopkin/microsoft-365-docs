@@ -50,7 +50,7 @@ You can see the following summary charts in this report:
 
 :::image type="content" source="../../media/copilot-usage-ensure-readiness.png" alt-text="Screenshot showing how you can ensure users are eligible for Microsoft 365 Copilot." lightbox="../../media/copilot-usage-ensure-readiness.png":::
 
-- **Total Prerequisite Licenses**: The number is the sum of all users who have at least one license assigned to them or who can be assigned a license. To learn more about the license types eligible for Copilot, see [Licensing requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).
+- **Total Prerequisite Licenses**: The number is the sum of all users who have at least one license assigned to them or who can be assigned a license. To learn more about the license types eligible for Copilot, see [Licensing requirements for Microsoft 365 Copilot](/microsoft-365/copilot/microsoft-365-copilot-licensing).
 
 - **Users on an eligible update channel**: This number is the sum of all users who are enrolled in Current Channel or Monthly Enterprise Channel for app updates in your organization and can be assigned a Copilot license.
 
@@ -107,5 +107,5 @@ The **Suggested candidate for Copilot** column in the Microsoft 365 Copilot Read
 ## Related content
 
 - [Microsoft 365 Copilot service description](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot) (article)
-- [Set up Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-setup) (article)
+- [Set up Microsoft 365 Copilot](/microsoft-365/copilot/microsoft-365-copilot-setup) (article)
 - [Microsoft 365 Copilot Adoption](https://adoption.microsoft.com/copilot/) (resources)

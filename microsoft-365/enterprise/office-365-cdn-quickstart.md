@@ -1,4 +1,4 @@
----
+﻿---
 title: "Office 365 Content Delivery Network (CDN) Quickstart"
 ms.author: scotv
 author: kelleyvice-msft
@@ -17,7 +17,9 @@ ms.collection:
 - must-keep
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom:
+- Adm_O365
+- network
 search.appverid:
 - MET150
 - SPO160

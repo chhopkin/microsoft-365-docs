@@ -374,4 +374,4 @@ All data remains within your Microsoft 365 tenant and is secure. Tuning is fully
 
 ## Related content
 
-- [Copilot Tuning overview](/copilot/microsoft-365/copilot-tuning-overview)
+- [Copilot Tuning overview](/microsoft-365/copilot/copilot-tuning-overview)

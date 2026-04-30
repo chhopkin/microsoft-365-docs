@@ -51,7 +51,7 @@ No action is required by admins or users to set up Copilot Search. If a user has
 
 ## Privacy and security
 
-Microsoft 365 Copilot Search adheres to the same data protection, privacy standards, and security configurations as Microsoft 365 Copilot. Learn more about [data, privacy, and security in Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy).
+Microsoft 365 Copilot Search adheres to the same data protection, privacy standards, and security configurations as Microsoft 365 Copilot. Learn more about [data, privacy, and security in Microsoft 365 Copilot](/microsoft-365/copilot/microsoft-365-copilot-privacy).
 
 ## Natural language search
 

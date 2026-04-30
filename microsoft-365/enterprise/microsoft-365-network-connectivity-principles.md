@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft 365 network connectivity principles
 ms.author: scotv
 author: kelleyvice-msft
@@ -18,7 +18,9 @@ ms.assetid: 76e7f232-917a-4b13-8fe2-4f8dbccfe041
 f1.keywords:
 - NOCSH
 description: This article provides the most recent guidance for securely optimizing Microsoft 365 network connectivity.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- network
 ---
 
 # Microsoft 365 network connectivity principles

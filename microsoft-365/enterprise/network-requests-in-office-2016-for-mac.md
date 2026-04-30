@@ -1,4 +1,4 @@
----
+﻿---
 title: "Network requests in Office for Mac"
 ms.author: scotv
 author: kelleyvice-msft
@@ -16,8 +16,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: 
- - Adm_O365_Setup
- - seo-marvel-apr2020
+- Adm_O365_Setup
+- seo-marvel-apr2020
+- network
 search.appverid: MOM160
 ms.assetid: afdae969-4046-44b9-9adb-f1bab216414b
 description: This article describes which endpoints and URLs Office for Mac applications try to reach, and the services provided.

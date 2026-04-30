@@ -1,4 +1,4 @@
----
+﻿---
 title: "Common VPN split tunneling scenarios for Microsoft 365"
 ms.author: scotv
 author: kelleyvice-msft
@@ -20,6 +20,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: "Common VPN split tunneling scenarios for Microsoft 365"
+ms.custom: network
 ---
 
 # Common VPN split tunneling scenarios for Microsoft 365

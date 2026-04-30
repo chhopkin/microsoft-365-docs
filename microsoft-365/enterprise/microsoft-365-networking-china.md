@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 global tenant performance optimization for China users"
 ms.author: scotv
 author: kelleyvice-msft
@@ -19,6 +19,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: "This article provides guidance for optimizing network performance for China users of global Microsoft 365 tenants."
+ms.custom: network
 ---
 
 # Microsoft 365 global tenant performance optimization for China users

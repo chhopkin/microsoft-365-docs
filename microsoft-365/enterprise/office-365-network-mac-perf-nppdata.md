@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 network provider assessments."
 ms.author: scotv
 author: kelleyvice-msft
@@ -18,6 +18,7 @@ ms.collection:
 - must-keep
 description: "Microsoft 365 network provider assessments"
 ROBOTS: NOINDEX, NOFOLLOW
+ms.custom: network
 ---
 
 # Microsoft 365 network provider assessments.

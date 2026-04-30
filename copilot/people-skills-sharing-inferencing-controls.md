@@ -94,11 +94,11 @@ Once People skills is turned off for a user, all People Skills user experiences 
 
 - Copilot experiences
 
-[Click here for a list of all the applications where People Skills data will be impacted by this Admin Control](/copilot/microsoft-365/people-skills-overview). Additionally, no new skills data is collected, and Admins can't import custom skills for disabled users. Users can be re-enabled later but lost skills data isn't restored.
+[Click here for a list of all the applications where People Skills data will be impacted by this Admin Control](/microsoft-365/copilot/people-skills-overview). Additionally, no new skills data is collected, and Admins can't import custom skills for disabled users. Users can be re-enabled later but lost skills data isn't restored.
 
 #### Visibility behavior when some users are disabled
 
-When People Skills user experiences are disabled for some users but enabled for others, those disabled users may still be able to view or retrieve skills data from enabled users in certain experiences, such as Copilot or Microsoft 365 profile cards. This may occur when People Skills user experiences are turned off for a subset of users within your organization, and Skills Profile visibility remains enabled for other users who have People Skills turned on. If the Admin would like to turn off skills visibility for users, [then learn more about how to control People Skills sharing and visibility here.](/copilot/microsoft-365/people-skills-sharing-inferencing-controls)
+When People Skills user experiences are disabled for some users but enabled for others, those disabled users may still be able to view or retrieve skills data from enabled users in certain experiences, such as Copilot or Microsoft 365 profile cards. This may occur when People Skills user experiences are turned off for a subset of users within your organization, and Skills Profile visibility remains enabled for other users who have People Skills turned on. If the Admin would like to turn off skills visibility for users, [then learn more about how to control People Skills sharing and visibility here.](/microsoft-365/copilot/people-skills-sharing-inferencing-controls)
 
 __Example:__
 
@@ -110,12 +110,12 @@ __Example:__
   
 - User C isn't licensed for People Skills and has User Profile Application (UPA) Skills instead
 
-If the Admin turns off People Skills user experiences for User B, and keeps People Skills user experiences turned on for A, then User B and User C may still be able to see user A's People Skills in Copilot or on the Microsoft 365 Profile Card, provided User A has Skills visibility enabled and Skills sharing turned on. User B’s and User C's Microsoft 365 Profile Card will show no Skills experience when others view User B’s and User C's card. User B and User C also see no Skills experience on their own Microsoft 365 Profile Card, but they can see skills for User A when viewing User A's card. User A, User B and User C cannot see User C's UPA Skills on User C's profile card. While User C may not see their own UPA Skills on their Microsoft 365 Profile Cards, they can still view, edit, or delete them in SharePoint – [learn more about UPA Skills and People Skills here](/copilot/microsoft-365/people-skills-overview).
+If the Admin turns off People Skills user experiences for User B, and keeps People Skills user experiences turned on for A, then User B and User C may still be able to see user A's People Skills in Copilot or on the Microsoft 365 Profile Card, provided User A has Skills visibility enabled and Skills sharing turned on. User B’s and User C's Microsoft 365 Profile Card will show no Skills experience when others view User B’s and User C's card. User B and User C also see no Skills experience on their own Microsoft 365 Profile Card, but they can see skills for User A when viewing User A's card. User A, User B and User C cannot see User C's UPA Skills on User C's profile card. While User C may not see their own UPA Skills on their Microsoft 365 Profile Cards, they can still view, edit, or delete them in SharePoint – [learn more about UPA Skills and People Skills here](/microsoft-365/copilot/people-skills-overview).
 
 
 ## Overview of the Skills AI inferencing control 
 
-The Skills AI inferencing control determines whether AI can automatically generate skills for users based on their Microsoft 365 activity and role. [Learn more about our AI Inference Engine here](/copilot/microsoft-365/people-skills-ai-inferencing). These AI-generated skills show on the user’s Microsoft 365 Live Profile Card (and are visible to others in the organization). When shown on the Microsoft 365 Live Profile Card, AI-generated skills appear as gray, while Skills that a user confirms appear as blue with a checkmark. By default, AI inferencing is turned on for eligible users (Copilot and Viva users).  
+The Skills AI inferencing control determines whether AI can automatically generate skills for users based on their Microsoft 365 activity and role. [Learn more about our AI Inference Engine here](/microsoft-365/copilot/people-skills-ai-inferencing). These AI-generated skills show on the user’s Microsoft 365 Live Profile Card (and are visible to others in the organization). When shown on the Microsoft 365 Live Profile Card, AI-generated skills appear as gray, while Skills that a user confirms appear as blue with a checkmark. By default, AI inferencing is turned on for eligible users (Copilot and Viva users).  
 
 The below table summarizes what access settings are available to Admins to set for this control: 
 
@@ -128,7 +128,7 @@ The below table summarizes what access settings are available to Admins to set f
 
 ## Overview of the Skills profile visibility control 
 
-The **Skills profile visibility** setting controls whether any skills (AI-inferred, confirmed, or imported) are shown and visible to other users via the Microsoft 365 Live Profile Card, and whether skills data is shared with other Microsoft 365 experiences, such as Copilot and leader dashboards and analytics. [Click here for full list of all applications that use Skills data](/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear). This control doesn't impact whether Skills data is shared with Viva Learning – Skills data continues to be shared with Viva Learning if your tenant has a Viva Learning license regardless of this control.
+The **Skills profile visibility** setting controls whether any skills (AI-inferred, confirmed, or imported) are shown and visible to other users via the Microsoft 365 Live Profile Card, and whether skills data is shared with other Microsoft 365 experiences, such as Copilot and leader dashboards and analytics. [Click here for full list of all applications that use Skills data](/microsoft-365/copilot/people-skills-overview#where-does-people-skills-data-appear). This control doesn't impact whether Skills data is shared with Viva Learning – Skills data continues to be shared with Viva Learning if your tenant has a Viva Learning license regardless of this control.
 
 The **Skills profile visibility** control is a **parent control** to the **Show AI Skills** and **Show Imported Skills** controls; these two child controls automatically inherit whatever policy mode is set at the parent level. This means if **Skills profile visibility** is soft disabled, then **Show AI Skills** and **Show Imported Skills** are also soft disabled – when all these controls are soft disabled, it means that a user’s confirmed skills, AI-inferred skills, and imported skills aren't visible to others in the organization unless the user chooses to opt in. Users can always opt in to show their Skills data with others if they want to.
 
@@ -136,7 +136,7 @@ The below table summarizes what access settings are available to Admins to set f
 
 | Access setting| What it means|
 | -------- | -------- |
-|On, allow users to opt out (default) |Skills profile visibility is soft enabled (default), and all Skills that a user has (AI-inferred, confirmed, and/or imported) show as visible to their colleagues within their organization on their Microsoft 365 Profile Cards, and their Skills data are also shared with [other applications](/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear) that use Skills. |
+|On, allow users to opt out (default) |Skills profile visibility is soft enabled (default), and all Skills that a user has (AI-inferred, confirmed, and/or imported) show as visible to their colleagues within their organization on their Microsoft 365 Profile Cards, and their Skills data are also shared with [other applications](/microsoft-365/copilot/people-skills-overview#where-does-people-skills-data-appear) that use Skills. |
 |Off, allow users to opt in |Skills profile visibility is soft disabled, and all Skills that a user has (AI-inferred, confirmed, and/or imported) are hidden on Microsoft 365 Profile Cards (not shown to other users), and not shared with other applications, unless the user decided to opt themselves in. The **Show AI Skills** and the **Show Imported Skills** controls are also soft disabled. |
 
 > [!Note]
@@ -146,7 +146,7 @@ The below table summarizes what access settings are available to Admins to set f
 
 ## Overview of the Show AI-inferred Skills control
 
-The **Show AI-inferred Skills** control determines whether AI-generated skills show as visible to others on the Microsoft 365 Profile Card, and are shared with [other Microsoft 365 applications that use Skills data](/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear). These skills are only visible if the parent controls (Skills Profile Visibility, People Skills AI inferencing, and People Skills user experiences) are also enabled. All controls are enabled by default.
+The **Show AI-inferred Skills** control determines whether AI-generated skills show as visible to others on the Microsoft 365 Profile Card, and are shared with [other Microsoft 365 applications that use Skills data](/microsoft-365/copilot/people-skills-overview#where-does-people-skills-data-appear). These skills are only visible if the parent controls (Skills Profile Visibility, People Skills AI inferencing, and People Skills user experiences) are also enabled. All controls are enabled by default.
 
 The below table summarizes what access settings are available to Admins to set for this control: 
 
