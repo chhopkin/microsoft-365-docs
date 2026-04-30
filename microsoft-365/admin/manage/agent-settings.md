@@ -1,13 +1,13 @@
 ---
-title: Agent Settings in Microsoft 365 admin center
-description: Agent Settings in Microsoft 365 admin center.
+title: Agent settings in Microsoft 365 admin center
+description: Agent settings in Microsoft 365 admin center.
 #customer intent:
 f1.keywords:
 - NOCSH
-ms.author: frankroj
-author: frankroj
+ms.author: erikre
+author: ErikRe
 manager: scotv
-ms.date: 02/23/2026
+ms.date: 04/09/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -40,21 +40,60 @@ The **Agent** settings page in [Microsoft 365 admin center](https://admin.micros
 
 The **Agent settings** page includes the following configuration options:
 
+- **Agent management rules** - Set and run rules to manage or perform actions on agents.
 - **Allowed agent types** - Specify which categories of AI agents are permitted for use within the organization.
-
+- **Security templates** - Create preset policies, rules, and allow lists for new AI agents to ensure consistency and compliance.
 - **Sharing** - Manage who can share AI agents within your organization and define the methods they can use to share them.
-
-- **Templates** - Create preset policies, rules, and allow lists for new AI agents to ensure consistency and compliance.
-
 - **User access** - Control which users or groups can interact with AI agents, aligning access with organizational roles and permissions.
 
 These settings allow you to customize agent behavior, control access, and maintain compliance with enterprise standards.
 
 :::image type="content" source="../../media/agents/agent-settings.png" alt-text="Screenshot showing the Agent settings page in the Microsoft 365 admin center." lightbox="../../media/knowledge-agent-idea.png":::
 
-## Detailed settings
+## Agent management rules
 
-### Allowed agent types
+Agent Management Rules in the Microsoft 365 Admin Center (MAC) enable tenant administrators to apply governance and lifecycle controls across AI agents at scale using bulk administrative actions. 
+
+Rather than requiring you to manually review and take action on agents individually, Agent Management Rules allow you to:
+
+- Identify agents that meet defined conditions
+- Review impacted agents prior to run
+- Apply governance actions across affected agents in bulk
+
+This experience helps organizations maintain compliance, ownership accountability, and deployment consistency across agents while keeping administrators in the control loop. 
+
+### Supported Rule‑Based Bulk Actions
+
+Agent Management Rules currently support the following governance scenarios:
+
+- Install Microsoft agents
+- Reassign ownerless agents created with Agent Builder to manager
+
+#### Install Microsoft agents
+
+Microsoft first‑party (1P) agents are consistently among the most installed and widely used agents. However, administrators currently lack a scalable way to install these agents proactively across their tenant.
+
+Using the Install Microsoft (1P) Agents rule, you can do the following:
+
+- Identify Microsoft‑published agents within the tenant
+- Review eligible agents prior to installation
+- Install selected agents for all users through a single bulk action
+- Microsoft agents appear as installed and are readily available for end-users in the organization  
+
+#### Reassign ownerless agents created with Agent Builder to manager
+
+Agents may become ownerless when their original creator leaves the organization. Administrators must currently identify and transfer ownership manually, which can result in lifecycle governance gaps.
+
+> [!NOTE]
+> This rule is only supported when the agent is created using Microsoft 365 Copilot Agent Builder.
+
+Using the Reassign Ownerless Agents rule, you can do the following:
+
+- Identify agents that no longer have a valid owner
+- Review ownerless agents prior to reassignment
+- Transfer ownership using a bulk reassignment action to the manager of the previous owner based on Microsoft Entra ID hierarchy
+
+## Allowed agent types
 
 **Allowed agent types** allows control of which types of agents users can view and install from the agent catalog. You can select from the following options:
 
@@ -71,7 +110,14 @@ These settings allow you to customize agent behavior, control access, and mainta
 > - If you disable an option, agents of that type don't appear for users in the Agent store.
 > - Agents built by Microsoft are visible to users even if the setting is disabled. Users aren't able to install those agents.
 
-### Sharing
+## Agent templates
+
+To enhance governance and security for agents, you can apply a template that includes predefined security policies.
+
+For more information about templates, see [Agent templates](/microsoft-agent-365/overview).
+<!-- For more information about templates, see [Agent templates](/microsoft-agent-365/admin/agent-template). -->
+
+## Sharing
 
 **Sharing** allows defining who can share agents within your organization and how sharing works.
 
@@ -87,47 +133,7 @@ Only agents built with **Agent Builder** are governed by sharing control.
 
 :::image type="content" source="../../media/agents/sharing.png" alt-text="Screenshot of Shared settings." lightbox="../../media/knowledge-agent-idea.png":::
 
-### Templates
-
-To enhance governance and security for agents, you can apply a template that includes predefined policies:
-
-- **Default Template**: Microsoft offers out-of-the-box default templates that include essential security and compliance controls from Microsoft Entra, Purview, and SharePoint. For customers enrolled in the Frontier program with an active Agent 365 license, these default templates automatically assign the Agent 365 license, helping reduce manual license management.
-
-- **Custom Template**: If you need additional governance beyond the default, create a custom template and apply extra policies such as Restrict External Content sharing to meet your organization's requirements.
-
-> [!NOTE]
->
-> As an administrator, you can choose which default template to apply based on the agent type. There are two default templates:
->
-> - One for agents that allow instance creation.
-> - One for agents that don't allow instance creation.
->
-> When an agent is activated or published, a dropdown menu displays both Microsoft default templates. Select the desired template to apply its policies to the agent.
-
-#### Custom templates
-
-To create custom template, follow these steps:
-
-1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-
-1. Select **Agents** > **Settings** > **Template** > **Add New Template**.
-
-1. Select the agent that will use the template:
-
-   - Agent that allows instances.
-   - Agent with no instances.
-   - Provide the template name.
-   - Provide description for the template.
-
-    :::image type="content" source="../../media/agents/details-page.png" alt-text="Screenshot of Details page." lightbox="../../media/knowledge-agent-idea.png":::
-
-1. Select the **Next** button and then choose any custom policies you want to add to the template. Microsoft's built-in default policies appears preselected and locked. Since the default policies are locked, they can't be edited. You can add additional policies as needed to meet your organization's requirements.
-
-1. You can review and finish adding the template.
-
-When an agent is being activated or published, a dropdown menu with both your custom templates and Microsoft's default templates is displayed. To apply its policies to the agent, select the desired template from the list.
-
-### User access
+## User access
 
 **User access** allows control of how members of your organization access and install agents.
 
