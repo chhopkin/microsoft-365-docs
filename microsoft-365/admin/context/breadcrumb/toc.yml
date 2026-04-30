@@ -10,7 +10,10 @@ items:
   topicHref: /microsoft-365/index
 - name: Microsoft 365
   tocHref: /microsoft-365-apps/
-  topicHref: /microsoft-365/index   
+  topicHref: /microsoft-365/index 
+- name: Microsoft 365
+  tocHref: /graph/
+  topicHref: /microsoft-365/index       
   items:
   - name: Microsoft 365 admin center
     tocHref: /microsoft-365/admin/
@@ -44,4 +47,7 @@ items:
     topicHref: /microsoft-365/admin/index
   - name: Microsoft 365 admin center
     tocHref: /troubleshoot/
+    topicHref: /microsoft-365/admin/index
+  - name: Microsoft 365 admin center
+    tocHref: /graph/api/
     topicHref: /microsoft-365/admin/index
