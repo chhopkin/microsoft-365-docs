@@ -77,7 +77,7 @@ The data collection process completes in two to 48 hours depending on the size o
 
 To start the template app, you have to have one of the following roles:
 
-- **report reader**.
+- [**Report Reader**](/entra/identity/role-based-access-control/permissions-reference#reports-reader).
 - [**Exchange Administrator**](/entra/identity/role-based-access-control/permissions-reference#exchange-administrator).
 - [**Skype for Business Administrator**](/entra/identity/role-based-access-control/permissions-reference#skype-for-business-administrator).
 - [**SharePoint Administrator**](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator).
