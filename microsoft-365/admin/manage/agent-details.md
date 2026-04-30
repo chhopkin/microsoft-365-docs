@@ -54,7 +54,8 @@ When you select an agent from the **Registry**, the details fly-out pane display
 |---|---|
 | **Install** | Deploys and installs the agent for the selected users at your   organizations. |
 | **Uninstall** | Removes the agent. Members of your organization can't install or use use   the agent. |
-| **Block** | Blocks the agent from members of your organization. They won't be able   to install or use the agent. Additionally, the agent will be removed from any   member of your organization who has already installed it. |
+| **Block** | Blocks the agent from members of your organization. They won't be able to install or use the agent. Additionally, the agent will be removed from any   member of your organization who has already installed it. |
+| **Update in store** | Updates an existing agent in Agent Store based on a provided ZIP packet file.  |
 | **Pin for users** | The agent will be pinned in the UI (based on channel) where the agent was   deployed, so that the agent can be found more easily. Based on the users or   groups where the agent was deployed, you can specify who will have the agent   pinned. |
 
 For more information about agent actions, see [Agent actions available in Microsoft 365 admin center](agent-actions.md).
@@ -62,6 +63,9 @@ For more information about agent actions, see [Agent actions available in Micros
 ### Tabs provided within agent details
 
 The information, actions, and tabs provided in the agent details fly-out pane is based on agent capabilities.
+
+> [!NOTE]
+> The displayed tabs for an agent is based on the agent's capabilities. The tabs listed below won't apply to every agent.
 
 The following table provides agent tabs based on agent capability:
 
@@ -74,7 +78,7 @@ The following table provides agent tabs based on agent capability:
 | **[Permissions](#agent-permissions)** | This tab allows you to review and grant permission to data the agent can access and perform actions on. For more information, see [Agent permissions](#agent-permissions). |
 | **[Certification](#agent-certification)** | This tab gives you a single place to review the trust and attestation signals that are available for the selected agent before you deploy the agent across your organization. For more information, see [Agent certification](#agent-certification). |
 | **[Activity](#agent-activity)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
-| **[Agent instances](#agent-instances)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
+| **[Agent instances](#agent-instances)** | This tab appears when you select an agent that is tagged as an **AI teammate** in the **Agent Registry**. AI teammate agents are agent templates from which your organization can instantiate one or more agent instances.  |
 | **[Connect Agents](#connected-agents)** | This tab allows you to connect the selected agent with other agents. When using the selected agent, users can get additional information and answers from the connected agents. You can connect up to 10 agents to the selected agent, excluding those added by the agent's maker. Depending on how the agent maker connected the agents, you may be able to remove them as well. You must make sure the connected agents are available to everyone who needs access. |
 | **[Computer use](#computer-use)** | This tab is used to allow the selected agent to perform action on behalf of the users and also access work data. Additionally, you can choose which websites are   allowed for **Computer use**. Note that Web search is required for **Computer use**. |
 
@@ -341,7 +345,7 @@ The **Instances** tab appears when you select an agent that is tagged as an **AI
 - 
 Selecting a row opens that instance's details. Based on your assigned role (such as **AI Administrator** or **Global Administrator**), you can manage individual instance settings, review security and compliance status, assign or update Microsoft 365 licenses, and take lifecycle actions such as **Block**, **Unblock**, or **Delete** the instance.
 
-For more information about agent instances, see [Create AI agent instances in Microsoft 365 admin center](create-agent-instances.md) and [Manage agent instances in Microsoft 365 admin center](manage-agent-instances.md).
+For more information about agent instances, see [Manage agent instances in Microsoft 365 admin center](manage-agent-instances.md).
 
 ## Connected agents
 

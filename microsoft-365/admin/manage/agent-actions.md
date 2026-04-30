@@ -50,6 +50,10 @@ The Microsoft 365 admin center provides governance and lifecycle management capa
 
 - **[Assign a new owner](#assign-new-owner-to-an-agent)**: Assign a new owner to agents that are ownerless or active.
 
+- **Publish to store**: Make a requested agent available to members of your organization by publishing the agent to Agent Store. For more information, see [Actions for requested agents](agent-requests.md#actions-for-requested-agents).
+
+- **Reject submission**: Prevent a requested agent from becoming available to members of your organization. For more information, see [Actions for requested agents](agent-requests.md#actions-for-requested-agents).
+
 > [!NOTE]
 >
 > For information about actions related to the agent registry list, such as **Export to Excel**, **Upload custom agent**, and **Manage pinned agents**, see [Agent registry in the Microsoft 365 admin center](agent-registry.md).
