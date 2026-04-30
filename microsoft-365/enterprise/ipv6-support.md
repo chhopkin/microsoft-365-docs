@@ -1,4 +1,4 @@
----
+﻿---
 title: "IPv6 support in Microsoft 365 services"
 ms.author: scotv
 author: kelleyvice-msft
@@ -15,7 +15,9 @@ ms.collection:
 - must-keep
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom:
+- Adm_O365
+- network
 search.appverid:
 - MET150
 - MOE150

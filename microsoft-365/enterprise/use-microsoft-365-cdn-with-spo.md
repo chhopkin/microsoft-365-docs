@@ -1,4 +1,4 @@
----
+﻿---
 title: Use Office 365 Content Delivery Network (CDN) with SharePoint Online
 ms.author: scotv
 author: kelleyvice-msft
@@ -17,8 +17,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom:
- - Adm_O365
- - seo-marvel-apr2020
+- Adm_O365
+- seo-marvel-apr2020
+- network
 search.appverid:
 - MET150
 - SPO160

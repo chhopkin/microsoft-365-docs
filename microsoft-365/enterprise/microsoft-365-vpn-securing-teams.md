@@ -1,4 +1,4 @@
----
+﻿---
 title: "Securing Teams media traffic for VPN split tunneling"
 ms.author: scotv
 author: kelleyvice-msft
@@ -20,6 +20,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: "Securing Teams media traffic for VPN split tunneling"
+ms.custom: network
 ---
 
 # Securing Teams media traffic for VPN split tunneling

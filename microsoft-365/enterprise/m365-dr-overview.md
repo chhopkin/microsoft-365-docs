@@ -13,6 +13,7 @@ ms.date: 4/01/2026
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
+- data-residency
 ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
@@ -302,3 +303,4 @@ Review the [Product availability by region](https://azure.microsoft.com/explore/
 On occasion, a customer request may be handled by servers in a different region than the location where a _Tenant's_ customer data is stored at rest. This may happen where network routing decisions choose a different server for the request processing, but in these cases such _Tenant's_ customer data is not moved to a new at rest location.
 
 </details>
+
