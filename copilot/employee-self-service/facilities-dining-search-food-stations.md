@@ -101,7 +101,7 @@ Steps:
 
 - Create a new Topic named **“Dining Search Stations”**.
   - In Copilot Studio, select **\*Add a topic > From blank**.
-  - Once inside the topic, select Open code editor.
+  - Once inside the topic, select **Open code editor**.
   - Copy the topic YAML from the sample repository and paste it into the code editor: [topic.yaml](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Facilities/EmployeeSearchDiningStations/topic.yaml), and close the editor.
   - Update the HTTP API URL in the code sample. Search for kind: HttpRequestAction. You see a code that sets a value to a variable named SearchStationsApiUrl, as in the screenshot. Update the variable value as per your backend system.
 
@@ -115,7 +115,7 @@ Steps:
   - Optionally, follow the next section (Review the topic workflow) for a guided walkthrough of what to verify.
 
 - Test
-  - In Copilot Studio, select Test to open the test chat.
+  - In Copilot Studio, select **Test** to open the test chat.
   - Ask a question such as Where can I find Chinese food?
   - After submission, the Employee Self-Service Copilot agent displays Chinese food options.
 
@@ -125,11 +125,11 @@ Steps:
 
   :::image type="content" source="media/facilities-dining-validate-topic-file-start.png" alt-text="Screenshot showing the model description in the file.":::
 
-- Confirm that the input variable named `StationCategory` is created. Select the Details -> Input to check that your topic has input variable named StationCategory as per the screenshot.
+- Confirm that the input variable named `StationCategory` is created. Select **Details** > **Input** to check that your topic has an input variable named StationCategory.
 
   :::image type="content" source="media/facilities-dining-validate-topic-details-input.png" alt-text="Screenshot showing the input section of the details.":::
 
-- Validate that the output variable named SearchStationsApiResponse is created. Select the Details -> Output to check that your topic has input variable named SearchStationResponse as per the screenshot.
+- Validate that the output variable named SearchStationsApiResponse is created. Select **Details** > **Output** to check that your topic has an input variable named SearchStationResponse.
 
   :::image type="content" source="media/facilities-dining-validate-topic-details-output.png" alt-text="Screenshot showing the output section of the details.":::
 
@@ -137,15 +137,15 @@ Steps:
 
   :::image type="content" source="media/facilities-dining-validate-condition-block-category.png" alt-text="Screenshot showing the conditional block section of the topic details.":::
 
-- Next node assigns the station category value, cuisine in our case, if the user enters value in your input variable. For example, if the user mentions "Where can I find Italian food?". The value Italian gets assigned to the input variable.
+- The next node assigns the station category value, cuisine in our case, if the user enters a value in your input variable. For example, if the user mentions "Where can I find Italian food?", the value Italian gets assigned to the input variable.
 
-- Validate that the HttpConnector is calling appropriate API that belongs to your platform. Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We're collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline, etc. You should create a schema per your API response for this topic variable. Your API response can have a different structure, and you should make sure that structure is taken into consideration.
+- Validate that the HttpConnector is calling an appropriate API that belongs to your platform. Also check that the results from the API are captured in the output variable named SearchStationsApiResponse. We're collecting the response in a variable called SearchStationsApiResponse. This response has properties CafeId, CafeName, StationName, CanPurchaseonline, and so on. You should create a schema per your API response for this topic variable. Your API response can have a different structure, and you should make sure that structure is taken into consideration.
 
   :::image type="content" source="media/facilities-dining-validate-http-request.png" alt-text="Screenshot showing http request block.":::
 
 - Validate that the conditional block checks if the response is nonempty before the topic ends.
 
-- Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we mention extracting information from SearchStationApiResponse output variable. Large Language Model (LLM) follows those instructions and displays well formatted output.
+- Final step is to display the result. You don't need to add any adaptive card here. In the topic description, we mention extracting information from SearchStationApiResponse output variable. The Large Language Model (LLM) follows those instructions and displays a well-formatted output.
 
 ## FAQs
 
