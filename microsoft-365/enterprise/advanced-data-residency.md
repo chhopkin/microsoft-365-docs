@@ -17,7 +17,9 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: Learn about advanced data residency options in Microsoft 365.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- data-residency
 ---
 
 # Advanced Data Residency in Microsoft 365
@@ -211,3 +213,4 @@ The new _Data Location Card_ is designed to help Tenant Global Admins track when
 It's important to note that while a _Tenant’s ADR_ licenses have expired, Microsoft will provide a grace period to allow the customer to renew their licenses. During this grace period, the _Tenant’s Data Location Card_ won't display any changes to the _Tenant’s Committed Geography_ and the _Tenant’s_ data won't be relocated.
 
 **After Grace Period**: After the grace period provided, Microsoft will remove the _Durable Commitment on Data Location_ provided by _ADR_, and the _Committed Geography_ location in the _DLC_ will update to display the most current and accurate commitments in place (if any) after _ADR_ has been removed. At this point, data may be relocated, without notification or warning, subject to the constraints displayed in the updated _Committed Geography_.
+

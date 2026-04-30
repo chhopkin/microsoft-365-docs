@@ -9,7 +9,9 @@ audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
 ms.subservice: multi-geo-capabilities
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- data-residency
 ms.collection: 
 - Strat_SP_gtc
 - must-keep
@@ -48,3 +50,4 @@ The following customer data is stored in the applicable _Geography_:
 The following customer data is stored in the applicable _Geography_:
 
 - "Content of Interactions" such as the user's prompt and the response from Microsoft 365 Copilot or Microsoft 365 Copilot Chat, including citations to any information used to ground Microsoft 365 Copilot's response.
+

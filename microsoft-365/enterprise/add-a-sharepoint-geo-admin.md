@@ -17,8 +17,9 @@ f1.keywords:
 - NOCSH
 description: Need to configure separate administrators for each geo location? Learn how to add or remove a geo administrator in Microsoft 365 Multi-Geo.
 ms.custom:
-  - seo-marvel-apr2020
-  - has-azure-ad-ps-ref, azure-ad-ref-level-one-done 
+- seo-marvel-apr2020
+- has-azure-ad-ps-ref, azure-ad-ref-level-one-done 
+- data-residency
 ---
 
 # Add or remove a _Geography_ administrator in Microsoft 365 Multi-Geo
@@ -69,3 +70,4 @@ To remove a group by using the ObjectID, run `Remove-SPOGeoAdministrator -Object
 [Remove-SPOGeoAdministrator](/powershell/module/microsoft.online.sharepoint.powershell/remove-spogeoadministrator)
 
 [Set an alias (MailNickName) for a security group](/powershell/module/microsoft.graph.groups/update-mggroup)
+

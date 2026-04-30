@@ -1,4 +1,4 @@
----
+﻿---
 title: "Assessing Microsoft 365 network connectivity"
 ms.author: scotv
 author: kelleyvice-msft
@@ -16,6 +16,7 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom:
+- network
 - Adm_O365
 - seo-marvel-apr2020
 search.appverid:

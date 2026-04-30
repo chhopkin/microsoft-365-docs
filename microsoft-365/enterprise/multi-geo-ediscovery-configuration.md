@@ -11,7 +11,9 @@ ms.service: microsoft-365-enterprise
 ms.subservice: multi-geo-capabilities
 f1.keywords:
 - NOCSH
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- data-residency
 ms.localizationpriority: medium
 ms.collection: 
 - Strat_SP_gtc
@@ -51,3 +53,4 @@ To set the Compliance Security Filter for a Region:
    ```
 
 See the [New-ComplianceSecurityFilter](/powershell/module/exchangepowershell/new-compliancesecurityfilter) article for more parameters and syntax.
+

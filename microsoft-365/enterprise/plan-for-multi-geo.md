@@ -12,9 +12,10 @@ ms.subservice: multi-geo-capabilities
 f1.keywords:
 - NOCSH
 ms.custom:
-  - seo-marvel-apr2020
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
+- seo-marvel-apr2020
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
+- data-residency
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
@@ -67,3 +68,4 @@ Once you've completed the configuration, remember to [migrate your users' OneDri
 ## Related topics
 
 [Microsoft 365 Multi-Geo eDiscovery configuration](./multi-geo-ediscovery-configuration.md)
+

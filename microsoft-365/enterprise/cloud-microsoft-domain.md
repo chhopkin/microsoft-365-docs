@@ -1,4 +1,4 @@
----
+﻿---
 title: "Unified cloud.microsoft domain for Microsoft 365 apps"
 description: Describes the new cloud.microsoft domain for Microsoft 365 apps
 ms.author: scotv
@@ -10,7 +10,9 @@ ms.service: microsoft-365-enterprise
 ms.subservice: network
 ms.localizationpriority: medium
 ms.collection: must-keep
-ms.custom: QuickDraft
+ms.custom:
+- QuickDraft
+- network
 ms.reviewer: dansimp
 search.appverid: MET150
 f1.keywords:

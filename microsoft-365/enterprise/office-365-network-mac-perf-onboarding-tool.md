@@ -1,4 +1,4 @@
----
+﻿---
 title: "Microsoft 365 network connectivity test tool"
 ms.author: scotv
 author: kelleyvice-msft
@@ -18,6 +18,7 @@ ms.collection:
 - Strat_O365_Enterprise
 - must-keep
 description: "Microsoft 365 network connectivity test tool"
+ms.custom: network
 ---
 
 # Microsoft 365 network connectivity test tool
