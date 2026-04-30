@@ -68,12 +68,15 @@ Each tool listed here represents a service that supports Copilot experiences acr
 
 The following are examples of MCP servers:
 
-- [**Work IQ Calendar MCP Server**](/microsoft-agent-365/mcp-server-reference/calendar) - Provides scheduling and calendar integration.
-- [**Work IQ Outlook Mail MCP Server**](/microsoft-agent-365/mcp-server-reference/mail) - Powers Copilot for email workflows.
-- [**Work IQ SharePoint MCP Server**](/microsoft-agent-365/mcp-server-reference/sharepoint) - Enables Copilot to interact with SharePoint content.
-- [**Work IQ OneDrive MCP Server**](/microsoft-agent-365/mcp-server-reference/onedrive) - Supports file-based Copilot actions in OneDrive.
-- [**Work IQ Teams MCP Server**](/microsoft-agent-365/mcp-server-reference/teams) - Enables Copilot to manage chats, channels, and user interactions in Teams.
-- [**Work IQ Word MCP Server**](/microsoft-agent-365/mcp-server-reference/word) - Supports Copilot features in Word documents.
+- [**Work IQ Copilot**](/microsoft-agent-365/mcp-server-reference/searchtools): Chat with Microsoft 365 Copilot, start a conversation, continue multi‑turn threads, and ground responses with files.
+- [**Work IQ Calendar**](/microsoft-agent-365/mcp-server-reference/calendar): Provides scheduling and calendar integration. Create, list, update, and delete events; accept and decline; resolve conflicts.
+- [**Work IQ Mail**](/microsoft-agent-365/mcp-server-reference/mail): Powers Copilot for email workflows. Create, update, and delete messages; reply and reply all; semantic search.
+- [**Work IQ SharePoint**](/microsoft-agent-365/mcp-server-reference/sharepoint): Enables Copilot to interact with SharePoint content. Upload files; get metadata; search; manage lists.
+- [**Work IQ OneDrive**](/microsoft-agent-365/mcp-server-reference/onedrive): Supports file-based Copilot actions in OneDrive. Manage files and folders in user's personal OneDrive.
+- [**Work IQ Teams**](/microsoft-agent-365/mcp-server-reference/teams): Enables Copilot to manage chats, channels, and user interactions in Teams. Create, update, and delete chat; add members; post messages; channel operations.
+- [**Work IQ User**](/microsoft-agent-365/mcp-server-reference/me): Create and read documents; add comments; reply to comments.
+- [**Work IQ Word**](/microsoft-agent-365/mcp-server-reference/word): Supports Copilot features in Word documents.
+- [**Dataverse and Dynamics 365**](/microsoft-agent-365/mcp-server-reference/dataverse): CRUD operations and domain-specific actions.
 
 :::image type="content" source="../../media/agents/mcp-servers.png" alt-text="Screenshot showing a list of MCP servers in the Tools page of the Microsoft 365 admin center." lightbox="../../media/agents/mcp-servers.png":::
 
