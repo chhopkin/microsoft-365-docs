@@ -844,8 +844,8 @@ items:
                 href: misc/user-consent.md
               - name: Turn on Idle session timeout
                 href: manage/idle-session-timeout-web-apps.md
-      - name: Switch from Google Workspace to Microsoft 365
-        items:
+    - name: Switch from Google Workspace to Microsoft 365
+      items:
           - name: Overview
             href: moveto-microsoft-365/move-from-google-workspace-overview.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Sign up for Microsoft 365
@@ -866,8 +866,8 @@ items:
             href: moveto-microsoft-365/migrate-files-migration-manager.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
           - name: Cancel Google Workspace
             href: moveto-microsoft-365/cancel-google.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
-      - name: Work with customers
-        items:
+    - name: Work with customers
+      items:
           - name: Share sites and files with guest users
             href: manage/share-sites-with-external-users.md
           - name: Share calendars with guest users
@@ -878,8 +878,8 @@ items:
             href: https://support.microsoft.com/office/943507a9-8583-4c58-b5d2-8ec8265e04e5
           - name: Join a Teams meeting with guest users
             href: https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508
-      - name: Enhanced Engagements
-        items:
+    - name: Enhanced Engagements
+      items:
           - name: Office Engineering Direct (OED)
             items:
               - name: What is Engineering Direct?
@@ -904,15 +904,15 @@ items:
                 href: ../enterprise/microsoft-365-admin-diagnostics.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
               - name: Design Change Requests (DCR)
                 href: ../enterprise/microsoft-365-admin-design-change-requests.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
-      - name: Troubleshoot
-        href: /troubleshoot/microsoft-365-apps/
-      - name: Contact support
-        items:
-          - name: Get support for Microsoft 365 for business
-            href: get-help-support.md
-          - name: Case creation and data access
-            href: support-diagnostic-information-collection.md
-      - name: Find support phone numbers
-        href: https://support.microsoft.com/topic/customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2#ID0EBBD=signinorgid
-      - name: Navigation guide
-        href: ../microsoft-365-docs-navigation-guide.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
+    - name: Troubleshoot
+      href: /troubleshoot/microsoft-365-apps/
+        - name: Contact support
+          items:
+            - name: Get support for Microsoft 365 for business
+              href: get-help-support.md
+            - name: Case creation and data access
+              href: support-diagnostic-information-collection.md
+        - name: Find support phone numbers
+          href: https://support.microsoft.com/topic/customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2#ID0EBBD=signinorgid
+        - name: Navigation guide
+          href: ../microsoft-365-docs-navigation-guide.md?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json
