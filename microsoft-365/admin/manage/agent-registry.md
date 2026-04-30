@@ -156,6 +156,9 @@ With this information, you can efficiently manage and review the shared agents w
 
 The agent **Registry** within Microsoft 365 admin center provides a method to upload a custom agent, so that you can manage those agents for your organization.
 
+> [!NOTE]
+> You can also update an existing agent in Agent Store. For more information, see [View agent details](agent-details.md#view-agent-details).
+
 To upload an agent, the agent must be contained in a ZIP packet file. The ZIP file contains resources, such as manifest files, configuration files, icons, branding, and embedded knowledge files.
 
 > [!NOTE]
@@ -167,7 +170,7 @@ To upload an agent, the agent must be contained in a ZIP packet file. The ZIP fi
 
 To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
-1. In [Microsoft 365 admin center](https://admin.microsoft.com/), select **Agents** > **All agents** > **Upload custom agent**.
+1. In [Microsoft 365 admin center](https://admin.microsoft.com/), select **Agents** > **All agents** > **Add agent**.
 1. Select **Choose file** to find and select the agent ZIP file.
   The ZIP file is validated.
   Then, select **Next**.

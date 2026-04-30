@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 04/23/2026
+ms.date: 05/01/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -34,6 +34,8 @@ search.appverid:
 
 # Shadow AI in Microsoft 365 admin center (Preview)
 
+[!INCLUDE [Frontier preview program](../includes/frontier.md)]
+
 The Shadow AI page in the Microsoft 365 admin center helps IT administrators discover, monitor, and govern unmanaged AI agents used within their organization.
 
 This preview capability provides a dedicated view for detecting and governing unapproved local AI agents such as OpenClaw, and enables administrators to take governance actions to maintain security and compliance.
@@ -46,18 +48,18 @@ This preview capability provides a dedicated view for detecting and governing un
 
 To use Shadow AI detection and governance, you need:
 
-- Microsoft 365 E7 or equivalent license.
+- Microsoft 365 E3 license to view Shadow AI Agents.
 
-- One of the following admin roles:
+- At least one of the following roles:
 
-  - Security Administrator.
-  - AI Administrator.
-  - Global Reader.
-  - Security Reader.
-  - Security Operator.
-  - Reports Reader.
-  - User Experience Success Manager.
-  - User Account Admin.
+  - [Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator).
+  - [AI Administrator](/entra/identity/role-based-access-control/permissions-reference#ai-administrator).
+  - [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader).
+  - [Security Reader](/entra/identity/role-based-access-control/permissions-reference#security-reader).
+  - [Security Operator](/entra/identity/role-based-access-control/permissions-reference#security-operator).
+  - [Reports Reader](/entra/identity/role-based-access-control/permissions-reference#reports-reader).
+  - [User Experience Success Manager](/entra/identity/role-based-access-control/permissions-reference#user-experience-success-manager).
+  - [Intune Administrator](/entra/identity/role-based-access-control/permissions-reference#intune-administrator).
 
 - [Microsoft Intune](/intune/fundamentals/what-is-intune) enrollment for managed Windows devices.
 - Opt in to the [Frontier preview experience](https://www.microsoft.com/microsoft-365-copilot/frontier-program) in the Microsoft 365 admin center.
@@ -79,7 +81,7 @@ Common examples of Shadow AI tools include:
 
 The Shadow AI experience helps administrators identify and manage these risks without disrupting legitimate business workflows.
 
-## Features available in public preview
+## Available features
 
 During public preview, the Shadow AI experience allows admins to detect and block the following Shadow AI agent:
 
@@ -103,7 +105,7 @@ To access the **Shadow AI (Frontier)** page in the Microsoft 365 admin center, f
 
 1. Under **Agents**, select **Shadow AI (Frontier)**
 
-1. The **Shadow AI (Frontier)** page displays a list of known Shadow AI agents and developer tools that can be detected in your environment.
+1. The **Shadow AI (Frontier)** page displays a list of known Shadow AI agents that can be detected in your environment.
 
 ### View Shadow AI agent details
 
@@ -145,29 +147,11 @@ Once detection is enabled for a Shadow AI agent, you can view detected devices i
 
 ### Blocking a Shadow AI agent
 
-After detection is enabled and the Shadow AI agent is identified in your environment, you can block it to prevent execution on managed devices.
+After detection is enabled and the Shadow AI agent is identified in your environment, you can block it to prevent execution on managed devices. When a Shadow AI agent is blocked, such as OpenClaw, it blocks common ways of running it by creating a new Microsoft Intune policy that automatically propagates to all managed Windows devices enrolled in Intune.
 
-When a Shadow AI agent is blocked, the following occurs:
+To view the policy details, search for the policy name **A365 - Block OpenClaw** in the article [Assign policies in Microsoft Intune](/intune/device-configuration/assign-device-profile). Depending on how Intune is configured in your organization, this Intune policy update could take anywhere from 15 minutes up to 8 hours to apply. Full policy details, including when Intune policy applies, can be found in Intune. Lastly, policies can also be edited in Intune to add additional controls.
 
-- The Shadow AI agent can no longer run on managed devices.
-- Devices receive compliance indicators.
-- Users are notified that the Shadow AI agent is blocked.
-- Detection is continuous so attempted usage remains visible.
-- Future downloads of the blocked Shadow AI agent are also prevented.
-
-Blocking a Shadow AI agent creates a new Microsoft Intune policy that automatically propagates to all managed Windows devices enrolled in Intune. Depending on how Intune is configured in your organization, this Intune policy update could take anywhere from 15 minutes up to 8 hours to apply. Full policy details, including when Intune policy applies, can be found in Intune. For more information, see [Assign policies in Microsoft Intune](/intune/device-configuration/assign-device-profile).
-
-> [!IMPORTANT]
-> The Microsoft Intune policy created when blocking a Shadow AI agent enforces a strict execution block on detected devices. When enabled, it prevents the following from running:
->
-> - Docker CLI.
-> - Node.js.
-> - Windows Subsystem for Linux (WSL).
-> - The default network ports used by the Shadow AI agent such as OpenClaw.
->
-> This action is highly impactful. While it's effective at disrupting the most common methods used to run OpenClaw on managed devices, it also blocks widely used developer tooling and workflows.
-
-To block a Shadow AI agent:
+To block a Shadow AI agent, follow these steps:
 
 1. In the Shadow AI agent details pane, select **Security policies**.
 
