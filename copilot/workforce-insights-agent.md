@@ -1,7 +1,7 @@
 ---
 title: Workforce Insights agent
 description: This article details how to use the Workforce Insights agent
-ms.date: 03/31/2026
+ms.date: 04/30/2026
 ms.service: microsoft-365-copilot
 ms.subservice: admin
 ms.topic: how-to
@@ -343,7 +343,7 @@ In the Workforce Insights agent, the following experiences can appear:
 
 ### What languages does the Workforce Insights agent support?
 
-Being in the Frontier program, the Workforce Insights agent is optimized for English. Features like the landing page and chat work in all Microsoft 365 Copilot languages but experiences like delegation, reports, and admin experiences are limited to English until Early 2026.
+Being in the Frontier program, the Workforce Insights agent is optimized for English. Features like the landing page and chat work in all Microsoft 365 Copilot languages but experiences like delegation, reports, and admin experiences are limited to English.
 
 ### How can I provide feedback on the Workforce Insights agent?
 
