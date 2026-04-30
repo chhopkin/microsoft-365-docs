@@ -40,7 +40,7 @@ search.appverid:
 
 ## Overview
 
-The **Tools** page in the [Microsoft 365 admin center](https://admin.microsoft.com/) provides a centralized view of all AI-powered tools and Microsoft Copilot Protocol (MCP) servers available in your organization. These tools enable administrators to manage interactions with user data, workflows, and requests in a secure and consistent manner.
+The **Tools** page in the [Microsoft 365 admin center](https://admin.microsoft.com/) provides a centralized view of all AI-powered tools and Model Context Protocol (MCP) servers available in your organization. These tools enable administrators to manage interactions with user data, workflows, and requests in a secure and consistent manner.
 
 Each tool listed here represents a service that supports Copilot experiences across Microsoft 365 apps. Administrators can monitor availability, manage access, and ensure compliance with organizational policies.
 
