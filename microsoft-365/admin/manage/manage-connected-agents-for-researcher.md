@@ -1,6 +1,6 @@
 ---
-title: Manage Connected Agents for Researcher in the Microsoft 365 admin center
-description: Manage Connected Agents for Researcher in the Microsoft 365 admin center.
+title: Manage connected agents for Researcher in Microsoft 365 admin center
+description: Manage connected agents for Researcher in Microsoft 365 admin center.
 #customer intent:
 f1.keywords:
 - NOCSH
@@ -32,7 +32,7 @@ search.appverid:
 - MOE150
 ---
 
-# Manage Connected Agents for Researcher in the Microsoft 365 admin center
+# Manage connected agents for Researcher in Microsoft 365 admin center
 
 > [!IMPORTANT]
 >
@@ -70,5 +70,5 @@ Connected agents are other Copilot-enabled agents that can share data or insight
 
 ## Managing Connected Agents
 
-- **Remove an Agent** - From the Connected Agents list, select the agent and click Remove.
+- **Remove an Agent** - From the Connected Agents list, select the agent and select **Remove**.
 - **Reset to Default** - Use this option to clear all custom connections and revert to the default state.

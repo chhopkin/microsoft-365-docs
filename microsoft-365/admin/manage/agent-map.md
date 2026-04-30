@@ -1,95 +1,134 @@
 ---
 title: Use Agent Map in the Microsoft 365 admin center
-ms.date: 12/12/2025
-description: The Agent Map is a feature within the Microsoft 365 admin center designed to provide IT administrators with an intuitive visualization of agents in their Microsoft account.
-author: sericks007
+description: Learn how to use Agent Map to visualize, manage, and take action on agents in your Microsoft 365 tenant.
+ms.date: 04/07/2026
+author: erikre
 ms.topic: concept-article
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
-ms.reviewer: sericks
-ms.author: jenniferge
-manager: tapanm
+ms.reviewer: jenniferge
+ms.author: erikre
+manager: scotv
 ms.service: microsoft-365-copilot
 ---
+ 
+# Use Agent Map in the Microsoft 365 admin center 
 
-# Use Agent Map in the Microsoft 365 admin center
+Agent Map in the Microsoft 365 admin center gives IT and AI admins a visual way to understand and manage the agents running in their tenant. Instead of relying only on list-based views, Agent Map groups agents by the platform they were created on, making it easier to interpret large agent estates and spot adoption patterns at a glance.
 
-> [!IMPORTANT]
->
-> You need to be part of the [Frontier preview program](https://adoption.microsoft.com/copilot/frontier-program/) to get **early access** to Microsoft Agent 365. Frontier connects you directly with Microsoft's latest AI innovations. Frontier previews are subject to the existing preview terms of your customer agreements. As these features are still in development, their availability and capabilities might change over time.
+Use Agent Map to explore your organization’s agent landscape, filter to specific subsets (such as ownerless agents), and drill into individual agents to review key details like ownership, configuration, and activity. You can also view how agents relate to each other, helping you understand dependencies and interactions as your agent footprint grows.
 
-The Agent Map is a feature within the Microsoft 365 admin center that provides IT administrators with an intuitive visualization of agents in their Microsoft account.
+:::image type="content" source="../../media/agents/agent-map.png" alt-text="Screenshot showing the Agent Map, which provides an inventory of agents in the Microsoft 365 admin center." lightbox="../../media/agents/agent-map.png":::
 
-The Agent Map serves as an interactive interface for viewing, organizing, and managing agents registered within your tenant. It presents agents spatially on a map. With the map you can:
+You can use the Agent Map to address what need your attention, rather than agent inventory details. Use the Agent Map accomplish the following actions:
 
-- Identify clusters.
-- Review agent metrics.
-- Access detailed information for each agent. Detailed information that can be accessed for each agent include:
-  - Publisher.
-  - Type.
-  - Platform.
-  - Version.
-  - Connectivity.
+- Spot patterns fast by identifying clusters of agents across your tenant.
+- Slice the map with built-in filters to focus on the agents that matter right now. Filter by Status, Publisher type, Platform, Channel, Data source, or Usage.
 
-This feature complements the **Registry** tab by offering a more visual and scalable solution for environments with large numbers of agents. The data reflected in Agent Map is the same data available in the **Registry** tab.
+  > [!NOTE]
+  > Usage is supported via Agent365 observability data for tenants with below 4,000 agents.
 
-## Who can access Agent Map?
+- Track key signals at a glance with high-level metrics and agent-level indicators.
+- Drill into any agent to review important details such as publisher, type, platform, version, and connectivity.
 
-The Agent Map is currently available exclusively to Frontier customers. You don't need a special license beyond membership in the Frontier group. Administrators must add users to the Frontier group to see the **Agent Map** tab within the Microsoft 365 admin center. If the tab doesn't appear, confirm Frontier group membership or escalate through your Microsoft contact.
+The Map complements the Registry by offering a more visual and scalable solution for environments with large numbers of agents. 
+ 
+## View Agent Map
 
-## Navigating the Agent Map
+Use the following steps to view the Agent Map:
 
-### Locating the Agent Map
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+1. In the left navigation pane, select **Agents** > **All Agents** > **Map**.
 
-To access the Agent Map, sign in to the Microsoft 365 admin center and go to **Agents** > **All Agents**. Eligible users see the **Agent Map** tab before the **Registry** tab. When you select the tab, the map loads agents from your tenant and displays them as icons grouped by platform and other metrics. The Agent Map currently supports a maximum of 800 agents.
+When you select the **Map** tab, the map loads agents from your tenant and displays them as icons grouped by platform and other metrics.
+
+Agent Map is available to all Microsoft 365 Copilot administrators with an E7 (Agent 365) license. To access the Agent Map, your role must be either a **Global Administrator** or an **AI Administrator**. For more information about agent management roles, see [Agent management roles and permissions](agent-roles-perms.md).
 
 ### Clustering
+ 
+By default, Agent Map clusters agents by the platform or by the builder the group of agents were created by. Each cluster appears as its own group on the map, so you can quickly view how agents are distributed across your environment.
+ 
+| Cluster | What agents appear here |
+|---|---|
+| **Microsoft 365 Copilot Agent Builder** | Agents built using the Microsoft 365 Copilot Agent Builder tool |
+| **Copilot Studio** | Agents built using Microsoft Copilot Studio |
+| **Copilot Studio Legacy** | Agents built using an earlier version of Copilot Studio |
+| **Microsoft 365 Agents Toolkit** | Agents built using the Microsoft 365 Agents Toolkit (formerly Teams Toolkit) |
+| **SharePoint** | Agents built using SharePoint |
+| **Azure AI Foundry** | Agents built using Azure AI Foundry |
+| **Amazon Bedrock** | Agents built using Amazon Bedrock |
+| **Google Vertex AI** | Agents built using Google Vertex AI |
+| **Microsoft** | First-party agents built and maintained by Microsoft |
+| **External Partners** | Third-party agents from external publishers not associated with a known builder |
+| **Others** | Any agents that don't match a known platform or publisher |
+ 
+### Searching and filtering agents
+ 
+You can find specific agents quickly by name, using the **search bar** at the top of Agent Map. You can also refine what you’re looking at with **filters** that reshape the map around what matters.
 
-By default, the Agent Map clusters agents by platform, such as Copilot Studio (lite), Microsoft Corporation, and others. This clustering helps you quickly see how agents are distributed across platforms.
+The agent summary details, which are provided as cards at the top of the pane, can be selected to provide a mutual exclusive summary. However, the dropdown filter selections, below the cards, can be combined independently.  
 
-The following clusters appear on the Agent Map:
+Available filters include the following:
 
-- Copilot Studio (lite).
-- Copilot Studio (full).
-- Microsoft 365 Agents Toolkit.
-- Microsoft Corporation.
-- Others.
+- **Agents at risk** – Focus on agents with one or more active security risks. The count reflects high-severity alerts from security platforms.
+- **Agents without owners** – Identify shared agents that no longer have an active owner (for example, when the creator has left the organization).
+- **Unmanaged agents** – Agents created or managed outside of Agent 365 without its risk protection and observability. 
 
-### Filtering agents
+The following table provides filter details:
 
-You can filter the Agent Map by platform, publisher, and metrics such as blocked agents. Apply or remove filters to refine the visualization. For example, selecting **Copilot Studio (lite)** displays only those agents, while blocked agent filters show all agents with restricted status.
+| Filter group | Filters | Description |
+|---|---|---|
+| Status | <ul><li>Available</li><li>Blocked</li></ul> | Narrows the view by how widely an agent is currently available in your tenant. This view can show a limited rollout to a fully blocked or unavailable view. |
+| Publisher type | <ul><li>Microsoft</li><li>External partners</li><li>Published by your org</li><li>Shared by creator</li></ul> | Lets you slice the map by who published or distributed the agent, allowing you to separate first-party, third-party, and internally produced agents (including creator-shared agents). |
+| Platform | <ul><li>Copilot Studio</li><li>Microsoft 365 Copilot Agent Builder</li><li>SharePoint</li><li>Foundry</li><li>Azure AI Foundry</li><li>Amazon Bedrock</li><li>Google Vertex AI</li><li>Other</li></ul> | Groups agents by the platform they were built on to help you understand build provenance, tooling trends, and governance coverage across your estate. |
+| Channel | <ul><li>Copilot</li><li>Outlook</li><li>Teams</li><li>Office</li><li>SharePoint</li></ul> | Filters agents by where users encounter them, so you can investigate exposure and adoption   by host product. |
+| Data source | <ul><li>Embedded knowledge</li><li>Fine-tuned models</li></ul> | Distinguishes whether an agent relies on embedded content for grounding responses or on a fine‑tuned model that has been trained on organizational data. |
+| Usage | **Active users**: Top 100 by users, Inactive<br><br>**Total sessions**: Top 100 by sessions, No sessions<br><br>**Exception rate**: Has exceptions (>0%), No exceptions<br></br>**Assisted hours**: Has assisted hours, No assisted hours | Highlights agents by recent usage and reliability signals so you can prioritize high-impact agents, find unused ones, and spot agents that may need attention. |
 
+> [!NOTE]
+> For performance reasons, the Usage/Observability filters are currently available only for tenants with fewer than 4,000 users. Usage is based on agents reporting activity via Agent 365.
+
+### Exporting agents
+ 
+You can export the full list of agents displayed in the Agent Map to an Excel file. Select **Export** to download agent details for reporting, auditing, or compliance purposes.
+ 
 ## Interface features
 
-- **Zoom in/out**: Adjust the map view for closer inspection or broader visualization.
+The Agent Map provides controls to help you navigate the map.
 
-- **Fit to view**: Automatically scales the map to display all agents present in your environment.
-
-- **Full screen mode**: Enables a larger display, ideal for IT teams monitoring agents in shared spaces.
-
-The map is designed for ease of use, particularly in large environments where list-based views might be overwhelming.
-
+- **Zoom In/Out**: Adjust the map view for closer inspection or broader visualization.
+- **Keyboard shortcuts**: Provides a key to **Keyboard shortcuts**. You can select this option to see navigation, zoom, selection and general keyboard shortcuts.
+- **Settings**: Provides a slider to control the **Max agents per platform** in the Agent Map. 
+ 
 ## Agent details
-
-When you select an agent icon, you can see more details about the agent, including:
-
+ 
+When you select an icon for a specific agent, you can see more details about the agent, including:
+ 
 - Details:
-  - Description.
-  - Publisher.
-  - Agent type.
-  - Platform.
-  - Last updated.
-  - Version.
-- Users.
-- Data and tools.
-- Security and compliance.
-- Agent activity.
+  - Description
+  - Publisher
+  - Agent type
+  - Platform
+  - Last updated
+  - Version
+- Users
+- Data and tools
+- Security
+- Activity
 
-## Known issues
+For more information about agent details, see [Understand agent details in Microsoft 365 admin center](agent-details.md). 
+ 
+## Taking action on agents
+ 
+From the Agent Map, you can take administrative actions directly on agents without leaving the map view. When you select an agent, the details pane opens and provides available actions based on the agent's current state.
+ 
+Available actions are based on the state of the agent. The action can include the following:
+ 
+- **Assign owner** – Assign an owner to an agent that currently has no active owner. You can only assign ownership to users with a Copilot license.
+- **Block** – Blocks the agent from members of your organization. They won't be able to install or use the agent. Additionally, the agent will be removed from any member of your organization who has already installed it.
+- **Unblock** – Restore access to a previously blocked agent.
+- **Install** - Deploys and installs the agent to the selected users.
+- **Pin for users** - The agent will be pinned in the UI (based on channel) where the agent was deployed, so that the agent can be found more easily. Based on the users or groups where the agent was deployed, you can specify who will have the agent pinned.
 
-- **Filter malfunction**: In some environments, filters you apply in the registry don't synchronize with the map, or you can't remove filters once you set them. This issue might occur if you're running an older version of the Agent Map. A fix is coming soon.
-
-- **Agent count mismatch**: You might see discrepancies between the total agent count displayed in the registry and the map. Both should show the same data. This issue might occur if you're running an older version of the Agent Map. A fix is coming soon.
-
-For direct support, contact your Microsoft account representative. Feedback on the Agent Map is actively encouraged to inform future development.
+These actions are reflected in both the Agent Map and the Registry tab. For a full list of available admin actions, see [Agent Registry in the Microsoft 365 admin center](agent-registry.md).
