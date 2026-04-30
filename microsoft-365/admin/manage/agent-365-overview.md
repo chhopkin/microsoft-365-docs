@@ -63,6 +63,9 @@ The Agent workload will help you accomplish the following tasks:
 - Control availability and access to each agent
 - Apply agent governance and policy decisions consistently across channels
 
+> [!NOTE]
+> The Microsoft Frontier program gives organizations early access to innovative and emerging AI capabilities in Microsoft 365 before those features reach general availability (GA). Frontier previews are subject to the existing preview terms of your customer agreements. For more information, see [Get started with the Microsoft Frontier program](/microsoft-365/admin/manage/get-started-frontier).
+
 ## View the Agent overview
 
 You can access and view the **Agent overview** using the following steps:
