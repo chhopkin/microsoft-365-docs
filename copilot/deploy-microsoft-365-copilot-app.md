@@ -49,7 +49,9 @@ To install, devices must have Microsoft 365 Apps Version 2511. Version 2511 was 
 Devices on the Semi-Annual Enterprise Channel don't automatically install the Microsoft 365 Copilot app.
 
 > [!NOTE]
-> The installation of the Microsoft 365 Copilot app to devices with Microsoft 365 Apps isn't enabled for customers in the European Economic Area (EEA).
+> The installation of the Microsoft 365 Copilot app to devices with Microsoft 365 Apps isn't enabled for the following:
+>   - Customers in the European Economic Area (EEA)
+>   - Government customers (GCC, GCC High and DoD)
 
 ### Prevent automatic installation
 
